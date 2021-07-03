@@ -27,8 +27,10 @@ module.exports = function() {
 };
 
 function cleanUrl (url) {
-  let pageUrl =  url.replace('https://dev-cagov-dcc.pantheonsite.io','').replace('https://staginginye.prod3.sites.ca.gov/','');
-  return pageUrl;
+  if(url.indexOf('.pantheonsite.io/') > -1) {
+    return url.split('.pantheonsite.io/')[1]
+  }
+  return url;
 }
 
 function chooseTemplate(template) {
