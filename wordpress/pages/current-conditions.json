@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "created_date": "2021-07-03T00:30:45",
+    "updated_date": "2021-07-03T00:30:45",
+    "api_version": "v2",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 25,
+    "slug": "current-conditions",
+    "title": "Current Conditions",
+    "author": "Admin",
+    "date": "2021-07-03T00:30:45",
+    "modified": "2021-07-03T00:30:45",
+    "date_gmt": "2021-07-03T00:30:45",
+    "modified_gmt": "2021-07-03T00:30:45",
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/current-conditions/",
+    "excerpt": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt enim orci, a aliquet ex ultrices vitae. Nunc ut dolor quis lectus viverra ornare. In blandit lacus mauris, suscipit finibus neque interdum quis. Curabitur scelerisque lacus urna, ut tempor libero viverra vel. Duis tincidunt elit sed lacus laoreet, lobortis vulputate augue rutrum. Suspendisse at diam &#8230; <a title=\"Current Conditions\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/current-conditions/\" aria-label=\"More on Current Conditions\">Read more</a></p>\n",
+    "parent": 0,
+    "menu_order": 0
+  }
+}
