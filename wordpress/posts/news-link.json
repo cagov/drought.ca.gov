@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "created_date": "2021-07-04T19:42:39",
+    "updated_date": "2021-07-04T19:42:39",
+    "api_version": "v2",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 64,
+    "slug": "news-link",
+    "title": "News link",
+    "author": "Admin",
+    "date": "2021-07-04T12:42:39",
+    "modified": "2021-07-04T12:42:39",
+    "date_gmt": "2021-07-04T19:42:39",
+    "modified_gmt": "2021-07-04T19:42:39",
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/news-link/",
+    "excerpt": "<p>https://example.com</p>\n",
+    "categories": [
+      "News"
+    ],
+    "tags": []
+  }
+}
