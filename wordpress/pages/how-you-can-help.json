@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:50:45",
-    "updated_date": "2021-07-04T19:45:53",
+    "updated_date": "2021-07-04T21:46:11",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,10 +17,9 @@
     "title": "How you can help",
     "author": "Admin",
     "date": "2021-07-04T14:50:45",
-    "modified": "2021-07-04T12:45:53",
+    "modified": "2021-07-04T14:46:11",
     "date_gmt": "2021-07-04T14:50:45",
-    "modified_gmt": "2021-07-04T19:45:53",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page.php",
+    "modified_gmt": "2021-07-04T21:46:11",
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/how-you-can-help/",
     "parent": 0,
     "menu_order": 0
