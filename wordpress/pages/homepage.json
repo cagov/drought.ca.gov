@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-01T21:52:45",
-    "updated_date": "2021-07-03T14:28:46",
+    "created_date": "2021-07-04T14:23:15",
+    "updated_date": "2021-07-04T14:48:15",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -12,16 +12,16 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 2,
-    "slug": "home",
-    "title": "Home Test Page",
+    "id": 24,
+    "slug": "homepage",
+    "title": "Homepage",
     "author": "Admin",
-    "date": "2021-07-01T21:52:45",
-    "modified": "2021-07-03T14:28:46",
-    "date_gmt": "2021-07-01T21:52:45",
-    "modified_gmt": "2021-07-03T14:28:46",
+    "date": "2021-07-04T14:23:15",
+    "modified": "2021-07-04T14:48:15",
+    "date_gmt": "2021-07-04T14:23:15",
+    "modified_gmt": "2021-07-04T14:48:15",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/home/",
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/",
     "parent": 0,
     "menu_order": 0
   }

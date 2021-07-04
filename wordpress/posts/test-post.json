@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "created_date": "2021-07-01T22:44:20",
+    "updated_date": "2021-07-02T23:54:10",
+    "api_version": "v2",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 15,
+    "slug": "test-post",
+    "title": "Test Post",
+    "author": "Admin",
+    "date": "2021-07-01T22:44:20",
+    "modified": "2021-07-02T23:54:10",
+    "date_gmt": "2021-07-01T22:44:20",
+    "modified_gmt": "2021-07-02T23:54:10",
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/test-post/",
+    "categories": [
+      "Uncategorized"
+    ],
+    "tags": []
+  }
+}
