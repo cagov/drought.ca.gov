@@ -3,28 +3,47 @@ const fs = require('fs');
 module.exports = function() {
   return new Promise((resolve, reject) => {
     let wordPressArray = [];
+    let fileNameMap = new Map();
     fs.readdir('wordpress/pages/', (err, files) => {
-      let newObj = {};
       files.forEach(file => {
-        if(file.indexOf('.html') > -1) {
-          newObj = {};
-          newObj.filename = file.replace('.html','');
-          newObj.content = fs.readFileSync('wordpress/pages/'+file,'utf8');
-        }
-        if(file.indexOf('.json') > -1) {
-          newObj.filename = file.replace('.json','');
-          let fileData = JSON.parse(fs.readFileSync('wordpress/pages/'+file,'utf8'));
-          newObj.dataset = fileData;
-          newObj.dataset.data.wordpress_url = cleanUrl(fileData.data.wordpress_url);
-
-          newObj.dataset.data.template = chooseTemplate(fileData.data.template);
-          wordPressArray.push(newObj);
-        }
+        let loc = 'wordpress/pages/'+file;
+        processFile(file, fileNameMap, loc);
       });
-      resolve(wordPressArray);  
+
+      fs.readdir('wordpress/posts/', (err, files) => {
+        files.forEach(file => {
+          let loc = 'wordpress/posts/'+file;
+          processFile(file, fileNameMap, loc);
+        });
+        for (let [key, value] of fileNameMap) {
+          wordPressArray.push(value);
+        }
+        resolve(wordPressArray);  
+      });
     });
   });
 };
+
+function processFile(file, fileNameMap, loc) {
+  let fileName = file.split('.')[0];
+  let fileDetails = fileNameMap.get(fileName);
+  if(!fileDetails) {
+    fileDetails = {};
+  }
+  if(file.indexOf('.html') > -1) {
+    fileDetails.filename = file.replace('.html','');
+    fileDetails.content = fs.readFileSync(loc,'utf8');
+  }
+  if(file.indexOf('.json') > -1) {
+    fileDetails.filename = file.replace('.json','');
+    let fileData = JSON.parse(fs.readFileSync(loc,'utf8'));
+    fileDetails.dataset = fileData;
+    fileDetails.dataset.data.wordpress_url = cleanUrl(fileData.data.wordpress_url);
+
+    fileDetails.dataset.data.template = chooseTemplate(fileData.data.template);
+  }
+  fileNameMap.set(fileName,fileDetails);
+}
 
 function cleanUrl (url) {
   if(url.indexOf('.pantheonsite.io/') > -1) {
