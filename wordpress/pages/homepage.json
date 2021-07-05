@@ -3,10 +3,10 @@
     "created_date": "2021-07-04T14:23:15",
     "updated_date": "2021-07-04T21:46:21",
     "api_version": "v2",
-    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -21,7 +21,34 @@
     "date_gmt": "2021-07-04T14:23:15",
     "modified_gmt": "2021-07-04T21:46:21",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/",
+    "type": "page",
+    "design_system_fields": {
+      "template": "landing"
+    },
+    "og_meta": {
+      "_genesis_title": [
+        "California Drought Action"
+      ],
+      "_genesis_description": "",
+      "_genesis_canonical_uri": "",
+      "_social_image_url": "",
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled\" />\r\n<meta property=\"og:site_name\" content=\"California Drought Action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled\" />\r\n"
+    },
+    "site_settings": {
+      "site_name": "California Drought Action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "url": "https://live-drought-ca-gov.pantheonsite.io",
+      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+    },
+    "content": {
+      "rendered": "\n<div class=\"wp-block-ca-design-system-hero cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block\"><div><div class=\"cagov-stack cagov-p-2 cagov-featured-sidebar\"><h2>Every drop counts</h2><div class=\"cagov-hero-body-content\">\n<p>Did you know? No matter where you live in California, you’re in a drought zone.&nbsp;</p>\n\n\n\n<p>Take steps to use less water, every day.</p>\n\n\n\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\">Button link</a></div>\n\n\n\n<p></p>\n</div></div><div><img loading=\"lazy\" class=\"cagov-featured-image\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/65535_51212545511_72587a3916_h_1024_800_nofilter-640x500.jpg\" alt=\"\" width=\"640\" height=\"500\"/></div></div></div>\n\n\n\n<div class=\"wp-block-ca-design-system-card-grid cagov-grid cagov-stack cagov-block\">    <a href=\"\" class=\"wp-block-ca-design-system-card no-deco cagov-card\">\n        <span class=\"card-text\">Card 1<br>text<br>asdfasdfasdfasdf<br>asdfasdfasdf</span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\"><g><path d=\"M0,0h24v24H0V0z\" fill=\"none\"></path></g><g><polygon points=\"6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12\"></polygon></g></svg>\n    </a>\n\n    <a href=\"\" class=\"wp-block-ca-design-system-card no-deco cagov-card\">\n        <span class=\"card-text\">Card 2<br><br>text<br>text<br>text</span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\"><g><path d=\"M0,0h24v24H0V0z\" fill=\"none\"></path></g><g><polygon points=\"6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12\"></polygon></g></svg>\n    </a>\n\n    <a href=\"\" class=\"wp-block-ca-design-system-card no-deco cagov-card\">\n        <span class=\"card-text\">Card 3</span>\n        <svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" viewBox=\"0 0 24 24\"><g><path d=\"M0,0h24v24H0V0z\" fill=\"none\"></path></g><g><polygon points=\"6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12\"></polygon></g></svg>\n    </a></div>\n\n\n\n<div class=\"wp-block-columns\">\n<div class=\"wp-block-column\"><div class=\"wp-block-ca-design-system-post-list cagov-post-list cagov-stack\">\n    <div>\n    \n        <h2>State actions against drought</h2>\n        <cagov-post-list \n            class=\"post-list\" \n            data-category=\"action\"\n            data-count=\"5\"\n            data-order=\"desc\"\n            data-endpoint=\"https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2\"\n            data-show-excerpt=\"true\"\n            data-show-published-date=\"true\"\n            data-no-results=\"No posts found\"\n            data-show-pagination=\"false\"\n            data-read-more=\"\"\n            data-filter=\"none\"\n        >\n        </cagov-post-list>\n    </div>\n</div></div>\n\n\n\n<div class=\"wp-block-column\"><div class=\"wp-block-ca-design-system-announcement-list cagov-announcement-list cagov-block\">\n    <h2>News</h2>    \n\n        \n        <cagov-post-list \n            class=\"post-list cagov-stack\" \n            data-category=\"news,press-releases\"\n            data-count=\"5\"\n            data-order=\"desc\"\n            data-endpoint=\"https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2\"\n            data-show-excerpt=\"false\"\n            data-show-published-date=\"true\"\n            data-no-results=\"No posts found\"\n            data-show-pagination=\"false\"\n            data-read-more=\"\"\n            data-filter=\"none\"\n        >\n        </cagov-post-list>\n\n</div></div>\n</div>\n",
+      "protected": false
+    },
     "parent": 0,
     "menu_order": 0
   }
