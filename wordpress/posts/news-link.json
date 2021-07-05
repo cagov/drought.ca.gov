@@ -71,6 +71,7 @@
       "rendered": "",
       "protected": false
     },
+    "headless": true,
     "categories": [
       "News"
     ],
