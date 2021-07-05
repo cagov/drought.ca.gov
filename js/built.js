@@ -909,16 +909,19 @@ if (customElements.get("cagov-content-navigation") === undefined) {
   renderWordpressPostTitleDate({
     title = null,
     link = null,
-    date = null, // "2021-05-23T18:19:58"
+    date = null,
     content = null,
-    excerpt = null, // @TODO shorten / optional
-    // author = null, // 1
-    // featured_media = null, // 0
+    excerpt = null,
+    author = null,
+    featured_media = null,
     categories = null,
     format = "standard",
     design_system_fields = null,
+    headless = false,
   }) {
+    // Fix API mapping
 
+    console.log('headless', headless);
 
     if (format === "link" && design_system_fields !== null) {
 
@@ -945,11 +948,7 @@ if (customElements.get("cagov-content-navigation") === undefined) {
           } catch (error) {
             console.error(error);
           }
-
-
- 
       }
-      
     }
 
     let getExcerpt =
