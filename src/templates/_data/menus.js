@@ -8,7 +8,7 @@ module.exports = function () {
       .then(res => res.json())
       .then(json => {
         let idsToRetrieve = [];
-        let desiredSlugs = ['content-menu', 'footer-menu', 'header-menu']
+        let desiredSlugs = ['content-menu', 'state-wide-footer-menu', 'header-menu', 'social-media-links']
         json.forEach(item => {
           if (desiredSlugs.includes(item.slug)) {
             idsToRetrieve.push(item.term_id)
