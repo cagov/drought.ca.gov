@@ -3,10 +3,10 @@
     "created_date": "2021-04-21T12:00:00",
     "updated_date": "2021-07-04T21:47:22",
     "api_version": "v2",
-    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/cron",
-      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
@@ -20,8 +20,58 @@
     "modified": "2021-07-04T14:47:22",
     "date_gmt": "2021-04-21T12:00:00",
     "modified_gmt": "2021-07-04T21:47:22",
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/emergency-proclamation/",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/emergency-proclamation/",
     "excerpt": "<p>Governor Newsom issues an&nbsp;Emergency Proclamation&nbsp;to advance state drought preparation and response in the Russian River Watershed of Sonoma and Mendocino counties.</p>\n",
+    "format": "status",
+    "type": "post",
+    "design_system_fields": {
+      "template": "post",
+      "post": {
+        "post_link": "",
+        "post_date": "",
+        "locale": "en_US",
+        "gmt_offset": -7,
+        "timezone": "America/Los_Angeles",
+        "post_published_date_display": {
+          "i18n_locale_date": "April 21, 2021",
+          "i18n_locale_date_gmt": "April 21, 2021",
+          "i18n_locale_date_time": "April 21, 2021 12:00 pm",
+          "i18n_locale_date_time_gmt": "April 21, 2021 12:00 pm"
+        },
+        "post_modified_date_display": {
+          "i18n_locale_date": "July 4, 2021",
+          "i18n_locale_date_gmt": "July 4, 2021",
+          "i18n_locale_date_time": "July 4, 2021 2:47 pm",
+          "i18n_locale_date_time_gmt": "July 4, 2021 9:47 pm"
+        },
+        "post_location": "",
+        "event_date": "",
+        "event_end_date": "",
+        "event_start_time": "",
+        "event_end_time": ""
+      }
+    },
+    "og_meta": {
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "_genesis_canonical_uri": "",
+      "_social_image_url": "",
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled\" />\r\n<meta property=\"og:site_name\" content=\"California Drought Action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled\" />\r\n"
+    },
+    "site_settings": {
+      "site_name": "California Drought Action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "url": "https://live-drought-ca-gov.pantheonsite.io",
+      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+    },
+    "content": {
+      "rendered": "\n<p>Governor Newsom issues an&nbsp;<a href=\"https://www.gov.ca.gov/wp-content/uploads/2021/04/4.21.21-Emergency-Proclamation-1.pdf\">Emergency Proclamation</a>&nbsp;to advance state drought preparation and response in the Russian River Watershed of Sonoma and Mendocino counties.</p>\n",
+      "protected": false
+    },
     "categories": [
       "Action"
     ],
