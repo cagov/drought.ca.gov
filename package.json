@@ -14,7 +14,6 @@
     "dev": "npm-run-all -p sass:build bundle:headless sass:watch js:watch build:watch start",
     "build": "npm-run-all -p sass:build bundle:headless regen",
     "bundle:headless": "rollup --config rollup.config.js"
-  
   },
   "keywords": [],
   "author": "",
