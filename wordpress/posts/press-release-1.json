@@ -69,6 +69,11 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
+    "content": {
+      "rendered": "\n<p>Content of press release</p>\n",
+      "protected": false
+    },
+    "headless": true,
     "categories": [
       "Press release"
     ],

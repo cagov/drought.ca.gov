@@ -68,6 +68,11 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
+    "content": {
+      "rendered": "\n<p>Governor Newsom issues an&nbsp;<a href=\"https://www.gov.ca.gov/wp-content/uploads/2021/04/4.21.21-Emergency-Proclamation-1.pdf\">Emergency Proclamation</a>&nbsp;to advance state drought preparation and response in the Russian River Watershed of Sonoma and Mendocino counties.</p>\n",
+      "protected": false
+    },
+    "headless": true,
     "categories": [
       "Action"
     ],
