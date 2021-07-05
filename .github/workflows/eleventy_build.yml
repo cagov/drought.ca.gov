@@ -18,8 +18,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
             publish_branch: deploy_production
-      - name: Deploy to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
+      
+      - uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
@@ -27,12 +27,13 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
+          SOURCE_DIR: ./docs
 
       # Invalidate Cloudfront (this action)
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@v1.3
         env:
-          DISTRIBUTION: E2L7RQ19YAOM45
+          DISTRIBUTION: 'E2L7RQ19YAOM45'
           PATHS: '*'
           AWS_REGION: 'us-west-1'
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
