@@ -17,9 +17,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
-            publish_branch: deploy_production
+            publish_branch: 'deploy_production'
       
-      - uses: jakejarvis/s3-sync-action@v0.5.1
+      - name: Deploy to S3
+        uses: jakejarvis/s3-sync-action@v0.5.1
         with:
           args: --acl public-read --follow-symlinks --delete
         env:
