@@ -46,6 +46,7 @@
       "rendered": "",
       "protected": false
     },
+    "headless": true,
     "parent": 0,
     "menu_order": 0
   }
