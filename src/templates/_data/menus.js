@@ -11,7 +11,7 @@ module.exports = function () {
         let desiredSlugs = ['content-menu', 'state-wide-footer-menu', 'header-menu', 'social-media-links-menu'];
         
         json.forEach(item => {
-          console.log('item', item);
+          // console.log('item', item);
           if (desiredSlugs.includes(item.slug)) {
             idsToRetrieve.push(item.term_id)
           }
@@ -33,6 +33,6 @@ function reformat(data) {
   data.forEach(d => {
     outputObj[d.slug] = d;
   })
-  console.log(outputObj);
+  // console.log(outputObj);
   return outputObj;
 }

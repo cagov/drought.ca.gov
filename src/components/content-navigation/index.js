@@ -52,7 +52,7 @@
               "(prefers-reduced-motion)"
             ).matches;
 
-            console.log("prefersReducedMotion", prefersReducedMotion);
+            // console.log("prefersReducedMotion", prefersReducedMotion);
             if (!prefersReducedMotion) {
               window.scrollTo({
                 behavior: "smooth",
