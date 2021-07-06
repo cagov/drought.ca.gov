@@ -20,6 +20,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           publish_branch: deploy_production
+        env:
+          SITE_DOMAIN: "https://staging.drought.ca.gov"
           
       # Push just built site files to staging S3 bucket
       - name: Deploy to S3
