@@ -673,7 +673,7 @@ window.customElements.define('cagov-navoverlay', CAGOVOverlayNav);
               "(prefers-reduced-motion)"
             ).matches;
 
-            console.log("prefersReducedMotion", prefersReducedMotion);
+            // console.log("prefersReducedMotion", prefersReducedMotion);
             if (!prefersReducedMotion) {
               window.scrollTo({
                 behavior: "smooth",
@@ -884,7 +884,7 @@ if (customElements.get("cagov-content-navigation") === undefined) {
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
         let renderedPosts = posts.map((post) => {
-          console.log(post);
+          // console.log(post);
           return this.renderWordpressPostTitleDate(post);
         });
         return `<div class="post-list-items">${renderedPosts.join("")}</div>${
@@ -921,7 +921,7 @@ if (customElements.get("cagov-content-navigation") === undefined) {
   }) {
     // Fix API mapping
 
-    console.log('headless', headless);
+    // console.log('headless', headless);
 
     if (format === "link" && design_system_fields !== null) {
 

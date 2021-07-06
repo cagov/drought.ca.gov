@@ -1,9 +1,37 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Drought.ca.gov</title>
-  <meta charset="UTF-8">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>State drought response</title>
+  <meta charset="utf-8">
+	<meta name="author" content="State of California" />
+	<meta name="description" content="Learn more about current conditions, the state’s response and informational resources available to the public." />
+	<meta name="keywords" content="California, government, drought, drought.ca.gov" />
+	<!-- http://t.co/dKP3o1e -->
+	<meta name="HandheldFriendly" content="True">
+	<!-- for Blackberry, AvantGo -->
+	<meta name="MobileOptimized" content="320">
+	<!-- for Windows mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	
+  <!-- OG tags -->
+  <link rel="canonical" href="https://drought.ca.gov/state-drought-response/" />
+  <meta property="og:image" content="https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-65535_51212545511_72587a3916_h_1024_800_nofilter.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="538" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Untitled &#x2d; California Drought Action" />
+<meta property="og:site_name" content="California Drought Action" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Untitled &#x2d; California Drought Action" />
+<meta name="twitter:image" content="https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-65535_51212545511_72587a3916_h_1024_800_nofilter.jpg" />
+<meta name="twitter:image:width" content="1024" />
+<meta name="twitter:image:height" content="538" />
+
+  <!-- Favicon @TODO needs asset folder to be exposed to docs -->
+  <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
+  <link rel="shortcut icon" href="/assets/img/cagov_favicon.ico">
+  <!-- CSS -->
   
   <!-- the inlined hardcoded grid css below is there because it was breaking sass compilation -->
   <style>
@@ -205,10 +233,11 @@
             </div>
             <div class="everylayout">
                 <main class="main-primary">
-                            <article id="post-">
-                                <div class="category-label"></div>
+                            <article id="post-27">
                                 <!-- Page Title-->
-                                <h1 class="wide-page-title page-title">State drought response</h1>
+                                <h1 class="wide-page-title page-title">
+                                    State drought response
+                                </h1>
                                 <div class="entry-content">
                                     
 
@@ -1020,7 +1049,7 @@ window.customElements.define('cagov-navoverlay', CAGOVOverlayNav);
               "(prefers-reduced-motion)"
             ).matches;
 
-            console.log("prefersReducedMotion", prefersReducedMotion);
+            // console.log("prefersReducedMotion", prefersReducedMotion);
             if (!prefersReducedMotion) {
               window.scrollTo({
                 behavior: "smooth",
@@ -1231,7 +1260,7 @@ if (customElements.get("cagov-content-navigation") === undefined) {
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
         let renderedPosts = posts.map((post) => {
-          console.log(post);
+          // console.log(post);
           return this.renderWordpressPostTitleDate(post);
         });
         return `<div class="post-list-items">${renderedPosts.join("")}</div>${
@@ -1268,7 +1297,7 @@ if (customElements.get("cagov-content-navigation") === undefined) {
   }) {
     // Fix API mapping
 
-    console.log('headless', headless);
+    // console.log('headless', headless);
 
     if (format === "link" && design_system_fields !== null) {
 
