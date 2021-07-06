@@ -2622,7 +2622,8 @@ footer .container {
   padding: 1rem; }
 
 footer a:hover {
-  color: #064e66; }
+  color: #064e66;
+  text-decoration: none; }
 
 footer a:focus {
   outline: 2px solid #fec02f; }
