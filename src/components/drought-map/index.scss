@@ -1,0 +1,81 @@
+.cagov-drought-map {
+    width:100%;
+    margin-top:24px;
+    margin-bottom:24px;
+    .drought-map-image {
+        width:100%;
+        text-align:center;
+
+    }
+    .drought-map-image img {
+        width: 620px;
+        @media (max-width: 779px) {
+            width: 330px;
+        }
+    }
+    .legend-label, .map-label {
+
+    }
+    .map-link {
+        margin-top:12px;
+        margin-bottom:12px;
+    }
+
+    .drought-map-legend {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        @media (max-width: 779px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+       .col-1 {
+            grid-column:1;
+        }
+        .col-2 {
+            grid-column:2;
+            @media (max-width: 779px) {
+                grid-column:1;
+            }
+        }
+        .col-3 {
+            grid-column:3;
+            @media (max-width: 779px) {
+                grid-column:1;
+            }
+        }
+
+
+        .legend {
+            span.intensity {
+                width:24px;
+                height:24px;
+                border-radius:6px;
+                border: 1px solid #eeeeee;
+                display:inline-block;
+                margin-right: 12px;
+                &-ldnone  {
+                    background-color:#ffffff;
+                }
+                &-ld0  {
+                    background-color:#fffd30;
+                }
+                &-ld1 {
+                    background-color:#facc79;
+                }
+                &-ld2 {
+                    background-color:#fd9f23;
+                }
+                &-ld3 {
+                    background-color:#e00e15;
+                }
+                &-ld4 {
+                    background-color:#670307;
+                }
+                &-ldnodata {
+                    background-color:#b1b1b1;
+                }
+    
+            }
+        }
+
+    }
+}

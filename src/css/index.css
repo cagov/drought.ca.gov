@@ -2992,6 +2992,62 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
 .expanded-menu-section-header-arrow-svg {
   max-width: 20px; }
 
+.cagov-drought-map {
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px; }
+  .cagov-drought-map .drought-map-image {
+    width: 100%;
+    text-align: center; }
+  .cagov-drought-map .drought-map-image img {
+    width: 620px; }
+    @media (max-width: 779px) {
+      .cagov-drought-map .drought-map-image img {
+        width: 330px; } }
+  .cagov-drought-map .map-link {
+    margin-top: 12px;
+    margin-bottom: 12px; }
+  .cagov-drought-map .drought-map-legend {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 779px) {
+      .cagov-drought-map .drought-map-legend {
+        grid-template-columns: repeat(1, 1fr); } }
+    .cagov-drought-map .drought-map-legend .col-1 {
+      grid-column: 1; }
+    .cagov-drought-map .drought-map-legend .col-2 {
+      grid-column: 2; }
+      @media (max-width: 779px) {
+        .cagov-drought-map .drought-map-legend .col-2 {
+          grid-column: 1; } }
+    .cagov-drought-map .drought-map-legend .col-3 {
+      grid-column: 3; }
+      @media (max-width: 779px) {
+        .cagov-drought-map .drought-map-legend .col-3 {
+          grid-column: 1; } }
+    .cagov-drought-map .drought-map-legend .legend span.intensity {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      border: 1px solid #eeeeee;
+      display: inline-block;
+      margin-right: 12px; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ldnone {
+        background-color: #ffffff; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ld0 {
+        background-color: #fffd30; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ld1 {
+        background-color: #facc79; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ld2 {
+        background-color: #fd9f23; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ld3 {
+        background-color: #e00e15; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ld4 {
+        background-color: #670307; }
+      .cagov-drought-map .drought-map-legend .legend span.intensity-ldnodata {
+        background-color: #b1b1b1; }
+
+/* copied from gutenberg custom block */
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 /* page layout styles, not sure where this should go, in base-css too eventually? */
 /**
