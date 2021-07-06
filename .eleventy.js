@@ -31,8 +31,12 @@ module.exports = function(eleventyConfig) {
     let output = [];
     collection.getAll().forEach(item => {
       if(item.data.wordpress.dataset) {
+        // Set up fields for passing into template
         item.data.title = item.data.wordpress.dataset.data.title;
         item.data.templatestring = item.data.wordpress.dataset.data.template;
+        item.data.page_meta = item.data.wordpress.dataset.data.page_meta;
+        item.data.category = item.data.wordpress.dataset.data.category;
+        item.data.id = item.data.wordpress.dataset.data.id;
 
         // let apiString = new RegExp('\\' + replacementPaths.api.src, 'gi');
         let mediaString = new RegExp('\\' + replacementPaths.media.src, 'gi');
@@ -46,6 +50,7 @@ module.exports = function(eleventyConfig) {
   });
  
   eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
   return {
     htmlTemplateEngine: "njk",

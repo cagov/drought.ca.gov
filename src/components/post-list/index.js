@@ -134,7 +134,7 @@
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
         let renderedPosts = posts.map((post) => {
-          console.log(post);
+          // console.log(post);
           return this.renderWordpressPostTitleDate(post);
         });
         return `<div class="post-list-items">${renderedPosts.join("")}</div>${
@@ -171,7 +171,7 @@
   }) {
     // Fix API mapping
 
-    console.log('headless', headless);
+    // console.log('headless', headless);
 
     if (format === "link" && design_system_fields !== null) {
 
