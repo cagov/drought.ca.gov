@@ -42,11 +42,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "content": {
-      "rendered": "",
-      "protected": false
-    },
-    "headless": true,
     "parent": 0,
     "menu_order": 0
   }
