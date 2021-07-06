@@ -68,11 +68,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "content": {
-      "rendered": "\n<p>Governor Newsom directed multiple state agencies to prepare a&nbsp;<a href=\"https://waterresilience.ca.gov/\">Water Resilience Portfolio</a>&nbsp; (released in July 2020).</p>\n",
-      "protected": false
-    },
-    "headless": true,
     "categories": [
       "Action"
     ],
