@@ -1199,12 +1199,9 @@ cagov-navoverlay .expanded-menu {
         padding: 0;
         margin-bottom: 1rem;
         position: relative;
-        z-index: -1; }
+        z-index: 1; }
         cagov-navoverlay .expanded-menu-section:last-of-type {
           margin-bottom: 0; } }
-    @media (min-width: 768px) {
-      cagov-navoverlay .expanded-menu-section.mobile-only {
-        display: none; } }
     @media (min-width: 768px) {
       cagov-navoverlay .expanded-menu-section .expanded-menu-dropdown {
         position: absolute;
