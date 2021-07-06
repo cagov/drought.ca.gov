@@ -2,8 +2,9 @@
 
 .official-header {
 	background-color: $gray-100;
-	padding: 5px 0 5px 0;
+	padding: 0;
 	width: 100%;
+	border-bottom: 1px solid $gray-300;
 
 	.container {
 		display: flex;
@@ -22,12 +23,13 @@
 		align-items: center;
 
 		.cagov-logo {
-			margin:0 10px;
+			margin: 0 10px 0 0;
 		}
 	}
 
 	svg {
 		padding: 0;
+		padding-top: 6px;
 		.ca {
 			fill: $secondary;
 		}
@@ -38,10 +40,12 @@
 
 	.official-tag {
 		margin: 0 10px;
+		font-size: $small-text;
 	}
 
 	.official-languages a {
 		color: $black;
+		font-size: $small-text;
 		padding: 0 0.5rem 0 0.5rem;
 
 		&:hover {
@@ -52,21 +56,26 @@
 	.official-languages {
 		display: flex;
 		flex-wrap: wrap;
-		.dropdown {position: relative;}
+		.dropdown {
+			position: relative;
+			top: -3px;
+		}
 		// languages button
 		button.offcial-more {
 			padding-right: 0;
+			padding-left: 0.5rem;
+			font-size: $small-text;
 			border: none;
 			text-decoration: underline;
 			background-color: $white;
-			transition: transform .3s;
+			transition: transform 0.3s;
 
 			&:hover {
 				color: $primary-dark;
 			}
 			&[aria-expanded="false"] {
 				.caret-down {
-					transition: all .3s;
+					transition: all 0.3s;
 					svg {
 						padding: 0 0 0 0;
 						width: 20px;
@@ -76,12 +85,10 @@
 						right: 5px;
 					}
 				}
-				
-				
 			}
 			&[aria-expanded="true"] {
 				.caret-down {
-					transition: transform .3s;
+					transition: transform 0.3s;
 					svg {
 						padding: 0 0 0 0;
 						width: 20px;
@@ -111,12 +118,11 @@
 			display: none;
 			&.show {
 				display: flex;
-				flex-direction:column;
+				flex-direction: column;
 			}
 		}
 	}
 }
-
 
 /* sticky header */
 @media (min-width: 768px) {
@@ -124,6 +130,5 @@
 		position: sticky;
 		top: 0;
 		z-index: 99;
-	  }
+	}
 }
-

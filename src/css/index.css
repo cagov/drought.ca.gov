@@ -796,8 +796,9 @@ cagov-post-list .post-list-item {
 /*official*/
 .official-header {
   background-color: #f9f9fa;
-  padding: 5px 0 5px 0;
-  width: 100%; }
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid #e1e0e3; }
   .official-header .container {
     display: flex;
     flex-wrap: wrap;
@@ -812,17 +813,20 @@ cagov-post-list .post-list-item {
     flex-wrap: wrap;
     align-items: center; }
     .official-header .ofiicial-logo .cagov-logo {
-      margin: 0 10px; }
+      margin: 0 10px 0 0; }
   .official-header svg {
-    padding: 0; }
+    padding: 0;
+    padding-top: 6px; }
     .official-header svg .ca {
       fill: #fec02f; }
     .official-header svg .gov {
       fill: #064e66; }
   .official-header .official-tag {
-    margin: 0 10px; }
+    margin: 0 10px;
+    font-size: 1rem; }
   .official-header .official-languages a {
     color: #000;
+    font-size: 1rem;
     padding: 0 0.5rem 0 0.5rem; }
     .official-header .official-languages a:hover {
       color: #064e66; }
@@ -830,17 +834,20 @@ cagov-post-list .post-list-item {
     display: flex;
     flex-wrap: wrap; }
     .official-header .official-languages .dropdown {
-      position: relative; }
+      position: relative;
+      top: -3px; }
     .official-header .official-languages button.offcial-more {
       padding-right: 0;
+      padding-left: 0.5rem;
+      font-size: 1rem;
       border: none;
       text-decoration: underline;
       background-color: #fff;
-      transition: transform .3s; }
+      transition: transform 0.3s; }
       .official-header .official-languages button.offcial-more:hover {
         color: #064e66; }
       .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down {
-        transition: all .3s; }
+        transition: all 0.3s; }
         .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down svg {
           padding: 0 0 0 0;
           width: 20px;
@@ -849,7 +856,7 @@ cagov-post-list .post-list-item {
           position: relative;
           right: 5px; }
       .official-header .official-languages button.offcial-more[aria-expanded="true"] .caret-down {
-        transition: transform .3s; }
+        transition: transform 0.3s; }
         .official-header .official-languages button.offcial-more[aria-expanded="true"] .caret-down svg {
           padding: 0 0 0 0;
           width: 20px;
