@@ -527,11 +527,11 @@ ol.steps li:last-child {
   line-height: 30px;
   margin-bottom: 8px; }
 
-cagov-announcement-list .post-list-item {
+.cagov-announcement-list .post-list-item {
   margin: 0;
   padding: 0; }
 
-cagov-announcement-list .post-list-item {
+.cagov-announcement-list .post-list-item {
   list-style: none;
   font-style: normal;
   font-weight: normal;
@@ -542,6 +542,96 @@ cagov-announcement-list .post-list-item {
   line-height: 30px;
   margin-top: 0px;
   color: #000; }
+
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+.cagov-post-list .post-list-title {
+  /* font-family: Public Sans; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 24px; }
+
+.cagov-post-list .read-more a {
+  /* font-family: Public Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000; }
+
+.cagov-post-list .link-title a {
+  color: #064E66;
+  font-weight: 700;
+  line-height: 32.9px;
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-decoration: none; }
+
+.cagov-post-list .excerpt,
+.cagov-post-list .excerpt p {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 8px; }
+
+cagov-post-list .post-list-item {
+  margin: 0;
+  padding: 0; }
+
+cagov-post-list .post-list-item {
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 24px; }
+
+.cagov-post-list .post-list-item .date {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0px;
+  color: #000; }
+
+@media only screen and (max-width: 580px) {
+  .cagov-post-list h3 {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 24px; }
+  .cagov-post-list .read-more a {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000; }
+  .cagov-post-list .link-title a {
+    color: #064E66;
+    font-weight: 700;
+    line-height: 28.2px;
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-decoration: none; }
+  .cagov-post-list .excerpt,
+  .cagov-post-list .excerpt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px; }
+  cagov-post-list .post-list-item {
+    margin: 0;
+    padding: 0; }
+  cagov-post-list .post-list-item {
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 16px; }
+  .cagov-post-list .post-list-item .date {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+    color: #000; } }
 
 /* copied from block */
 /* branding */
@@ -1304,6 +1394,12 @@ cagov-navoverlay {
 .narrow-page-title {
   display: none; }
 
+.main-content-ds.single-column.landing .wide-page-title {
+  display: none; }
+
+.main-content-ds.single-column.landing .narrow-page-title {
+  display: none; }
+
 /* Gutenberg Block alignment */
 /* Class applied to most external element of a gutenberg block component. Controls spacing between blocks. */
 .cagov-stack {
@@ -1313,7 +1409,21 @@ cagov-navoverlay {
 /* Apply same spacing mechanism as cagov-stack, but overriding default gutenberg block element classes */
 .wp-block-columns {
   margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.wp-block-column {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.wp-block-column:first-child {
+  margin-right: 32px; }
 
 /* Update position list element */
 main ul li {
@@ -1339,6 +1449,10 @@ main ul li {
     display: block;
     margin-bottom: 16px;
     margin-top: 16px; }
+  .main-content-ds.single-column.landing .wide-page-title {
+    display: none; }
+  .main-content-ds.single-column.landing .narrow-page-title {
+    display: none; }
   /* Content Navigation */
   cagov-content-navigation .label {
     display: none; }
