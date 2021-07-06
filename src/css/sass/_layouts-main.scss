@@ -73,6 +73,18 @@ cagov-navoverlay {
 .wp-block-columns {
   margin-top: 2rem;
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.wp-block-column {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Update position list element */
