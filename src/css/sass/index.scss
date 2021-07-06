@@ -30,6 +30,7 @@
 @import '../../components/site-footer/_style';
 @import '../../components/footer/_style';
 @import '../../components/menu/_style';
+@import '../../components/drought-map/index'; /* copied from gutenberg custom block */
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 
 /* page layout styles, not sure where this should go, in base-css too eventually? */
