@@ -23,7 +23,7 @@ module.exports = function(eleventyConfig) {
   });
 
   const replaceContent = (item,searchValue,replaceValue) => {
-    item.template.frontMatter.content = item.template.frontMatter.content
+    item.data.wordpress.content = item.data.wordpress.content
       .replace(searchValue,replaceValue);
   }
   
