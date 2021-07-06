@@ -22,34 +22,28 @@
   {% include "../../../components/branding/branding.html" %}
   {% include "nav-component.njk" %}
 
-  {%- if templatestring == 'home' -%}
+  {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
+  {%- if templatestring == 'landing' -%}
+    {% include "../layouts/templates/landing.njk" %}
+  {# Pages that don't have content navigation #}
+  {%- elif templatestring == 'single-column' -%}
+    {% include "../layouts/templates/single-column.njk" %}  
+  {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
+  {% elif templatestring == 'page' -%}
+    {% include "../layouts/templates/page.njk" %}
+  {# Normal post template, with category if default the API will return "post" #}
+  {% elif templatestring == 'post' -%}
+    {% include "../layouts/templates/post.njk" %}
+  {% elif templatestring == 'template-single-press-release ' -%}
+  {# We are developing more templates for special post types, like press releases and events. #}
+    {% include "../layouts/templates/post.njk" %}
+  {# No template #}
+  {% else %}
     <main class="page-container-ds">
       {{ content | safe }}
     </main>
-  {% else %}
-  <div id="page-container" class="with-sidebar has-sidebar-left page-container-ds">
-    <div id="main-content" class="main-content-ds">
-      <div class="breadcrumb" aria-label="Breadcrumb" role="region"></div>
-      <div class="narrow-page-title">
-        <h1 class="page-title">Cultivation</h1>
-      </div>
-      <div class="ds-content-layout">
-        <div class="sidebar-container everylayout" style="z-index: 1;">
-          <sidebar space="0" side="left">
-            <cagov-content-navigation data-selector="main" data-type="wordpress" data-label="On this page">
-            </cagov-content-navigation>
-          </sidebar>
-        </div>
-
-        <div class="everylayout">
-          <main class="main-primary">
-            {{ content | safe }}
-          </main>
-        </div>
-      </div>
-    </div>
-  </div>
   {%- endif -%}
+
 
   {% include "../footer.njk" %}
   {% include "../footer-universal.njk" %}

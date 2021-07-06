@@ -25,7 +25,6 @@ module.exports = function(eleventyConfig) {
   const replaceContent = (item,searchValue,replaceValue) => {
     item.template.frontMatter.content = item.template.frontMatter.content
       .replace(searchValue,replaceValue);
-
   }
   
   eleventyConfig.addCollection("manualcontent", function(collection) {
@@ -45,9 +44,6 @@ module.exports = function(eleventyConfig) {
 
     return output;
   });
-
-
-
  
   eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
 

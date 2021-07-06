@@ -39,8 +39,8 @@ function processFile(file, fileNameMap, loc) {
     let fileData = JSON.parse(fs.readFileSync(loc,'utf8'));
     fileDetails.dataset = fileData;
     fileDetails.dataset.data.wordpress_url = cleanUrl(fileData.data.wordpress_url);
-
-    fileDetails.dataset.data.template = chooseTemplate(fileData.data.template);
+    // console.log("fileData.data", fileData.data);
+    fileDetails.dataset.data.template = chooseTemplate(fileData.data.design_system_fields.template);
   }
   fileNameMap.set(fileName,fileDetails);
 }
@@ -53,8 +53,9 @@ function cleanUrl (url) {
 }
 
 function chooseTemplate(template) {
-  if(template && template.indexOf('template-page-landing.php') > -1) {
-    return 'home';
-  }
-  return 'page'
+  console.log("template", template);
+  // if(!template) {
+  //   return 'page';
+  // }
+  return template;
 }
