@@ -8,3 +8,9 @@ import '../components/menu/index.js';
 import '../components/content-navigation/index.js';
 import '../components/post-list/index.js';
 import '../components/page-alert/index.js';
+
+import setupAnalytics from './gatracker/index.js';
+
+window.onload = (event) => {
+    setupAnalytics();
+};
