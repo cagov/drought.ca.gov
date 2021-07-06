@@ -151,8 +151,11 @@ h1.page-title {
     height: auto; } }
 
 /* copied from gutenberg custom block */
-.cagov-stack h2 {
-  padding-bottom: 0; }
+.cagov-hero-body-content h2 {
+  padding-bottom: 16px; }
+
+.cagov-hero-body-content p {
+  margin-bottom: 16px; }
 
 /* .cagov-featured-sidebar h2 {
     margin-top: 0 !important;
@@ -590,7 +593,8 @@ cagov-post-list .post-list-item {
   font-size: 18px;
   line-height: 30px;
   margin-top: 0px;
-  color: #000; }
+  color: #000;
+  font-weight: 700; }
 
 @media only screen and (max-width: 580px) {
   .cagov-post-list h3 {
@@ -631,7 +635,8 @@ cagov-post-list .post-list-item {
     font-size: 16px;
     line-height: 24px;
     margin-top: 0px;
-    color: #000; } }
+    color: #000;
+    font-weight: 700; } }
 
 /* copied from block */
 /* branding */
