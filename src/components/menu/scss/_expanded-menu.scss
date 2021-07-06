@@ -90,14 +90,9 @@ cagov-navoverlay {
         padding: 0;
         margin-bottom: 1rem;
         position: relative;
-        z-index: -1;
+        z-index: 1;
         &:last-of-type {
           margin-bottom: 0;
-        }
-      }
-      &.mobile-only {
-        @include tablet {
-          display: none;
         }
       }
       @include tablet {
