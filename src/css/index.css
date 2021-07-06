@@ -1759,194 +1759,17 @@ h6,
 /* all utility css classes that can be used (shortcodes) */
 /* all of the above will become part of base-css component */
 /* COMPONENTS/BLOCKS */
-.icon-select {
-  height: 48px;
-  padding: 0 0px 0 16px; }
+/* Override npm styles */
+cagov-accordion.prog-enhanced .accordion-card-container .card-body {
+  margin-top: 8px; }
+  cagov-accordion.prog-enhanced .accordion-card-container .card-body ul {
+    margin-left: 16px;
+    margin-right: 16px; }
 
-.editor-styles-wrapper .message-body {
-  padding: 0 32px; }
+cagov-accordion.prog-enhanced .accordion-alpha .plus-minus {
+  margin-top: 8px; }
 
-.editor-styles-wrapper .cagov-page-alert {
-  min-height: 64px;
-  height: auto; }
-
-.cagov-page-alert {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 16px;
-  width: 100%;
-  min-height: 46px;
-  height: auto;
-  background: rgba(254, 192, 47, 0.2);
-  border: 1px solid #FEC02F;
-  box-sizing: border-box;
-  border-radius: 5px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 32px 0px; }
-
-.cagov-page-alert .icon {
-  line-height: 1.5rem; }
-
-.cagov-page-alert .body {
-  line-height: 1.5rem;
-  padding: 0 16px;
-  background-color: transparent; }
-
-@media only screen and (max-width: 600px) {
-  .cagov-page-alert {
-    min-height: 46px;
-    height: auto; } }
-
-/* copied from gutenberg custom block */
-.cagov-featured-section h2 {
-  padding-bottom: 16px; }
-
-.cagov-hero-body-content p {
-  margin-bottom: 16px; }
-
-.cagov-p-2 {
-  padding: 1rem; }
-
-.cagov-bkgrd-gry {
-  background-color: #F9F9FA; }
-
-.cagov-featured-sidebar {
-  max-width: 400px;
-  margin-top: 0; }
-
-.cagov-featured-section {
-  margin: 0 0 3rem 0; }
-
-.cagov-featured-section .components-button.image-button {
-  display: block;
-  height: 100%;
-  margin: 0 0 3rem 0;
-  padding: 0; }
-
-.cagov-featured-image {
-  object-fit: cover;
-  width: 100%;
-  display: block;
-  height: 100%;
-  min-width: 18rem;
-  min-height: 20rem;
-  max-height: 420px; }
-
-/* call to action */
-/* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
-.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
-  background-color: #33705B;
-  /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705B);
-  /* variable used with fallback in case it is not defined */
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  display: inline-block;
-  border: none;
-  text-decoration: none; }
-
-.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
-  background-color: #33705B;
-  /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705B);
-  /* variable used with fallback in case it is not defined */
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  display: inline-block;
-  border: none;
-  text-decoration: underline; }
-
-.cagov-hero-body-content .wp-block-button__link {
-  overflow-wrap: normal;
-  white-space: nowrap; }
-
-/* sidebar layout */
-.cagov-with-sidebar {
-  overflow: hidden; }
-
-.cagov-with-sidebar > * {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0; }
-
-.cagov-with-sidebar > * > * {
-  margin: 0;
-  flex-grow: 1; }
-
-.cagov-with-sidebar-left > * > :last-child {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: calc(30% - var(0px)); }
-
-.cagov-with-sidebar-right > * > :first-child {
-  flex-basis: 0;
-  flex-grow: 999;
-  min-width: calc(30% - 0px); }
-
-/* hero sidebar swap image on left to go on top when it wraps */
-@media (max-width: 719px) {
-  .cagov-with-sidebar > * {
-    flex-direction: column-reverse; } }
-
-@media (min-width: 1200px) {
-  .cagov-featured-sidebar {
-    max-width: 34%; } }
-
-/* copied from block */
-.no-deco {
-  text-decoration: none; }
-
-.cagov-card {
-  border: 1px solid #ededef;
-  padding: 1rem;
-  border-bottom: 0.3rem solid #33705B;
-  border-bottom: 0.3rem solid var(--primary-color, #33705B);
-  border-radius: 0.3rem;
-  min-width: 250px;
-  min-height: 50px;
-  margin-top: 0;
-  display: flex;
-  justify-content: space-between; }
-
-.cagov-card .card-text {
-  color: #33705B;
-  /* defined here for when css vars are not supported */
-  color: var(--primary-color, #33705B) !important;
-  /* variable used with fallback in case it is not defined */
-  /* color: #33705B !important; */
-  font-size: 1.75rem;
-  line-height: 40px;
-  padding: 0;
-  margin: 0; }
-
-.cagov-card svg {
-  fill: #33705B;
-  fill: var(--primary-color, #33705B);
-  width: 1rem;
-  margin-top: .2rem;
-  margin-left: 1rem;
-  max-height: 25px; }
-
-.cagov-card:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-
-.cagov-grid, .cagov-grid .block-editor-block-list__layout {
-  display: grid;
-  grid-gap: 1.5rem; }
-
-/* editor override */
-.cagov-grid .block-editor-block-list__block {
-  margin: 0; }
-
-/* copied from blocks */
+/* custom css overrides for default accordion styles */
 .breadcrumb {
   display: block;
   margin-top: 0px;
@@ -1990,302 +1813,6 @@ h6,
     margin-bottom: 0px; } }
 
 /* copied from blocks */
-/* CONTENT NAVIGATION */
-sidebar cagov-content-navigation .label {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.2px;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 16px; }
-
-sidebar cagov-content-navigation ul,
-sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
-sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
-  margin: 0;
-  text-indent: 0;
-  padding: 0; }
-
-sidebar cagov-content-navigation ul li {
-  padding-top: 16px;
-  /* padding-bottom: 16px; */
-  /* margin-bottom: 16px; */
-  margin-top: 16px;
-  border-top: 1px solid #EDEDEF;
-  line-height: 28.2px; }
-
-sidebar cagov-content-navigation ul li:first-child {
-  margin-top: 0px; }
-
-/* copied from blocks */
-/* step list */
-ol.steps {
-  padding-left: 0 !important;
-  margin-left: 30px !important; }
-
-ol.steps li {
-  list-style: none;
-  border-left: 5px solid #fec02f;
-  font-size: 1.75rem;
-  font-weight: 700;
-  position: relative;
-  padding-left: 45px;
-  line-height: 1.5; }
-
-ol.steps li:before {
-  content: "";
-  font-family: "Public Sans";
-  font-size: 1.75rem;
-  font-weight: 700;
-  padding: 0 13px 0 13px;
-  border: 5px solid #fec02f;
-  background-color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  position: absolute;
-  left: -29px;
-  top: -5px;
-  margin-left: -1px; }
-
-ol.steps li span.has-black-color {
-  margin-top: 1rem;
-  padding-bottom: 1.75rem;
-  font-size: 1.125rem;
-  font-weight: 500;
-  display: block; }
-
-ol.steps li:first-child:before {
-  content: "1";
-  padding: 0 16px 0 16px; }
-
-ol.steps li:nth-child(2):before {
-  content: "2"; }
-
-ol.steps li:nth-child(3):before {
-  content: "3"; }
-
-ol.steps li:nth-child(4):before {
-  content: "4"; }
-
-ol.steps li:nth-child(5):before {
-  content: "5"; }
-
-ol.steps li:nth-child(6):before {
-  content: "6"; }
-
-ol.steps li:nth-child(7):before {
-  content: "7"; }
-
-ol.steps li:nth-child(8):before {
-  content: "8"; }
-
-ol.steps li:nth-child(9):before {
-  content: "9"; }
-
-ol.steps li:nth-child(10):before {
-  content: "10";
-  padding: 0 7px 0 7px;
-  margin-left: -1px; }
-
-ol.steps li:nth-child(11):before {
-  content: "11";
-  padding: 0 10px 0 10px; }
-
-ol.steps li:nth-child(12):before {
-  content: "12";
-  padding: 0 8px 0 8px;
-  margin-left: -1px; }
-
-ol.steps li:nth-child(13):before {
-  content: "13";
-  padding: 0 7px 0 7px; }
-
-ol.steps li:nth-child(14):before {
-  content: "14";
-  padding: 0 7px 0 7px; }
-
-ol.steps li:nth-child(15):before {
-  content: "15";
-  padding: 0 7px 0 8px;
-  margin-left: 3px; }
-
-ol.steps li:nth-child(16):before {
-  content: "16";
-  padding: 0 7px 0 7px; }
-
-ol.steps li:nth-child(17):before {
-  content: "17";
-  padding: 0 7px 0 7px; }
-
-ol.steps li:nth-child(18):before {
-  content: "18";
-  padding: 0 7px 0 7px; }
-
-ol.steps li:nth-child(19):before {
-  content: "19";
-  padding: 0 7px 0 7px; }
-
-ol.steps li:nth-child(20):before {
-  content: "20";
-  padding: 0 5px 0 5px; }
-
-ol.steps li:nth-child(21):before {
-  content: "21";
-  padding: 0 6px 0 6px; }
-
-ol.steps li:nth-child(22):before {
-  content: "22";
-  padding: 0 5px 0 5px; }
-
-ol.steps li:nth-child(23):before {
-  content: "23";
-  padding: 0 5px 0 5px; }
-
-ol.steps li:nth-child(24):before {
-  content: "24";
-  padding: 0 5px 0 5px; }
-
-ol.steps li:last-child {
-  border-left: none; }
-
-/* @TODO These px values need to be converted to relative values */
-/* @TODO Align with typography & styles: Font, px spacing, colors */
-/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
-.cagov-announcement-list h3 {
-  /* font-family: Public Sans; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 33px;
-  margin-bottom: 24px !important; }
-
-.cagov-announcement-list .read-more a {
-  /* font-family: Public Sans; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  text-decoration: underline;
-  color: #000; }
-
-.cagov-post-list .link-title a {
-  color: #064E66;
-  font-weight: normal;
-  text-decoration: underline;
-  line-height: 32.9px;
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 8px; }
-
-.cagov-announcement-list .post-list-item {
-  margin: 0;
-  padding: 0; }
-
-.cagov-announcement-list .post-list-item {
-  list-style: none;
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 24px; }
-
-.cagov-announcement-list .post-list-item .date {
-  font-size: 18px;
-  line-height: 30px;
-  margin-top: 0px;
-  color: #000; }
-
-/* @TODO These px values need to be converted to relative values */
-/* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
-/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
-.cagov-post-list .post-list-title {
-  /* font-family: Public Sans; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 33px;
-  margin-bottom: 24px; }
-
-.cagov-post-list .read-more a {
-  /* font-family: Public Sans; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  color: #000; }
-
-.cagov-post-list .link-title a {
-  color: #064E66;
-  font-weight: 700;
-  line-height: 32.9px;
-  font-size: 28px;
-  margin-bottom: 8px;
-  text-decoration: none; }
-
-.cagov-post-list .excerpt,
-.cagov-post-list .excerpt p {
-  font-weight: 400;
-  line-height: 30px;
-  font-size: 18px;
-  margin-bottom: 8px; }
-
-cagov-post-list .post-list-item {
-  margin: 0;
-  padding: 0; }
-
-cagov-post-list .post-list-item {
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 24px; }
-
-.cagov-post-list .post-list-item .date {
-  font-size: 18px;
-  line-height: 30px;
-  margin-top: 0px;
-  color: #000;
-  font-weight: 700; }
-
-@media only screen and (max-width: 580px) {
-  .cagov-post-list h3 {
-    /* font-family: Public Sans; */
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 33px;
-    margin-bottom: 24px; }
-  .cagov-post-list .read-more a {
-    /* font-family: Public Sans; */
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000; }
-  .cagov-post-list .link-title a {
-    color: #064E66;
-    font-weight: 700;
-    line-height: 28.2px;
-    font-size: 24px;
-    margin-bottom: 8px;
-    text-decoration: none; }
-  .cagov-post-list .excerpt,
-  .cagov-post-list .excerpt p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 8px; }
-  cagov-post-list .post-list-item {
-    margin: 0;
-    padding: 0; }
-  cagov-post-list .post-list-item {
-    font-style: normal;
-    font-weight: normal;
-    margin-bottom: 16px; }
-  .cagov-post-list .post-list-item .date {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 0px;
-    color: #000;
-    font-weight: 700; } }
-
-/* copied from block */
 /* branding */
 .branding {
   box-sizing: border-box;
@@ -2445,6 +1972,491 @@ cagov-post-list .post-list-item {
   .search-container {
     display: block !important; } }
 
+.no-deco {
+  text-decoration: none; }
+
+.cagov-card {
+  border: 1px solid #ededef;
+  padding: 1rem;
+  border-bottom: 0.3rem solid #33705B;
+  border-bottom: 0.3rem solid var(--primary-color, #33705B);
+  border-radius: 0.3rem;
+  min-width: 250px;
+  min-height: 50px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between; }
+
+.cagov-card .card-text {
+  color: #33705B;
+  /* defined here for when css vars are not supported */
+  color: var(--primary-color, #33705B) !important;
+  /* variable used with fallback in case it is not defined */
+  /* color: #33705B !important; */
+  font-size: 1.75rem;
+  line-height: 40px;
+  padding: 0;
+  margin: 0; }
+
+.cagov-card svg {
+  fill: #33705B;
+  fill: var(--primary-color, #33705B);
+  width: 1rem;
+  margin-top: .2rem;
+  margin-left: 1rem;
+  max-height: 25px; }
+
+.cagov-card:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+
+.cagov-grid, .cagov-grid .block-editor-block-list__layout {
+  display: grid;
+  grid-gap: 1.5rem; }
+
+/* editor override */
+.cagov-grid .block-editor-block-list__block {
+  margin: 0; }
+
+/* copied from blocks */
+/* CONTENT NAVIGATION */
+sidebar cagov-content-navigation .label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.2px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px; }
+
+sidebar cagov-content-navigation ul,
+sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+  margin: 0;
+  text-indent: 0;
+  padding: 0; }
+
+sidebar cagov-content-navigation ul li {
+  padding-top: 16px;
+  /* padding-bottom: 16px; */
+  /* margin-bottom: 16px; */
+  margin-top: 16px;
+  border-top: 1px solid #EDEDEF;
+  line-height: 28.2px; }
+
+sidebar cagov-content-navigation ul li:first-child {
+  margin-top: 0px; }
+
+/* copied from blocks */
+.cagov-featured-section h2 {
+  padding-bottom: 16px; }
+
+.cagov-hero-body-content p {
+  margin-bottom: 16px; }
+
+.cagov-p-2 {
+  padding: 1rem; }
+
+.cagov-bkgrd-gry {
+  background-color: #F9F9FA; }
+
+.cagov-featured-sidebar {
+  max-width: 400px;
+  margin-top: 0; }
+
+.cagov-featured-section {
+  margin: 0 0 3rem 0; }
+
+.cagov-featured-section .components-button.image-button {
+  display: block;
+  height: 100%;
+  margin: 0 0 3rem 0;
+  padding: 0; }
+
+.cagov-featured-image {
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  height: 100%;
+  min-width: 18rem;
+  min-height: 20rem;
+  max-height: 420px; }
+
+/* call to action */
+/* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
+.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
+  background-color: #33705B;
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-color, #33705B);
+  /* variable used with fallback in case it is not defined */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  text-decoration: none; }
+
+.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
+  background-color: #33705B;
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-color, #33705B);
+  /* variable used with fallback in case it is not defined */
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  text-decoration: underline; }
+
+.cagov-hero-body-content .wp-block-button__link {
+  overflow-wrap: normal;
+  white-space: nowrap; }
+
+/* sidebar layout */
+.cagov-with-sidebar {
+  overflow: hidden; }
+
+.cagov-with-sidebar > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0; }
+
+.cagov-with-sidebar > * > * {
+  margin: 0;
+  flex-grow: 1; }
+
+.cagov-with-sidebar-left > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(30% - var(0px)); }
+
+.cagov-with-sidebar-right > * > :first-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(30% - 0px); }
+
+/* hero sidebar swap image on left to go on top when it wraps */
+@media (max-width: 719px) {
+  .cagov-with-sidebar > * {
+    flex-direction: column-reverse; } }
+
+@media (min-width: 1200px) {
+  .cagov-featured-sidebar {
+    max-width: 34%; } }
+
+/* copied from block */
+.icon-select {
+  height: 48px;
+  padding: 0 0px 0 16px; }
+
+.editor-styles-wrapper .message-body {
+  padding: 0 32px; }
+
+.editor-styles-wrapper .cagov-page-alert {
+  min-height: 64px;
+  height: auto; }
+
+.cagov-page-alert {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 46px;
+  height: auto;
+  background: rgba(254, 192, 47, 0.2);
+  border: 1px solid #FEC02F;
+  box-sizing: border-box;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px; }
+
+.cagov-page-alert .icon {
+  line-height: 1.5rem; }
+
+.cagov-page-alert .body {
+  line-height: 1.5rem;
+  padding: 0 16px;
+  background-color: transparent; }
+
+@media only screen and (max-width: 600px) {
+  .cagov-page-alert {
+    min-height: 46px;
+    height: auto; } }
+
+/* copied from gutenberg custom block */
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+.cagov-announcement-list h3 {
+  /* font-family: Public Sans; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 24px !important; }
+
+.cagov-announcement-list .read-more a {
+  /* font-family: Public Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: underline;
+  color: #000; }
+
+.cagov-post-list .link-title a {
+  color: #064E66;
+  font-weight: normal;
+  text-decoration: underline;
+  line-height: 32.9px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 8px; }
+
+.cagov-announcement-list .post-list-item {
+  margin: 0;
+  padding: 0; }
+
+.cagov-announcement-list .post-list-item {
+  list-style: none;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 24px; }
+
+.cagov-announcement-list .post-list-item .date {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0px;
+  color: #000; }
+
+/* @TODO These px values need to be converted to relative values */
+/* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
+/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+.cagov-post-list .post-list-title {
+  /* font-family: Public Sans; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 24px; }
+
+.cagov-post-list .read-more a {
+  /* font-family: Public Sans; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000; }
+
+.cagov-post-list .link-title a {
+  color: #064E66;
+  font-weight: 700;
+  line-height: 32.9px;
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-decoration: none; }
+
+.cagov-post-list .excerpt,
+.cagov-post-list .excerpt p {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  margin-bottom: 8px; }
+
+cagov-post-list .post-list-item {
+  margin: 0;
+  padding: 0; }
+
+cagov-post-list .post-list-item {
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 24px; }
+
+.cagov-post-list .post-list-item .date {
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 0px;
+  color: #000;
+  font-weight: 700; }
+
+@media only screen and (max-width: 580px) {
+  .cagov-post-list h3 {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 24px; }
+  .cagov-post-list .read-more a {
+    /* font-family: Public Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000; }
+  .cagov-post-list .link-title a {
+    color: #064E66;
+    font-weight: 700;
+    line-height: 28.2px;
+    font-size: 24px;
+    margin-bottom: 8px;
+    text-decoration: none; }
+  .cagov-post-list .excerpt,
+  .cagov-post-list .excerpt p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px; }
+  cagov-post-list .post-list-item {
+    margin: 0;
+    padding: 0; }
+  cagov-post-list .post-list-item {
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 16px; }
+  .cagov-post-list .post-list-item .date {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0px;
+    color: #000;
+    font-weight: 700; } }
+
+/* copied from block */
+/* step list */
+ol.steps {
+  padding-left: 0 !important;
+  margin-left: 30px !important; }
+
+ol.steps li {
+  list-style: none;
+  border-left: 5px solid #fec02f;
+  font-size: 1.75rem;
+  font-weight: 700;
+  position: relative;
+  padding-left: 45px;
+  line-height: 1.5; }
+
+ol.steps li:before {
+  content: "";
+  font-family: "Public Sans";
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding: 0 13px 0 13px;
+  border: 5px solid #fec02f;
+  background-color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  position: absolute;
+  left: -29px;
+  top: -5px;
+  margin-left: -1px; }
+
+ol.steps li span.has-black-color {
+  margin-top: 1rem;
+  padding-bottom: 1.75rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  display: block; }
+
+ol.steps li:first-child:before {
+  content: "1";
+  padding: 0 16px 0 16px; }
+
+ol.steps li:nth-child(2):before {
+  content: "2"; }
+
+ol.steps li:nth-child(3):before {
+  content: "3"; }
+
+ol.steps li:nth-child(4):before {
+  content: "4"; }
+
+ol.steps li:nth-child(5):before {
+  content: "5"; }
+
+ol.steps li:nth-child(6):before {
+  content: "6"; }
+
+ol.steps li:nth-child(7):before {
+  content: "7"; }
+
+ol.steps li:nth-child(8):before {
+  content: "8"; }
+
+ol.steps li:nth-child(9):before {
+  content: "9"; }
+
+ol.steps li:nth-child(10):before {
+  content: "10";
+  padding: 0 7px 0 7px;
+  margin-left: -1px; }
+
+ol.steps li:nth-child(11):before {
+  content: "11";
+  padding: 0 10px 0 10px; }
+
+ol.steps li:nth-child(12):before {
+  content: "12";
+  padding: 0 8px 0 8px;
+  margin-left: -1px; }
+
+ol.steps li:nth-child(13):before {
+  content: "13";
+  padding: 0 7px 0 7px; }
+
+ol.steps li:nth-child(14):before {
+  content: "14";
+  padding: 0 7px 0 7px; }
+
+ol.steps li:nth-child(15):before {
+  content: "15";
+  padding: 0 7px 0 8px;
+  margin-left: 3px; }
+
+ol.steps li:nth-child(16):before {
+  content: "16";
+  padding: 0 7px 0 7px; }
+
+ol.steps li:nth-child(17):before {
+  content: "17";
+  padding: 0 7px 0 7px; }
+
+ol.steps li:nth-child(18):before {
+  content: "18";
+  padding: 0 7px 0 7px; }
+
+ol.steps li:nth-child(19):before {
+  content: "19";
+  padding: 0 7px 0 7px; }
+
+ol.steps li:nth-child(20):before {
+  content: "20";
+  padding: 0 5px 0 5px; }
+
+ol.steps li:nth-child(21):before {
+  content: "21";
+  padding: 0 6px 0 6px; }
+
+ol.steps li:nth-child(22):before {
+  content: "22";
+  padding: 0 5px 0 5px; }
+
+ol.steps li:nth-child(23):before {
+  content: "23";
+  padding: 0 5px 0 5px; }
+
+ol.steps li:nth-child(24):before {
+  content: "24";
+  padding: 0 5px 0 5px; }
+
+ol.steps li:last-child {
+  border-left: none; }
+
+/* NAVIGATION ELEMENTS */
 /*official*/
 .official-header {
   background-color: #f9f9fa;
