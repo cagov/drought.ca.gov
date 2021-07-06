@@ -1,7 +1,6 @@
 /* GLOBAL */
 /* Cannabis color scheme */
 /* Colorscheme root variables */
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap");
 :root {
   --primary-color: #691808;
   --primary-hover-color: #043747;
@@ -14,6 +13,60 @@
 /* spasing, margin and padding values */
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 /* Fonts (global) */
+/* latin-ext */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/publicsans-regular-webfont.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/publicsans-regular-webfont.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/publicsans-bold-webfont.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/publicsans-bold-webfont.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+/* latin-ext */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/publicsans-light-webfont.woff2") format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+/* latin */
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/ppublicsans-light-webfont.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 /* website global fonts */
 /* -----------------------------------------
    ICON FONTS - /source/scss/cagov/icon-font.scss
@@ -1598,6 +1651,17 @@ a {
 h1.page-title {
   margin: 0 0 0 0;
   padding: 0 0 24px 0; }
+
+/* Remove any margins from tags in Gutenberg blocks */
+.cagov-stack h1,
+.cagov-stack h2,
+.cagov-stack h3,
+.cagov-stack h4,
+.cagov-card h1,
+.cagov-card h2,
+.cagov-card h3,
+.cagov-card h4 {
+  margin: 0; }
 
 @media only screen and (max-width: 992px) {
   /* Typography */
