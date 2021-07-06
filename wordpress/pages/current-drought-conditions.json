@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2021-07-06T15:01:51",
+    "updated_date": "2021-07-06T15:46:57",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "Current drought conditions",
     "author": "Admin",
     "date": "2021-07-04T14:33:43",
-    "modified": "2021-07-06T08:01:51",
+    "modified": "2021-07-06T08:46:57",
     "date_gmt": "2021-07-04T14:33:43",
-    "modified_gmt": "2021-07-06T15:01:51",
+    "modified_gmt": "2021-07-06T15:46:57",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
     "excerpt": "<p>Content here</p>\n",
     "type": "page",

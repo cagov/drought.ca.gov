@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-04T14:33:07",
-    "updated_date": "2021-07-06T15:47:20",
+    "created_date": "2021-07-06T15:42:41",
+    "updated_date": "2021-07-06T15:46:15",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -12,29 +12,31 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 27,
-    "slug": "state-drought-response",
-    "title": "State drought response",
+    "id": 132,
+    "slug": "development-sample-page",
+    "title": "Development",
     "author": "Admin",
-    "date": "2021-07-04T14:33:07",
-    "modified": "2021-07-06T08:47:20",
-    "date_gmt": "2021-07-04T14:33:07",
-    "modified_gmt": "2021-07-06T15:47:20",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-drought-response/",
-    "excerpt": "<p>Content here</p>\n",
+    "date": "2021-07-06T08:42:41",
+    "modified": "2021-07-06T08:46:15",
+    "date_gmt": "2021-07-06T15:42:41",
+    "modified_gmt": "2021-07-06T15:46:15",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+    "excerpt": "<p>This is a page with of all gutenberg blocks and other settings, for rendering tests. Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
     "type": "page",
     "design_system_fields": {
       "template": "page"
     },
     "og_meta": {
       "_genesis_title": [
-        "State drought response"
+        "Page meta title"
       ],
       "_genesis_description": [
-        "Learn more about current conditions, the state’s response and informational resources available to the public."
+        "Page meta description"
       ],
       "_genesis_canonical_uri": "",
-      "_social_image_url": "",
+      "_social_image_url": [
+        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-cropped-65535_51212545511_72587a3916_h_1024_800_nofilter.jpg"
+      ],
       "_open_graph_title": "",
       "_open_graph_description": "",
       "_twitter_title": "",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:50:45",
-    "updated_date": "2021-07-06T15:01:54",
+    "updated_date": "2021-07-06T15:47:03",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "How you can help",
     "author": "Admin",
     "date": "2021-07-04T14:50:45",
-    "modified": "2021-07-06T08:01:54",
+    "modified": "2021-07-06T08:47:03",
     "date_gmt": "2021-07-04T14:50:45",
-    "modified_gmt": "2021-07-06T15:01:54",
+    "modified_gmt": "2021-07-06T15:47:03",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
     "excerpt": "<p>Content here</p>\n",
     "type": "page",
