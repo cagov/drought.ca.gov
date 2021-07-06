@@ -12,6 +12,7 @@ footer {
 	a {
 		&:hover {
 			color: $primary-dark;
+			text-decoration: none;
 		}
 		&:focus {
 			outline: 2px solid $secondary;
