@@ -12,7 +12,10 @@ const replacementPaths = {
   // }, // Still thinking about this
   media: {
     src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
-    target: "/media/"
+    target: "/media/",
+    targetPermalink: "https://drought.ca.gov",
+    targetPermalinkTest: "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/",
+    targetStage: "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/", // Need url - @TODO we need a domain specific path here
   },
 };
 
@@ -39,9 +42,11 @@ module.exports = function(eleventyConfig) {
         item.data.id = item.data.wordpress.dataset.data.id;
 
         // let apiString = new RegExp('\\' + replacementPaths.api.src, 'gi');
-        let mediaString = new RegExp('\\' + replacementPaths.media.src, 'gi');
-        replaceContent(item,mediaString,replacementPaths.media.target);
+        let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
+        
+        item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.target);
 
+        item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(mediaString,replacementPaths.media.targetPermalinkTest); // Seeing if we can test in card debugger
       }
       output.push(item);
     });
