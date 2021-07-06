@@ -61,6 +61,15 @@ cagov-navoverlay {
   display: none;
 }
 
+.main-content-ds.single-column.landing {
+  .wide-page-title {
+    display: none;
+  }
+  .narrow-page-title {
+    display: none;
+  }
+}
+
 /* Gutenberg Block alignment */
 
 /* Class applied to most external element of a gutenberg block component. Controls spacing between blocks. */
@@ -85,6 +94,10 @@ cagov-navoverlay {
   overflow-wrap: break-word;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+.wp-block-column:first-child {
+  margin-right: 32px;
 }
 
 /* Update position list element */
@@ -124,6 +137,15 @@ main ul li {
     margin-top: 16px;
   }
 
+  .main-content-ds.single-column.landing {
+    .wide-page-title {
+      display: none;
+    }
+    .narrow-page-title {
+      display: none;
+    }
+  }
+
   /* Content Navigation */
   cagov-content-navigation .label {
     display: none;
@@ -159,3 +181,4 @@ main ul li {
 .wp-block-table table td {
   border: 1px solid #ededef !important;
 }
+
