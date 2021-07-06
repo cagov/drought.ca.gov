@@ -1,3 +1,4 @@
+const fs = require('fs');
 const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
@@ -18,6 +19,8 @@ module.exports = function(eleventyConfig) {
 
     return output;
   });
+
+  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
 
   return {
     htmlTemplateEngine: "njk",
