@@ -1031,3 +1031,14 @@ class CAGovPageAlert extends window.HTMLElement {
 if (customElements.get("cagov-page-alert") === undefined) {
   window.customElements.define("cagov-page-alert", CAGovPageAlert);
 }
+
+// setupAnalytics
+
+
+function setupAnalytics() {
+    console.log("Setting up analytics");
+}
+
+window.onload = (event) => {
+    setupAnalytics();
+};

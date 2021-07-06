@@ -31,6 +31,8 @@
   <!-- Favicon @TODO needs asset folder to be exposed to docs -->
   <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
   <link rel="shortcut icon" href="/assets/img/cagov_favicon.ico">
+  <!-- Google Analytics performance -->
+  <link rel="preconnect" href="https://www.google-analytics.com/">
   <!-- CSS -->
   
   <!-- the inlined hardcoded grid css below is there because it was breaking sass compilation -->
@@ -236,7 +238,16 @@
         </div>
     </div>
 </div>
-  <!-- per page feedback --> 
+  <!-- Google Analytics Setup -->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-21970760-32', 'auto');
+ga('set', 'transport', 'beacon');
+ga('send', 'pageview');
+</script>
+<script async defer src='https://www.google-analytics.com/analytics.js'></script>
+
+<!-- per page feedback --> 
 <div class="content-footer mb-3">
   <cagov-feedback data-endpoint-url="https://fa-go-feedback-001.azurewebsites.net/sendfeedback"></cagov-feedback>
 </div>
@@ -1405,6 +1416,17 @@ class CAGovPageAlert extends window.HTMLElement {
 if (customElements.get("cagov-page-alert") === undefined) {
   window.customElements.define("cagov-page-alert", CAGovPageAlert);
 }
+
+// setupAnalytics
+
+
+function setupAnalytics() {
+    console.log("Setting up analytics");
+}
+
+window.onload = (event) => {
+    setupAnalytics();
+};
 
   
   </script>
