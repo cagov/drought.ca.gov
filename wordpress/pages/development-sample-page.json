@@ -54,6 +54,20 @@
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
     "parent": 0,
-    "menu_order": 0
+    "menu_order": 0,
+    "media": [
+      {
+        "id": 33,
+        "type": "large",
+        "path": "2021/07/65535_51212545511_72587a3916_h_1024_800_nofilter-640x500.jpg",
+        "file": "65535_51212545511_72587a3916_h_1024_800_nofilter-640x500.jpg",
+        "width": 640,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/65535_51212545511_72587a3916_h_1024_800_nofilter-640x500.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
