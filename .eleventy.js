@@ -5,7 +5,8 @@ const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
 const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
-const DEFAULT_SITE_DOMAIN_OG_TAGS = SITE_DOMAIN !== "" ? SITE_DOMAIN : "https://d24fehwpk146d4.cloudfront.net"; // @TODO swap to: "https://drought.ca.gov"
+const DEFAULT_SITE_DOMAIN_OG_TAGS = SITE_DOMAIN !== "" ? SITE_DOMAIN : "https://github.com/cagov/drought.ca.gov/raw/main/wordpress"; // @TODO swap to: "https://drought.ca.gov"
+
 
 const replacementPaths = {
   // api: {
