@@ -54,6 +54,44 @@
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
     "parent": 0,
-    "menu_order": 0
+    "menu_order": 0,
+    "media": [
+      {
+        "id": 210,
+        "type": "full",
+        "path": "2021/07/newsom-low-reservoir.png",
+        "file": "newsom-low-reservoir.png",
+        "width": 759,
+        "height": 506,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 210,
+        "type": "large",
+        "path": "2021/07/newsom-low-reservoir-750x500.png",
+        "file": "newsom-low-reservoir-750x500.png",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-750x500.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 210,
+        "type": "medium",
+        "path": "2021/07/newsom-low-reservoir-300x200.png",
+        "file": "newsom-low-reservoir-300x200.png",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-300x200.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
