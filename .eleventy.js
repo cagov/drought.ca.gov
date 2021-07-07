@@ -4,7 +4,7 @@ const CleanCSS = require("clean-css");
 const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
-
+const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
 const replacementPaths = {
   // api: {
   //   src: "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,7 +13,7 @@ const replacementPaths = {
   media: {
     src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
     target: "/media/",
-    targetPermalink: `${process.env.SITE_DOMAIN}/media/`,
+    targetPermalink: `${SITE_DOMAIN}/media/`,
     targetPermalinkTest: "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/"
   },
 };
