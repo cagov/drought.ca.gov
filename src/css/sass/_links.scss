@@ -1,6 +1,9 @@
 /* Links global styles */
 a {
   color: $primary;
+  &:hover {
+    color: darken($color: $primary, $amount: 15%);
+  }
   &:focus {
     outline: 2px solid $secondary;
   }
