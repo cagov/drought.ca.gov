@@ -54,6 +54,7 @@ function processFile(file, fileNameMap, loc) {
 function getPageMeta(data) {
   let page_meta = {};
   page_meta.page_title = getHeadTags(data, "page_title");
+  page_meta.page_description = getHeadTags(data, "page_description");
   page_meta.site_title = getHeadTags(data, "site_title");
   page_meta.site_description = getHeadTags(data, "site_description");
   page_meta.canonical_url = getHeadTags(data, "canonical_url");
@@ -105,27 +106,32 @@ function getHeadTags(data, field) {
     } catch (error) {
       console.error("No site, page or post title found.")
     }
-    return "California Drought Action";
+    return "California drought action";
   }
   if (field === "site_title") {
     try {
-      if (data.og_meta._genesis_title !== "") {
-        return data.og_meta._genesis_title;
-      } else {
         return data.site_settings.site_name;
-      }
     } catch (error) {
       console.error("No site, page or post title found.")
     }
-    return "California Drought Action";
+    return "California drought action";
   }
-  if (field === "site_description") {
+  if (field === "page_description") {
     try {
       if (data.og_meta._genesis_description !== "") {
         return data.og_meta._genesis_description[0];
+      } else if (data.og_meta._open_graph_description) {
+        return data.og_meta._open_graph_description[0];
       } else {
         return data.site_settings.site_description;
       }
+    } catch (error) {
+      console.error("No site, page or post description found.")
+    }
+  }
+  if (field === "site_description") {
+    try {
+        return data.site_settings.site_description;
     } catch (error) {
       console.error("No site, page or post description found.")
     }
