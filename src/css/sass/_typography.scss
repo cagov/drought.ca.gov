@@ -104,3 +104,24 @@ h6,
     font-size: 1rem;
   }
 }
+
+/* lists */
+
+ul.list-highlight {
+  li {
+    list-style: none;
+    background-color: $gray-100;
+    padding: 24px;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    font-size: 1.75rem;
+    font-weight: $bold;
+    span.has-black-color {
+      margin-top: 1rem;
+      font-size: $body-text;
+      font-weight: $regular;
+      display: block;
+      line-height: 1.6;
+    }
+  }
+}
