@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T19:45:28",
-    "updated_date": "2021-07-07T00:41:56",
+    "updated_date": "2021-07-07T23:26:22",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,12 +17,12 @@
     "title": "Resources",
     "author": "Admin",
     "date": "2021-07-04T12:45:28",
-    "modified": "2021-07-06T17:41:56",
+    "modified": "2021-07-07T16:26:22",
     "date_gmt": "2021-07-04T19:45:28",
-    "modified_gmt": "2021-07-07T00:41:56",
+    "modified_gmt": "2021-07-07T23:26:22",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/resources/",
-    "excerpt": "<p>More drought resources from California state agencies: Drought information and updates Defining drought Coping with droughts and floods with water resilience Drought related actions to preserve and protect the state’s fish and wildlife resources Drought assistance for farmers and ranchers Water Assistance: ​Contacting County Emergency Managers Report a dry well Track dry wells and household &#8230; <a title=\"Resources\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/resources/\" aria-label=\"More on Resources\">Read more</a></p>\n",
+    "excerpt": "<p>More drought resources from California state agencies: Drought information and updates Defining drought Coping with droughts and floods with water resilience Drought related actions to preserve and protect the state’s fish and wildlife resources Drought assistance for farmers and ranchers Water Assistance: ​Contacting County Emergency Managers Report water waste Report a dry well Track dry &#8230; <a title=\"Resources\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/resources/\" aria-label=\"More on Resources\">Read more</a></p>\n",
     "type": "page",
     "design_system_fields": {
       "template": "template-page-single-column"

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:07",
-    "updated_date": "2021-07-07T22:32:20",
+    "updated_date": "2021-07-07T23:32:14",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "State drought response",
     "author": "Admin",
     "date": "2021-07-04T14:33:07",
-    "modified": "2021-07-07T15:32:20",
+    "modified": "2021-07-07T16:32:14",
     "date_gmt": "2021-07-04T14:33:07",
-    "modified_gmt": "2021-07-07T22:32:20",
+    "modified_gmt": "2021-07-07T23:32:14",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-drought-response/",
     "excerpt": "<p>After two exceptionally dry winters, California is once again experiencing drought conditions. Here&#8217;s how the state is taking action: We’re giving agencies the tools they need to tackle the drought emergency. We’re addressing long-standing water challenges. And we’re securing vital and limited water supplies to sustain our state into the future. Since our last major &#8230; <a title=\"State drought response\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/state-drought-response/\" aria-label=\"More on State drought response\">Read more</a></p>\n",
     "type": "page",
