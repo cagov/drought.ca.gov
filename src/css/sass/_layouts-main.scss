@@ -98,6 +98,7 @@
 /* Update position list element */
 main ul li {
   list-style-position: outside;
+  margin-left: 32px;
 }
 
 @media only screen and (max-width: 992px) {
