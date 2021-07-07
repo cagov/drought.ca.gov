@@ -16,7 +16,7 @@ cagov-accordion.prog-enhanced button.accordion-card-header {
     cursor:pointer;
 }
 
-cagov-accordion.prog-enhanced button a {
+button.accordion-card-header:hover .accordion-title:hover {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-position: under;
