@@ -1,5 +1,6 @@
 const fs = require('fs');
 const CleanCSS = require("clean-css");
+const htmlmin = require("html-minifier");
 
 const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
@@ -58,6 +59,20 @@ module.exports = function(eleventyConfig) {
     });
 
     return output;
+  });
+
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
+    if( outputPath && outputPath.endsWith(".html") ) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+
+    return content;
   });
  
   eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
