@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "created_date": "2021-07-07T22:29:48",
+    "updated_date": "2021-07-07T22:31:26",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 210,
+    "slug": "newsom-low-reservoir",
+    "title": "newsom-low-reservoir",
+    "date": "2021-07-07T15:29:48",
+    "modified": "2021-07-07T15:31:26",
+    "date_gmt": "2021-07-07T22:29:48",
+    "modified_gmt": "2021-07-07T22:31:26",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
+    "type": "attachment",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/newsom-low-reservoir.png",
+        "file": "newsom-low-reservoir.png",
+        "width": 759,
+        "height": 506,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/newsom-low-reservoir-750x500.png",
+        "file": "newsom-low-reservoir-750x500.png",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-750x500.png"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/newsom-low-reservoir-300x200.png",
+        "file": "newsom-low-reservoir-300x200.png",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-300x200.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/newsom-low-reservoir-150x150.png",
+        "file": "newsom-low-reservoir-150x150.png",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-150x150.png"
+      }
+    ]
+  }
+}
