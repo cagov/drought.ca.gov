@@ -7,9 +7,8 @@ const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
 // const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
 const SITE_DOMAIN = ""; // Relative links only for local images in display.
 // const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net";
-const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io";
-
+// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net/media/";
+const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/";
 
 const replacementPaths = {
   // api: {
@@ -20,7 +19,7 @@ const replacementPaths = {
     src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
     target: "/media/",
     targetPermalink: `${SITE_DOMAIN}/media/`,
-    targetPermalinkOGTags: `${DEFAULT_SITE_DOMAIN_OG_TAGS}/media/`,
+    targetPermalinkOGTags: `${DEFAULT_SITE_DOMAIN_OG_TAGS}`,
     targetPermalinkTest: "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/"
   },
 };
@@ -51,7 +50,9 @@ module.exports = function(eleventyConfig) {
         let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
         item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
 
-        item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(mediaString,replacementPaths.media.targetPermalinkOGTags).replace(/Untitled \&\#x2d\; /g, ""); // Seeing if we can test in card debugger
+        // item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(mediaString,replacementPaths.media.targetPermalinkOGTags);
+        
+        item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(/Untitled \&\#x2d\; /g, ""); // Seeing if we can test in card debugger
       }
       output.push(item);
     });
