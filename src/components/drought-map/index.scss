@@ -9,6 +9,7 @@
     }
     .drought-map-image img {
         width: 620px;
+        border: 1px solid #f1f1f3;
         @media (max-width: 779px) {
             width: 330px;
         }
