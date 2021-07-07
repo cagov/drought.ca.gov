@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:50:45",
-    "updated_date": "2021-07-06T22:06:37",
+    "updated_date": "2021-07-07T17:28:01",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "How you can help",
     "author": "Admin",
     "date": "2021-07-04T14:50:45",
-    "modified": "2021-07-06T15:06:37",
+    "modified": "2021-07-07T10:28:01",
     "date_gmt": "2021-07-04T14:50:45",
-    "modified_gmt": "2021-07-06T22:06:37",
+    "modified_gmt": "2021-07-07T17:28:01",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
     "excerpt": "<p>Be drought-aware Drought levels vary across the state, but all Californians live in a drought zone. And all Californians can play an important role in limiting the impact of drought. Use water wisely In recent years, Californians have embraced some great daily habits to save water: Taking 5-minute showers Turning off the faucet when brushing &#8230; <a title=\"How you can help\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/\" aria-label=\"More on How you can help\">Read more</a></p>\n",
     "type": "page",
