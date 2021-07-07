@@ -24,7 +24,6 @@ module.exports = function(eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-
   const replaceContent = (item,searchValue,replaceValue) => {
     item.template.frontMatter.content = item.template.frontMatter.content
       .replace(searchValue,replaceValue);
