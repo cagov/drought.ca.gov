@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-07-06T23:01:26",
+    "updated_date": "2021-07-06T23:49:16",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "Newsroom",
     "author": "Admin",
     "date": "2021-07-04T14:51:19",
-    "modified": "2021-07-06T16:01:26",
+    "modified": "2021-07-06T16:49:16",
     "date_gmt": "2021-07-04T14:51:19",
-    "modified_gmt": "2021-07-06T23:01:26",
+    "modified_gmt": "2021-07-06T23:49:16",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
     "excerpt": "<p>Governor Newsom Takes Action to Respond to Drought Conditions&nbsp;April 21, 2021 &#8211; With much of the West experiencing drought conditions and California squarely in a second consecutive dry year, Governor Gavin Newsom today directed state agencies to take immediate action to bolster drought resilience and prepare for impacts on communities, businesses and ecosystems if dry &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
     "type": "page",
