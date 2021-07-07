@@ -3010,7 +3010,7 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
     margin-bottom: 12px; }
   .cagov-drought-map .drought-map-legend {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); }
+    grid-template-columns: 36% 36% 28%; }
     @media (max-width: 779px) {
       .cagov-drought-map .drought-map-legend {
         grid-template-columns: repeat(1, 1fr); } }
@@ -3027,6 +3027,8 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
         .cagov-drought-map .drought-map-legend .col-3 {
           grid-column: 1; } }
     .cagov-drought-map .drought-map-legend .legend span.intensity {
+      position: relative;
+      top: 5px;
       width: 24px;
       height: 24px;
       border-radius: 6px;
