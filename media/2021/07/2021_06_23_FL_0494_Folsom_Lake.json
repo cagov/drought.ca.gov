@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "created_date": "2021-07-06T22:45:07",
+    "updated_date": "2021-07-06T22:45:31",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 176,
+    "slug": "2021_06_23_fl_0494_folsom_lake",
+    "title": "2021_06_23_FL_0494_Folsom_Lake",
+    "author": "Peggy Gartin",
+    "date": "2021-07-06T15:45:07",
+    "modified": "2021-07-06T15:45:31",
+    "date_gmt": "2021-07-06T22:45:07",
+    "modified_gmt": "2021-07-06T22:45:31",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+    "type": "attachment",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+        "file": "2021_06_23_FL_0494_Folsom_Lake.jpg",
+        "width": 1200,
+        "height": 800,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
+        "file": "2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
+        "width": 768,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
+        "file": "2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg",
+        "file": "2021_06_23_FL_0494_Folsom_Lake-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
+        "file": "2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg"
+      }
+    ]
+  }
+}
