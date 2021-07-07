@@ -14,6 +14,7 @@ const replacementPaths = {
     src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
     target: "/media/",
     targetPermalink: `${SITE_DOMAIN}/media/`,
+    targetPermalinkOGTags: `${SITE_DOMAIN}/media/`,
     targetPermalinkTest: "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/"
   },
 };
@@ -42,10 +43,9 @@ module.exports = function(eleventyConfig) {
 
         // let apiString = new RegExp('\\' + replacementPaths.api.src, 'gi');
         let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
-        
         item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
 
-        item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(mediaString,replacementPaths.media.targetPermalink); // Seeing if we can test in card debugger
+        item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(mediaString,replacementPaths.media.targetPermalinkOGTags).replace("Untitled &#x2d;", ""); // Seeing if we can test in card debugger
       }
       output.push(item);
     });
