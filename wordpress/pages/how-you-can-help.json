@@ -54,32 +54,6 @@
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
     "parent": 0,
-    "menu_order": 0,
-    "media": [
-      {
-        "id": 167,
-        "type": "full",
-        "path": "2021/07/savewater.jpg",
-        "file": "savewater.jpg",
-        "width": 660,
-        "height": 458,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/savewater.jpg",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 167,
-        "type": "medium",
-        "path": "2021/07/savewater-300x208.jpg",
-        "file": "savewater-300x208.jpg",
-        "width": 300,
-        "height": 208,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/savewater-300x208.jpg",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "menu_order": 0
   }
 }

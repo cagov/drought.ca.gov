@@ -54,32 +54,6 @@
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
     "parent": 0,
-    "menu_order": 0,
-    "media": [
-      {
-        "id": 165,
-        "type": "full",
-        "path": "2021/07/GovernorGavinNewsom.jpg",
-        "file": "GovernorGavinNewsom.jpg",
-        "width": 660,
-        "height": 458,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/GovernorGavinNewsom.jpg",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 165,
-        "type": "medium",
-        "path": "2021/07/GovernorGavinNewsom-300x208.jpg",
-        "file": "GovernorGavinNewsom-300x208.jpg",
-        "width": 300,
-        "height": 208,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/GovernorGavinNewsom-300x208.jpg",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "menu_order": 0
   }
 }
