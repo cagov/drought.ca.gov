@@ -1,3 +1,10 @@
+# DS_Store
+.DS_Store
+
+# dynamically generated css
+src/css/index.css
+src/css/index.css.map
+
 # 11ty
 docs/
 
