@@ -45,7 +45,7 @@
   {%- if templatestring == 'landing' -%}
     {% include "../layouts/templates/landing.njk" %}
   {# Pages that don't have content navigation #}
-  {%- elif templatestring == 'single-column' -%}
+  {%- elif templatestring == 'template-page-single-column' -%}
     {% include "../layouts/templates/single-column.njk" %}  
   {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
   {% elif templatestring == 'page' -%}

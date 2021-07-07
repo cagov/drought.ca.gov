@@ -2041,7 +2041,8 @@ sidebar cagov-content-navigation ul li {
   /* margin-bottom: 16px; */
   margin-top: 16px;
   border-top: 1px solid #EDEDEF;
-  line-height: 28.2px; }
+  line-height: 28.2px;
+  margin-left: 24px; }
 
 sidebar cagov-content-navigation ul li:first-child {
   margin-top: 0px; }
@@ -3131,7 +3132,8 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
 
 /* Update position list element */
 main ul li {
-  list-style-position: outside; }
+  list-style-position: outside;
+  margin-left: 32px; }
 
 @media only screen and (max-width: 992px) {
   .with-sidebar .main-content-default,
