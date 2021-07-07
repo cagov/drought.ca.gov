@@ -1638,10 +1638,20 @@ pre > code {
 
 /* pre, code, var generic styles */
 /* Forms generic styles*/
+textarea, input {
+  background-color: #fff;
+  color: #000 !important;
+  font-size: 1.125rem;
+  font-weight: 400; }
+  textarea:focus, input:focus {
+    outline: 2px solid #fec02f; }
+
 /* input, textarea, select generic styles */
 /* Links global styles */
 a {
   color: #691808; }
+  a:hover {
+    color: #220803; }
   a:focus {
     outline: 2px solid #fec02f; }
 
