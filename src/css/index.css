@@ -3157,6 +3157,8 @@ main ul li {
     display: block;
     margin-bottom: 16px;
     margin-top: 16px; }
+  .main-content-ds.single-column .wide-page-title {
+    display: none; }
   .main-content-ds.single-column.landing .wide-page-title {
     display: none; }
   .main-content-ds.single-column.landing .narrow-page-title {
