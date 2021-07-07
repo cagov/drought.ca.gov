@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "created_date": "2021-07-07T22:33:03",
+    "updated_date": "2021-07-07T22:33:20",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 213,
+    "slug": "save-water-bottle",
+    "title": "save-water-bottle",
+    "date": "2021-07-07T15:33:03",
+    "modified": "2021-07-07T15:33:20",
+    "date_gmt": "2021-07-07T22:33:03",
+    "modified_gmt": "2021-07-07T22:33:20",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+    "type": "attachment",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/save-water-bottle.png",
+        "file": "save-water-bottle.png",
+        "width": 759,
+        "height": 506,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/save-water-bottle-750x500.png",
+        "file": "save-water-bottle-750x500.png",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/save-water-bottle-300x200.png",
+        "file": "save-water-bottle-300x200.png",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/save-water-bottle-150x150.png",
+        "file": "save-water-bottle-150x150.png",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-150x150.png"
+      }
+    ]
+  }
+}
