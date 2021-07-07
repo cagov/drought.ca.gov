@@ -4,8 +4,11 @@ const CleanCSS = require("clean-css");
 const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
-const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
-const DEFAULT_SITE_DOMAIN_OG_TAGS = SITE_DOMAIN !== "" ? SITE_DOMAIN : "https://github.com/cagov/drought.ca.gov/raw/main/wordpress"; // @TODO swap to: "https://drought.ca.gov"
+// const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
+const SITE_DOMAIN = ""; // Relative links only for local images in display.
+// const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com";
+// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net";
+const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io";
 
 
 const replacementPaths = {
