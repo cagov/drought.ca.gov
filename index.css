@@ -1725,20 +1725,16 @@ main ul li {
     margin-top: 16px; }
   .main-content-ds.single-column .wide-page-title {
     display: none; }
+  main .wp-block-image.size-large img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    margin-bottom: 32px; }
   .main-content-ds.single-column.landing .wide-page-title {
     display: none; }
   .main-content-ds.single-column.landing .narrow-page-title {
     display: none; }
-  /* Content Navigation */
-  cagov-content-navigation .label {
-    display: none; }
-  sidebar cagov-content-navigation ul li:last-child {
-    padding-bottom: 16px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid #ededef; }
-  cagov-content-navigation ul li a {
-    font-size: 16px;
-    line-height: 24px; }
   /* Content Menu */
   .content-footer {
     display: flex;
@@ -2299,6 +2295,21 @@ sidebar cagov-content-navigation ul li {
 
 sidebar cagov-content-navigation ul li:first-child {
   margin-top: 0px; }
+
+@media only screen and (max-width: 992px) {
+  cagov-content-navigation .label {
+    display: none; }
+  .sidebar-container {
+    display: block;
+    width: 100%;
+    max-width: 100%; }
+  sidebar cagov-content-navigation ul li:last-child {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #EDEDEF; }
+  cagov-content-navigation ul li a {
+    font-size: 16px;
+    line-height: 24px; } }
 
 /* copied from blocks */
 .cagov-featured-section h2 {
