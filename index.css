@@ -2013,8 +2013,7 @@ cagov-accordion.prog-enhanced .accordion-alpha .plus-minus {
   margin-top: 8px; }
 
 cagov-accordion.prog-enhanced button.accordion-card-header {
-  cursor: pointer;
-  /* incredible comment 3 */ }
+  cursor: pointer; }
 
 button.accordion-card-header:hover .accordion-title:hover {
   text-decoration: underline;
