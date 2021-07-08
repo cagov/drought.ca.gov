@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-07-07T00:41:41",
+    "updated_date": "2021-07-07T23:46:16",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,12 +17,12 @@
     "title": "Newsroom",
     "author": "Admin",
     "date": "2021-07-04T14:51:19",
-    "modified": "2021-07-06T17:41:41",
+    "modified": "2021-07-07T16:46:16",
     "date_gmt": "2021-07-04T14:51:19",
-    "modified_gmt": "2021-07-07T00:41:41",
+    "modified_gmt": "2021-07-07T23:46:16",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
-    "excerpt": "<p>Governor Newsom Takes Action to Respond to Drought Conditions&nbsp;April 21, 2021 &#8211; With much of the West experiencing drought conditions and California squarely in a second consecutive dry year, Governor Gavin Newsom today directed state agencies to take immediate action to bolster drought resilience and prepare for impacts on communities, businesses and ecosystems if dry &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "excerpt": "<p>Governor Newsom Takes Action to Respond to Drought Conditions April 21, 2021 &#8211; With much of the West experiencing drought conditions and California squarely in a second consecutive dry year, Governor Gavin Newsom today directed state agencies to take immediate action to bolster drought resilience and prepare for impacts on communities, businesses and ecosystems if &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
     "type": "page",
     "design_system_fields": {
       "template": "template-page-single-column"
