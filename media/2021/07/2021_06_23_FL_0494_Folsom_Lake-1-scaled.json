@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T13:33:33",
-    "updated_date": "2021-07-08T13:34:43",
+    "updated_date": "2021-07-08T13:53:10",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -14,12 +14,12 @@
   "data": {
     "id": 246,
     "slug": "2021_06_23_fl_0494_folsom_lake-2",
-    "title": "2021_06_23_FL_0494_Folsom_Lake",
+    "title": "Low water drought conditions at Folsom Lake (High-res)",
     "author": "Admin",
     "date": "2021-07-08T06:33:33",
-    "modified": "2021-07-08T06:34:43",
+    "modified": "2021-07-08T06:53:10",
     "date_gmt": "2021-07-08T13:33:33",
-    "modified_gmt": "2021-07-08T13:34:43",
+    "modified_gmt": "2021-07-08T13:53:10",
     "media_type": "image",
     "mime_type": "image/jpeg",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-1-scaled.jpg",

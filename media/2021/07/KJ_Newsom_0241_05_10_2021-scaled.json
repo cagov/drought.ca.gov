@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T13:32:52",
-    "updated_date": "2021-07-08T13:32:52",
+    "updated_date": "2021-07-08T13:52:07",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -14,12 +14,12 @@
   "data": {
     "id": 245,
     "slug": "kj_newsom_0241_05_10_2021",
-    "title": "KJ_Newsom_0241_05_10_2021",
+    "title": "GovernorGavinNewsom (High res)",
     "author": "Admin",
     "date": "2021-07-08T06:32:52",
-    "modified": "2021-07-08T06:32:52",
+    "modified": "2021-07-08T06:52:07",
     "date_gmt": "2021-07-08T13:32:52",
-    "modified_gmt": "2021-07-08T13:32:52",
+    "modified_gmt": "2021-07-08T13:52:07",
     "media_type": "image",
     "mime_type": "image/jpeg",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-scaled.jpg",
