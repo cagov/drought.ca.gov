@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "created_date": "2021-07-08T15:11:45",
+    "updated_date": "2021-07-08T15:12:07",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 255,
+    "slug": "pexels-dominika-roseclay-4289045",
+    "title": "pexels-dominika-roseclay-4289045 (medium high res)",
+    "author": "Admin",
+    "date": "2021-07-08T08:11:45",
+    "modified": "2021-07-08T08:12:07",
+    "date_gmt": "2021-07-08T15:11:45",
+    "modified_gmt": "2021-07-08T15:12:07",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/pexels-dominika-roseclay-4289045.jpg",
+    "type": "attachment",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/pexels-dominika-roseclay-4289045.jpg",
+        "file": "pexels-dominika-roseclay-4289045.jpg",
+        "width": 1280,
+        "height": 904,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/pexels-dominika-roseclay-4289045.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2021/07/pexels-dominika-roseclay-4289045-768x542.jpg",
+        "file": "pexels-dominika-roseclay-4289045-768x542.jpg",
+        "width": 768,
+        "height": 542,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/pexels-dominika-roseclay-4289045-768x542.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/pexels-dominika-roseclay-4289045-708x500.jpg",
+        "file": "pexels-dominika-roseclay-4289045-708x500.jpg",
+        "width": 708,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/pexels-dominika-roseclay-4289045-708x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/pexels-dominika-roseclay-4289045-300x212.jpg",
+        "file": "pexels-dominika-roseclay-4289045-300x212.jpg",
+        "width": 300,
+        "height": 212,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/pexels-dominika-roseclay-4289045-300x212.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/pexels-dominika-roseclay-4289045-150x150.jpg",
+        "file": "pexels-dominika-roseclay-4289045-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/pexels-dominika-roseclay-4289045-150x150.jpg"
+      }
+    ]
+  }
+}
