@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2021-07-08T00:23:55",
+    "updated_date": "2021-07-08T15:42:34",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "Water-saving tips",
     "author": "Peggy Gartin",
     "date": "2021-07-06T16:09:05",
-    "modified": "2021-07-07T17:23:55",
+    "modified": "2021-07-08T08:42:34",
     "date_gmt": "2021-07-06T23:09:05",
-    "modified_gmt": "2021-07-08T00:23:55",
+    "modified_gmt": "2021-07-08T15:42:34",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
     "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top ways to conserve water:&nbsp; Improve landscape irrigation50% of residential water use goes &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
@@ -28,15 +28,25 @@
       "template": "template-page-single-column"
     },
     "og_meta": {
-      "_genesis_title": "",
+      "_genesis_title": [
+        "Water&#x2d;saving tips"
+      ],
       "_genesis_description": [
         "The top 5 tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
       ],
       "_genesis_canonical_uri": "",
-      "_social_image_url": "",
-      "_open_graph_title": "",
-      "_open_graph_description": "",
-      "_twitter_title": "",
+      "_social_image_url": [
+        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png"
+      ],
+      "_open_graph_title": [
+        "Water&#x2d;saving tips"
+      ],
+      "_open_graph_description": [
+        "The top 5 tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
+      ],
+      "_twitter_title": [
+        "Water&#x2d;saving tips"
+      ],
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
