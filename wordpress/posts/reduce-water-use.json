@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T17:18:28",
-    "updated_date": "2021-07-08T17:20:46",
+    "updated_date": "2021-07-08T22:48:25",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "Reduce water use",
     "author": "Admin",
     "date": "2021-07-08T10:18:28",
-    "modified": "2021-07-08T10:20:46",
+    "modified": "2021-07-08T15:48:25",
     "date_gmt": "2021-07-08T17:18:28",
-    "modified_gmt": "2021-07-08T17:20:46",
+    "modified_gmt": "2021-07-08T22:48:25",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/reduce-water-use/",
     "excerpt": "<p>Governor Newsom calls on Californians to reduce water use by 15% to help protect water reserves if drought conditions continue. Drought emergency proclamations expanded to include Inyo, Marin, Mono, Monterey, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara and Santa Cruz counties.</p>\n",
     "format": "status",
@@ -41,8 +41,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "July 8, 2021",
           "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:20 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:20 pm"
+          "i18n_locale_date_time": "July 8, 2021 3:48 pm",
+          "i18n_locale_date_time_gmt": "July 8, 2021 10:48 pm"
         },
         "post_location": "",
         "event_date": "",
