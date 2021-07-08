@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-07T22:29:48",
-    "updated_date": "2021-07-08T13:22:59",
+    "updated_date": "2021-07-08T13:48:55",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -14,11 +14,11 @@
   "data": {
     "id": 210,
     "slug": "newsom-low-reservoir",
-    "title": "newsom-low-reservoir",
+    "title": "GovernorGavinNewsom (3:2)",
     "date": "2021-07-07T15:29:48",
-    "modified": "2021-07-08T06:22:59",
+    "modified": "2021-07-08T06:48:55",
     "date_gmt": "2021-07-07T22:29:48",
-    "modified_gmt": "2021-07-08T13:22:59",
+    "modified_gmt": "2021-07-08T13:48:55",
     "media_type": "image",
     "mime_type": "image/png",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
