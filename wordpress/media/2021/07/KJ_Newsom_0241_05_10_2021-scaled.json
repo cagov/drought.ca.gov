@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "created_date": "2021-07-08T13:32:52",
+    "updated_date": "2021-07-08T13:32:52",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 245,
+    "slug": "kj_newsom_0241_05_10_2021",
+    "title": "KJ_Newsom_0241_05_10_2021",
+    "author": "Admin",
+    "date": "2021-07-08T06:32:52",
+    "modified": "2021-07-08T06:32:52",
+    "date_gmt": "2021-07-08T13:32:52",
+    "modified_gmt": "2021-07-08T13:32:52",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-scaled.jpg",
+    "type": "attachment",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-scaled.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-scaled.jpg",
+        "width": 2560,
+        "height": 1777,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-scaled.jpg"
+      },
+      {
+        "type": "2048x2048",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-2048x1421.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-2048x1421.jpg",
+        "width": 2048,
+        "height": 1421,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-2048x1421.jpg"
+      },
+      {
+        "type": "1536x1536",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-1536x1066.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-1536x1066.jpg",
+        "width": 1536,
+        "height": 1066,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1536x1066.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-768x533.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-768x533.jpg",
+        "width": 768,
+        "height": 533,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-768x533.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-720x500.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-720x500.jpg",
+        "width": 720,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-720x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-300x208.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-300x208.jpg",
+        "width": 300,
+        "height": 208,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-300x208.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/KJ_Newsom_0241_05_10_2021-150x150.jpg",
+        "file": "KJ_Newsom_0241_05_10_2021-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-150x150.jpg"
+      }
+    ]
+  }
+}
