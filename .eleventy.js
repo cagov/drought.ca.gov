@@ -7,8 +7,9 @@ const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
 // const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
 const SITE_DOMAIN = ""; // Relative links only for local images in display.
-const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net/media/";
+// const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/";
+const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net/media/";
+// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://drought.ca.gov/media/";
 // const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/"; // Test with original image (not cached)
 
 const replacementPaths = {
