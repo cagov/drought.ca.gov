@@ -1725,7 +1725,7 @@ main ul li {
     margin-top: 16px; }
   .main-content-ds.single-column .wide-page-title {
     display: none; }
-  main .wp-block-image.size-large img {
+  main .wp-block-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -3315,8 +3315,11 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
       .cagov-drought-map .drought-map-legend .legend span.intensity-ldnodata {
         background-color: #b1b1b1; }
 
-/* test build comment Wed Jul  7 19:52:34 PDT 2021 */
-/* test build comment Wed Jul  7 20:05:29 PDT 2021 */
+/* test build comment Wed Jul  7 20:09:55 PDT 2021 */
+/* test build comment Wed Jul  7 20:11:34 PDT 2021 */
+/* test build comment Wed Jul  7 20:13:06 PDT 2021 */
+/* test build comment Wed Jul  7 20:14:46 PDT 2021 */
+/* test build comment Wed Jul  7 20:16:13 PDT 2021 */
 /* copied from gutenberg custom block */
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
 /* page layout styles, not sure where this should go, in base-css too eventually? */
