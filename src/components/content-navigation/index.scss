@@ -27,3 +27,29 @@ sidebar cagov-content-navigation ul li {
 sidebar cagov-content-navigation ul li:first-child {
   margin-top: 0px;
 }
+
+@media only screen and (max-width: 992px) {
+cagov-content-navigation .label {
+  display: none;
+}
+
+.sidebar-container {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+sidebar cagov-content-navigation ul li:last-child {
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #EDEDEF;
+}
+
+cagov-content-navigation ul li a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+}
+

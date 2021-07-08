@@ -158,6 +158,15 @@ main ul li {
     }
   }
 
+
+  main .wp-block-image.size-large img {
+    width:100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    margin-bottom: 32px;
+  }
+
   .main-content-ds.single-column.landing {
     .wide-page-title {
       display: none;
@@ -167,21 +176,6 @@ main ul li {
     }
   }
 
-  /* Content Navigation */
-  cagov-content-navigation .label {
-    display: none;
-  }
-
-  sidebar cagov-content-navigation ul li:last-child {
-    padding-bottom: 16px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid $gray-200;
-  }
-
-  cagov-content-navigation ul li a {
-    font-size: 16px;
-    line-height: 24px;
-  }
 
   /* Content Menu */
   .content-footer {
