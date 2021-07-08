@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-07T22:33:03",
-    "updated_date": "2021-07-07T22:33:20",
+    "updated_date": "2021-07-08T14:08:07",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -14,11 +14,11 @@
   "data": {
     "id": 213,
     "slug": "save-water-bottle",
-    "title": "save-water-bottle",
+    "title": "save-water-bottle (3:2)",
     "date": "2021-07-07T15:33:03",
-    "modified": "2021-07-07T15:33:20",
+    "modified": "2021-07-08T07:08:07",
     "date_gmt": "2021-07-07T22:33:03",
-    "modified_gmt": "2021-07-07T22:33:20",
+    "modified_gmt": "2021-07-08T14:08:07",
     "media_type": "image",
     "mime_type": "image/png",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
