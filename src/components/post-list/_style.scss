@@ -2,57 +2,48 @@
 /* @TODO Align with typography & styles: Font, px spacing, colors */
 /* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
 
-.cagov-announcement-list h3 {
-  /* font-family: Public Sans; */
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 33px;
-  margin-bottom: 24px !important;
-}
+// .cagov-announcement-list h3 {
+//   /* font-family: Public Sans; */
+//   font-style: normal;
+//   font-weight: bold;
+//   font-size: 28px;
+//   line-height: 33px;
+//   margin-bottom: 24px !important;
+// }
 
-.cagov-announcement-list .read-more a {
-  /* font-family: Public Sans; */
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  text-decoration: underline;
-  color: #000;
-}
+// .cagov-announcement-list .read-more a {
+//   /* font-family: Public Sans; */
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 18px;
+//   line-height: 30px;
+//   text-decoration: underline;
+//   color: #000;
+// }
 
-.cagov-post-list .link-title a {
-  color: $primary;
-  font-weight: normal;
-  text-decoration: underline;
-  line-height: 32.9px;
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 8px;
-}
+// .cagov-announcement-list .post-list-item {
+//   margin: 0;
+//   padding: 0;
+// }
 
-.cagov-announcement-list .post-list-item {
-  margin: 0;
-  padding: 0;
-}
+// .cagov-announcement-list .post-list-item {
+//   list-style: none;
+//   font-style: normal;
+//   font-weight: normal;
+//   margin-bottom: 24px;
+// }
 
-.cagov-announcement-list .post-list-item {
-  list-style: none;
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 24px;
-}
-
-.cagov-announcement-list .post-list-item .date {
-  font-size: 18px;
-  line-height: 30px;
-  margin-top: 0px;
-  color: #000;
-}
+// .cagov-announcement-list .post-list-item .date {
+//   font-size: 18px;
+//   line-height: 30px;
+//   margin-top: 0px;
+//   color: #000;
+// }
 
 /* @TODO These px values need to be converted to relative values */
 /* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
 /* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
+
 
 .cagov-post-list .post-list-item {
   margin-bottom: 48px;
@@ -65,8 +56,18 @@
   }
 }
 
-.cagov-post-list .link-title {
-  /* font-family: Public Sans; */
+.cagov-post-list .link-title a {
+  color: $primary;
+  font-weight: normal;
+  text-decoration: underline;
+  line-height: 32.9px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+
+.cagov-post-list .link-title,
+.cagov-post-list .post-list-item {
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -74,8 +75,24 @@
   margin-bottom: 16px;
 }
 
+.wp-block-ca-design-system-post-list .post-list-item.post-status {
+  .link-title {
+    margin-bottom: 0px;
+  }
+  .link-title .date {
+    line-height: 1rem;
+  }
+  margin-bottom: 32px;
+}
+
+.wp-block-ca-design-system-post-list .post-list-item.news-item  {
+  .link-title {
+    margin-bottom: 0px;
+  }
+  margin-bottom: 32px;
+}
+
 .cagov-post-list .read-more a {
-  /* font-family: Public Sans; */
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -172,5 +189,26 @@ cagov-post-list .post-list-item {
     margin-top: 0px;
     color: #000;
     font-weight: 700;
+  }
+
+  .wp-block-ca-design-system-post-list .post-list-item.post-status {
+    .link-title {
+      margin-bottom: 0px;
+    }
+    .link-title .date {
+      line-height: 1rem;
+      font-size: 16px;
+    }
+    margin-bottom: 16px;
+  }
+  
+  .wp-block-ca-design-system-post-list .post-list-item.news-item  {
+    .link-title {
+      margin-bottom: 8px;
+    }
+    .date {
+      font-size: 16px;
+    }
+    margin-bottom: 16px;
   }
 }
