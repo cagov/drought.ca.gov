@@ -77,7 +77,6 @@ module.exports = function(eleventyConfig) {
  
   eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  eleventyConfig.addPassthroughCopy({ "src/css/index.css.map": "index.css.map" });
   eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
 
   return {
