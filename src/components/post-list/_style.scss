@@ -73,6 +73,11 @@
   font-size: 28px;
   line-height: 33px;
   margin-bottom: 16px;
+  a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+  }
 }
 
 .wp-block-ca-design-system-post-list .post-list-item.post-status {
