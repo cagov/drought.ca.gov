@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-08T17:20:21",
-    "updated_date": "2021-07-08T23:00:21",
+    "created_date": "2021-07-08T23:01:05",
+    "updated_date": "2021-07-08T23:05:14",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -12,36 +12,36 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 284,
-    "slug": "governor-newsom-takes-action-to-respond-to-drought-conditions",
-    "title": "Governor Newsom Takes Action to Respond to Drought Conditions",
-    "author": "Admin",
-    "date": "2021-07-08T10:20:21",
-    "modified": "2021-07-08T16:00:21",
-    "date_gmt": "2021-07-08T17:20:21",
-    "modified_gmt": "2021-07-08T23:00:21",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-takes-action-to-respond-to-drought-conditions/",
+    "id": 310,
+    "slug": "as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use",
+    "title": "As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use",
+    "author": "Michael Sullivan",
+    "date": "2021-07-08T16:01:05",
+    "modified": "2021-07-08T16:05:14",
+    "date_gmt": "2021-07-08T23:01:05",
+    "modified_gmt": "2021-07-08T23:05:14",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use/",
     "format": "link",
     "type": "post",
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://www.gov.ca.gov/2021/04/21/governor-newsom-takes-action-to-respond-to-drought-conditions/",
-        "post_date": "April 21, 2021",
+        "post_link": "http://cert1.mail-west.com/rmbRyjoE/tmyuzjanmc7/1bRg/iva0aft8/nqbRxs8yv4/gt81bRqv/8xk6ipo5113kjh?_c=dze7pzanwmhlzgt18gt3115bcv6xk8&_ce=1625780175.179fb45d7c69b410ac08cbac5dacfcc7",
+        "post_date": "July 8, 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
           "i18n_locale_date": "July 8, 2021",
           "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:20 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:20 pm"
+          "i18n_locale_date_time": "July 8, 2021 4:01 pm",
+          "i18n_locale_date_time_gmt": "July 8, 2021 11:01 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "July 8, 2021",
           "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 4:00 pm",
-          "i18n_locale_date_time_gmt": "July 8, 2021 11:00 pm"
+          "i18n_locale_date_time": "July 8, 2021 4:05 pm",
+          "i18n_locale_date_time_gmt": "July 8, 2021 11:05 pm"
         },
         "post_location": "",
         "event_date": "",
