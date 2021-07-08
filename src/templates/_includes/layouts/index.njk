@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://www.google-analytics.com/">
   <!-- CSS -->
   {% set css %}
-  {% include "../../../../docs/index.css" %}
+  {% include "../../../../dist/index.css" %}
   {% endset %}
   <!-- the inlined hardcoded grid css below is there because it was breaking sass compilation -->
   <style>
@@ -69,7 +69,7 @@
   {% include "../footer-universal.njk" %}
 
   {% set js %}
-  {% include "../../../../docs/js/built.js" %}
+  {% include "../../../../dist/built.js" %}
   {% endset %}
   <script type="module">
     {{ js | safe }}
