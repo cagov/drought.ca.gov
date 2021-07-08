@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T19:45:28",
-    "updated_date": "2021-07-08T13:54:36",
+    "updated_date": "2021-07-08T15:06:34",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "Resources",
     "author": "Admin",
     "date": "2021-07-04T12:45:28",
-    "modified": "2021-07-08T06:54:36",
+    "modified": "2021-07-08T08:06:34",
     "date_gmt": "2021-07-04T19:45:28",
-    "modified_gmt": "2021-07-08T13:54:36",
+    "modified_gmt": "2021-07-08T15:06:34",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/resources/",
     "excerpt": "<p>More drought resources from California state agencies: Drought information and updates Defining drought Coping with droughts and floods with water resilience Drought related actions to preserve and protect the state’s fish and wildlife resources Drought assistance for farmers and ranchers Water Assistance: ​Contacting County Emergency Managers Report water waste Report a dry well Track dry &#8230; <a title=\"Resources\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/resources/\" aria-label=\"More on Resources\">Read more</a></p>\n",
@@ -35,7 +35,9 @@
         "A list of drought resources from California state agencies, including help for dry wells, ways to protect fish and wildlife, and contacts for water assistance."
       ],
       "_genesis_canonical_uri": "",
-      "_social_image_url": "",
+      "_social_image_url": [
+        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+      ],
       "_open_graph_title": [
         "Resources"
       ],
