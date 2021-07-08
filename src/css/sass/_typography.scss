@@ -13,9 +13,11 @@ main {
 
 @media only screen and (max-width: 992px) {
   /* Typography */
-  h2:first-child {
-    margin-top: 16px;
-  }
+  // main {
+  //   h2:first-child {
+  //     margin-top: 0px;
+  //   }
+  // }
 }
 
 // paragraph margin

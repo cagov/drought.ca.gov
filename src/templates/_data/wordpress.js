@@ -42,7 +42,6 @@ function processFile(file, fileNameMap, loc) {
 
     // Choose the correct data to display for the page meta.
     fileDetails.dataset.data.page_meta = getPageMeta(fileDetails.dataset.data);
-    // console.log(fileDetails.dataset.data);
     // Extra permalink url (no domain, used in 11ty frontmatter template)
     fileDetails.dataset.data.wordpress_url = cleanUrl(
       fileData.data.wordpress_url
@@ -58,6 +57,8 @@ function getPageMeta(data) {
   page_meta.site_title = getHeadTags(data, "site_title");
   page_meta.site_description = getHeadTags(data, "site_description");
   page_meta.canonical_url = getHeadTags(data, "canonical_url");
+  page_meta.image = getHeadTags(data, "image");
+  page_meta.twitter_title = getHeadTags(data, "twitter_title");
   page_meta.og_meta = getOGMetatags(data);
   // console.log("page_meta", page_meta);
   return page_meta;
@@ -100,11 +101,25 @@ function getHeadTags(data, field) {
     try {
       if (data.og_meta._genesis_title !== "") {
         return data.og_meta._genesis_title;
+      } else if (data.og_meta._open_graph_title !== "") {
+        return data.og_meta._genesis_title;
       } else {
         return data.title;
       }
     } catch (error) {
       console.error("No site, page or post title found.")
+    }
+    return "California drought action";
+  }
+  if (field === "twitter_title") {
+    try {
+      if (data.og_meta._twitter_title !== "") {
+        return data.og_meta._twitter_title;
+      } else {
+        return data.title;
+      }
+    } catch (error) {
+      console.error("No twitter title found.")
     }
     return "California drought action";
   }
@@ -120,7 +135,7 @@ function getHeadTags(data, field) {
     try {
       if (data.og_meta._genesis_description !== "") {
         return data.og_meta._genesis_description[0];
-      } else if (data.og_meta._open_graph_description) {
+      } else if (data.og_meta._open_graph_description !== "") {
         return data.og_meta._open_graph_description[0];
       } else {
         return data.site_settings.site_description;
@@ -143,6 +158,19 @@ function getHeadTags(data, field) {
     );
     let permalink = `${site_url}/${url_path}` 
     return permalink;
+  }
+  if (field === "image") {
+    try {
+        // @TODO get default social media image
+        return {
+          url: data.og_meta._social_image_url,
+          width: 1200, // Need to expose variable from API
+          height: 630 // Need to expose variable from API
+        };
+    } catch (error) {
+      console.error("No social image found.")
+    }
+    return "California drought action";
   }
   return false;
 }

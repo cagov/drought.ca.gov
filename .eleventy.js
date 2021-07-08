@@ -12,10 +12,6 @@ const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us
 // const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/"; // Test with original image (not cached)
 
 const replacementPaths = {
-  // api: {
-  //   src: "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
-  //   target: "/api/",
-  // }, // Still thinking about this
   media: {
     src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
     target: "/media/",
@@ -51,9 +47,10 @@ module.exports = function(eleventyConfig) {
         let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
         item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
 
+        // @TODO Reset after debugging
         // item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(mediaString,replacementPaths.media.targetPermalinkOGTags);
         
-        item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(/Untitled \&\#x2d\; /g, ""); // Seeing if we can test in card debugger
+        // item.data.page_meta.og_meta = item.data.page_meta.og_meta.replace(/Untitled \&\#x2d\; /g, ""); // Seeing if we can test in card debugger
       }
       output.push(item);
     });
