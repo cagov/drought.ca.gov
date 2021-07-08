@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2021-07-06T23:09:05",
+    "updated_date": "2021-07-07T23:58:41",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,14 +17,15 @@
     "title": "Water-saving tips",
     "author": "Peggy Gartin",
     "date": "2021-07-06T16:09:05",
-    "modified": "2021-07-06T16:09:05",
+    "modified": "2021-07-07T16:58:41",
     "date_gmt": "2021-07-06T23:09:05",
-    "modified_gmt": "2021-07-06T23:09:05",
+    "modified_gmt": "2021-07-07T23:58:41",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
-    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top 5 ways to conserve water:&nbsp; Fix leaks Take time to check water &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
+    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top ways to conserve water:&nbsp; Improve landscape irrigation50% of residential water use goes &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
     "type": "page",
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page-single-column"
     },
     "og_meta": {
       "_genesis_title": "",
