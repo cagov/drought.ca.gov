@@ -2469,7 +2469,6 @@ sidebar cagov-content-navigation ul li:first-child {
   color: #691808;
   font-weight: normal;
   text-decoration: underline;
-  line-height: 32.9px;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px; }
@@ -2479,8 +2478,12 @@ sidebar cagov-content-navigation ul li:first-child {
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
-  line-height: 33px;
   margin-bottom: 16px; }
+  .cagov-post-list .link-title a,
+  .cagov-post-list .post-list-item a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under; }
 
 .wp-block-ca-design-system-post-list .post-list-item.post-status {
   margin-bottom: 32px; }
@@ -2504,7 +2507,7 @@ sidebar cagov-content-navigation ul li:first-child {
 .cagov-post-list .link-title a {
   color: #691808;
   font-weight: 700;
-  line-height: 32.9px;
+  line-height: 30px;
   font-size: 28px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
@@ -2539,7 +2542,7 @@ cagov-post-list .post-list-item {
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
-    line-height: 33px;
+    line-height: 30px;
     margin-bottom: 24px; }
   .cagov-post-list .read-more a {
     /* font-family: Public Sans; */
@@ -2551,10 +2554,12 @@ cagov-post-list .post-list-item {
   .cagov-post-list .link-title a {
     color: #691808;
     font-weight: 700;
-    line-height: 28.2px;
+    line-height: 30px;
     font-size: 24px;
     margin-bottom: 8px;
-    text-decoration: none; }
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-position: under; }
   .cagov-post-list .excerpt,
   .cagov-post-list .excerpt p {
     font-weight: 400;
