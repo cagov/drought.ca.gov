@@ -11,15 +11,6 @@ main {
   }
 }
 
-@media only screen and (max-width: 992px) {
-  /* Typography */
-  // main {
-  //   h2:first-child {
-  //     margin-top: 0px;
-  //   }
-  // }
-}
-
 // paragraph margin
 p {
   margin-bottom: 1rem;
@@ -107,6 +98,11 @@ h6,
   h5,
   .h5 {
     font-size: 1rem;
+  }
+
+  h2:first-child,
+  figure ~ h2:first-of-type {
+    margin-top: 0px;
   }
 }
 
