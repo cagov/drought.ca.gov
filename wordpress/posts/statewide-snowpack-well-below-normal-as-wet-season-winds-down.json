@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-04-01T12:00:00",
-    "updated_date": "2021-07-08T17:16:14",
+    "created_date": "2021-07-08T17:23:02",
+    "updated_date": "2021-07-08T17:25:01",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -12,37 +12,36 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 54,
-    "slug": "water-resilience-portfolio",
-    "title": "Prepare water resilience portfolio",
+    "id": 286,
+    "slug": "statewide-snowpack-well-below-normal-as-wet-season-winds-down",
+    "title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
     "author": "Admin",
-    "date": "2021-04-01T12:00:00",
-    "modified": "2021-07-08T10:16:14",
-    "date_gmt": "2021-04-01T12:00:00",
-    "modified_gmt": "2021-07-08T17:16:14",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
-    "excerpt": "<p>Governor Newsom directs many state agencies to prepare a Water Resilience Portfolio (released in July 2020).</p>\n",
-    "format": "status",
+    "date": "2021-07-08T10:23:02",
+    "modified": "2021-07-08T10:25:01",
+    "date_gmt": "2021-07-08T17:23:02",
+    "modified_gmt": "2021-07-08T17:25:01",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
+    "format": "link",
     "type": "post",
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "",
-        "post_date": "April 2019",
+        "post_link": "https://water.ca.gov/News/News-Releases/2021/April-21/Statewide-Snowpack-Well-Below-Normal-as-Wet-Season-Winds-Down",
+        "post_date": "April 1, 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "April 1, 2021",
-          "i18n_locale_date_gmt": "April 1, 2021",
-          "i18n_locale_date_time": "April 1, 2021 12:00 pm",
-          "i18n_locale_date_time_gmt": "April 1, 2021 12:00 pm"
+          "i18n_locale_date": "July 8, 2021",
+          "i18n_locale_date_gmt": "July 8, 2021",
+          "i18n_locale_date_time": "July 8, 2021 10:23 am",
+          "i18n_locale_date_time_gmt": "July 8, 2021 5:23 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "July 8, 2021",
           "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:16 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:16 pm"
+          "i18n_locale_date_time": "July 8, 2021 10:25 am",
+          "i18n_locale_date_time_gmt": "July 8, 2021 5:25 pm"
         },
         "post_location": "",
         "event_date": "",
@@ -69,7 +68,7 @@
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
     "categories": [
-      "Action"
+      "News"
     ],
     "tags": []
   }

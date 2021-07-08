@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-05-10T12:00:00",
-    "updated_date": "2021-07-04T21:47:22",
+    "updated_date": "2021-07-08T17:17:27",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,18 +17,18 @@
     "title": "Emergency proclamation expanded",
     "author": "Admin",
     "date": "2021-05-10T12:00:00",
-    "modified": "2021-07-04T14:47:22",
+    "modified": "2021-07-08T10:17:27",
     "date_gmt": "2021-05-10T12:00:00",
-    "modified_gmt": "2021-07-04T21:47:22",
+    "modified_gmt": "2021-07-08T17:17:27",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
-    "excerpt": "<p>Governor Gavin Newsom&nbsp;significantly expands his April 21 drought emergency proclamation&nbsp;to include Klamath River, Sacramento-San Joaquin Delta and Tulare Lake Watershed counties where&nbsp;accelerated action is needed&nbsp;to protect public health, safety and the environment.</p>\n",
+    "excerpt": "<p>Governor Gavin Newsom expands his drought emergency proclamation to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed. These areas need faster action to protect public health, safety, and the environment.</p>\n",
     "format": "status",
     "type": "post",
     "design_system_fields": {
       "template": "post",
       "post": {
         "post_link": "",
-        "post_date": "",
+        "post_date": "May 10, 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
@@ -39,10 +39,10 @@
           "i18n_locale_date_time_gmt": "May 10, 2021 12:00 pm"
         },
         "post_modified_date_display": {
-          "i18n_locale_date": "July 4, 2021",
-          "i18n_locale_date_gmt": "July 4, 2021",
-          "i18n_locale_date_time": "July 4, 2021 2:47 pm",
-          "i18n_locale_date_time_gmt": "July 4, 2021 9:47 pm"
+          "i18n_locale_date": "July 8, 2021",
+          "i18n_locale_date_gmt": "July 8, 2021",
+          "i18n_locale_date_time": "July 8, 2021 10:17 am",
+          "i18n_locale_date_time_gmt": "July 8, 2021 5:17 pm"
         },
         "post_location": "",
         "event_date": "",

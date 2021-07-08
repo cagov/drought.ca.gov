@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-04-21T12:00:00",
-    "updated_date": "2021-07-04T21:47:22",
+    "updated_date": "2021-07-08T17:16:46",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,18 +17,18 @@
     "title": "Emergency proclamation",
     "author": "Admin",
     "date": "2021-04-21T12:00:00",
-    "modified": "2021-07-04T14:47:22",
+    "modified": "2021-07-08T10:16:46",
     "date_gmt": "2021-04-21T12:00:00",
-    "modified_gmt": "2021-07-04T21:47:22",
+    "modified_gmt": "2021-07-08T17:16:46",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/emergency-proclamation/",
-    "excerpt": "<p>Governor Newsom issues an&nbsp;Emergency Proclamation&nbsp;to advance state drought preparation and response in the Russian River Watershed of Sonoma and Mendocino counties.</p>\n",
+    "excerpt": "<p>Governor Newsom proclaims a drought emergency. This lets the state prepare and respond to drought in the Russian River Watershed of Sonoma and Mendocino counties.</p>\n",
     "format": "status",
     "type": "post",
     "design_system_fields": {
       "template": "post",
       "post": {
         "post_link": "",
-        "post_date": "",
+        "post_date": "April 21, 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
@@ -39,10 +39,10 @@
           "i18n_locale_date_time_gmt": "April 21, 2021 12:00 pm"
         },
         "post_modified_date_display": {
-          "i18n_locale_date": "July 4, 2021",
-          "i18n_locale_date_gmt": "July 4, 2021",
-          "i18n_locale_date_time": "July 4, 2021 2:47 pm",
-          "i18n_locale_date_time_gmt": "July 4, 2021 9:47 pm"
+          "i18n_locale_date": "July 8, 2021",
+          "i18n_locale_date_gmt": "July 8, 2021",
+          "i18n_locale_date_time": "July 8, 2021 10:16 am",
+          "i18n_locale_date_time_gmt": "July 8, 2021 5:16 pm"
         },
         "post_location": "",
         "event_date": "",

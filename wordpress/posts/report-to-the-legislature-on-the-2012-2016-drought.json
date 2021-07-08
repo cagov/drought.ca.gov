@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-04T19:42:39",
-    "updated_date": "2021-07-04T21:49:00",
+    "created_date": "2021-07-08T17:24:12",
+    "updated_date": "2021-07-08T17:24:12",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -12,36 +12,36 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 64,
-    "slug": "news-link",
-    "title": "News link",
+    "id": 290,
+    "slug": "report-to-the-legislature-on-the-2012-2016-drought",
+    "title": "Report to the Legislature on the 2012–2016 Drought",
     "author": "Admin",
-    "date": "2021-07-04T12:42:39",
-    "modified": "2021-07-04T14:49:00",
-    "date_gmt": "2021-07-04T19:42:39",
-    "modified_gmt": "2021-07-04T21:49:00",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/news-link/",
+    "date": "2021-07-08T10:24:12",
+    "modified": "2021-07-08T10:24:12",
+    "date_gmt": "2021-07-08T17:24:12",
+    "modified_gmt": "2021-07-08T17:24:12",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
     "format": "link",
     "type": "post",
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://example.com",
-        "post_date": "",
+        "post_link": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Water-Basics/Drought/Files/Publications-And-Reports/CNRA-Drought-Report-final-March-2021.pdf",
+        "post_date": "March 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "July 4, 2021",
-          "i18n_locale_date_gmt": "July 4, 2021",
-          "i18n_locale_date_time": "July 4, 2021 12:42 pm",
-          "i18n_locale_date_time_gmt": "July 4, 2021 7:42 pm"
+          "i18n_locale_date": "July 8, 2021",
+          "i18n_locale_date_gmt": "July 8, 2021",
+          "i18n_locale_date_time": "July 8, 2021 10:24 am",
+          "i18n_locale_date_time_gmt": "July 8, 2021 5:24 pm"
         },
         "post_modified_date_display": {
-          "i18n_locale_date": "July 4, 2021",
-          "i18n_locale_date_gmt": "July 4, 2021",
-          "i18n_locale_date_time": "July 4, 2021 2:49 pm",
-          "i18n_locale_date_time_gmt": "July 4, 2021 9:49 pm"
+          "i18n_locale_date": "July 8, 2021",
+          "i18n_locale_date_gmt": "July 8, 2021",
+          "i18n_locale_date_time": "July 8, 2021 10:24 am",
+          "i18n_locale_date_time_gmt": "July 8, 2021 5:24 pm"
         },
         "post_location": "",
         "event_date": "",
