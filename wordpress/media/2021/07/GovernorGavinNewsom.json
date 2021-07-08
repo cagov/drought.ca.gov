@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T21:17:30",
-    "updated_date": "2021-07-06T21:38:29",
+    "updated_date": "2021-07-08T13:22:53",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "GovernorGavinNewsom",
     "author": "Peggy Gartin",
     "date": "2021-07-06T14:17:30",
-    "modified": "2021-07-06T14:38:29",
+    "modified": "2021-07-08T06:22:53",
     "date_gmt": "2021-07-06T21:17:30",
-    "modified_gmt": "2021-07-06T21:38:29",
+    "modified_gmt": "2021-07-08T13:22:53",
     "media_type": "image",
     "mime_type": "image/jpeg",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/GovernorGavinNewsom.jpg",

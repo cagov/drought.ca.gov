@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T21:53:48",
-    "updated_date": "2021-07-06T21:55:57",
+    "updated_date": "2021-07-08T13:22:06",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "savewater",
     "author": "Peggy Gartin",
     "date": "2021-07-06T14:53:48",
-    "modified": "2021-07-06T14:55:57",
+    "modified": "2021-07-08T06:22:06",
     "date_gmt": "2021-07-06T21:53:48",
-    "modified_gmt": "2021-07-06T21:55:57",
+    "modified_gmt": "2021-07-08T13:22:06",
     "media_type": "image",
     "mime_type": "image/jpeg",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/savewater.jpg",
