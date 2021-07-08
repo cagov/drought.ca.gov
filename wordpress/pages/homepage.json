@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:23:15",
-    "updated_date": "2021-07-07T17:51:12",
+    "updated_date": "2021-07-08T00:11:52",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "California drought action",
     "author": "Admin",
     "date": "2021-07-04T14:23:15",
-    "modified": "2021-07-07T10:51:12",
+    "modified": "2021-07-07T17:11:52",
     "date_gmt": "2021-07-04T14:23:15",
-    "modified_gmt": "2021-07-07T17:51:12",
+    "modified_gmt": "2021-07-08T00:11:52",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/",
     "excerpt": "<p>State actions against drought May 10, 2021 Governor Gavin Newsom expands his drought emergency proclamation to include Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed. These areas need faster action to protect public health, safety, and the environment. April 21, 2021 Governor Newsom proclaims a drought emergency. This lets the state prepare and respond &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
