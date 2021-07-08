@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build-task:scss-compile": "node-sass-chokidar --source-map true src/css/sass/ -o src/css/",
+    "build-task:scss-compile": "node-sass-chokidar --source-map true src/css/sass/ -o docs/",
     "regen": "npx @11ty/eleventy",
     "sass:build": "npm-run-all -p build-task:* regen",
     "sass:watch": "chokidar 'src/**/*.scss' -c 'npm run sass:build'",
