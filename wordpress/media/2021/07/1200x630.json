@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "created_date": "2021-07-08T15:22:34",
+    "updated_date": "2021-07-08T15:23:41",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/cron",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 257,
+    "slug": "1200x630",
+    "title": "save-water (OG)",
+    "author": "Admin",
+    "date": "2021-07-08T08:22:34",
+    "modified": "2021-07-08T08:23:41",
+    "date_gmt": "2021-07-08T15:22:34",
+    "modified_gmt": "2021-07-08T15:23:41",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png",
+    "type": "attachment",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/1200x630.png",
+        "file": "1200x630.png",
+        "width": 1200,
+        "height": 630,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png"
+      },
+      {
+        "type": "medium_large",
+        "path": "2021/07/1200x630-768x403.png",
+        "file": "1200x630-768x403.png",
+        "width": 768,
+        "height": 403,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-768x403.png"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/1200x630-750x394.png",
+        "file": "1200x630-750x394.png",
+        "width": 750,
+        "height": 394,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-750x394.png"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/1200x630-300x158.png",
+        "file": "1200x630-300x158.png",
+        "width": 300,
+        "height": 158,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-300x158.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/1200x630-150x150.png",
+        "file": "1200x630-150x150.png",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-150x150.png"
+      }
+    ]
+  }
+}
