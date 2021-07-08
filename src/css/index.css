@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* GLOBAL */
 /* Cannabis color scheme */
 /* Colorscheme root variables */
@@ -2448,7 +2449,7 @@ sidebar cagov-content-navigation ul li:first-child {
   color: #000; }
 
 .cagov-post-list .link-title a {
-  color: #064E66;
+  color: #691808;
   font-weight: normal;
   text-decoration: underline;
   line-height: 32.9px;
@@ -2475,13 +2476,21 @@ sidebar cagov-content-navigation ul li:first-child {
 /* @TODO These px values need to be converted to relative values */
 /* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
 /* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
-.cagov-post-list .post-list-title {
+.cagov-post-list .post-list-item {
+  margin-bottom: 48px; }
+  .cagov-post-list .post-list-item .excerpt .date {
+    display: inline;
+    font-weight: 700; }
+    .cagov-post-list .post-list-item .excerpt .date:after {
+      content: " — "; }
+
+.cagov-post-list .link-title {
   /* font-family: Public Sans; */
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
-  margin-bottom: 24px; }
+  margin-bottom: 16px; }
 
 .cagov-post-list .read-more a {
   /* font-family: Public Sans; */
@@ -2492,12 +2501,13 @@ sidebar cagov-content-navigation ul li:first-child {
   color: #000; }
 
 .cagov-post-list .link-title a {
-  color: #064E66;
+  color: #691808;
   font-weight: 700;
   line-height: 32.9px;
   font-size: 28px;
-  margin-bottom: 8px;
-  text-decoration: none; }
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-position: under; }
 
 .cagov-post-list .excerpt,
 .cagov-post-list .excerpt p {
@@ -2538,7 +2548,7 @@ cagov-post-list .post-list-item {
     line-height: 30px;
     color: #000; }
   .cagov-post-list .link-title a {
-    color: #064E66;
+    color: #691808;
     font-weight: 700;
     line-height: 28.2px;
     font-size: 24px;
