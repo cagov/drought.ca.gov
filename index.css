@@ -1871,6 +1871,9 @@ h1.page-title {
 main h2:first-child {
   margin-top: 0px; }
 
+@media only screen and (max-width: 992px) {
+  /* Typography */ }
+
 p {
   margin-bottom: 1rem; }
 
@@ -1938,10 +1941,7 @@ h6,
     font-size: 1.25rem; }
   h5,
   .h5 {
-    font-size: 1rem; }
-  h2:first-child,
-  figure ~ h2:first-of-type {
-    margin-top: 0px; } }
+    font-size: 1rem; } }
 
 /* lists */
 ul.list-highlight li {
