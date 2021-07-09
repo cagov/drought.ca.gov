@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T23:01:05",
-    "updated_date": "2021-07-09T03:51:36",
+    "updated_date": "2021-07-09T04:08:11",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
@@ -17,9 +17,9 @@
     "title": "As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use",
     "author": "Michael Sullivan",
     "date": "2021-07-08T16:01:05",
-    "modified": "2021-07-08T20:51:36",
+    "modified": "2021-07-08T21:08:11",
     "date_gmt": "2021-07-08T23:01:05",
-    "modified_gmt": "2021-07-09T03:51:36",
+    "modified_gmt": "2021-07-09T04:08:11",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use/",
     "format": "link",
     "type": "post",
@@ -40,8 +40,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "July 8, 2021",
           "i18n_locale_date_gmt": "July 9, 2021",
-          "i18n_locale_date_time": "July 8, 2021 8:51 pm",
-          "i18n_locale_date_time_gmt": "July 9, 2021 3:51 am"
+          "i18n_locale_date_time": "July 8, 2021 9:08 pm",
+          "i18n_locale_date_time_gmt": "July 9, 2021 4:08 am"
         },
         "post_location": "",
         "event_date": "",
