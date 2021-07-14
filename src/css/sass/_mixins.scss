@@ -1,12 +1,12 @@
 // Global mixins
 @mixin phone {
-  @media (max-width: #{$mobile}) {
+  @media (max-width: #{$mobile-min}) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (min-width: #{$mobile}) and (max-width: #{$desktop}) {
+  @media (min-width: #{$mobile}) and (max-width: #{$desktop-min}) {
     @content;
   }
 }

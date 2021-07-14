@@ -1,32 +1,33 @@
 // Global variables
 
-$mobile:             768px;
-$mobile-min:             768px;
-// $mobile-wide:       1024px;
-$desktop:      1176px;
+// Breakpoints
+$mobile: 768px;
+$mobile-min: 767px;
+$desktop: 1176px;
+$desktop-min: 1176px;
 
-// fonts sizes
+// Container widths
+$w-lg: 1176px;
+$w-md: 960px;
+$w-sm: 720px;
+$w-xs: 540px;
+
+// Font sizes
 $body-text: 1.125rem;
 $lead-text: 1.5rem;
 $small-text: 1rem;
 
-// padding spaces
+// Padding elements
 $base: 8px;
 $p-sm: ($base * 2); // 16px
 $p-md: ($base * 3); // 24px
 $p-lg: ($base * 4); // 32px
 
-// margin spaces:
+// Margin elements
 $m-sm: ($base * 6); // 48px
 $m-md: ($base * 8); // 64px
 $m-lg: ($base * 12); // 96px
 $m-xl: ($base * 24); // 96px
-
-// container width
-$w-lg: 1176px;
-$w-md: 960px;
-$w-sm: 720px;
-$w-xs: 540px;
 
 // Font 
 $site-font: "Public Sans",sans-serif;
