@@ -17,7 +17,7 @@ Content -> Production flow
 ## Developer quick start
 1. Checkout this repo
 2. Run `npm install`
-3. Recommended node version: `14.16.0`, npm version `7.6.3`.
+3. Recommended node version: `14.17.3`, npm version `7.6.3`.
 4. To run in developer mode `npm run dev`
 5. Should run at `http://localhost:8080`.
 
