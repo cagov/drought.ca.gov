@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-07-04T14:51:19",
     "updated_date": "2021-07-09T04:11:30",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
@@ -13,17 +14,29 @@
   },
   "data": {
     "id": 37,
-    "slug": "newsroom",
-    "title": "Newsroom",
-    "author": "Admin",
     "date": "2021-07-04T14:51:19",
-    "modified": "2021-07-08T21:11:30",
     "date_gmt": "2021-07-04T14:51:19",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=37",
+    "modified": "2021-07-08T21:11:30",
     "modified_gmt": "2021-07-09T04:11:30",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
-    "excerpt": "<p>As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use July 8, 2021 Amid deepening drought and record-breaking temperatures throughout the West, Governor Gavin Newsom today called on Californians to voluntarily reduce their water use by 15% to protect water reserves if drought conditions continue and help maintain &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "slug": "newsroom",
+    "status": "publish",
     "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
+    "title": "Newsroom",
+    "excerpt": "<p>As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use July 8, 2021 Amid deepening drought and record-breaking temperatures throughout the West, Governor Gavin Newsom today called on Californians to voluntarily reduce their water use by 15% to protect water reserves if drought conditions continue and help maintain &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "author": "Admin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      15
+    ],
     "design_system_fields": {
       "template": "template-page-single-column"
     },
@@ -54,7 +67,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "parent": 0,
-    "menu_order": 0
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/"
   }
 }

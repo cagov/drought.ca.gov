@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-07-04T14:23:15",
     "updated_date": "2021-07-13T16:15:04",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
@@ -13,17 +14,30 @@
   },
   "data": {
     "id": 24,
-    "slug": "homepage",
-    "title": "California drought action",
-    "author": "Admin",
     "date": "2021-07-04T14:23:15",
-    "modified": "2021-07-13T09:15:04",
     "date_gmt": "2021-07-04T14:23:15",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
+    "modified": "2021-07-13T09:15:04",
     "modified_gmt": "2021-07-13T16:15:04",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/",
-    "excerpt": "<p>State actions against drought July 8, 2021 Governor Newsom calls on Californians to reduce water use by 15% to help protect water reserves if drought conditions continue. Drought emergency proclamations expanded to include Inyo, Marin, Mono, Monterey, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara and Santa Cruz counties. May 10, 2021 Governor Gavin &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
+    "slug": "homepage",
+    "status": "publish",
     "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/",
+    "title": "California drought action",
+    "excerpt": "<p>State actions against drought July 8, 2021 Governor Newsom calls on Californians to reduce water use by 15% to help protect water reserves if drought conditions continue. Drought emergency proclamations expanded to include Inyo, Marin, Mono, Monterey, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara and Santa Cruz counties. May 10, 2021 Governor Gavin &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
+    "author": "Admin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      16,
+      15
+    ],
     "design_system_fields": {
       "template": "landing"
     },
@@ -56,8 +70,7 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "parent": 0,
-    "menu_order": 0,
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/",
     "media": [
       {
         "id": 176,

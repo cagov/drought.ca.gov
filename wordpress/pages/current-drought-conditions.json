@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-07-04T14:33:43",
     "updated_date": "2021-07-08T15:06:00",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
@@ -13,17 +14,29 @@
   },
   "data": {
     "id": 29,
-    "slug": "current-drought-conditions",
-    "title": "Current drought conditions",
-    "author": "Admin",
     "date": "2021-07-04T14:33:43",
-    "modified": "2021-07-08T08:06:00",
     "date_gmt": "2021-07-04T14:33:43",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=29",
+    "modified": "2021-07-08T08:06:00",
     "modified_gmt": "2021-07-08T15:06:00",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
-    "excerpt": "<p>Most rain and snow falls in California from November through April. It fills the reservoirs and aquifers that we use to supply homes, businesses, and farms.&nbsp;It also supports fish and wildlife that depend on our rivers and wetlands. Warm temperatures in California this April and early May make 2021 a critically dry year. Snow melted &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
+    "slug": "current-drought-conditions",
+    "status": "publish",
     "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+    "title": "Current drought conditions",
+    "excerpt": "<p>Most rain and snow falls in California from November through April. It fills the reservoirs and aquifers that we use to supply homes, businesses, and farms.&nbsp;It also supports fish and wildlife that depend on our rivers and wetlands. Warm temperatures in California this April and early May make 2021 a critically dry year. Snow melted &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
+    "author": "Admin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      15
+    ],
     "design_system_fields": {
       "template": "template-page-single-column"
     },
@@ -54,7 +67,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "parent": 0,
-    "menu_order": 0
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
   }
 }

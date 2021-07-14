@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-07-06T15:42:41",
     "updated_date": "2021-07-06T16:21:56",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
@@ -13,16 +14,29 @@
   },
   "data": {
     "id": 132,
-    "slug": "development-sample-page",
-    "title": "Development",
-    "author": "Admin",
     "date": "2021-07-06T08:42:41",
-    "modified": "2021-07-06T09:21:56",
     "date_gmt": "2021-07-06T15:42:41",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=132",
+    "modified": "2021-07-06T09:21:56",
     "modified_gmt": "2021-07-06T16:21:56",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
-    "excerpt": "<p>This is a page with of all gutenberg blocks and other settings, for rendering tests. Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
+    "slug": "development-sample-page",
+    "status": "publish",
     "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+    "title": "Development",
+    "excerpt": "<p>This is a page with of all gutenberg blocks and other settings, for rendering tests. Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
+    "author": "Admin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      14
+    ],
     "design_system_fields": {
       "template": "page"
     },
@@ -53,7 +67,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "parent": 0,
-    "menu_order": 0
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/"
   }
 }
