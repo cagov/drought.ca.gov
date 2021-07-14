@@ -14,8 +14,8 @@ $slow-curve: cubic-bezier(0.57, 0.2, 0.21, 0.89);
 cagov-navoverlay {
   .container {
     max-width: $w-lg;
-    margin: 0 auto;
-    padding: 0 16px 0 16px;
+		margin: 0 auto;
+		/*padding: 0 16px 0 16px;*/
   }
 
   .menu-trigger {

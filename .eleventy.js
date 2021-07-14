@@ -49,7 +49,7 @@ module.exports = function(eleventyConfig) {
         try {
           item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
         } catch (error) {
-          // console.error(error);
+          console.error(error);
         }
        
       }
