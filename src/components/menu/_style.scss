@@ -15,7 +15,7 @@ $desktop:            81.25em; //1300px
   }
 }
 @mixin desktop {
-  @media (min-width: #{$desktop}) {
+  @media (min-width: #{$w-lg}) {
     @content;
   }
 }
