@@ -1,4 +1,6 @@
-/* Cannabis color scheme */ 
+/* Drought color scheme */ 
+
+
 //theme colors
 $primary: #691808;
 $primary-dark: #064e66;
@@ -6,6 +8,11 @@ $primary-light: #ccdbf2;
 $secondary: #fec02f;
 $secondary-dark: #cf5d28;
 $secondary-light: #fff2d5;
+
+$w-lg: 1176px;
+$w-md: 960px;
+$w-sm: 720px;
+$w-xs: 540px;
 
 /* Colorscheme root variables */
 :root {
