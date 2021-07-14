@@ -1,3 +1,10 @@
+// Global variables
+
+$mobile:             768px;
+$mobile-min:             768px;
+// $mobile-wide:       1024px;
+$desktop:      1176px;
+
 //fonts sizes
 $body-text: 1.125rem;
 $lead-text: 1.5rem;
@@ -9,7 +16,7 @@ $p-sm: ($base * 2); // 16px
 $p-md: ($base * 3); // 24px
 $p-lg: ($base * 4); // 32px
 
-//marging spaces:
+//margin spaces:
 $m-sm: ($base * 6); // 48px
 $m-md: ($base * 8); // 64px
 $m-lg: ($base * 12); // 96px
@@ -21,18 +28,7 @@ $w-md: 960px;
 $w-sm: 720px;
 $w-xs: 540px;
 
-// basic colors
-$gray-100: #f9f9fa;
-$gray-200: #ededef;
-$gray-300: #e1e0e3;
-$gray-400: #d3d2d6;
-$gray-500: #c4c3c8;
-$gray-600: #b3b2b8;
-$gray-700: #a09fa7;
-$gray-800: #6c6b77;
-$gray-900: #3f3e4d;
-$black: #000;
-$white: #fff;
+
 
 // Font 
 $site-font: "Public Sans",sans-serif;
