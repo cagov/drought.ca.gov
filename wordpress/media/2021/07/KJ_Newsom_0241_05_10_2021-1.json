@@ -2,10 +2,11 @@
   "meta": {
     "created_date": "2021-07-08T13:47:01",
     "updated_date": "2021-07-08T13:52:15",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
-      "source_code": "https://github.com/cagov/cron",
+      "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
@@ -13,17 +14,87 @@
   },
   "data": {
     "id": 247,
+    "date": "2021-07-08T06:47:01",
+    "date_gmt": "2021-07-08T13:47:01",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg",
+    "modified": "2021-07-08T06:52:15",
+    "modified_gmt": "2021-07-08T13:52:15",
     "slug": "kj_newsom_0241_05_10_2021-2",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/kj_newsom_0241_05_10_2021-2/",
     "title": "GovernorGavinNewsom (OG)",
     "author": "Admin",
-    "date": "2021-07-08T06:47:01",
-    "modified": "2021-07-08T06:52:15",
-    "date_gmt": "2021-07-08T13:47:01",
-    "modified_gmt": "2021-07-08T13:52:15",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg'><img width=\"300\" height=\"158\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-300x158.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-300x158.jpg 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-750x394.jpg 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-768x403.jpg 768w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "<p>California Governor Gavin Newsom speaks at a press conference near San Luis Reservoir to announce a significant expansion on his April 21st drought emergency proclamation to include Klamath River, Sacramento-San Joaquin Delta and Tulare Lake Watershed counties where accelerated action is needed to protect public health, safety and the environment. In total, 41 counties are now under a drought state of emergency, representing 30 percent of the state’s population. Photo taken at San Luis Reservoir in Merced County, California.  Photo taken on May 10, 2021.</p>\n<p>Ken James / California Department of Water Resources FOR EDITORIAL USE ONLY</p>\n",
+    "alt_text": "",
     "media_type": "image",
     "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1200,
+      "height": 630,
+      "file": "2021/07/KJ_Newsom_0241_05_10_2021-1.jpg",
+      "sizes": {
+        "medium": {
+          "file": "KJ_Newsom_0241_05_10_2021-1-300x158.jpg",
+          "width": 300,
+          "height": 158,
+          "mime_type": "image/jpeg",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-300x158.jpg"
+        },
+        "large": {
+          "file": "KJ_Newsom_0241_05_10_2021-1-750x394.jpg",
+          "width": 750,
+          "height": 394,
+          "mime_type": "image/jpeg",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-750x394.jpg"
+        },
+        "thumbnail": {
+          "file": "KJ_Newsom_0241_05_10_2021-1-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "KJ_Newsom_0241_05_10_2021-1-768x403.jpg",
+          "width": 768,
+          "height": 403,
+          "mime_type": "image/jpeg",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1-768x403.jpg"
+        },
+        "full": {
+          "file": "KJ_Newsom_0241_05_10_2021-1.jpg",
+          "width": 1200,
+          "height": 630,
+          "mime_type": "image/jpeg",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "5.6",
+        "credit": "California Department of Water Resources",
+        "camera": "NIKON D5",
+        "caption": "California Governor Gavin Newsom speaks at a press conference near San Luis Reservoir to announce a significant expansion on his April 21st drought emergency proclamation to include Klamath River, Sacramento-San Joaquin Delta and Tulare Lake Watershed counties where accelerated action is needed to protect public health, safety and the environment. In total, 41 counties are now under a drought state of emergency, representing 30 percent of the state’s population. Photo taken at San Luis Reservoir in Merced County, California.  Photo taken on May 10, 2021.\n\nKen James / California Department of Water Resources FOR EDITORIAL USE ONLY",
+        "created_timestamp": "1620658597",
+        "copyright": "Public Domain",
+        "focal_length": "125",
+        "iso": "200",
+        "shutter_speed": "0.00066666666666667",
+        "title": "",
+        "orientation": "1",
+        "keywords": [
+          "DWR, Governor Gavin Newsom, P1166, San Luis, drought, lake level, press conference, water level"
+        ]
+      }
+    },
+    "post": null,
+    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg",
-    "type": "attachment",
     "sizes": [
       {
         "type": "full",
