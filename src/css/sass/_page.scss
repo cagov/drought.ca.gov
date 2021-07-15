@@ -19,8 +19,20 @@ article {
 
 /* Single column layout */
 .single-column {
+  max-width: $w-page-content;
+  margin: 0 auto;
+}
+
+.single-column.landing {
   max-width: $w-lg;
   margin: 0 auto;
+}
+
+.has-sidebar-left {
+  .single-column {
+    max-width: $w-lg;
+    margin: 0 auto;
+  }
 }
 
 @include tablet-buffer {
