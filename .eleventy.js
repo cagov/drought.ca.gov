@@ -47,7 +47,9 @@ module.exports = function(eleventyConfig) {
         let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
         item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
         try {
-          item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
+          if (Array.isArray(item.data.page_meta.image.url) && item.data.page_meta.image.url.length > 0) {
+            item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
+          }
         } catch (error) {
           // console.error(error);
         }
