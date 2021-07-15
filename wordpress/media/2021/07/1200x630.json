@@ -97,6 +97,7 @@
       {
         "type": "full",
         "path": "2021/07/1200x630.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png",
         "file": "1200x630.png",
         "width": 1200,
         "height": 630,
@@ -106,6 +107,7 @@
       {
         "type": "medium_large",
         "path": "2021/07/1200x630-768x403.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-768x403.png",
         "file": "1200x630-768x403.png",
         "width": 768,
         "height": 403,
@@ -115,6 +117,7 @@
       {
         "type": "large",
         "path": "2021/07/1200x630-750x394.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-750x394.png",
         "file": "1200x630-750x394.png",
         "width": 750,
         "height": 394,
@@ -124,6 +127,7 @@
       {
         "type": "medium",
         "path": "2021/07/1200x630-300x158.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-300x158.png",
         "file": "1200x630-300x158.png",
         "width": 300,
         "height": 158,
@@ -133,6 +137,7 @@
       {
         "type": "thumbnail",
         "path": "2021/07/1200x630-150x150.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-150x150.png",
         "file": "1200x630-150x150.png",
         "width": 150,
         "height": 150,
