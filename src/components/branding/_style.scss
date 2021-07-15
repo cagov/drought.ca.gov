@@ -25,14 +25,14 @@
 	.branding-logo {
 		color: $black;
 		text-decoration: none;
-		margin-left: 10px;
+		/*margin-left: 10px;*/
 		margin-bottom: 10px;
 		margin-top: 10px;
 		&:focus {
 			outline: 2px solid $secondary;
 		}
 		.logo-text {
-			padding-left: 5px;
+			/*padding-left: 5px;*/
 			display: inline-block;
 
 			.logo-state {

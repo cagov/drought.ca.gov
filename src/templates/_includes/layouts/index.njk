@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <title>{{ page_meta.page_title | safe }}</title>
+  <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
+  <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
+  <link rel="preload" href="/fonts/ppublicsans-light-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
 	<meta name="description" content="{{ page_meta.page_description | safe }}" />
@@ -53,10 +56,11 @@
 </head>
 
 <body>
-
-  {% include "../../../components/utility-header/utility-header.html" %}
-  {% include "../../../components/branding/branding.html" %}
-  {% include "nav-component.njk" %}
+  <div class="header-container">
+    {% include "../../../components/utility-header/utility-header.html" %}
+    {% include "../../../components/branding/branding.html" %}
+    {% include "nav-component.njk" %}
+  </div>
 
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
   {%- if templatestring == 'landing' -%}
@@ -78,8 +82,10 @@
     {% include "../layouts/templates/landing.njk" %}
   {%- endif -%}
 
-  {% include "../footer.njk" %}
-  {% include "../footer-universal.njk" %}
+  <div class="footer-container">
+    {% include "../footer.njk" %}
+    {% include "../footer-universal.njk" %}
+  </div>
 
   {% set js %}
   {% include "../../../../dist/built.js" %}

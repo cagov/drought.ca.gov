@@ -1,12 +1,13 @@
 /* GLOBAL */
 // Site Colors
 @import './colorschemes/_drought'; /* theme colors */
-@import './_variables'; /* spasing, margin and padding values */
+@import './_variables'; /* spacing, margin and padding values */
+@import './_mixins'; /* mixins */
 
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 @import './_fonts'; /* website global fonts */
 @import './_cagov-font'; /* website global fonts */
-@import './_base'; /* html, body, main and all the website level base styes */
+@import './_page'; /* html, body, main and all the website level base styes */
 @import './_buttons'; /* buttons generic styles */
 @import './_code'; /* pre, code, var generic styles */
 @import './_forms'; /* input, textarea, select generic styles */

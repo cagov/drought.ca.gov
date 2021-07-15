@@ -1,23 +1,23 @@
-.cagov-featured-section h2 { 
+.cagov-featured-section h2 {
   padding-bottom: 16px;
- }
+}
 
 .cagov-hero-body-content p {
   margin-bottom: 16px;
 }
 
 .cagov-p-2 {
-  padding: 1rem;
+  padding: 1.5rem;
 }
+
 .cagov-bkgrd-gry {
-  background-color: #F9F9FA;
+  background-color: var(--gray-100, #f9f9fa);
 }
 
 .cagov-featured-sidebar {
   max-width: 400px;
   margin-top: 0;
 }
-
 
 .cagov-featured-section {
   margin: 0 0 3rem 0;
@@ -40,12 +40,13 @@
 
 /* call to action */
 /* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
-.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {  
-  background-color: #33705B;
+.cagov-hero-body-content
+  .wp-block-button:not(.is-style-outline)
+  .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705B);
+  background-color: var(--primary-color, #33705b);
   /* variable used with fallback in case it is not defined */
-  color: white;
+  color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -53,12 +54,13 @@
   border: none;
   text-decoration: none;
 }
-.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
-  background-color: #33705B;
+.cagov-hero-body-content
+  .wp-block-button:not(.is-style-outline)
+  .wp-block-button__link:hover {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705B);
+  background-color: var(--primary-color, #33705b);
   /* variable used with fallback in case it is not defined */
-  color: white;
+  color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -101,7 +103,7 @@
   .cagov-with-sidebar > * {
     flex-direction: column-reverse;
   }
-} 
+}
 @media (min-width: 1200px) {
   .cagov-featured-sidebar {
     max-width: 34%;

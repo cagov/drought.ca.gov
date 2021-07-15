@@ -14,10 +14,10 @@
 		box-sizing: border-box;
 		max-width: $w-lg;
 		margin: 0 auto;
-		padding: 0 10px 0 10px;
+		/*padding: 0 10px 0 10px;*/
 	}
 
-	.ofiicial-logo {
+	.official-logo {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
@@ -31,10 +31,10 @@
 		padding: 0;
 		padding-top: 6px;
 		.ca {
-			fill: $secondary;
+			fill: $cagov-branding-primary;
 		}
 		.gov {
-			fill: $primary-dark;
+			fill: $cagov-branding-secondary;
 		}
 	}
 
