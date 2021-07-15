@@ -1,17 +1,59 @@
 @charset "UTF-8";
 /* GLOBAL */
-/* Cannabis color scheme */
+/* CA branding */
+/* Drought color scheme */
+/* Theme colors */
+/* Status colors */
+/* Gray scale values */
 /* Colorscheme root variables */
 :root {
+  /* CAGOV brandings */
+  --cagov-branding-primary: #FEC02F;
+  --cagov-branding-secondary: #0F1E6B;
+  /* Theme colors */
   --primary-color: #691808;
-  --primary-hover-color: #043747;
+  --primary-dark-color: #4A1106;
+  --primary-light-color: #965D52;
+  --primary-lightest-color: #B48C84;
+  --primary-hover-color: #4A1106;
+  --secondary-color: #313131;
+  --secondary-dark-color: #222222;
+  --secondary-light-color: #6F6F6F;
+  --secondary-lightest-color: #D6D6D6;
+  --secondary-hover-color: #222222;
+  --highight-color: #FBAD23;
+  --highlight-color-300: #FFF2D5;
   --standout-color: #313131;
   --standout-hover-color: #21351f;
-  --secondary-color: #cf5d28;
-  --highlight-color: #fdb81e; }
+  /* Status colors */
+  --status-success-color: #008542;
+  --status-danger-color: #B71234;
+  --status-warning-color: #FFD700;
+  --status-info-color: #000080;
+  --status-success-color-200: #CCE7D9;
+  --status-danger-color-200: #F8E7EB;
+  --status-warning-color-200: #FFFBE6;
+  --status-info-color-200: #E6E6F2;
+  /* Gray scale values */
+  --gray-100: #f9f9fa;
+  --gray-200: #ededef;
+  --gray-300: #e1e0e3;
+  --gray-400: #d3d2d6;
+  --gray-500: #c4c3c8;
+  --gray-600: #b3b2b8;
+  --gray-700: #a09fa7;
+  --gray-800: #6c6b77;
+  --gray-900: #3f3e4d;
+  --black: #000;
+  --white: #fff;
+  --secondary-color: #313131;
+  --highlight-color: #FBAD23; }
 
 /* theme colors */
-/* spasing, margin and padding values */
+/* spacing, margin and padding values */
+/* Tablet and wider */
+/* Desktop and wider */
+/* mixins */
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 /* Fonts (global) */
 /* latin-ext */
@@ -1630,10 +1672,8 @@ body {
   margin-bottom: 64px; }
 
 .page-container-ds {
-  max-width: 1140px;
-  margin: 2rem auto;
-  padding-left: 15px;
-  padding-right: 15px; }
+  max-width: 1176px;
+  margin: 2rem auto; }
 
 .main-content-ds {
   margin-top: 32px;
@@ -1641,7 +1681,7 @@ body {
 
 /* Single column layout */
 .single-column {
-  max-width: 1140px;
+  max-width: 1176px;
   margin: 0 auto; }
 
 /* CONTENT FOOTER */
@@ -1652,11 +1692,11 @@ body {
   padding-bottom: 23px; }
 
 .content-footer {
-  max-width: 1140px !important;
+  max-width: 1176px !important;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -1703,7 +1743,7 @@ main ul li {
   list-style-position: outside;
   margin-left: 32px; }
 
-@media only screen and (max-width: 992px) {
+@media (min-width: 768px) {
   .with-sidebar .main-content-default,
   .with-sidebar .ds-content-layout {
     display: block; }
@@ -1755,6 +1795,13 @@ main ul li {
     overflow-wrap: break-word;
     margin-top: 0px;
     margin-bottom: 0px; } }
+
+@media (max-width: 1216px) {
+  .header-container,
+  .footer-container,
+  .page-container-ds {
+    margin-left: 15px;
+    margin-right: 15px; } }
 
 /* border styles */
 .wp-block-table {
@@ -1847,7 +1894,7 @@ textarea, input {
   font-size: 1.125rem;
   font-weight: 400; }
   textarea:focus, input:focus {
-    outline: 2px solid #fec02f; }
+    outline: 2px solid #313131; }
 
 /* input, textarea, select generic styles */
 /* Links global styles */
@@ -1859,7 +1906,7 @@ a {
   a:hover {
     color: #220803; }
   a:focus {
-    outline: 2px solid #fec02f; }
+    outline: 2px solid #313131; }
 
 /* a, a:hover, a:focus */
 /* Typography global styles */
@@ -2068,7 +2115,7 @@ button.accordion-card-header:hover .accordion-title:hover {
   background-color: #fff;
   border-bottom: 1px solid #e1e0e3; }
   .branding .container {
-    max-width: 1140px;
+    max-width: 1176px;
     margin: 0 auto;
     padding: 5px 0 0 0;
     display: flex;
@@ -2078,19 +2125,19 @@ button.accordion-card-header:hover .accordion-title:hover {
   .branding .logo {
     margin-bottom: 5px; }
     .branding .logo:focus {
-      outline: 2px solid #fec02f; }
+      outline: 2px solid #313131; }
   .branding .logo-img {
     margin-left: 10px; }
   .branding .branding-logo {
     color: #000;
     text-decoration: none;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     margin-bottom: 10px;
     margin-top: 10px; }
     .branding .branding-logo:focus {
-      outline: 2px solid #fec02f; }
+      outline: 2px solid #313131; }
     .branding .branding-logo .logo-text {
-      padding-left: 5px;
+      /*padding-left: 5px;*/
       display: inline-block; }
       .branding .branding-logo .logo-text .logo-state {
         font-size: 1rem;
@@ -2134,7 +2181,7 @@ button.accordion-card-header:hover .accordion-title:hover {
       position: relative; }
       .branding .search-container #site-search .search-textfield {
         border: 1px solid;
-        border-color: #064e66;
+        border-color: #4A1106;
         border-radius: 4px;
         padding: 10px;
         width: 100%;
@@ -2143,8 +2190,8 @@ button.accordion-card-header:hover .accordion-title:hover {
         position: relative;
         right: 5px;
         outline-offset: -2px;
-        background-color: #064e66;
-        border: 1px solid #064e66;
+        background-color: #4A1106;
+        border: 1px solid #4A1106;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
         padding: 7px 14px 4px 14px; }
@@ -2152,11 +2199,11 @@ button.accordion-card-header:hover .accordion-title:hover {
           background-color: #691808;
           border-color: #691808; }
         .branding .search-container #site-search .search-submit:focus {
-          outline: 2px solid #fec02f; }
+          outline: 2px solid #313131; }
         .branding .search-container #site-search .search-submit svg path {
           fill: #fff; }
       .branding .search-container #site-search .search-close {
-        color: #064e66;
+        color: #4A1106;
         text-decoration: underline;
         border: none;
         background-color: #f9f9fa;
@@ -2165,7 +2212,7 @@ button.accordion-card-header:hover .accordion-title:hover {
           color: #691808;
           text-decoration: none; }
         .branding .search-container #site-search .search-close:focus {
-          outline: 2px solid #fec02f; }
+          outline: 2px solid #313131; }
 
 .toggle-menu {
   position: relative;
@@ -2194,7 +2241,7 @@ button.accordion-card-header:hover .accordion-title:hover {
     .toggle-menu span:nth-child(4) {
       top: 29px; }
   .toggle-menu:hover span, .toggle-menu:focus span {
-    background: #064e66; }
+    background: #4A1106; }
   .toggle-menu[aria-expanded="true"] span:nth-child(1) {
     top: 12px;
     width: 0%;
@@ -2256,7 +2303,7 @@ button.accordion-card-header:hover .accordion-title:hover {
   max-height: 25px; }
 
 .cagov-card:hover {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background: #F9F9FA;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .cagov-grid, .cagov-grid .block-editor-block-list__layout {
@@ -2317,10 +2364,10 @@ sidebar cagov-content-navigation ul li:first-child {
   margin-bottom: 16px; }
 
 .cagov-p-2 {
-  padding: 1rem; }
+  padding: 1.5rem; }
 
 .cagov-bkgrd-gry {
-  background-color: #F9F9FA; }
+  background-color: var(--gray-100, #f9f9fa); }
 
 .cagov-featured-sidebar {
   max-width: 400px;
@@ -2346,12 +2393,13 @@ sidebar cagov-content-navigation ul li:first-child {
 
 /* call to action */
 /* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
-.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
-  background-color: #33705B;
+.cagov-hero-body-content
+.wp-block-button:not(.is-style-outline)
+.wp-block-button__link:not(:hover):not(:active):not(.has-background) {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705B);
+  background-color: var(--primary-color, #33705b);
   /* variable used with fallback in case it is not defined */
-  color: white;
+  color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -2359,12 +2407,13 @@ sidebar cagov-content-navigation ul li:first-child {
   border: none;
   text-decoration: none; }
 
-.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
-  background-color: #33705B;
+.cagov-hero-body-content
+.wp-block-button:not(.is-style-outline)
+.wp-block-button__link:hover {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705B);
+  background-color: var(--primary-color, #33705b);
   /* variable used with fallback in case it is not defined */
-  color: white;
+  color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -2737,22 +2786,22 @@ ol.steps li:last-child {
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    max-width: 1140px;
+    max-width: 1176px;
     margin: 0 auto;
-    padding: 0 10px 0 10px; }
-  .official-header .ofiicial-logo {
+    /*padding: 0 10px 0 10px;*/ }
+  .official-header .official-logo {
     display: flex;
     flex-wrap: wrap;
     align-items: center; }
-    .official-header .ofiicial-logo .cagov-logo {
+    .official-header .official-logo .cagov-logo {
       margin: 0 10px 0 0; }
   .official-header svg {
     padding: 0;
     padding-top: 6px; }
     .official-header svg .ca {
-      fill: #fec02f; }
+      fill: #FEC02F; }
     .official-header svg .gov {
-      fill: #064e66; }
+      fill: #0F1E6B; }
   .official-header .official-tag {
     margin: 0 10px;
     font-size: 1rem; }
@@ -2761,7 +2810,7 @@ ol.steps li:last-child {
     font-size: 1rem;
     padding: 0 0.5rem 0 0.5rem; }
     .official-header .official-languages a:hover {
-      color: #064e66; }
+      color: #4A1106; }
   .official-header .official-languages {
     display: flex;
     flex-wrap: wrap; }
@@ -2777,7 +2826,7 @@ ol.steps li:last-child {
       background-color: #fff;
       transition: transform 0.3s; }
       .official-header .official-languages button.offcial-more:hover {
-        color: #064e66; }
+        color: #4A1106; }
       .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down {
         transition: all 0.3s; }
         .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down svg {
@@ -2828,16 +2877,16 @@ section.site-footer .container {
   flex-wrap: wrap;
   flex-direction: column;
   box-sizing: border-box;
-  max-width: 1140px;
+  max-width: 1176px;
   margin: 0 auto;
-  padding: 1rem; }
+  padding: 1rem 0; }
 
 section.site-footer a {
   color: #691808; }
   section.site-footer a:hover {
-    color: #cf5d28; }
+    color: #222222; }
   section.site-footer a:focus {
-    outline: 2px solid #fec02f; }
+    outline: 2px solid #313131; }
 
 section.site-footer .footer-logo {
   width: 54px;
@@ -2865,7 +2914,7 @@ section.site-footer .footer-social-links {
     section.site-footer .footer-social-links a svg path {
       fill: #691808; }
     section.site-footer .footer-social-links a:hover svg path {
-      fill: #064e66; }
+      fill: #4A1106; }
 
 @media (min-width: 991px) {
   .footer-secondary-links, section.site-footer .container {
@@ -2897,16 +2946,16 @@ footer .container {
   flex-wrap: wrap;
   flex-direction: column;
   box-sizing: border-box;
-  max-width: 1140px;
+  max-width: 1176px;
   margin: 0 auto;
-  padding: 1rem; }
+  padding: 1rem 0; }
 
 footer a:hover {
-  color: #064e66;
+  color: #4A1106;
   text-decoration: none; }
 
 footer a:focus {
-  outline: 2px solid #fec02f; }
+  outline: 2px solid #313131; }
 
 footer .footer-secondary-links {
   display: flex;
@@ -2920,9 +2969,9 @@ footer .footer-secondary-links {
 footer .bg-light-grey svg {
   padding: 0; }
   footer .bg-light-grey svg .ca {
-    fill: #fec02f; }
+    fill: #313131; }
   footer .bg-light-grey svg .gov {
-    fill: #064e66; }
+    fill: #4A1106; }
 
 footer .cagov-logo {
   padding: 5px 2rem 5px 0; }
@@ -2945,14 +2994,14 @@ footer .copyright {
 
 /* MAIN MENU / HAMBURGER */
 cagov-navoverlay .container {
-  max-width: 1140px;
+  max-width: 1176px;
   margin: 0 auto;
-  padding: 0 16px 0 16px; }
+  /*padding: 0 16px 0 16px;*/ }
 
 cagov-navoverlay .menu-trigger {
   margin-top: 1rem;
-  padding: .5em 1em .5em 0;
-  transition: .3s;
+  padding: 0.5em 1em 0.5em 0;
+  transition: 0.3s;
   transform-origin: top left;
   display: inline-block;
   cursor: pointer;
@@ -2961,11 +3010,11 @@ cagov-navoverlay .menu-trigger {
   align-items: center;
   top: -2px;
   right: 0;
-  transition: .3s;
+  transition: 0.3s;
   transform-origin: center center; }
   cagov-navoverlay .menu-trigger .is-fixed {
     position: fixed; }
-  @media (max-width: 64em) {
+  @media (max-width: 767px) {
     cagov-navoverlay .menu-trigger {
       z-index: 2000; } }
   @media (min-width: 768px) {
@@ -2987,7 +3036,7 @@ cagov-navoverlay .hamburger {
   transition: all 0.2s ease-in-out;
   vertical-align: middle;
   z-index: 10000;
-  margin-right: .5rem; }
+  margin-right: 0.5rem; }
   cagov-navoverlay .hamburger-box {
     width: 20px;
     height: 20px;
@@ -3021,7 +3070,7 @@ cagov-navoverlay .hamburger {
 cagov-navoverlay.display-menu .menu-trigger {
   box-shadow: none; }
   cagov-navoverlay.display-menu .menu-trigger .hamburger-inner, cagov-navoverlay.display-menu .menu-trigger .hamburger-inner:before, cagov-navoverlay.display-menu .menu-trigger .hamburger-inner:after {
-    transition: .3s; }
+    transition: 0.3s; }
 
 cagov-navoverlay.display-menu .hamburger-inner {
   transform: rotate(225deg);
@@ -3055,7 +3104,7 @@ cagov-navoverlay {
       display: flex;
       align-items: center; }
       cagov-navoverlay .mobile-icons .search-btn svg {
-        margin-right: .5rem; }
+        margin-right: 0.5rem; }
     cagov-navoverlay .mobile-icons .search-btn,
     cagov-navoverlay .mobile-icons .menu-btn {
       border: none;
@@ -3065,14 +3114,14 @@ cagov-navoverlay {
       margin-right: 10px; }
       cagov-navoverlay .mobile-icons .search-btn:hover,
       cagov-navoverlay .mobile-icons .menu-btn:hover {
-        color: #064e66; }
+        color: #4A1106; }
         cagov-navoverlay .mobile-icons .search-btn:hover .blue,
         cagov-navoverlay .mobile-icons .menu-btn:hover .blue {
-          fill: #064e66; }
+          fill: #4A1106; }
       cagov-navoverlay .mobile-icons .search-btn:focus,
       cagov-navoverlay .mobile-icons .menu-btn:focus {
-        color: #064e66;
-        outline: 2px solid #fec02f; }
+        color: #4A1106;
+        outline: 2px solid #313131; }
       cagov-navoverlay .mobile-icons .search-btn svg,
       cagov-navoverlay .mobile-icons .menu-btn svg {
         position: relative;
@@ -3129,14 +3178,14 @@ cagov-navoverlay {
       @media (min-width: 768px) {
         cagov-navoverlay .expanded-menu-section .expanded-menu-section-header {
           padding: 0; } }
-      @media (max-width: 64em) {
+      @media (max-width: 767px) {
         cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-dropdown {
           max-height: 100rem; } }
       @media (min-width: 768px) {
         cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-dropdown {
           max-height: none;
           top: 2.6rem;
-          padding: .5rem 1rem 1rem 1rem;
+          padding: 0.5rem 1rem 1rem 1rem;
           border: solid 1px #ccc; }
         cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-section-header {
           border: solid 1px #ccc;
@@ -3166,7 +3215,7 @@ cagov-navoverlay {
           border: none;
           padding-top: 1rem;
           padding-bottom: 1rem;
-          padding-right: .5rem;
+          padding-right: 0.5rem;
           /* arrow clearence for long text */ }
           cagov-navoverlay .expanded-menu-section-header-link:active {
             background: transparent; }
@@ -3195,7 +3244,7 @@ cagov-navoverlay {
             width: 100%;
             display: block;
             transition: all 0.6s cubic-bezier(0.5, 1.65, 0.4, 0.8);
-            margin-top: .3rem; }
+            margin-top: 0.3rem; }
     cagov-navoverlay .expanded-menu-dropdown {
       max-height: 0px;
       overflow: hidden;
@@ -3203,7 +3252,7 @@ cagov-navoverlay {
       cagov-navoverlay .expanded-menu-dropdown-link {
         font-weight: 400;
         font-size: 1.2rem;
-        padding: .5rem 0.25rem;
+        padding: 0.5rem 0.25rem;
         margin: 0.15rem 0 0.15rem 2px;
         display: table;
         transition: color 0.3s cubic-bezier(0.57, 0.2, 0.21, 0.89);
@@ -3213,13 +3262,13 @@ cagov-navoverlay {
         @media (min-width: 768px) {
           cagov-navoverlay .expanded-menu-dropdown-link {
             padding: 0rem 0;
-            margin: .85rem 0 0 2px;
+            margin: 0.85rem 0 0 2px;
             line-height: 1.75rem; } }
-        @media (min-width: 81.25em) {
+        @media (min-width: 1176px) {
           cagov-navoverlay .expanded-menu-dropdown-link {
             padding: 0rem 0;
             line-height: 1.3rem; } }
-        @media (max-width: 64em) {
+        @media (max-width: 767px) {
           cagov-navoverlay .expanded-menu-dropdown-link {
             /* padding: 0.35rem 0; */ } }
     cagov-navoverlay .expanded-menu-grouping:not(:first-child) {
