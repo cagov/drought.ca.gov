@@ -1,3 +1,7 @@
+/* CA branding */
+$cagov-branding-primary: #FEC02F;
+$cagov-branding-secondary: #0F1E6B;
+
 /* Drought color scheme */ 
 
 /* Theme colors */
@@ -46,6 +50,10 @@ $white: #fff;
 
 /* Colorscheme root variables */
 :root {
+  /* CAGOV brandings */
+  --cagov-branding-primary: #FEC02F;
+  --cagov-branding-secondary: #0F1E6B;
+  
   /* Theme colors */
   --primary-color: #691808;
   --primary-dark-color: #4A1106;
