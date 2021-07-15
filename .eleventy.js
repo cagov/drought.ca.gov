@@ -58,6 +58,7 @@ module.exports = function(eleventyConfig) {
 
     return output;
   });
+  
 
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead

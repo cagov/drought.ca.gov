@@ -4,13 +4,20 @@
     @content;
   }
 }
-
+/* Tablet and wider */
 @mixin tablet {
-  @media (min-width: #{$mobile}) and (max-width: #{$desktop-min}) {
+  @media (min-width: #{$mobile}) {
     @content;
   }
 }
 
+@mixin tablet-buffer {
+  @media (max-width: #{$tablet-buffer}) {
+    @content;
+  }
+}
+
+/* Desktop and wider */
 @mixin desktop {
   @media (min-width: #{$desktop}) {
     @content;
