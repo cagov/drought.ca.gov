@@ -7,11 +7,14 @@
 }
 
 /* Apply same spacing mechanism as cagov-stack, but overriding default gutenberg block element classes */
+
+
 .wp-block-columns {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
   flex-wrap: nowrap;
+  flex-direction: row;
 }
 
 .wp-block-column {
@@ -23,6 +26,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 
 .wp-block-column:first-child {
   margin-right: 32px;
@@ -49,21 +53,25 @@ main .wp-block-image img {
   }
 
 @include phone {
-  .wp-block-columns {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-  }
 
-  .wp-block-column {
-    flex-basis: 0;
-    flex-grow: 1;
-    min-width: 0;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
+
+.wp-block-columns {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.wp-block-column {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
 }
