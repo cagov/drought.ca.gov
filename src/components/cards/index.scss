@@ -4,7 +4,7 @@
 
 .cagov-card {
   border: 1px solid #ededef;
-  padding: 1rem;
+  padding: 1rem .25rem 1rem 1rem;
   border-bottom: 0.3rem solid #33705B;
   border-bottom: 0.3rem solid var(--primary-color, #33705B);
   border-radius: 0.3rem;
@@ -12,6 +12,7 @@
   min-height: 50px;
   margin-top: 0;
   display: flex;
+  gap: 1rem;
   justify-content: space-between;
 }
 
@@ -30,13 +31,14 @@
   fill: #33705B;
   fill: var(--primary-color, #33705B);
   width: 1rem;
-  margin-top: .2rem;
-  margin-left: 1rem;
   max-height: 25px;
+  align-self: center;
 }
 
 .cagov-card:hover {
   background: #F9F9FA;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
