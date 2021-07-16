@@ -3,7 +3,7 @@
 function reportGA(eventAction, eventLabel, eventCategory = 'click') {
     if(typeof(ga) !== 'undefined') {
       ga('send', 'event', eventCategory, eventAction, eventLabel);
-      //   ga('tracker2.send', 'event', eventCategory, eventAction, eventLabel);
+      ga('tracker2.send', 'event', eventCategory, eventAction, eventLabel);
       //   ga('tracker3.send', 'event', eventCategory, eventAction, eventLabel);
     } else {
       setTimeout(function() {
