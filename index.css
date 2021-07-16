@@ -1911,7 +1911,8 @@ a {
   color: #691808;
   text-decoration: underline; }
   a:hover {
-    color: #220803; }
+    color: #4A1106;
+    text-decoration: none; }
   a:focus {
     outline: 2px solid #313131; }
 
@@ -2413,15 +2414,14 @@ cagov-content-navigation li:first-child {
 .wp-block-button:not(.is-style-outline)
 .wp-block-button__link:hover {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705b);
+  background-color: var(--primary-hover-color, #33705b);
   /* variable used with fallback in case it is not defined */
   color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
   display: inline-block;
-  border: none;
-  text-decoration: underline; }
+  border: none; }
 
 .cagov-hero-body-content .wp-block-button__link {
   overflow-wrap: normal;
@@ -2517,6 +2517,9 @@ cagov-content-navigation li:first-child {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px; }
+  .cagov-post-list .link-title a:hover {
+    color: #4A1106;
+    text-decoration: none; }
 
 .cagov-post-list .link-title,
 .cagov-post-list .post-list-item {
@@ -2527,6 +2530,9 @@ cagov-content-navigation li:first-child {
   .cagov-post-list .link-title a,
   .cagov-post-list .post-list-item a {
     text-decoration: underline; }
+    .cagov-post-list .link-title a:hover,
+    .cagov-post-list .post-list-item a:hover {
+      text-decoration: none; }
 
 .wp-block-ca-design-system-post-list .post-list-item.post-status {
   margin-bottom: 32px; }
@@ -2553,6 +2559,9 @@ cagov-content-navigation li:first-child {
   line-height: 30px;
   font-size: 28px;
   text-decoration: underline; }
+  .cagov-post-list .link-title a:hover {
+    color: #4A1106;
+    text-decoration: none; }
 
 .cagov-post-list .excerpt,
 .cagov-post-list .excerpt p {
@@ -2599,6 +2608,9 @@ cagov-post-list .post-list-item {
     font-size: 24px;
     margin-bottom: 8px;
     text-decoration: underline; }
+    .cagov-post-list .link-title a:hover {
+      color: #4A1106;
+      text-decoration: none; }
   .cagov-post-list .excerpt,
   .cagov-post-list .excerpt p {
     font-weight: 400;
