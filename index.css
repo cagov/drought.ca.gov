@@ -1828,7 +1828,8 @@ article {
   margin-top: 2rem;
   margin-bottom: 2rem;
   display: flex;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  flex-direction: row; }
 
 .wp-block-column {
   flex-basis: 0;
