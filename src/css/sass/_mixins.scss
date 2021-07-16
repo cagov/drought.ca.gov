@@ -23,3 +23,10 @@
     @content;
   }
 }
+
+@mixin text-underline {
+  text-decoration: underline;
+  // text-decoration-thickness: 1px;
+  // text-underline-position: under;
+  // text-underline-offset: -0.05em;
+}

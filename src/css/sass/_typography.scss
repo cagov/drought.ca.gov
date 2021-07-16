@@ -25,6 +25,12 @@ ul li {
   margin-bottom: 0.5rem;
 }
 
+/* Update position list element */
+main ul li {
+  list-style-position: outside;
+  margin-left: 32px;
+}
+
 h1,
 .h1 {
   font-size: 2.5rem;
