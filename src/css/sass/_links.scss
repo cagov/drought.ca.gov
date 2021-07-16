@@ -2,7 +2,8 @@
 a {
   color: $primary;
   &:hover {
-    color: darken($color: $primary, $amount: 15%);
+    color: $primary-dark;
+    text-decoration: none;
   }
   &:focus {
     outline: 2px solid $secondary;

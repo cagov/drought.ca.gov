@@ -16,6 +16,10 @@
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px;
+  &:hover {
+    color: $primary-dark;
+    text-decoration: none;
+  }
 }
 
 .cagov-post-list .link-title,
@@ -26,6 +30,9 @@
   margin-bottom: 16px;
   a {
     @include text-underline;
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
@@ -60,6 +67,10 @@
   line-height: 30px;
   font-size: 28px;
   @include text-underline;
+  &:hover {
+    color: $primary-dark;
+    text-decoration: none;
+  }
 }
 
 .cagov-post-list .excerpt,
@@ -115,6 +126,10 @@ cagov-post-list .post-list-item {
     font-size: 24px;
     margin-bottom: 8px;
     @include text-underline;
+    &:hover {
+      color: $primary-dark;
+      text-decoration: none;
+    }
   }
 
   .cagov-post-list .excerpt,

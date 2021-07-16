@@ -58,7 +58,7 @@
   .wp-block-button:not(.is-style-outline)
   .wp-block-button__link:hover {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705b);
+  background-color: var(--primary-hover-color, #33705b);
   /* variable used with fallback in case it is not defined */
   color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
@@ -66,7 +66,7 @@
   font-weight: bold;
   display: inline-block;
   border: none;
-  text-decoration: underline;
+  // text-decoration: underline;
 }
 
 .cagov-hero-body-content .wp-block-button__link {
