@@ -45,8 +45,10 @@ footer {
 	.cagov-logo {
 		padding: 5px 2rem 5px 0;
 		svg {
+			width:45px;
+			height:36px;
 			padding: 0;
-			padding-top: 6px;
+			padding-top: 0px;
 			.ca {
 				fill: $cagov-branding-primary;
 			}
