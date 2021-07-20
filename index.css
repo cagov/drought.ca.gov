@@ -2281,7 +2281,7 @@ button.accordion-card-header:hover .accordion-title:hover {
   text-decoration: none; }
 
 .cagov-card {
-  border: 1px solid #ededef;
+  border: 1px solid var(--gray-200, #ededef);
   padding: 1rem;
   border-bottom: 0.3rem solid #33705B;
   border-bottom: 0.3rem solid var(--primary-color, #33705B);
@@ -2341,7 +2341,7 @@ cagov-content-navigation ul, cagov-content-navigation ol {
 cagov-content-navigation li {
   padding-top: 16px;
   margin-top: 16px;
-  border-top: 1px solid #EDEDEF;
+  border-top: 1px solid var(--gray-200, #ededef);
   line-height: 28.2px;
   list-style: none; }
 
@@ -2357,7 +2357,7 @@ cagov-content-navigation li:first-child {
   cagov-content-navigation ul li:last-child {
     padding-bottom: 16px;
     margin-bottom: 16px;
-    border-bottom: 1px solid #EDEDEF; } }
+    border-bottom: 1px solid var(--gray-200, #ededef); } }
 
 /* copied from blocks */
 .cagov-featured-section h2 {
@@ -2881,7 +2881,9 @@ section.site-footer .container {
   box-sizing: border-box;
   max-width: 1176px;
   margin: 0 auto;
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  border-top: 1px solid var(--gray-200, #EDEDEF);
+  border-bottom: 1px solid var(--gray-200, #EDEDEF); }
 
 section.site-footer a {
   color: #691808; }
@@ -2962,7 +2964,7 @@ footer a:focus {
 footer .footer-secondary-links {
   display: flex;
   flex-direction: column;
-  font-size: 1.2rem; }
+  font-size: 1.0rem; }
   footer .footer-secondary-links a {
     margin-right: 1.7rem;
     padding-top: 0.5rem;
@@ -2977,6 +2979,15 @@ footer .bg-light-grey svg {
 
 footer .cagov-logo {
   padding: 5px 2rem 5px 0; }
+  footer .cagov-logo svg {
+    width: 45px;
+    height: 36px;
+    padding: 0;
+    padding-top: 0px; }
+    footer .cagov-logo svg .ca {
+      fill: #FEC02F; }
+    footer .cagov-logo svg .gov {
+      fill: #0F1E6B; }
 
 footer .bg-light-grey a,
 footer .copyright {
