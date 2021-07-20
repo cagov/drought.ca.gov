@@ -3,7 +3,7 @@
 }
 
 .cagov-card {
-  border: 1px solid #ededef;
+  border: 1px solid var(--gray-200, #ededef);
   padding: 1rem;
   border-bottom: 0.3rem solid #33705B;
   border-bottom: 0.3rem solid var(--primary-color, #33705B);
