@@ -22,7 +22,7 @@ footer {
 	.footer-secondary-links {
 		display: flex;
 		flex-direction: column;
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 
 		a {
 			margin-right: 1.7rem;
@@ -44,7 +44,18 @@ footer {
 
 	.cagov-logo {
 		padding: 5px 2rem 5px 0;
+		svg {
+			padding: 0;
+			padding-top: 6px;
+			.ca {
+				fill: $cagov-branding-primary;
+			}
+			.gov {
+				fill: $cagov-branding-secondary;
+			}
+		}
 	}
+
 
 	.bg-light-grey a,
 	.copyright {
