@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-22T21:44:08",
-    "updated_date": "2021-07-22T21:44:42",
+    "updated_date": "2021-07-22T21:45:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-22T14:44:08",
     "date_gmt": "2021-07-22T21:44:08",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=360",
-    "modified": "2021-07-22T14:44:42",
-    "modified_gmt": "2021-07-22T21:44:42",
+    "modified": "2021-07-22T14:45:07",
+    "modified_gmt": "2021-07-22T21:45:07",
     "slug": "test-post",
     "status": "publish",
     "type": "post",
@@ -54,8 +54,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "July 22, 2021",
           "i18n_locale_date_gmt": "July 22, 2021",
-          "i18n_locale_date_time": "July 22, 2021 2:44 pm",
-          "i18n_locale_date_time_gmt": "July 22, 2021 9:44 pm"
+          "i18n_locale_date_time": "July 22, 2021 2:45 pm",
+          "i18n_locale_date_time_gmt": "July 22, 2021 9:45 pm"
         },
         "post_location": "",
         "event_date": "",
