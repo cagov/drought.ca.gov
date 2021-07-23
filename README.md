@@ -24,3 +24,7 @@ Content -> Production flow
 ## Where CSS lives
 
 * css variables live: 
+
+## Network diagram
+
+<img src="drought.ca.gov-web-application-architecture.png">
