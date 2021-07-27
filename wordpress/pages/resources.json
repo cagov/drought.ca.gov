@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T19:45:28",
-    "updated_date": "2021-07-27T22:44:35",
+    "updated_date": "2021-07-27T22:48:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T12:45:28",
     "date_gmt": "2021-07-04T19:45:28",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=70",
-    "modified": "2021-07-27T15:44:35",
-    "modified_gmt": "2021-07-27T22:44:35",
+    "modified": "2021-07-27T15:48:41",
+    "modified_gmt": "2021-07-27T22:48:41",
     "slug": "resources",
     "status": "publish",
     "type": "page",
@@ -52,10 +52,10 @@
         "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
       ],
       "_open_graph_title": [
-        "Resources"
+        "Resources &#x2d; California drought action"
       ],
       "_open_graph_description": [
-        "Learn more about current conditions, the state’s response and informational resources available to the public."
+        "Learn more about current conditions, the state’s response, and informational resources available to the public."
       ],
       "_twitter_title": "",
       " _tsf_title_no_blogname": "",
