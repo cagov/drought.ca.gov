@@ -16,7 +16,7 @@
         "content",
         "_links"
       ],
-      "IgnoreTags":[
+      "IgnoreTags": [
         "staging",
         "development"
       ]
