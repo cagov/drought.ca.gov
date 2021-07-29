@@ -1645,7 +1645,9 @@ select[data-class-icon] {
 
 /* website global fonts */
 /* beginnings of normalize */
-*, :after, :before {
+*,
+:after,
+:before {
   box-sizing: border-box;
   background-color: inherit;
   font-family: inherit;
@@ -1661,12 +1663,7 @@ body {
   line-height: 1.5;
   color: #000; }
 
-/**
- CA Design System Page layout CSS
-*/
-/* PAGE CONTAINER */
-/* Design system page container */
-/* First Block has a top margin */
+/* html, body, main and all the website level base styes */
 #main-content {
   margin-top: 32px;
   margin-bottom: 64px; }
@@ -1679,30 +1676,30 @@ body {
   margin-top: 32px;
   max-width: 100%; }
 
+article {
+  display: block; }
+
 /* Single column layout */
 .single-column {
+  max-width: 876px;
+  margin: 0 auto; }
+
+.single-column.landing {
   max-width: 1176px;
   margin: 0 auto; }
 
-/* CONTENT FOOTER */
-.content-footer-container {
-  border-bottom: 1px solid #ededef;
-  border-top: 1px solid #ededef;
-  padding-top: 23px;
-  padding-bottom: 23px; }
+.has-sidebar-left .single-column {
+  max-width: 1176px;
+  margin: 0 auto; }
 
-.content-footer {
-  max-width: 1176px !important;
-  margin-right: auto;
-  margin-left: auto;
-  /*padding-left: 15px;
-  padding-right: 15px;*/
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start; }
+@media (max-width: 1216px) {
+  .header-container,
+  .footer-container,
+  .page-container-ds {
+    margin-left: 15px;
+    margin-right: 15px; } }
 
-/* PAGE BEHAVIORS */
+/* Responsive title behavior */
 /* Hide Mobile title, lives outside flex aligned elements and before content navigation, desktop page title is inside main. */
 .narrow-page-title {
   display: none; }
@@ -1713,119 +1710,29 @@ body {
 .main-content-ds.single-column.landing .narrow-page-title {
   display: none; }
 
-/* Gutenberg Block alignment */
-/* Class applied to most external element of a gutenberg block component. Controls spacing between blocks. */
-.cagov-stack {
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+/* Responsive page title */
+.wide-page-title {
+  display: none; }
 
-/* Apply same spacing mechanism as cagov-stack, but overriding default gutenberg block element classes */
-.wp-block-columns {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  display: flex;
-  flex-wrap: nowrap; }
+.narrow-page-title {
+  display: block;
+  margin-bottom: 16px;
+  margin-top: 16px; }
 
-.wp-block-column {
-  flex-basis: 0;
-  flex-grow: 1;
-  min-width: 0;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+.main-content-ds.single-column .wide-page-title {
+  display: none; }
 
-.wp-block-column:first-child {
-  margin-right: 32px; }
+.main-content-ds.single-column.landing .wide-page-title {
+  display: none; }
 
-/* Update position list element */
-main ul li {
-  list-style-position: outside;
-  margin-left: 32px; }
+.main-content-ds.single-column.landing .narrow-page-title {
+  display: none; }
 
-@media (min-width: 768px) {
-  .with-sidebar .main-content-default,
-  .with-sidebar .ds-content-layout {
-    display: block; }
-  article {
-    display: block; }
-  .with-sidebar.page-container-ds #main-content.main-content-ds,
-  .with-sidebar.page-container-ds #main-content.main-content-ds main {
-    margin-top: 0;
-    margin-left: 0; }
-  .with-sidebar.page-container-ds main {
-    margin-left: inherit;
-    margin-top: 32px; }
-  /* Responsive page title */
-  .wide-page-title {
-    display: none; }
-  .narrow-page-title {
-    display: block;
-    margin-bottom: 16px;
-    margin-top: 16px; }
-  .main-content-ds.single-column .wide-page-title {
-    display: none; }
-  main .wp-block-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: bottom;
-    margin-bottom: 32px; }
-  .main-content-ds.single-column.landing .wide-page-title {
-    display: none; }
-  .main-content-ds.single-column.landing .narrow-page-title {
-    display: none; }
-  /* Content Menu */
-  .content-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start; }
-  .wp-block-columns {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column; }
-  .wp-block-column {
-    flex-basis: 0;
-    flex-grow: 1;
-    min-width: 0;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    margin-top: 0px;
-    margin-bottom: 0px; } }
-
-@media (max-width: 1216px) {
-  .header-container,
-  .footer-container,
-  .page-container-ds {
-    margin-left: 15px;
-    margin-right: 15px; } }
-
-/* border styles */
-.wp-block-table {
-  background: none !important;
-  border: none !important; }
-
-.wp-block-table table,
-.wp-block-table table th,
-.wp-block-table table td {
-  border: 1px solid #ededef !important; }
-
-/* SIDEBAR */
-/* Based on EveryLayout sidebar: https://every-layout.dev/layouts/sidebar/. 
- Intention: We are keeping a clean and clear page-container so that we can do more css for design prototypes without requiring full integration with Wordpress Theme until user testing and research has concluding and layouts and templates are finalized.
- We are interested to use more of these kinds of layouts. 
- Talk to Koji for more information.
- See also: https://shop.smashingmagazine.com/products/inclusive-design-patterns
-
- Integration with CAWeb theme. For any main page elements that need to also render in the default template, the suffix is -default for layouts in the main theme, and -ds for layouts that are tied to templates provided by the design system WP code.
-*/
 .sidebar-container {
   display: block;
   width: 276px;
-  max-width: 276px; }
+  max-width: 276px;
+  padding-right: 24px; }
 
 .with-sidebar .main-content-default,
 .with-sidebar .ds-content-layout {
@@ -1840,7 +1747,9 @@ main ul li {
   flex-grow: 1; }
 
 .with-sidebar.has-sidebar-left .main-content-default > :last-child,
-.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout > .everylayout:last-child {
+.with-sidebar.has-sidebar-left .main-content-ds
+.ds-content-layout
+> .everylayout:last-child {
   flex-basis: 0;
   flex-grow: 999;
   min-width: calc(50% - var(--s1)); }
@@ -1857,18 +1766,118 @@ main ul li {
   flex-basis: 267px;
   flex-grow: 1; }
 
-.with-sidebar.page-container-ds.has-sidebar-left main {
+.with-sidebar .page-container-ds.has-sidebar-left main {
   margin-left: 64px;
   margin-right: 20px; }
 
-.with-sidebar.page-container-ds.has-sidebar-right main {
+.with-sidebar .page-container-ds.has-sidebar-right main {
   margin-right: 64px;
   margin-left: 20px; }
 
 .with-sidebar .main-container-ds {
   max-width: 877px; }
 
+/* footer */
+.content-footer-container {
+  border-bottom: 1px solid #ededef;
+  border-top: 1px solid #ededef;
+  padding-top: 23px;
+  padding-bottom: 23px; }
+
+.content-footer {
+  max-width: 1176px !important;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+@media (max-width: 767px) {
+  .with-sidebar .main-content-default,
+  .with-sidebar .ds-content-layout {
+    display: block; }
+  .with-sidebar.page-container-ds main {
+    margin-left: inherit;
+    margin-top: 32px; }
+  .with-sidebar main {
+    margin-top: 0;
+    margin-left: 0; }
+  /* sidebar */
+  .sidebar-container {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 24px; }
+  /* Content Menu */
+  .content-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; } }
+
 /* html, body, main and all the website level base styes */
+/* Gutenberg Block alignment */
+/* Class applied to most external element of a gutenberg block component. Controls spacing between blocks. */
+.cagov-stack {
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+/* Apply same spacing mechanism as cagov-stack, but overriding default gutenberg block element classes */
+.wp-block-columns {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row; }
+
+.wp-block-column {
+  flex-basis: 0;
+  flex-grow: 1;
+  min-width: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.wp-block-column:first-child {
+  margin-right: 32px; }
+
+/* border styles */
+.wp-block-table {
+  background: none !important;
+  border: none !important; }
+
+.wp-block-table table,
+.wp-block-table table th,
+.wp-block-table table td {
+  border: 1px solid #ededef !important; }
+
+main .wp-block-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: bottom;
+  margin-bottom: 32px;
+  max-width: 100%; }
+
+@media (max-width: 767px) {
+  .wp-block-columns {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+  .wp-block-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    margin-top: 0px;
+    margin-bottom: 0px; } }
+
+/* a, a:hover, a:focus */
 /* Buttons global styles */
 /* buttons generic styles */
 /* Code generic styles */
@@ -1900,11 +1909,10 @@ textarea, input {
 /* Links global styles */
 a {
   color: #691808;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-position: under; }
+  text-decoration: underline; }
   a:hover {
-    color: #220803; }
+    color: #4A1106;
+    text-decoration: none; }
   a:focus {
     outline: 2px solid #313131; }
 
@@ -1927,6 +1935,11 @@ ul {
 
 ul li {
   margin-bottom: 0.5rem; }
+
+/* Update position list element */
+main ul li {
+  list-style-position: outside;
+  margin-left: 32px; }
 
 h1,
 .h1 {
@@ -2061,9 +2074,7 @@ cagov-accordion.prog-enhanced button.accordion-card-header {
   cursor: pointer; }
 
 button.accordion-card-header:hover .accordion-title:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-position: under; }
+  text-decoration: underline; }
 
 /* custom css overrides for default accordion styles */
 .breadcrumb {
@@ -2076,11 +2087,9 @@ button.accordion-card-header:hover .accordion-title:hover {
 
 .breadcrumb a {
   text-decoration: underline;
-  text-decoration-thickness: 1px;
   margin-left: 5px;
   margin-right: 5px;
-  display: inline-block;
-  text-underline-position: under; }
+  display: inline-block; }
 
 .breadcrumb span {
   padding-left: 5px;
@@ -2272,7 +2281,7 @@ button.accordion-card-header:hover .accordion-title:hover {
   text-decoration: none; }
 
 .cagov-card {
-  border: 1px solid #ededef;
+  border: 1px solid var(--gray-200, #ededef);
   padding: 1rem;
   border-bottom: 0.3rem solid #33705B;
   border-bottom: 0.3rem solid var(--primary-color, #33705B);
@@ -2316,7 +2325,7 @@ button.accordion-card-header:hover .accordion-title:hover {
 
 /* copied from blocks */
 /* CONTENT NAVIGATION */
-sidebar cagov-content-navigation .label {
+cagov-content-navigation .label {
   font-weight: 700;
   font-size: 24px;
   line-height: 28.2px;
@@ -2324,37 +2333,31 @@ sidebar cagov-content-navigation .label {
   margin: 0;
   padding-bottom: 16px; }
 
-sidebar cagov-content-navigation ul,
-sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
-sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+cagov-content-navigation ul, cagov-content-navigation ol {
   margin: 0;
   text-indent: 0;
   padding: 0; }
 
-sidebar cagov-content-navigation ul li {
+cagov-content-navigation li {
   padding-top: 16px;
   margin-top: 16px;
-  border-top: 1px solid #EDEDEF;
+  border-top: 1px solid var(--gray-200, #ededef);
   line-height: 28.2px;
   list-style: none; }
 
-sidebar cagov-content-navigation ul li:first-child {
+cagov-content-navigation li:first-child {
   margin-top: 0px; }
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 767px) {
   cagov-content-navigation .label {
     display: none; }
-  .sidebar-container {
-    display: block;
-    width: 100%;
-    max-width: 100%; }
-  sidebar cagov-content-navigation ul li:last-child {
+    cagov-content-navigation .label a {
+      font-size: 16px;
+      line-height: 24px; }
+  cagov-content-navigation ul li:last-child {
     padding-bottom: 16px;
     margin-bottom: 16px;
-    border-bottom: 1px solid #EDEDEF; }
-  cagov-content-navigation ul li a {
-    font-size: 16px;
-    line-height: 24px; } }
+    border-bottom: 1px solid var(--gray-200, #ededef); } }
 
 /* copied from blocks */
 .cagov-featured-section h2 {
@@ -2393,7 +2396,6 @@ sidebar cagov-content-navigation ul li:first-child {
 
 /* call to action */
 /* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
-.cagov-hero-body-content
 .wp-block-button:not(.is-style-outline)
 .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
   /* defined here for when css vars are not supported */
@@ -2407,19 +2409,17 @@ sidebar cagov-content-navigation ul li:first-child {
   border: none;
   text-decoration: none; }
 
-.cagov-hero-body-content
 .wp-block-button:not(.is-style-outline)
 .wp-block-button__link:hover {
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705b);
+  background-color: var(--primary-hover-color, #33705b);
   /* variable used with fallback in case it is not defined */
   color: var(--white, #ffffff);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
   display: inline-block;
-  border: none;
-  text-decoration: underline; }
+  border: none; }
 
 .cagov-hero-body-content .wp-block-button__link {
   overflow-wrap: normal;
@@ -2500,12 +2500,6 @@ sidebar cagov-content-navigation ul li:first-child {
     height: auto; } }
 
 /* copied from gutenberg custom block */
-/* @TODO These px values need to be converted to relative values */
-/* @TODO Align with typography & styles: Font, px spacing, colors */
-/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
-/* @TODO These px values need to be converted to relative values */
-/* @TODO Align with typography & styles: Font, px spacing, colors, css vars, breakpoints  */
-/* @TODO Figure out editor theme styles & if it conflicts with the display of this block/web-component. */
 .cagov-post-list .post-list-item {
   margin-bottom: 48px; }
   .cagov-post-list .post-list-item .excerpt .date {
@@ -2521,6 +2515,9 @@ sidebar cagov-content-navigation ul li:first-child {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px; }
+  .cagov-post-list .link-title a:hover {
+    color: #4A1106;
+    text-decoration: none; }
 
 .cagov-post-list .link-title,
 .cagov-post-list .post-list-item {
@@ -2530,9 +2527,10 @@ sidebar cagov-content-navigation ul li:first-child {
   margin-bottom: 16px; }
   .cagov-post-list .link-title a,
   .cagov-post-list .post-list-item a {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-position: under; }
+    text-decoration: underline; }
+    .cagov-post-list .link-title a:hover,
+    .cagov-post-list .post-list-item a:hover {
+      text-decoration: none; }
 
 .wp-block-ca-design-system-post-list .post-list-item.post-status {
   margin-bottom: 32px; }
@@ -2558,9 +2556,10 @@ sidebar cagov-content-navigation ul li:first-child {
   font-weight: 700;
   line-height: 30px;
   font-size: 28px;
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-position: under; }
+  text-decoration: underline; }
+  .cagov-post-list .link-title a:hover {
+    color: #4A1106;
+    text-decoration: none; }
 
 .cagov-post-list .excerpt,
 .cagov-post-list .excerpt p {
@@ -2606,9 +2605,10 @@ cagov-post-list .post-list-item {
     line-height: 30px;
     font-size: 24px;
     margin-bottom: 8px;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-position: under; }
+    text-decoration: underline; }
+    .cagov-post-list .link-title a:hover {
+      color: #4A1106;
+      text-decoration: none; }
   .cagov-post-list .excerpt,
   .cagov-post-list .excerpt p {
     font-weight: 400;
@@ -2879,7 +2879,9 @@ section.site-footer .container {
   box-sizing: border-box;
   max-width: 1176px;
   margin: 0 auto;
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  border-top: 1px solid var(--gray-200, #EDEDEF);
+  border-bottom: 1px solid var(--gray-200, #EDEDEF); }
 
 section.site-footer a {
   color: #691808; }
@@ -2960,7 +2962,7 @@ footer a:focus {
 footer .footer-secondary-links {
   display: flex;
   flex-direction: column;
-  font-size: 1.2rem; }
+  font-size: 1.0rem; }
   footer .footer-secondary-links a {
     margin-right: 1.7rem;
     padding-top: 0.5rem;
@@ -2975,6 +2977,15 @@ footer .bg-light-grey svg {
 
 footer .cagov-logo {
   padding: 5px 2rem 5px 0; }
+  footer .cagov-logo svg {
+    width: 40px;
+    height: 32px;
+    padding: 0;
+    padding-top: 0px; }
+    footer .cagov-logo svg .ca {
+      fill: #FEC02F; }
+    footer .cagov-logo svg .gov {
+      fill: #0F1E6B; }
 
 footer .bg-light-grey a,
 footer .copyright {
