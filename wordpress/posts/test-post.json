@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-22T21:44:08",
-    "updated_date": "2021-08-03T20:59:04",
+    "updated_date": "2021-08-03T21:07:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-22T14:44:08",
     "date_gmt": "2021-07-22T21:44:08",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=360",
-    "modified": "2021-08-03T13:59:04",
-    "modified_gmt": "2021-08-03T20:59:04",
+    "modified": "2021-08-03T14:07:47",
+    "modified_gmt": "2021-08-03T21:07:47",
     "slug": "test-post",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/test-post/",
     "title": "Staging only Test post",
-    "excerpt": "<p>update 1</p>\n",
+    "excerpt": "<p>update 2</p>\n",
     "author": "Jim Bumgardner",
     "featured_media": 0,
     "comment_status": "closed",
@@ -56,8 +56,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "August 3, 2021",
           "i18n_locale_date_gmt": "August 3, 2021",
-          "i18n_locale_date_time": "August 3, 2021 1:59 pm",
-          "i18n_locale_date_time_gmt": "August 3, 2021 8:59 pm"
+          "i18n_locale_date_time": "August 3, 2021 2:07 pm",
+          "i18n_locale_date_time_gmt": "August 3, 2021 9:07 pm"
         },
         "post_location": "",
         "event_date": "",
