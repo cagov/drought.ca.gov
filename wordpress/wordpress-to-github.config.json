@@ -5,21 +5,37 @@
     "description": "wordpress-to-github endpoints config file"
   },
   "data": {
-    "wordpress-to-github-config": {
-      "disabled": false,
-      "WordPressUrl": "https://live-drought-ca-gov.pantheonsite.io",
-      "PostPath": "wordpress/posts",
-      "PagePath": "wordpress/pages",
-      "SyncMedia": true,
-      "MediaPath": "wordpress/media",
-      "ExcludeProperties": [
-        "content",
-        "_links"
-      ],
-      "IgnoreTags": [
-        "staging",
-        "development"
-      ]
-    }
+    "wordpress_source_url": "https://live-drought-ca-gov.pantheonsite.io",
+    "github_targets": [
+      {
+        "outputBranch": "main",
+        "disabled": false,
+        "PostPath": "wordpress/posts",
+        "PagePath": "wordpress/pages",
+        "MediaPath": "wordpress/media",
+        "ExcludeProperties": [
+          "content",
+          "_links"
+        ],
+        "tags_exclude": [
+          "staging",
+          "development"
+        ]
+      },
+      {
+        "outputBranch": "staging",
+        "disabled": false,
+        "PostPath": "wordpress/posts",
+        "PagePath": "wordpress/pages",
+        "MediaPath": "wordpress/media",
+        "ExcludeProperties": [
+          "content",
+          "_links"
+        ],
+        "tags_exclude": [
+          "development"
+        ]
+      }
+    ]
   }
 }
