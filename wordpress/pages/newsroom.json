@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-08-16T23:30:18",
+    "updated_date": "2021-08-17T00:02:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,21 +17,21 @@
     "date": "2021-07-04T14:51:19",
     "date_gmt": "2021-07-04T14:51:19",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=37",
-    "modified": "2021-08-16T16:30:18",
-    "modified_gmt": "2021-08-16T23:30:18",
+    "modified": "2021-08-16T17:02:41",
+    "modified_gmt": "2021-08-17T00:02:41",
     "slug": "newsroom",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
     "title": "Newsroom",
-    "excerpt": "<p>Latest news As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use July 8, 2021 Amid deepening drought and record-breaking temperatures throughout the West, Governor Gavin Newsom today called on Californians to voluntarily reduce their water use by 15% to protect water reserves if drought conditions continue and &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
-    "author": "Admin",
+    "excerpt": "<p>Latest news State Agencies Announce First Round of Commitments for $200 Million in Drought Funding to Support Small Communities: 10 Systems to Receive $25 Million for Immediate Relief August 11, 2021 Moving to provide immediate support to communities facing water supply challenges, the Department of Water Resources (DWR) today announced the first round of funding &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "",
     "meta": [],
     "categories": [],
     "tags": [
@@ -39,7 +39,7 @@
       "staging"
     ],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "page"
     },
     "og_meta": {
       "_genesis_title": [
