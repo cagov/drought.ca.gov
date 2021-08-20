@@ -18,9 +18,9 @@ class CAGovDroughtMap extends window.HTMLElement {
       if (data !== undefined && data !== null && data.content !== null) {
         if (type === "wordpress") {
           this.innerHTML = `<div class="cagov-drought-map">
-                <div class="map-label"><h2>Map released: August 5, 2021</h2></div>
+                <div class="map-label"><h2>Map released: August 19, 2021</h2></div>
                 <div class="drought-map-container">
-                  <div class="drought-map-image"><a href="https://droughtmonitor.unl.edu/"><img src="/assets/img/usdm-assets/20210803_usdm_excerpt.png" /></a></div>
+                  <div class="drought-map-image"><a href="https://droughtmonitor.unl.edu/"><img src="/assets/img/usdm-assets/20210817_usdm_excerpt.png" /></a></div>
                   <div class="legend-label"><h3>Intensity</h3></div>
                   <div class="drought-map-legend">
                       <div class="col-1">
