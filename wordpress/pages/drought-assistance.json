@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-01T21:50:38",
-    "updated_date": "2021-09-07T17:36:39",
+    "updated_date": "2021-09-07T17:38:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-01T14:50:38",
     "date_gmt": "2021-09-01T21:50:38",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=443",
-    "modified": "2021-09-07T10:36:39",
-    "modified_gmt": "2021-09-07T17:36:39",
+    "modified": "2021-09-07T10:38:22",
+    "modified_gmt": "2021-09-07T17:38:22",
     "slug": "drought-assistance",
     "status": "publish",
     "type": "page",
@@ -43,7 +43,7 @@
     "og_meta": {
       "_genesis_title": "",
       "_genesis_description": [
-        "If you need bottled or hauled water, your county's Office of Emergency Services can help. The State funds this county response to drought."
+        "If you need bottled or hauled water, your county's Office of Emergency Services can help. Also see information on small community grants."
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": "",
