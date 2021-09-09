@@ -319,7 +319,7 @@ cagov-navoverlay {
             background: transparent;
           }
           &:hover {
-            text-decoration: underline;
+            @include text-underline;
             color: darken($color: $primary, $amount: 15%);
           }
 

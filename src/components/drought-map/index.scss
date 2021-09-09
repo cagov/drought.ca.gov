@@ -7,9 +7,13 @@
         text-align:center;
 
     }
+    div.drought-map-container {
+        width:100%;
+        padding: 24px 24px;
+        border: 1px solid #f1f1f3;
+    }
     .drought-map-image img {
         width: 620px;
-        border: 1px solid #f1f1f3;
         @media (max-width: 779px) {
             width: 330px;
         }
