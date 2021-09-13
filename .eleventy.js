@@ -83,6 +83,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
 
+  const { addPreviewModeToEleventy } = require("@cagov/11ty-serverless-preview-mode");
+  addPreviewModeToEleventy(eleventyConfig);
+
   return {
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "md",
