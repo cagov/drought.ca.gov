@@ -14,17 +14,21 @@
   --primary-color: #691808;
   --primary-dark-color: #4A1106;
   --primary-light-color: #965D52;
-  --primary-lightest-color: #B48C84;
+  --primary-lightest-color: #D2BAB5;
   --primary-hover-color: #4A1106;
   --secondary-color: #313131;
   --secondary-dark-color: #222222;
   --secondary-light-color: #6F6F6F;
-  --secondary-lightest-color: #D6D6D6;
+  --secondary-lightest-color: #C1C1C1;
   --secondary-hover-color: #222222;
-  --highight-color: #FBAD23;
+  --highlight-color: #FBAD23;
+  --highlight-dark-color: #B07919;
+  --highlight-light-color: #FCC665;
+  --highlight-lightest-color: #FEE6BD;
+  --secondary-hover-color: #B07919;
   --highlight-color-300: #FFF2D5;
   --standout-color: #313131;
-  --standout-hover-color: #21351f;
+  --standout-hover-color: #222222;
   /* Status colors */
   --status-success-color: #008542;
   --status-danger-color: #B71234;
@@ -45,9 +49,7 @@
   --gray-800: #6c6b77;
   --gray-900: #3f3e4d;
   --black: #000;
-  --white: #fff;
-  --secondary-color: #313131;
-  --highlight-color: #FBAD23; }
+  --white: #fff; }
 
 /* theme colors */
 /* spacing, margin and padding values */
@@ -55,6 +57,37 @@
 /* Desktop and wider */
 /* mixins */
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
+:root {
+  --w-lg: 1176px;
+  --w-lg: 1176px;
+  --w-md: 960px;
+  --w-sm: 720px;
+  --w-xs: 540px;
+  --w-page-content: 876px;
+  --spacing-base: 8px;
+  --padding-sm: calc(--spacing-base * 2);
+  --padding-md: calc(--spacing-base * 3);
+  --padding-lg: calc(--spacing-base * 4);
+  /* haven't seen these used yet, they seem very large */
+  --margin-sm: calc(--spacing-base * 6);
+  --margin-md: calc(--spacing-base * 8);
+  --margin-lg: calc(--spacing-base * 12);
+  --margin-xl: calc(--spacing-base * 24);
+  --site-font: "Public Sans",sans-serif;
+  --body-text: 1.125rem;
+  --lead-text: 1.4375rem;
+  --small-text: .875rem;
+  --body-text-mobile: 1rem;
+  --lead-text-mobile: 1.25rem;
+  --small-text-mobile: .875rem;
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+  --font-weight-light: 300; }
+
+/* spasing, margin and padding values */
+/* Tablet and wider */
+/* Desktop and wider */
+/* mixins */
 /* Fonts (global) */
 /* latin-ext */
 @font-face {
@@ -1658,18 +1691,21 @@ select[data-class-icon] {
   border: 0 solid; }
 
 body {
-  font-family: "Public Sans", sans-serif;
-  font-size: 1.125rem;
+  font-family: var(--site-font, "Public Sans", sans-serif);
+  font-size: var(--body-text, 1.125rem);
   line-height: 1.5;
-  color: #000; }
+  color: var(--black, #000); }
 
 /* html, body, main and all the website level base styes */
 #main-content {
   margin-top: 32px;
   margin-bottom: 64px; }
 
+#main-content.single-column.landing {
+  margin-bottom: 0; }
+
 .page-container-ds {
-  max-width: 1176px;
+  max-width: var(--w-lg, 1176px);
   margin: 2rem auto; }
 
 .main-content-ds {
@@ -1681,19 +1717,18 @@ article {
 
 /* Single column layout */
 .single-column {
-  max-width: 876px;
+  max-width: var(--w-page-content, 876px);
   margin: 0 auto; }
 
 .single-column.landing {
-  max-width: 1176px;
+  max-width: var(--w-lg, 1176px);
   margin: 0 auto; }
 
 .has-sidebar-left .single-column {
-  max-width: 1176px;
+  max-width: var(--w-lg, 1176px);
   margin: 0 auto; }
 
 @media (max-width: 1216px) {
-  .header-container,
   .footer-container,
   .page-container-ds {
     margin-left: 15px;
@@ -1732,7 +1767,7 @@ article {
   display: block;
   width: 276px;
   max-width: 276px;
-  padding-right: 24px; }
+  padding-right: var(--padding-md, 16px); }
 
 .with-sidebar .main-content-default,
 .with-sidebar .ds-content-layout {
@@ -1766,7 +1801,7 @@ article {
   flex-basis: 267px;
   flex-grow: 1; }
 
-.with-sidebar .page-container-ds.has-sidebar-left main {
+.with-sidebar.page-container-ds.has-sidebar-left main {
   margin-left: 64px;
   margin-right: 20px; }
 
@@ -1779,13 +1814,13 @@ article {
 
 /* footer */
 .content-footer-container {
-  border-bottom: 1px solid #ededef;
-  border-top: 1px solid #ededef;
+  border-bottom: 1px solid var(--gray-200, #ededef);
+  border-top: 1px solid var(--gray-200, #ededef);
   padding-top: 23px;
   padding-bottom: 23px; }
 
 .content-footer {
-  max-width: 1176px !important;
+  max-width: var(--w-lg, 1176px) !important;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -1808,7 +1843,7 @@ article {
     display: block;
     width: 100%;
     max-width: 100%;
-    padding-right: 24px; }
+    padding-right: var(--padding-md, 16px); }
   /* Content Menu */
   .content-footer {
     display: flex;
@@ -1851,7 +1886,7 @@ article {
 .wp-block-table table,
 .wp-block-table table th,
 .wp-block-table table td {
-  border: 1px solid #ededef !important; }
+  border: 1px solid var(--gray-200, #ededef) !important; }
 
 main .wp-block-image img {
   width: 100%;
@@ -1879,16 +1914,39 @@ main .wp-block-image img {
 
 /* a, a:hover, a:focus */
 /* Buttons global styles */
+.wp-block-button__link {
+  background-color: #33705b;
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-color, #33705b);
+  color: white;
+  padding: 0.5556rem;
+  border-radius: 0.2778rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  text-decoration: none; }
+
+.wp-block-button__link:hover {
+  /* defined here for when css vars are not supported */
+  background-color: var(--primary-hover-color, #33705b);
+  /* variable used with fallback in case it is not defined */
+  color: var(--white, #ffffff);
+  padding: 0.5556rem;
+  border-radius: 0.2778rem;
+  font-weight: bold;
+  display: inline-block;
+  border: none; }
+
 /* buttons generic styles */
 /* Code generic styles */
 code,
 samp,
 time {
-  background: #f9f9fa;
-  color: #3f3e4d;
+  background: var(--gray-100, #f9f9fa);
+  color: var(--gray-900, #3f3e4d);
   padding: 2.5px 5px;
   border-radius: 6px;
-  font-size: 1.125rem; }
+  font-size: var(--body-text, 1.125rem); }
 
 pre > code {
   padding: 10px;
@@ -1897,27 +1955,81 @@ pre > code {
 
 /* pre, code, var generic styles */
 /* Forms generic styles*/
+input, button, select, optgroup, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
 textarea, input {
-  background-color: #fff;
-  color: #000 !important;
-  font-size: 1.125rem;
-  font-weight: 400; }
+  background-color: var(--white, #fff);
+  color: var(--black, #000) !important;
+  font-size: var(--body-text, 1.125rem);
+  font-weight: var(--font-weight-regular, 400); }
   textarea:focus, input:focus {
-    outline: 2px solid #313131; }
+    outline: 2px solid var(--secondary-color, #fec02f); }
 
 /* input, textarea, select generic styles */
 /* Links global styles */
 a {
-  color: #691808;
+  color: var(--primary-color, #004ABC);
+  text-underline-position: under;
   text-decoration: underline; }
   a:hover {
-    color: #4A1106;
+    color: var(--primary-dark-color, #003484);
     text-decoration: none; }
   a:focus {
-    outline: 2px solid #313131; }
+    outline: 2px solid var(--highlight-color, #FBAD23); }
+
+a:focus, button:focus {
+  outline: solid 2px var(--highlight-color, #FBAD23) !important; }
 
 /* a, a:hover, a:focus */
+.breadcrumb {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 64px;
+  font-size: 16px; }
+
+.breadcrumb a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  text-underline-position: under; }
+
+.breadcrumb span {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+@media only screen and (max-width: 992px) {
+  /* BREADCRUMB */
+  .breadcrumb a.crumb,
+  .breadcrumb span.crumb {
+    display: none; }
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.8px;
+    color: #064e66; }
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+    padding: 0; }
+  .breadcrumb {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 0; }
+  .with-sidebar.page-container-ds .breadcrumb {
+    margin-bottom: 0px; } }
+
+/* copied from blocks */
 /* Typography global styles */
+body {
+  font-weight: var(--font-weight-regular, 400); }
+
 /* TYPOGRAPHY */
 h1.page-title {
   margin: 0 0 0 0;
@@ -1943,56 +2055,62 @@ main ul li {
 
 h1,
 .h1 {
-  font-size: 2.5rem;
+  font-size: 2.9375rem;
   margin-top: 3rem;
-  margin-bottom: 1.6rem;
-  font-weight: 700; }
+  margin-bottom: 2rem;
+  font-weight: var(--font-weight-bold, 700); }
 
 h2,
 .h2 {
-  font-size: 2rem;
-  margin-top: 2.75rem;
-  margin-bottom: 1.4rem;
-  font-weight: 700; }
+  font-size: 2.3175rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: var(--font-weight-bold, 700); }
 
 h3,
 .h3 {
-  font-size: 1.75rem;
-  margin-top: 2.4rem;
-  margin-bottom: 1.2rem;
-  font-weight: 700; }
+  font-size: 1.8125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: var(--font-weight-bold, 700); }
 
 h4,
 .h4 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
+  font-size: 1.4375rem;
+  margin-top: 1.5rem;
   margin-bottom: 1rem;
-  font-weight: 700; }
+  font-weight: var(--font-weight-bold, 700); }
 
 h5,
 .h5 {
-  font-size: 1.25rem;
-  margin-top: 1.7rem;
-  margin-bottom: 0.8rem;
-  font-weight: 700; }
+  font-size: 1.125rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: var(--font-weight-bold, 700); }
 
 h6,
 .h6 {
-  font-size: 1rem;
-  margin-top: 1.4rem;
-  margin-bottom: 0.6rem;
-  font-weight: 700; }
+  font-size: .75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: var(--font-weight-bold, 700); }
+
+.text-lead, .lead {
+  font-size: var(--lead-text, 1.4375rem); }
+
+.text-small, .text-sm {
+  font-size: var(--small-text, 0.875rem); }
 
 @media (max-width: 767px) {
   h1,
   .h1 {
-    font-size: 2rem; }
+    font-size: 2.625rem; }
   h2,
   .h2 {
-    font-size: 1.625rem; }
+    font-size: 2.0625rem; }
   h3,
   .h3 {
-    font-size: 1.5rem; }
+    font-size: 1.625rem; }
   h4,
   .h4 {
     font-size: 1.25rem; }
@@ -2001,21 +2119,25 @@ h6,
     font-size: 1rem; }
   h2:first-child,
   figure ~ h2:first-of-type {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  .text-lead, .lead {
+    font-size: var(--lead-text-mobile, 1.25rem); }
+  .text-small, .text-sm {
+    font-size: var(--small-text-mobile, 0.875rem); } }
 
 /* lists */
 ul.list-highlight li {
   list-style: none;
-  background-color: #f9f9fa;
+  background-color: var(--gray-100, #f9f9fa);
   padding: 24px;
   margin-bottom: 1rem;
   margin-left: 0;
   font-size: 1.75rem;
-  font-weight: 700; }
+  font-weight: var(--font-weight-bold, 700); }
   ul.list-highlight li span.has-black-color {
     margin-top: 1rem;
-    font-size: 1.125rem;
-    font-weight: 400;
+    font-size: var(--body-text, 1.125rem);
+    font-weight: var(--font-weight-bold, 400);
     display: block;
     line-height: 1.6; }
 
@@ -2030,6 +2152,14 @@ ul.list-highlight li {
 .cagov-card h4,
 .cagov-card ul {
   margin: 0; }
+
+/* Image captions */
+figure {
+  background: none;
+  border: none; }
+  figure figcaption {
+    padding-left: 0;
+    font-size: 0.875rem; }
 
 /* headings, p, blockqute, font styles */
 /* css var values */
@@ -2059,6 +2189,7 @@ ul.list-highlight li {
 
 /* all utility css classes that can be used (shortcodes) */
 /* all of the above will become part of base-css component */
+/* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 /* COMPONENTS/BLOCKS */
 /* Override npm styles */
 cagov-accordion.prog-enhanced .accordion-card-container .card-body {
@@ -2149,7 +2280,7 @@ button.accordion-card-header:hover .accordion-title:hover {
       /*padding-left: 5px;*/
       display: inline-block; }
       .branding .branding-logo .logo-text .logo-state {
-        font-size: 1rem;
+        font-size: 0.875rem;
         margin: 0;
         padding: 0;
         height: 20px;
@@ -2804,10 +2935,10 @@ ol.steps li:last-child {
       fill: #0F1E6B; }
   .official-header .official-tag {
     margin: 0 10px;
-    font-size: 1rem; }
+    font-size: 0.875rem; }
   .official-header .official-languages a {
     color: #000;
-    font-size: 1rem;
+    font-size: 0.875rem;
     padding: 0 0.5rem 0 0.5rem; }
     .official-header .official-languages a:hover {
       color: #4A1106; }
@@ -2820,7 +2951,7 @@ ol.steps li:last-child {
     .official-header .official-languages button.offcial-more {
       padding-right: 0;
       padding-left: 0.5rem;
-      font-size: 1rem;
+      font-size: 0.875rem;
       border: none;
       text-decoration: underline;
       background-color: #fff;
