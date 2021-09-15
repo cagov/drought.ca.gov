@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-15T00:14:07",
-    "updated_date": "2021-09-15T01:07:19",
+    "updated_date": "2021-09-15T01:07:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-14T17:14:07",
     "date_gmt": "2021-09-15T00:14:07",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=469",
-    "modified": "2021-09-14T18:07:19",
-    "modified_gmt": "2021-09-15T01:07:19",
+    "modified": "2021-09-14T18:07:25",
+    "modified_gmt": "2021-09-15T01:07:25",
     "slug": "tribal-lands",
     "status": "publish",
     "type": "page",
