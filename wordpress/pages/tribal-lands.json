@@ -34,7 +34,9 @@
     "template": "",
     "meta": [],
     "categories": [],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "page"
     },
