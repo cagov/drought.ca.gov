@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-09-16T00:45:46",
+    "updated_date": "2021-09-16T00:58:24",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-09-15T17:45:46",
-    "modified_gmt": "2021-09-16T00:45:46",
+    "modified": "2021-09-15T17:58:24",
+    "modified_gmt": "2021-09-16T00:58:24",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -71,21 +71,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/",
-    "media": [
-      {
-        "id": 486,
-        "type": "full",
-        "path": "2021/09/drought-photo.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/drought-photo.png",
-        "file": "drought-photo.png",
-        "width": 776,
-        "height": 518,
-        "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/drought-photo.png",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/"
   }
 }
