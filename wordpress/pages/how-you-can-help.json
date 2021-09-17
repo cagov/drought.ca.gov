@@ -4,11 +4,11 @@
     "updated_date": "2021-07-08T15:23:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 35,
     "date": "2021-07-04T14:50:45",
     "date_gmt": "2021-07-04T14:50:45",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=35",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=35",
     "modified": "2021-07-08T08:23:12",
     "modified_gmt": "2021-07-08T15:23:12",
     "slug": "how-you-can-help",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/how-you-can-help/",
     "title": "How you can help",
-    "excerpt": "<p>Be drought-aware Drought levels vary across the state, but all Californians live in a drought zone. And all Californians can play an important role in limiting the impact of drought. Use water wisely In recent years, Californians have embraced some great daily habits to save water: Taking 5-minute showers Turning off the faucet when brushing &#8230; <a title=\"How you can help\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/\" aria-label=\"More on How you can help\">Read more</a></p>\n",
+    "excerpt": "<p>Be drought-aware Drought levels vary across the state, but all Californians live in a drought zone. And all Californians can play an important role in limiting the impact of drought. Use water wisely In recent years, Californians have embraced some great daily habits to save water: Taking 5-minute showers Turning off the faucet when brushing &#8230; <a title=\"How you can help\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/how-you-can-help/\" aria-label=\"More on How you can help\">Read more</a></p>\n",
     "author": "Admin",
     "featured_media": 0,
     "parent": 0,
@@ -49,7 +49,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png"
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png"
       ],
       "_open_graph_title": [
         "How you can help"
@@ -59,26 +59,26 @@
       ],
       "_twitter_title": "",
       " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
+      "og_rendered": "<meta property=\"og:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
     "site_settings": {
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "wpurl": "https://dev-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/how-you-can-help/",
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/how-you-can-help/",
     "media": [
       {
         "id": 213,
         "type": "full",
         "path": "2021/07/save-water-bottle.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
         "file": "save-water-bottle.png",
         "width": 759,
         "height": 506,
         "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
         "source_url_match": true,
         "featured": false
       },
@@ -86,12 +86,12 @@
         "id": 213,
         "type": "large",
         "path": "2021/07/save-water-bottle-750x500.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
         "file": "save-water-bottle-750x500.png",
         "width": 750,
         "height": 500,
         "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
         "source_url_match": true,
         "featured": false
       },
@@ -99,12 +99,12 @@
         "id": 213,
         "type": "medium",
         "path": "2021/07/save-water-bottle-300x200.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
         "file": "save-water-bottle-300x200.png",
         "width": 300,
         "height": 200,
         "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
         "source_url_match": true,
         "featured": false
       }

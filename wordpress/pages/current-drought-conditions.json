@@ -4,11 +4,11 @@
     "updated_date": "2021-07-22T21:22:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 29,
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=29",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=29",
     "modified": "2021-07-22T14:22:25",
     "modified_gmt": "2021-07-22T21:22:25",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
     "title": "Current drought conditions",
-    "excerpt": "<p>Most rain and snow falls in California from November through April. It fills the reservoirs and aquifers that we use to supply homes, businesses, and farms.&nbsp;It also supports fish and wildlife that depend on our rivers and wetlands. Warm temperatures in California this April and early May make 2021 a critically dry year. Snow melted &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
+    "excerpt": "<p>Most rain and snow falls in California from November through April. It fills the reservoirs and aquifers that we use to supply homes, businesses, and farms.&nbsp;It also supports fish and wildlife that depend on our rivers and wetlands. Warm temperatures in California this April and early May make 2021 a critically dry year. Snow melted &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
     "author": "Admin",
     "featured_media": 0,
     "parent": 0,
@@ -49,7 +49,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
       ],
       "_open_graph_title": [
         "Current drought conditions"
@@ -59,14 +59,14 @@
       ],
       "_twitter_title": "",
       " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
+      "og_rendered": "<meta property=\"og:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
     "site_settings": {
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "wpurl": "https://dev-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
   }
 }
