@@ -30,7 +30,7 @@ for h2 in soup.find_all('h2'):
             # print("Anchor href",anchor['href'])
             if '_usdm.png' in anchor['href']:
                 print("PNG",anchor['href'])
-                ofile = anchor['href'][19:]
+                ofile = "src/assets/img/usdm-assets/" + anchor['href'][19:]
                 if os.path.exists(ofile):
                     print("Already have file")
                 else:
@@ -43,11 +43,11 @@ for h2 in soup.find_all('h2'):
 
 
 if input_fname != "":
-    temp_file_in = '/tmp/' + input_fname.replace(".png","_1.png")
-    temp_file1 = '/tmp/' + input_fname.replace(".png","_1.png")
-    temp_file2 = '/tmp/' + input_fname.replace(".png","_2.png")
+    temp_file_in = input_fname.replace(".png","_1.png")
+    temp_file1 = input_fname.replace(".png","_1.png")
+    temp_file2 = input_fname.replace(".png","_2.png")
 
-    cmd = 'composite %s usdm_mask.png -compose Lighten %s' % (input_fname, temp_file1)
+    cmd = 'composite %s generate-drought-map/usdm_mask.png -compose Lighten %s' % (input_fname, temp_file1)
     docommand(cmd)
 
     cmd = 'convert %s -crop 2848x1824+0+194 -resize 620 %s' % (temp_file1, temp_file2)

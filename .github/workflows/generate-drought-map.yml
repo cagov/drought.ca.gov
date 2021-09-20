@@ -1,23 +1,32 @@
 name: generate-drought-map
 
+on:
+  schedule:
+    - cron: 0 6 * * 4
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
       - name: Git checkout
         uses: actions/checkout@v2
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.9.7'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r generate-drought-map/requirements.txt
+
       - name: Run script
         run: python generate-drought-map/process_usmap.py
+        
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Weekly drought map
+          branch: automate-drought-map
 
