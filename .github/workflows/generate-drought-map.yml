@@ -1,4 +1,4 @@
-name: generate-drought-map
+name: Generate Drought Map
 
 on:
   push:
@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps: 
+      - name: Fetch current date
+        id: date
+        run: echo "::set-output name=today::$(date +'%Y-%m-%d')"
+
       - name: Git checkout
         uses: actions/checkout@v2
 
@@ -25,13 +29,12 @@ jobs:
           sudo apt-get update
           sudo apt-get install pngcrush
 
-
       - name: Run script
         run: python src/py/generate-drought-map/process_usmap.py
         
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Weekly drought map
+          commit_message: Weekly drought map for ${{ steps.date.outputs.today }}
           branch: automate-drought-map
 
