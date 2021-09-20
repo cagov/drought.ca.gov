@@ -1,7 +1,9 @@
 name: generate-drought-map
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - automate-drought-map
   schedule:
     - cron: 0 6 * * 4
 
