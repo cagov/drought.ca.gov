@@ -47,7 +47,7 @@ if input_fname != "":
     temp_file1 = input_fname.replace(".png","_1.png")
     temp_file2 = input_fname.replace(".png","_2.png")
 
-    cmd = 'composite %s generate-drought-map/usdm_mask.png -compose Lighten %s' % (input_fname, temp_file1)
+    cmd = 'composite %s src/py/generate-drought-map/usdm_mask.png -compose Lighten %s' % (input_fname, temp_file1)
     docommand(cmd)
 
     cmd = 'convert %s -crop 2848x1824+0+194 -resize 620 %s' % (temp_file1, temp_file2)
