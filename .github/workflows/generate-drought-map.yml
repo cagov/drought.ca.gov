@@ -1,9 +1,6 @@
 name: Generate Drought Map
 
 on:
-  push:
-    branches:
-      - automate-drought-map
   schedule:
     - cron: 0 6 * * 4
 
@@ -17,6 +14,8 @@ jobs:
 
       - name: Git checkout
         uses: actions/checkout@v2
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -36,5 +35,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Weekly drought map for ${{ steps.date.outputs.today }}
-          branch: automate-drought-map
+          branch: main
 
