@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-01T21:50:38",
-    "updated_date": "2021-09-15T00:18:11",
+    "created_date": "2021-09-15T00:14:07",
+    "updated_date": "2021-09-15T00:14:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 443,
-    "date": "2021-09-01T14:50:38",
-    "date_gmt": "2021-09-01T21:50:38",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=443",
-    "modified": "2021-09-14T17:18:11",
-    "modified_gmt": "2021-09-15T00:18:11",
-    "slug": "drought-assistance",
+    "id": 469,
+    "date": "2021-09-14T17:14:07",
+    "date_gmt": "2021-09-15T00:14:07",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=469",
+    "modified": "2021-09-14T17:14:07",
+    "modified_gmt": "2021-09-15T00:14:07",
+    "slug": "tribal-lands",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/drought-assistance/",
-    "title": "Drought assistance",
-    "excerpt": "<p>Si tiene un pozo seco y necesitaría asistencia en Español, llame gratis (844) 903-2800.&nbsp; If you need water If you need bottled or hauled water, your county&#8217;s Office of Emergency Services (OES) can help. The state funds county response to drought-related water shortages.&nbsp; Emergency water is available to households, small water systems, and community water &#8230; <a title=\"Drought assistance\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/drought-assistance/\" aria-label=\"More on Drought assistance\">Read more</a></p>\n",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+    "title": "Tribal lands",
+    "excerpt": "<p>Text.</p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -33,18 +33,14 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [
-      "Drought assistance"
-    ],
+    "categories": [],
     "tags": [],
     "design_system_fields": {
       "template": "page"
     },
     "og_meta": {
       "_genesis_title": "",
-      "_genesis_description": [
-        "If you need bottled or hauled water, your county's Office of Emergency Services can help. Also see information on small community grants."
-      ],
+      "_genesis_description": "",
       "_genesis_canonical_uri": "",
       "_social_image_url": "",
       "_open_graph_title": "",
@@ -59,6 +55,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/drought-assistance/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/"
   }
 }

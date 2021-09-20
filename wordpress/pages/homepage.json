@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-08-27T01:25:14",
+    "updated_date": "2021-09-16T00:58:24",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,15 +17,15 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-08-26T18:25:14",
-    "modified_gmt": "2021-08-27T01:25:14",
+    "modified": "2021-09-15T17:58:24",
+    "modified_gmt": "2021-09-16T00:58:24",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
     "excerpt": "<p>State actions against drought July 8, 2021 Governor Newsom calls on Californians to reduce water use by 15% to help protect water reserves if drought conditions continue. Drought emergency proclamations expanded to include Inyo, Marin, Mono, Monterey, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara and Santa Cruz counties. May 10, 2021 Governor Gavin &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
-    "author": "Admin",
+    "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
@@ -71,21 +71,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/",
-    "media": [
-      {
-        "id": 176,
-        "type": "large",
-        "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
-        "file": "2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
-        "width": 750,
-        "height": 500,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/"
   }
 }
