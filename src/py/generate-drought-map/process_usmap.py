@@ -1,6 +1,6 @@
 # process image
 
-import argparse, subprocess, sys, os, re
+import argparse, subprocess, sys, os, re, json
 import mechanicalsoup
 
 parser = argparse.ArgumentParser(description='Clicky Stats Daemon')
@@ -19,6 +19,7 @@ browser.open('https://droughtmonitor.unl.edu/')
 soup = browser.get_current_page()
 input_fname = ''
 output_fname = ''
+release_date_str = ''
 # get display date, and get image...
 for h2 in soup.find_all('h2'):
     m = re.search(r'Map released: (\w+ \d+, 20\d\d)',h2.text)
@@ -58,3 +59,7 @@ if input_fname != "":
 
     cmd = 'rm %s %s' % (temp_file1, temp_file2)
     docommand(cmd)
+
+    data = { "dateString" : release_date_str, "filePath": output_fname.replace("src", "") }
+    with open('src/templates/_data/latestDroughtMap.json', 'w') as outJson:
+        json.dump(data, outJson)
