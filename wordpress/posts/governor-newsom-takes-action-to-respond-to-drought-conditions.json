@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T17:20:21",
-    "updated_date": "2021-09-21T21:10:58",
+    "updated_date": "2021-09-21T21:11:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-08T10:20:21",
     "date_gmt": "2021-07-08T17:20:21",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=284",
-    "modified": "2021-09-21T14:10:58",
-    "modified_gmt": "2021-09-21T21:10:58",
+    "modified": "2021-09-21T14:11:04",
+    "modified_gmt": "2021-09-21T21:11:04",
     "slug": "governor-newsom-takes-action-to-respond-to-drought-conditions",
     "status": "publish",
     "type": "post",
@@ -54,8 +54,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:10 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:10 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:11 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:11 pm"
         },
         "post_location": "",
         "event_date": "",
