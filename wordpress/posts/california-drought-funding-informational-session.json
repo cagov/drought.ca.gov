@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-14T21:07:00",
-    "updated_date": "2021-09-21T21:19:28",
+    "updated_date": "2021-09-21T21:19:33",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-14T14:07:00",
     "date_gmt": "2021-09-14T21:07:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=527",
-    "modified": "2021-09-21T14:19:28",
-    "modified_gmt": "2021-09-21T21:19:28",
+    "modified": "2021-09-21T14:19:33",
+    "modified_gmt": "2021-09-21T21:19:33",
     "slug": "california-drought-funding-informational-session",
     "status": "publish",
     "type": "post",
