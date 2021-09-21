@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T20:56:50",
-    "updated_date": "2021-09-21T20:56:56",
+    "created_date": "2021-06-03T20:56:00",
+    "updated_date": "2021-09-21T21:24:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 498,
-    "date": "2021-09-21T13:56:50",
-    "date_gmt": "2021-09-21T20:56:50",
+    "date": "2021-06-03T13:56:00",
+    "date_gmt": "2021-06-03T20:56:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=498",
-    "modified": "2021-09-21T13:56:56",
-    "modified_gmt": "2021-09-21T20:56:56",
+    "modified": "2021-09-21T14:24:35",
+    "modified_gmt": "2021-09-21T21:24:35",
     "slug": "construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:56 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:56 pm"
+          "i18n_locale_date": "June 3, 2021",
+          "i18n_locale_date_gmt": "June 3, 2021",
+          "i18n_locale_date_time": "June 3, 2021 1:56 pm",
+          "i18n_locale_date_time_gmt": "June 3, 2021 8:56 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:56 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:56 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:24 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:24 pm"
         },
         "post_location": "",
         "event_date": "",
