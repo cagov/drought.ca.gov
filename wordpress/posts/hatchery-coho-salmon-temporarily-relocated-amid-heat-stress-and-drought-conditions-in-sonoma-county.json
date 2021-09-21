@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-08-20T21:05:00",
-    "updated_date": "2021-09-21T21:21:52",
+    "updated_date": "2021-09-21T21:21:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-08-20T14:05:00",
     "date_gmt": "2021-08-20T21:05:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=523",
-    "modified": "2021-09-21T14:21:52",
-    "modified_gmt": "2021-09-21T21:21:52",
+    "modified": "2021-09-21T14:21:58",
+    "modified_gmt": "2021-09-21T21:21:58",
     "slug": "hatchery-coho-salmon-temporarily-relocated-amid-heat-stress-and-drought-conditions-in-sonoma-county",
     "status": "publish",
     "type": "post",
