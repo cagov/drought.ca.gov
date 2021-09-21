@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-08-25T21:06:00",
-    "updated_date": "2021-09-21T21:21:33",
+    "updated_date": "2021-09-21T21:21:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-08-25T14:06:00",
     "date_gmt": "2021-08-25T21:06:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=524",
-    "modified": "2021-09-21T14:21:33",
-    "modified_gmt": "2021-09-21T21:21:33",
+    "modified": "2021-09-21T14:21:39",
+    "modified_gmt": "2021-09-21T21:21:39",
     "slug": "waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities",
     "status": "publish",
     "type": "post",
