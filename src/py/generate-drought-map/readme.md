@@ -2,7 +2,7 @@
 
 This `process_usmap.py` script generates a drought map for use on the site. We run this script once per week. For example:
 
-![A map of the United States, illustrating which areas are most affected by current drought conditions](src/assets/img/usdm-assets/20210817_usdm_excerpt.png)
+![A map of the United States, illustrating which areas are most affected by current drought conditions](https://raw.githubusercontent.com/cagov/drought.ca.gov/main/src/assets/img/usdm-assets/20210817_usdm_excerpt.png)
 
 ## Testing the script
 
