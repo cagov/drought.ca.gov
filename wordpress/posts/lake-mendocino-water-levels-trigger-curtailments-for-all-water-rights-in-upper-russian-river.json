@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-08-02T21:01:00",
-    "updated_date": "2021-09-21T21:23:32",
+    "updated_date": "2021-09-21T21:23:37",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-08-02T14:01:00",
     "date_gmt": "2021-08-02T21:01:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=510",
-    "modified": "2021-09-21T14:23:32",
-    "modified_gmt": "2021-09-21T21:23:32",
+    "modified": "2021-09-21T14:23:37",
+    "modified_gmt": "2021-09-21T21:23:37",
     "slug": "lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river",
     "status": "publish",
     "type": "post",
