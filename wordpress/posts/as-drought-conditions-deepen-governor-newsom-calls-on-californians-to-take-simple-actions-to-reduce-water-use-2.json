@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T20:59:00",
-    "updated_date": "2021-09-21T21:24:00",
+    "updated_date": "2021-09-21T21:24:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-08T13:59:00",
     "date_gmt": "2021-07-08T20:59:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=504",
-    "modified": "2021-09-21T14:24:00",
-    "modified_gmt": "2021-09-21T21:24:00",
+    "modified": "2021-09-21T14:24:06",
+    "modified_gmt": "2021-09-21T21:24:06",
     "slug": "as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2",
     "status": "publish",
     "type": "post",
