@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T21:06:14",
-    "updated_date": "2021-09-21T21:06:19",
+    "created_date": "2021-08-25T21:06:00",
+    "updated_date": "2021-09-21T21:21:33",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 524,
-    "date": "2021-09-21T14:06:14",
-    "date_gmt": "2021-09-21T21:06:14",
+    "date": "2021-08-25T14:06:00",
+    "date_gmt": "2021-08-25T21:06:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=524",
-    "modified": "2021-09-21T14:06:19",
-    "modified_gmt": "2021-09-21T21:06:19",
+    "modified": "2021-09-21T14:21:33",
+    "modified_gmt": "2021-09-21T21:21:33",
     "slug": "waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:06 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:06 pm"
+          "i18n_locale_date": "August 25, 2021",
+          "i18n_locale_date_gmt": "August 25, 2021",
+          "i18n_locale_date_time": "August 25, 2021 2:06 pm",
+          "i18n_locale_date_time_gmt": "August 25, 2021 9:06 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:06 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:06 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:21 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:21 pm"
         },
         "post_location": "",
         "event_date": "",
