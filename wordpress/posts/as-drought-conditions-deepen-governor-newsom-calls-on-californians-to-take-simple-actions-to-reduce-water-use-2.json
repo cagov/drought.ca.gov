@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T20:59:13",
-    "updated_date": "2021-09-21T20:59:19",
+    "created_date": "2021-09-21T20:59:49",
+    "updated_date": "2021-09-21T20:59:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,35 +13,35 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 503,
-    "date": "2021-09-21T13:59:13",
-    "date_gmt": "2021-09-21T20:59:13",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=503",
-    "modified": "2021-09-21T13:59:19",
-    "modified_gmt": "2021-09-21T20:59:19",
-    "slug": "worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed",
+    "id": 504,
+    "date": "2021-09-21T13:59:49",
+    "date_gmt": "2021-09-21T20:59:49",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=504",
+    "modified": "2021-09-21T13:59:49",
+    "modified_gmt": "2021-09-21T20:59:49",
+    "slug": "as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed/",
-    "title": "Worsening Drought Conditions Prompt Emergency Action in Russian River Watershed",
-    "excerpt": "<p>With water levels at historic lows due to drought, the State Water Resources Control Board today adopted an emergency regulation authorizing the Division of Water Rights to issue curtailment notices to water right holders in the Russian River watershed to safeguard the community’s drinking water availability later this year and next year.</p>\n",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2/",
+    "title": "As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use",
+    "excerpt": "<p>Amid deepening drought and record-breaking temperatures throughout the West, Governor Gavin Newsom today called on Californians to voluntarily reduce their water use by 15% to protect water reserves if drought conditions continue and help maintain critical flows for fish and wildlife wherever possible.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "link",
+    "format": "standard",
     "meta": [],
     "categories": [
-      "News"
+      "Uncategorized"
     ],
     "tags": [],
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06152021_russian_river_curtailments.pdf",
-        "post_date": "June 15, 2021",
+        "post_link": "",
+        "post_date": "",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
@@ -81,6 +81,6 @@
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2/"
   }
 }
