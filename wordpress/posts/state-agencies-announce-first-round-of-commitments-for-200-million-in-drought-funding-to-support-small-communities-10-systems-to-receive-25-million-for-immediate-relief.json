@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T21:03:02",
-    "updated_date": "2021-09-21T21:03:07",
+    "created_date": "2021-09-21T21:03:40",
+    "updated_date": "2021-09-21T21:03:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,35 +13,35 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 515,
-    "date": "2021-09-21T14:03:02",
-    "date_gmt": "2021-09-21T21:03:02",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=515",
-    "modified": "2021-09-21T14:03:07",
-    "modified_gmt": "2021-09-21T21:03:07",
-    "slug": "cdfw-and-noaa-fisheries-revive-voluntary-drought-initiative-to-protect-salmon-steelhead-and-sturgeon",
+    "id": 516,
+    "date": "2021-09-21T14:03:40",
+    "date_gmt": "2021-09-21T21:03:40",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=516",
+    "modified": "2021-09-21T14:03:40",
+    "modified_gmt": "2021-09-21T21:03:40",
+    "slug": "state-agencies-announce-first-round-of-commitments-for-200-million-in-drought-funding-to-support-small-communities-10-systems-to-receive-25-million-for-immediate-relief",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/cdfw-and-noaa-fisheries-revive-voluntary-drought-initiative-to-protect-salmon-steelhead-and-sturgeon/",
-    "title": "CDFW and NOAA Fisheries Revive Voluntary Drought Initiative to Protect Salmon, Steelhead and Sturgeon",
-    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) and the National Oceanic and Atmospheric Administration (NOAA) Fisheries announced a Voluntary Drought Initiative today designed to protect populations of salmon, steelhead, and sturgeon from the effects of the current unprecedented drought.</p>\n",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/state-agencies-announce-first-round-of-commitments-for-200-million-in-drought-funding-to-support-small-communities-10-systems-to-receive-25-million-for-immediate-relief/",
+    "title": "State Agencies Announce First Round of Commitments for $200 Million in Drought Funding to Support Small Communities: 10 Systems to Receive $25 Million for Immediate Relief",
+    "excerpt": "<p>Moving to provide immediate support to communities facing water supply challenges, the Department of Water Resources (DWR) today announced the first round of funding commitments for $200 million available through the Small Community Drought Relief Program.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "link",
+    "format": "standard",
     "meta": [],
     "categories": [
-      "News"
+      "Uncategorized"
     ],
     "tags": [],
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://wildlife.ca.gov/News/cdfw-and-noaa-fisheries-revive-voluntary-drought-initiative-to-protect-salmon-steelhead-and-sturgeon",
-        "post_date": "August 11, 2021",
+        "post_link": "",
+        "post_date": "",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
@@ -81,6 +81,6 @@
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/cdfw-and-noaa-fisheries-revive-voluntary-drought-initiative-to-protect-salmon-steelhead-and-sturgeon/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-agencies-announce-first-round-of-commitments-for-200-million-in-drought-funding-to-support-small-communities-10-systems-to-receive-25-million-for-immediate-relief/"
   }
 }
