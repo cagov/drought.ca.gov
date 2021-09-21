@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T20:55:56",
-    "updated_date": "2021-09-21T20:56:02",
+    "created_date": "2021-09-21T20:56:50",
+    "updated_date": "2021-09-21T20:56:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,43 +13,43 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 496,
-    "date": "2021-09-21T13:55:56",
-    "date_gmt": "2021-09-21T20:55:56",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=496",
-    "modified": "2021-09-21T13:56:02",
-    "modified_gmt": "2021-09-21T20:56:02",
-    "slug": "dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans",
+    "id": 498,
+    "date": "2021-09-21T13:56:50",
+    "date_gmt": "2021-09-21T20:56:50",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=498",
+    "modified": "2021-09-21T13:56:50",
+    "modified_gmt": "2021-09-21T20:56:50",
+    "slug": "construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
-    "title": "DWR Releases First Assessments of Initial Groundwater Sustainability Plans",
-    "excerpt": "<p>The California Department of Water Resources (DWR) released its first assessments of groundwater sustainability plans developed by local agencies to meet the requirements of the Sustainable Groundwater Management Act (SGMA).</p>\n",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/",
+    "title": "Construction Begins on Emergency Drought Barrier in Sacramento-San Joaquin Delta",
+    "excerpt": "<p>In response to worsening drought conditions in California, today the Department of Water Resources (DWR) began construction on a temporary emergency drought barrier on the West False River in the Sacramento-San Joaquin Delta.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "link",
+    "format": "standard",
     "meta": [],
     "categories": [
-      "News"
+      "Uncategorized"
     ],
     "tags": [],
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://water.ca.gov/News/News-Releases/2021/June-21/DWR-Release-First-Assessments-of-Initial-Groundwater-Sustainability-Plans",
-        "post_date": "June 3, 2021",
+        "post_link": "",
+        "post_date": "",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:55 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:55 pm"
+          "i18n_locale_date_time": "September 21, 2021 1:56 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 8:56 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
@@ -81,6 +81,6 @@
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/"
   }
 }
