@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-10T21:06:00",
-    "updated_date": "2021-09-21T21:21:19",
+    "updated_date": "2021-09-21T21:21:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-10T14:06:00",
     "date_gmt": "2021-09-10T21:06:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=525",
-    "modified": "2021-09-21T14:21:19",
-    "modified_gmt": "2021-09-21T21:21:19",
+    "modified": "2021-09-21T14:21:25",
+    "modified_gmt": "2021-09-21T21:21:25",
     "slug": "drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages",
     "status": "publish",
     "type": "post",
