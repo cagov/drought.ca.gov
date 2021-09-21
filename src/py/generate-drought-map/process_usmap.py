@@ -44,9 +44,9 @@ for h2 in soup.find_all('h2'):
 
 
 if input_fname != "":
-    temp_file_in = input_fname.replace(".png","_1.png")
-    temp_file1 = input_fname.replace(".png","_1.png")
-    temp_file2 = input_fname.replace(".png","_2.png")
+    temp_file_in = input_fname.replace(".png","_mapTemp_1.png")
+    temp_file1 = input_fname.replace(".png","_mapTemp_1.png")
+    temp_file2 = input_fname.replace(".png","_mapTemp_2.png")
 
     cmd = 'composite %s src/py/generate-drought-map/usdm_mask.png -compose Lighten %s' % (input_fname, temp_file1)
     docommand(cmd)
