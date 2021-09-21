@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-21T20:54:32",
-    "updated_date": "2021-09-21T20:54:32",
+    "updated_date": "2021-09-21T20:54:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-21T13:54:32",
     "date_gmt": "2021-09-21T20:54:32",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=493",
-    "modified": "2021-09-21T13:54:32",
-    "modified_gmt": "2021-09-21T20:54:32",
+    "modified": "2021-09-21T13:54:38",
+    "modified_gmt": "2021-09-21T20:54:38",
     "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river",
     "status": "publish",
     "type": "post",
@@ -31,17 +31,17 @@
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "standard",
+    "format": "link",
     "meta": [],
     "categories": [
-      "Uncategorized"
+      "News"
     ],
     "tags": [],
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "",
-        "post_date": "",
+        "post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06012021_scott_river_notice_of_water_unavailability.pdf",
+        "post_date": "June 1, 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",

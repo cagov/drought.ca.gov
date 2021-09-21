@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-21T20:52:52",
-    "updated_date": "2021-09-21T20:53:30",
+    "updated_date": "2021-09-21T20:54:55",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-09-21T13:52:52",
     "date_gmt": "2021-09-21T20:52:52",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=491",
-    "modified": "2021-09-21T13:53:30",
-    "modified_gmt": "2021-09-21T20:53:30",
+    "modified": "2021-09-21T13:54:55",
+    "modified_gmt": "2021-09-21T20:54:55",
     "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river/",
     "title": "Extremely Dry Conditions Prompt Restrictions For Some Water Right Holders on the Russian River",
-    "excerpt": "<p>https://www.waterboards.ca.gov/press_room/press_releases/2021/pr05262021_russian_river_letters.pdf</p>\n",
+    "excerpt": "",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -54,8 +54,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:53 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:53 pm"
+          "i18n_locale_date_time": "September 21, 2021 1:54 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 8:54 pm"
         },
         "post_location": "",
         "event_date": "",
