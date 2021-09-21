@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-03T20:56:00",
-    "updated_date": "2021-09-21T21:24:35",
+    "updated_date": "2021-09-21T21:24:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-03T13:56:00",
     "date_gmt": "2021-06-03T20:56:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=498",
-    "modified": "2021-09-21T14:24:35",
-    "modified_gmt": "2021-09-21T21:24:35",
+    "modified": "2021-09-21T14:24:40",
+    "modified_gmt": "2021-09-21T21:24:40",
     "slug": "construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta",
     "status": "publish",
     "type": "post",
