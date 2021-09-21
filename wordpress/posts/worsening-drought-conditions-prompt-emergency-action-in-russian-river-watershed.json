@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-15T20:59:00",
-    "updated_date": "2021-09-21T21:24:11",
+    "updated_date": "2021-09-21T21:24:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-15T13:59:00",
     "date_gmt": "2021-06-15T20:59:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=503",
-    "modified": "2021-09-21T14:24:11",
-    "modified_gmt": "2021-09-21T21:24:11",
+    "modified": "2021-09-21T14:24:16",
+    "modified_gmt": "2021-09-21T21:24:16",
     "slug": "worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed",
     "status": "publish",
     "type": "post",
