@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-03-01T18:24:00",
-    "updated_date": "2021-09-21T21:18:01",
+    "updated_date": "2021-09-21T21:18:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-03-01T10:24:00",
     "date_gmt": "2021-03-01T18:24:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=290",
-    "modified": "2021-09-21T14:18:01",
-    "modified_gmt": "2021-09-21T21:18:01",
+    "modified": "2021-09-21T14:18:07",
+    "modified_gmt": "2021-09-21T21:18:07",
     "slug": "report-to-the-legislature-on-the-2012-2016-drought",
     "status": "publish",
     "type": "post",

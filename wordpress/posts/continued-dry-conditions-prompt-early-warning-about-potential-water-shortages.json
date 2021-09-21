@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-08T17:23:36",
-    "updated_date": "2021-09-21T21:10:36",
+    "created_date": "2021-03-21T17:23:00",
+    "updated_date": "2021-09-21T21:18:17",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 288,
-    "date": "2021-07-08T10:23:36",
-    "date_gmt": "2021-07-08T17:23:36",
+    "date": "2021-03-21T10:23:00",
+    "date_gmt": "2021-03-21T17:23:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=288",
-    "modified": "2021-09-21T14:10:36",
-    "modified_gmt": "2021-09-21T21:10:36",
+    "modified": "2021-09-21T14:18:17",
+    "modified_gmt": "2021-09-21T21:18:17",
     "slug": "continued-dry-conditions-prompt-early-warning-about-potential-water-shortages",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "July 8, 2021",
-          "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:23 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:23 pm"
+          "i18n_locale_date": "March 21, 2021",
+          "i18n_locale_date_gmt": "March 21, 2021",
+          "i18n_locale_date_time": "March 21, 2021 10:23 am",
+          "i18n_locale_date_time_gmt": "March 21, 2021 5:23 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:10 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:10 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:18 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:18 pm"
         },
         "post_location": "",
         "event_date": "",
