@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T17:20:21",
-    "updated_date": "2021-07-08T23:00:21",
+    "updated_date": "2021-09-21T21:10:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-08T10:20:21",
     "date_gmt": "2021-07-08T17:20:21",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=284",
-    "modified": "2021-07-08T16:00:21",
-    "modified_gmt": "2021-07-08T23:00:21",
+    "modified": "2021-09-21T14:10:58",
+    "modified_gmt": "2021-09-21T21:10:58",
     "slug": "governor-newsom-takes-action-to-respond-to-drought-conditions",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-takes-action-to-respond-to-drought-conditions/",
     "title": "Governor Newsom Takes Action to Respond to Drought Conditions",
-    "excerpt": "",
+    "excerpt": "<p>With much of the West experiencing drought conditions and California squarely in a second consecutive dry year, Governor Gavin Newsom today directed state agencies to take immediate action to bolster drought resilience and prepare for impacts on communities, businesses and ecosystems if dry conditions extend to a third year.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -52,10 +52,10 @@
           "i18n_locale_date_time_gmt": "July 8, 2021 5:20 pm"
         },
         "post_modified_date_display": {
-          "i18n_locale_date": "July 8, 2021",
-          "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 4:00 pm",
-          "i18n_locale_date_time_gmt": "July 8, 2021 11:00 pm"
+          "i18n_locale_date": "September 21, 2021",
+          "i18n_locale_date_gmt": "September 21, 2021",
+          "i18n_locale_date_time": "September 21, 2021 2:10 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:10 pm"
         },
         "post_location": "",
         "event_date": "",
