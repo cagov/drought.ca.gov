@@ -2,7 +2,7 @@ name: Generate Drought Map
 
 on:
   schedule:
-    - cron: 0 6 * * 4
+    - cron: 0 13 * * 4
 
 jobs:
   build:
