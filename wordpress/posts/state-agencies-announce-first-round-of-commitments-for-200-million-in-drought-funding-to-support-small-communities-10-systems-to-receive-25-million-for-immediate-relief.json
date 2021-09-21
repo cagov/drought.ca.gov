@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T21:03:40",
-    "updated_date": "2021-09-21T21:03:46",
+    "created_date": "2021-08-11T21:03:00",
+    "updated_date": "2021-09-21T21:22:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 516,
-    "date": "2021-09-21T14:03:40",
-    "date_gmt": "2021-09-21T21:03:40",
+    "date": "2021-08-11T14:03:00",
+    "date_gmt": "2021-08-11T21:03:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=516",
-    "modified": "2021-09-21T14:03:46",
-    "modified_gmt": "2021-09-21T21:03:46",
+    "modified": "2021-09-21T14:22:38",
+    "modified_gmt": "2021-09-21T21:22:38",
     "slug": "state-agencies-announce-first-round-of-commitments-for-200-million-in-drought-funding-to-support-small-communities-10-systems-to-receive-25-million-for-immediate-relief",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:03 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:03 pm"
+          "i18n_locale_date": "August 11, 2021",
+          "i18n_locale_date_gmt": "August 11, 2021",
+          "i18n_locale_date_time": "August 11, 2021 2:03 pm",
+          "i18n_locale_date_time_gmt": "August 11, 2021 9:03 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:03 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:03 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:22 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:22 pm"
         },
         "post_location": "",
         "event_date": "",
