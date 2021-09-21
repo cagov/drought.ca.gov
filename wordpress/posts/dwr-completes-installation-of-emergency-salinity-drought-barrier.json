@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T21:01:04",
-    "updated_date": "2021-09-21T21:01:10",
+    "created_date": "2021-07-28T21:01:00",
+    "updated_date": "2021-09-21T21:23:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 509,
-    "date": "2021-09-21T14:01:04",
-    "date_gmt": "2021-09-21T21:01:04",
+    "date": "2021-07-28T14:01:00",
+    "date_gmt": "2021-07-28T21:01:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=509",
-    "modified": "2021-09-21T14:01:10",
-    "modified_gmt": "2021-09-21T21:01:10",
+    "modified": "2021-09-21T14:23:41",
+    "modified_gmt": "2021-09-21T21:23:41",
     "slug": "dwr-completes-installation-of-emergency-salinity-drought-barrier",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:01 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:01 pm"
+          "i18n_locale_date": "July 28, 2021",
+          "i18n_locale_date_gmt": "July 28, 2021",
+          "i18n_locale_date_time": "July 28, 2021 2:01 pm",
+          "i18n_locale_date_time_gmt": "July 28, 2021 9:01 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:01 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:01 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:23 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:23 pm"
         },
         "post_location": "",
         "event_date": "",
