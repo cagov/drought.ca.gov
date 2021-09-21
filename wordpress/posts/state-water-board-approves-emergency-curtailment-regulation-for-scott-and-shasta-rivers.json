@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-08-17T21:04:00",
-    "updated_date": "2021-09-21T21:22:30",
+    "updated_date": "2021-09-21T21:22:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-08-17T14:04:00",
     "date_gmt": "2021-08-17T21:04:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=517",
-    "modified": "2021-09-21T14:22:30",
-    "modified_gmt": "2021-09-21T21:22:30",
+    "modified": "2021-09-21T14:22:35",
+    "modified_gmt": "2021-09-21T21:22:35",
     "slug": "state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers",
     "status": "publish",
     "type": "post",
