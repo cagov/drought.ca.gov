@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T21:07:15",
-    "updated_date": "2021-09-21T21:07:21",
+    "created_date": "2021-09-21T21:07:42",
+    "updated_date": "2021-09-21T21:07:42",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,35 +13,35 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 526,
-    "date": "2021-09-21T14:07:15",
-    "date_gmt": "2021-09-21T21:07:15",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=526",
-    "modified": "2021-09-21T14:07:21",
-    "modified_gmt": "2021-09-21T21:07:21",
-    "slug": "critically-low-flows-prompt-emergency-curtailment-orders-for-scott-shasta-rivers",
+    "id": 527,
+    "date": "2021-09-21T14:07:42",
+    "date_gmt": "2021-09-21T21:07:42",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=527",
+    "modified": "2021-09-21T14:07:42",
+    "modified_gmt": "2021-09-21T21:07:42",
+    "slug": "california-drought-funding-informational-session",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/critically-low-flows-prompt-emergency-curtailment-orders-for-scott-shasta-rivers/",
-    "title": "Critically Low Flows Prompt Emergency Curtailment Orders for Scott, Shasta Rivers",
-    "excerpt": "<p>With record low flows in the Scott and Shasta Rivers threatening the survival of multiple fish species, the State Water Resources Control Board ordered right holders to stop diverting water to ensure supplies for human health and livestock needs and to protect fish.</p>\n",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/california-drought-funding-informational-session/",
+    "title": "California Drought Funding Informational Session",
+    "excerpt": "<p>You are invited to participate in a virtual CA Drought Funding Informational Session, hosted by the California Department of Water Resources with the State Water Resources Control Board, on Thursday, September 16 9:00-10:30 AM (Pacific Time) via Zoom.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "link",
+    "format": "standard",
     "meta": [],
     "categories": [
-      "News"
+      "Uncategorized"
     ],
     "tags": [],
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr09132021-scott-shasta-curtailments.pdf",
-        "post_date": "September 10, 2021",
+        "post_link": "",
+        "post_date": "",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
@@ -81,6 +81,6 @@
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/critically-low-flows-prompt-emergency-curtailment-orders-for-scott-shasta-rivers/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/california-drought-funding-informational-session/"
   }
 }
