@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T20:59:49",
-    "updated_date": "2021-09-21T20:59:55",
+    "created_date": "2021-07-08T20:59:00",
+    "updated_date": "2021-09-21T21:24:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 504,
-    "date": "2021-09-21T13:59:49",
-    "date_gmt": "2021-09-21T20:59:49",
+    "date": "2021-07-08T13:59:00",
+    "date_gmt": "2021-07-08T20:59:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=504",
-    "modified": "2021-09-21T13:59:55",
-    "modified_gmt": "2021-09-21T20:59:55",
+    "modified": "2021-09-21T14:24:00",
+    "modified_gmt": "2021-09-21T21:24:00",
     "slug": "as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:59 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:59 pm"
+          "i18n_locale_date": "July 8, 2021",
+          "i18n_locale_date_gmt": "July 8, 2021",
+          "i18n_locale_date_time": "July 8, 2021 1:59 pm",
+          "i18n_locale_date_time_gmt": "July 8, 2021 8:59 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:59 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:59 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:24 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:24 pm"
         },
         "post_location": "",
         "event_date": "",
