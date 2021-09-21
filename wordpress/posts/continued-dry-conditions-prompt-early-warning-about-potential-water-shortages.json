@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T17:23:36",
-    "updated_date": "2021-09-21T21:10:31",
+    "updated_date": "2021-09-21T21:10:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-08T10:23:36",
     "date_gmt": "2021-07-08T17:23:36",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=288",
-    "modified": "2021-09-21T14:10:31",
-    "modified_gmt": "2021-09-21T21:10:31",
+    "modified": "2021-09-21T14:10:36",
+    "modified_gmt": "2021-09-21T21:10:36",
     "slug": "continued-dry-conditions-prompt-early-warning-about-potential-water-shortages",
     "status": "publish",
     "type": "post",
