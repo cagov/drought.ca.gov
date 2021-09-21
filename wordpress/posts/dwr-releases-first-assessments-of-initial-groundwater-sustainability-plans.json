@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T20:55:56",
-    "updated_date": "2021-09-21T20:56:02",
+    "created_date": "2021-06-03T20:55:00",
+    "updated_date": "2021-09-21T21:25:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 496,
-    "date": "2021-09-21T13:55:56",
-    "date_gmt": "2021-09-21T20:55:56",
+    "date": "2021-06-03T13:55:00",
+    "date_gmt": "2021-06-03T20:55:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=496",
-    "modified": "2021-09-21T13:56:02",
-    "modified_gmt": "2021-09-21T20:56:02",
+    "modified": "2021-09-21T14:25:11",
+    "modified_gmt": "2021-09-21T21:25:11",
     "slug": "dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:55 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:55 pm"
+          "i18n_locale_date": "June 3, 2021",
+          "i18n_locale_date_gmt": "June 3, 2021",
+          "i18n_locale_date_time": "June 3, 2021 1:55 pm",
+          "i18n_locale_date_time_gmt": "June 3, 2021 8:55 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:56 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:56 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:25 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:25 pm"
         },
         "post_location": "",
         "event_date": "",
