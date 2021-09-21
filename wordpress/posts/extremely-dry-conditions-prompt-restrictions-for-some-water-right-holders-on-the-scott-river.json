@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-09-21T20:52:52",
-    "updated_date": "2021-09-21T20:53:30",
+    "created_date": "2021-09-21T20:54:32",
+    "updated_date": "2021-09-21T20:54:32",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,49 +13,49 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 491,
-    "date": "2021-09-21T13:52:52",
-    "date_gmt": "2021-09-21T20:52:52",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=491",
-    "modified": "2021-09-21T13:53:30",
-    "modified_gmt": "2021-09-21T20:53:30",
-    "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river",
+    "id": 493,
+    "date": "2021-09-21T13:54:32",
+    "date_gmt": "2021-09-21T20:54:32",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=493",
+    "modified": "2021-09-21T13:54:32",
+    "modified_gmt": "2021-09-21T20:54:32",
+    "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river/",
-    "title": "Extremely Dry Conditions Prompt Restrictions For Some Water Right Holders on the Russian River",
-    "excerpt": "<p>https://www.waterboards.ca.gov/press_room/press_releases/2021/pr05262021_russian_river_letters.pdf</p>\n",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/",
+    "title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
+    "excerpt": "",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "link",
+    "format": "standard",
     "meta": [],
     "categories": [
-      "News"
+      "Uncategorized"
     ],
     "tags": [],
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr05262021_russian_river_letters.pdf",
-        "post_date": "May 26, 2021",
+        "post_link": "",
+        "post_date": "",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:52 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:52 pm"
+          "i18n_locale_date_time": "September 21, 2021 1:54 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 8:54 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:53 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:53 pm"
+          "i18n_locale_date_time": "September 21, 2021 1:54 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 8:54 pm"
         },
         "post_location": "",
         "event_date": "",
@@ -81,6 +81,6 @@
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/"
   }
 }
