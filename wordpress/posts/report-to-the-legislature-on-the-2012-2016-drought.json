@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-08T17:24:12",
-    "updated_date": "2021-09-21T21:10:22",
+    "created_date": "2021-03-01T18:24:00",
+    "updated_date": "2021-09-21T21:18:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 290,
-    "date": "2021-07-08T10:24:12",
-    "date_gmt": "2021-07-08T17:24:12",
+    "date": "2021-03-01T10:24:00",
+    "date_gmt": "2021-03-01T18:24:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=290",
-    "modified": "2021-09-21T14:10:22",
-    "modified_gmt": "2021-09-21T21:10:22",
+    "modified": "2021-09-21T14:18:01",
+    "modified_gmt": "2021-09-21T21:18:01",
     "slug": "report-to-the-legislature-on-the-2012-2016-drought",
     "status": "publish",
     "type": "post",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "July 8, 2021",
-          "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:24 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:24 pm"
+          "i18n_locale_date": "March 1, 2021",
+          "i18n_locale_date_gmt": "March 1, 2021",
+          "i18n_locale_date_time": "March 1, 2021 10:24 am",
+          "i18n_locale_date_time_gmt": "March 1, 2021 6:24 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:10 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:10 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:18 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:18 pm"
         },
         "post_location": "",
         "event_date": "",
