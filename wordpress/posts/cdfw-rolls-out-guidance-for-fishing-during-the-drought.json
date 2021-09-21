@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-19T21:00:00",
-    "updated_date": "2021-09-21T21:23:50",
+    "updated_date": "2021-09-21T21:23:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-19T14:00:00",
     "date_gmt": "2021-07-19T21:00:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=508",
-    "modified": "2021-09-21T14:23:50",
-    "modified_gmt": "2021-09-21T21:23:50",
+    "modified": "2021-09-21T14:23:56",
+    "modified_gmt": "2021-09-21T21:23:56",
     "slug": "cdfw-rolls-out-guidance-for-fishing-during-the-drought",
     "status": "publish",
     "type": "post",
