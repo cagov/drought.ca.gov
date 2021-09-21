@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-21T20:54:32",
-    "updated_date": "2021-09-21T20:54:38",
+    "updated_date": "2021-09-21T21:09:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-09-21T13:54:32",
     "date_gmt": "2021-09-21T20:54:32",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=493",
-    "modified": "2021-09-21T13:54:38",
-    "modified_gmt": "2021-09-21T20:54:38",
+    "modified": "2021-09-21T14:09:06",
+    "modified_gmt": "2021-09-21T21:09:06",
     "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/",
     "title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
-    "excerpt": "",
+    "excerpt": "<p>With drought causing critically low flows and threatening the survival of coho salmon, an endangered species under both the California and Federal Endangered Species Acts, the State Water Resources Control Board today sent notices of water unavailability to 102 water right holders in the Scott River basin in Siskiyou County, urging them to stop diverting &#8230; <a title=\"Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/\" aria-label=\"More on Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River\">Read more</a></p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -54,8 +54,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:54 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:54 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:09 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:09 pm"
         },
         "post_location": "",
         "event_date": "",
