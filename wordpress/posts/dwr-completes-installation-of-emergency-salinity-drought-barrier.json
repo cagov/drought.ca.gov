@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-28T21:01:00",
-    "updated_date": "2021-09-21T21:23:41",
+    "updated_date": "2021-09-21T21:23:46",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-28T14:01:00",
     "date_gmt": "2021-07-28T21:01:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=509",
-    "modified": "2021-09-21T14:23:41",
-    "modified_gmt": "2021-09-21T21:23:41",
+    "modified": "2021-09-21T14:23:46",
+    "modified_gmt": "2021-09-21T21:23:46",
     "slug": "dwr-completes-installation-of-emergency-salinity-drought-barrier",
     "status": "publish",
     "type": "post",
