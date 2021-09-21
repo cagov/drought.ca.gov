@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-21T20:54:32",
-    "updated_date": "2021-09-21T21:09:06",
+    "updated_date": "2021-09-21T21:09:13",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-21T13:54:32",
     "date_gmt": "2021-09-21T20:54:32",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=493",
-    "modified": "2021-09-21T14:09:06",
-    "modified_gmt": "2021-09-21T21:09:06",
+    "modified": "2021-09-21T14:09:13",
+    "modified_gmt": "2021-09-21T21:09:13",
     "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river",
     "status": "publish",
     "type": "post",

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-21T20:52:52",
-    "updated_date": "2021-09-21T20:55:02",
+    "updated_date": "2021-09-21T21:09:17",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-09-21T13:52:52",
     "date_gmt": "2021-09-21T20:52:52",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=491",
-    "modified": "2021-09-21T13:55:02",
-    "modified_gmt": "2021-09-21T20:55:02",
+    "modified": "2021-09-21T14:09:17",
+    "modified_gmt": "2021-09-21T21:09:17",
     "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river/",
     "title": "Extremely Dry Conditions Prompt Restrictions For Some Water Right Holders on the Russian River",
-    "excerpt": "",
+    "excerpt": "<p>With drought conditions resulting in low flows in the Russian River and historically low water storage levels at Lake Mendocino, the State Water Resources Control Board today notified 930 junior water rights holders in the Upper Russian River basin that there is not enough water in the system and that diversions must be reduced immediately &#8230; <a title=\"Extremely Dry Conditions Prompt Restrictions For Some Water Right Holders on the Russian River\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-russian-river/\" aria-label=\"More on Extremely Dry Conditions Prompt Restrictions For Some Water Right Holders on the Russian River\">Read more</a></p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -54,8 +54,8 @@
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 1:55 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 8:55 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:09 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:09 pm"
         },
         "post_location": "",
         "event_date": "",
