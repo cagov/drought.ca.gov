@@ -29,6 +29,7 @@
     "@cagov/ds-minus": "^1.0.0",
     "@cagov/ds-pagination": "^1.0.0",
 
+    "@cagov/ds-base-css": "^1.0.1",
     "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-dropdown-menu": "^1.0.11",
 
