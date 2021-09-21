@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T17:23:02",
-    "updated_date": "2021-09-21T21:10:43",
+    "updated_date": "2021-09-21T21:10:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-08T10:23:02",
     "date_gmt": "2021-07-08T17:23:02",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=286",
-    "modified": "2021-09-21T14:10:43",
-    "modified_gmt": "2021-09-21T21:10:43",
+    "modified": "2021-09-21T14:10:49",
+    "modified_gmt": "2021-09-21T21:10:49",
     "slug": "statewide-snowpack-well-below-normal-as-wet-season-winds-down",
     "status": "publish",
     "type": "post",
