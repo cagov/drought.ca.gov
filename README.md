@@ -28,3 +28,7 @@ Content -> Production flow
 ## Network diagram
 
 <img src="drought.ca.gov-web-application-architecture.png">
+
+## Drought map
+
+For more information regarding how we generate our drought maps, see our [drought map technical notes](src/py/generate-drought-map/readme.md).
