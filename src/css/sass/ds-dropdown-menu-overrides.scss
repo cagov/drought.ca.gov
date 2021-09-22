@@ -1,0 +1,23 @@
+cagov-navoverlay {
+  .container {
+    padding: 0 15px;
+    margin: 0;
+    max-width: none;
+  }
+
+  .expanded-menu {
+    max-width: var(--w-lg, "1176px");
+    margin: 0 auto;
+  }
+
+  .expanded-menu-section-header-link {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .container .search-container {
+    padding: 16px 0;
+  }
+}

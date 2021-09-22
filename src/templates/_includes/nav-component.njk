@@ -34,7 +34,7 @@
                 <button class="expanded-menu-section-header-link js-event-hm-menu">{{
                   menu.title | safe }}</button>
               {% else %}
-                <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url | safe }}">{{
+                <a class="expanded-menu-section-header-link js-event-hm-menu" href="{{ menu.url.split('ca-gov.pantheonsite.io')[1] | safe }}">{{
                   menu.title | safe }}</a>
               {% endif %}
               <!--
@@ -50,7 +50,7 @@
             <!--
             <div class="expanded-menu-dropdown">
               {% for sublink in menu['child_items'] %}
-                <a class="expanded-menu-dropdown-link js-event-hm-menu" href="/{{ sublink.url.replace('https://cannabis.ca.gov/','') | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
+                <a class="expanded-menu-dropdown-link js-event-hm-menu" href="/{{ sublink.url.replace('https://staginginye.prod3.sites.ca.gov/','') | safe }}" tabindex="-1">{{ sublink.title | safe }}</a>
               {% endfor %}
             </div>
             -->

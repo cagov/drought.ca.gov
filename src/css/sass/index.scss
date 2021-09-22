@@ -27,6 +27,7 @@
 
 // @import '../../components/menu/_style';
 @import '../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss'; // now imported from npm module
+@import './ds-dropdown-menu-overrides.scss'; // This is a hack. Fix within design system.
 
 @import '../../components/drought-map/index'; /* copied from gutenberg custom block */
 /* these component should all be published and installed so they aren't duplicated here and in design-system */
