@@ -81,6 +81,9 @@
     {% include "../layouts/templates/landing.njk" %}
   {%- endif -%}
 
+  {% block pageContent %}
+  {% endblock %}
+
   <div class="footer-container">
     {% include "../footer.njk" %}
     {% include "../footer-universal.njk" %}
