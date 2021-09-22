@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2021-09-22T00:46:45",
+    "updated_date": "2021-09-22T00:46:45",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 548,
+    "date": "2021-09-21T17:46:45",
+    "date_gmt": "2021-09-22T00:46:45",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21.pdf",
+    "modified": "2021-09-21T17:46:45",
+    "modified_gmt": "2021-09-22T00:46:45",
+    "slug": "rinconbandofluisenoindiansresolutionredroughtexecuted06-03-21",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/rinconbandofluisenoindiansresolutionredroughtexecuted06-03-21/",
+    "title": "RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21",
+    "author": "Peggy Gartin",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21.pdf'>RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21</a></p>\n",
+    "caption": "<p>RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21.pdf",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21.pdf",
+    "path": "2021/09/RinconBandofLuisenoIndiansResolutionreDroughtexecuted06-03-21.pdf"
+  }
+}
