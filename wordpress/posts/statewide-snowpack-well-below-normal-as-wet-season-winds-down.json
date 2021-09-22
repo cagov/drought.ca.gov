@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-08T17:23:02",
-    "updated_date": "2021-07-08T17:25:01",
+    "created_date": "2021-04-01T17:23:00",
+    "updated_date": "2021-09-21T21:18:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,17 +14,17 @@
   },
   "data": {
     "id": 286,
-    "date": "2021-07-08T10:23:02",
-    "date_gmt": "2021-07-08T17:23:02",
+    "date": "2021-04-01T10:23:00",
+    "date_gmt": "2021-04-01T17:23:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=286",
-    "modified": "2021-07-08T10:25:01",
-    "modified_gmt": "2021-07-08T17:25:01",
+    "modified": "2021-09-21T14:18:36",
+    "modified_gmt": "2021-09-21T21:18:36",
     "slug": "statewide-snowpack-well-below-normal-as-wet-season-winds-down",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
     "title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
-    "excerpt": "",
+    "excerpt": "<p>DWR conducted the fourth snow survey at the Phillips Station snow course. The manual survey recorded 49.5 inches of snow depth and a snow water equivalent of 21 inches, which is 83 percent of average for this location.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -46,16 +46,16 @@
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "July 8, 2021",
-          "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:23 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:23 pm"
+          "i18n_locale_date": "April 1, 2021",
+          "i18n_locale_date_gmt": "April 1, 2021",
+          "i18n_locale_date_time": "April 1, 2021 10:23 am",
+          "i18n_locale_date_time_gmt": "April 1, 2021 5:23 pm"
         },
         "post_modified_date_display": {
-          "i18n_locale_date": "July 8, 2021",
-          "i18n_locale_date_gmt": "July 8, 2021",
-          "i18n_locale_date_time": "July 8, 2021 10:25 am",
-          "i18n_locale_date_time_gmt": "July 8, 2021 5:25 pm"
+          "i18n_locale_date": "September 21, 2021",
+          "i18n_locale_date_gmt": "September 21, 2021",
+          "i18n_locale_date_time": "September 21, 2021 2:18 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:18 pm"
         },
         "post_location": "",
         "event_date": "",

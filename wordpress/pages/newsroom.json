@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-08-27T01:20:07",
+    "updated_date": "2021-09-15T02:16:05",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:51:19",
     "date_gmt": "2021-07-04T14:51:19",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=37",
-    "modified": "2021-08-26T18:20:07",
-    "modified_gmt": "2021-08-27T01:20:07",
+    "modified": "2021-09-14T19:16:05",
+    "modified_gmt": "2021-09-15T02:16:05",
     "slug": "newsroom",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
     "title": "Newsroom",
-    "excerpt": "<p>Latest news Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities August 25, 2021 As California’s 2021-22 waterfowl hunting season approaches, hunters may find that wildlife areas have limited space, particularly early in the season. Hatchery Coho Salmon Temporarily Relocated Amid Heat Stress and Drought Conditions in Sonoma County August 20, 2021 Due to &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "excerpt": "<p>Latest news California Drought Funding Informational Session September 14, 2021 You are invited to participate in a virtual CA Drought Funding Informational Session, hosted by the California Department of Water Resources with the State Water Resources Control Board, on Thursday, September 16 9:00-10:30 AM (Pacific Time) via Zoom. Critically Low Flows Prompt Emergency Curtailment Orders &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -33,7 +33,9 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
+    "categories": [
+      "News"
+    ],
     "tags": [
       "launch content"
     ],

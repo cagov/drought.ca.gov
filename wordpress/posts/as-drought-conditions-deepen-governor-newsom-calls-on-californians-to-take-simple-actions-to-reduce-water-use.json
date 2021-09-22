@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T23:01:05",
-    "updated_date": "2021-07-22T17:06:58",
+    "updated_date": "2021-09-21T21:09:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-08T16:01:05",
     "date_gmt": "2021-07-08T23:01:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=310",
-    "modified": "2021-07-22T10:06:58",
-    "modified_gmt": "2021-07-22T17:06:58",
+    "modified": "2021-09-21T14:09:36",
+    "modified_gmt": "2021-09-21T21:09:36",
     "slug": "as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use/",
     "title": "As Drought Conditions Deepen, Governor Newsom Calls on Californians to Take Simple Actions to Reduce Water Use",
-    "excerpt": "",
+    "excerpt": "<p>With much of the West experiencing drought conditions and California squarely in a second consecutive dry year, Governor Gavin Newsom today directed state agencies to take immediate action to bolster drought resilience and prepare for impacts on communities, businesses and ecosystems if dry conditions extend to a third year.</p>\n",
     "author": "Michael Sullivan",
     "featured_media": 0,
     "comment_status": "closed",
@@ -52,10 +52,10 @@
           "i18n_locale_date_time_gmt": "July 8, 2021 11:01 pm"
         },
         "post_modified_date_display": {
-          "i18n_locale_date": "July 22, 2021",
-          "i18n_locale_date_gmt": "July 22, 2021",
-          "i18n_locale_date_time": "July 22, 2021 10:06 am",
-          "i18n_locale_date_time_gmt": "July 22, 2021 5:06 pm"
+          "i18n_locale_date": "September 21, 2021",
+          "i18n_locale_date_gmt": "September 21, 2021",
+          "i18n_locale_date_time": "September 21, 2021 2:09 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:09 pm"
         },
         "post_location": "",
         "event_date": "",
