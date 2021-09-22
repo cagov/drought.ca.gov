@@ -19,7 +19,10 @@
 	.gsc-control-cse {
 		padding: 0;
 	}
-	.gs-image {
+	.gsc-table-cell-thumbnail {
+		display: none;
+	}
+	.gsc-adBlock {
 		display: none;
 	}
 </style>
@@ -29,15 +32,9 @@
 		<div class="ds-content-layout">
 			<main class="main-primary">
 				<div>
-					<article id="post-seach">
-						<div class="category-label">{{ category | safe }}</div>
+					<article id="post-search">
 						<!-- Page Title-->
 						<h1 class="page-title">Search results for "<span class="query-display"></span>"</h1>
-						<p class="page-date published">
-							<time datetime="">
-								<!-- date field -->
-							</time>
-						</p>
 						<div class="entry-content">
 							<div class="gcse-searchresults-only">
 						</div>
