@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-03T20:55:00",
-    "updated_date": "2021-09-21T21:25:11",
+    "updated_date": "2021-09-21T21:25:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-03T13:55:00",
     "date_gmt": "2021-06-03T20:55:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=496",
-    "modified": "2021-09-21T14:25:11",
-    "modified_gmt": "2021-09-21T21:25:11",
+    "modified": "2021-09-21T14:25:16",
+    "modified_gmt": "2021-09-21T21:25:16",
     "slug": "dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans",
     "status": "publish",
     "type": "post",
