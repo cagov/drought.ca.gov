@@ -4,8 +4,10 @@ on:
     branches:
       - main
   workflow_run:
-    workflows: ["Generate Drought Map"]
-    types: [completed]
+    workflows: 
+      - "Generate Drought Map"
+    types: 
+      - completed
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
