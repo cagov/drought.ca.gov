@@ -35,3 +35,4 @@ This script will generate image files in the `src/assets/img/usdm-assets` folder
 ## GitHub Action
 
 This script is currently scheduled to run once per week via GitHub Action. See `.github/workflows/generate-drought-map.yml`.
+
