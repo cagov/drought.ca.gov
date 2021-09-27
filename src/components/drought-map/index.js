@@ -1,5 +1,7 @@
 // Drought Map
 
+import latestDroughtMap from '../../templates/_data/latestDroughtMap.json';
+
 class CAGovDroughtMap extends window.HTMLElement {
     connectedCallback() {
       console.log("Loading Drought Map");
@@ -18,9 +20,9 @@ class CAGovDroughtMap extends window.HTMLElement {
       if (data !== undefined && data !== null && data.content !== null) {
         if (type === "wordpress") {
           this.innerHTML = `<div class="cagov-drought-map">
-                <div class="map-label"><h2>Map released: September 16, 2021</h2></div>
+                <div class="map-label"><h2>Map released: ${latestDroughtMap.dateString}</h2></div>
                 <div class="drought-map-container">
-                  <div class="drought-map-image"><a href="https://droughtmonitor.unl.edu/"><img src="/assets/img/usdm-assets/20210914_usdm_excerpt.png" /></a></div>
+                  <div class="drought-map-image"><a href="https://droughtmonitor.unl.edu/"><img src="${latestDroughtMap.filePath}" /></a></div>
                   <div class="legend-label"><h3>Intensity</h3></div>
                   <div class="drought-map-legend">
                       <div class="col-1">
