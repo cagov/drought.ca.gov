@@ -33,7 +33,9 @@
     "ping_status": "closed",
     "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
     "meta": [],
-    "categories": [],
+    "categories": [
+      "Current conditions"
+    ],
     "tags": [
       "launch content",
       "staging"
