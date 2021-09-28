@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-28T17:54:05",
-    "updated_date": "2021-09-28T17:54:05",
+    "updated_date": "2021-09-28T17:55:28",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,12 +17,12 @@
     "date": "2021-09-28T10:54:05",
     "date_gmt": "2021-09-28T17:54:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=583",
-    "modified": "2021-09-28T10:54:05",
-    "modified_gmt": "2021-09-28T17:54:05",
-    "slug": "california-drought-update-archive",
+    "modified": "2021-09-28T10:55:28",
+    "modified_gmt": "2021-09-28T17:55:28",
+    "slug": "ca-drought-update-archive",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/california-drought-update-archive/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/ca-drought-update-archive/",
     "title": "California Drought Update archive",
     "excerpt": "",
     "author": "Peggy Gartin",
@@ -33,8 +33,13 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
-    "tags": [],
+    "categories": [
+      "Update archive"
+    ],
+    "tags": [
+      "do-not-crawl",
+      "staging"
+    ],
     "design_system_fields": {
       "template": "page"
     },
@@ -55,6 +60,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/california-drought-update-archive/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/ca-drought-update-archive/"
   }
 }
