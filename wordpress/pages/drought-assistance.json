@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-01T21:50:38",
-    "updated_date": "2021-09-29T22:06:24",
+    "updated_date": "2021-09-29T22:06:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-01T14:50:38",
     "date_gmt": "2021-09-01T21:50:38",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=443",
-    "modified": "2021-09-29T15:06:24",
-    "modified_gmt": "2021-09-29T22:06:24",
+    "modified": "2021-09-29T15:06:30",
+    "modified_gmt": "2021-09-29T22:06:30",
     "slug": "drought-assistance",
     "status": "publish",
     "type": "page",
@@ -36,14 +36,16 @@
     "categories": [
       "Drought assistance"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "page"
     },
     "og_meta": {
       "_genesis_title": "",
       "_genesis_description": [
-        "If you need bottled or hauled water, your county's Office of Emergency Services can help. Also see information on small community grants."
+        "Information about emergency water delivery, funding programs, and conservation programs that help communities experiencing drought."
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": "",
