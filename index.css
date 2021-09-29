@@ -1,61 +1,29 @@
 @charset "UTF-8";
 /* GLOBAL */
-/* CA branding */
-/* Drought color scheme */
-/* Theme colors */
-/* Status colors */
-/* Gray scale values */
-/* Colorscheme root variables */
-:root {
-  /* CAGOV brandings */
-  --cagov-branding-primary: #FEC02F;
-  --cagov-branding-secondary: #0F1E6B;
-  /* Theme colors */
-  --primary-color: #691808;
-  --primary-dark-color: #4A1106;
-  --primary-light-color: #965D52;
-  --primary-lightest-color: #D2BAB5;
-  --primary-hover-color: #4A1106;
-  --secondary-color: #313131;
-  --secondary-dark-color: #222222;
-  --secondary-light-color: #6F6F6F;
-  --secondary-lightest-color: #C1C1C1;
-  --secondary-hover-color: #222222;
-  --highlight-color: #FBAD23;
-  --highlight-dark-color: #B07919;
-  --highlight-light-color: #FCC665;
-  --highlight-lightest-color: #FEE6BD;
-  --secondary-hover-color: #B07919;
-  --highlight-color-300: #FFF2D5;
-  --standout-color: #313131;
-  --standout-hover-color: #222222;
-  /* Status colors */
-  --status-success-color: #008542;
-  --status-danger-color: #B71234;
-  --status-warning-color: #FFD700;
-  --status-info-color: #000080;
-  --status-success-color-200: #CCE7D9;
-  --status-danger-color-200: #F8E7EB;
-  --status-warning-color-200: #FFFBE6;
-  --status-info-color-200: #E6E6F2;
-  /* Gray scale values */
-  --gray-100: #f9f9fa;
-  --gray-200: #ededef;
-  --gray-300: #e1e0e3;
-  --gray-400: #d3d2d6;
-  --gray-500: #c4c3c8;
-  --gray-600: #b3b2b8;
-  --gray-700: #a09fa7;
-  --gray-800: #6c6b77;
-  --gray-900: #3f3e4d;
-  --black: #000;
-  --white: #fff; }
-
-/* theme colors */
-/* spacing, margin and padding values */
 /* Tablet and wider */
 /* Desktop and wider */
 /* mixins */
+/* Colorscheme root variables */
+:root {
+  /* Drought brandings */
+  /* Theme colors */
+  --primary-color: #691808;
+  --primary-dark-color: #4a1106;
+  --primary-light-color: #965d52;
+  --primary-lightest-color: #d2bab5;
+  --primary-hover-color: #4a1106;
+  --secondary-color: #313131;
+  --secondary-dark-color: #222222;
+  --secondary-light-color: #6f6f6f;
+  --secondary-lightest-color: #c1c1c1;
+  --secondary-hover-color: #222222;
+  --highlight-color: #fbad23;
+  --highlight-dark-color: #b07919;
+  --highlight-light-color: #fcc665;
+  --highlight-lightest-color: #fee6bd;
+  --secondary-hover-color: #b07919; }
+
+/* theme colors */
 /* sitewide styles */
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 :root {
@@ -87,7 +55,18 @@
   --cagov-highlight: #FEC02F;
   --cagov-primary: #004ABC;
   --cagov-primary-dark: #003484;
-  --cagov-secondary: #FF8000; }
+  --cagov-secondary: #FF8000;
+  --white: #fff;
+  --gray-100: #f9f9fa;
+  --gray-200: #ededef;
+  --gray-300: #e1e0e3;
+  --gray-400: #D3D2D6;
+  --gray-500: #C4C3C8;
+  --gray-600: #B3B2B8;
+  --gray-700: #A09FA7;
+  --gray-800: #3F3E4D;
+  --gray-900: #3F3E4D;
+  --black: #000; }
 
 /* spasing, margin and padding values */
 /* Tablet and wider */
@@ -2264,15 +2243,15 @@ button.accordion-card-header:hover .accordion-title:hover {
     padding: 16px 0;
     display: grid;
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "org-name-top mobile-icons" "org-name-bottom mobile-icons";
+    grid-template-rows: auto;
+    grid-template-areas: "org-name mobile-icons";
     column-gap: .5rem;
     row-gap: .25rem;
     justify-items: start; }
     .branding .container.with-logo {
       grid-template-columns: auto 1fr;
-      grid-template-rows: auto auto auto;
-      grid-template-areas: "logo mobile-icons" "org-name-top ." "org-name-bottom ."; }
+      grid-template-rows: auto auto;
+      grid-template-areas: "logo mobile-icons" "org-name org-name"; }
     .branding .container .search-container {
       display: none; }
   .branding .grid-logo {
@@ -2280,12 +2259,16 @@ button.accordion-card-header:hover .accordion-title:hover {
     align-self: center;
     display: flex;
     align-items: center; }
-  .branding .grid-org-name-top {
-    grid-area: org-name-top;
-    align-self: end; }
-  .branding .grid-org-name-bottom {
-    grid-area: org-name-bottom;
-    align-self: start; }
+  .branding .grid-org-name {
+    grid-area: org-name;
+    display: flex;
+    flex-direction: column;
+    row-gap: .25rem;
+    transition: all 0.3s;
+    color: var(--black, #000);
+    text-decoration: none; }
+    .branding .grid-org-name:focus {
+      outline: 2px solid var(--secondary-color, #fec02f); }
   .branding .grid-search {
     grid-area: search;
     align-self: center;
@@ -2295,20 +2278,15 @@ button.accordion-card-header:hover .accordion-title:hover {
     grid-area: mobile-icons;
     align-self: center;
     justify-self: end; }
-  .branding .org-name {
-    transition: all 0.3s;
-    display: block;
-    color: var(--black, #000);
-    text-decoration: none; }
-    .branding .org-name:focus {
-      outline: 2px solid var(--secondary-color, #fec02f); }
   .branding .org-name-state {
+    display: block;
     font-family: var(--org-name-state-font, "Public Sans", sans-serif);
     font-size: var(--org-name-state-font-size, 1rem);
     font-weight: var(--org-name-state-font-weight, 500);
     line-height: var(--org-name-state-line-height, 1.2);
     text-transform: var(--org-name-state-text-transform, none); }
   .branding .org-name-dept {
+    display: block;
     font-family: var(--org-name-dept-font, "Public Sans", sans-serif);
     font-size: var(--org-name-dept-font-size, 1.75rem);
     font-weight: var(--org-name-dept-font-weight, 700);
@@ -2325,6 +2303,10 @@ button.accordion-card-header:hover .accordion-title:hover {
   .branding button.menu-btn {
     padding: 0 !important;
     border: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: .5rem;
+    align-items: center;
     background: transparent;
     overflow: visible;
     padding: 10px;
@@ -2341,8 +2323,7 @@ button.accordion-card-header:hover .accordion-title:hover {
       outline: 2px solid var(--highlight-color, #fdb81e); }
     .branding button.search-btn svg,
     .branding button.menu-btn svg {
-      position: relative;
-      top: 1px; }
+      display: inline-block; }
     .branding button.search-btn .blue,
     .branding button.menu-btn .blue {
       fill: var(--primary-color, #064e66); }
@@ -2485,14 +2466,330 @@ cagov-navoverlay .search-container--small.hidden-search {
     display: none !important; }
   .branding .container {
     grid-template-columns: auto 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: "org-name-top search" "org-name-bottom search"; }
+    grid-template-rows: auto;
+    grid-template-areas: "org-name search"; }
     .branding .container.with-logo {
       grid-template-columns: auto auto 1fr;
-      grid-template-rows: auto auto;
-      grid-template-areas: "logo org-name-top search" "logo org-name-bottom search"; }
+      grid-template-rows: auto;
+      grid-template-areas: "logo org-name search"; }
   .branding .search-container {
     display: block !important; } }
+
+/* skip-to-content */
+#skip-to-content {
+  position: relative;
+  left: 50% !important;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  z-index: 999; }
+  #skip-to-content a {
+    width: 0;
+    height: 0;
+    text-align: center;
+    position: absolute !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    clip: unset;
+    background-color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden; }
+    #skip-to-content a:focus {
+      width: 160px;
+      height: 27px; }
+
+/* translate widget loader */
+#google_translate_element {
+  font-size: 0.85rem; }
+
+/*official*/
+.official-header {
+  background-color: var(--gray-100, #f9f9fa);
+  padding: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--gray-200, #ededef);
+  /* google translate */ }
+  @media (max-width: 767px) {
+    .official-header {
+      width: 100vw;
+      padding: 0.5rem 0; } }
+  .official-header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    max-width: var(--w-lg, 1176px);
+    min-height: 40px;
+    margin: 0 auto;
+    padding: 0 10px 0 10px; }
+  .official-header .official-logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .official-header .official-logo .cagov-logo {
+      margin: 0 20px 0 0;
+      display: flex; }
+  .official-header svg {
+    padding: 0;
+    width: 38px; }
+    .official-header svg .ca {
+      fill: var(--cagov-highlight, #fec02f); }
+    .official-header svg .gov {
+      fill: var(--cagov-primary-dark, #003484); }
+  .official-header .official-tag {
+    margin: 0 10px;
+    font-size: 0.95rem;
+    display: inherit; }
+  .official-header .official-languages a {
+    color: var(--black, #000);
+    padding: 0 0.5rem 0 0.5rem; }
+    .official-header .official-languages a:hover {
+      color: var(--primary-dark-color, #4a1106); }
+  .official-header .official-languages {
+    display: flex;
+    flex-wrap: wrap; }
+    .official-header .official-languages .dropdown {
+      position: relative; }
+    .official-header .official-languages button.offcial-more {
+      padding-right: 0;
+      border: none;
+      text-decoration: underline;
+      background-color: var(--white, #fff);
+      transition: transform 0.3s; }
+      .official-header .official-languages button.offcial-more:hover {
+        color: var(--primary-dark-color, #4a1106); }
+      .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down {
+        transition: all 0.3s; }
+        .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down svg {
+          padding: 0 0 0 0;
+          width: 20px;
+          height: 18px;
+          overflow: visible;
+          position: relative;
+          right: 5px; }
+      .official-header .official-languages button.offcial-more[aria-expanded="true"] .caret-down {
+        transition: transform 0.3s; }
+        .official-header .official-languages button.offcial-more[aria-expanded="true"] .caret-down svg {
+          padding: 0 0 0 0;
+          width: 20px;
+          height: 18px;
+          position: relative;
+          top: 8px;
+          left: 4px;
+          overflow: visible;
+          transform: rotate(180deg); }
+    .official-header .official-languages .dropdown-content {
+      background-clip: padding-box;
+      background-color: var(--white, #fff);
+      border: 1px solid var(--primary-color, #064e66);
+      border-radius: 0.25rem;
+      padding: 15px;
+      position: absolute;
+      right: 0px;
+      top: 100%;
+      text-align: left;
+      z-index: 1000;
+      min-width: 150px;
+      display: none; }
+      .official-header .official-languages .dropdown-content.show {
+        display: flex;
+        flex-direction: column; }
+  .official-header .goog-te-gadget {
+    max-height: 42px;
+    overflow: hidden; }
+    .official-header .goog-te-gadget .goog-te-combo {
+      /* hardcoded translate widget stuff from cannabis site */
+      background-color: #fff;
+      border: 1px solid #bbb;
+      padding: 0.25rem;
+      color: #4e4e4e; }
+  .official-header .goog-logo-link {
+    display: none; }
+  .official-header #google_translate_element .skiptranslate.goog-te-gadget,
+  .official-header .skiptranslate.goog-te-gadget a {
+    color: white; }
+  .official-header .goog-te-gadget {
+    margin-bottom: -10px;
+    font-size: 11px;
+    color: #666;
+    white-space: nowrap; }
+
+.desktop-only {
+  display: none; }
+
+/* sticky header */
+@media (min-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 99; }
+  .desktop-only {
+    display: inherit;
+    padding-right: 0.2rem; }
+  /* headder transition on scroll (in desktop) */
+  .official-header,
+  header {
+    transition: all 0.3s ease; }
+  .is-hidden,
+  .scrolled {
+    top: -50px; } }
+
+/* footer */
+footer {
+  font-size: 1rem; }
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    max-width: var(--w-lg, 1176px);
+    margin: 0 auto;
+    padding: 1rem; }
+  footer a:hover {
+    color: var(--primary-dark-color, #1e1569); }
+  footer a:focus {
+    outline: 2px solid var(--highlight-color, #FEC02F); }
+  footer .footer-secondary-links {
+    display: flex;
+    flex-direction: column; }
+    footer .footer-secondary-links a {
+      margin-right: 1.7rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem; }
+      footer .footer-secondary-links a:hover {
+        text-decoration: none; }
+  footer .bg-light-grey svg {
+    padding: 0; }
+    footer .bg-light-grey svg .ca {
+      fill: var(--cagov-highlight, #FEC02F); }
+    footer .bg-light-grey svg .gov {
+      fill: var(--cagov-primary-dark, #003484); }
+  footer .cagov-logo {
+    padding: 5px 2rem 5px 0; }
+  footer .bg-light-grey a,
+  footer .copyright {
+    color: var(--black, #000); }
+
+.bg-light-grey {
+  background-color: var(--gray-100, #f9f9fa); }
+
+.pt-0 {
+  padding-top: 0 !important; }
+
+@media (min-width: 991px) {
+  .footer-secondary-links,
+  footer .container {
+    flex-direction: row;
+    align-items: center; } }
+
+/* CONTENT NAVIGATION */
+sidebar cagov-content-navigation .label {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.2px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 16px; }
+
+sidebar cagov-content-navigation ul,
+sidebar cagov-content-navigation ol:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]),
+sidebar cagov-content-navigation ul:not([class*="menu"]):not([class*="nav"]):not([class*="footer-links"]) {
+  margin: 0;
+  text-indent: 0;
+  padding: 0; }
+
+sidebar cagov-content-navigation ul li {
+  padding-top: 14px;
+  padding-bottom: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid var(--gray-200, #ededef);
+  line-height: 28.2px;
+  list-style: none; }
+  sidebar cagov-content-navigation ul li:first-child {
+    border-top: 1px solid var(--gray-200, #ededef); }
+  sidebar cagov-content-navigation ul li a {
+    text-decoration: none; }
+    sidebar cagov-content-navigation ul li a:hover {
+      text-decoration: underline; }
+
+@media only screen and (max-width: 992px) {
+  cagov-content-navigation .label {
+    display: none; }
+  .sidebar-container {
+    display: block;
+    width: 100%;
+    max-width: 100%; }
+  cagov-content-navigation ul li a {
+    font-size: 16px;
+    line-height: 24px; } }
+
+.pdf-link-icon {
+  display: inline-block;
+  outline: 1px solid;
+  outline-offset: -2px;
+  padding: 0;
+  position: relative;
+  left: 1px;
+  top: -3px;
+  line-height: .9rem;
+  text-decoration: none; }
+  .pdf-link-icon svg path {
+    fill: var(--primary-color, #064e66); }
+
+.sr-only {
+  height: unset !important;
+  text-indent: -10000px;
+  width: unset !important;
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  white-space: nowrap !important; }
+
+/* Back to top button */
+cagov-back-to-top .back-to-top {
+  position: fixed;
+  z-index: 99999;
+  right: -2px;
+  font-size: var(--small-text, 0.875rem);
+  padding: 10px 10px 10px 10px;
+  bottom: -50px;
+  opacity: 0;
+  visibility: hidden;
+  color: var(--primary-color, #004abc);
+  border: 1px solid var(--primary-color, #004abc);
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: bottom 0.5s linear; }
+  cagov-back-to-top .back-to-top:hover {
+    color: var(--primary-dark-color, #003484);
+    border: 1px solid var(--primary-dark-color, #003484);
+    background-color: var(--gray-100, #f9f9fa); }
+    cagov-back-to-top .back-to-top:hover svg path {
+      fill: var(--primary-dark-color, #003484); }
+  cagov-back-to-top .back-to-top:focus {
+    outline: 2px solid var(--highlight-color, #fec02f); }
+  cagov-back-to-top .back-to-top svg {
+    width: 16px;
+    position: relative;
+    top: 3px; }
+    cagov-back-to-top .back-to-top svg path {
+      fill: var(--primary-color, #004abc); }
+  cagov-back-to-top .back-to-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    display: inline;
+    bottom: 50px; }
 
 .no-deco {
   text-decoration: none; }
@@ -2539,42 +2836,6 @@ cagov-navoverlay .search-container--small.hidden-search {
 /* editor override */
 .cagov-grid .block-editor-block-list__block {
   margin: 0; }
-
-/* copied from blocks */
-/* CONTENT NAVIGATION */
-cagov-content-navigation .label {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28.2px;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 16px; }
-
-cagov-content-navigation ul, cagov-content-navigation ol {
-  margin: 0;
-  text-indent: 0;
-  padding: 0; }
-
-cagov-content-navigation li {
-  padding-top: 16px;
-  margin-top: 16px;
-  border-top: 1px solid var(--gray-200, #ededef);
-  line-height: 28.2px;
-  list-style: none; }
-
-cagov-content-navigation li:first-child {
-  margin-top: 0px; }
-
-@media (max-width: 767px) {
-  cagov-content-navigation .label {
-    display: none; }
-    cagov-content-navigation .label a {
-      font-size: 16px;
-      line-height: 24px; }
-  cagov-content-navigation ul li:last-child {
-    padding-bottom: 16px;
-    margin-bottom: 16px;
-    border-bottom: 1px solid var(--gray-200, #ededef); } }
 
 /* copied from blocks */
 .cagov-featured-section h2 {
@@ -2726,14 +2987,14 @@ cagov-content-navigation li:first-child {
       content: " — "; }
 
 .cagov-post-list .link-title a {
-  color: #691808;
+  color: var(--primary-color, #691808);
   font-weight: normal;
   text-decoration: underline;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px; }
   .cagov-post-list .link-title a:hover {
-    color: #4A1106;
+    color: var(--primary-dark-color, #4a1106);
     text-decoration: none; }
 
 .cagov-post-list .link-title,
@@ -2769,13 +3030,13 @@ cagov-content-navigation li:first-child {
   color: #000; }
 
 .cagov-post-list .link-title a {
-  color: #691808;
+  color: var(--primary-color, #691808);
   font-weight: 700;
   line-height: 30px;
   font-size: 28px;
   text-decoration: underline; }
   .cagov-post-list .link-title a:hover {
-    color: #4A1106;
+    color: var(--primary-dark-color, #4a1106);
     text-decoration: none; }
 
 .cagov-post-list .excerpt,
@@ -2817,14 +3078,14 @@ cagov-post-list .post-list-item {
     line-height: 30px;
     color: #000; }
   .cagov-post-list .link-title a {
-    color: #691808;
+    color: var(--primary-color, #691808);
     font-weight: 700;
     line-height: 30px;
     font-size: 24px;
     margin-bottom: 8px;
     text-decoration: underline; }
     .cagov-post-list .link-title a:hover {
-      color: #4A1106;
+      color: var(--primary-dark-color, #4a1106);
       text-decoration: none; }
   .cagov-post-list .excerpt,
   .cagov-post-list .excerpt p {
@@ -2991,121 +3252,24 @@ ol.steps li:last-child {
   border-left: none; }
 
 /* NAVIGATION ELEMENTS */
-/*official*/
-.official-header {
-  background-color: #f9f9fa;
-  padding: 0;
-  width: 100%;
-  border-bottom: 1px solid #e1e0e3; }
-  .official-header .container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
-    max-width: 1176px;
-    margin: 0 auto;
-    /*padding: 0 10px 0 10px;*/ }
-  .official-header .official-logo {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center; }
-    .official-header .official-logo .cagov-logo {
-      margin: 0 10px 0 0; }
-  .official-header svg {
-    padding: 0;
-    padding-top: 6px; }
-    .official-header svg .ca {
-      fill: #FEC02F; }
-    .official-header svg .gov {
-      fill: #0F1E6B; }
-  .official-header .official-tag {
-    margin: 0 10px;
-    font-size: 0.875rem; }
-  .official-header .official-languages a {
-    color: #000;
-    font-size: 0.875rem;
-    padding: 0 0.5rem 0 0.5rem; }
-    .official-header .official-languages a:hover {
-      color: #4A1106; }
-  .official-header .official-languages {
-    display: flex;
-    flex-wrap: wrap; }
-    .official-header .official-languages .dropdown {
-      position: relative;
-      top: -3px; }
-    .official-header .official-languages button.offcial-more {
-      padding-right: 0;
-      padding-left: 0.5rem;
-      font-size: 0.875rem;
-      border: none;
-      text-decoration: underline;
-      background-color: #fff;
-      transition: transform 0.3s; }
-      .official-header .official-languages button.offcial-more:hover {
-        color: #4A1106; }
-      .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down {
-        transition: all 0.3s; }
-        .official-header .official-languages button.offcial-more[aria-expanded="false"] .caret-down svg {
-          padding: 0 0 0 0;
-          width: 20px;
-          height: 18px;
-          overflow: visible;
-          position: relative;
-          right: 5px; }
-      .official-header .official-languages button.offcial-more[aria-expanded="true"] .caret-down {
-        transition: transform 0.3s; }
-        .official-header .official-languages button.offcial-more[aria-expanded="true"] .caret-down svg {
-          padding: 0 0 0 0;
-          width: 20px;
-          height: 18px;
-          position: relative;
-          top: 8px;
-          left: 4px;
-          overflow: visible;
-          transform: rotate(180deg); }
-    .official-header .official-languages .dropdown-content {
-      background-clip: padding-box;
-      background-color: #fff;
-      border: 1px solid #691808;
-      border-radius: 0.25rem;
-      padding: 15px;
-      position: absolute;
-      right: 0px;
-      top: 100%;
-      text-align: left;
-      z-index: 1000;
-      min-width: 150px;
-      display: none; }
-      .official-header .official-languages .dropdown-content.show {
-        display: flex;
-        flex-direction: column; }
-
-/* sticky header */
-@media (min-width: 768px) {
-  header {
-    position: sticky;
-    top: 0;
-    z-index: 99; } }
-
 /* site footer */
 section.site-footer .container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   box-sizing: border-box;
-  max-width: 1176px;
+  max-width: var(--w-lg, 1176px);
   margin: 0 auto;
   padding: 1rem 0;
-  border-top: 1px solid var(--gray-200, #EDEDEF);
-  border-bottom: 1px solid var(--gray-200, #EDEDEF); }
+  border-top: 1px solid var(--gray-200, #ededef);
+  border-bottom: 1px solid var(--gray-200, #ededef); }
 
 section.site-footer a {
-  color: #691808; }
+  color: var(--primary-color, #691808); }
   section.site-footer a:hover {
-    color: #222222; }
+    color: var(--primary-dark-color, #4a1106); }
   section.site-footer a:focus {
-    outline: 2px solid #313131; }
+    outline: 2px solid var(--highlight-color, #fbad23); }
 
 section.site-footer .footer-logo {
   width: 54px;
@@ -3119,31 +3283,32 @@ section.site-footer .footer-secondary-links {
   font-size: 1.2rem; }
   section.site-footer .footer-secondary-links a {
     margin-right: 1.7rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem; }
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
 
 section.site-footer .footer-social-links {
-  padding-top: .7rem;
-  padding-bottom: .7rem; }
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem; }
   section.site-footer .footer-social-links a {
     text-decoration: none;
-    padding-right: .3rem;
-    padding-left: .3rem;
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
     transition: all 0.3s ease; }
     section.site-footer .footer-social-links a svg path {
-      fill: #691808; }
+      fill: var(--primary-color, #691808); }
     section.site-footer .footer-social-links a:hover svg path {
-      fill: #4A1106; }
+      fill: var(--primary-dark-color, #4a1106); }
 
 @media (min-width: 991px) {
-  .footer-secondary-links, section.site-footer .container {
+  .footer-secondary-links,
+  section.site-footer .container {
     flex-direction: row !important;
     align-items: center; }
   .footer-social-links {
     margin-left: auto; } }
 
 .bg-light-grey {
-  background-color: #f9f9fa; }
+  background-color: var(--gray-100, #f9f9fa); }
 
 .pt-0 {
   padding-top: 0 !important; }
@@ -3158,67 +3323,6 @@ section.site-footer .footer-social-links {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0; }
-
-/* footer */
-footer .container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  box-sizing: border-box;
-  max-width: 1176px;
-  margin: 0 auto;
-  padding: 1rem 0; }
-
-footer a:hover {
-  color: #4A1106;
-  text-decoration: none; }
-
-footer a:focus {
-  outline: 2px solid #313131; }
-
-footer .footer-secondary-links {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.0rem; }
-  footer .footer-secondary-links a {
-    margin-right: 1.7rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; }
-
-footer .bg-light-grey svg {
-  padding: 0; }
-  footer .bg-light-grey svg .ca {
-    fill: #313131; }
-  footer .bg-light-grey svg .gov {
-    fill: #4A1106; }
-
-footer .cagov-logo {
-  padding: 5px 2rem 5px 0; }
-  footer .cagov-logo svg {
-    width: 40px;
-    height: 32px;
-    padding: 0;
-    padding-top: 0px; }
-    footer .cagov-logo svg .ca {
-      fill: #FEC02F; }
-    footer .cagov-logo svg .gov {
-      fill: #0F1E6B; }
-
-footer .bg-light-grey a,
-footer .copyright {
-  color: #000; }
-
-.bg-light-grey {
-  background-color: #f9f9fa; }
-
-.pt-0 {
-  padding-top: 0 !important; }
-
-@media (min-width: 991px) {
-  .footer-secondary-links,
-  footer .container {
-    flex-direction: row;
-    align-items: center; } }
 
 /* Tablet and wider */
 /* Desktop and wider */
