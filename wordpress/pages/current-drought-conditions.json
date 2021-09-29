@@ -40,7 +40,7 @@
       "launch content"
     ],
     "design_system_fields": {
-      "template": "page"
+      "template": "template-page-single-column"
     },
     "og_meta": {
       "_genesis_title": [
