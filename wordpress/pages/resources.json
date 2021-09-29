@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T19:45:28",
-    "updated_date": "2021-09-29T00:29:55",
+    "updated_date": "2021-09-29T00:31:40",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T12:45:28",
     "date_gmt": "2021-07-04T19:45:28",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=70",
-    "modified": "2021-09-28T17:29:55",
-    "modified_gmt": "2021-09-29T00:29:55",
+    "modified": "2021-09-28T17:31:40",
+    "modified_gmt": "2021-09-29T00:31:40",
     "slug": "resources",
     "status": "publish",
     "type": "page",
@@ -31,7 +31,7 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "",
     "meta": [],
     "categories": [],
     "tags": [
@@ -39,7 +39,7 @@
       "staging"
     ],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "page"
     },
     "og_meta": {
       "_genesis_title": [
