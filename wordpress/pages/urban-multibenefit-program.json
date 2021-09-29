@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-29T22:46:07",
-    "updated_date": "2021-09-29T22:46:14",
+    "updated_date": "2021-09-29T23:07:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-09-29T15:46:07",
     "date_gmt": "2021-09-29T22:46:07",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=603",
-    "modified": "2021-09-29T15:46:14",
-    "modified_gmt": "2021-09-29T22:46:14",
-    "slug": "urban-multibenefit-drought-relief-grant-program",
+    "modified": "2021-09-29T16:07:25",
+    "modified_gmt": "2021-09-29T23:07:25",
+    "slug": "urban-multibenefit-program",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/urban-multibenefit-drought-relief-grant-program/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/",
     "title": "Urban/Multibenefit Drought Relief Grant Program",
-    "excerpt": "",
+    "excerpt": "<p>This program will offer financial help to drought relief projects that: Impact health and human safety Impact fish and wildlife Restore water to those threatened with water loss or contamination&nbsp;&nbsp; The program is administered by the California Department of Water Resources. Approximately $190 million in funds will be available. Applications will be accepted starting in &#8230; <a title=\"Urban/Multibenefit Drought Relief Grant Program\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/\" aria-label=\"More on Urban/Multibenefit Drought Relief Grant Program\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -61,6 +61,6 @@
       "url": "https://live-drought-ca-gov.pantheonsite.io",
       "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/urban-multibenefit-drought-relief-grant-program/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/"
   }
 }
