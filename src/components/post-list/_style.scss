@@ -10,14 +10,14 @@
 }
 
 .cagov-post-list .link-title a {
-  color: $primary;
+  color: var(--primary-color, #691808);
   font-weight: normal;
   @include text-underline;
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px;
   &:hover {
-    color: $primary-dark;
+    color: var(--primary-dark-color, #4a1106);
     text-decoration: none;
   }
 }
@@ -46,7 +46,7 @@
   margin-bottom: 32px;
 }
 
-.wp-block-ca-design-system-post-list .post-list-item.news-item  {
+.wp-block-ca-design-system-post-list .post-list-item.news-item {
   .link-title {
     margin-bottom: 0px;
   }
@@ -62,13 +62,13 @@
 }
 
 .cagov-post-list .link-title a {
-  color: $primary;
+  color: var(--primary-color, #691808);
   font-weight: 700;
   line-height: 30px;
   font-size: 28px;
   @include text-underline;
   &:hover {
-    color: $primary-dark;
+    color: var(--primary-dark-color, #4a1106);
     text-decoration: none;
   }
 }
@@ -120,14 +120,14 @@ cagov-post-list .post-list-item {
   }
 
   .cagov-post-list .link-title a {
-    color: $primary;
+    color: var(--primary-color, #691808);
     font-weight: 700;
     line-height: 30px;
     font-size: 24px;
     margin-bottom: 8px;
     @include text-underline;
     &:hover {
-      color: $primary-dark;
+      color: var(--primary-dark-color, #4a1106);
       text-decoration: none;
     }
   }
@@ -168,8 +168,8 @@ cagov-post-list .post-list-item {
     }
     margin-bottom: 16px;
   }
-  
-  .wp-block-ca-design-system-post-list .post-list-item.news-item  {
+
+  .wp-block-ca-design-system-post-list .post-list-item.news-item {
     .link-title {
       margin-bottom: 8px;
     }
