@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-29T22:46:07",
-    "updated_date": "2021-09-29T22:46:07",
+    "updated_date": "2021-09-29T22:46:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-29T15:46:07",
     "date_gmt": "2021-09-29T22:46:07",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=603",
-    "modified": "2021-09-29T15:46:07",
-    "modified_gmt": "2021-09-29T22:46:07",
+    "modified": "2021-09-29T15:46:14",
+    "modified_gmt": "2021-09-29T22:46:14",
     "slug": "urban-multibenefit-drought-relief-grant-program",
     "status": "publish",
     "type": "page",
@@ -33,14 +33,20 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
-    "tags": [],
+    "categories": [
+      "Drought assistance"
+    ],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "page"
     },
     "og_meta": {
       "_genesis_title": "",
-      "_genesis_description": "",
+      "_genesis_description": [
+        "This program will fund drought relief projects that impact health and safety, impact fish and wildlife, and lessen the threat of water loss or contamination."
+      ],
       "_genesis_canonical_uri": "",
       "_social_image_url": "",
       "_open_graph_title": "",
