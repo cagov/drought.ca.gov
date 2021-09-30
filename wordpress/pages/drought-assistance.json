@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-01T21:50:38",
-    "updated_date": "2021-09-30T00:18:04",
+    "updated_date": "2021-09-30T20:31:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-01T14:50:38",
     "date_gmt": "2021-09-01T21:50:38",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=443",
-    "modified": "2021-09-29T17:18:04",
-    "modified_gmt": "2021-09-30T00:18:04",
+    "modified": "2021-09-30T13:31:47",
+    "modified_gmt": "2021-09-30T20:31:47",
     "slug": "drought-assistance",
     "status": "publish",
     "type": "page",
