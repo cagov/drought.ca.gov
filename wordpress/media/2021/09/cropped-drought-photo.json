@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "created_date": "2021-09-30T20:29:41",
+    "updated_date": "2021-09-30T20:29:41",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 638,
+    "date": "2021-09-30T13:29:41",
+    "date_gmt": "2021-09-30T20:29:41",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+    "modified": "2021-09-30T13:29:41",
+    "modified_gmt": "2021-09-30T20:29:41",
+    "slug": "cropped-drought-photo-png",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/cropped-drought-photo-png/",
+    "title": "cropped-drought-photo.png",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png'><img width=\"1\" height=\"1\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png</p>\n",
+    "caption": "<p>https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png</p>\n",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+    "path": "2021/09/cropped-drought-photo.png"
+  }
+}
