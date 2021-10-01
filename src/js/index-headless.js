@@ -3,6 +3,7 @@ import '@cagov/ds-feedback';
 import '@cagov/ds-minus';
 import '@cagov/ds-pagination';
 import '@cagov/ds-plus';
+import '@cagov/ds-google-translate';
 import '@cagov/ds-dropdown-menu';
 
 // import '../components/menu/index.js';

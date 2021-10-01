@@ -3,6 +3,7 @@
 @import './colorschemes/_drought'; /* theme colors */
 @import './_variables'; /* spacing, margin and padding values */
 @import './_mixins'; /* mixins */
+@import './googletranslate'; /* google translate overrides */
 
 /* sitewide styles */
 @import '../../../node_modules/@cagov/ds-base-css/src/_core.scss'; 
