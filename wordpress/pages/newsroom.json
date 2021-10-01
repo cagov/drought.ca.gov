@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-10-01T19:47:59",
+    "updated_date": "2021-10-01T19:48:05",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:51:19",
     "date_gmt": "2021-07-04T14:51:19",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=37",
-    "modified": "2021-10-01T12:47:59",
-    "modified_gmt": "2021-10-01T19:47:59",
+    "modified": "2021-10-01T12:48:05",
+    "modified_gmt": "2021-10-01T19:48:05",
     "slug": "newsroom",
     "status": "publish",
     "type": "page",
@@ -51,7 +51,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
       ],
       "_open_graph_title": [
         "Newsroom"
