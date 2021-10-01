@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-09-30T23:25:05",
+    "updated_date": "2021-10-01T19:16:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-09-30T16:25:05",
-    "modified_gmt": "2021-09-30T23:25:05",
+    "modified": "2021-10-01T12:16:35",
+    "modified_gmt": "2021-10-01T19:16:35",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -51,7 +51,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
       ],
       "_open_graph_title": [
         "California drought action"
