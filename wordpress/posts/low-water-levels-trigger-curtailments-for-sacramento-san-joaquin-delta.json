@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-04-21T17:20:00",
-    "updated_date": "2021-09-21T21:18:47",
+    "created_date": "2021-08-20T21:05:00",
+    "updated_date": "2021-09-21T21:22:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 284,
-    "date": "2021-04-21T10:20:00",
-    "date_gmt": "2021-04-21T17:20:00",
-    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?p=284",
-    "modified": "2021-09-21T14:18:47",
-    "modified_gmt": "2021-09-21T21:18:47",
-    "slug": "governor-newsom-takes-action-to-respond-to-drought-conditions",
+    "id": 522,
+    "date": "2021-08-20T14:05:00",
+    "date_gmt": "2021-08-20T21:05:00",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?p=522",
+    "modified": "2021-09-21T14:22:04",
+    "modified_gmt": "2021-09-21T21:22:04",
+    "slug": "low-water-levels-trigger-curtailments-for-sacramento-san-joaquin-delta",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/governor-newsom-takes-action-to-respond-to-drought-conditions/",
-    "title": "Governor Newsom Takes Action to Respond to Drought Conditions",
-    "excerpt": "<p>With much of the West experiencing drought conditions and California squarely in a second consecutive dry year, Governor Gavin Newsom today directed state agencies to take immediate action to bolster drought resilience and prepare for impacts on communities, businesses and ecosystems if dry conditions extend to a third year.</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/low-water-levels-trigger-curtailments-for-sacramento-san-joaquin-delta/",
+    "title": "Low Water Levels Trigger Curtailments for Sacramento-San Joaquin Delta",
+    "excerpt": "<p>With climate change-induced drought conditions reducing water levels in the Sacramento-San Joaquin Delta to alarming lows, the State Water Resources Control Board today issued curtailment orders to approximately 4,500 right holders to protect drinking water supplies, prevent salinity intrusion and minimize impacts to fisheries and the environment.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -40,22 +40,22 @@
     "design_system_fields": {
       "template": "post",
       "post": {
-        "post_link": "https://www.gov.ca.gov/2021/04/21/governor-newsom-takes-action-to-respond-to-drought-conditions/",
-        "post_date": "April 21, 2021",
+        "post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr08202021_delta_curtailments.pdf",
+        "post_date": "August 20, 2021",
         "locale": "en_US",
         "gmt_offset": -7,
         "timezone": "America/Los_Angeles",
         "post_published_date_display": {
-          "i18n_locale_date": "April 21, 2021",
-          "i18n_locale_date_gmt": "April 21, 2021",
-          "i18n_locale_date_time": "April 21, 2021 10:20 am",
-          "i18n_locale_date_time_gmt": "April 21, 2021 5:20 pm"
+          "i18n_locale_date": "August 20, 2021",
+          "i18n_locale_date_gmt": "August 20, 2021",
+          "i18n_locale_date_time": "August 20, 2021 2:05 pm",
+          "i18n_locale_date_time_gmt": "August 20, 2021 9:05 pm"
         },
         "post_modified_date_display": {
           "i18n_locale_date": "September 21, 2021",
           "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:18 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:18 pm"
+          "i18n_locale_date_time": "September 21, 2021 2:22 pm",
+          "i18n_locale_date_time_gmt": "September 21, 2021 9:22 pm"
         },
         "post_location": "",
         "event_date": "",
@@ -81,6 +81,6 @@
       " _tsf_title_no_blogname": "",
       "og_rendered": "<meta property=\"og:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta property=\"og:site_name\" content=\"California drought action\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta name=\"twitter:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta name=\"twitter:image:width\" content=\"1200\" />\n<meta name=\"twitter:image:height\" content=\"630\" />\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n"
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/governor-newsom-takes-action-to-respond-to-drought-conditions/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/low-water-levels-trigger-curtailments-for-sacramento-san-joaquin-delta/"
   }
 }
