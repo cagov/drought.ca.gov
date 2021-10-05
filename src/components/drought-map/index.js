@@ -20,7 +20,7 @@ class CAGovDroughtMap extends window.HTMLElement {
       if (data !== undefined && data !== null && data.content !== null) {
         if (type === "wordpress") {
           this.innerHTML = `<div class="cagov-drought-map">
-                <div class="map-label"><h3>Map released: ${latestDroughtMap.dateString}</h2></div>
+                <div class="map-label"><h3>Map released: ${latestDroughtMap.dateString}</h3></div>
                 <div class="drought-map-container">
                   <div class="drought-map-image"><a href="https://droughtmonitor.unl.edu/"><img src="${latestDroughtMap.filePath}" /></a></div>
                   <div class="legend-label"><h4>Intensity</h4></div>
