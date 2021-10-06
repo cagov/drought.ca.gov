@@ -1,0 +1,38 @@
+cagov-navoverlay {
+  .container {
+    padding: 0 15px;
+    margin: 0;
+    max-width: none;
+  }
+
+  .expanded-menu {
+    max-width: var(--w-lg, "1176px");
+    margin: 0 auto;
+  }
+
+  .expanded-menu-section-header-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  div.expanded-menu-col, .expanded-menu-section.mobile-only {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  @media (min-width: 768px) {
+    div.expanded-menu-col {
+      &:nth-child(2) {
+        margin-left: 0;
+      }
+  
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .container .search-container {
+    padding: 16px 0;
+  }
+}
