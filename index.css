@@ -3269,10 +3269,10 @@ footer .copyright {
       z-index: 2000; } }
 
 cagov-navoverlay .container {
-  max-width: var(--w-lg, "1176px");
-  margin: 0 auto; }
+  padding: 0;
+  margin: 0; }
   cagov-navoverlay .container .search-container {
-    padding: 0 8px 0 16px; }
+    padding: 16px 0; }
 
 /* EXPANDED MENU SYTLES */
 cagov-navoverlay {
@@ -3319,7 +3319,9 @@ cagov-navoverlay {
       cagov-navoverlay .mobile-icons {
         display: none; } }
   cagov-navoverlay .expanded-menu {
-    display: none; }
+    display: none;
+    max-width: calc(var(--w-lg, "1176px") + 32px);
+    margin: 0 auto; }
     @media (min-width: 768px) {
       cagov-navoverlay .expanded-menu {
         display: block; } }
@@ -3328,11 +3330,11 @@ cagov-navoverlay {
       @media (min-width: 768px) {
         cagov-navoverlay .expanded-menu-grid {
           display: flex;
-          justify-content: space-between;
+          justify-content: flex-start;
+          column-gap: .5rem;
           align-content: flex-start;
           align-items: stretch; } }
     cagov-navoverlay .expanded-menu-col {
-      margin: 0;
       text-align: left; }
     cagov-navoverlay .expanded-menu-section {
       text-align: left; }
@@ -3384,59 +3386,48 @@ cagov-navoverlay {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); } }
       cagov-navoverlay .expanded-menu-section.expanded .expanded-menu-section-header-arrow-svg {
         transform: rotate(180deg); }
-      cagov-navoverlay .expanded-menu-section-header {
+      cagov-navoverlay .expanded-menu-section-header-link {
+        display: flex !important;
+        column-gap: .5rem;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: normal;
+        font-size: 1.125rem;
+        cursor: pointer !important;
+        width: 100%;
+        text-transform: none;
         display: block;
-        position: relative; }
+        text-align: left;
+        border: none;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        color: var(--primary-color, #064E66); }
+        cagov-navoverlay .expanded-menu-section-header-link:active {
+          background: transparent; }
+        cagov-navoverlay .expanded-menu-section-header-link:hover {
+          text-decoration: underline;
+          color: var(--primary-hover-color, #043747); }
         @media (min-width: 768px) {
-          cagov-navoverlay .expanded-menu-section-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 0rem;
-            background: #fff; } }
-        cagov-navoverlay .expanded-menu-section-header-link {
-          font-weight: normal;
-          font-size: 1.125rem;
-          cursor: pointer !important;
+          cagov-navoverlay .expanded-menu-section-header-link {
+            justify-content: flex-start; } }
+      cagov-navoverlay .expanded-menu-section-header-arrow {
+        max-width: 1rem;
+        max-height: 1rem;
+        transform: translateY(-50%);
+        display: block;
+        transition: all 0.5s cubic-bezier(0.57, 0.2, 0.21, 0.89); }
+        @media (min-width: 768px) {
+          cagov-navoverlay .expanded-menu-section-header-arrow {
+            transform: none; } }
+        cagov-navoverlay .expanded-menu-section-header-arrow-svg {
           width: 100%;
-          text-transform: none;
-          display: block;
-          text-align: left;
-          border: none;
-          padding-top: 1rem;
-          padding-bottom: 1rem;
-          padding-right: 0.5rem;
-          /* arrow clearence for long text */
-          padding-left: 1rem;
-          color: var(--primary-color, #064E66); }
-          cagov-navoverlay .expanded-menu-section-header-link:active {
-            background: transparent; }
-          cagov-navoverlay .expanded-menu-section-header-link:hover {
-            text-decoration: underline;
-            color: var(--primary-hover-color, #043747); }
+          display: inline-block;
+          transition: all 0.6s cubic-bezier(0.5, 1.65, 0.4, 0.8); }
           @media (min-width: 768px) {
-            cagov-navoverlay .expanded-menu-section-header-link {
-              width: auto;
-              padding-right: 2rem; } }
-        cagov-navoverlay .expanded-menu-section-header-arrow {
-          width: 1rem;
-          height: 1rem;
-          position: absolute;
-          top: 50%;
-          right: 1rem;
-          transform: translateY(-50%);
-          display: block;
-          transition: all 0.5s cubic-bezier(0.57, 0.2, 0.21, 0.89); }
-          @media (min-width: 768px) {
-            cagov-navoverlay .expanded-menu-section-header-arrow {
-              position: absolute;
-              top: auto;
-              right: 0.5rem;
-              transform: none; } }
-          cagov-navoverlay .expanded-menu-section-header-arrow-svg {
-            width: 100%;
-            display: block;
-            transition: all 0.6s cubic-bezier(0.5, 1.65, 0.4, 0.8);
-            margin-top: 0.3rem; }
+            cagov-navoverlay .expanded-menu-section-header-arrow-svg {
+              display: block; } }
     cagov-navoverlay .expanded-menu-dropdown {
       max-height: 0px;
       overflow: hidden;
@@ -3480,7 +3471,6 @@ cagov-navoverlay.display-menu {
   @media (max-width: 767px) {
     cagov-navoverlay.display-menu .expanded-menu {
       margin-left: 0;
-      width: 100vw;
       border-bottom: solid 1px var(--gray-300, #e1e0e3); } }
   @media (min-width: 768px) {
     cagov-navoverlay.display-menu .expanded-menu-col, cagov-navoverlay.display-menu .expanded-menu-search {
@@ -3504,32 +3494,6 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
 .expanded-menu-section-header-arrow-svg {
   max-width: 20px; }
 
-cagov-navoverlay .container {
-  padding: 0 15px;
-  margin: 0;
-  max-width: none; }
-
-cagov-navoverlay .expanded-menu {
-  max-width: var(--w-lg, "1176px");
-  margin: 0 auto; }
-
-cagov-navoverlay .expanded-menu-section-header-link {
-  padding-left: 0;
-  padding-right: 0; }
-
-cagov-navoverlay div.expanded-menu-col, cagov-navoverlay .expanded-menu-section.mobile-only {
-  margin-left: 5px;
-  margin-right: 5px; }
-
-@media (min-width: 768px) {
-  cagov-navoverlay div.expanded-menu-col:nth-child(2) {
-    margin-left: 0; }
-  cagov-navoverlay div.expanded-menu-col:last-child {
-    margin-right: 0; } }
-
-cagov-navoverlay .container .search-container {
-  padding: 16px 0; }
-
 .cagov-drought-map {
   width: 100%;
   margin-top: 24px;
@@ -3546,6 +3510,8 @@ cagov-navoverlay .container .search-container {
     @media (max-width: 779px) {
       .cagov-drought-map .drought-map-image img {
         width: 330px; } }
+  .cagov-drought-map .legend-label, .cagov-drought-map .map-label {
+    font-style: italic; }
   .cagov-drought-map .map-link {
     margin-top: 12px;
     margin-bottom: 12px; }
