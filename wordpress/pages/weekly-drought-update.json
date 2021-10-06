@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "created_date": "2021-09-28T17:54:05",
+    "updated_date": "2021-10-01T19:55:28",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 583,
+    "date": "2021-09-28T10:54:05",
+    "date_gmt": "2021-09-28T17:54:05",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=583",
+    "modified": "2021-10-01T12:55:28",
+    "modified_gmt": "2021-10-01T19:55:28",
+    "slug": "weekly-drought-update",
+    "status": "publish",
+    "type": "page",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/weekly-drought-update/",
+    "title": "Weekly drought update",
+    "excerpt": "<p>The California Drought Update is a weekly roundup of drought conditions, state actions, and upcoming developments. It has contributions by: California Natural Resources Agency California Environmental Protection Agency Governor’s Office of Emergency Services California Department of Food and Agriculture Department of Water Resources Department of Fish and Wildlife State Water Resources Control Board Department of &#8230; <a title=\"Weekly drought update\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/weekly-drought-update/\" aria-label=\"More on Weekly drought update\">Read more</a></p>\n",
+    "author": "Peggy Gartin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [
+      "Update archive"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "_genesis_title": "",
+      "_genesis_description": [
+        "The California Drought Update is a weekly roundup of conditions, state actions, and upcoming developments. Find all editions here."
+      ],
+      "_genesis_canonical_uri": "",
+      "_social_image_url": [
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
+      ],
+      "_open_graph_title": "",
+      "_open_graph_description": "",
+      "_twitter_title": "",
+      " _tsf_title_no_blogname": "",
+      "og_rendered": "<meta property=\"og:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta property=\"og:site_name\" content=\"California drought action\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta name=\"twitter:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta name=\"twitter:image:width\" content=\"1200\" />\n<meta name=\"twitter:image:height\" content=\"630\" />\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n"
+    },
+    "site_settings": {
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "wpurl": "https://dev-drought-ca-gov.pantheonsite.io"
+    },
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/weekly-drought-update/"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-09-16T00:58:30",
+    "updated_date": "2021-10-01T19:28:02",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-09-15T17:58:30",
-    "modified_gmt": "2021-09-16T00:58:30",
+    "modified": "2021-10-01T12:28:02",
+    "modified_gmt": "2021-10-01T19:28:02",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://dev-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
-    "excerpt": "<p>State actions against drought July 8, 2021 Governor Newsom calls on Californians to reduce water use by 15% to help protect water reserves if drought conditions continue. Drought emergency proclamations expanded to include Inyo, Marin, Mono, Monterey, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara and Santa Cruz counties. May 10, 2021 Governor Gavin &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
+    "excerpt": "<p>State actions against drought September 23, 2021 Governor Gavin Newsom signed a package of climate action bills that include $5.2 billion for drought response and long-term water resilience. The measures will secure and expand water supplies, support water infrastructure, improve water security and quality, and support wildlife. July 28, 2021 Governor Newsom signs AB 148, &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -35,7 +35,6 @@
     "meta": [],
     "categories": [],
     "tags": [
-      "bumgardner",
       "homepage",
       "launch content"
     ],
@@ -51,7 +50,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
       ],
       "_open_graph_title": [
         "California drought action"

@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-09-15T02:16:05",
+    "updated_date": "2021-10-01T19:49:20",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:51:19",
     "date_gmt": "2021-07-04T14:51:19",
     "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=37",
-    "modified": "2021-09-14T19:16:05",
-    "modified_gmt": "2021-09-15T02:16:05",
+    "modified": "2021-10-01T12:49:20",
+    "modified_gmt": "2021-10-01T19:49:20",
     "slug": "newsroom",
     "status": "publish",
     "type": "page",
     "link": "https://dev-drought-ca-gov.pantheonsite.io/newsroom/",
     "title": "Newsroom",
-    "excerpt": "<p>Latest news California Drought Funding Informational Session September 14, 2021 You are invited to participate in a virtual CA Drought Funding Informational Session, hosted by the California Department of Water Resources with the State Water Resources Control Board, on Thursday, September 16 9:00-10:30 AM (Pacific Time) via Zoom. Critically Low Flows Prompt Emergency Curtailment Orders &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "excerpt": "<p>Latest news Consolidation Improves Water Reliability and Drought Resilience for Placer County Community September 23, 2021 In an effort to improve water reliability and drought resilience, Placer County Water Agency (PCWA) recently completed a consolidation project with the Castle City Mobile Home Park in Newcastle with funding assistance from the State Water Resources Control Board. &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -47,14 +47,14 @@
         "Newsroom"
       ],
       "_genesis_description": [
-        "Learn more about current conditions, the state’s response and informational resources available to the public."
+        "Learn more about current conditions, the state’s response, and informational resources available to the public."
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
       ],
       "_open_graph_title": [
-        "Newsroom"
+        "Newsroom &#x2d; California drought action"
       ],
       "_open_graph_description": [
         "Learn more about current conditions, the state’s response and informational resources available to the public."

@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-06T15:42:41",
-    "updated_date": "2021-08-09T21:13:48",
+    "updated_date": "2021-09-30T23:51:34",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,16 +16,16 @@
     "id": 132,
     "date": "2021-07-06T08:42:41",
     "date_gmt": "2021-07-06T15:42:41",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=132",
-    "modified": "2021-08-09T14:13:48",
-    "modified_gmt": "2021-08-09T21:13:48",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=132",
+    "modified": "2021-09-30T16:51:34",
+    "modified_gmt": "2021-09-30T23:51:34",
     "slug": "development-sample-page",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/development-sample-page/",
     "title": "Development",
-    "excerpt": "<p>This is a page of Gutenberg blocks and other settings, for rendering tests. Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
-    "author": "Admin",
+    "excerpt": "<p>This is a page of Gutenberg blocks and other settings, for rendering tests. Jim testing. #9 Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
+    "author": "Jim Bumgardner",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
@@ -47,7 +47,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-cropped-65535_51212545511_72587a3916_h_1024_800_nofilter.jpg"
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-cropped-65535_51212545511_72587a3916_h_1024_800_nofilter.jpg"
       ],
       "_open_graph_title": [
         "Page meta title"
@@ -57,14 +57,14 @@
       ],
       "_twitter_title": "",
       " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
+      "og_rendered": "<meta property=\"og:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta property=\"og:site_name\" content=\"California drought action\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta name=\"twitter:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta name=\"twitter:image:width\" content=\"1200\" />\n<meta name=\"twitter:image:height\" content=\"630\" />\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n"
     },
     "site_settings": {
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "wpurl": "https://dev-drought-ca-gov.pantheonsite.io"
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/development-sample-page/"
   }
 }

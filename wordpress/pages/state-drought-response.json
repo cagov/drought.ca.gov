@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:07",
-    "updated_date": "2021-07-10T07:21:08",
+    "updated_date": "2021-10-01T19:52:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:33:07",
     "date_gmt": "2021-07-04T14:33:07",
     "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=27",
-    "modified": "2021-07-10T00:21:08",
-    "modified_gmt": "2021-07-10T07:21:08",
+    "modified": "2021-10-01T12:52:03",
+    "modified_gmt": "2021-10-01T19:52:03",
     "slug": "state-drought-response",
     "status": "publish",
     "type": "page",
@@ -52,10 +52,10 @@
         "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg"
       ],
       "_open_graph_title": [
-        "State drought response"
+        "State drought response &#x2d; California drought action"
       ],
       "_open_graph_description": [
-        "Learn more about current conditions, the state’s response and informational resources available to the public."
+        "Find out what state government and its agencies are doing to combat drought throughout California."
       ],
       "_twitter_title": "",
       " _tsf_title_no_blogname": "",

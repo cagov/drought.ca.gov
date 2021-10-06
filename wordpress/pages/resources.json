@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T19:45:28",
-    "updated_date": "2021-09-03T00:22:44",
+    "updated_date": "2021-10-01T19:50:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T12:45:28",
     "date_gmt": "2021-07-04T19:45:28",
     "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=70",
-    "modified": "2021-09-02T17:22:44",
-    "modified_gmt": "2021-09-03T00:22:44",
+    "modified": "2021-10-01T12:50:08",
+    "modified_gmt": "2021-10-01T19:50:08",
     "slug": "resources",
     "status": "publish",
     "type": "page",
@@ -31,14 +31,14 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "",
     "meta": [],
     "categories": [],
     "tags": [
       "launch content"
     ],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "page"
     },
     "og_meta": {
       "_genesis_title": [
@@ -49,7 +49,7 @@
       ],
       "_genesis_canonical_uri": "",
       "_social_image_url": [
-        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
       ],
       "_open_graph_title": [
         "Resources &#x2d; California drought action"
