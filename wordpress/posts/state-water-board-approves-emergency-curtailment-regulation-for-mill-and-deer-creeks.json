@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-07T01:50:33",
-    "updated_date": "2021-10-07T02:16:42",
+    "created_date": "2021-09-23T01:50:00",
+    "updated_date": "2021-10-07T02:20:18",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 715,
-    "date": "2021-10-06T18:50:33",
-    "date_gmt": "2021-10-07T01:50:33",
+    "date": "2021-09-22T18:50:00",
+    "date_gmt": "2021-09-23T01:50:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=693",
-    "modified": "2021-10-06T19:16:42",
-    "modified_gmt": "2021-10-07T02:16:42",
+    "modified": "2021-10-06T19:20:18",
+    "modified_gmt": "2021-10-07T02:20:18",
     "slug": "state-water-board-approves-emergency-curtailment-regulation-for-mill-and-deer-creeks",
     "status": "publish",
     "type": "post",
