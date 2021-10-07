@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-08-25T21:06:00",
-    "updated_date": "2021-08-25T21:06:00",
+    "created_date": "2021-10-07T01:51:25",
+    "updated_date": "2021-10-07T01:51:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 524,
-    "date": "2021-08-25T14:06:00",
-    "date_gmt": "2021-08-25T21:06:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=524",
-    "modified": "2021-08-25T14:06:00",
-    "modified_gmt": "2021-08-25T21:06:00",
-    "slug": "waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities",
+    "id": 717,
+    "date": "2021-10-06T18:51:25",
+    "date_gmt": "2021-10-07T01:51:25",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=695",
+    "modified": "2021-10-06T18:51:25",
+    "modified_gmt": "2021-10-07T01:51:25",
+    "slug": "dwr-awards-28-million-in-small-community-drought-relief-funding",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
-    "title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
-    "excerpt": "<p>As California’s 2021-22 waterfowl hunting season approaches, hunters may find that wildlife areas have limited space, particularly early in the season.</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/",
+    "title": "DWR Awards $28 Million in Small Community Drought Relief Funding",
+    "excerpt": "<p>DWR announced its second and third round of funding commitments, totaling $28 million, to 15 communities as part of its Small Community Drought Relief program.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
-      "page_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/",
+      "page_title": "DWR Awards $28 Million in Small Community Drought Relief Funding",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "meta_title": "DWR Awards $28 Million in Small Community Drought Relief Funding",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
-      "open_graph_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/",
+      "open_graph_title": "DWR Awards $28 Million in Small Community Drought Relief Funding",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "twitter_title": "DWR Awards $28 Million in Small Community Drought Relief Funding",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,10 +91,10 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "https://wildlife.ca.gov/News/waterfowl-hunting-seasons-opening-soon-drought-conditions-may-limit-opportunities",
-      "custom_post_date": "August 25, 2021",
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Sept-21/DWR-Awards-28-Million-in-Small-Community-Drought-Relief-Funding",
+      "custom_post_date": "September 22, 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/"
   }
 }

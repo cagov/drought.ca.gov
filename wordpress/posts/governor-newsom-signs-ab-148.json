@@ -34,7 +34,7 @@
     "format": "status",
     "meta": [],
     "categories": [
-      null
+      "Action"
     ],
     "tags": [],
     "design_system_fields": {
@@ -76,10 +76,10 @@
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 0,
+        "count": 6,
         "filter": "raw",
         "cat_ID": 2,
-        "category_count": 0,
+        "category_count": 6,
         "category_description": "",
         "cat_name": "Action",
         "category_nicename": "action",

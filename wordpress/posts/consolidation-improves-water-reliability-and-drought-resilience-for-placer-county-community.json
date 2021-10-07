@@ -31,10 +31,10 @@
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "standard",
+    "format": "link",
     "meta": [],
     "categories": [
-      null
+      "News"
     ],
     "tags": [],
     "design_system_fields": {
@@ -68,21 +68,21 @@
     },
     "headless_categories": [
       {
-        "term_id": 1,
-        "name": "Uncategorized",
-        "slug": "uncategorized",
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
         "term_group": 0,
-        "term_taxonomy_id": 1,
+        "term_taxonomy_id": 7,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 0,
+        "count": 30,
         "filter": "raw",
-        "cat_ID": 1,
-        "category_count": 0,
+        "cat_ID": 7,
+        "category_count": 30,
         "category_description": "",
-        "cat_name": "Uncategorized",
-        "category_nicename": "uncategorized",
+        "cat_name": "News",
+        "category_nicename": "news",
         "category_parent": 0
       }
     ],
@@ -91,8 +91,8 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "",
-      "custom_post_date": "",
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pcwa-swb-joint-release-9.23.21-FINAL-pcwa.pdf",
+      "custom_post_date": "September 23, 2021",
       "custom_post_location": ""
     },
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/"
