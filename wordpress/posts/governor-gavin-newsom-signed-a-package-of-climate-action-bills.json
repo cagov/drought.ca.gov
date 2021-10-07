@@ -32,7 +32,11 @@
     "sticky": false,
     "template": "",
     "format": "status",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "September 23, 2021",
+      "custom_post_location": ""
+    },
     "categories": [
       "Action"
     ],
@@ -90,11 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "post": {
-      "custom_post_link": "",
-      "custom_post_date": "September 23, 2021",
-      "custom_post_location": ""
-    },
+    "custom_post_date": "September 23, 2021",
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/governor-gavin-newsom-signed-a-package-of-climate-action-bills/"
   }
 }

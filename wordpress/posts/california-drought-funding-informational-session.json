@@ -32,7 +32,11 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/drought/docs/2021/20210916-ca-drought-funding-informational-session-flyer.pdf",
+      "custom_post_date": "2021-09-14T19:10",
+      "custom_post_location": ""
+    },
     "categories": [
       "News"
     ],
@@ -90,11 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "post": {
-      "custom_post_link": "https://www.waterboards.ca.gov/drought/docs/2021/20210916-ca-drought-funding-informational-session-flyer.pdf",
-      "custom_post_date": "2021-09-14T19:10",
-      "custom_post_location": ""
-    },
+    "custom_post_date": "2021-09-14T19:10",
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/california-drought-funding-informational-session/"
   }
 }
