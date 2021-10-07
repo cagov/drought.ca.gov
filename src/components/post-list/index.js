@@ -5,7 +5,6 @@
  */
  class CAGovPostList extends window.HTMLElement {
   connectedCallback() {
-
     let siteUrl = window.location.origin;
     this.endpoint = this.dataset.endpoint || `${siteUrl}/wp-json/wp/v2`;
     this.order = this.dataset.order || "desc";
@@ -34,7 +33,7 @@
       }
 
       let categoryEndpoint = `${this.endpoint}/categories?slug=${this.category}`;
-      // console.log("category endpoint", categoryEndpoint, this.dataset);
+      console.log("category endpoint", categoryEndpoint, this.dataset);
 
       // Get data
       window
@@ -66,7 +65,7 @@
             }
             if (this.order) {
               postsEndpoint += `&order=${this.order}`;
-              postsEndpoint += `&orderBy=event.startDateTimeUTC`;
+              postsEndpoint += `&orderBy=post.custom_post_date`;
             }
             if(this.currentPage) {
               postsEndpoint += `&page=${this.currentPage}`;
@@ -130,6 +129,7 @@
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
         let renderedPosts = posts.map((post) => {
+          console.log("post", post);
           return this.renderWordpressPostTitleDate(post)
           }
         );
@@ -153,17 +153,27 @@
   renderWordpressPostTitleDate({
     title = null,
     link = null,
-    date = null, // "2021-05-23T18:19:58"
+    date = null, // "2021-05-23T18:19:58" 
     // content = null,
     excerpt = null, // @TODO shorten / optional
     // author = null, // 1
     // featured_media = null, // 0
     categories = null,
-    format = null
+    format = null,
+    post = null
   }) {
+  
     let dateFormatted;
     if (date !== null && window.moment !== undefined) {
       dateFormatted = moment(date).format("MMMM DD, YYYY");
+    }
+
+    if (post !== null && post.custom_post_date !== "") {
+      try {
+        dateFormatted = moment(post.custom_post_date).format("MMMM DD, YYYY");
+      } catch(error) {
+        console.error(error);
+      }
     }
 
     let getExcerpt = this.showExcerpt === "true" ? `<div class="excerpt"><p>${excerpt.rendered}</p></div>` : ``;
@@ -180,12 +190,29 @@
     }
     if (format === "status") {
       return `<div class="post-list-item">
+         
           <div class="link-title">
             ${getDate}
           </div>
           ${getExcerpt}
       </div>
       `;
+    }
+
+    if (format === "link") {
+
+      return `<div class="post-list-item">
+          
+          ${category_type}
+          
+          <div class="link-title"><a href="${link}">
+              ${title.rendered}
+          </a></div>
+          ${getExcerpt}
+          ${getDate}
+      </div>
+      `;
+
     }
     return `<div class="post-list-item">
                 ${category_type}

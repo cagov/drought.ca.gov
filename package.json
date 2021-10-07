@@ -26,15 +26,13 @@
   },
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.3",
-    "@cagov/ds-feedback": "^1.0.5",
-    "@cagov/ds-plus": "^1.0.0",
-    "@cagov/ds-minus": "^1.0.0",
-    "@cagov/ds-pagination": "^1.0.0",
-
     "@cagov/ds-base-css": "^1.0.1",
     "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-dropdown-menu": "^1.0.12",
-
+    "@cagov/ds-feedback": "^1.0.5",
+    "@cagov/ds-minus": "^1.0.0",
+    "@cagov/ds-pagination": "^1.0.0",
+    "@cagov/ds-plus": "^1.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "autoprefixer": "^10.2.5",
