@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-04-01T17:23:00",
-    "updated_date": "2021-04-01T17:23:00",
+    "created_date": "2021-06-03T20:56:00",
+    "updated_date": "2021-06-03T20:56:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 286,
-    "date": "2021-04-01T10:23:00",
-    "date_gmt": "2021-04-01T17:23:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=286",
-    "modified": "2021-04-01T10:23:00",
-    "modified_gmt": "2021-04-01T17:23:00",
-    "slug": "statewide-snowpack-well-below-normal-as-wet-season-winds-down",
+    "id": 498,
+    "date": "2021-06-03T13:56:00",
+    "date_gmt": "2021-06-03T20:56:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=498",
+    "modified": "2021-06-03T13:56:00",
+    "modified_gmt": "2021-06-03T20:56:00",
+    "slug": "construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
-    "title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
-    "excerpt": "<p>DWR conducted the fourth snow survey at the Phillips Station snow course. The manual survey recorded 49.5 inches of snow depth and a snow water equivalent of 21 inches, which is 83 percent of average for this location.</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/",
+    "title": "Construction Begins on Emergency Drought Barrier in Sacramento-San Joaquin Delta",
+    "excerpt": "<p>In response to worsening drought conditions in California, today the Department of Water Resources (DWR) began construction on a temporary emergency drought barrier on the West False River in the Sacramento-San Joaquin Delta.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
-      "page_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/",
+      "page_title": "Construction Begins on Emergency Drought Barrier in Sacramento-San Joaquin Delta",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "meta_title": "Construction Begins on Emergency Drought Barrier in Sacramento-San Joaquin Delta",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
-      "open_graph_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/",
+      "open_graph_title": "Construction Begins on Emergency Drought Barrier in Sacramento-San Joaquin Delta",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "twitter_title": "Construction Begins on Emergency Drought Barrier in Sacramento-San Joaquin Delta",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,10 +91,10 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/April-21/Statewide-Snowpack-Well-Below-Normal-as-Wet-Season-Winds-Down",
-      "custom_post_date": "April 1, 2021",
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/June-21/Emergency-Drought-Barrier-Construction-Delta",
+      "custom_post_date": "June 3, 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/"
   }
 }

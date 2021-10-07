@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-04-01T17:23:00",
-    "updated_date": "2021-04-01T17:23:00",
+    "created_date": "2021-03-01T18:24:00",
+    "updated_date": "2021-03-01T18:24:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 286,
-    "date": "2021-04-01T10:23:00",
-    "date_gmt": "2021-04-01T17:23:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=286",
-    "modified": "2021-04-01T10:23:00",
-    "modified_gmt": "2021-04-01T17:23:00",
-    "slug": "statewide-snowpack-well-below-normal-as-wet-season-winds-down",
+    "id": 290,
+    "date": "2021-03-01T10:24:00",
+    "date_gmt": "2021-03-01T18:24:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=290",
+    "modified": "2021-03-01T10:24:00",
+    "modified_gmt": "2021-03-01T18:24:00",
+    "slug": "report-to-the-legislature-on-the-2012-2016-drought",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
-    "title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
-    "excerpt": "<p>DWR conducted the fourth snow survey at the Phillips Station snow course. The manual survey recorded 49.5 inches of snow depth and a snow water equivalent of 21 inches, which is 83 percent of average for this location.</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
+    "title": "Report to the Legislature on the 2012–2016 Drought",
+    "excerpt": "<p>California’s last severe drought tested all aspects of how we manage water. Five consecutive dry years from 2012 to 2016 took their toll on many communities, our agricultural economy, and our state’s remarkable natural environment.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
-      "page_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
+      "page_title": "Report to the Legislature on the 2012–2016 Drought",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "meta_title": "Report to the Legislature on the 2012–2016 Drought",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/",
-      "open_graph_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
+      "open_graph_title": "Report to the Legislature on the 2012–2016 Drought",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Statewide Snowpack Well Below Normal as Wet Season Winds Down",
+      "twitter_title": "Report to the Legislature on the 2012–2016 Drought",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,10 +91,10 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/April-21/Statewide-Snowpack-Well-Below-Normal-as-Wet-Season-Winds-Down",
-      "custom_post_date": "April 1, 2021",
+      "custom_post_link": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Water-Basics/Drought/Files/Publications-And-Reports/CNRA-Drought-Report-final-March-2021.pdf",
+      "custom_post_date": "March 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/statewide-snowpack-well-below-normal-as-wet-season-winds-down/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/"
   }
 }
