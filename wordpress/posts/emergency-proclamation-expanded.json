@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-04-01T12:00:00",
-    "updated_date": "2021-04-01T12:00:00",
+    "created_date": "2021-05-10T12:00:00",
+    "updated_date": "2021-05-10T12:00:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 54,
-    "date": "2021-04-01T12:00:00",
-    "date_gmt": "2021-04-01T12:00:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=54",
-    "modified": "2021-04-01T12:00:00",
-    "modified_gmt": "2021-04-01T12:00:00",
-    "slug": "water-resilience-portfolio",
+    "id": 46,
+    "date": "2021-05-10T12:00:00",
+    "date_gmt": "2021-05-10T12:00:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=46",
+    "modified": "2021-05-10T12:00:00",
+    "modified_gmt": "2021-05-10T12:00:00",
+    "slug": "emergency-proclamation-expanded",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
-    "title": "Prepare water resilience portfolio",
-    "excerpt": "<p>Governor Newsom directs many state agencies to prepare a Water Resilience Portfolio (released in July 2020).</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
+    "title": "Emergency proclamation expanded",
+    "excerpt": "<p>Governor Gavin Newsom expands his drought emergency proclamation to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed. These areas need faster action to protect public health, safety, and the environment.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
-      "page_title": "Prepare water resilience portfolio",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
+      "page_title": "Emergency proclamation expanded",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Prepare water resilience portfolio",
+      "meta_title": "Emergency proclamation expanded",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
-      "open_graph_title": "Prepare water resilience portfolio",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
+      "open_graph_title": "Emergency proclamation expanded",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Prepare water resilience portfolio",
+      "twitter_title": "Emergency proclamation expanded",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -92,9 +92,9 @@
     "event": null,
     "post": {
       "custom_post_link": "",
-      "custom_post_date": "April 2019",
+      "custom_post_date": "May 10, 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/"
   }
 }
