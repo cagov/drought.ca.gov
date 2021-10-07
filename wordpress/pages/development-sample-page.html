@@ -104,28 +104,27 @@
 
 <div class="wp-block-ca-design-system-event-list cagov-event-list cagov-stack">
     <div>
-        <h2>Upcoming events</h2>
-        <cagov-post-list 
+        <cagov-event-post-list 
             class="post-list" 
             data-category="events"
             data-count="3"
             data-order="desc"
             data-endpoint="https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2"
             data-show-excerpt="true"
-            data-show-published-date="true"
+            data-show-published-date="false"
             data-no-results="No upcoming events found"
             data-show-pagination="false"
             data-read-more=""
             data-filter="today-or-after"
         >
-        </cagov-post-list>
+        </cagov-event-post-list>
     </div>
 </div>
 
 <div class="wp-block-ca-design-system-post-list cagov-post-list cagov-stack">
     <div>
     
-        <h2>Recent Posts</h2>
+        <h3>Recent Posts</h3>
         <cagov-post-list 
             class="post-list" 
             data-category="news,press-releases"
@@ -149,32 +148,29 @@
 <p>This is an event pattern</p>
 </div>
 
-<div class="wp-block-column" style="flex-basis:33.33%"><div class="wp-block-ca-design-system-post-list cagov-post-list cagov-stack">
-    <div>
-        <h3>Event Details</h3>
-        <div class="wp-block-ca-design-system-event-detail cagov-event-detail cagov-stack">
-            <h4>Date &amp; time</h4>
-            <div class="startDate">July 6, 2021</div>
-            <div class="endDate">July 6, 2021</div>
-
-            <div class="startTime">8:00am</div>
-            <div class="endTime">9:00am</div>
-            <h4>Location</h4>
-            <div class="location">Event location</div>
-
+<div class="wp-block-column" style="flex-basis:33.33%"><div class="wp-block-ca-design-system-event-detail-block cagov-event-detail-block cagov-stack">
+        <div>
+            <h3>Event Details</h3>
+            <div class="wp-block-ca-design-system-event-detail cagov-event-detail cagov-stack"><div class="detail-section">
+        <h4>Date &amp; time</h4><div class="start-date">
+            <span class="start-date field-data">July 6, 2021</span></div> <br /><div class="start-time">
+            <span class="start-time field-data">8:00am</span>
+            <span class="end-time field-data">9:00am</span>
+        </div></div><div class="detail-section">
+        <h4>Location</h4>
+        <div class="location field-data">Event location</div>
+    </div><div class="detail-section">
             <h4>Cost</h4>
-            <div class="cost">Event cost</div>
-        </div>
+            <div class="cost field-data">Event cost</div>
+        </div></div></div>
     </div>
-</div>
-
-<div class="wp-block-ca-design-system-post-list cagov-post-list cagov-stack">
-    <div>
-        <h3></h3>
-        <div class="wp-block-ca-design-system-event-materials cagov-event-materials cagov-stack">
-            <div class="agenda">Event agenda</div>
-            <div class="materials">Event materials</div>
+    <div class="wp-block-ca-design-system-post-list cagov-post-list cagov-stack">
+        <div>
+            <h3></h3>
+            <div class="wp-block-ca-design-system-event-materials cagov-event-materials cagov-stack">
+                <div class="agenda">Event agenda</div>
+                <div class="materials">Event materials</div>
+            </div>
         </div>
-    </div>
-</div></div>
+    </div></div>
 </div>

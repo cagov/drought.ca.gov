@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-10-01T19:28:02",
+    "updated_date": "2021-10-07T01:45:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-10-01T12:28:02",
-    "modified_gmt": "2021-10-01T19:28:02",
+    "modified": "2021-10-06T18:45:14",
+    "modified_gmt": "2021-10-07T01:45:14",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -31,7 +31,7 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
+    "template": "landing",
     "meta": [],
     "categories": [],
     "tags": [
@@ -42,34 +42,60 @@
       "template": "landing"
     },
     "og_meta": {
-      "_genesis_title": [
-        "California drought action"
-      ],
-      "_genesis_description": [
-        "Learn more about current drought conditions, the state’s drought response, and how everyone can save water."
-      ],
-      "_genesis_canonical_uri": "",
-      "_social_image_url": [
-        "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
-      ],
-      "_open_graph_title": [
-        "California drought action"
-      ],
-      "_open_graph_description": [
-        "Learn more about current drought conditions, the state’s drought response, and how everyone can save water."
-      ],
-      "_twitter_title": [
-        "California drought action"
-      ],
-      " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta property=\"og:image:width\" content=\"1200\" />\n<meta property=\"og:image:height\" content=\"630\" />\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"website\" />\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta property=\"og:site_name\" content=\"California drought action\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\n<meta name=\"twitter:image\" content=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\n<meta name=\"twitter:image:width\" content=\"1200\" />\n<meta name=\"twitter:image:height\" content=\"630\" />\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\n"
-    },
-    "site_settings": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
+      },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://dev-drought-ca-gov.pantheonsite.io"
+      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/",
+      "page_title": "California drought action",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California drought action",
+      "meta_description": "Learn more about current drought conditions, the state’s drought response, and how everyone can save water.",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/",
+      "open_graph_title": "California drought action",
+      "open_graph_description": "Learn more about current drought conditions, the state’s drought response, and how everyone can save water.",
+      "twitter_title": "California drought action",
+      "twitter_description": "Learn more about current drought conditions, the state’s drought response, and how everyone can save water."
     },
+    "headless_categories": [],
+    "headless_tags": [
+      {
+        "term_id": 16,
+        "name": "homepage",
+        "slug": "homepage",
+        "term_group": 0,
+        "term_taxonomy_id": 16,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 1,
+        "filter": "raw"
+      },
+      {
+        "term_id": 15,
+        "name": "launch content",
+        "slug": "launch-content",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/"
   }
 }
