@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-07T01:51:25",
-    "updated_date": "2021-10-07T01:51:25",
+    "updated_date": "2021-10-07T02:16:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-06T18:51:25",
     "date_gmt": "2021-10-07T01:51:25",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=695",
-    "modified": "2021-10-06T18:51:25",
-    "modified_gmt": "2021-10-07T01:51:25",
+    "modified": "2021-10-06T19:16:29",
+    "modified_gmt": "2021-10-07T02:16:29",
     "slug": "dwr-awards-28-million-in-small-community-drought-relief-funding",
     "status": "publish",
     "type": "post",
@@ -92,7 +92,7 @@
     "event": null,
     "post": {
       "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Sept-21/DWR-Awards-28-Million-in-Small-Community-Drought-Relief-Funding",
-      "custom_post_date": "September 22, 2021",
+      "custom_post_date": "2021-09-22T19:16",
       "custom_post_location": ""
     },
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/"
