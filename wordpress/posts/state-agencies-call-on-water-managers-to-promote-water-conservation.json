@@ -31,10 +31,10 @@
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "standard",
+    "format": "link",
     "meta": [],
     "categories": [
-      null
+      "News"
     ],
     "tags": [],
     "design_system_fields": {
@@ -68,21 +68,21 @@
     },
     "headless_categories": [
       {
-        "term_id": 1,
-        "name": "Uncategorized",
-        "slug": "uncategorized",
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
         "term_group": 0,
-        "term_taxonomy_id": 1,
+        "term_taxonomy_id": 7,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 0,
+        "count": 19,
         "filter": "raw",
-        "cat_ID": 1,
-        "category_count": 0,
+        "cat_ID": 7,
+        "category_count": 19,
         "category_description": "",
-        "cat_name": "Uncategorized",
-        "category_nicename": "uncategorized",
+        "cat_name": "News",
+        "category_nicename": "news",
         "category_parent": 0
       }
     ],
@@ -91,8 +91,8 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "",
-      "custom_post_date": "",
+      "custom_post_link": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M387/K577/387577031.PDF",
+      "custom_post_date": "June 8, 2021",
       "custom_post_location": ""
     },
     "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/"

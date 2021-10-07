@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-03-21T17:23:00",
-    "updated_date": "2021-03-21T17:23:00",
+    "created_date": "2021-07-19T21:00:00",
+    "updated_date": "2021-07-19T21:00:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 288,
-    "date": "2021-03-21T10:23:00",
-    "date_gmt": "2021-03-21T17:23:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=288",
-    "modified": "2021-03-21T10:23:00",
-    "modified_gmt": "2021-03-21T17:23:00",
-    "slug": "continued-dry-conditions-prompt-early-warning-about-potential-water-shortages",
+    "id": 508,
+    "date": "2021-07-19T14:00:00",
+    "date_gmt": "2021-07-19T21:00:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=508",
+    "modified": "2021-07-19T14:00:00",
+    "modified_gmt": "2021-07-19T21:00:00",
+    "slug": "cdfw-rolls-out-guidance-for-fishing-during-the-drought",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/",
-    "title": "Continued dry conditions prompt early warning about potential water shortages",
-    "excerpt": "<p>As dry conditions persist throughout California, the State Water Resources Control Board today mailed early warning notices to approximately 40,000 water right holders, urging them to plan for potential shortages by reducing water use and adopting practical conservation measures.</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/cdfw-rolls-out-guidance-for-fishing-during-the-drought/",
+    "title": "CDFW Rolls Out Guidance for Fishing During the Drought",
+    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) is asking recreational anglers to voluntarily change how, when and where they fish to minimize stress and mortality among fish populations suffering from drought conditions.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/",
-      "page_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/cdfw-rolls-out-guidance-for-fishing-during-the-drought/",
+      "page_title": "CDFW Rolls Out Guidance for Fishing During the Drought",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "meta_title": "CDFW Rolls Out Guidance for Fishing During the Drought",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/",
-      "open_graph_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/cdfw-rolls-out-guidance-for-fishing-during-the-drought/",
+      "open_graph_title": "CDFW Rolls Out Guidance for Fishing During the Drought",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "twitter_title": "CDFW Rolls Out Guidance for Fishing During the Drought",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,10 +91,10 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr03222021_dry_conditions.pdf",
-      "custom_post_date": "March 21, 2021",
+      "custom_post_link": "https://wildlife.ca.gov/News/cdfw-rolls-out-guidance-for-fishing-during-the-drought",
+      "custom_post_date": "July 19, 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/cdfw-rolls-out-guidance-for-fishing-during-the-drought/"
   }
 }

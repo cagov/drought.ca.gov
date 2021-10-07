@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-03-21T17:23:00",
-    "updated_date": "2021-03-21T17:23:00",
+    "created_date": "2021-08-03T21:02:00",
+    "updated_date": "2021-10-07T02:03:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 288,
-    "date": "2021-03-21T10:23:00",
-    "date_gmt": "2021-03-21T17:23:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=288",
-    "modified": "2021-03-21T10:23:00",
-    "modified_gmt": "2021-03-21T17:23:00",
-    "slug": "continued-dry-conditions-prompt-early-warning-about-potential-water-shortages",
+    "id": 514,
+    "date": "2021-08-03T14:02:00",
+    "date_gmt": "2021-08-03T21:02:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=514",
+    "modified": "2021-10-06T19:03:49",
+    "modified_gmt": "2021-10-07T02:03:49",
+    "slug": "state-water-board-approves-emergency-curtailment-measures-for-the-delta-watershed",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/",
-    "title": "Continued dry conditions prompt early warning about potential water shortages",
-    "excerpt": "<p>As dry conditions persist throughout California, the State Water Resources Control Board today mailed early warning notices to approximately 40,000 water right holders, urging them to plan for potential shortages by reducing water use and adopting practical conservation measures.</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-measures-for-the-delta-watershed/",
+    "title": "State Water Board Approves Emergency Curtailment Measures for the Delta Watershed",
+    "excerpt": "<p>With climate change-induced drought reducing water levels in the Sacramento-San Joaquin Delta to alarming lows, the State Water Resources Control Board today approved an emergency curtailment regulation with measures to preserve stored water to protect drinking water supplies, prevent salinity intrusion and minimize impacts to fisheries and the environment.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/",
-      "page_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-measures-for-the-delta-watershed/",
+      "page_title": "State Water Board Approves Emergency Curtailment Measures for the Delta Watershed",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "meta_title": "State Water Board Approves Emergency Curtailment Measures for the Delta Watershed",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/",
-      "open_graph_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-measures-for-the-delta-watershed/",
+      "open_graph_title": "State Water Board Approves Emergency Curtailment Measures for the Delta Watershed",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Continued dry conditions prompt early warning about potential water shortages",
+      "twitter_title": "State Water Board Approves Emergency Curtailment Measures for the Delta Watershed",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,10 +91,10 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr03222021_dry_conditions.pdf",
-      "custom_post_date": "March 21, 2021",
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr08042021_delta_emergency_regulation.pdf",
+      "custom_post_date": "August 3, 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-measures-for-the-delta-watershed/"
   }
 }
