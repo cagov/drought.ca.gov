@@ -1,3 +1,4 @@
+
 /**
  * News List web component
  * Supported endpoints: Wordpress v2
@@ -129,7 +130,6 @@
     if (posts !== undefined && posts !== null && posts.length > 0) {
       if (type === "wordpress") {
         let renderedPosts = posts.map((post) => {
-          console.log("post", post);
           return this.renderWordpressPostTitleDate(post)
           }
         );
@@ -160,21 +160,38 @@
     // featured_media = null, // 0
     categories = null,
     format = null,
-    post = null
+    meta = null
   }) {
   
     let dateFormatted;
     if (date !== null && window.moment !== undefined) {
       dateFormatted = moment(date).format("MMMM DD, YYYY");
+    } else {
+      // WOOOO!!!! WE GET TO USE THIS NOW!! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString Bye IE! 
+      https://www.w3schools.com/jsref/jsref_tolocalestring.asp
+      dateFormatted = new Date(date).toLocaleDateString('en-us', {
+        // weekday: false,
+        month: 'short',
+        year: 'numeric',
+        day: 'numeric',
+        // hour: 'numeric',
+        // minute: 'numeric',
+        // second: 'numeric',
+        // timeZone: 'America/Los_Angeles',
+        // timeZoneName: 'short'
+      });
     }
 
-    if (post !== null && post.custom_post_date !== "") {
-      try {
-        dateFormatted = moment(post.custom_post_date).format("MMMM DD, YYYY");
-      } catch(error) {
-        console.error(error);
-      }
-    }
+    console.log("meta", meta);
+
+    // if (meta !== null && meta.custom_post_date !== "") {
+    //   try {
+    //     dateFormatted = moment(meta.custom_post_date).format("MMMM DD, YYYY");
+    //     console.log("dateFormatted", dateFormatted);
+    //   } catch(error) {
+    //     console.error(error);
+    //   }
+    // }
 
     let getExcerpt = this.showExcerpt === "true" ? `<div class="excerpt"><p>${excerpt.rendered}</p></div>` : ``;
     let getDate = this.showPublishedDate === "true" ? `<div class="date">${dateFormatted}</div>` : ``;
