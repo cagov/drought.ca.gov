@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-06-08T20:57:00",
-    "updated_date": "2021-06-08T20:57:00",
+    "created_date": "2021-09-10T21:06:00",
+    "updated_date": "2021-09-10T21:06:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 500,
-    "date": "2021-06-08T13:57:00",
-    "date_gmt": "2021-06-08T20:57:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=500",
-    "modified": "2021-06-08T13:57:00",
-    "modified_gmt": "2021-06-08T20:57:00",
-    "slug": "state-agencies-call-on-water-managers-to-promote-water-conservation",
+    "id": 525,
+    "date": "2021-09-10T14:06:00",
+    "date_gmt": "2021-09-10T21:06:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=525",
+    "modified": "2021-09-10T14:06:00",
+    "modified_gmt": "2021-09-10T21:06:00",
+    "slug": "drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/",
-    "title": "State Agencies Call On Water Managers to Promote Water Conservation",
-    "excerpt": "<p>With California experiencing its second consecutive dry year, the California Public Utilities Commission (CPUC), the State Water Resources Control Board (State Water Board), and the California Department of Water Resources (DWR) called on local and regional water suppliers to increase their conservation efforts, develop a contingency plan in the event of water supply problems, and &#8230; <a title=\"State Agencies Call On Water Managers to Promote Water Conservation\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/\" aria-label=\"More on State Agencies Call On Water Managers to Promote Water Conservation\">Read more</a></p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
+    "title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
+    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) announced that the Shasta Valley Wildlife Area in Siskiyou County will be closed to waterfowl hunting for the entirety of the 2021-22 season as a result of lost wetlands and waterfowl habitat due to drought conditions.</p>\n",
     "author": "Admin",
     "featured_media": 0,
     "comment_status": "closed",
@@ -51,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/",
-      "page_title": "State Agencies Call On Water Managers to Promote Water Conservation",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
+      "page_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "State Agencies Call On Water Managers to Promote Water Conservation",
+      "meta_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/",
-      "open_graph_title": "State Agencies Call On Water Managers to Promote Water Conservation",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
+      "open_graph_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "State Agencies Call On Water Managers to Promote Water Conservation",
+      "twitter_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,10 +91,10 @@
     "headless_preview": [],
     "event": null,
     "post": {
-      "custom_post_link": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M387/K577/387577031.PDF",
-      "custom_post_date": "June 8, 2021",
+      "custom_post_link": "https://wildlife.ca.gov/News/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages",
+      "custom_post_date": "September 10, 2021",
       "custom_post_location": ""
     },
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/"
   }
 }
