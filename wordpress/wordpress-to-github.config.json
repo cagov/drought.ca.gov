@@ -9,7 +9,7 @@
     "github_targets": [
       {
         "outputBranch": "development",
-        "disabled": true,
+        "disabled": false,
         "PostPath": "wordpress/posts",
         "PagePath": "wordpress/pages",
         "MediaPath": "wordpress/media",
