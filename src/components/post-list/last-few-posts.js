@@ -13,7 +13,7 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
 }
 
 module.exports = (categoryString) => {
-  let componentCategories = categoryString.split(',');
+  let componentCategories = categoryString.split(',').map(c => c.toLowerCase());
 
   let wordPressArray = [];
   let files = fs.readdirSync('wordpress/posts/');
