@@ -1,6 +1,12 @@
 const cheerio = require('cheerio');
-const lastFewPosts = require('./last-few-posts');
+const { getPostsByCategory } = require('./get-posts');
 
+/**
+ * Given an object of attributes for initializing the post-list component, set any missing default values.
+ * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied 
+ *                            from the cagov-post-list component elements's 'data-' attributes, or dataset.
+ * @returns {Object} The same attributes object, now hydrated with defaults for any missing values.
+ */
 const setDefaultAttributes = (attributes) => {
   let defaults = {
     order: "desc",
@@ -20,7 +26,13 @@ const setDefaultAttributes = (attributes) => {
   return { ...defaults, ...attributes };
 };
 
-const renderResults = (posts, attributes) => {
+/**
+ * Renders a list of posts into HTML.
+ * @param {Object[]} posts A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
+ * @param {Object} attributes An object of cagov-post-list attributes.
+ * @returns {string} A string of rendered HTML.
+ */
+const applyPostsTemplate = (posts, attributes) => {
   let innerContent;
   if (posts !== undefined && posts !== null && posts.length > 0) {
     if (attributes.type === "wordpress") {
@@ -47,6 +59,12 @@ const renderResults = (posts, attributes) => {
   `;
 };
 
+/**
+ * Renders a single post into HTML.
+ * @param {Object} post A data object corresponding to a post, as found in the wordpress/posts folder as JSON.
+ * @param {Object} attributes An object of cagov-post-list attributes.
+ * @returns A string of rendered HTML.
+ */
 const renderWordpressPostTitleDate = ({
   title = null,
   link = null,
@@ -140,6 +158,11 @@ const renderWordpressPostTitleDate = ({
   `;
 };
 
+/**
+ * Finds any cagov-post-list components within a given html string, then pre-renders them based on 11ty data/content.
+ * @param {string} html A string of HTML.
+ * @returns {string} A modified HTML string with cagov-post-list components pre-rendered.
+ */
 const renderPostLists = function(html) {
   const postLists = html.matchAll(/<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm);
 
@@ -159,9 +182,9 @@ const renderPostLists = function(html) {
     }, {});
 
     let processedAttributes = setDefaultAttributes(postListAttributes);
-    let recentPosts = lastFewPosts(postListAttributes.category);
+    let recentPosts = getPostsByCategory(postListAttributes.category);
 
-    let modifiedMarkup = renderResults(recentPosts, processedAttributes);
+    let modifiedMarkup = applyPostsTemplate(recentPosts, processedAttributes);
 
     $('cagov-post-list').append(modifiedMarkup).attr('data-rendered', 'true');
 
