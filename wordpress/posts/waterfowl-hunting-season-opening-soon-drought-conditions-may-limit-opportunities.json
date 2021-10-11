@@ -4,11 +4,11 @@
     "updated_date": "2021-09-21T21:21:39",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,13 +16,13 @@
     "id": 524,
     "date": "2021-08-25T14:06:00",
     "date_gmt": "2021-08-25T21:06:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=524",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=524",
     "modified": "2021-09-21T14:21:39",
     "modified_gmt": "2021-09-21T21:21:39",
     "slug": "waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
     "title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
     "excerpt": "<p>As California’s 2021-22 waterfowl hunting season approaches, hunters may find that wildlife areas have limited space, particularly early in the season.</p>\n",
     "author": "Chach Sikes",
@@ -32,55 +32,69 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "https://wildlife.ca.gov/News/waterfowl-hunting-seasons-opening-soon-drought-conditions-may-limit-opportunities",
+      "custom_post_date": "August 25, 2021",
+      "custom_post_location": ""
+    },
     "categories": [
       "News"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "post",
-      "post": {
-        "post_link": "https://wildlife.ca.gov/News/waterfowl-hunting-seasons-opening-soon-drought-conditions-may-limit-opportunities",
-        "post_date": "August 25, 2021",
-        "locale": "en_US",
-        "gmt_offset": -7,
-        "timezone": "America/Los_Angeles",
-        "post_published_date_display": {
-          "i18n_locale_date": "August 25, 2021",
-          "i18n_locale_date_gmt": "August 25, 2021",
-          "i18n_locale_date_time": "August 25, 2021 2:06 pm",
-          "i18n_locale_date_time_gmt": "August 25, 2021 9:06 pm"
-        },
-        "post_modified_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:21 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:21 pm"
-        },
-        "post_location": "",
-        "event_date": "",
-        "event_end_date": "",
-        "event_start_time": "",
-        "event_end_time": ""
-      }
-    },
-    "site_settings": {
-      "site_name": "California drought action",
-      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "template": "post"
     },
     "og_meta": {
-      "_genesis_title": "",
-      "_genesis_description": "",
-      "_genesis_canonical_uri": "",
-      "_social_image_url": "",
-      "_open_graph_title": "",
-      "_open_graph_description": "",
-      "_twitter_title": "",
-      " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
+      "page_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/",
+      "open_graph_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Waterfowl Hunting Season Opening Soon; Drought Conditions May Limit Opportunities",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/"
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 30,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_count": 30,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "August 25, 2021",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/waterfowl-hunting-season-opening-soon-drought-conditions-may-limit-opportunities/"
   }
 }
