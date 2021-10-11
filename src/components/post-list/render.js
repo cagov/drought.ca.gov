@@ -82,6 +82,8 @@ const renderWordpressPostTitleDate = ({
       ? `<div class="date">${dateFormatted}</div>`
       : ``;
 
+  let relativeLink = (link) ? link.split('pantheonsite.io')[1] : null;
+
   let category_type = "";
   let showCategoryType = false;
   // Disabled but can enable when we have a default style.
@@ -114,12 +116,12 @@ const renderWordpressPostTitleDate = ({
       <div class="post-list-item">
         ${category_type}
         <div class="link-title">
-          <a href="${link}">
+          <a href="${relativeLink}">
             ${title}
           </a>
         </div>
-        ${getExcerpt}
         ${getDate}
+        ${getExcerpt}
       </div>
     `;
   }
@@ -128,12 +130,12 @@ const renderWordpressPostTitleDate = ({
     <div class="post-list-item">
       ${category_type}
       <div class="link-title">
-        <a href="${link}">
+        <a href="${relativeLink}">
           ${title}
         </a>
       </div>
-      ${getExcerpt}
       ${getDate}
+      ${getExcerpt}
     </div>
   `;
 };
