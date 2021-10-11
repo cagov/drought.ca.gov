@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-10-01T19:49:20",
+    "created_date": "2021-09-29T22:46:07",
+    "updated_date": "2021-10-01T19:54:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 37,
-    "date": "2021-07-04T14:51:19",
-    "date_gmt": "2021-07-04T14:51:19",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=37",
-    "modified": "2021-10-01T12:49:20",
-    "modified_gmt": "2021-10-01T19:49:20",
-    "slug": "newsroom",
+    "id": 603,
+    "date": "2021-09-29T15:46:07",
+    "date_gmt": "2021-09-29T22:46:07",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=603",
+    "modified": "2021-10-01T12:54:51",
+    "modified_gmt": "2021-10-01T19:54:51",
+    "slug": "urban-multibenefit-program",
     "status": "publish",
     "type": "page",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/newsroom/",
-    "title": "Newsroom",
-    "excerpt": "<p>Latest news Consolidation Improves Water Reliability and Drought Resilience for Placer County Community September 23, 2021 In an effort to improve water reliability and drought resilience, Placer County Water Agency (PCWA) recently completed a consolidation project with the Castle City Mobile Home Park in Newcastle with funding assistance from the State Water Resources Control Board. &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/",
+    "title": "Urban/Multibenefit Drought Relief Grant Program",
+    "excerpt": "<p>About the program This program will offer financial help to drought relief projects that: Impact health and human safety Impact fish and wildlife Restore water to those threatened with water loss or contamination&nbsp;&nbsp; The program is administered by the California Department of Water Resources. Approximately $190 million in funds will be available. Applications will be &#8230; <a title=\"Urban/Multibenefit Drought Relief Grant Program\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/\" aria-label=\"More on Urban/Multibenefit Drought Relief Grant Program\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -34,10 +34,10 @@
     "template": "",
     "meta": [],
     "categories": [
-      "News"
+      "Drought assistance"
     ],
     "tags": [
-      "launch content"
+      "staging"
     ],
     "design_system_fields": {
       "template": "page"
@@ -53,50 +53,50 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/newsroom/",
-      "page_title": "Newsroom",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/",
+      "page_title": "Urban/Multibenefit Drought Relief Grant Program",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Newsroom",
-      "meta_description": "Learn more about current conditions, the state’s response, and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/newsroom/",
-      "open_graph_title": "Newsroom &#x2d; California drought action",
+      "meta_title": "Urban/Multibenefit Drought Relief Grant Program",
+      "meta_description": "This program will fund drought relief projects that impact health and safety, impact fish and wildlife, and lessen the threat of water loss or contamination.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/",
+      "open_graph_title": "Urban/Multibenefit Drought Relief Grant Program",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Newsroom",
+      "twitter_title": "Urban/Multibenefit Drought Relief Grant Program",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
       {
-        "term_id": 7,
-        "name": "News",
-        "slug": "news",
+        "term_id": 20,
+        "name": "Drought assistance",
+        "slug": "drought-assistance",
         "term_group": 0,
-        "term_taxonomy_id": 7,
+        "term_taxonomy_id": 20,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 30,
+        "count": 2,
         "filter": "raw",
-        "cat_ID": 7,
-        "category_count": 30,
+        "cat_ID": 20,
+        "category_count": 2,
         "category_description": "",
-        "cat_name": "News",
-        "category_nicename": "news",
+        "cat_name": "Drought assistance",
+        "category_nicename": "drought-assistance",
         "category_parent": 0
       }
     ],
     "headless_tags": [
       {
-        "term_id": 15,
-        "name": "launch content",
-        "slug": "launch-content",
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
         "term_group": 0,
-        "term_taxonomy_id": 15,
+        "term_taxonomy_id": 17,
         "taxonomy": "post_tag",
-        "description": "",
+        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "count": 6,
         "filter": "raw"
@@ -104,6 +104,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/newsroom/"
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/urban-multibenefit-program/"
   }
 }

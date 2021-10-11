@@ -4,11 +4,11 @@
     "updated_date": "2021-10-01T19:52:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 27,
     "date": "2021-07-04T14:33:07",
     "date_gmt": "2021-07-04T14:33:07",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=27",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=27",
     "modified": "2021-10-01T12:52:03",
     "modified_gmt": "2021-10-01T19:52:03",
     "slug": "state-drought-response",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/state-drought-response/",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/",
     "title": "State drought response",
-    "excerpt": "<p>After two exceptionally dry winters, California is once again experiencing drought conditions. Here&#8217;s how the state is taking action: We’re giving agencies the tools they need to tackle the drought emergency. We’re addressing long-standing water challenges. And we’re securing vital and limited water supplies to sustain our state into the future. Since our last major &#8230; <a title=\"State drought response\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/state-drought-response/\" aria-label=\"More on State drought response\">Read more</a></p>\n",
+    "excerpt": "<p>After two exceptionally dry winters, California is once again experiencing drought conditions. Here&#8217;s how the state is taking action: We’re giving agencies the tools they need to tackle the drought emergency. We’re addressing long-standing water challenges. And we’re securing vital and limited water supplies to sustain our state into the future. Since our last major &#8230; <a title=\"State drought response\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/state-drought-response/\" aria-label=\"More on State drought response\">Read more</a></p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "parent": 0,
@@ -41,44 +41,60 @@
       "template": "page"
     },
     "og_meta": {
-      "_genesis_title": [
-        "State drought response"
-      ],
-      "_genesis_description": [
-        "Find out what state government and its agencies are doing to combat drought throughout California."
-      ],
-      "_genesis_canonical_uri": "",
-      "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg"
-      ],
-      "_open_graph_title": [
-        "State drought response &#x2d; California drought action"
-      ],
-      "_open_graph_description": [
-        "Find out what state government and its agencies are doing to combat drought throughout California."
-      ],
-      "_twitter_title": "",
-      " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
-    },
-    "site_settings": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/",
+      "page_title": "State drought response",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/KJ_Newsom_0241_05_10_2021-1.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State drought response",
+      "meta_description": "Find out what state government and its agencies are doing to combat drought throughout California.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/",
+      "open_graph_title": "State drought response &#x2d; California drought action",
+      "open_graph_description": "Find out what state government and its agencies are doing to combat drought throughout California.",
+      "twitter_title": "State drought response",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-drought-response/",
+    "headless_categories": [],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "launch content",
+        "slug": "launch-content",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/",
     "media": [
       {
         "id": 210,
         "type": "full",
         "path": "2021/07/newsom-low-reservoir.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
         "file": "newsom-low-reservoir.png",
         "width": 759,
         "height": 506,
         "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir.png",
         "source_url_match": true,
         "featured": false
       },
@@ -86,12 +102,12 @@
         "id": 210,
         "type": "large",
         "path": "2021/07/newsom-low-reservoir-750x500.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-750x500.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-750x500.png",
         "file": "newsom-low-reservoir-750x500.png",
         "width": 750,
         "height": 500,
         "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-750x500.png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-750x500.png",
         "source_url_match": true,
         "featured": false
       },
@@ -99,12 +115,12 @@
         "id": 210,
         "type": "medium",
         "path": "2021/07/newsom-low-reservoir-300x200.png",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-300x200.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-300x200.png",
         "file": "newsom-low-reservoir-300x200.png",
         "width": 300,
         "height": 200,
         "mime_type": "image/png",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-300x200.png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/newsom-low-reservoir-300x200.png",
         "source_url_match": true,
         "featured": false
       }
