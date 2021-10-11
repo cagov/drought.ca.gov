@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-10-01T19:28:02",
+    "updated_date": "2021-10-11T22:52:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-10-01T12:28:02",
-    "modified_gmt": "2021-10-01T19:28:02",
+    "modified": "2021-10-11T15:52:11",
+    "modified_gmt": "2021-10-11T22:52:11",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -31,7 +31,7 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-landing.php",
+    "template": "landing",
     "meta": [],
     "categories": [],
     "tags": [
