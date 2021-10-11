@@ -1,5 +1,5 @@
-const { attr } = require("cheerio/lib/api/attributes");
-const fetch = require("node-fetch");
+const cheerio = require('cheerio');
+const lastFewPosts = require('./last-few-posts');
 
 const setDefaultAttributes = (attributes) => {
   let defaults = {
@@ -19,17 +19,6 @@ const setDefaultAttributes = (attributes) => {
 
   return { ...defaults, ...attributes };
 };
-
-const categoryEndpoint = (attributes) => {
-  return `${attributes.endpoint}/categories?slug=${attributes.category}`
-};
-
-const categoryIds = (categoryApiResponse) => {
-  categoryApiResponse.map((item) => {
-    this.categoryMap[item.id] = item;
-    return item.id;
-  });
-}
 
 const renderResults = (posts, attributes) => {
   let innerContent;
@@ -74,7 +63,7 @@ const renderWordpressPostTitleDate = ({
   //www.w3schools.com/jsref/jsref_tolocalestring.asp
   let dateFormatted = new Date(date).toLocaleDateString("en-us", {
     // weekday: false,
-    month: "short",
+    month: "long",
     year: "numeric",
     day: "numeric",
     // hour: 'numeric',
@@ -149,8 +138,35 @@ const renderWordpressPostTitleDate = ({
   `;
 };
 
-const postListServerRender = (postsData, attributes) => {
-  return renderResults(postsData, attributes);
+const renderPostLists = function(html) {
+  const postLists = html.matchAll(/<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm);
+
+  let result = html;
+
+  for (postList of postLists) {
+    let { 0:originalMarkup, index } = postList;
+    let $ = cheerio.load(originalMarkup, null, false);
+    let postListElement = $('cagov-post-list').get(0);
+    let postListAttributes = Object.keys(postListElement.attribs).reduce((obj, attr) => {
+      let camelCasedKey = attr
+        .replace('data-', '')
+        .replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+
+      obj[camelCasedKey] = postListElement.attribs[attr];
+      return obj
+    }, {});
+
+    let processedAttributes = setDefaultAttributes(postListAttributes);
+    let recentPosts = lastFewPosts(postListAttributes.category);
+
+    let modifiedMarkup = renderResults(recentPosts, processedAttributes);
+
+    $('cagov-post-list').append(modifiedMarkup).attr('data-rendered', 'true');
+
+    result = result.replace(originalMarkup, $.html());
+  }
+
+  return result;
 };
 
-module.exports = { postListServerRender, setDefaultAttributes };
+module.exports = { renderPostLists };
