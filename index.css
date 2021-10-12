@@ -2723,6 +2723,7 @@ cagov-content-navigation li:first-child {
     .cagov-post-list .post-list-item .excerpt .date:after {
       content: " — "; }
 
+.cagov-post-list .link-title,
 .cagov-post-list .link-title a {
   color: #691808;
   font-weight: normal;
@@ -2730,6 +2731,7 @@ cagov-content-navigation li:first-child {
   font-size: 18px;
   line-height: 30px;
   margin-bottom: 8px; }
+  .cagov-post-list .link-title:hover,
   .cagov-post-list .link-title a:hover {
     color: #4A1106;
     text-decoration: none; }
