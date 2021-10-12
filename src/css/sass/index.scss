@@ -1,5 +1,3 @@
-/* GLOBAL */
-@import "./_mixins"; /* mixins */
 // Site Colors
 @import "./colorschemes/_drought"; /* theme colors */
 
@@ -14,6 +12,7 @@
 @import "../../../node_modules/@cagov/ds-branding/src/index.scss";
 @import "../../../node_modules/@cagov/ds-skip-to-content/src/index.scss"; // skip-to-content
 @import "../../../node_modules/@cagov/ds-statewide-header/src/index.scss"; // statewide header
+@import "../../../node_modules/@cagov/ds-agency-footer/src/index.scss"; // agency footer
 @import "../../../node_modules/@cagov/ds-statewide-footer/src/index.scss"; // statewide footer
 @import "../../../node_modules/@cagov/ds-content-navigation/src/index.scss"; // now imported from npm module
 @import "../../../node_modules/@cagov/ds-pdf-icon/src/index.scss"; // now imported from npm module
@@ -25,7 +24,6 @@
 @import "../../components/post-list/_style"; /* copied from block */
 @import "../../components/step-list/index";
 /* NAVIGATION ELEMENTS */
-@import "../../components/site-footer/_style";
 @import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss"; // now imported from npm module
 @import "./ds-dropdown-menu-overrides.scss"; // This is a hack. Fix within design system.
 @import "../../components/drought-map/index"; /* copied from gutenberg custom block */
