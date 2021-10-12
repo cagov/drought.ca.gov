@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-28T17:54:05",
-    "updated_date": "2021-10-04T23:22:25",
+    "updated_date": "2021-10-12T16:17:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-28T10:54:05",
     "date_gmt": "2021-09-28T17:54:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=583",
-    "modified": "2021-10-04T16:22:25",
-    "modified_gmt": "2021-10-04T23:22:25",
+    "modified": "2021-10-12T09:17:29",
+    "modified_gmt": "2021-10-12T16:17:29",
     "slug": "weekly-drought-update",
     "status": "publish",
     "type": "page",
@@ -34,7 +34,7 @@
     "template": "",
     "meta": [],
     "categories": [
-      "Update archive"
+      "Weekly drought update"
     ],
     "tags": [],
     "design_system_fields": {
