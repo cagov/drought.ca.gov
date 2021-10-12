@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-10T21:06:00",
-    "updated_date": "2021-09-21T21:21:25",
+    "updated_date": "2021-10-12T20:56:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-10T14:06:00",
     "date_gmt": "2021-09-10T21:06:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=525",
-    "modified": "2021-09-21T14:21:25",
-    "modified_gmt": "2021-09-21T21:21:25",
+    "modified": "2021-10-12T13:56:43",
+    "modified_gmt": "2021-10-12T20:56:43",
     "slug": "drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://wildlife.ca.gov/News/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages",
-      "custom_post_date": "September 10, 2021",
+      "custom_post_date": "2021-09-10",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "September 10, 2021",
+    "custom_post_date": "2021-09-10",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/"
   }
 }

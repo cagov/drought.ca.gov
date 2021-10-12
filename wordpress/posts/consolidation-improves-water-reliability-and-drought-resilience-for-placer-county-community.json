@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-24T01:48:00",
-    "updated_date": "2021-10-07T01:49:49",
+    "updated_date": "2021-10-12T20:56:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-23T18:48:00",
     "date_gmt": "2021-09-24T01:48:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=691",
-    "modified": "2021-10-06T18:49:49",
-    "modified_gmt": "2021-10-07T01:49:49",
+    "modified": "2021-10-12T13:56:14",
+    "modified_gmt": "2021-10-12T20:56:14",
     "slug": "consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pcwa-swb-joint-release-9.23.21-FINAL-pcwa.pdf",
-      "custom_post_date": "September 23, 2021",
+      "custom_post_date": "2021-09-23",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "September 23, 2021",
+    "custom_post_date": "2021-09-23",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/"
   }
 }
