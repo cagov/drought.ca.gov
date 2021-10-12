@@ -1,7 +1,7 @@
 {
   "name": "drought.ca.gov",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1-rc-1",
+  "description": "Static site generator for drought.ca.gov",
   "main": "index.html",
   "scripts": {
     "sass:compile": "node-sass --source-map true src/css/sass/ -o dist/",
@@ -13,16 +13,32 @@
     "start": "npx @11ty/eleventy --serve",
     "dev": "npm-run-all -p sass:build js:bundle sass:watch js:watch start",
     "build": "npm-run-all -s js:bundle sass:build build:regen",
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:cypress:tool": "npx cypress open",
+    "test:cypress": "npm-run-all test:server:background test:cypress:tool",
+    "test:playwright": "npm-run-all test:server:background test",
+    "test:playwright:headed": "npm-run-all test:server:background test:headed",
+    "test:server": "npx web-dev-server --root-dir docs/",
+    "test:server:background": "npx web-dev-server --root-dir docs/ &",
+    "test:setup": "npx playwright install-deps chromium && npx playwright install",
     "git:merge:dev-into-main": "./src/sh/git-merge-development-into-main.sh",
     "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "@cagov",
+    "Office of Digital Innovation"
+  ],
+  "author": "Office of Digital Innovation for the California drought action",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "html-minifier": "^4.0.0",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "cypress": "^8.3.1",
+    "cypress-axe": "^0.13.0",
+    "mochawesome": "^6.3.1",
+    "playwright-mocha": "^2.0.2"
   },
   "dependencies": {
     "@cagov/ds-accordion": "^1.0.3",
@@ -30,11 +46,9 @@
     "@cagov/ds-plus": "^1.0.0",
     "@cagov/ds-minus": "^1.0.0",
     "@cagov/ds-pagination": "^1.0.0",
-
     "@cagov/ds-base-css": "^1.0.1",
     "@cagov/ds-branding": "^1.0.3",
     "@cagov/ds-dropdown-menu": "^1.0.12",
-
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.0.0",
     "autoprefixer": "^10.2.5",
