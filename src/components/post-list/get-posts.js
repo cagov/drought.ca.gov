@@ -7,10 +7,14 @@ const fs = require("fs");
  * @returns {boolean} True if a category match is found, otherwise false.
  */
 const categoryMatchBetween = (componentCategories, postCategories) => {
-  let unsluggedCategories = componentCategories.map(category => category.replace('-', ' '))
-  let intersection = postCategories.filter(category => unsluggedCategories.includes(category.toLowerCase()));
-  return (intersection.length > 0);
-}
+  let unsluggedCategories = componentCategories.map((category) =>
+    category.replace("-", " ")
+  );
+  let intersection = postCategories.filter((category) =>
+    unsluggedCategories.includes(category.toLowerCase())
+  );
+  return intersection.length > 0;
+};
 
 /**
  * Finds a list of posts from the wordpress/posts folder, based on a given category.
@@ -18,24 +22,31 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
  * @param {number} count The number of posts to return.
  * @returns {Object[]} A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
  */
-const getPostsByCategory = (categoryString, count) => {
-  let componentCategories = categoryString.split(',').map(c => c.toLowerCase());
+const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date") => {
+  let componentCategories = categoryString
+    .split(",")
+    .map((c) => c.toLowerCase());
 
   let wordPressArray = [];
-  let files = fs.readdirSync('wordpress/posts/');
+  let files = fs.readdirSync("wordpress/posts/");
   files.forEach((file) => {
-    if(file.indexOf('.json') > -1) {
+    if (file.indexOf(".json") > -1) {
       let loc = "wordpress/posts/" + file;
       let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
-      if(parsedInfo.data.type==="post" && categoryMatchBetween(componentCategories, parsedInfo.data.categories)) {
-        wordPressArray.push(parsedInfo)  
+      if (
+        parsedInfo.data.type === "post" &&
+        categoryMatchBetween(componentCategories, parsedInfo.data.categories)
+      ) {
+        wordPressArray.push(parsedInfo);
       }
     }
   });
-  return wordPressArray.sort((a,b) => {
-    return new Date(a.data.date).getTime() - new Date(b.data.date).getTime();
-  }).slice(Math.max(wordPressArray.length - count, 0)).reverse();
-}
+  return wordPressArray
+    .sort((a, b) => {
+      return new Date(a.data[field]) - new Date(b.data[field]);
+    })
+    .slice(Math.max(wordPressArray.length - count, 0))
+    .reverse();
+};
 
 module.exports = { getPostsByCategory };
- 

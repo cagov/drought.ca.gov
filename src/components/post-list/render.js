@@ -1,9 +1,9 @@
-const cheerio = require('cheerio');
-const { getPostsByCategory } = require('./get-posts');
+const cheerio = require("cheerio");
+const { getPostsByCategory } = require("./get-posts");
 
 /**
  * Given an object of attributes for initializing the post-list component, set any missing default values.
- * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied 
+ * @param {Object} attributes An object of cagov-post-list attributes. These attributes would usually be supplied
  *                            from the cagov-post-list component elements's 'data-' attributes, or dataset.
  * @returns {Object} The same attributes object, now hydrated with defaults for any missing values.
  */
@@ -21,6 +21,7 @@ const setDefaultAttributes = (attributes) => {
     type: "wordpress",
     currentPage: 1,
     categoryMap: {},
+    field: "custom_post_date", // YYYY-MM-DD
   };
 
   return { ...defaults, ...attributes };
@@ -36,7 +37,9 @@ const applyPostsTemplate = (posts, attributes) => {
   let innerContent;
   if (posts !== undefined && posts !== null && posts.length > 0) {
     if (attributes.type === "wordpress") {
-      renderedPosts = posts.map((post) => renderWordpressPostTitleDate(post.data, attributes));
+      renderedPosts = posts.map((post) =>
+        renderWordpressPostTitleDate(post.data, attributes)
+      );
       innerContent = `
         <div class="post-list-items">
           ${renderedPosts.join("")}
@@ -65,21 +68,31 @@ const applyPostsTemplate = (posts, attributes) => {
  * @param {Object} attributes An object of cagov-post-list attributes.
  * @returns A string of rendered HTML.
  */
-const renderWordpressPostTitleDate = ({
-  title = null,
-  link = null,
-  date = null, // "2021-05-23T18:19:58"
-  // content = null,
-  excerpt = null, // @TODO shorten / optional
-  // author = null, // 1
-  // featured_media = null, // 0
-  categories = null,
-  format = null,
-  meta = null,
-}, attributes) => {
+const renderWordpressPostTitleDate = (
+  {
+    title = null,
+    link = null,
+    date = null, // "2021-05-23T18:19:58"
+    // content = null,
+    excerpt = null, // @TODO shorten / optional
+    // author = null, // 1
+    // featured_media = null, // 0
+    categories = null,
+    format = null,
+    meta = null,
+    custom_post_date = null,
+  },
+  attributes
+) => {
   // WOOOO!!!! WE GET TO USE THIS NOW!! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString Bye IE!
   //www.w3schools.com/jsref/jsref_tolocalestring.asp
-  let dateFormatted = new Date(date).toLocaleDateString("en-us", {
+  
+  let itemDate = date;
+  if (custom_post_date !== null) {
+    itemDate = custom_post_date;
+  }
+
+  let dateFormatted = new Date(itemDate).toLocaleDateString("en-us", {
     // weekday: false,
     month: "long",
     year: "numeric",
@@ -92,15 +105,16 @@ const renderWordpressPostTitleDate = ({
   });
 
   let getExcerpt =
-    (attributes.showExcerpt === "true" || attributes.showExcerpt === true)
+    attributes.showExcerpt === "true" || attributes.showExcerpt === true
       ? `<div class="excerpt"><p>${excerpt}</p></div>`
       : ``;
   let getDate =
-    (attributes.showPublishedDate === "true" || attributes.showPublishedDate === true)
+    attributes.showPublishedDate === "true" ||
+    attributes.showPublishedDate === true
       ? `<div class="date">${dateFormatted}</div>`
       : ``;
 
-  let relativeLink = (link) ? link.split('pantheonsite.io')[1] : null;
+  let relativeLink = link ? link.split("pantheonsite.io")[1] : null;
 
   let category_type = "";
   let showCategoryType = false;
@@ -163,30 +177,47 @@ const renderWordpressPostTitleDate = ({
  * @param {string} html A string of HTML.
  * @returns {string} A modified HTML string with cagov-post-list components pre-rendered.
  */
-const renderPostLists = function(html) {
-  const postLists = html.matchAll(/<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm);
+const renderPostLists = function (html) {
+  const postLists = html.matchAll(
+    /<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm
+  );
 
   let result = html;
 
   for (postList of postLists) {
-    let { 0:originalMarkup, index } = postList;
+    let { 0: originalMarkup, index } = postList;
+    /*
+    @DOCS: https://www.npmjs.com/package/cheerio - "Cheerio parses markup and provides an API for traversing/manipulating the resulting data structure. It does not interpret the result as a web browser does. Specifically, it does not produce a visual rendering, apply CSS, load external resources, or execute JavaScript. This makes Cheerio much, much faster than other solutions. If your use case requires any of this functionality, you should consider projects like Puppeteer or JSDom." @ISSUE
+    */
     let $ = cheerio.load(originalMarkup, null, false);
-    let postListElement = $('cagov-post-list').get(0);
-    let postListAttributes = Object.keys(postListElement.attribs).reduce((obj, attr) => {
-      let camelCasedKey = attr
-        .replace('data-', '')
-        .replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+    let postListElement = $("cagov-post-list").get(0);
+    // @NOTE this is a good local utility candidate
+    let postListAttributes = Object.keys(postListElement.attribs).reduce(
+      (obj, attr) => {
+        let camelCasedKey = attr
+          .replace("data-", "")
+          .replace(/-([a-z])/g, (g) => g[1].toUpperCase());
 
-      obj[camelCasedKey] = postListElement.attribs[attr];
-      return obj
-    }, {});
+        obj[camelCasedKey] = postListElement.attribs[attr];
+        return obj;
+      },
+      {}
+    );
 
     let processedAttributes = setDefaultAttributes(postListAttributes);
-    let recentPosts = getPostsByCategory(postListAttributes.category, parseInt(postListAttributes.count));
 
-    let modifiedMarkup = applyPostsTemplate(recentPosts, processedAttributes);
+    let recentPosts = getPostsByCategory(
+      postListAttributes.category,
+      parseInt(postListAttributes.count),
+      "custom_post_date" // @TODO link in WP html & pull from processedAttributes @ISSUE
+    );
 
-    $('cagov-post-list').append(modifiedMarkup).attr('data-rendered', 'true');
+    let modifiedMarkup = applyPostsTemplate(
+      recentPosts, 
+      processedAttributes
+    );
+
+    $("cagov-post-list").append(modifiedMarkup).attr("data-rendered", "true");
 
     result = result.replace(originalMarkup, $.html());
   }
