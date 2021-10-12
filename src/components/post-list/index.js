@@ -34,7 +34,7 @@
       }
 
       let categoryEndpoint = `${this.endpoint}/categories?slug=${this.category}`;
-      console.log("category endpoint", categoryEndpoint, this.dataset);
+      // console.log("category endpoint", categoryEndpoint, this.dataset);
 
       // Get data
       window
@@ -182,7 +182,7 @@
       });
     }
 
-    console.log("meta", meta);
+    // console.log("meta", meta);
 
     // if (meta !== null && meta.custom_post_date !== "") {
     //   try {

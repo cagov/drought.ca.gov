@@ -84,10 +84,19 @@ const processContentItem = (contentItem) => {
   item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
   item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
   item.data.parent_id = item.data.data.parent; // Used in breadcrumb
+
+
+  // @ISSUE Content editors hardcoding WP to the 11ty build configuration
+  item.template.frontMatter.content = replaceUrl(
+    item.template.frontMatter.content,
+    "https://drought.ca.gov/media/",
+    "/wp-content/uploads/"
+  );
+
   let replaceUrls = [
-    "http://cannabis.ca.gov/",
-    "https://cannabis.ca.gov/",
-    "https://dev-cagov-dcc.pantheonsite.io/",
+    "http://drought.ca.gov/",
+    "https://drought.ca.gov/",
+    "https://dev-drought-ca-gov.pantheonsite.io/",
   ];
   item.template.frontMatter.content = replaceUrl(
     item.template.frontMatter.content,
@@ -104,6 +113,8 @@ const processContentItem = (contentItem) => {
     replaceUrls[2],
     "/"
   );
+
+  
   // Page meta, including og
   item = getHeadMetaTags(item);
 
@@ -192,7 +203,7 @@ const getOGMetaData = function (item) {
 
   if (jsonData.og_meta !== undefined && jsonData.og_meta.editor !== undefined) {
     // If a page SEO editor is used, use values from WordPress API data (otherwise default to core wordpress or pre-formatted response if the conditionally available data is not set.)
-    console.log("api", jsonData.og_meta);
+    // console.log("api", jsonData.og_meta);
     Object.keys(jsonData.og_meta).map((meta) => {
       if (jsonData.og_meta[meta] !== "") {
         item.data.og_meta[meta] = jsonData.og_meta[meta];
@@ -213,7 +224,7 @@ const getOGMetaData = function (item) {
       }
     }
   });
-  console.log(item.data.og_meta);
+  // console.log(item.data.og_meta);
   return item.data.og_meta;
 };
 
@@ -247,8 +258,8 @@ const cleanUrl = function (url) {
       if (url.indexOf(".pantheonsite.io/") > -1) {
         return url.split(".pantheonsite.io/")[1];
       }
-      if (url.indexOf("cannabis.ca.gov") > -1) {
-        return url.split("cannabis.ca.gov")[1];
+      if (url.indexOf("drought.ca.gov") > -1) {
+        return url.split("drought.ca.gov")[1];
       }
     }
   } catch (error) {
@@ -269,13 +280,14 @@ const chooseTemplate = function (data, cms = "WordPress") {
   if (data.design_system_fields) {
     template = data.design_system_fields.template;
   }
-  if (data.wordpress_url === "https://cannabis.ca.gov/") {
+  console.log("template", template);
+  if (data.wordpress_url === "https://drought.ca.gov/") {
     return "landing";
   }
-  if (data.wordpress_url === "https://cannabis.ca.gov/serp/") {
+  if (data.wordpress_url === "https://drought.ca.gov/search/") {
     return "search";
   }
-  if (data.template?.indexOf("single-column") > -1) {
+  if (data.template.indexOf("single-column") > -1) {
     return "single-column";
   }
 

@@ -6,7 +6,7 @@ module.exports = function () {
   let files = fs.readdirSync('wordpress/posts/');
   files.forEach((file) => {
     if(file.indexOf('.json') > -1) {
-      let loc = "wordpress/posts/" + file;
+      let loc = "pages/wordpress/posts/" + file;
       wordPressArray.push(JSON.parse(fs.readFileSync(loc, "utf8")))  
     }
   });

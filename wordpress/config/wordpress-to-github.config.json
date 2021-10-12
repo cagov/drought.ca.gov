@@ -10,8 +10,8 @@
       {
         "outputBranch": "main",
         "disabled": false,
-        "PostPath": "wordpress/posts",
-        "PagePath": "wordpress/pages",
+        "PostPath": "pages/wordpress/posts",
+        "PagePath": "pages/wordpress/pages",
         "MediaPath": "wordpress/media",
         "GeneralFilePath": "wordpress/config/general.json",
         "ExcludeProperties": [
@@ -26,8 +26,8 @@
       {
         "outputBranch": "staging",
         "disabled": false,
-        "PostPath": "wordpress/posts",
-        "PagePath": "wordpress/pages",
+        "PostPath": "pages/wordpress/posts",
+        "PagePath": "pages/wordpress/pages",
         "MediaPath": "wordpress/media",
         "GeneralFilePath": "wordpress/config/general.json",
         "ExcludeProperties": [

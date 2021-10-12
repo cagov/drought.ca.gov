@@ -24,7 +24,7 @@ More info on playwright at <a href="https://playwright.dev/">playwright.dev</a>
 When writing new playwright tests or to get used to the tool initially try out the codegen tool passing the target url as the final argument:
 
 ```
-npx playwright codegen https://cannabis.ca.gov
+npx playwright codegen https://drought.ca.gov
 ```
 
 Benefits:
