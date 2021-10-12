@@ -2729,7 +2729,7 @@ cagov-content-navigation li:first-child {
   font-weight: normal;
   text-decoration: underline;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 38px;
   margin-bottom: 8px; }
   .cagov-post-list .link-title:hover,
   .cagov-post-list .link-title a:hover {
@@ -2741,12 +2741,27 @@ cagov-content-navigation li:first-child {
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
+  line-height: 38px;
   margin-bottom: 16px; }
   .cagov-post-list .link-title a,
   .cagov-post-list .post-list-item a {
     text-decoration: underline; }
     .cagov-post-list .link-title a:hover,
     .cagov-post-list .post-list-item a:hover {
+      text-decoration: none; }
+
+.wp-block-column .cagov-post-list .link-title,
+.wp-block-column .cagov-post-list .post-list-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px !important;
+  line-height: 27px;
+  margin-bottom: 16px; }
+  .wp-block-column .cagov-post-list .link-title a,
+  .wp-block-column .cagov-post-list .post-list-item a {
+    text-decoration: underline; }
+    .wp-block-column .cagov-post-list .link-title a:hover,
+    .wp-block-column .cagov-post-list .post-list-item a:hover {
       text-decoration: none; }
 
 .wp-block-ca-design-system-post-list .post-list-item.post-status {
@@ -2771,7 +2786,7 @@ cagov-content-navigation li:first-child {
 .cagov-post-list .link-title a {
   color: #691808;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 38px;
   font-size: 28px;
   text-decoration: underline; }
   .cagov-post-list .link-title a:hover {
@@ -2819,7 +2834,7 @@ cagov-post-list .post-list-item {
   .cagov-post-list .link-title a {
     color: #691808;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 38px;
     font-size: 24px;
     margin-bottom: 8px;
     text-decoration: underline; }
