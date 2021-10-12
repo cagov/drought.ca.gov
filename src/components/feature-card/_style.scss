@@ -1,23 +1,21 @@
-.cagov-featured-section h2 {
-  padding-bottom: 16px;
-}
+.cagov-stack h2 { padding-bottom: 0; }
 
-.cagov-hero-body-content p {
-  margin-bottom: 16px;
-}
+/* .cagov-featured-sidebar h2 {
+    margin-top: 0 !important;
+} */
 
 .cagov-p-2 {
-  padding: 1.5rem;
+  padding: 1rem;
 }
-
 .cagov-bkgrd-gry {
-  background-color: var(--gray-100, #f9f9fa);
+  background-color: #F9F9FA;
 }
 
 .cagov-featured-sidebar {
   max-width: 400px;
   margin-top: 0;
 }
+
 
 .cagov-featured-section {
   margin: 0 0 3rem 0;
@@ -40,13 +38,12 @@
 
 /* call to action */
 /* this is some hacky css, need to figure out how to control the applied classes in the generated InnerBlocks */
-// .cagov-hero-body-content
-  .wp-block-button:not(.is-style-outline)
-  .wp-block-button__link:not(:hover):not(:active):not(.has-background) {
+.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(:hover):not(:active):not(.has-background) {  
+  background-color: #33705B;
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-color, #33705b);
+  background-color: var(--primary-color, #33705B);
   /* variable used with fallback in case it is not defined */
-  color: var(--white, #ffffff);
+  color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -54,19 +51,18 @@
   border: none;
   text-decoration: none;
 }
-// .cagov-hero-body-content
-  .wp-block-button:not(.is-style-outline)
-  .wp-block-button__link:hover {
+.cagov-hero-body-content .wp-block-button:not(.is-style-outline) .wp-block-button__link:hover {
+  background-color: #33705B;
   /* defined here for when css vars are not supported */
-  background-color: var(--primary-hover-color, #33705b);
+  background-color: var(--primary-color, #33705B);
   /* variable used with fallback in case it is not defined */
-  color: var(--white, #ffffff);
+  color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: bold;
   display: inline-block;
   border: none;
-  // text-decoration: underline;
+  text-decoration: underline;
 }
 
 .cagov-hero-body-content .wp-block-button__link {
@@ -103,7 +99,7 @@
   .cagov-with-sidebar > * {
     flex-direction: column-reverse;
   }
-}
+} 
 @media (min-width: 1200px) {
   .cagov-featured-sidebar {
     max-width: 34%;

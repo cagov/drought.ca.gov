@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
   <title>{{ title | safe }}</title>
+  <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
+  <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
 	<meta name="description" content="{{ description | safe }}" />
-	<meta name="keywords" content="California, government, cannabis, cannabis.ca.gov" />
+	<meta name="keywords" content="California, government, drought, drought.ca.gov" />
 
 	<!-- http://t.co/dKP3o1e -->
 	<meta name="HandheldFriendly" content="True">
@@ -33,8 +35,8 @@
   <meta name="twitter:image:width" content="{{ og_meta.page_social_image_width | safe }}" />
   <meta name="twitter:image:height" content="{{ og_meta.page_social_image_height | safe }}" />
 
-  <link title="Fav Icon" rel="icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
-  <link rel="shortcut icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
+  <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
+  <link rel="shortcut icon" href="/assets/img/cagov_favicon.ico">
 
   <!-- Google Analytics performance -->
   <link rel="preconnect" href="https://www.google-analytics.com/">
@@ -54,10 +56,16 @@
 <body>
 
   <header>
-    <div class="header-container">
+    {# <div class="header-container">
       {% include "skip-to-content.njk" %}
       {% include "statewide-header.njk" %}
       {% include "branding.njk" %}
+      {% include "nav-component.njk" %}
+    </div> #}
+    <!-- @ISSUE ^|which one is correct?|v -->
+    <div class="header-container">
+      {% include "../../../src/components/utility-header/utility-header.html" %}
+      {% include "../../../src/components/branding/branding.html" %}
       {% include "nav-component.njk" %}
     </div>
   </header>
