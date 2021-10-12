@@ -2,11 +2,7 @@ const fs = require('fs');
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 
-const cheerio = require('cheerio');
-
-const lastFewPosts = require('./src/components/post-list/last-few-posts');
-const { postListServerRender, setDefaultAttributes } = require('./src/components/post-list/render');
-
+const { renderPostLists } = require('./src/components/post-list/render');
 const { getHeadMetaTags, replaceUrl } = require('./src/templates/_data/meta.js');
 
 const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
@@ -119,42 +115,11 @@ module.exports = function(eleventyConfig) {
     return output;
   });
 
-  const renderPostList = function(html) {
-    const postLists = html.matchAll(/<cagov-post-list\s*[^>]*?\s*>[\s\S]*?<\/cagov-post-list>/gm);
-
-    let result = html;
-
-    for (postList of postLists) {
-      let { 0:originalMarkup, index } = postList;
-      let $ = cheerio.load(originalMarkup, null, false);
-      let postListElement = $('cagov-post-list').get(0);
-      let postListAttributes = Object.keys(postListElement.attribs).reduce((obj, attr) => {
-        let camelCasedKey = attr
-          .replace('data-', '')
-          .replace(/-([a-z])/g, (g) => g[1].toUpperCase());
-
-        obj[camelCasedKey] = postListElement.attribs[attr];
-        return obj
-      }, {})
-
-      let processedAttributes = setDefaultAttributes(postListAttributes);
-      let recentPosts = lastFewPosts(postListAttributes.category);
-
-      let modifiedMarkup = postListServerRender(recentPosts, processedAttributes);
-
-      $('cagov-post-list').append(modifiedMarkup);
-
-      result = result.replace(originalMarkup, $.html());
-    }
-
-    return result;
-  };
-
   eleventyConfig.addTransform("renderPostLists", function(html, outputPath) {
     //outputPath === false means serverless templates
     if ((!outputPath || outputPath.endsWith(".html"))) {
       if (html.includes('cagov-post-list')) {
-        html = renderPostList(html);
+        html = renderPostLists(html);
       }
     }
 

@@ -20,7 +20,8 @@
     this.type = this.dataset.type || "wordpress";
     this.currentPage = 1;
     this.categoryMap = {};
-    if (this.type === "wordpress") {
+    this.rendered = this.dataset.rendered === "true" ? true : false;
+    if (this.type === "wordpress" && !this.rendered) {
       this.getWordpressPosts();
     }
   }
@@ -34,7 +35,7 @@
       }
 
       let categoryEndpoint = `${this.endpoint}/categories?slug=${this.category}`;
-      // console.log("category endpoint", categoryEndpoint, this.dataset);
+      console.log("category endpoint", categoryEndpoint, this.dataset);
 
       // Get data
       window
