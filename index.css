@@ -2715,164 +2715,25 @@ cagov-content-navigation li:first-child {
     height: auto; } }
 
 /* copied from gutenberg custom block */
-.cagov-post-list .post-list-item {
-  margin-bottom: 48px; }
-  .cagov-post-list .post-list-item .excerpt .date {
+cagov-post-list {
+  margin-top: 24px;
+  display: block; }
+  cagov-post-list .post-list-item {
+    margin-bottom: 32px; }
+    cagov-post-list .post-list-item .link-title {
+      margin-bottom: 8px;
+      font-weight: 700; }
+      cagov-post-list .post-list-item .link-title a {
+        color: #691808;
+        text-decoration: underline; }
+        cagov-post-list .post-list-item .link-title a:hover {
+          color: #4A1106;
+          text-decoration: none; }
+  cagov-post-list .excerpt .date {
     display: inline;
     font-weight: 700; }
-    .cagov-post-list .post-list-item .excerpt .date:after {
+    cagov-post-list .excerpt .date:after {
       content: " — "; }
-
-.cagov-post-list .link-title,
-.cagov-post-list .link-title a {
-  color: #691808;
-  font-weight: normal;
-  text-decoration: underline;
-  font-size: 18px;
-  line-height: 38px;
-  margin-bottom: 8px; }
-  .cagov-post-list .link-title:hover,
-  .cagov-post-list .link-title a:hover {
-    color: #4A1106;
-    text-decoration: none; }
-
-.cagov-post-list .link-title,
-.cagov-post-list .post-list-item {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 38px;
-  margin-bottom: 16px; }
-  .cagov-post-list .link-title a,
-  .cagov-post-list .post-list-item a {
-    text-decoration: underline; }
-    .cagov-post-list .link-title a:hover,
-    .cagov-post-list .post-list-item a:hover {
-      text-decoration: none; }
-
-.wp-block-column .cagov-post-list .link-title,
-.wp-block-column .cagov-post-list .post-list-item {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px !important;
-  line-height: 27px;
-  margin-bottom: 16px; }
-  .wp-block-column .cagov-post-list .link-title a,
-  .wp-block-column .cagov-post-list .post-list-item a {
-    text-decoration: underline; }
-    .wp-block-column .cagov-post-list .link-title a:hover,
-    .wp-block-column .cagov-post-list .post-list-item a:hover {
-      text-decoration: none; }
-
-.wp-block-ca-design-system-post-list .post-list-item.post-status {
-  margin-bottom: 32px; }
-  .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title {
-    margin-bottom: 0px; }
-  .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title .date {
-    line-height: 1rem; }
-
-.wp-block-ca-design-system-post-list .post-list-item.news-item {
-  margin-bottom: 32px; }
-  .wp-block-ca-design-system-post-list .post-list-item.news-item .link-title {
-    margin-bottom: 0px; }
-
-.cagov-post-list .read-more a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  color: #000; }
-
-.cagov-post-list .link-title a {
-  color: #691808;
-  font-weight: 700;
-  line-height: 38px;
-  font-size: 28px;
-  text-decoration: underline; }
-  .cagov-post-list .link-title a:hover {
-    color: #4A1106;
-    text-decoration: none; }
-
-.cagov-post-list .excerpt,
-.cagov-post-list .excerpt p {
-  font-weight: 400;
-  line-height: 30px;
-  font-size: 18px;
-  margin-bottom: 8px; }
-
-cagov-post-list .post-list-item {
-  margin: 0;
-  padding: 0; }
-
-cagov-post-list .post-list-item {
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 24px; }
-
-.cagov-post-list .post-list-item .date {
-  font-size: 18px;
-  line-height: 30px;
-  margin-top: 0px;
-  color: #000;
-  font-weight: 700; }
-
-@media only screen and (max-width: 580px) {
-  .cagov-post-list h3 {
-    /* font-family: Public Sans; */
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 30px;
-    margin-bottom: 24px; }
-  .cagov-post-list .read-more a {
-    /* font-family: Public Sans; */
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000; }
-  .cagov-post-list .link-title a {
-    color: #691808;
-    font-weight: 700;
-    line-height: 38px;
-    font-size: 24px;
-    margin-bottom: 8px;
-    text-decoration: underline; }
-    .cagov-post-list .link-title a:hover {
-      color: #4A1106;
-      text-decoration: none; }
-  .cagov-post-list .excerpt,
-  .cagov-post-list .excerpt p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 8px; }
-  cagov-post-list .post-list-item {
-    margin: 0;
-    padding: 0; }
-  cagov-post-list .post-list-item {
-    font-style: normal;
-    font-weight: normal;
-    margin-bottom: 16px; }
-  .cagov-post-list .post-list-item .date {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 0px;
-    color: #000;
-    font-weight: 700; }
-  .wp-block-ca-design-system-post-list .post-list-item.post-status {
-    margin-bottom: 16px; }
-    .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title {
-      margin-bottom: 0px; }
-    .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title .date {
-      line-height: 1rem;
-      font-size: 16px; }
-  .wp-block-ca-design-system-post-list .post-list-item.news-item {
-    margin-bottom: 16px; }
-    .wp-block-ca-design-system-post-list .post-list-item.news-item .link-title {
-      margin-bottom: 8px; }
-    .wp-block-ca-design-system-post-list .post-list-item.news-item .date {
-      font-size: 16px; } }
 
 /* copied from block */
 /* step list */
