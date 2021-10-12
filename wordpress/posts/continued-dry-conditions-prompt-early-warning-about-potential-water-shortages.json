@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-03-21T17:23:00",
-    "updated_date": "2021-09-21T21:18:22",
+    "updated_date": "2021-10-12T21:04:15",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-03-21T10:23:00",
     "date_gmt": "2021-03-21T17:23:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=288",
-    "modified": "2021-09-21T14:18:22",
-    "modified_gmt": "2021-09-21T21:18:22",
+    "modified": "2021-10-12T14:04:15",
+    "modified_gmt": "2021-10-12T21:04:15",
     "slug": "continued-dry-conditions-prompt-early-warning-about-potential-water-shortages",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr03222021_dry_conditions.pdf",
-      "custom_post_date": "March 21, 2021",
+      "custom_post_date": "2021-03-21",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "March 21, 2021",
+    "custom_post_date": "2021-03-21",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/continued-dry-conditions-prompt-early-warning-about-potential-water-shortages/"
   }
 }
