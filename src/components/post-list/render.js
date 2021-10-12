@@ -182,7 +182,7 @@ const renderPostLists = function(html) {
     }, {});
 
     let processedAttributes = setDefaultAttributes(postListAttributes);
-    let recentPosts = getPostsByCategory(postListAttributes.category);
+    let recentPosts = getPostsByCategory(postListAttributes.category, parseInt(postListAttributes.count));
 
     let modifiedMarkup = applyPostsTemplate(recentPosts, processedAttributes);
 

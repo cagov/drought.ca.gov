@@ -15,9 +15,10 @@ const categoryMatchBetween = (componentCategories, postCategories) => {
 /**
  * Finds a list of posts from the wordpress/posts folder, based on a given category.
  * @param {string} categoryString A comma-separated list of categories as supplied in the cagov-post-list element data attributes.
+ * @param {number} count The number of posts to return.
  * @returns {Object[]} A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
  */
-const getPostsByCategory = categoryString => {
+const getPostsByCategory = (categoryString, count) => {
   let componentCategories = categoryString.split(',').map(c => c.toLowerCase());
 
   let wordPressArray = [];
@@ -33,7 +34,7 @@ const getPostsByCategory = categoryString => {
   });
   return wordPressArray.sort((a,b) => {
     return new Date(a.data.date).getTime() - new Date(b.data.date).getTime();
-  }).slice(Math.max(wordPressArray.length - 5, 0)).reverse();
+  }).slice(Math.max(wordPressArray.length - count, 0)).reverse();
 }
 
 module.exports = { getPostsByCategory };
