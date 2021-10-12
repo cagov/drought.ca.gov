@@ -1,0 +1,41 @@
+const fs = require("fs");
+
+/**
+ * Checks for a match between two sets of categories.
+ * @param {string[]} componentCategories An array of categories requested by the cagov-post-list component.
+ * @param {string[]} postCategories An array of categories corresponding to a given post.
+ * @returns {boolean} True if a category match is found, otherwise false.
+ */
+const categoryMatchBetween = (componentCategories, postCategories) => {
+  let unsluggedCategories = componentCategories.map(category => category.replace('-', ' '))
+  let intersection = postCategories.filter(category => unsluggedCategories.includes(category.toLowerCase()));
+  return (intersection.length > 0);
+}
+
+/**
+ * Finds a list of posts from the wordpress/posts folder, based on a given category.
+ * @param {string} categoryString A comma-separated list of categories as supplied in the cagov-post-list element data attributes.
+ * @param {number} count The number of posts to return.
+ * @returns {Object[]} A list of data objects corresponding to posts, as found in the wordpress/posts folder as JSON.
+ */
+const getPostsByCategory = (categoryString, count) => {
+  let componentCategories = categoryString.split(',').map(c => c.toLowerCase());
+
+  let wordPressArray = [];
+  let files = fs.readdirSync('wordpress/posts/');
+  files.forEach((file) => {
+    if(file.indexOf('.json') > -1) {
+      let loc = "wordpress/posts/" + file;
+      let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
+      if(parsedInfo.data.type==="post" && categoryMatchBetween(componentCategories, parsedInfo.data.categories)) {
+        wordPressArray.push(parsedInfo)  
+      }
+    }
+  });
+  return wordPressArray.sort((a,b) => {
+    return new Date(a.data.date).getTime() - new Date(b.data.date).getTime();
+  }).slice(Math.max(wordPressArray.length - count, 0)).reverse();
+}
+
+module.exports = { getPostsByCategory };
+ 

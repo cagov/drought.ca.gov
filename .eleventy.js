@@ -2,6 +2,9 @@ const fs = require('fs');
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 
+const { renderPostLists } = require('./src/components/post-list/render');
+const { getHeadMetaTags, replaceUrl } = require('./src/templates/_data/meta.js');
+
 const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
 const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
@@ -42,19 +45,68 @@ module.exports = function(eleventyConfig) {
     collection.getAll().forEach(item => {
       if(item.data.wordpress.dataset) {
         // Set up fields for passing into template
-        item.data.title = item.data.wordpress.dataset.data.title;
         item.data.templatestring = item.data.wordpress.dataset.data.template;
-        item.data.page_meta = item.data.wordpress.dataset.data.page_meta;
+
+        item.data.title = item.data.wordpress.dataset.data.title;
+        item.data.og_meta = item.data.wordpress.dataset.data.og_meta;
         item.data.category = item.data.wordpress.dataset.data.category;
         item.data.id = item.data.wordpress.dataset.data.id;
 
-        let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
-        item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
-        try {
-          item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
-        } catch (error) {
-          // console.error(error);
+
+        // Fix any URL paths.
+        // let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
+        // item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
+        // try {
+        //   item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
+        // } catch (error) {
+        //   // console.error(error);
+        // }
+
+        // @ISSUE Content editors hardcoding WP to the 11ty build configuration
+        item.template.frontMatter.content = replaceUrl(
+          item.template.frontMatter.content,
+          "https://drought.ca.gov/media/",
+          "/wp-content/uploads/"
+        );
+
+        let replaceUrls = [
+          "http://drought.ca.gov/",
+          "https://drought.ca.gov/",
+          "https://live-drought-ca-gov.pantheonsite.io/",
+        ];
+        item.template.frontMatter.content = replaceUrl(
+          item.template.frontMatter.content,
+          replaceUrls[0],
+          "/"
+        );
+        item.template.frontMatter.content = replaceUrl(
+          item.template.frontMatter.content,
+          replaceUrls[1],
+          "/"
+        );
+        item.template.frontMatter.content = replaceUrl(
+          item.template.frontMatter.content,
+          replaceUrls[2],
+          "/"
+        );
+
+        item = getHeadMetaTags(item);
+        const jsonData = item.data.wordpress.dataset.data;
+
+        if (jsonData.media) {
+          const featuredMedia = jsonData.media.find((x) => x.featured);
+          if (featuredMedia) {
+            item.data.previewimage = "/wp-content/uploads/" + featuredMedia.path;
+          }
+      
+          jsonData.media
+            .filter((x) => x.source_url_match)
+            .forEach((m) => {
+              // replaceContent(item,new RegExp(m.source_url,'g'),'/'+wordpressImagePath+'/'+m.path);
+              // item.template.frontMatter.content = item.template.frontMatter.content.replace(new RegExp(m.source_url,'g'),'/media/'+m.path);
+            });
         }
+
        
       }
       output.push(item);
@@ -62,8 +114,18 @@ module.exports = function(eleventyConfig) {
 
     return output;
   });
-  
 
+  eleventyConfig.addTransform("renderPostLists", function(html, outputPath) {
+    //outputPath === false means serverless templates
+    if ((!outputPath || outputPath.endsWith(".html"))) {
+      if (html.includes('cagov-post-list')) {
+        html = renderPostLists(html);
+      }
+    }
+
+    return html;
+  });
+  
   eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead
     if( outputPath && outputPath.endsWith(".html") ) {
