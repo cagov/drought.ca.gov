@@ -14,7 +14,7 @@
   font-weight: normal;
   @include text-underline;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 38px;
   margin-bottom: 8px;
   &:hover {
     color: $primary-dark;
@@ -27,11 +27,29 @@
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
+  line-height: 38px;
   margin-bottom: 16px;
   a {
     @include text-underline;
     &:hover {
       text-decoration: none;
+    }
+  }
+}
+
+.wp-block-column  {
+  .cagov-post-list .link-title,
+  .cagov-post-list .post-list-item {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 27px;
+    margin-bottom: 16px;
+    a {
+      @include text-underline;
+      &:hover {
+        text-decoration: none;
+      }
     }
   }
 }
@@ -46,7 +64,7 @@
   margin-bottom: 32px;
 }
 
-.wp-block-ca-design-system-post-list .post-list-item.news-item  {
+.wp-block-ca-design-system-post-list .post-list-item.news-item {
   .link-title {
     margin-bottom: 0px;
   }
@@ -64,7 +82,7 @@
 .cagov-post-list .link-title a {
   color: $primary;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 38px;
   font-size: 28px;
   @include text-underline;
   &:hover {
@@ -122,7 +140,7 @@ cagov-post-list .post-list-item {
   .cagov-post-list .link-title a {
     color: $primary;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 38px;
     font-size: 24px;
     margin-bottom: 8px;
     @include text-underline;
@@ -168,8 +186,8 @@ cagov-post-list .post-list-item {
     }
     margin-bottom: 16px;
   }
-  
-  .wp-block-ca-design-system-post-list .post-list-item.news-item  {
+
+  .wp-block-ca-design-system-post-list .post-list-item.news-item {
     .link-title {
       margin-bottom: 8px;
     }

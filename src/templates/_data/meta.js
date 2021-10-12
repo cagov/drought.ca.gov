@@ -113,7 +113,6 @@ const getMetaTagValue = function (data, field) {
   // Default mapping is from WordPress.
   if (field === "excerpt") {
     try {
-        console.log(data.excerpt, data.title);
       const content = data.excerpt.replace(/(<([^>]+)>)/gi, ""); // Remove HTML tags.
       return content;
     } catch (error) {
