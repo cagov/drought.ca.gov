@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-24T01:48:00",
-    "updated_date": "2021-10-12T22:14:14",
+    "updated_date": "2021-10-12T23:42:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-09-23T18:48:00",
     "date_gmt": "2021-09-24T01:48:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=691",
-    "modified": "2021-10-12T15:14:14",
-    "modified_gmt": "2021-10-12T22:14:14",
+    "modified": "2021-10-12T16:42:03",
+    "modified_gmt": "2021-10-12T23:42:03",
     "slug": "consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community",
     "status": "publish",
     "type": "post",
