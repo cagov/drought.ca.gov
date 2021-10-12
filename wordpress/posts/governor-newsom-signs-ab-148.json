@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-29T01:06:00",
-    "updated_date": "2021-10-07T01:08:26",
+    "updated_date": "2021-10-12T20:58:21",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-28T18:06:00",
     "date_gmt": "2021-07-29T01:06:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=687",
-    "modified": "2021-10-06T18:08:26",
-    "modified_gmt": "2021-10-07T01:08:26",
+    "modified": "2021-10-12T13:58:21",
+    "modified_gmt": "2021-10-12T20:58:21",
     "slug": "governor-newsom-signs-ab-148",
     "status": "publish",
     "type": "post",
     "link": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
     "title": "Governor Newsom signs AB 148",
-    "excerpt": "<p>Governor Newsom signs AB 148, which allows state agencies to expedite funding for areas experiencing drought.</p>\n",
+    "excerpt": "<p>Governor Newsom signs&nbsp;AB 148, which allows state agencies to expedite funding for areas experiencing drought.</p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
@@ -34,7 +34,7 @@
     "format": "status",
     "meta": {
       "custom_post_link": "",
-      "custom_post_date": "July 28, 2021",
+      "custom_post_date": "2021-07-28",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "July 28, 2021",
+    "custom_post_date": "2021-07-28",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/"
   }
 }

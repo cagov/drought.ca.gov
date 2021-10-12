@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-19T21:00:00",
-    "updated_date": "2021-09-21T21:23:56",
+    "updated_date": "2021-10-12T20:58:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-19T14:00:00",
     "date_gmt": "2021-07-19T21:00:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=508",
-    "modified": "2021-09-21T14:23:56",
-    "modified_gmt": "2021-09-21T21:23:56",
+    "modified": "2021-10-12T13:58:44",
+    "modified_gmt": "2021-10-12T20:58:44",
     "slug": "cdfw-rolls-out-guidance-for-fishing-during-the-drought",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://wildlife.ca.gov/News/cdfw-rolls-out-guidance-for-fishing-during-the-drought",
-      "custom_post_date": "July 19, 2021",
+      "custom_post_date": "2021-07-19",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "July 19, 2021",
+    "custom_post_date": "2021-07-19",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/cdfw-rolls-out-guidance-for-fishing-during-the-drought/"
   }
 }
