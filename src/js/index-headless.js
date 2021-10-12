@@ -8,6 +8,7 @@ import '@cagov/ds-dropdown-menu';
 // import '../components/menu/index.js';
 import '../components/content-navigation/index.js';
 import '../components/post-list/index.js';
+// import '../components/event-post-list/index.js';
 import '../components/page-alert/index.js';
 import '../components/drought-map/index.js';
 

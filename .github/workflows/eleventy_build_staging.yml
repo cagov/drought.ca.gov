@@ -1,4 +1,8 @@
-name: Eleventy Build Main
+name: Eleventy Build Staging Pantheon WP 5.8.1
+# site: https://staging.drought.ca.gov
+# editor: https://live-drought-ca-gov.pantheonsite.io
+# s3 bucket: http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com/
+on:
 on:
   push:
     branches:

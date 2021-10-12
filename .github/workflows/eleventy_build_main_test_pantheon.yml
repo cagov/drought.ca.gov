@@ -1,6 +1,6 @@
 name: Eleventy Build Main Test Pantheon WP 5.8.1
-# site:  main-test-pantheon.drought.ca.gov (no subdomain exists yet)
-# editor: https://test-cannabis-ca-gov.pantheonsite.io
+# site: main-test-pantheon.drought.ca.gov (no subdomain exists yet)
+# editor: https://test-drought-ca-gov.pantheonsite.io
 # s3 bucket: http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com/
 on:
   push:

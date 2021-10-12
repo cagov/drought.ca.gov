@@ -1,8 +1,6 @@
-// const fs = require("fs");
 const CleanCSS = require("clean-css"); // Optimize CSS
-const htmlmin = require("html-minifier");
-// @TODO Sync with cannabis work
-const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: What does this do?
+const htmlmin = require("html-minifier"); // Minify HTML
+const getRecentPosts = require("./pages/_data/recent-posts.js"); // 
 const postList = require("./pages/_data/post-list.js"); // Get templated post-list
 const eventList = require("./pages/_data/event-list.js"); // Get templated post-list
 
@@ -11,29 +9,6 @@ const {
   processContentPost,
   processContentEvent,
 } = require("./pages/_data/content.js"); // Content type processors
-
-// @TODO DEPRECATING
-// const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
-// const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
-// const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
-// // const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
-// const SITE_DOMAIN = ""; // Relative links only for local images in display.
-// // const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/";
-// // const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net/media/";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://drought.ca.gov/media/";
-// // const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/"; // Test with original image (not cached)
-
-// const replacementPaths = {
-//   media: {
-//     src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
-//     target: "/media/",
-//     targetPermalink: `${SITE_DOMAIN}/media/`,
-//     targetPermalinkOGTags: `${DEFAULT_SITE_DOMAIN_OG_TAGS}`,
-//     targetPermalinkTest:
-//       "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/",
-//   },
-// };
-
 // @DOCS 11ty reference
 /**
  * Create 11ty build configuration settings
@@ -50,11 +25,6 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPassthroughCopy({ "dist/index.css.map": "/index.css.map" }); // @Q Does this order matter?
 
-  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
-  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
-  // eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
-  eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
-
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
     notify: true,
@@ -70,7 +40,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("pages", function (collection) {
     let posts = [];
     // @TODO @DOCS odi-publishing.json settings
-    let folderNames = ["pages/wordpress/pages"];
+    let folderNames = ["/pages/wordpress/pages"];
 
     collection.getAll().forEach((item) => {
       item = processContentPage(item, folderNames);
@@ -92,7 +62,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("posts", function (collection) {
     let posts = [];
     // @TODO @DOCS odi-publishing.json settings
-    let folderNames = ["pages/wordpress/posts"];
+    let folderNames = ["/pages/wordpress/posts"];
 
     collection.getAll().forEach((item) => {
       item = processContentPost(item, folderNames);
@@ -112,32 +82,69 @@ module.exports = function (eleventyConfig) {
     return posts;
   });
 
-  // TEMP DISABLE
-  eleventyConfig.addFilter("postlist", function (html) {
-    let myRe = /<cagov-post-list-new\s*.*>\s*.*<\/cagov-post-list-new>/gs;
-    let myArray = myRe.exec(html);
-    let lastPosts = getRecentPosts();
-    let postListHTML = postList(lastPosts);
-    if (myArray) {
-      return html.replace(myArray[0], postListHTML);
-    }
-    return html;
-  });
+  // @TODO
+  //   pressPosts.sort((a, b) => {
+  //     return (
+  //       new Date(b.data.data.date).getTime() -
+  //       new Date(a.data.data.date).getTime()
+  //     );
+  //   });
 
-  // TEMP DISABLE
-  eleventyConfig.addFilter("eventlist", function (html) {
-    let myRe = /<cagov-event-post-list-new\s*.*>\s*.*<\/cagov-event-post-list-new>/gs;
-    let myArray = myRe.exec(html);
-    let recentPosts = getRecentEvents({
-      count: 5,
-      fieldDate: "custom_post_date",
-    });
-    let eventtListHTML = eventList(recentPosts);
-    if (myArray) {
-      return html.replace(myArray[0], eventListHTML);
-    }
-    return html;
-  });
+  // Process content, update data.
+  // eleventyConfig.addCollection("events", function (collection) {
+  //   let posts = [];
+  //   // @TODO @DOCS odi-publishing.json settings
+  //   let folderNames = ["/wordpress/posts"];
+
+  //   collection.getAll().forEach((item) => {
+  //     // @IDEA processContentEvent.sort
+  //     // @NOTE startTimeUtC is the field
+  //     item = processContentEvent(item, folderNames);
+
+  //     if (item.data.data) {
+  //       if (
+  //         item.data.data.type === "post" ||
+  //         // && category is Event
+  //         item.data.data.type === "event"
+  //       ) {
+  //         posts.push(item);
+  //       }
+  //     }
+  //   });
+
+  //   return posts;
+  // });
+
+  // eleventyConfig.addFilter("postlist", function (html) {
+  //   let myRe = /<cagov-post-list\s*.*>\s*.*<\/cagov-post-list>/gs;
+  //   let myArray = myRe.exec(html);
+  //   let lastPosts = getRecentPosts();
+  //   let postListHTML = postList(lastPosts);
+  //   if (myArray) {
+  //     return html.replace(myArray[0], postListHTML);
+  //   }
+  //   return html;
+  // });
+
+  // eleventyConfig.addFilter("eventlist", function (html) {
+  //   let myRe = /<cagov-event-post-list\s*.*>\s*.*<\/cagov-event-post-list>/gs;
+  //   let myArray = myRe.exec(html);
+  //   let recentPosts = getRecentEvents({
+  //     count: 5,
+  //     fieldDate: "custom_post_date",
+  //   });
+  //   let eventtListHTML = eventList(recentPosts);
+  //   if (myArray) {
+  //     return html.replace(myArray[0], eventListHTML);
+  //   }
+  //   return html;
+  // });
+
+  // @Q How is this used?
+  // eleventyConfig.addFilter("dateFormat", function (dateString) {
+  //   let d = new Date(dateString);
+  //   return `${monthStrings[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+  // });
 
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
@@ -159,7 +166,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "md",
     templateFormats: ["html", "njk", "11ty.js", "md"],
     dir: {
-      input: "src/templates",
+      input: "pages",
       output: "docs",
     },
   };

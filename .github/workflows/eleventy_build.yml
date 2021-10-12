@@ -1,4 +1,7 @@
-name: Eleventy Build Main
+name: Eleventy Build Main Pantheon WP 5.8.1
+# site: https://drought.ca.gov
+# editor: https://live-drought-ca-gov.pantheonsite.io
+# s3 bucket: http://main.drought.ca.gov.s3-website-us-west-1.amazonaws.com/
 on:
   push:
     branches:

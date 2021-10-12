@@ -4,7 +4,7 @@
  * Compatible with:
  *   * [ca-design-system-gutenberg-blocks](https://github.com/cagov/ca-design-system-gutenberg-blocks) plugin `1.1.0`
  */
-const odiPublishing = require("../../odi-publishing/config.js");
+const odiPublishing = require("./../../odi-publishing/config.js");
 const config = odiPublishing.getConfig();
 
 /**
@@ -64,9 +64,8 @@ exports.processContentEvent = (item, folderNames) => {
  * @param {*} item
  * @returns
  */
- const processContentItem = (contentItem) => {
+const processContentItem = (contentItem) => {
   let item = contentItem;
-
   // Data attributes required by the 11ty build.
   item.url = item.outputPath; // Target document folder
   item.data.page.url = item.url; // Original URL of page, from WordPress
@@ -82,17 +81,14 @@ exports.processContentEvent = (item, folderNames) => {
   item.data.title = item.data.data.title;
   item.data.publish_date = item.data.data.date.split("T")[0]; //new Date(jsonData.modified_gmt) // @Q how do we use this?
   // @TODO include date posted & other custom fields?
-  item.data.template = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
+  item.data.page_layout_name = chooseTemplate(item.data.data, "WordPress"); // Get page layout template name
   item.data.id = item.data.data.id; // Q: how are we using this? @DOCS
   item.data.parent_id = item.data.data.parent; // Used in breadcrumb
-  let replaceUrls = [ // @TEMP location @TODO 
-    "http://drought.ca.gov/",
-    "https://drought.ca.gov/",
+  let replaceUrls = [
+    "http://cannabis.ca.gov/",
+    "https://cannabis.ca.gov/",
     "https://dev-cagov-dcc.pantheonsite.io/",
-    "https://test-cagov-dcc.pantheonsite.io/",
-    "https://live-cagov-dcc.pantheonsite.io/",
   ];
-  // @TEMP!
   item.template.frontMatter.content = replaceUrl(
     item.template.frontMatter.content,
     replaceUrls[0],
@@ -106,16 +102,6 @@ exports.processContentEvent = (item, folderNames) => {
   item.template.frontMatter.content = replaceUrl(
     item.template.frontMatter.content,
     replaceUrls[2],
-    "/"
-  );
-  item.template.frontMatter.content = replaceUrl(
-    item.template.frontMatter.content,
-    replaceUrls[3],
-    "/"
-  );
-  item.template.frontMatter.content = replaceUrl(
-    item.template.frontMatter.content,
-    replaceUrls[4],
     "/"
   );
   // Page meta, including og
@@ -166,7 +152,6 @@ const getOGMetaData = function (item) {
     item.data.og_meta = {};
   }
 
-  console.log("item", item);
   let jsonData = item.data.data;
 
   let default_og_meta = {
@@ -262,8 +247,8 @@ const cleanUrl = function (url) {
       if (url.indexOf(".pantheonsite.io/") > -1) {
         return url.split(".pantheonsite.io/")[1];
       }
-      if (url.indexOf("drought.ca.gov") > -1) {
-        return url.split("drought.ca.gov")[1];
+      if (url.indexOf("cannabis.ca.gov") > -1) {
+        return url.split("cannabis.ca.gov")[1];
       }
     }
   } catch (error) {
@@ -284,10 +269,10 @@ const chooseTemplate = function (data, cms = "WordPress") {
   if (data.design_system_fields) {
     template = data.design_system_fields.template;
   }
-  if (data.wordpress_url === "https://drought.ca.gov/") {
+  if (data.wordpress_url === "https://cannabis.ca.gov/") {
     return "landing";
   }
-  if (data.wordpress_url === "https://drought.ca.gov/search/") {
+  if (data.wordpress_url === "https://cannabis.ca.gov/serp/") {
     return "search";
   }
   if (data.template?.indexOf("single-column") > -1) {
@@ -395,11 +380,3 @@ const getMetaTagValue = function (data, field) {
   }
   return false;
 };
-
-
-function getCategory(data) {
-  if (data.categories && data.categories[0]) {
-    return data.categories[0];
-  }
-  return false;
-}

@@ -7,12 +7,12 @@ const fs = require("fs");
 module.exports = function () {
   return new Promise((resolve, reject) => {
     let idObject = {};
-    fs.readdir("wordpress/pages/", (err, files) => {
+    fs.readdir("pages/wordpress/pages/", (err, files) => {
       files.forEach((file) => {
         if (file.indexOf(".json") > -1) {
           // @TODO this should come from odi-publishing.json @ISSUE
           let fileData = JSON.parse(
-            fs.readFileSync("wordpress/pages/" + file, "utf8")
+            fs.readFileSync("pages/wordpress/pages/" + file, "utf8")
           );
           // Create id object
           // @DOCS what is this for?
@@ -20,12 +20,12 @@ module.exports = function () {
         }
       });
 
-      fs.readdir("wordpress/posts/", (err, files) => {
+      fs.readdir("pages/wordpress/posts/", (err, files) => {
         files.forEach((file) => {
           if (file.indexOf(".json") > -1) {
             // @TODO this should come from odi-publishing.json @ISSUE
             let fileData = JSON.parse(
-              fs.readFileSync("wordpress/posts/" + file, "utf8")
+              fs.readFileSync("pages/wordpress/posts/" + file, "utf8")
             );
             // Create id object
           // @DOCS what is this for?

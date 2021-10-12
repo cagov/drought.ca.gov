@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>{{ page_meta.page_title | safe }}</title>
-  <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
-  <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
+  <title>{{ title | safe }}</title>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
-	<meta name="description" content="{{ page_meta.page_description | safe }}" />
-	<meta name="keywords" content="California, government, drought, drought.ca.gov" />
+	<meta name="description" content="{{ description | safe }}" />
+	<meta name="keywords" content="California, government, cannabis, cannabis.ca.gov" />
+
 	<!-- http://t.co/dKP3o1e -->
 	<meta name="HandheldFriendly" content="True">
 	<!-- for Blackberry, AvantGo -->
@@ -34,61 +33,65 @@
   <meta name="twitter:image:width" content="{{ og_meta.page_social_image_width | safe }}" />
   <meta name="twitter:image:height" content="{{ og_meta.page_social_image_height | safe }}" />
 
-  <!-- Favicon @TODO needs asset folder to be exposed to docs -->
-  <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
-  <link rel="shortcut icon" href="/assets/img/cagov_favicon.ico">
+  <link title="Fav Icon" rel="icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
+  <link rel="shortcut icon" href="/media/sites/2/2021/07/cannabis_favicon_16x16.png">
+
   <!-- Google Analytics performance -->
   <link rel="preconnect" href="https://www.google-analytics.com/">
   <!-- CSS -->
   {% set css %}
-  {% include "../../../../dist/index.css" %}
+  {% include "../../../dist/index.css" %}
   {% endset %}
   <!-- the inlined hardcoded grid css below is there because it was breaking sass compilation -->
   <style>
     {{ css | cssmin | safe }}
     .cagov-grid {
-      grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(376px, 100%), 1fr));
     }
   </style>
 </head>
 
 <body>
-  <div class="header-container">
-    {% include "../../../components/utility-header/utility-header.html" %}
-    {% include "../../../components/branding/branding.html" %}
-    {% include "nav-component.njk" %}
-  </div>
+
+  <header>
+    <div class="header-container">
+      {% include "skip-to-content.njk" %}
+      {% include "statewide-header.njk" %}
+      {% include "branding.njk" %}
+      {% include "nav-component.njk" %}
+    </div>
+  </header>
 
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
-  {%- if templatestring == 'landing' -%}
+  {%- if page_layout_name == 'landing' -%}
     {% include "../layouts/templates/landing.njk" %}
+  {# Search results #}
+  {%- elif page_layout_name == 'search' -%}
+    {% include "../layouts/templates/search.njk" %}  
   {# Pages that don't have content navigation #}
-  {%- elif templatestring == 'template-page-single-column' -%}
+  {%- elif page_layout_name == 'single-column' -%}
     {% include "../layouts/templates/single-column.njk" %}  
   {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
-  {% elif templatestring == 'page' -%}
+  {% elif page_layout_name == 'page' -%}
     {% include "../layouts/templates/page.njk" %}
   {# Normal post template, with category if default the API will return "post" #}
-  {% elif templatestring == 'post' -%}
+  {% elif page_layout_name == 'post' -%}
     {% include "../layouts/templates/post.njk" %}
-  {% elif templatestring == 'template-single-press-release ' -%}
+  {% elif page_layout_name == 'event' -%}
+    {% include "../layouts/templates/event.njk" %}
+  {% elif page_layout_name == 'press-release' -%}
   {# We are developing more templates for special post types, like press releases and events. #}
-    {% include "../layouts/templates/post.njk" %}
+    {% include "../layouts/templates/press-release.njk" %}
   {# No template #}
   {% else %}
-    {% include "../layouts/templates/landing.njk" %}
+    {% include "../layouts/templates/page.njk" %}
   {%- endif -%}
 
-  {% block pageContent %}
-  {% endblock %}
-
-  <div class="footer-container">
-    {% include "../footer.njk" %}
-    {% include "../footer-universal.njk" %}
-  </div>
+  {% include "../footer.njk" %}
+  {% include "../footer-universal.njk" %}
 
   {% set js %}
-  {% include "../../../../dist/built.js" %}
+  {% include "../../../dist/built.js" %}
   {% endset %}
   <script type="module">
     {{ js | safe }}
