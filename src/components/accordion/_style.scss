@@ -17,5 +17,5 @@ cagov-accordion.prog-enhanced button.accordion-card-header {
 }
 
 button.accordion-card-header:hover .accordion-title:hover {
-    @include text-underline;
+    text-decoration: underline;
 }
