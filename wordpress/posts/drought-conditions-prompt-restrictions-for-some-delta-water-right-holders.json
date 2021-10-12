@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-15T20:58:00",
-    "updated_date": "2021-09-21T21:24:25",
+    "updated_date": "2021-10-12T21:01:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-15T13:58:00",
     "date_gmt": "2021-06-15T20:58:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=502",
-    "modified": "2021-09-21T14:24:25",
-    "modified_gmt": "2021-09-21T21:24:25",
+    "modified": "2021-10-12T14:01:11",
+    "modified_gmt": "2021-10-12T21:01:11",
     "slug": "drought-conditions-prompt-restrictions-for-some-delta-water-right-holders",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06152021_bay_delta_unavailability.pdf",
-      "custom_post_date": "June 15, 2021",
+      "custom_post_date": "2021-06-08",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "June 15, 2021",
+    "custom_post_date": "2021-06-08",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/drought-conditions-prompt-restrictions-for-some-delta-water-right-holders/"
   }
 }

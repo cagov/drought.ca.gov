@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-08T20:59:00",
-    "updated_date": "2021-09-21T21:24:06",
+    "updated_date": "2021-10-12T21:00:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-08T13:59:00",
     "date_gmt": "2021-07-08T20:59:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=504",
-    "modified": "2021-09-21T14:24:06",
-    "modified_gmt": "2021-09-21T21:24:06",
+    "modified": "2021-10-12T14:00:35",
+    "modified_gmt": "2021-10-12T21:00:35",
     "slug": "as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://www.gov.ca.gov/2021/07/08/as-drought-conditions-intensify-governor-newsom-calls-on-californians-to-take-simple-actions-to-conserve-water/",
-      "custom_post_date": "July 8, 2021",
+      "custom_post_date": "2021-07-08",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "July 8, 2021",
+    "custom_post_date": "2021-07-08",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/as-drought-conditions-deepen-governor-newsom-calls-on-californians-to-take-simple-actions-to-reduce-water-use-2/"
   }
 }

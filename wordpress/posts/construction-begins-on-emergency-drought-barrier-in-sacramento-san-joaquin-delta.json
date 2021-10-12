@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-03T20:56:00",
-    "updated_date": "2021-09-21T21:24:40",
+    "updated_date": "2021-10-12T21:01:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-03T13:56:00",
     "date_gmt": "2021-06-03T20:56:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=498",
-    "modified": "2021-09-21T14:24:40",
-    "modified_gmt": "2021-09-21T21:24:40",
+    "modified": "2021-10-12T14:01:35",
+    "modified_gmt": "2021-10-12T21:01:35",
     "slug": "construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/June-21/Emergency-Drought-Barrier-Construction-Delta",
-      "custom_post_date": "June 3, 2021",
+      "custom_post_date": "2021-06-03",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "June 3, 2021",
+    "custom_post_date": "2021-06-03",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/construction-begins-on-emergency-drought-barrier-in-sacramento-san-joaquin-delta/"
   }
 }

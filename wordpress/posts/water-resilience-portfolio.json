@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-04-01T12:00:00",
-    "updated_date": "2021-07-08T17:16:14",
+    "updated_date": "2021-10-12T21:03:52",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-04-01T12:00:00",
     "date_gmt": "2021-04-01T12:00:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=54",
-    "modified": "2021-07-08T10:16:14",
-    "modified_gmt": "2021-07-08T17:16:14",
+    "modified": "2021-10-12T14:03:52",
+    "modified_gmt": "2021-10-12T21:03:52",
     "slug": "water-resilience-portfolio",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "status",
     "meta": {
       "custom_post_link": "",
-      "custom_post_date": "April 2019",
+      "custom_post_date": "2021-04-01",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "April 2019",
+    "custom_post_date": "2021-04-01",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/"
   }
 }
