@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-07T01:50:33",
-    "updated_date": "2021-10-07T01:50:39",
+    "updated_date": "2021-10-12T20:55:48",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-06T18:50:33",
     "date_gmt": "2021-10-07T01:50:33",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=693",
-    "modified": "2021-10-06T18:50:39",
-    "modified_gmt": "2021-10-07T01:50:39",
+    "modified": "2021-10-12T13:55:48",
+    "modified_gmt": "2021-10-12T20:55:48",
     "slug": "state-water-board-approves-emergency-curtailment-regulation-for-mill-and-deer-creeks",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/mill-and-deer-creek-curtailment-press-release-final-9.22.21-updated.pdf",
-      "custom_post_date": "September 22, 2021",
+      "custom_post_date": "2021-09-22",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "September 22, 2021",
+    "custom_post_date": "2021-09-22",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-mill-and-deer-creeks/"
   }
 }
