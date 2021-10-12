@@ -4,7 +4,7 @@
  * Compatible with:
  *   * [ca-design-system-gutenberg-blocks](https://github.com/cagov/ca-design-system-gutenberg-blocks) plugin `1.1.0`
  */
-const odiPublishing = require("./../../../odi-publishing/config.js");
+const odiPublishing = require("../../odi-publishing/config.js");
 const config = odiPublishing.getConfig();
 
 /**
@@ -67,7 +67,6 @@ exports.processContentEvent = (item, folderNames) => {
  const processContentItem = (contentItem) => {
   let item = contentItem;
 
-  console.log(item);
   // Data attributes required by the 11ty build.
   item.url = item.outputPath; // Target document folder
   item.data.page.url = item.url; // Original URL of page, from WordPress

@@ -2,15 +2,15 @@
 const CleanCSS = require("clean-css"); // Optimize CSS
 const htmlmin = require("html-minifier");
 // @TODO Sync with cannabis work
-const getRecentPosts = require("./src/templates/_data/recent-posts.js"); // Q: What does this do?
-const postList = require("./src/templates/_data/post-list.js"); // Get templated post-list
-const eventList = require("./src/templates/_data/event-list.js"); // Get templated post-list
+const getRecentPosts = require("./pages/_data/recent-posts.js"); // Q: What does this do?
+const postList = require("./pages/_data/post-list.js"); // Get templated post-list
+const eventList = require("./pages/_data/event-list.js"); // Get templated post-list
 
 const {
   processContentPage,
   processContentPost,
   processContentEvent,
-} = require("./src/templates/_data/content.js"); // Content type processors
+} = require("./pages/_data/content.js"); // Content type processors
 
 // @TODO DEPRECATING
 // const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
@@ -70,7 +70,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("pages", function (collection) {
     let posts = [];
     // @TODO @DOCS odi-publishing.json settings
-    let folderNames = ["/wordpress/pages"];
+    let folderNames = ["pages/wordpress/pages"];
 
     collection.getAll().forEach((item) => {
       item = processContentPage(item, folderNames);
@@ -92,7 +92,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("posts", function (collection) {
     let posts = [];
     // @TODO @DOCS odi-publishing.json settings
-    let folderNames = ["/wordpress/posts"];
+    let folderNames = ["pages/wordpress/posts"];
 
     collection.getAll().forEach((item) => {
       item = processContentPost(item, folderNames);
