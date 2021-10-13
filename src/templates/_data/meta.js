@@ -108,6 +108,18 @@ const getOGMetaData = function (item) {
   return item.data.og_meta;
 };
 
+const getOGMedia = function () {
+ // @PLACEHOLDER might use
+        // Belongs in meta but also not using it yet, might though @TODO check this
+        // if (jsonData.media) {
+        //   const featuredMedia = jsonData.media.find((x) => x.featured);
+        //   if (featuredMedia) {
+        //     item.data.previewimage =
+        //       "/wp-content/uploads/" + featuredMedia.path;
+        //   }
+        // }
+}
+
 /**
  * Read the og_meta data object from content API. Process field data for a given field.
  * @param {*} data

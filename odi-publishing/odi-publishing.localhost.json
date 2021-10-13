@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.0", 
   "name": "drought.ca.gov - California drought action",
   "gitrepo": "@cagov/drought.ca.gov - California drought action",
   "contact": {
@@ -16,10 +16,6 @@
     "refresh_frequency": "As needed"
   },
   "data": {
-    "name": "California drought action",
-    "description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-    "url": "https://test-drought-ca-gov.pantheonsite.io",
-    "home": "https://test-drought-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [
@@ -35,9 +31,9 @@
     "site_name": "California drought action",
     "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
     "site_social_url": "",
-    "page_social_image_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/2021/09/cropped-drought-photo.png",
+    "page_social_image_url": "http://localhost:8080/media/2021/09/cropped-drought-photo.png",
     "page_social_image_alt": "California Drought Action",
-    "site_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
+    "site_url": "http://localhost:8080",
     "page_social_image_width": 1200,
     "page_social_image_height": 630
   },
@@ -49,9 +45,9 @@
     "upload_folder": "wp-content/uploads/",
     "replace_urls": ["http://drought.ca.gov/", "https://drought.ca.gov/", "https://dev-drought-ca-gov.pantheonsite.io/", "https://test-drought-ca-gov.pantheonsite.io/", "https://live-drought-ca-gov.pantheonsite.io/"],
     "editor_url": "https://test-drought-ca-gov.pantheonsite.io",
-    "static_site_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
-    "canonical_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
-    "s3_bucket_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
+    "static_site_url": "http://localhost:8080",
+    "canonical_url": "http://localhost:8080",
+    "s3_bucket_url": "http://localhost:8080",
     "media": "pages/wordpress/media",
     "pages": "pages/wordpress/posts",
     "posts": "pages/wordpress/posts"
