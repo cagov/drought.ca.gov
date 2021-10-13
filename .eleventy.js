@@ -43,15 +43,6 @@ module.exports = function (eleventyConfig) {
           );
         });
 
-        // @ISSUE Content editors hardcoding WP to the 11ty build configuration
-        // Fix hard-coded source domains pointing to media folder. Needs to come after head tags are set up.
-        item.data.wordpress.content = replaceUrl(
-          item.data.wordpress.content,
-          "/wp-content/uploads/", // @TODO connect to configs when we are ready.
-          // "/wp-content/uploads/"
-          "/media/" // @ISSUE different from cannabis.ca.gov media folder location.
-        );
-
         // Set up fields for passing into template
         item.data.templatestring = item.data.wordpress.dataset.data.template; // Load page template @ISSUE naming convention
 
@@ -61,6 +52,16 @@ module.exports = function (eleventyConfig) {
         item.data.id = item.data.wordpress.dataset.data.id; // @DOCS how are we using this ID?
         
         item = getHeadMetaTags(item);
+
+        // @ISSUE Content editors hardcoding WP to the 11ty build configuration
+        // Fix all hard-coded source domains pointing to wp-content/uploads (changed to media folder.) Needs to come after head tags are set up.
+        // @ISSUE different from cannabis.ca.gov media folder location.
+        item.data.wordpress.content = replaceUrl(
+          item.data.wordpress.content,
+          "/wp-content/uploads/", // @TODO connect to configs when we are ready.
+          "/media/" 
+        );
+
       }
       output.push(item);
     });
