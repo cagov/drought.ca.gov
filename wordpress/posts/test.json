@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-07T01:09:16",
-    "updated_date": "2021-10-12T20:48:27",
+    "created_date": "2021-10-12T20:01:36",
+    "updated_date": "2021-10-12T20:58:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,32 +13,32 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 689,
-    "date": "2021-10-06T18:09:16",
-    "date_gmt": "2021-10-07T01:09:16",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=689",
-    "modified": "2021-10-12T13:48:27",
-    "modified_gmt": "2021-10-12T20:48:27",
-    "slug": "governor-gavin-newsom-signed-a-package-of-climate-action-bills",
+    "id": 757,
+    "date": "2021-10-12T13:01:36",
+    "date_gmt": "2021-10-12T20:01:36",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?p=757",
+    "modified": "2021-10-12T13:58:12",
+    "modified_gmt": "2021-10-12T20:58:12",
+    "slug": "test",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/governor-gavin-newsom-signed-a-package-of-climate-action-bills/",
-    "title": "Governor Gavin Newsom signed a package of climate action bills",
-    "excerpt": "<p>Governor Gavin Newsom signed a package of climate action bills that include $5.2 billion for drought response and long-term water resilience. The measures will secure water supplies, support water infrastructure, improve water security and quality, and support wildlife. Extra text.</p>\n",
-    "author": "Admin",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/test/",
+    "title": "Test",
+    "excerpt": "<p>this is a test</p>\n",
+    "author": "Zakiya Khabir",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "status",
+    "format": "standard",
     "meta": {
-      "custom_post_link": "",
+      "custom_post_link": "test",
       "custom_post_date": "",
       "custom_post_location": ""
     },
     "categories": [
-      "Action"
+      "Uncategorized"
     ],
     "tags": [],
     "design_system_fields": {
@@ -55,38 +55,38 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/governor-gavin-newsom-signed-a-package-of-climate-action-bills/",
-      "page_title": "Governor Gavin Newsom signed a package of climate action bills",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/test/",
+      "page_title": "Test",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Governor Gavin Newsom signed a package of climate action bills",
+      "meta_title": "Test",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/governor-gavin-newsom-signed-a-package-of-climate-action-bills/",
-      "open_graph_title": "Governor Gavin Newsom signed a package of climate action bills",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/test/",
+      "open_graph_title": "Test",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Governor Gavin Newsom signed a package of climate action bills",
+      "twitter_title": "Test",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
       {
-        "term_id": 2,
-        "name": "Action",
-        "slug": "action",
+        "term_id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
         "term_group": 0,
-        "term_taxonomy_id": 2,
+        "term_taxonomy_id": 1,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 6,
+        "count": 3,
         "filter": "raw",
-        "cat_ID": 2,
-        "category_count": 6,
+        "cat_ID": 1,
+        "category_count": 3,
         "category_description": "",
-        "cat_name": "Action",
-        "category_nicename": "action",
+        "cat_name": "Uncategorized",
+        "category_nicename": "uncategorized",
         "category_parent": 0
       }
     ],
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "",
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/governor-gavin-newsom-signed-a-package-of-climate-action-bills/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/test/"
   }
 }
