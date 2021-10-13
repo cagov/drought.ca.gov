@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-08T17:18:28",
-    "updated_date": "2021-10-12T21:00:46",
+    "updated_date": "2021-10-13T19:50:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,13 +16,13 @@
     "id": 282,
     "date": "2021-07-08T10:18:28",
     "date_gmt": "2021-07-08T17:18:28",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=282",
-    "modified": "2021-10-12T14:00:46",
-    "modified_gmt": "2021-10-12T21:00:46",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=282",
+    "modified": "2021-10-13T12:50:50",
+    "modified_gmt": "2021-10-13T19:50:50",
     "slug": "reduce-water-use",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/reduce-water-use/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/reduce-water-use/",
     "title": "Reduce water use",
     "excerpt": "<p>Governor Newsom calls on Californians to reduce water use by 15% to help protect water reserves if drought conditions continue. Drought emergency proclamations expanded to include Inyo, Marin, Mono, Monterey, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara and Santa Cruz counties.</p>\n",
     "author": "Chach Sikes",
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/reduce-water-use/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/reduce-water-use/",
       "page_title": "Reduce water use",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Reduce water use",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/reduce-water-use/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/reduce-water-use/",
       "open_graph_title": "Reduce water use",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Reduce water use",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "2021-07-08",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/reduce-water-use/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/reduce-water-use/"
   }
 }

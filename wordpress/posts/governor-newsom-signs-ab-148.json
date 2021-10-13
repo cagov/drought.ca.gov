@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-29T01:06:00",
-    "updated_date": "2021-10-12T20:58:21",
+    "updated_date": "2021-10-13T19:49:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,13 +16,13 @@
     "id": 687,
     "date": "2021-07-28T18:06:00",
     "date_gmt": "2021-07-29T01:06:00",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=687",
-    "modified": "2021-10-12T13:58:21",
-    "modified_gmt": "2021-10-12T20:58:21",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=687",
+    "modified": "2021-10-13T12:49:38",
+    "modified_gmt": "2021-10-13T19:49:38",
     "slug": "governor-newsom-signs-ab-148",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
     "title": "Governor Newsom signs AB 148",
     "excerpt": "<p>Governor Newsom signs&nbsp;AB 148, which allows state agencies to expedite funding for areas experiencing drought.</p>\n",
     "author": "Chach Sikes",
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
       "page_title": "Governor Newsom signs AB 148",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Governor Newsom signs AB 148",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
       "open_graph_title": "Governor Newsom signs AB 148",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Governor Newsom signs AB 148",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "2021-07-28",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/"
   }
 }

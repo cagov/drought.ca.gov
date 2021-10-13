@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-06-03T20:55:00",
-    "updated_date": "2021-10-12T21:01:54",
+    "updated_date": "2021-10-13T19:51:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,13 +16,13 @@
     "id": 496,
     "date": "2021-06-03T13:55:00",
     "date_gmt": "2021-06-03T20:55:00",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=496",
-    "modified": "2021-10-12T14:01:54",
-    "modified_gmt": "2021-10-12T21:01:54",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=496",
+    "modified": "2021-10-13T12:51:43",
+    "modified_gmt": "2021-10-13T19:51:43",
     "slug": "dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
     "title": "DWR Releases First Assessments of Initial Groundwater Sustainability Plans",
     "excerpt": "<p>The California Department of Water Resources (DWR) released its first assessments of groundwater sustainability plans developed by local agencies to meet the requirements of the Sustainable Groundwater Management Act (SGMA).</p>\n",
     "author": "Chach Sikes",
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
       "page_title": "DWR Releases First Assessments of Initial Groundwater Sustainability Plans",
       "page_description": "The California Department of Water Resources (DWR) released its first assessments of groundwater sustainability plans developed by local agencies to meet the requirements of the Sustainable Groundwater Management Act (SGMA).",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "DWR Releases First Assessments of Initial Groundwater Sustainability Plans",
       "meta_description": "The California Department of Water Resources (DWR) released its first assessments of groundwater sustainability plans developed by local agencies to meet the requirements of the Sustainable Groundwater Management Act (SGMA).",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/",
       "open_graph_title": "DWR Releases First Assessments of Initial Groundwater Sustainability Plans",
       "open_graph_description": "The California Department of Water Resources (DWR) released its first assessments of groundwater sustainability plans developed by local agencies to meet the requirements of the Sustainable Groundwater Management Act (SGMA).",
       "twitter_title": "DWR Releases First Assessments of Initial Groundwater Sustainability Plans",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "2021-06-03",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/dwr-releases-first-assessments-of-initial-groundwater-sustainability-plans/"
   }
 }

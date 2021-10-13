@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-09-10T21:06:00",
-    "updated_date": "2021-10-12T20:56:43",
+    "updated_date": "2021-10-13T19:47:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,13 +16,13 @@
     "id": 525,
     "date": "2021-09-10T14:06:00",
     "date_gmt": "2021-09-10T21:06:00",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=525",
-    "modified": "2021-10-12T13:56:43",
-    "modified_gmt": "2021-10-12T20:56:43",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=525",
+    "modified": "2021-10-13T12:47:58",
+    "modified_gmt": "2021-10-13T19:47:58",
     "slug": "drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
     "title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
     "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) announced that the Shasta Valley Wildlife Area in Siskiyou County will be closed to waterfowl hunting for the entirety of the 2021-22 season as a result of lost wetlands and waterfowl habitat due to drought conditions.</p>\n",
     "author": "Chach Sikes",
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
       "page_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/",
       "open_graph_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Drought Forces Closure of Shasta Valley Wildlife Area to Waterfowl Hunting; Other Northeastern Waterfowl Properties Impacted By Water Shortages",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "2021-09-10",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/drought-forces-closure-of-shasta-valley-wildlife-area-to-waterfowl-hunting-other-northeastern-waterfowl-properties-impacted-by-water-shortages/"
   }
 }
