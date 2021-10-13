@@ -74,7 +74,6 @@
       "endpoint": "@TODO"
     },
     "odi-publishing": {
-      "note": "@TODO see also wordpress/general.json",
       "logs": "",
       "polling-schedule": "@DOCS ncrontab ",
       "system-status": "@FEATURE",
