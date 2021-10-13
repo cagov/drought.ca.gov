@@ -101,7 +101,7 @@ const renderWordpressPostTitleDate = (
   }
 
 
-  let dateFormatted = new Date(itemDate).addDays(1).toLocaleDateString("en-us", {
+  let dateFormatted = new Date(itemDate).toLocaleDateString("en-us", {
     // weekday: false,
     month: "long",
     year: "numeric",
