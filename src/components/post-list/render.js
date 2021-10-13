@@ -123,7 +123,13 @@ const renderWordpressPostTitleDate = (
       ? `<div class="date">${dateFormatted}</div>`
       : ``;
 
-  let relativeLink = link ? link.split("pantheonsite.io")[1] : null;
+  let postLink;
+
+  if (format === "link" && meta && meta.hasOwnProperty("custom_post_link")) {
+    postLink = meta.custom_post_link;
+  } else {
+    postLink = link ? link.split("pantheonsite.io")[1] : null;
+  }
 
   let category_type = "";
   let showCategoryType = false;
@@ -157,7 +163,7 @@ const renderWordpressPostTitleDate = (
       <div class="post-list-item">
         ${category_type}
         <div class="link-title">
-          <a href="${relativeLink}">
+          <a href="${postLink}">
             ${title}
           </a>
         </div>
@@ -171,7 +177,7 @@ const renderWordpressPostTitleDate = (
     <div class="post-list-item">
       ${category_type}
       <div class="link-title">
-        <a href="${relativeLink}">
+        <a href="${postLink}">
           ${title}
         </a>
       </div>
