@@ -12,10 +12,10 @@ const getHeadMetaTags = function (item) {
   // const jsonData = item.data.data; // Different data mapping drought vs. cannabis @ISSUE
   const jsonData = item.data.wordpress.dataset.data;
 
-  // Q: Dups? @TODO
+  // WordPress API data
   item.data.meta = getMetaTagValue(jsonData, "excerpt");
-  item.data.excerpt = getMetaTagValue(jsonData, "excerpt"); // @TODO - same question
-  item.data.description = getMetaTagValue(jsonData, "excerpt"); // @TODO - same question
+  item.data.excerpt = getMetaTagValue(jsonData, "excerpt"); // Unstripped excerpt. WordPress manages excerpts and this allows HTML tags.
+  item.data.description = getMetaTagValue(jsonData, "excerpt"); // OG Meta does not allow HTML tags, but the description default should be the excerpt from WordPress
   // item.data.description = item.data.og_meta.page_description; // @TODO Remove dup?
 
   item.data.category = jsonData.category; // Content category label
@@ -41,18 +41,19 @@ const getOGMetaData = function (item) {
   const jsonData = item.data.wordpress.dataset.data;
 
   let default_og_meta = {
-    site_name: config.og_meta.site_name,
-    site_description:
-      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description, // @ISSUE This should have been excerpt raw (from wordpress-to-github), not rendered. Wrong field.
-    site_url: config.og_meta.site_url,
-    canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url, // @ISSUE check variable name
-    meta_canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url,
-
+    site_name: getMetaTagValue(jsonData, "site_name") || config.og_meta.site_name, // Allow overrides from editor data, but fall back to headless config file
+    site_description: getMetaTagValue(jsonData, "site_description") || config.og_meta.site_description,  // Allow overrides from editor data, but fall back to headless config file
+    site_url: config.og_meta.site_url,  // No not allow url overrides from editor
+    
     page_title: jsonData.title || config.og_meta.title,
     meta_title: jsonData.title || config.og_meta.title,
     open_graph_title: jsonData.title || config.og_meta.title,
     twitter_title: jsonData.title || config.og_meta.title,
+    
+    canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url, // @FEATURE change to data from meta structure, but need to hash out and agree on our schema structure as a team & publicly
+    meta_canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url,
 
+    // @TODO keyword support: jsonData.categories (from array)
     page_description:
       getMetaTagValue(jsonData, "excerpt") || config.og_meta.description,
     meta_description:
@@ -71,22 +72,26 @@ const getOGMetaData = function (item) {
     //   }
     page_social_image_width: config.og_meta.page_social_image_width,
     page_social_image_height: config.og_meta.page_social_image_height,
-    page_social_image_alt: config.og_meta.page_social_image_alt,
+    page_social_image_alt: config.og_meta.page_social_image_alt, // @TODO get media alt data @ISSUE
   };
-  // Set default data
+
+  // Set default data from config
   item.data.og_meta = default_og_meta;
 
+  // Replace default hash with local data
   if (jsonData.og_meta !== undefined && jsonData.og_meta.editor !== undefined) {
-    // If a page SEO editor is used, use values from WordPress API data (otherwise default to core wordpress or pre-formatted response if the conditionally available data is not set.)
-    // console.log("api", jsonData.og_meta);
+    // @NOTE: If a page SEO editor is used, use values from WordPress API data (otherwise default to core wordpress or pre-formatted response if the conditionally available data is not set.)
     Object.keys(jsonData.og_meta).map((meta) => {
       if (jsonData.og_meta[meta] !== "") {
         item.data.og_meta[meta] = jsonData.og_meta[meta];
+        if (typeof item.data.og_meta[meta] === "string") {
+          item.data.og_meta[meta] = item.data.og_meta[meta].replace(/(<([^>]+)>)/gi, ""); // No HTML tags allowed for meta content.
+        }
       }
     });
   }
 
-  // Replace static site URLs in og meta content
+  // Replace static site URLs in og meta content so that the URL path is correct.
   Object.keys(item.data.og_meta).map((field) => {
     if (item.data.og_meta[field] !== "") {
       let replacedField = replaceUrl(

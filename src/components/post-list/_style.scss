@@ -6,8 +6,8 @@ cagov-post-list {
     margin-bottom: 32px;
     
     .link-title {
-      margin-bottom: 8px;
-      font-weight: 700;
+      // margin-bottom: 8px;
+      // font-weight: 700;
 
       a {
         color: $primary;
@@ -28,46 +28,4 @@ cagov-post-list {
       }
     }
   }
-}
-
-.post-list-items {
-  .post-status .link-title .date {
-    font-weight: 700;
-  }
-}
-
-.post-list-results {
-  margin-top: 24px;
-  display: block;
-
-  .post-list-item {
-    margin-bottom: 32px;
-
-    .link-title {
-      margin-bottom: 8px;
-      font-weight: 700;
-
-      a {
-        color: $primary;
-        @include text-underline;
-        &:hover {
-          color: $primary-dark;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-
-  .excerpt {
-    .date {
-      display: inline;
-      font-weight: 700;
-      &:after {
-        content: (" — ");
-      }
-    }
-  }
-
-
-
 }
