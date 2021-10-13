@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-06T22:45:07",
-    "updated_date": "2021-07-08T13:34:34",
+    "updated_date": "2021-10-13T14:32:15",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,22 +16,22 @@
     "id": 176,
     "date": "2021-07-06T15:45:07",
     "date_gmt": "2021-07-06T22:45:07",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
-    "modified": "2021-07-08T06:34:34",
-    "modified_gmt": "2021-07-08T13:34:34",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+    "modified": "2021-10-13T07:32:15",
+    "modified_gmt": "2021-10-13T14:32:15",
     "slug": "2021_06_23_fl_0494_folsom_lake",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/homepage/2021_06_23_fl_0494_folsom_lake/#main",
-    "title": "Low water drought conditions at Folsom Lake",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/homepage/2021_06_23_fl_0494_folsom_lake/#main",
+    "title": "Social image title Low water drought conditions at Folsom Lake",
     "author": "Peggy Gartin",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg'><img width=\"300\" height=\"200\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021. Florence Low / California Department of Water Resources\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg 768w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p>Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation.  Photo taken June 23, 2021. </p>\n<p>Florence Low / California Department of Water Resources</p>\n",
-    "caption": "<p>Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation.  Photo taken June 23, 2021. </p>\n<p>Florence Low / California Department of Water Resources</p>\n",
-    "alt_text": "Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021. Florence Low / California Department of Water Resources",
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg'><img width=\"300\" height=\"200\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"Social image alt text Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021. Florence Low / California Department of Water Resources\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg 768w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p>Social image title  descriptionLow water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation.  Photo taken June 23, 2021. </p>\n<p>Florence Low / California Department of Water Resources</p>\n",
+    "caption": "<p>Social image title caption Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation.  Photo taken June 23, 2021. </p>\n<p>Florence Low / California Department of Water Resources</p>\n",
+    "alt_text": "Social image alt text Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021. Florence Low / California Department of Water Resources",
     "media_type": "image",
     "mime_type": "image/jpeg",
     "media_details": {
@@ -44,35 +44,35 @@
           "width": 300,
           "height": 200,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg"
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg"
         },
         "large": {
           "file": "2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
           "width": 750,
           "height": 500,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg"
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg"
         },
         "thumbnail": {
           "file": "2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
           "width": 150,
           "height": 150,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg"
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg"
         },
         "medium_large": {
           "file": "2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
           "width": 768,
           "height": 512,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg"
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg"
         },
         "full": {
           "file": "2021_06_23_FL_0494_Folsom_Lake.jpg",
           "width": 1200,
           "height": 800,
           "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg"
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg"
         }
       },
       "image_meta": {
@@ -93,58 +93,58 @@
       }
     },
     "post": 24,
-    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
     "sizes": [
       {
         "type": "full",
         "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
         "file": "2021_06_23_FL_0494_Folsom_Lake.jpg",
         "width": 1200,
         "height": 800,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg"
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg"
       },
       {
         "type": "medium_large",
         "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
         "file": "2021_06_23_FL_0494_Folsom_Lake-768x512.jpg",
         "width": 768,
         "height": 512,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg"
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-768x512.jpg"
       },
       {
         "type": "large",
         "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
         "file": "2021_06_23_FL_0494_Folsom_Lake-750x500.jpg",
         "width": 750,
         "height": 500,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg"
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-750x500.jpg"
       },
       {
         "type": "medium",
         "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg",
         "file": "2021_06_23_FL_0494_Folsom_Lake-300x200.jpg",
         "width": 300,
         "height": 200,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg"
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-300x200.jpg"
       },
       {
         "type": "thumbnail",
         "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
         "file": "2021_06_23_FL_0494_Folsom_Lake-150x150.jpg",
         "width": 150,
         "height": 150,
         "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg"
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake-150x150.jpg"
       }
     ],
     "path": "2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg"

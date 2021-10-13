@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-06-01T20:54:00",
-    "updated_date": "2021-09-21T21:17:34",
+    "updated_date": "2021-10-12T21:02:04",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 493,
     "date": "2021-06-01T13:54:00",
     "date_gmt": "2021-06-01T20:54:00",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=493",
-    "modified": "2021-09-21T14:17:34",
-    "modified_gmt": "2021-09-21T21:17:34",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=493",
+    "modified": "2021-10-12T14:02:04",
+    "modified_gmt": "2021-10-12T21:02:04",
     "slug": "extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/",
     "title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
-    "excerpt": "<p>With drought causing critically low flows and threatening the survival of coho salmon, an endangered species under both the California and Federal Endangered Species Acts, the State Water Resources Control Board today sent notices of water unavailability to 102 water right holders in the Scott River basin in Siskiyou County, urging them to stop diverting &#8230; <a title=\"Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/\" aria-label=\"More on Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River\">Read more</a></p>\n",
+    "excerpt": "<p>With drought causing critically low flows and threatening the survival of coho salmon, an endangered species under both the California and Federal Endangered Species Acts, the State Water Resources Control Board today sent notices of water unavailability to 102 water right holders in the Scott River basin in Siskiyou County, urging them to stop diverting &#8230; <a title=\"Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/\" aria-label=\"More on Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River\">Read more</a></p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
@@ -32,55 +32,69 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06012021_scott_river_notice_of_water_unavailability.pdf",
+      "custom_post_date": "2021-06-01",
+      "custom_post_location": ""
+    },
     "categories": [
       "News"
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "post",
-      "post": {
-        "post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06012021_scott_river_notice_of_water_unavailability.pdf",
-        "post_date": "June 1, 2021",
-        "locale": "en_US",
-        "gmt_offset": -7,
-        "timezone": "America/Los_Angeles",
-        "post_published_date_display": {
-          "i18n_locale_date": "June 1, 2021",
-          "i18n_locale_date_gmt": "June 1, 2021",
-          "i18n_locale_date_time": "June 1, 2021 1:54 pm",
-          "i18n_locale_date_time_gmt": "June 1, 2021 8:54 pm"
-        },
-        "post_modified_date_display": {
-          "i18n_locale_date": "September 21, 2021",
-          "i18n_locale_date_gmt": "September 21, 2021",
-          "i18n_locale_date_time": "September 21, 2021 2:17 pm",
-          "i18n_locale_date_time_gmt": "September 21, 2021 9:17 pm"
-        },
-        "post_location": "",
-        "event_date": "",
-        "event_end_date": "",
-        "event_start_time": "",
-        "event_end_time": ""
-      }
-    },
-    "site_settings": {
-      "site_name": "California drought action",
-      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "template": "post"
     },
     "og_meta": {
-      "_genesis_title": "",
-      "_genesis_description": "",
-      "_genesis_canonical_uri": "",
-      "_social_image_url": "",
-      "_open_graph_title": "",
-      "_open_graph_description": "",
-      "_twitter_title": "",
-      " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/",
+      "page_title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/",
+      "open_graph_title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Extremely Dry Conditions Prompt Restrictions for Some Water Right Holders on the Scott River",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/"
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 30,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_count": 30,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "event": null,
+    "custom_post_date": "2021-06-01",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/extremely-dry-conditions-prompt-restrictions-for-some-water-right-holders-on-the-scott-river/"
   }
 }
