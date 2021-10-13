@@ -2790,6 +2790,9 @@ cagov-post-list {
         .wp-block-column .post-list-results .post-list-item .link-title a:hover {
           color: #4A1106;
           text-decoration: none; }
+    .wp-block-column .post-list-results .post-list-item.status .date {
+      display: inline;
+      font-weight: 700; }
   .wp-block-column .post-list-results .excerpt .date {
     display: inline;
     font-weight: 700; }
