@@ -2720,15 +2720,12 @@ cagov-post-list {
   display: block; }
   cagov-post-list .post-list-item {
     margin-bottom: 32px; }
-    cagov-post-list .post-list-item .link-title {
-      margin-bottom: 8px;
-      font-weight: 700; }
-      cagov-post-list .post-list-item .link-title a {
-        color: #691808;
-        text-decoration: underline; }
-        cagov-post-list .post-list-item .link-title a:hover {
-          color: #4A1106;
-          text-decoration: none; }
+    cagov-post-list .post-list-item .link-title a {
+      color: #691808;
+      text-decoration: underline; }
+      cagov-post-list .post-list-item .link-title a:hover {
+        color: #4A1106;
+        text-decoration: none; }
   cagov-post-list .excerpt .date {
     display: inline;
     font-weight: 700; }
