@@ -134,7 +134,7 @@ const renderWordpressPostTitleDate = (
 
   if (format === "status") {
     return `
-      <div class="post-list-item">
+      <div class="post-list-item status">
         <div class="link-title">
           ${getDate}
         </div>

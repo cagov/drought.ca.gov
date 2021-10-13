@@ -91,6 +91,13 @@ cagov-post-list {
         }
       }
     }
+
+    &.status {
+      .date {
+        display: inline;
+        font-weight: 700;
+      }
+    }
   }
 
   .excerpt {
