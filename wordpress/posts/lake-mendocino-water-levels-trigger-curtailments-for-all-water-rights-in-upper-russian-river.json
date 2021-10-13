@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-08-02T21:01:00",
-    "updated_date": "2021-10-12T20:58:10",
+    "updated_date": "2021-10-13T19:49:27",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,13 +16,13 @@
     "id": 510,
     "date": "2021-08-02T14:01:00",
     "date_gmt": "2021-08-02T21:01:00",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=510",
-    "modified": "2021-10-12T13:58:10",
-    "modified_gmt": "2021-10-12T20:58:10",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=510",
+    "modified": "2021-10-13T12:49:27",
+    "modified_gmt": "2021-10-13T19:49:27",
     "slug": "lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/",
     "title": "Lake Mendocino Water Levels Trigger Curtailments for all Water Rights in Upper Russian River",
     "excerpt": "<p>With California experiencing a historic drought amid worsening climate change impacts, the state is responding urgently to address acute water supply shortfalls in affected areas.</p>\n",
     "author": "Chach Sikes",
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/",
       "page_title": "Lake Mendocino Water Levels Trigger Curtailments for all Water Rights in Upper Russian River",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Lake Mendocino Water Levels Trigger Curtailments for all Water Rights in Upper Russian River",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/",
       "open_graph_title": "Lake Mendocino Water Levels Trigger Curtailments for all Water Rights in Upper Russian River",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Lake Mendocino Water Levels Trigger Curtailments for all Water Rights in Upper Russian River",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "2021-08-02",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/lake-mendocino-water-levels-trigger-curtailments-for-all-water-rights-in-upper-russian-river/"
   }
 }

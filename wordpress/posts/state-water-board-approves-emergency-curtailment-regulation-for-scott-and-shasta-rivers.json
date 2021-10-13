@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-08-17T21:04:00",
-    "updated_date": "2021-10-12T20:57:32",
+    "updated_date": "2021-10-13T19:48:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 517,
     "date": "2021-08-17T14:04:00",
     "date_gmt": "2021-08-17T21:04:00",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=517",
-    "modified": "2021-10-12T13:57:32",
-    "modified_gmt": "2021-10-12T20:57:32",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=517",
+    "modified": "2021-10-13T12:48:44",
+    "modified_gmt": "2021-10-13T19:48:44",
     "slug": "state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/",
     "title": "State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers",
-    "excerpt": "<p>With climate change-induced drought causing critical low flows in the Scott and Shasta Rivers and threatening the survival of multiple fish species, the State Water Resources Control Board today approved an emergency curtailment regulation that includes measures to help maintain minimum flows to protect fish, ensure supplies for human health and livestock needs, and encourage &#8230; <a title=\"State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/\" aria-label=\"More on State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers\">Read more</a></p>\n",
+    "excerpt": "<p>With climate change-induced drought causing critical low flows in the Scott and Shasta Rivers and threatening the survival of multiple fish species, the State Water Resources Control Board today approved an emergency curtailment regulation that includes measures to help maintain minimum flows to protect fish, ensure supplies for human health and livestock needs, and encourage &#8230; <a title=\"State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/\" aria-label=\"More on State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers\">Read more</a></p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/",
       "page_title": "State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/",
       "open_graph_title": "State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "State Water Board Approves Emergency Curtailment Regulation for Scott and Shasta Rivers",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "2021-08-17",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-approves-emergency-curtailment-regulation-for-scott-and-shasta-rivers/"
   }
 }
