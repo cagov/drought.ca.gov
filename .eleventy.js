@@ -27,11 +27,9 @@ module.exports = function (eleventyConfig) {
   };
 
   eleventyConfig.addCollection("manualcontent", function (collection) {
-
     let output = [];
     collection.getAll().forEach((item) => {
       if (item.data.wordpress.dataset) {
-     
         let replaceUrls = config.build.replace_urls;
 
         replaceUrls.map((replacement) => {
@@ -39,7 +37,7 @@ module.exports = function (eleventyConfig) {
           item.data.wordpress.content = replaceUrl(
             item.data.wordpress.content,
             replacement,
-            config.build.static_site_url + "/", 
+            config.build.static_site_url + "/"
           );
         });
 
@@ -50,18 +48,28 @@ module.exports = function (eleventyConfig) {
         item.data.og_meta = item.data.wordpress.dataset.data.og_meta; // Get head tags
         item.data.category = item.data.wordpress.dataset.data.category; // @ISSUE make sure this is right & handle if category is multiple fields
         item.data.id = item.data.wordpress.dataset.data.id; // @DOCS how are we using this ID?
-        
+
         item = getHeadMetaTags(item);
 
-        // @ISSUE Content editors hardcoding WP to the 11ty build configuration
-        // Fix all hard-coded source domains pointing to wp-content/uploads (changed to media folder.) Needs to come after head tags are set up.
-        // @ISSUE different from cannabis.ca.gov media folder location.
+        // console.log(" item.wordpress.content",  item.data.wordpress.content);
         item.data.wordpress.content = replaceUrl(
           item.data.wordpress.content,
           "/wp-content/uploads/", // @TODO connect to configs when we are ready.
-          "/media/" 
+          "/media/"
         );
 
+        // Fix all hard-coded source domains in meta content that point to wp-content/uploads.Changed to media folder. 
+        // This Needs to come after head tags are set up.
+        // @ISSUE locations are different from cannabis.ca.gov media folder location.
+        Object.keys(item.data.og_meta).map((meta) => {
+          if (typeof item.data.og_meta[meta] === "string") {
+            item.data.og_meta[meta] = replaceUrl(
+              item.data.og_meta[meta],
+              "/wp-content/uploads/", // @TODO connect to configs when we are ready.
+              "/media/"
+            );
+          }
+        });
       }
       output.push(item);
     });
