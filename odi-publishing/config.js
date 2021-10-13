@@ -3,7 +3,7 @@ const main_test_pantheon = require('./odi-publishing.main-test-pantheon.json'); 
 // const staging = require('./odi-publishing.staging.json'); // Default settings.
 
 const getConfig = () => {
-    var branch = "main_test_pantheon"; // @TEMP
+    var branch = "main"; // @TEMP
     // @TODO connect .yml or local env variable branch name & return if branch exists.
     
     switch (branch) {

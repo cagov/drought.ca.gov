@@ -72,7 +72,7 @@ module.exports = function(eleventyConfig) {
         let replaceUrls = [
           "http://drought.ca.gov/",
           "https://drought.ca.gov/",
-          "https://test-drought-ca-gov.pantheonsite.io/",
+          "https://live-drought-ca-gov.pantheonsite.io/",
         ];
         item.template.frontMatter.content = replaceUrl(
           item.template.frontMatter.content,

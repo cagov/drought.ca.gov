@@ -13,7 +13,7 @@
         "PostPath": "wordpress/posts",
         "PagePath": "wordpress/pages",
         "MediaPath": "wordpress/media",
-        "GeneralFilePath": "wordpress/general/general.json",
+        "GeneralFilePath": "odi-publishing/odi-publishing.json",
         "ExcludeProperties": [
           "content",
           "_links"
@@ -29,7 +29,7 @@
         "PostPath": "wordpress/posts",
         "PagePath": "wordpress/pages",
         "MediaPath": "wordpress/media",
-        "GeneralFilePath": "wordpress/general/general.json",
+        "GeneralFilePath": "odi-publishing/odi-publishing.json",
         "ExcludeProperties": [
           "content",
           "_links"
