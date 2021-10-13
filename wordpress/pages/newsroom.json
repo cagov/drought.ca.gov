@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:51:19",
-    "updated_date": "2021-10-01T19:49:20",
+    "updated_date": "2021-10-13T19:43:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:51:19",
     "date_gmt": "2021-07-04T14:51:19",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=37",
-    "modified": "2021-10-01T12:49:20",
-    "modified_gmt": "2021-10-01T19:49:20",
+    "modified": "2021-10-13T12:43:31",
+    "modified_gmt": "2021-10-13T19:43:31",
     "slug": "newsroom",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
     "title": "Newsroom",
-    "excerpt": "<p>Latest news Consolidation Improves Water Reliability and Drought Resilience for Placer County Community September 23, 2021 In an effort to improve water reliability and drought resilience, Placer County Water Agency (PCWA) recently completed a consolidation project with the Castle City Mobile Home Park in Newcastle with funding assistance from the State Water Resources Control Board. &#8230; <a title=\"Newsroom\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/newsroom/\" aria-label=\"More on Newsroom\">Read more</a></p>\n",
+    "excerpt": "<p>Latest news Media contacts California Environmental Protection Agency&nbsp; California Natural Resources Agency&nbsp; California Office of Emergency Services&nbsp; Department of Water Resources California State Water Resources Control Board Department of Food and Agricultural Department of Fish and Wildlife</p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -43,32 +43,67 @@
       "template": "page"
     },
     "og_meta": {
-      "_genesis_title": [
-        "Newsroom"
-      ],
-      "_genesis_description": [
-        "Learn more about current conditions, the state’s response, and informational resources available to the public."
-      ],
-      "_genesis_canonical_uri": "",
-      "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png"
-      ],
-      "_open_graph_title": [
-        "Newsroom &#x2d; California drought action"
-      ],
-      "_open_graph_description": [
-        "Learn more about current conditions, the state’s response and informational resources available to the public."
-      ],
-      "_twitter_title": "",
-      " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
-    },
-    "site_settings": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
+      "page_title": "Newsroom",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Newsroom",
+      "meta_description": "Learn more about current conditions, the state’s response, and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/",
+      "open_graph_title": "Newsroom &#x2d; California drought action",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Newsroom",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "count": 30,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_count": 30,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 15,
+        "name": "launch content",
+        "slug": "launch-content",
+        "term_group": 0,
+        "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "count": 6,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom/"
   }
 }

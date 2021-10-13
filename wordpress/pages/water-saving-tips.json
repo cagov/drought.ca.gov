@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2021-07-15T23:32:03",
+    "updated_date": "2021-10-13T19:43:06",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-06T16:09:05",
     "date_gmt": "2021-07-06T23:09:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=182",
-    "modified": "2021-07-15T16:32:03",
-    "modified_gmt": "2021-07-15T23:32:03",
+    "modified": "2021-10-13T12:43:06",
+    "modified_gmt": "2021-10-13T19:43:06",
     "slug": "water-saving-tips",
     "status": "publish",
     "type": "page",
@@ -31,42 +31,43 @@
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "single-column",
     "meta": [],
     "categories": [],
     "tags": [],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "single-column"
     },
     "og_meta": {
-      "_genesis_title": [
-        "Water&#x2d;saving tips"
-      ],
-      "_genesis_description": [
-        "The best tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
-      ],
-      "_genesis_canonical_uri": "",
-      "_social_image_url": [
-        "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png"
-      ],
-      "_open_graph_title": [
-        "California drought action &#x2d; Water&#x2d;saving tips"
-      ],
-      "_open_graph_description": [
-        "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
-      ],
-      "_twitter_title": [
-        "California drought action &#x2d; Water&#x2d;saving tips"
-      ],
-      " _tsf_title_no_blogname": "",
-      "og_rendered": "<meta property=\"og:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta property=\"og:image:width\" content=\"1200\" />\r\n<meta property=\"og:image:height\" content=\"630\" />\r\n<meta property=\"og:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n<meta property=\"og:locale\" content=\"en_US\" />\r\n<meta property=\"og:type\" content=\"website\" />\r\n<meta property=\"og:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta property=\"og:site_name\" content=\"California drought action\" />\r\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\r\n<meta name=\"twitter:title\" content=\"Untitled &#x2d; California drought action\" />\r\n<meta name=\"twitter:image\" content=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg\" />\r\n<meta name=\"twitter:image:width\" content=\"1200\" />\r\n<meta name=\"twitter:image:height\" content=\"630\" />\r\n<meta name=\"twitter:image:alt\" content=\"Low water drought conditions at Folsom Lake exposed huge open spaces, which are underwater during normal water level conditions. Folsom Lake is part of the Central Valley Project, operated by the U.S. Department of the Interior and Bureau of Reclamation. Part of the Central Valley Project, Folsom Lake is operated by the U.S. Department of the Interior and Bureau of Reclamation. Photo taken June 23, 2021.\" />\r\n"
-    },
-    "site_settings": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "url": "https://live-drought-ca-gov.pantheonsite.io",
-      "wpurl": "https://live-drought-ca-gov.pantheonsite.io"
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+      "page_title": "Water-saving tips",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Water&#x2d;saving tips",
+      "meta_description": "The best tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+      "open_graph_title": "California drought action &#x2d; Water&#x2d;saving tips",
+      "open_graph_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day.",
+      "twitter_title": "California drought action &#x2d; Water&#x2d;saving tips",
+      "twitter_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
     },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/"
   }
 }
