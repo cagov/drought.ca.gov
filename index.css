@@ -85,7 +85,18 @@
   --cagov-highlight: #FEC02F;
   --cagov-primary: #004ABC;
   --cagov-primary-dark: #003484;
-  --cagov-secondary: #FF8000; }
+  --cagov-secondary: #FF8000;
+  --white: #fff;
+  --gray-100: #f9f9fa;
+  --gray-200: #ededef;
+  --gray-300: #e1e0e3;
+  --gray-400: #D3D2D6;
+  --gray-500: #C4C3C8;
+  --gray-600: #B3B2B8;
+  --gray-700: #A09FA7;
+  --gray-800: #3F3E4D;
+  --gray-900: #3F3E4D;
+  --black: #000; }
 
 /* spasing, margin and padding values */
 /* Tablet and wider */
@@ -1785,9 +1796,7 @@ article {
   flex-grow: 1; }
 
 .with-sidebar.has-sidebar-left .main-content-default > :last-child,
-.with-sidebar.has-sidebar-left .main-content-ds
-.ds-content-layout
-> .everylayout:last-child {
+.with-sidebar.has-sidebar-left .main-content-ds .ds-content-layout > .everylayout:last-child {
   flex-basis: 0;
   flex-grow: 999;
   min-width: calc(50% - var(--s1)); }
@@ -1836,7 +1845,7 @@ article {
   .with-sidebar .ds-content-layout {
     display: block; }
   .with-sidebar.page-container-ds main {
-    margin-left: inherit;
+    margin-left: 0 !important;
     margin-top: 32px; }
   .with-sidebar main {
     margin-top: 0;
@@ -1923,6 +1932,7 @@ main .wp-block-image img {
   background-color: var(--primary-color, #33705b);
   color: white;
   padding: 0.5556rem;
+  margin: 0 0 1rem 0;
   border-radius: 0.2778rem;
   font-weight: bold;
   display: inline-block;
@@ -1943,8 +1953,7 @@ main .wp-block-image img {
 /* buttons generic styles */
 /* Code generic styles */
 code,
-samp,
-time {
+samp {
   background: var(--gray-100, #f9f9fa);
   color: var(--gray-900, #3f3e4d);
   padding: 2.5px 5px;
@@ -2045,16 +2054,22 @@ p {
   margin-bottom: 1rem; }
 
 /* New styles, need home */
-ul {
+ul, ol {
   margin-bottom: 1rem; }
 
-ul li {
+ul li, ol li {
   margin-bottom: 0.5rem; }
 
-/* Update position list element */
-main ul li {
-  list-style-position: outside;
+main ol li, main ul li {
   margin-left: 32px; }
+
+main ol li {
+  padding: 0 16px;
+  margin-top: 0.5rem; }
+
+/* Update position list element */
+main ul li, main ol li {
+  list-style-position: outside; }
 
 h1,
 .h1 {
@@ -2140,7 +2155,7 @@ ul.list-highlight li {
   ul.list-highlight li span.has-black-color {
     margin-top: 1rem;
     font-size: var(--body-text, 1.125rem);
-    font-weight: var(--font-weight-bold, 400);
+    font-weight: var(--font-weight-regular, 400);
     display: block;
     line-height: 1.6; }
 
@@ -2720,16 +2735,65 @@ cagov-post-list {
   display: block; }
   cagov-post-list .post-list-item {
     margin-bottom: 32px; }
-    cagov-post-list .post-list-item .link-title a {
-      color: #691808;
-      text-decoration: underline; }
-      cagov-post-list .post-list-item .link-title a:hover {
-        color: #4A1106;
-        text-decoration: none; }
+    cagov-post-list .post-list-item .link-title {
+      margin-bottom: 8px;
+      font-weight: 700; }
+      cagov-post-list .post-list-item .link-title a {
+        color: #691808;
+        text-decoration: underline; }
+        cagov-post-list .post-list-item .link-title a:hover {
+          color: #4A1106;
+          text-decoration: none; }
   cagov-post-list .excerpt .date {
     display: inline;
     font-weight: 700; }
     cagov-post-list .excerpt .date:after {
+      content: " — "; }
+
+.post-list-items .post-status .link-title .date {
+  font-weight: 700; }
+
+.post-list-results {
+  margin-top: 24px;
+  display: block; }
+  .post-list-results .post-list-item {
+    margin-bottom: 32px; }
+    .post-list-results .post-list-item .link-title {
+      margin-bottom: 8px;
+      font-weight: 700;
+      font-size: 28px; }
+      .post-list-results .post-list-item .link-title a {
+        color: #691808;
+        text-decoration: underline; }
+        .post-list-results .post-list-item .link-title a:hover {
+          color: #4A1106;
+          text-decoration: none; }
+  .post-list-results .excerpt .date {
+    display: inline;
+    font-weight: 700; }
+    .post-list-results .excerpt .date:after {
+      content: " — "; }
+
+/* News blocks from WordPress */
+.wp-block-column .post-list-results {
+  margin-top: 24px;
+  display: block; }
+  .wp-block-column .post-list-results .post-list-item {
+    margin-bottom: 32px; }
+    .wp-block-column .post-list-results .post-list-item .link-title {
+      margin-bottom: 0px;
+      font-weight: normal;
+      font-size: 18px; }
+      .wp-block-column .post-list-results .post-list-item .link-title a {
+        color: #691808;
+        text-decoration: underline; }
+        .wp-block-column .post-list-results .post-list-item .link-title a:hover {
+          color: #4A1106;
+          text-decoration: none; }
+  .wp-block-column .post-list-results .excerpt .date {
+    display: inline;
+    font-weight: 700; }
+    .wp-block-column .post-list-results .excerpt .date:after {
       content: " — "; }
 
 /* copied from block */
