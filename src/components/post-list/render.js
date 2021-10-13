@@ -88,11 +88,20 @@ const renderWordpressPostTitleDate = (
   //www.w3schools.com/jsref/jsref_tolocalestring.asp
   
   let itemDate = date;
+
   if (custom_post_date !== null) {
     itemDate = custom_post_date;
   }
 
-  let dateFormatted = new Date(itemDate).toLocaleDateString("en-us", {
+  // Hack to fix GMT collision - something different on renderer. @BUG @ISSUE
+  Date.prototype.addDays = function(days) {
+    var date = new Date(this.valueOf());
+    date.setDate(date.getDate() + days);
+    return date;
+  }
+
+
+  let dateFormatted = new Date(itemDate).addDays(1).toLocaleDateString("en-us", {
     // weekday: false,
     month: "long",
     year: "numeric",
