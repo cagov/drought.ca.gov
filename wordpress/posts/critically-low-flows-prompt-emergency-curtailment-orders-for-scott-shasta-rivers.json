@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-06T21:07:00",
-    "updated_date": "2021-10-13T19:56:03",
+    "created_date": "2021-09-10T21:07:00",
+    "updated_date": "2021-10-13T19:58:24",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 526,
-    "date": "2021-10-06T14:07:00",
-    "date_gmt": "2021-10-06T21:07:00",
+    "date": "2021-09-10T14:07:00",
+    "date_gmt": "2021-09-10T21:07:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=526",
-    "modified": "2021-10-13T12:56:03",
-    "modified_gmt": "2021-10-13T19:56:03",
+    "modified": "2021-10-13T12:58:24",
+    "modified_gmt": "2021-10-13T19:58:24",
     "slug": "critically-low-flows-prompt-emergency-curtailment-orders-for-scott-shasta-rivers",
     "status": "publish",
     "type": "post",
