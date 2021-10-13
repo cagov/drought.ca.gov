@@ -12,10 +12,10 @@ const getHeadMetaTags = function (item) {
   // const jsonData = item.data.data; // Different data mapping drought vs. cannabis @ISSUE
   const jsonData = item.data.wordpress.dataset.data;
 
-  // Q: Dups? @TODO
+  // WordPress API data
   item.data.meta = getMetaTagValue(jsonData, "excerpt");
-  item.data.excerpt = getMetaTagValue(jsonData, "excerpt"); // @TODO - same question
-  item.data.description = getMetaTagValue(jsonData, "excerpt"); // @TODO - same question
+  item.data.excerpt = getMetaTagValue(jsonData, "excerpt"); // Unstripped excerpt. WordPress manages excerpts and this allows HTML tags.
+  item.data.description = getMetaTagValue(jsonData, "excerpt"); // OG Meta does not allow HTML tags, but the description default should be the excerpt from WordPress
   // item.data.description = item.data.og_meta.page_description; // @TODO Remove dup?
 
   item.data.category = jsonData.category; // Content category label
@@ -43,11 +43,11 @@ const getOGMetaData = function (item) {
   let default_og_meta = {
     site_name: config.og_meta.site_name,
     site_description:
-      getMetaTagValue(jsonData, "excerpt") || config.og_meta.description, // @ISSUE This should have been excerpt raw (from wordpress-to-github), not rendered. Wrong field.
+      getMetaTagValue(jsonData, "excerpt") || config.og_meta.site_description,
     site_url: config.og_meta.site_url,
     canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url, // @ISSUE check variable name
     meta_canonical_url: jsonData.wordpress_url || config.og_meta.canonical_url,
-
+    // keywords: jsonData.
     page_title: jsonData.title || config.og_meta.title,
     meta_title: jsonData.title || config.og_meta.title,
     open_graph_title: jsonData.title || config.og_meta.title,
@@ -75,7 +75,7 @@ const getOGMetaData = function (item) {
   };
   // Set default data
   item.data.og_meta = default_og_meta;
-
+  console.log(jsonData.og_meta);
   if (jsonData.og_meta !== undefined && jsonData.og_meta.editor !== undefined) {
     // If a page SEO editor is used, use values from WordPress API data (otherwise default to core wordpress or pre-formatted response if the conditionally available data is not set.)
     // console.log("api", jsonData.og_meta);

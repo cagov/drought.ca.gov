@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>{{ page_meta.page_title | safe }}</title>
+  <title>{{ og_meta.page_title | safe }}</title> 
   <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
-	<meta name="description" content="{{ description | safe }}" />
+	<meta name="description" content="{{ og_meta.page_description | safe }}" />
 	<meta name="keywords" content="California, government, drought, drought.ca.gov" />
 	<!-- http://t.co/dKP3o1e -->
 	<meta name="HandheldFriendly" content="True">
@@ -33,7 +33,6 @@
   <meta name="twitter:image" content="{{ og_meta.page_social_image_url | safe }}" />
   <meta name="twitter:image:width" content="{{ og_meta.page_social_image_width | safe }}" />
   <meta name="twitter:image:height" content="{{ og_meta.page_social_image_height | safe }}" />
-
 
   <!-- Favicon @TODO needs asset folder to be exposed to docs -->
   <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
