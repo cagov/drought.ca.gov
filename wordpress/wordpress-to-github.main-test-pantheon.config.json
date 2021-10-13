@@ -13,14 +13,14 @@
         "PostPath": "wordpress/posts",
         "PagePath": "wordpress/pages",
         "MediaPath": "wordpress/media",
-        "GeneralFilePath": "wordpress/general/general.json",
+        "GeneralFilePath": "odi-publishing/odi-publishing.main-test-pantheon.json",
         "ExcludeProperties": [
           "content",
           "_links"
         ],
         "tags_exclude": [
-          "staging-test",
-          "development-test"
+          "staging",
+          "development"
         ]
       }
     ]
