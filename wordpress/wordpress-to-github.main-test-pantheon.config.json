@@ -13,7 +13,7 @@
         "PostPath": "wordpress/posts",
         "PagePath": "wordpress/pages",
         "MediaPath": "wordpress/media",
-        "GeneralFilePath": "odi-publishing/odi-publishing.main-test-pantheon.json",
+        "GeneralFilePath": "wordpress/general",
         "ExcludeProperties": [
           "content",
           "_links"
