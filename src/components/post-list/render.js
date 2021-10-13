@@ -106,7 +106,7 @@ const renderWordpressPostTitleDate = (
 
   let getExcerpt =
     attributes.showExcerpt === "true" || attributes.showExcerpt === true
-      ? `<div class="excerpt"><p>${excerpt}</p></div>`
+      ? `<div class="excerpt">${excerpt}</div>`
       : ``;
   let getDate =
     attributes.showPublishedDate === "true" ||
@@ -134,7 +134,7 @@ const renderWordpressPostTitleDate = (
 
   if (format === "status") {
     return `
-      <div class="post-list-item">
+      <div class="post-list-item status">
         <div class="link-title">
           ${getDate}
         </div>
