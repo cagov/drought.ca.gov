@@ -29,15 +29,105 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png'><img width=\"1\" height=\"1\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n<p>https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png</p>\n",
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png'><img width=\"300\" height=\"157\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-300x157.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-300x157.png 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-750x393.png 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png 759w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n<p>https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png</p>\n",
     "caption": "<p>https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png</p>\n",
     "alt_text": "",
     "media_type": "image",
     "mime_type": "image/png",
-    "media_details": {},
+    "media_details": {
+      "width": 759,
+      "height": 398,
+      "file": "2021/07/cropped-save-water-bottle.png",
+      "sizes": {
+        "medium": {
+          "file": "cropped-save-water-bottle-300x157.png",
+          "width": 300,
+          "height": 157,
+          "mime_type": "image/png",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-300x157.png"
+        },
+        "large": {
+          "file": "cropped-save-water-bottle-750x393.png",
+          "width": 750,
+          "height": 393,
+          "mime_type": "image/png",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-750x393.png"
+        },
+        "thumbnail": {
+          "file": "cropped-save-water-bottle-150x150.png",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/png",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-150x150.png"
+        },
+        "full": {
+          "file": "cropped-save-water-bottle.png",
+          "width": 759,
+          "height": 398,
+          "mime_type": "image/png",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
     "post": null,
     "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2021/07/cropped-save-water-bottle.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png",
+        "file": "cropped-save-water-bottle.png",
+        "width": 759,
+        "height": 398,
+        "mime_type": "image/png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle.png"
+      },
+      {
+        "type": "large",
+        "path": "2021/07/cropped-save-water-bottle-750x393.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-750x393.png",
+        "file": "cropped-save-water-bottle-750x393.png",
+        "width": 750,
+        "height": 393,
+        "mime_type": "image/png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-750x393.png"
+      },
+      {
+        "type": "medium",
+        "path": "2021/07/cropped-save-water-bottle-300x157.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-300x157.png",
+        "file": "cropped-save-water-bottle-300x157.png",
+        "width": 300,
+        "height": 157,
+        "mime_type": "image/png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-300x157.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2021/07/cropped-save-water-bottle-150x150.png",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-150x150.png",
+        "file": "cropped-save-water-bottle-150x150.png",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/png",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-save-water-bottle-150x150.png"
+      }
+    ],
     "path": "2021/07/cropped-save-water-bottle.png"
   }
 }
