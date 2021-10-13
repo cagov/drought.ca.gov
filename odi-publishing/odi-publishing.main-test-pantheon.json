@@ -17,7 +17,7 @@
   },
   "data": {
     "name": "California drought action",
-    "description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+    "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
     "url": "https://test-drought-ca-gov.pantheonsite.io",
     "home": "https://test-drought-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
