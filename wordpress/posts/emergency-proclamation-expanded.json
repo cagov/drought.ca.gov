@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-05-10T12:00:00",
-    "updated_date": "2021-07-08T17:17:27",
+    "updated_date": "2021-10-13T02:40:44",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-05-10T12:00:00",
     "date_gmt": "2021-05-10T12:00:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=46",
-    "modified": "2021-07-08T10:17:27",
-    "modified_gmt": "2021-07-08T17:17:27",
+    "modified": "2021-10-12T19:40:44",
+    "modified_gmt": "2021-10-13T02:40:44",
     "slug": "emergency-proclamation-expanded",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "status",
     "meta": {
       "custom_post_link": "",
-      "custom_post_date": "May 10, 2021",
+      "custom_post_date": "2021-05-10",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "May 10, 2021",
+    "custom_post_date": "2021-05-10",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/"
   }
 }
