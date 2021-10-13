@@ -9,5 +9,7 @@ git restore --source=HEAD --staged --worktree -- \
     wordpress/posts \ 
     wordpress/pages \ 
     wordpress/media \ 
-    wordpress/config/wordpress-to-github.development.config.json
+    wordpress/config \
+    odi-publishing \
+    .github/workflows
 git commit -m "Selective merge: development into main"

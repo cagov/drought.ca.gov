@@ -8,5 +8,8 @@ git merge --no-ff --no-commit main
 git restore --source=HEAD --staged --worktree -- \
     wordpress/posts \
     wordpress/pages \
-    wordpress/media
+    wordpress/media \
+    wordpress/config \
+    odi-publishing \
+    .github/workflows
 git commit -m "Selective merge: main into development"

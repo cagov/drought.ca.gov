@@ -64,15 +64,15 @@ const getOGMetaData = function (item) {
       getMetaTagValue(jsonData, "excerpt") || config.og_meta.description,
 
     page_social_image_url: config.og_meta.page_social_image_url,
+    page_social_image_width: config.og_meta.page_social_image_width,
+    page_social_image_height: config.og_meta.page_social_image_height,
+    page_social_image_alt: config.og_meta.page_social_image_alt, // @TODO get media alt data @ISSUE
     // @TODO - check this
     //  if (jsonData.media) {
     //   const featuredMedia = jsonData.media.find((x) => x.featured);
     //   if (featuredMedia) {
     //     item.data.previewimage = upload_folder + featuredMedia.path;
     //   }
-    page_social_image_width: config.og_meta.page_social_image_width,
-    page_social_image_height: config.og_meta.page_social_image_height,
-    page_social_image_alt: config.og_meta.page_social_image_alt, // @TODO get media alt data @ISSUE
   };
 
   // Set default data from config
