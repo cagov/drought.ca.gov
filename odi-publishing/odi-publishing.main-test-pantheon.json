@@ -7,13 +7,13 @@
   },
   "og_meta": {
     "site_name": "California drought action",
+    "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
     "site_social_url": "",
     "page_social_image_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/2021/09/cropped-drought-photo.png",
     "page_social_image_alt": "California Drought Action",
     "site_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
     "page_social_image_width": 1200,
-    "page_social_image_height": 630,
-    "description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    "page_social_image_height": 630
   },
   "build": {
     "input": "pages",
