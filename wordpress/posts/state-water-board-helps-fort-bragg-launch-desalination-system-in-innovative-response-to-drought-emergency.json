@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-15T23:08:40",
-    "updated_date": "2021-10-15T23:18:14",
+    "updated_date": "2021-10-15T23:22:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-15T16:08:40",
     "date_gmt": "2021-10-15T23:08:40",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=748",
-    "modified": "2021-10-15T16:18:14",
-    "modified_gmt": "2021-10-15T23:18:14",
+    "modified": "2021-10-15T16:22:58",
+    "modified_gmt": "2021-10-15T23:22:58",
     "slug": "state-water-board-helps-fort-bragg-launch-desalination-system-in-innovative-response-to-drought-emergency",
     "status": "publish",
     "type": "post",
@@ -33,8 +33,8 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "",
-      "custom_post_date": "2021-10-15",
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr10122021-fort-bragg-desalination.pdf",
+      "custom_post_date": "2021-10-12",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "2021-10-15",
+    "custom_post_date": "2021-10-12",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-helps-fort-bragg-launch-desalination-system-in-innovative-response-to-drought-emergency/"
   }
 }
