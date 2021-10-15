@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-04T22:33:00",
-    "updated_date": "2021-10-15T22:47:26",
+    "updated_date": "2021-10-15T22:50:36",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-04T15:33:00",
     "date_gmt": "2021-10-04T22:33:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=744",
-    "modified": "2021-10-15T15:47:26",
-    "modified_gmt": "2021-10-15T22:47:26",
+    "modified": "2021-10-15T15:50:36",
+    "modified_gmt": "2021-10-15T22:50:36",
     "slug": "feather-river-fish-hatchery-seeks-to-increase-production",
     "status": "publish",
     "type": "post",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "",
-      "custom_post_date": "",
+      "custom_post_date": "2021-10-04",
       "custom_post_location": ""
     },
     "categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "",
+    "custom_post_date": "2021-10-04",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production/"
   }
 }
