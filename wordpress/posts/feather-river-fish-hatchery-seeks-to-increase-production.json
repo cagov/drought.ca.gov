@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-15T22:33:01",
-    "updated_date": "2021-10-15T22:33:01",
+    "created_date": "2021-10-04T22:33:00",
+    "updated_date": "2021-10-15T22:47:26",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,15 +14,15 @@
   },
   "data": {
     "id": 744,
-    "date": "2021-10-15T15:33:01",
-    "date_gmt": "2021-10-15T22:33:01",
+    "date": "2021-10-04T15:33:00",
+    "date_gmt": "2021-10-04T22:33:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=744",
-    "modified": "2021-10-15T15:33:01",
-    "modified_gmt": "2021-10-15T22:33:01",
-    "slug": "feather-river-fish-hatchery-seeks-to-increase-production-offset-drought-impacts-to-feather-river-chinook-salmon-populations",
+    "modified": "2021-10-15T15:47:26",
+    "modified_gmt": "2021-10-15T22:47:26",
+    "slug": "feather-river-fish-hatchery-seeks-to-increase-production",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production-offset-drought-impacts-to-feather-river-chinook-salmon-populations/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production/",
     "title": "Feather River Fish Hatchery Seeks to Increase Production, Offset Drought Impacts to Feather River Chinook Salmon Populations",
     "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) and the California Department of Water Resources (DWR) have announced a joint effort at the Feather River Fish Hatchery in Butte County to aid in offsetting impacts to spring-run and fall-run Chinook salmon resulting from this year’s extreme drought conditions.</p>\n",
     "author": "Peggy Gartin",
@@ -55,7 +55,7 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production-offset-drought-impacts-to-feather-river-chinook-salmon-populations/",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production/",
       "page_title": "Feather River Fish Hatchery Seeks to Increase Production, Offset Drought Impacts to Feather River Chinook Salmon Populations",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
@@ -64,7 +64,7 @@
       "page_social_image_alt": "",
       "meta_title": "Feather River Fish Hatchery Seeks to Increase Production, Offset Drought Impacts to Feather River Chinook Salmon Populations",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production-offset-drought-impacts-to-feather-river-chinook-salmon-populations/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production/",
       "open_graph_title": "Feather River Fish Hatchery Seeks to Increase Production, Offset Drought Impacts to Feather River Chinook Salmon Populations",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Feather River Fish Hatchery Seeks to Increase Production, Offset Drought Impacts to Feather River Chinook Salmon Populations",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production-offset-drought-impacts-to-feather-river-chinook-salmon-populations/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/feather-river-fish-hatchery-seeks-to-increase-production/"
   }
 }
