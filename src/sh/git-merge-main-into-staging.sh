@@ -14,7 +14,7 @@ git merge --no-ff --no-commit main
 git checkout staging \
     wordpress/posts \
     wordpress/pages \
-    wordpress/media \
+    wordpress/media
 
 # Try git restore (@TODO let's write a description of exactly what this is doing for everyone's benefit)
 git restore --source=HEAD --staged --worktree -- \
