@@ -1,11 +1,11 @@
 #!/bin/sh
 git fetch
-git checkout development
-git pull
 git checkout main
 git pull
-git merge --no-ff --no-commit development
-git restore --source=HEAD --staged --worktree -- \ 
+git checkout staging
+git pull
+git merge --no-ff --no-commit main
+git restore --source=HEAD --staged --worktree -- \
     wordpress/posts \
     wordpress/pages \
     wordpress/media \
@@ -14,4 +14,4 @@ git restore --source=HEAD --staged --worktree -- \
     .github/workflows \
     package.json \
     package-lock.json
-git commit -m "Selective merge: development into main"
+git commit -m "Selective merge: main into staging"
