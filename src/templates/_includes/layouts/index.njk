@@ -54,6 +54,7 @@
 
 <body>
   <div class="header-container">
+    {% include "../../../../node_modules/@cagov/ds-skip-to-content/skip-to-content.html" %}
     {% include "../../../components/utility-header/utility-header.html" %}
     {% include "../../../components/branding/branding.html" %}
     {% include "nav-component.njk" %}
@@ -86,7 +87,7 @@
   {% endblock %}
 
   <div class="footer-container">
-    {% include "../footer.njk" %}
+    {% include "../agency-footer.njk" %}
     {% include "../footer-universal.njk" %}
   </div>
 
