@@ -1,4 +1,4 @@
-// const fs = require("fs");
+const fs = require("fs");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 
@@ -23,10 +23,10 @@ module.exports = function (eleventyConfig) {
   });
 
   // DEPRECATING, remove when confirmed OK
-  // const replaceContent = (item, searchValue, replaceValue) => {
-  //   item.template.frontMatter.content =
-  //     item.template.frontMatter.content.replace(searchValue, replaceValue);
-  // };
+  const replaceContent = (item, searchValue, replaceValue) => {
+    item.template.frontMatter.content =
+      item.template.frontMatter.content.replace(searchValue, replaceValue);
+  };
 
   // @TODO can we rename "manualcontent" and document how this system works. @DOCS
   eleventyConfig.addCollection("manualcontent", function (collection) {

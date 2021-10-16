@@ -13,11 +13,11 @@ import '@cagov/ds-minus';
 import '@cagov/ds-pagination';
 import '@cagov/ds-pdf-icon/src/index.js';
 import '@cagov/ds-plus';
-import '@cagov/ds-regulatory-outline';
-import '@cagov/ds-skip-to-content';
+// import '@cagov/ds-regulatory-outline';
+// import '@cagov/ds-skip-to-content';
 import '@cagov/ds-statewide-header/src/index.js';
 // import '@cagov/ds-statewide-foooter'; // @ISSUE Which version is correct?
-import '@cagov/ds-step-list'; // @ISSUE Missing?
+// import '@cagov/ds-step-list'; // @ISSUE Missing?
 
 // Development 
 // import '../components/menu/index.js';
