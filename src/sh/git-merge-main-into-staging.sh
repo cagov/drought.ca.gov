@@ -9,9 +9,11 @@ git restore --source=HEAD --staged --worktree -- \
     wordpress/posts \
     wordpress/pages \
     wordpress/media \
-    wordpress/config \
+    wordpress/general \
     odi-publishing \
     .github/workflows \
-    package.json \
-    package-lock.json
+#    package.json \
+#    package-lock.json \
+    wordpress/wordpress-to-github.config.json \
+    wordpress/wordpress-to-github.main-test-pantheon.config.json
 git commit -m "Selective merge: main into staging"
