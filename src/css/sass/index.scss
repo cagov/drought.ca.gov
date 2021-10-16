@@ -19,9 +19,9 @@
 @import "../../../node_modules/@cagov/ds-back-to-top/src/index.scss"; // now imported from npm module
 
 @import "../../components/cards/index"; /* copied from blocks */
-@import "../../components/hero/index"; /* copied from block */
+@import "../../components/feature-card/index"; /* copied from block */
 @import "../../components/page-alert/index"; /* copied from gutenberg custom block */
-@import "../../components/post-list/_style"; /* copied from block */
+@import "../../components/post-list/index"; /* copied from block */
 @import "../../components/step-list/index";
 /* NAVIGATION ELEMENTS */
 @import "../../../node_modules/@cagov/ds-dropdown-menu/src/index.scss"; // now imported from npm module

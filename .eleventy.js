@@ -3,10 +3,11 @@ const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 
 const { renderPostLists } = require("./src/components/post-list/render");
+
 const {
   getHeadMetaTags,
-  replaceUrl,
-  chooseTemplate,
+  replaceUrl
+  // chooseTemplate,
 } = require("./src/templates/_data/meta.js");
 
 const odiPublishing = require("./odi-publishing/config.js");

@@ -1,7 +1,6 @@
 import '@cagov/ds-accordion';
 // import '@cagov/ds-agency-footer'; // @ISSUE Which version is correct?
 import '@cagov/ds-back-to-top/src/index.js';
-// import '@cagov/ds-base-css'; // @ISSUE Which version is correct?
 // import '@cagov/ds-branding'; // @ISSUE Which version is correct?
 // import '@cagov/ds-card-grid'; // @ISSUE Missing.
 import '@cagov/ds-content-navigation';
@@ -19,7 +18,7 @@ import '@cagov/ds-statewide-header/src/index.js';
 // import '@cagov/ds-statewide-foooter'; // @ISSUE Which version is correct?
 // import '@cagov/ds-step-list'; // @ISSUE Missing?
 
-// Development 
+// Development (?)
 // import '../components/menu/index.js';
 // import '../components/content-navigation/index.js';
 
