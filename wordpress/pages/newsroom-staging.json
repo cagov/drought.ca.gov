@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-08-17T20:09:23",
-    "updated_date": "2021-08-17T22:14:33",
+    "updated_date": "2021-10-13T19:44:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,29 +16,29 @@
     "id": 296,
     "date": "2021-08-17T13:09:23",
     "date_gmt": "2021-08-17T20:09:23",
-    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=296",
-    "modified": "2021-08-17T15:14:33",
-    "modified_gmt": "2021-08-17T22:14:33",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=296",
+    "modified": "2021-10-13T12:44:16",
+    "modified_gmt": "2021-10-13T19:44:16",
     "slug": "newsroom-staging",
     "status": "publish",
     "type": "page",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/newsroom-staging/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/newsroom-staging/",
     "title": "Newsroom (Staging)",
     "excerpt": "<p>Media contacts California Environmental Protection Agency&nbsp; California Natural Resources Agency&nbsp; California Office of Emergency Services&nbsp; Department of Water Resources California State Water Resources Control Board Department of Food and Agricultural Department of Fish and Wildlife</p>\n",
-    "author": "Admin",
+    "author": "Chach Sikes",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-page-single-column.php",
+    "template": "single-column",
     "meta": [],
     "categories": [],
     "tags": [
       "staging"
     ],
     "design_system_fields": {
-      "template": "template-page-single-column"
+      "template": "single-column"
     },
     "og_meta": {
       "editor": {
@@ -46,21 +46,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/newsroom-staging/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom-staging/",
       "page_title": "Newsroom (Staging)",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Newsroom (Staging)",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/newsroom-staging/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom-staging/",
       "open_graph_title": "Newsroom (Staging)",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Newsroom (Staging)",
@@ -83,6 +83,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/newsroom-staging/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/newsroom-staging/"
   }
 }
