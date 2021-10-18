@@ -13,9 +13,9 @@ cagov-accordion.prog-enhanced .accordion-alpha .plus-minus {
 }
 
 cagov-accordion.prog-enhanced button.accordion-card-header {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 button.accordion-card-header:hover .accordion-title:hover {
-    @include text-underline;
+    text-decoration: underline;
 }
