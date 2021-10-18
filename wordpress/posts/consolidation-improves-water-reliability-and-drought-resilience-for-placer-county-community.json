@@ -1,31 +1,31 @@
 {
   "meta": {
-    "created_date": "2021-07-06T01:48:00",
-    "updated_date": "2021-10-07T02:22:54",
+    "created_date": "2021-09-24T01:48:00",
+    "updated_date": "2021-10-13T19:56:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 714,
-    "date": "2021-07-05T18:48:00",
-    "date_gmt": "2021-07-06T01:48:00",
+    "id": 691,
+    "date": "2021-09-23T18:48:00",
+    "date_gmt": "2021-09-24T01:48:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=691",
-    "modified": "2021-10-06T19:22:54",
-    "modified_gmt": "2021-10-07T02:22:54",
+    "modified": "2021-10-13T12:56:51",
+    "modified_gmt": "2021-10-13T19:56:51",
     "slug": "consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/",
     "title": "Consolidation Improves Water Reliability and Drought Resilience for Placer County Community",
     "excerpt": "<p>In an effort to improve water reliability and drought resilience, Placer County Water Agency (PCWA) recently completed a consolidation project with the Castle City Mobile Home Park in Newcastle with funding assistance from the State Water Resources Control Board.</p>\n",
-    "author": "Admin",
+    "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -34,7 +34,7 @@
     "format": "link",
     "meta": {
       "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pcwa-swb-joint-release-9.23.21-FINAL-pcwa.pdf",
-      "custom_post_date": "2021-09-23T07:00",
+      "custom_post_date": "2021-09-23",
       "custom_post_location": ""
     },
     "categories": [
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/",
       "page_title": "Consolidation Improves Water Reliability and Drought Resilience for Placer County Community",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Consolidation Improves Water Reliability and Drought Resilience for Placer County Community",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/",
       "open_graph_title": "Consolidation Improves Water Reliability and Drought Resilience for Placer County Community",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Consolidation Improves Water Reliability and Drought Resilience for Placer County Community",
@@ -80,10 +80,10 @@
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 30,
+        "count": 32,
         "filter": "raw",
         "cat_ID": 7,
-        "category_count": 30,
+        "category_count": 32,
         "category_description": "",
         "cat_name": "News",
         "category_nicename": "news",
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "2021-09-23T07:00",
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/"
+    "custom_post_date": "2021-09-23",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/consolidation-improves-water-reliability-and-drought-resilience-for-placer-county-community/"
   }
 }

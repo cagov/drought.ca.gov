@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-04T15:09:15",
-    "updated_date": "2021-07-04T15:09:15",
+    "updated_date": "2021-10-14T00:39:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,20 +17,20 @@
     "date": "2021-07-04T15:09:15",
     "date_gmt": "2021-07-04T15:09:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=59",
-    "modified": "2021-07-04T15:09:15",
-    "modified_gmt": "2021-07-04T15:09:15",
+    "modified": "2021-10-13T17:39:29",
+    "modified_gmt": "2021-10-14T00:39:29",
     "slug": "press-release-1",
     "status": "publish",
     "type": "post",
-    "link": "https://dev-drought-ca-gov.pantheonsite.io/press-release-1/",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/press-release-1/",
     "title": "Press release 1",
-    "excerpt": "<p>Content of press release</p>\n",
-    "author": "Admin",
+    "excerpt": "<p>10-13-2021 Content of press release</p>\n",
+    "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
-    "template": "/code/wp-content/plugins/ca-design-system-gutenberg-blocks/includes/templates/template-single-press-release.php",
+    "template": "",
     "format": "standard",
     "meta": {
       "custom_post_link": "",
@@ -42,7 +42,7 @@
     ],
     "tags": [],
     "design_system_fields": {
-      "template": "template-single-press-release"
+      "template": "post"
     },
     "og_meta": {
       "editor": {
@@ -50,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/press-release-1/",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/press-release-1/",
       "page_title": "Press release 1",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Press release 1",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/press-release-1/",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/press-release-1/",
       "open_graph_title": "Press release 1",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Press release 1",
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "",
-    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/press-release-1/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/press-release-1/"
   }
 }
