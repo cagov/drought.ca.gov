@@ -42,7 +42,8 @@ module.exports = function (eleventyConfig) {
         });
 
         // Set up fields for passing into template
-        item.data.templatestring = item.data.wordpress.dataset.data.template; // Load page template @ISSUE naming convention
+        item.data.templatestring = item.data.wordpress.dataset.data.template; // Load page template 
+        // item.data.templatestring = chooseTemplate(item.data.wordpress.dataset.data); // @ISSUE naming convention
 
         item.data.title = item.data.wordpress.dataset.data.title; // Get title @REVIEW
         item.data.og_meta = item.data.wordpress.dataset.data.og_meta; // Get head tags
