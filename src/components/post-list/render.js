@@ -73,6 +73,7 @@ const renderWordpressPostTitleDate = (
     title = null,
     link = null,
     date = null, // "2021-05-23T18:19:58"
+    // modified = null,
     // content = null,
     excerpt = null, // @TODO shorten / optional
     // author = null, // 1
@@ -88,7 +89,8 @@ const renderWordpressPostTitleDate = (
   //www.w3schools.com/jsref/jsref_tolocalestring.asp
   
   let itemDate = date;
-  if (custom_post_date !== null) {
+
+  if (custom_post_date && custom_post_date !== "") {
     itemDate = custom_post_date;
   }
 
@@ -122,12 +124,16 @@ const renderWordpressPostTitleDate = (
       ? `<div class="date">${dateFormatted}</div>`
       : ``;
 
-  let postLink;
+  let formattedTitle;
 
-  if (format === "link" && meta && meta.hasOwnProperty("custom_post_link")) {
-    postLink = meta.custom_post_link;
-  } else {
-    postLink = link ? link.split("pantheonsite.io")[1] : null;
+  if (format === "link" && meta && meta.hasOwnProperty("custom_post_link") && meta.custom_post_link !== "") {
+    formattedTitle = `<a href="${meta.custom_post_link}">${title}</a>`;
+  } 
+  else if (format !== "link") {
+    formattedTitle = link ? `<a href="${link.split("pantheonsite.io")[1]}">${title}</a>` : `<span>${title}</span>`;
+  }
+  else {
+    formattedTitle = `<span>${title}</span>`;
   }
 
   let category_type = "";
@@ -162,9 +168,7 @@ const renderWordpressPostTitleDate = (
       <div class="post-list-item">
         ${category_type}
         <div class="link-title">
-          <a href="${postLink}">
-            ${title}
-          </a>
+          ${formattedTitle}
         </div>
         ${getDate}
         ${getExcerpt}
@@ -176,9 +180,7 @@ const renderWordpressPostTitleDate = (
     <div class="post-list-item">
       ${category_type}
       <div class="link-title">
-        <a href="${postLink}">
-          ${title}
-        </a>
+        ${formattedTitle}
       </div>
       ${getDate}
       ${getExcerpt}
