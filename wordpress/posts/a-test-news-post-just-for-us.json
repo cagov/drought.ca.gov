@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-03-01T18:24:00",
-    "updated_date": "2021-10-12T21:04:24",
+    "created_date": "2021-10-18T20:59:45",
+    "updated_date": "2021-10-18T20:59:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,19 +13,19 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 290,
-    "date": "2021-03-01T10:24:00",
-    "date_gmt": "2021-03-01T18:24:00",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=290",
-    "modified": "2021-10-12T14:04:24",
-    "modified_gmt": "2021-10-12T21:04:24",
-    "slug": "report-to-the-legislature-on-the-2012-2016-drought",
+    "id": 724,
+    "date": "2021-10-18T13:59:45",
+    "date_gmt": "2021-10-18T20:59:45",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=724",
+    "modified": "2021-10-18T13:59:51",
+    "modified_gmt": "2021-10-18T20:59:51",
+    "slug": "a-test-news-post-just-for-us",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
-    "title": "Report to the Legislature on the 2012–2016 Drought",
-    "excerpt": "<p>California’s last severe drought tested all aspects of how we manage water. Five consecutive dry years from 2012 to 2016 took their toll on many communities, our agricultural economy, and our state’s remarkable natural environment.</p>\n",
-    "author": "Chach Sikes",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/a-test-news-post-just-for-us/",
+    "title": "A test news post just for us",
+    "excerpt": "<p>This is a test news post just for testing purposes as we test.</p>\n",
+    "author": "Peggy Gartin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -33,8 +33,8 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Water-Basics/Drought/Files/Publications-And-Reports/CNRA-Drought-Report-final-March-2021.pdf",
-      "custom_post_date": "2021-03-01",
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Oct-21/Feather-River-Fish-Hatchery-Seeks-to-Increase-Production",
+      "custom_post_date": "2021-10-12",
       "custom_post_location": ""
     },
     "categories": [
@@ -55,19 +55,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
-      "page_title": "Report to the Legislature on the 2012–2016 Drought",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/a-test-news-post-just-for-us/",
+      "page_title": "A test news post just for us",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Report to the Legislature on the 2012–2016 Drought",
+      "meta_title": "A test news post just for us",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/",
-      "open_graph_title": "Report to the Legislature on the 2012–2016 Drought",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/a-test-news-post-just-for-us/",
+      "open_graph_title": "A test news post just for us",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Report to the Legislature on the 2012–2016 Drought",
+      "twitter_title": "A test news post just for us",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -94,7 +94,7 @@
     "headless_publishing": [],
     "headless_preview": [],
     "event": null,
-    "custom_post_date": "2021-03-01",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/"
+    "custom_post_date": "2021-10-12",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/a-test-news-post-just-for-us/"
   }
 }
