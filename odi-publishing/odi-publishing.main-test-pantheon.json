@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
-  "name": "drought.ca.gov - California drought action",
-  "gitrepo": "@cagov/drought.ca.gov - California drought action",
+  "name": "main-test-pantheon | drought.ca.gov - California drought action",
+  "gitrepo": "@cagov/drought.ca.gov - California drought action, main-test-pantheon",
   "contact": {
     "maintainer": "Office of Digital Innovation"
   },
@@ -16,7 +16,7 @@
     "refresh_frequency": "As needed"
   },
   "data": {
-    "name": "California drought action",
+    "name": "California drought action MAIN TEST PANTHEON",
     "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
     "url": "https://test-drought-ca-gov.pantheonsite.io",
     "home": "https://test-drought-ca-gov.pantheonsite.io",
