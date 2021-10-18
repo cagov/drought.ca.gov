@@ -1,83 +1,119 @@
-const fs = require('fs');
+const fs = require("fs");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 
-const wordpressEditor = "https://live-drought-ca-gov.pantheonsite.io";
-const wordpressEditorApi = "https://live-drought-ca-gov.pantheonsite.io";
-const wordpressEditorMediaFiles = "https://live-drought-ca-gov.pantheonsite.io";
-// const SITE_DOMAIN = process.env.SITE_DOMAIN !== undefined ? process.env.SITE_DOMAIN : "";
-const SITE_DOMAIN = ""; // Relative links only for local images in display.
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "http://staging.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://d24fehwpk146d4.cloudfront.net/media/";
-const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://drought.ca.gov/media/";
-// const DEFAULT_SITE_DOMAIN_OG_TAGS = "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/"; // Test with original image (not cached)
+const { renderPostLists } = require("./src/components/post-list/render");
 
-const replacementPaths = {
-  media: {
-    src: "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/",
-    target: "/media/",
-    targetPermalink: `${SITE_DOMAIN}/media/`,
-    targetPermalinkOGTags: `${DEFAULT_SITE_DOMAIN_OG_TAGS}`,
-    targetPermalinkTest: "https://github.com/cagov/drought.ca.gov/raw/main/wordpress/media/"
-  },
-};
+const {
+  getHeadMetaTags,
+  replaceUrl
+  // chooseTemplate,
+} = require("./src/templates/_data/meta.js");
 
-module.exports = function(eleventyConfig) {
+const odiPublishing = require("./odi-publishing/config.js");
+const config = odiPublishing.getConfig(); // @TODO set branch in this file
+
+module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
-    watch:true,
-    notify:true,
- });
+    watch: true,
+    notify: true,
+  });
 
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  const replaceContent = (item,searchValue,replaceValue) => {
-    item.template.frontMatter.content = item.template.frontMatter.content
-      .replace(searchValue,replaceValue);
-  }
-  
-  eleventyConfig.addCollection("manualcontent", function(collection) {
-    let output = [];
-    collection.getAll().forEach(item => {
-      if(item.data.wordpress.dataset) {
-        // Set up fields for passing into template
-        item.data.title = item.data.wordpress.dataset.data.title;
-        item.data.templatestring = item.data.wordpress.dataset.data.template;
-        item.data.page_meta = item.data.wordpress.dataset.data.page_meta;
-        item.data.category = item.data.wordpress.dataset.data.category;
-        item.data.id = item.data.wordpress.dataset.data.id;
+  // DEPRECATING, remove when confirmed OK
+  const replaceContent = (item, searchValue, replaceValue) => {
+    item.template.frontMatter.content =
+      item.template.frontMatter.content.replace(searchValue, replaceValue);
+  };
 
-        let mediaString = new RegExp('\\' + replacementPaths.media.src, 'g');
-        item.data.wordpress.content = item.data.wordpress.content.replace(mediaString,replacementPaths.media.targetPermalink);
-        try {
-          item.data.page_meta.image.url[0] = item.data.page_meta.image.url[0] !== "" ? item.data.page_meta.image.url[0].replace(mediaString,replacementPaths.media.targetPermalinkOGTags) : "";
-        } catch (error) {
-          // console.error(error);
-        }
-       
+  // @TODO can we rename "manualcontent" and document how this system works. @DOCS
+  eleventyConfig.addCollection("manualcontent", function (collection) {
+    let output = [];
+    collection.getAll().forEach((item) => {
+      if (item.data.wordpress.dataset) {
+        let replaceUrls = config.build.replace_urls;
+
+        replaceUrls.map((replacement) => {
+          item.data.wordpress.content = replaceUrl(
+            item.data.wordpress.content,
+            replacement,
+            config.build.static_site_url + "/"
+          );
+        });
+
+        // Set up fields for passing into template
+        item.data.templatestring = item.data.wordpress.dataset.data.template; // Load page template
+        // @TODO Rename templatestring to page_template_name or something more descriptive. "template" is too generic.
+        // item.data.templatestring = chooseTemplate(item.data.wordpress.dataset.data); // @ISSUE naming convention
+
+        item.data.title = item.data.wordpress.dataset.data.title; // Get title @REVIEW
+        item.data.og_meta = item.data.wordpress.dataset.data.og_meta; // Get head tags
+        item.data.category = item.data.wordpress.dataset.data.category; // @ISSUE make sure this is right & handle if category is multiple fields
+        item.data.id = item.data.wordpress.dataset.data.id; // @DOCS how are we using this ID?
+
+        // Add and correct meta content fields that are used in index.njk head tags.
+        item = getHeadMetaTags(item);
+
+        // Change any links pointing to wp-content/uploads to the /media folder
+        item.data.wordpress.content = replaceUrl(
+          item.data.wordpress.content,
+          "/wp-content/uploads/", // @TODO connect to configs when we are ready.
+          "/media/"
+        );
+
+        // Fix all hard-coded source domains in meta content that point to wp-content/uploads. 
+        // Change to media folder.
+        // This Needs to come after head tags are set up.
+        // @ISSUE locations are different from cannabis.ca.gov media folder location. This is confusing.
+        Object.keys(item.data.og_meta).map((meta) => {
+          if (typeof item.data.og_meta[meta] === "string") {
+            item.data.og_meta[meta] = replaceUrl(
+              item.data.og_meta[meta],
+              "/wp-content/uploads/", // @TODO connect to configs when we are ready.
+              "/media/"
+            );
+          }
+        });
       }
+      // Make data available to templating system.
       output.push(item);
     });
 
     return output;
   });
-  
 
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+  // @DOCS Please add a note about what's happening here.
+  eleventyConfig.addTransform("renderPostLists", function (html, outputPath) {
+    // outputPath === false means serverless templates
+    if (!outputPath || outputPath.endsWith(".html")) {
+      if (html.includes("cagov-post-list")) {
+        html = renderPostLists(html);
+      }
+    }
+    return html;
+  });
+
+  // @ISSUE Add events rendering @TODO
+
+  // Minify HTML
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if( outputPath && outputPath.endsWith(".html") ) {
+    if (outputPath && outputPath.endsWith(".html")) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
-        collapseWhitespace: true
+        collapseWhitespace: true,
       });
       return minified;
     }
 
     return content;
   });
- 
+
+  // Copy assets and content folders into generated static site content.
   eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
@@ -88,8 +124,8 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "md",
     templateFormats: ["html", "njk", "11ty.js", "md"],
     dir: {
-      input: "src/templates",
+      input: "src/templates", // @ISSUE: this is different from cannabis.ca.gov. Is confusing.
       output: "docs",
-    }
+    },
   };
-}
+};
