@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2021-10-06T17:05:05",
+    "updated_date": "2021-10-01T22:33:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,16 +16,16 @@
     "id": 29,
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=29",
-    "modified": "2021-10-06T10:05:05",
-    "modified_gmt": "2021-10-06T17:05:05",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=29",
+    "modified": "2021-10-01T15:33:09",
+    "modified_gmt": "2021-10-01T22:33:09",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
     "title": "Current drought conditions",
-    "excerpt": "<p>2021 overview Most rain and snow falls in California from November through April. It fills the reservoirs and aquifers that we use to supply homes, businesses, and farms.&nbsp;It also supports fish and wildlife that depend on our rivers and wetlands. Warm temperatures in California this April and early May have made 2021 a critically dry &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
-    "author": "Chach Sikes",
+    "excerpt": "<p>2021 overview Most rain and snow falls in California from November through April. It fills the reservoirs and aquifers that we use to supply homes, businesses, and farms.&nbsp;It also supports fish and wildlife that depend on our rivers and wetlands. Warm temperatures in California this April and early May have made 2021 a critically dry &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
+    "author": "Admin",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
@@ -48,21 +48,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
       "page_title": "Current drought conditions",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Current drought conditions &#x2d; California drought action",
       "meta_description": "Learn more about current drought conditions in the state of California and the factors that influence them.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
       "open_graph_title": "Current drought conditions",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Current drought conditions",
@@ -104,6 +104,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
   }
 }
