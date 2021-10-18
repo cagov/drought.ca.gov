@@ -7,10 +7,10 @@
   },
   "meta": {
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
       "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
     },
     "refresh_frequency": "As needed"
@@ -18,8 +18,8 @@
   "data": {
     "name": "California drought action",
     "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-    "url": "https://live-drought-ca-gov.pantheonsite.io",
-    "home": "https://live-drought-ca-gov.pantheonsite.io",
+    "url": "https://test-drought-ca-gov.pantheonsite.io",
+    "home": "https://test-drought-ca-gov.pantheonsite.io",
     "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [
@@ -35,9 +35,9 @@
     "site_name": "California drought action",
     "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
     "site_social_url": "",
-    "page_social_image_url": "https://drought.ca.gov/media/2021/09/cropped-drought-photo.png",
+    "page_social_image_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com/media/2021/09/cropped-drought-photo.png",
     "page_social_image_alt": "California Drought Action",
-    "site_url": "https://drought.ca.gov",
+    "site_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
     "page_social_image_width": 1200,
     "page_social_image_height": 630
   },
@@ -48,10 +48,10 @@
     "index_layout": "layouts/index",
     "upload_folder": "wp-content/uploads/",
     "replace_urls": ["http://drought.ca.gov/", "https://drought.ca.gov/", "https://dev-drought-ca-gov.pantheonsite.io/", "https://test-drought-ca-gov.pantheonsite.io/", "https://live-drought-ca-gov.pantheonsite.io/"],
-    "editor_url": "https://live-drought-ca-gov.pantheonsite.io",
-    "static_site_url": "https://drought.ca.gov",
-    "canonical_url": "https://drought.ca.gov",
-    "s3_bucket_url": "http://drought.ca.gov.s3-website-us-west-1.amazonaws.com/",
+    "editor_url": "https://test-drought-ca-gov.pantheonsite.io",
+    "static_site_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
+    "canonical_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
+    "s3_bucket_url": "http://main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com",
     "media": "pages/wordpress/media",
     "pages": "pages/wordpress/posts",
     "posts": "pages/wordpress/posts"
@@ -59,7 +59,7 @@
   "endpoints": {
     "wordpress-to-github": {
       "src": "./wordpress",
-      "config": "./wordpress",
+      "config": "./wordpress/config",
       "endpoints": {
         "posts": "wp-json/wp/v2/posts",
         "pages": "wp-json/wp/v2/pages",
@@ -78,6 +78,7 @@
       "endpoint": "@TODO"
     },
     "odi-publishing": {
+      "note": "@TODO see also wordpress/general.json",
       "logs": "",
       "polling-schedule": "@DOCS ncrontab ",
       "system-status": "@FEATURE",
@@ -119,7 +120,7 @@
         "en": "Share via Facebook",
         "sr-only": "Facebook"
       },
-      "tracking": false
+      "tracking": "_gaq.push(['_trackEvent', 'Outbound Links', 'Click', 'facebook.com/cacannabisdept', 0, 0]); _gaq.push(['b._trackEvent', 'Outbound Links', 'Click', 'facebook.com/cacannabisdept', 0, 0]);"
     },
     {
       "label": "Twitter",
