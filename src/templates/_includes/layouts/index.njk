@@ -60,10 +60,13 @@
   </div>
 
   {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
+  
   {%- if templatestring == 'landing' -%}
     {% include "../layouts/templates/landing.njk" %}
   {# Pages that don't have content navigation #}
   {%- elif templatestring == 'template-page-single-column' -%}
+    {% include "../layouts/templates/single-column.njk" %}  
+  {%- elif templatestring == 'single-column' -%}
     {% include "../layouts/templates/single-column.njk" %}  
   {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
   {% elif templatestring == 'page' -%}
@@ -76,7 +79,7 @@
     {% include "../layouts/templates/post.njk" %}
   {# No template #}
   {% else %}
-    {% include "../layouts/templates/landing.njk" %}
+    {% include "../layouts/templates/page.njk" %}
   {%- endif -%}
 
   {% block pageContent %}
