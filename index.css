@@ -20,7 +20,7 @@
   --secondary-hover-color: #b07919; }
 
 /* theme colors */
-/* sitewide styles */
+/* Sitewide styles */
 /* sitewide styles, these are mostly blank but will be wrapped up into components/base-css */
 :root {
   --w-lg: 1176px;
@@ -2179,65 +2179,6 @@ figure {
 
 /* all utility css classes that can be used (shortcodes) */
 /* all of the above will become part of base-css component */
-/* COMPONENTS/BLOCKS */
-/* Override npm styles */
-cagov-accordion.prog-enhanced .accordion-card-container .card-body {
-  margin-top: 8px; }
-  cagov-accordion.prog-enhanced .accordion-card-container .card-body ul {
-    margin-left: 16px;
-    margin-right: 16px; }
-
-cagov-accordion.prog-enhanced .accordion-alpha .plus-minus {
-  margin-top: 8px; }
-
-cagov-accordion.prog-enhanced button.accordion-card-header {
-  cursor: pointer; }
-
-button.accordion-card-header:hover .accordion-title:hover {
-  text-decoration: underline; }
-
-/* custom css overrides for default accordion styles */
-.breadcrumb {
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 64px;
-  background-color: #f9f9fa;
-  padding: 8px 16px;
-  font-size: 16px; }
-
-.breadcrumb a {
-  text-decoration: underline;
-  margin-left: 5px;
-  margin-right: 5px;
-  display: inline-block; }
-
-.breadcrumb span {
-  padding-left: 5px;
-  padding-right: 5px; }
-
-@media only screen and (max-width: 992px) {
-  /* BREADCRUMB */
-  .breadcrumb a.crumb,
-  .breadcrumb span.crumb {
-    display: none; }
-  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18.8px;
-    color: #064e66; }
-  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
-    padding: 0; }
-  .breadcrumb {
-    display: block;
-    margin-top: 48px;
-    margin-bottom: 16px;
-    background-color: transparent;
-    padding: 0; }
-  .with-sidebar.page-container-ds .breadcrumb {
-    margin-bottom: 0px; } }
-
-/* copied from blocks */
 .branding {
   padding: 0;
   box-sizing: border-box;
@@ -2866,6 +2807,65 @@ cagov-back-to-top .back-to-top {
     display: inline;
     right: 0; }
 
+/* Components and blocks local styles - should come from design system @ISSUE */
+/* Override npm styles */
+cagov-accordion.prog-enhanced .accordion-card-container .card-body {
+  margin-top: 8px; }
+  cagov-accordion.prog-enhanced .accordion-card-container .card-body ul {
+    margin-left: 16px;
+    margin-right: 16px; }
+
+cagov-accordion.prog-enhanced .accordion-alpha .plus-minus {
+  margin-top: 8px; }
+
+cagov-accordion.prog-enhanced button.accordion-card-header {
+  cursor: pointer; }
+
+button.accordion-card-header:hover .accordion-title:hover {
+  text-decoration: underline; }
+
+/* custom css overrides for default accordion styles */
+.breadcrumb {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 64px;
+  background-color: #f9f9fa;
+  padding: 8px 16px;
+  font-size: 16px; }
+
+.breadcrumb a {
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block; }
+
+.breadcrumb span {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+@media only screen and (max-width: 992px) {
+  /* BREADCRUMB */
+  .breadcrumb a.crumb,
+  .breadcrumb span.crumb {
+    display: none; }
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.8px;
+    color: #064e66; }
+  .breadcrumb span.crumb:not(:last-child):not([class*="separator"]) {
+    padding: 0; }
+  .breadcrumb {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    padding: 0; }
+  .with-sidebar.page-container-ds .breadcrumb {
+    margin-bottom: 0px; } }
+
+/* copied from blocks */
 .no-deco {
   text-decoration: none; }
 
@@ -3010,7 +3010,7 @@ cagov-back-to-top .back-to-top {
   .cagov-featured-sidebar {
     max-width: 34%; } }
 
-/* copied from block */
+/* copied from block, was hero */
 .icon-select {
   height: 48px;
   padding: 0 0px 0 16px; }
@@ -3053,149 +3053,73 @@ cagov-back-to-top .back-to-top {
     height: auto; } }
 
 /* copied from gutenberg custom block */
-.cagov-post-list .post-list-item {
-  margin-bottom: 48px; }
-  .cagov-post-list .post-list-item .excerpt .date {
+cagov-post-list {
+  margin-top: 24px;
+  display: block; }
+  cagov-post-list .post-list-item {
+    margin-bottom: 32px; }
+    cagov-post-list .post-list-item .link-title {
+      margin-bottom: 8px;
+      font-weight: 700; }
+      cagov-post-list .post-list-item .link-title a {
+        color: var(--primary-color, #33705B); }
+        cagov-post-list .post-list-item .link-title a:hover {
+          color: var(--primary-dark-color, #33705B);
+          text-decoration: none; }
+  cagov-post-list .excerpt .date {
     display: inline;
     font-weight: 700; }
-    .cagov-post-list .post-list-item .excerpt .date:after {
+    cagov-post-list .excerpt .date:after {
       content: " — "; }
 
-.cagov-post-list .link-title a {
-  color: var(--primary-color, #691808);
-  font-weight: normal;
-  text-decoration: underline;
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 8px; }
-  .cagov-post-list .link-title a:hover {
-    color: var(--primary-dark-color, #4a1106);
-    text-decoration: none; }
-
-.cagov-post-list .link-title,
-.cagov-post-list .post-list-item {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  margin-bottom: 16px; }
-  .cagov-post-list .link-title a,
-  .cagov-post-list .post-list-item a {
-    text-decoration: underline; }
-    .cagov-post-list .link-title a:hover,
-    .cagov-post-list .post-list-item a:hover {
-      text-decoration: none; }
-
-.wp-block-ca-design-system-post-list .post-list-item.post-status {
-  margin-bottom: 32px; }
-  .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title {
-    margin-bottom: 0px; }
-  .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title .date {
-    line-height: 1rem; }
-
-.wp-block-ca-design-system-post-list .post-list-item.news-item {
-  margin-bottom: 32px; }
-  .wp-block-ca-design-system-post-list .post-list-item.news-item .link-title {
-    margin-bottom: 0px; }
-
-.cagov-post-list .read-more a {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
-  color: #000; }
-
-.cagov-post-list .link-title a {
-  color: var(--primary-color, #691808);
-  font-weight: 700;
-  line-height: 30px;
-  font-size: 28px;
-  text-decoration: underline; }
-  .cagov-post-list .link-title a:hover {
-    color: var(--primary-dark-color, #4a1106);
-    text-decoration: none; }
-
-.cagov-post-list .excerpt,
-.cagov-post-list .excerpt p {
-  font-weight: 400;
-  line-height: 30px;
-  font-size: 18px;
-  margin-bottom: 8px; }
-
-cagov-post-list .post-list-item {
-  margin: 0;
-  padding: 0; }
-
-cagov-post-list .post-list-item {
-  font-style: normal;
-  font-weight: normal;
-  margin-bottom: 24px; }
-
-.cagov-post-list .post-list-item .date {
-  font-size: 18px;
-  line-height: 30px;
-  margin-top: 0px;
-  color: #000;
+.post-list-items .post-status .link-title .date {
   font-weight: 700; }
 
-@media only screen and (max-width: 580px) {
-  .cagov-post-list h3 {
-    /* font-family: Public Sans; */
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 30px;
-    margin-bottom: 24px; }
-  .cagov-post-list .read-more a {
-    /* font-family: Public Sans; */
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    color: #000; }
-  .cagov-post-list .link-title a {
-    color: var(--primary-color, #691808);
-    font-weight: 700;
-    line-height: 30px;
-    font-size: 24px;
-    margin-bottom: 8px;
-    text-decoration: underline; }
-    .cagov-post-list .link-title a:hover {
-      color: var(--primary-dark-color, #4a1106);
-      text-decoration: none; }
-  .cagov-post-list .excerpt,
-  .cagov-post-list .excerpt p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 8px; }
-  cagov-post-list .post-list-item {
-    margin: 0;
-    padding: 0; }
-  cagov-post-list .post-list-item {
-    font-style: normal;
-    font-weight: normal;
-    margin-bottom: 16px; }
-  .cagov-post-list .post-list-item .date {
-    font-size: 16px;
-    line-height: 24px;
-    margin-top: 0px;
-    color: #000;
+.post-list-results {
+  margin-top: 24px;
+  display: block; }
+  .post-list-results .post-list-item {
+    margin-bottom: 32px; }
+    .post-list-results .post-list-item .link-title {
+      margin-bottom: 8px;
+      font-weight: 700;
+      font-size: 28px; }
+      .post-list-results .post-list-item .link-title a {
+        color: var(--primary-color, #33705B); }
+        .post-list-results .post-list-item .link-title a:hover {
+          color: var(--primary-dark-color, #33705B);
+          text-decoration: none; }
+  .post-list-results .excerpt .date {
+    display: inline;
     font-weight: 700; }
-  .wp-block-ca-design-system-post-list .post-list-item.post-status {
-    margin-bottom: 16px; }
-    .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title {
-      margin-bottom: 0px; }
-    .wp-block-ca-design-system-post-list .post-list-item.post-status .link-title .date {
-      line-height: 1rem;
-      font-size: 16px; }
-  .wp-block-ca-design-system-post-list .post-list-item.news-item {
-    margin-bottom: 16px; }
-    .wp-block-ca-design-system-post-list .post-list-item.news-item .link-title {
-      margin-bottom: 8px; }
-    .wp-block-ca-design-system-post-list .post-list-item.news-item .date {
-      font-size: 16px; } }
+    .post-list-results .excerpt .date:after {
+      content: " — "; }
 
-/* copied from block */
+/* News blocks from WordPress */
+.wp-block-column .post-list-results {
+  margin-top: 24px;
+  display: block; }
+  .wp-block-column .post-list-results .post-list-item {
+    margin-bottom: 32px; }
+    .wp-block-column .post-list-results .post-list-item .link-title {
+      margin-bottom: 0px;
+      font-weight: normal;
+      font-size: 18px; }
+      .wp-block-column .post-list-results .post-list-item .link-title a {
+        color: var(--primary-color, #33705B); }
+        .wp-block-column .post-list-results .post-list-item .link-title a:hover {
+          color: var(--primary-dark-color, #33705B);
+          text-decoration: none; }
+    .wp-block-column .post-list-results .post-list-item.status .date {
+      display: inline;
+      font-weight: 700; }
+  .wp-block-column .post-list-results .excerpt .date {
+    display: inline;
+    font-weight: 700; }
+    .wp-block-column .post-list-results .excerpt .date:after {
+      content: " — "; }
+
+/* copied from block (New, not in design system) */
 /* step list */
 ol.steps {
   padding-left: 0 !important;
@@ -3326,7 +3250,7 @@ ol.steps li:nth-child(24):before {
 ol.steps li:last-child {
   border-left: none; }
 
-/* NAVIGATION ELEMENTS */
+/* Navigation elements */
 /* Tablet and wider */
 /* Desktop and wider */
 /* utility classes */
@@ -3606,6 +3530,7 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
 .expanded-menu-section-header-arrow-svg {
   max-width: 20px; }
 
+/* This style should be published and installed so they aren't duplicated here and in design-system */
 cagov-navoverlay .container {
   padding: 0 15px;
   margin: 0;
@@ -3632,6 +3557,7 @@ cagov-navoverlay div.expanded-menu-col, cagov-navoverlay .expanded-menu-section.
 cagov-navoverlay .container .search-container {
   padding: 16px 0; }
 
+/* Site specific components */
 .cagov-drought-map {
   width: 100%;
   margin-top: 24px;
@@ -3699,7 +3625,5 @@ cagov-navoverlay .container .search-container {
 /* test build comment Wed Jul  7 20:14:46 PDT 2021 */
 /* test build comment Wed Jul  7 20:16:13 PDT 2021 */
 /* copied from gutenberg custom block */
-/* these component should all be published and installed so they aren't duplicated here and in design-system */
-/* page layout styles, not sure where this should go, in base-css too eventually? */
 
 /*# sourceMappingURL=index.css.map */
