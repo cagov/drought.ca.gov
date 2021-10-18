@@ -8,7 +8,7 @@
     "wordpress_source_url": "https://dev-drought-ca-gov.pantheonsite.io",
     "github_targets": [
       {
-        "outputBranch": "main",
+        "outputBranch": "development",
         "disabled": false,
         "PostPath": "wordpress/posts",
         "PagePath": "wordpress/pages",
@@ -20,21 +20,6 @@
         ],
         "tags_exclude": [
           "staging",
-          "development"
-        ]
-      },
-      {
-        "outputBranch": "staging",
-        "disabled": false,
-        "PostPath": "wordpress/posts",
-        "PagePath": "wordpress/pages",
-        "MediaPath": "wordpress/media",
-        "GeneralFilePath": "wordpress/general/general.json",
-        "ExcludeProperties": [
-          "content",
-          "_links"
-        ],
-        "tags_exclude": [
           "development"
         ]
       }
