@@ -11,6 +11,29 @@ const {
 const odiPublishing = require("./odi-publishing/config.js");
 const config = odiPublishing.getConfig(); // @TODO set branch in this file
 
+// @TEMP
+/**
+ * Get the njk template that corresponds to settings from the API
+ * @param {*} data
+ * @returns
+ */
+ function chooseTemplate(data) {
+  // Get value set in API for headless design system
+  let template = data.design_system_fields.template;
+  // Handle errors
+  if (template === undefined || template === null) {
+    if (data.type === "post") {
+      return "post";
+    } else if (data.type === "page") {
+      return "page";
+    }
+    return "page";
+  }
+  // Return template set by editor
+  return template;
+}
+
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
