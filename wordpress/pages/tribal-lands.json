@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-09-15T00:14:07",
-    "updated_date": "2021-10-15T21:26:05",
+    "updated_date": "2021-10-01T19:53:21",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/development"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 469,
     "date": "2021-09-14T17:14:07",
     "date_gmt": "2021-09-15T00:14:07",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=469",
-    "modified": "2021-10-15T14:26:05",
-    "modified_gmt": "2021-10-15T21:26:05",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=469",
+    "modified": "2021-10-01T12:53:21",
+    "modified_gmt": "2021-10-01T19:53:21",
     "slug": "tribal-lands",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/tribal-lands/",
     "title": "Tribal lands",
-    "excerpt": "<p>Water is a sacred and important resource to many tribal nations. It is vital to:&nbsp; Tribal subsistence Cultural practices Health and welfare Agricultural production, and&nbsp; Community and economic development.&nbsp; The state partners with California Native American tribes to manage drought conditions and emergencies. In doing so, we respect tribal sovereignty and traditional drought resilience strategies. &#8230; <a title=\"Tribal lands\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/tribal-lands/\" aria-label=\"More on Tribal lands\">Read more</a></p>\n",
+    "excerpt": "<p>Water is a sacred and important resource to many tribal nations. It is vital to:&nbsp; Tribal subsistence Cultural practices Health and welfare Agricultural production, and&nbsp; Community and economic development.&nbsp; The state partners with California Native American tribes to manage drought conditions and emergencies. In doing so, we respect tribal sovereignty and traditional drought resilience strategies. &#8230; <a title=\"Tribal lands\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/tribal-lands/\" aria-label=\"More on Tribal lands\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -46,21 +46,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/tribal-lands/",
       "page_title": "Tribal lands",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Tribal lands",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/tribal-lands/",
       "open_graph_title": "Tribal lands",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Tribal lands",
@@ -83,6 +83,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/tribal-lands/"
   }
 }
