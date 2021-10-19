@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-19T00:53:19",
-    "updated_date": "2021-10-19T00:53:24",
+    "updated_date": "2021-10-19T00:53:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-18T17:53:19",
     "date_gmt": "2021-10-19T00:53:19",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=739",
-    "modified": "2021-10-18T17:53:24",
-    "modified_gmt": "2021-10-19T00:53:24",
+    "modified": "2021-10-18T17:53:58",
+    "modified_gmt": "2021-10-19T00:53:58",
     "slug": "editing-a-post-without-a-date-and-two-of-the-same-tabs-open",
     "status": "publish",
     "type": "post",
@@ -31,7 +31,7 @@
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "standard",
+    "format": "link",
     "meta": {
       "custom_post_link": "",
       "custom_post_date": "",
