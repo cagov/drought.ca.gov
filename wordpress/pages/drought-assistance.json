@@ -98,7 +98,7 @@
         "taxonomy": "post_tag",
         "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
-        "count": 6,
+        "count": 7,
         "filter": "raw"
       }
     ],
