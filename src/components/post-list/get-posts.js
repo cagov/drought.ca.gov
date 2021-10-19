@@ -41,12 +41,18 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
       }
     }
   });
-  return wordPressArray
+  
+  let postsToReturn = wordPressArray
     .sort((a, b) => {
-      return new Date(a.data[field]) - new Date(b.data[field]);
+      let aDate = a.data[field] ? a.data[field] : a.data.date;
+      let bDate = b.data[field] ? b.data[field] : b.data.date;
+      return new Date(aDate) - new Date(bDate);
     })
-    .slice(Math.max(wordPressArray.length - count, 0))
+    .slice(-count)
     .reverse();
+
+  //console.log(returnPosts.map(f => `${f.data.title}: ${f.data.custom_post_date}, ${f.data.date}`));
+  return postsToReturn;
 };
 
 module.exports = { getPostsByCategory };
