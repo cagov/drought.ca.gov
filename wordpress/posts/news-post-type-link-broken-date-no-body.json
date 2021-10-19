@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-19T00:36:14",
-    "updated_date": "2021-10-19T00:39:43",
+    "created_date": "2021-10-19T00:52:12",
+    "updated_date": "2021-10-19T00:52:18",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 727,
-    "date": "2021-10-18T17:36:14",
-    "date_gmt": "2021-10-19T00:36:14",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=727",
-    "modified": "2021-10-18T17:39:43",
-    "modified_gmt": "2021-10-19T00:39:43",
-    "slug": "test-news-post-with-staging-tag",
+    "id": 737,
+    "date": "2021-10-18T17:52:12",
+    "date_gmt": "2021-10-19T00:52:12",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=737",
+    "modified": "2021-10-18T17:52:18",
+    "modified_gmt": "2021-10-19T00:52:18",
+    "slug": "news-post-type-link-broken-date-no-body",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/test-news-post-with-staging-tag/",
-    "title": "Test news post with staging tag",
-    "excerpt": "<p>This should not go up to main-test-pantheon. Also adding no date or link but setting it to a Post &gt; Link. Now removing the staging tag. And the category tag.</p>\n",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/news-post-type-link-broken-date-no-body/",
+    "title": "News post, type link, broken date, no body",
+    "excerpt": "",
     "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
@@ -33,7 +33,7 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "",
+      "custom_post_link": "https://example.com",
       "custom_post_date": "",
       "custom_post_location": ""
     },
@@ -55,19 +55,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/test-news-post-with-staging-tag/",
-      "page_title": "Test news post with staging tag",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/news-post-type-link-broken-date-no-body/",
+      "page_title": "News post, type link, broken date, no body",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Test news post with staging tag",
+      "meta_title": "News post, type link, broken date, no body",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/test-news-post-with-staging-tag/",
-      "open_graph_title": "Test news post with staging tag",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/news-post-type-link-broken-date-no-body/",
+      "open_graph_title": "News post, type link, broken date, no body",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Test news post with staging tag",
+      "twitter_title": "News post, type link, broken date, no body",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -95,6 +95,6 @@
     "headless_preview": [],
     "event": null,
     "custom_post_date": "",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/test-news-post-with-staging-tag/"
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/news-post-type-link-broken-date-no-body/"
   }
 }
