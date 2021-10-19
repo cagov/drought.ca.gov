@@ -19,8 +19,8 @@
           "_links"
         ],
         "tags_exclude": [
-          "staging-test",
-          "development-test"
+          "staging",
+          "development"
         ]
       }
     ]
