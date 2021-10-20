@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-09-01T21:50:38",
-    "updated_date": "2021-10-15T21:31:35",
+    "updated_date": "2021-10-19T22:25:52",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
     },
     "refresh_frequency": "as needed"
   },
@@ -17,8 +17,8 @@
     "date": "2021-09-01T14:50:38",
     "date_gmt": "2021-09-01T21:50:38",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=443",
-    "modified": "2021-10-15T14:31:35",
-    "modified_gmt": "2021-10-15T21:31:35",
+    "modified": "2021-10-19T15:25:52",
+    "modified_gmt": "2021-10-19T22:25:52",
     "slug": "drought-assistance",
     "status": "publish",
     "type": "page",
@@ -36,9 +36,7 @@
     "categories": [
       "Drought assistance"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "page"
     },
@@ -78,30 +76,17 @@
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 2,
+        "count": 1,
         "filter": "raw",
         "cat_ID": 20,
-        "category_count": 2,
+        "category_count": 1,
         "category_description": "",
         "cat_name": "Drought assistance",
         "category_nicename": "drought-assistance",
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "count": 6,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/drought-assistance/"
