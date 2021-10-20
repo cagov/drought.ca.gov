@@ -17,7 +17,7 @@ jobs:
           node-version: 14.17.0
       - name: Build 11ty
         run: |
-          npm install
+          npm ci --production
           npm run build
 
       # deploy built files to separate branch that contains only built files that github pages uses to serve site
