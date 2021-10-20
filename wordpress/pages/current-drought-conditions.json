@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2021-10-20T22:33:34",
+    "updated_date": "2021-10-20T22:36:15",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=29",
-    "modified": "2021-10-20T15:33:34",
-    "modified_gmt": "2021-10-20T22:33:34",
+    "modified": "2021-10-20T15:36:15",
+    "modified_gmt": "2021-10-20T22:36:15",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
