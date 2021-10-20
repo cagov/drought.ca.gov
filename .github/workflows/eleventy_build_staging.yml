@@ -18,7 +18,7 @@ jobs:
       - name: Build 11ty
         run: |
           mkdir dist
-          npm install
+          npm ci --production
           npm run build
 
       # # Push built site files to S3 production bucket    
