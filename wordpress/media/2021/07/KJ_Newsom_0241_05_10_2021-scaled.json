@@ -8,7 +8,7 @@
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
     },
     "refresh_frequency": "as needed"
   },
@@ -24,7 +24,7 @@
     "type": "attachment",
     "link": "https://live-drought-ca-gov.pantheonsite.io/kj_newsom_0241_05_10_2021/",
     "title": "GovernorGavinNewsom (High res)",
-    "author": "Admin",
+    "author": "Chach Sikes",
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
