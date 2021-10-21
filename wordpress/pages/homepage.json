@@ -78,7 +78,6 @@
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
-        "count": 1,
         "filter": "raw"
       },
       {
@@ -90,7 +89,6 @@
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
-        "count": 6,
         "filter": "raw"
       }
     ],
