@@ -1956,17 +1956,17 @@ textarea, input {
 /* input, textarea, select generic styles */
 /* Links global styles */
 a {
-  color: var(--primary-color, #004ABC);
+  color: var(--primary-color, #004abc);
   text-underline-position: under;
   text-decoration: underline; }
   a:hover {
-    color: var(--primary-dark-color, #003484);
-    text-decoration: none; }
+    color: var(--primary-dark-color, #003484); }
   a:focus {
-    outline: 2px solid var(--highlight-color, #FBAD23); }
+    outline: 2px solid var(--highlight-color, #fbad23); }
 
-a:focus, button:focus {
-  outline: solid 2px var(--highlight-color, #FBAD23) !important; }
+a:focus,
+button:focus {
+  outline: solid 2px var(--highlight-color, #fbad23) !important; }
 
 /* a, a:hover, a:focus */
 .breadcrumb {
@@ -2173,6 +2173,52 @@ figure {
 .fb-500 {
   flex-basis: 500px !important; }
 
+.visually-hidden {
+  position: absolute !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  width: 1px !important;
+  height: 1px !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  white-space: nowrap !important;
+  border: 0 !important; }
+
+/* positions */
+.position-sticky {
+  position: sticky !important; }
+
+.position-relative {
+  position: relative !important; }
+
+.position-absolute {
+  position: absolute !important; }
+
+.position-fixed {
+  position: fixed !important; }
+
+/* displays */
+.d-none {
+  display: none !important; }
+
+.d-inline {
+  display: inline !important; }
+
+.d-block {
+  display: block !important; }
+
+.d-inline-block {
+  display: inline-block !important; }
+
+.d-grid {
+  display: grid !important; }
+
+.d-flex {
+  display: flex !important; }
+
+.d-inline-flex {
+  display: inline-flex !important; }
+
 /* every-layout.dev layout classes */
 .stack * + * {
   margin-top: 1.5rem; }
@@ -2365,7 +2411,7 @@ cagov-navoverlay .search-container .site-search {
   .branding .search-container .site-search .search-textfield,
   cagov-navoverlay .search-container .site-search .search-textfield {
     border: 1px solid;
-    border-color: var(--secondary-color, #064e66);
+    border-color: var(--primary-color, #004abc);
     border-radius: 4px;
     padding: 10px;
     width: 100%;
@@ -2379,15 +2425,15 @@ cagov-navoverlay .search-container .site-search {
     position: relative;
     right: 5px;
     outline-offset: -2px;
-    background-color: var(--secondary-color, #064e66);
-    border: 1px solid var(--secondary-color, #064e66);
+    background-color: var(--primary-color, #004abc);
+    border: 1px solid var(--primary-color, #004abc);
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     padding: 7px 14px 4px 14px; }
     .branding .search-container .site-search .search-submit:hover,
     cagov-navoverlay .search-container .site-search .search-submit:hover {
-      background-color: var(--primary-color, #064e66);
-      border-color: var(--primary-color, #064e66); }
+      background-color: var(--primary-dark-color, #003484);
+      border-color: var(--primary-dark-color, #003484); }
     .branding .search-container .site-search .search-submit:focus,
     cagov-navoverlay .search-container .site-search .search-submit:focus {
       outline: 2px solid var(--highlight-color, #fec02f); }
@@ -2396,14 +2442,14 @@ cagov-navoverlay .search-container .site-search {
       fill: var(--white, #fff); }
   .branding .search-container .site-search .search-close,
   cagov-navoverlay .search-container .site-search .search-close {
-    color: var(--primary-dark-color, #064e66);
+    color: var(--primary-color, #004abc);
     text-decoration: underline;
     border: none;
     background-color: var(--gray-100, #f9f9fa);
     padding: 0 15px 0 15px; }
     .branding .search-container .site-search .search-close:hover,
     cagov-navoverlay .search-container .site-search .search-close:hover {
-      color: var(--primary, #064e66);
+      color: var(--primary-dark-color, #003484);
       text-decoration: none; }
     .branding .search-container .site-search .search-close:focus,
     cagov-navoverlay .search-container .site-search .search-close:focus {
@@ -2719,11 +2765,11 @@ sidebar cagov-content-navigation ul li {
   padding-bottom: 18px;
   margin-top: 0px;
   margin-bottom: 0px;
-  border-bottom: 1px solid var(--gray-200, #ededef);
+  border-bottom: 1px solid var(--gray-300, #e1e0e3);
   line-height: 28.2px;
   list-style: none; }
   sidebar cagov-content-navigation ul li:first-child {
-    border-top: 1px solid var(--gray-200, #ededef); }
+    border-top: 1px solid var(--gray-300, #e1e0e3); }
   sidebar cagov-content-navigation ul li a {
     text-decoration: none; }
     sidebar cagov-content-navigation ul li a:hover {
@@ -2807,6 +2853,52 @@ cagov-back-to-top .back-to-top {
     display: inline;
     right: 0; }
 
+.no-deco {
+  text-decoration: none; }
+
+.cagov-card {
+  border: 1px solid var(--gray-300, #e1e0e3);
+  padding: 1rem;
+  border-bottom: 0.3rem solid #004abc;
+  border-bottom: 0.3rem solid var(--primary-color, #004abc);
+  border-radius: 0.3rem;
+  min-width: 250px;
+  min-height: 50px;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between; }
+  .cagov-card:hover {
+    background-color: var(--gray-100, #f9f9fa);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  .cagov-card:focus {
+    outline: var(--highlight-color, #fec02f); }
+  .cagov-card .card-text {
+    color: var(--primary-color, #004abc) !important;
+    font-size: 1.75rem;
+    line-height: 40px;
+    padding: 0;
+    margin: 0; }
+  .cagov-card svg {
+    fill: var(--primary-color, #004abc);
+    width: 1rem;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+    max-height: 25px; }
+
+.cagov-grid,
+.cagov-grid .block-editor-block-list__layout {
+  display: grid;
+  grid-gap: 1.5rem; }
+
+/* editor override */
+.cagov-grid .block-editor-block-list__block {
+  margin: 0; }
+
+@supports (width: calc(min(250px, 100%))) {
+  .cagov-grid,
+  .cagov-grid .block-editor-block-list__layout {
+    grid-template-columns: repeat(auto-fit, minmax(calc(min(250px, 100%)), 1fr)); } }
+
 /* Components and blocks local styles - should come from design system @ISSUE */
 /* Override npm styles */
 cagov-accordion.prog-enhanced .accordion-card-container .card-body {
@@ -2864,53 +2956,6 @@ button.accordion-card-header:hover .accordion-title:hover {
     padding: 0; }
   .with-sidebar.page-container-ds .breadcrumb {
     margin-bottom: 0px; } }
-
-/* copied from blocks */
-.no-deco {
-  text-decoration: none; }
-
-.cagov-card {
-  border: 1px solid var(--gray-200, #ededef);
-  padding: 1rem;
-  border-bottom: 0.3rem solid #33705B;
-  border-bottom: 0.3rem solid var(--primary-color, #33705B);
-  border-radius: 0.3rem;
-  min-width: 250px;
-  min-height: 50px;
-  margin-top: 0;
-  display: flex;
-  justify-content: space-between; }
-
-.cagov-card .card-text {
-  color: #33705B;
-  /* defined here for when css vars are not supported */
-  color: var(--primary-color, #33705B) !important;
-  /* variable used with fallback in case it is not defined */
-  /* color: #33705B !important; */
-  font-size: 1.75rem;
-  line-height: 40px;
-  padding: 0;
-  margin: 0; }
-
-.cagov-card svg {
-  fill: #33705B;
-  fill: var(--primary-color, #33705B);
-  width: 1rem;
-  margin-top: .2rem;
-  margin-left: 1rem;
-  max-height: 25px; }
-
-.cagov-card:hover {
-  background: #F9F9FA;
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
-
-.cagov-grid, .cagov-grid .block-editor-block-list__layout {
-  display: grid;
-  grid-gap: 1.5rem; }
-
-/* editor override */
-.cagov-grid .block-editor-block-list__block {
-  margin: 0; }
 
 /* copied from blocks */
 .cagov-featured-section h2 {
