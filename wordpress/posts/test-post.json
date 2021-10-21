@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-22T21:44:08",
-    "updated_date": "2021-10-15T17:20:34",
+    "updated_date": "2021-10-21T17:52:34",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-22T14:44:08",
     "date_gmt": "2021-07-22T21:44:08",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=360",
-    "modified": "2021-10-15T10:20:34",
-    "modified_gmt": "2021-10-15T17:20:34",
+    "modified": "2021-10-21T10:52:34",
+    "modified_gmt": "2021-10-21T17:52:34",
     "slug": "test-post",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/test-post/",
     "title": "Staging only Test post",
-    "excerpt": "<p>update 2</p>\n",
+    "excerpt": "<p>update 3, 10:52 a.m.</p>\n",
     "author": "Jim Bumgardner",
     "featured_media": 0,
     "comment_status": "closed",
@@ -100,7 +100,6 @@
         "taxonomy": "post_tag",
         "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
-        "count": 4,
         "filter": "raw"
       }
     ],
