@@ -1,4 +1,4 @@
-
+{
   "$schema": "https://raw.githubusercontent.com/cagov/wordpress-to-github/main/wordpress-to-github/schemas/wordpress-to-github.config.schema.json",
   "meta": {
     "title": "wordpress-to-github endpoints config file",
