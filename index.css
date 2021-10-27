@@ -2224,6 +2224,26 @@ figure {
   margin-top: 1.5rem; }
 
 /* all utility css classes that can be used (shortcodes) */
+/* Grid classes */
+@supports (width: calc(min(376px, 100%))) {
+  .card-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(min(376px, 100%)), 1fr));
+    grid-gap: 1.5rem; } }
+
+@supports (width: calc(min(300px, 100%))) {
+  .card-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(min(300px, 100%)), 1fr));
+    grid-gap: 1.5rem; } }
+
+@supports (width: calc(min(250px, 100%))) {
+  .card-grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(min(250px, 100%)), 1fr));
+    grid-gap: 1.5rem; } }
+
+/* grid classes */
 /* all of the above will become part of base-css component */
 .branding {
   padding: 0;
@@ -2810,6 +2830,34 @@ sidebar cagov-content-navigation ul li {
   padding: 0 !important;
   position: absolute !important;
   white-space: nowrap !important; }
+
+/* External link icon */
+.external-link-icon {
+  display: inline-block;
+  padding: 0;
+  position: relative;
+  left: 1px;
+  top: -2px;
+  text-decoration: none;
+  min-width: 0.85rem; }
+  .external-link-icon svg path {
+    fill: var(--primary-color, #004abc); }
+
+main a:hover .external-link-icon svg path,
+.agency-footer a:hover .external-link-icon svg path {
+  fill: var(--primary-dark-color, #003484); }
+
+footer a .external-link-icon svg path {
+  fill: var(--black, #000); }
+
+/* External link icon exceptions */
+.cagov-card .external-link-icon,
+.wp-block-button__link .external-link-icon,
+.footer-social-links a .external-link-icon,
+img ~ .external-link-icon,
+svg ~ .external-link-icon,
+.pdf-link-icon ~ .external-link-icon {
+  display: none; }
 
 /* Back to top button */
 cagov-back-to-top .back-to-top {
