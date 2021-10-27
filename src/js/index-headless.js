@@ -11,6 +11,7 @@ import '@cagov/ds-feedback';
 import '@cagov/ds-minus';
 import '@cagov/ds-pagination';
 import '@cagov/ds-pdf-icon/src/index.js';
+import '@cagov/ds-external-link-icon/src/index.js';
 import '@cagov/ds-plus';
 // import '@cagov/ds-regulatory-outline';
 // import '@cagov/ds-skip-to-content';
