@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-28T23:06:56",
-    "updated_date": "2021-10-28T23:07:01",
+    "updated_date": "2021-10-28T23:17:46",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-28T16:06:56",
     "date_gmt": "2021-10-28T23:06:56",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=863",
-    "modified": "2021-10-28T16:07:01",
-    "modified_gmt": "2021-10-28T23:07:01",
+    "modified": "2021-10-28T16:17:46",
+    "modified_gmt": "2021-10-28T23:17:46",
     "slug": "dwr-offers-grants-for-urban-and-multibenefit-drought-relief",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2021-10-28",
