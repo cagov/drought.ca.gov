@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-27T17:25:19",
-    "updated_date": "2021-10-28T21:12:15",
+    "created_date": "2021-10-28T23:26:25",
+    "updated_date": "2021-10-28T23:26:25",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,12 +13,12 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 859,
-    "date": "2021-10-27T10:25:19",
-    "date_gmt": "2021-10-27T17:25:19",
+    "id": 865,
+    "date": "2021-10-28T16:26:25",
+    "date_gmt": "2021-10-28T23:26:25",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21.pdf",
-    "modified": "2021-10-28T14:12:15",
-    "modified_gmt": "2021-10-28T21:12:15",
+    "modified": "2021-10-28T16:26:25",
+    "modified_gmt": "2021-10-28T23:26:25",
     "slug": "ca-drought-update-10-25-21",
     "status": "inherit",
     "type": "attachment",
@@ -29,88 +29,15 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21.pdf'><img width=\"232\" height=\"300\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
-    "caption": "",
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21.pdf'>CA-Drought-Update-10-25-21</a></p>\n",
+    "caption": "<p>CA-Drought-Update-10-25-21</p>\n",
     "alt_text": "",
     "media_type": "file",
     "mime_type": "application/pdf",
-    "media_details": {
-      "sizes": {
-        "full": {
-          "file": "CA-Drought-Update-10-25-21-pdf.jpg",
-          "width": 1088,
-          "height": 1408,
-          "mime_type": "application/pdf",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf.jpg"
-        },
-        "medium": {
-          "file": "CA-Drought-Update-10-25-21-pdf-232x300.jpg",
-          "width": 232,
-          "height": 300,
-          "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-232x300.jpg"
-        },
-        "large": {
-          "file": "CA-Drought-Update-10-25-21-pdf-386x500.jpg",
-          "width": 386,
-          "height": 500,
-          "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-386x500.jpg"
-        },
-        "thumbnail": {
-          "file": "CA-Drought-Update-10-25-21-pdf-116x150.jpg",
-          "width": 116,
-          "height": 150,
-          "mime_type": "image/jpeg",
-          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-116x150.jpg"
-        }
-      }
-    },
+    "media_details": {},
     "post": null,
     "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21.pdf",
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21.pdf",
-    "sizes": [
-      {
-        "type": "full",
-        "path": "2021/10/CA-Drought-Update-10-25-21-pdf.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf.jpg",
-        "file": "CA-Drought-Update-10-25-21-pdf.jpg",
-        "width": 1088,
-        "height": 1408,
-        "mime_type": "application/pdf",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf.jpg"
-      },
-      {
-        "type": "large",
-        "path": "2021/10/CA-Drought-Update-10-25-21-pdf-386x500.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-386x500.jpg",
-        "file": "CA-Drought-Update-10-25-21-pdf-386x500.jpg",
-        "width": 386,
-        "height": 500,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-386x500.jpg"
-      },
-      {
-        "type": "medium",
-        "path": "2021/10/CA-Drought-Update-10-25-21-pdf-232x300.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-232x300.jpg",
-        "file": "CA-Drought-Update-10-25-21-pdf-232x300.jpg",
-        "width": 232,
-        "height": 300,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-232x300.jpg"
-      },
-      {
-        "type": "thumbnail",
-        "path": "2021/10/CA-Drought-Update-10-25-21-pdf-116x150.jpg",
-        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-116x150.jpg",
-        "file": "CA-Drought-Update-10-25-21-pdf-116x150.jpg",
-        "width": 116,
-        "height": 150,
-        "mime_type": "image/jpeg",
-        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/10/CA-Drought-Update-10-25-21-pdf-116x150.jpg"
-      }
-    ],
     "path": "2021/10/CA-Drought-Update-10-25-21.pdf"
   }
 }
