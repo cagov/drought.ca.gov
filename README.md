@@ -32,3 +32,7 @@ Content -> Production flow
 ## Drought map
 
 For more information regarding how we generate our drought maps, see our [drought map technical notes](src/py/generate-drought-map/readme.md).
+
+## Deployment Repositoy
+
+Deployment is handled by a [wordpress-to-github](https://www.npmjs.com/package/@cagov/wordpress-to-github) instance; the repository that controls it is [here](https://github.com/cagov/services-wordpress-to-github-drought-ca-gov).
