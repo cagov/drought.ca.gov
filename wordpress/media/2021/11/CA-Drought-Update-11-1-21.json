@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-11-02T15:44:58",
-    "updated_date": "2021-11-02T15:44:58",
+    "created_date": "2021-11-02T21:44:50",
+    "updated_date": "2021-11-02T21:44:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -14,11 +14,11 @@
   },
   "data": {
     "id": 897,
-    "date": "2021-11-02T08:44:58",
-    "date_gmt": "2021-11-02T15:44:58",
+    "date": "2021-11-02T14:44:50",
+    "date_gmt": "2021-11-02T21:44:50",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/11/CA-Drought-Update-11-1-21.pdf",
-    "modified": "2021-11-02T08:44:58",
-    "modified_gmt": "2021-11-02T15:44:58",
+    "modified": "2021-11-02T14:44:50",
+    "modified_gmt": "2021-11-02T21:44:50",
     "slug": "ca-drought-update-11-1-21",
     "status": "inherit",
     "type": "attachment",
