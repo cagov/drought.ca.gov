@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2021-10-28T23:40:45",
+    "updated_date": "2021-11-02T18:56:10",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2021-10-28T16:40:45",
-    "modified_gmt": "2021-10-28T23:40:45",
+    "modified": "2021-11-02T11:56:10",
+    "modified_gmt": "2021-11-02T18:56:10",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
-    "excerpt": "<p>State actions against drought News</p>\n",
+    "excerpt": "<p>Are we still in a drought? State actions against drought News</p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -36,7 +36,8 @@
     "categories": [],
     "tags": [
       "homepage",
-      "launch content"
+      "launch content",
+      "staging"
     ],
     "design_system_fields": {
       "template": "landing"
@@ -88,6 +89,17 @@
         "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "filter": "raw"
       }
