@@ -7,7 +7,7 @@ redirectFile.redirects.forEach((redirect) => {
   console.log('Uploading ', redirect)
   s3.putObject({
     Body: '',
-    Bucket: 'staging.cannabis.ca.gov',
+    Bucket: 'development.drought.ca.gov',
     Key: (redirect.url.indexOf('/') === 0) ? redirect.url.substring(1) : redirect.url,
     WebsiteRedirectLocation: redirect.action_data.url
   }, (err, data) => {
