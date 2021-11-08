@@ -9,13 +9,13 @@
 @import '../../../node_modules/@cagov/ds-accordion/src/index.scss';  /* custom css overrides for default accordion styles */
 @import '../../components/breadcrumb/index'; /* copied from blocks */
 
-// @import '../../components/branding/_style';
 @import '../../../node_modules/@cagov/ds-branding/src/index.scss'; 
-
 @import '../../../node_modules/@cagov/ds-button-grid/src/index.scss'; /* copied from blocks */
 @import '../../../node_modules/@cagov/ds-content-navigation/src/index.scss'; /* copied from blocks */
 @import '../../../node_modules/@cagov/ds-feature-card/src/index.scss'; /* copied from block */
 @import '../../../node_modules/@cagov/ds-step-list/src/index.scss';
+@import '../../../node_modules/@cagov/ds-external-link-icon/src/index.scss';
+@import '../../../node_modules/@cagov/ds-pdf-icon/src/index.scss';
 
 @import '../../components/page-alert/index'; /* copied from gutenberg custom block */
 @import '../../components/post-list/_style';
