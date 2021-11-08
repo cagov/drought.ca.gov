@@ -1,0 +1,10 @@
+/* ds-feature-card currently resets all h3 margin across site. */
+.cagov-featured-section {
+  h3 {
+    margin: 0;
+  }
+}
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
