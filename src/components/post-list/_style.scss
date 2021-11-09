@@ -11,7 +11,7 @@ cagov-post-list {
 
       a {
         color: $primary;
-        @include text-underline;
+        text-decoration: underline;
         &:hover {
           color: $primary-dark;
           text-decoration: none;
@@ -49,7 +49,7 @@ cagov-post-list {
       font-size: 28px;
       a {
         color: $primary;
-        @include text-underline;
+        text-decoration: underline;
         &:hover {
           color: $primary-dark;
           text-decoration: none;
@@ -84,7 +84,7 @@ cagov-post-list {
 
       a {
         color: $primary;
-        @include text-underline;
+        text-decoration: underline;
         &:hover {
           color: $primary-dark;
           text-decoration: none;
