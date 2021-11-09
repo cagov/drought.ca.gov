@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "created_date": "2021-09-15T00:14:07",
+    "updated_date": "2021-11-09T15:29:02",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 469,
+    "date": "2021-09-14T17:14:07",
+    "date_gmt": "2021-09-15T00:14:07",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=469",
+    "modified": "2021-11-09T07:29:02",
+    "modified_gmt": "2021-11-09T15:29:02",
+    "slug": "tribal-lands",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+    "title": "Tribal lands",
+    "excerpt": "<p>Water is a sacred and important resource to many Tribal nations. It is vital to:&nbsp; Tribal subsistence Cultural practices Health and welfare Agricultural production, and&nbsp; Community and economic development.&nbsp; The state partners with California Native American Tribes to manage drought conditions and emergencies. In doing so, we respect Tribal sovereignty and traditional drought resilience strategies. &#8230; <a title=\"Tribal lands\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/tribal-lands/\" aria-label=\"More on Tribal lands\">Read more</a></p>\n",
+    "author": "Peggy Gartin",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      "staging"
+    ],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+      "page_title": "Tribal lands",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Tribal lands",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/",
+      "open_graph_title": "Tribal lands",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Tribal lands",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/tribal-lands/"
+  }
+}
