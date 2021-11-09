@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "created_date": "2021-11-09T21:09:14",
+    "updated_date": "2021-11-09T21:09:20",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 925,
+    "date": "2021-11-09T13:09:14",
+    "date_gmt": "2021-11-09T21:09:14",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=925",
+    "modified": "2021-11-09T13:09:20",
+    "modified_gmt": "2021-11-09T21:09:20",
+    "slug": "sandbox-landing",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/sandbox-landing/",
+    "title": "Testing California drought action",
+    "excerpt": "<p>Are we still in a drought? Despite the recent welcome rain, the answer is yes. Experts say that it would take 140% of the state’s normal yearly rainfall to recover from drought. Find out more in our weekly California Drought Update. Read weekly update A Twitter List by JaredWilliamYee</p>\n",
+    "author": "Jon Jensen",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "landing",
+    "meta": [],
+    "categories": [],
+    "tags": [
+      "staging"
+    ],
+    "design_system_fields": {
+      "template": "landing"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/sandbox-landing/",
+      "page_title": "Testing California drought action",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Testing California drought action",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/sandbox-landing/",
+      "open_graph_title": "Testing California drought action",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Testing California drought action",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/sandbox-landing/"
+  }
+}
