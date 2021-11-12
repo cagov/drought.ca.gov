@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-11-12T22:45:57",
-    "updated_date": "2021-11-12T22:46:04",
+    "updated_date": "2021-11-12T23:07:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-11-12T14:45:57",
     "date_gmt": "2021-11-12T22:45:57",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=944",
-    "modified": "2021-11-12T14:46:04",
-    "modified_gmt": "2021-11-12T22:46:04",
+    "modified": "2021-11-12T15:07:22",
+    "modified_gmt": "2021-11-12T23:07:22",
     "slug": "dwr-awards-another-25-million-in-drought-relief-for-small-communities",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2021-11-09",
