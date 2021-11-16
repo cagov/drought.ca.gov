@@ -64,7 +64,7 @@ jobs:
         uses: mshick/add-pr-comment@v1
         with:
           message: |
-            Preview site available at [${{ env.URLSAFE_BRANCH_NAME }}.pr.drought.ca.gov](https://${{ env.URLSAFE_BRANCH_NAME }}.pr.drought.ca.gov/).
+            Preview site available at <a href="https://${{ env.URLSAFE_BRANCH_NAME }}.pr.drought.ca.gov/" target="_blank">${{ env.URLSAFE_BRANCH_NAME }}.pr.drought.ca.gov</a>.
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           repo-token-user-login: 'github-actions[bot]'
           allow-repeats: false
