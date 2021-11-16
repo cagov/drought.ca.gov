@@ -1,6 +1,6 @@
 # drought.ca.gov
 
-California state site for drought related information
+California state site for drought-related information.
 
 Content -> Production flow
 
@@ -23,7 +23,7 @@ Content -> Production flow
 
 ## Where CSS lives
 
-* css variables live: 
+* CSS variables live in `src/css/sass/colorschemes/_drought.scss`.
 
 ## Network diagram
 
