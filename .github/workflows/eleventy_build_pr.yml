@@ -1,11 +1,11 @@
 name: Eleventy Build PR Site
 on:
   pull_request:
-    branches-ignore:
-      - main
-      - staging
-      - development
-      - main-test-pantheon
+    types:
+      - opened
+      - synchronize
+      - ready_for_review
+      - reopened
 jobs:
   build_deploy:
     runs-on: ubuntu-18.04
