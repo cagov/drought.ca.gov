@@ -1,4 +1,4 @@
-name: Eleventy Build Main
+name: Eleventy Build PR Site
 on:
   pull_request:
     branches-ignore:
