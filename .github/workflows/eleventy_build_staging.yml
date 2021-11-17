@@ -1,4 +1,4 @@
-name: Eleventy Build Main
+name: Eleventy Build Staging
 on:
   push:
     branches:
