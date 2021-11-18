@@ -1,6 +1,7 @@
 const fs = require("fs");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const cagovBuildSystem = require('@cagov/11ty-build-system');
 
 const { renderPostLists } = require("./src/components/post-list/render");
 const {
@@ -35,6 +36,27 @@ const config = odiPublishing.getConfig(); // @TODO set branch in this file
 
 
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(cagovBuildSystem, {
+    sass: {
+      watch: [
+        'src/css/**/*',
+        'src/components/**/*.scss'
+      ],
+      output: 'dist/index.css',
+      options: {
+        file: 'src/css/sass/index.scss',
+        includePaths: ['./src/css/sass']
+      }
+    },
+    rollup: {
+      watch: [
+        'src/js/**/*',
+        'src/components/**/*.js'
+      ],
+      file: 'src/js/rollup.config.js'
+    }
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
     notify: true,
