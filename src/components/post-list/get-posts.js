@@ -28,10 +28,10 @@ const getPostsByCategory = (categoryString, count = 5, field = "custom_post_date
     .map((c) => c.toLowerCase());
 
   let wordPressArray = [];
-  let files = fs.readdirSync("wordpress/posts/");
+  let files = fs.readdirSync("src/templates/wordpress/posts/");
   files.forEach((file) => {
     if (file.indexOf(".json") > -1) {
-      let loc = "wordpress/posts/" + file;
+      let loc = "src/templates/wordpress/posts/" + file;
       let parsedInfo = JSON.parse(fs.readFileSync(loc, "utf8"));
       if (
         parsedInfo.data.type === "post" &&

@@ -6,10 +6,10 @@
   },
   "data": {
     "disabled": false,
-    "PostPath": "wordpress/posts",
-    "PagePath": "wordpress/pages",
-    "MediaPath": "wordpress/media",
-    "GeneralFilePath": "wordpress/general/general.json",
+    "PostPath": "src/templates/wordpress/posts",
+    "PagePath": "src/templates/wordpress/pages",
+    "MediaPath": "src/wordpress-media",
+    "GeneralFilePath": "odi-publishing/general.json",
     "ExcludeProperties": ["content", "_links"]
   }
 }
