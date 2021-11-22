@@ -41,10 +41,8 @@ module.exports = function (eleventyConfig) {
       if (html.includes("cagov-post-list")) {
         // Render post-lists
         html = renderPostLists(html);
-
         // Replace Wordpress media paths with correct 11ty output path.
         html = html.replace(new RegExp("http.+?/wp-content/uploads/", 'g'), "/media/");
-
         // Minify HTML.
         html = htmlmin.minify(html, {
           useShortDoctype: true,
