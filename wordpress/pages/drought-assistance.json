@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-01T21:50:38",
-    "updated_date": "2021-09-30T23:04:57",
+    "updated_date": "2021-10-29T23:53:38",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-09-01T14:50:38",
     "date_gmt": "2021-09-01T21:50:38",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=443",
-    "modified": "2021-09-30T16:04:57",
-    "modified_gmt": "2021-09-30T23:04:57",
+    "modified": "2021-10-29T16:53:38",
+    "modified_gmt": "2021-10-29T23:53:38",
     "slug": "drought-assistance",
     "status": "publish",
     "type": "page",
     "link": "https://test-drought-ca-gov.pantheonsite.io/drought-assistance/",
     "title": "Drought assistance",
-    "excerpt": "<p>Si tiene un pozo seco y necesitaría asistencia en Español, llame gratis (844) 903-2800.&nbsp; Emergency programs Drinking water for drought relief The state pays for getting bottled and hauled water to areas that need immediate drought relief. This is managed through your county&#8217;s Office of Emergency Services (OES). Learn more at the CalOES website. Funding &#8230; <a title=\"Drought assistance\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/drought-assistance/\" aria-label=\"More on Drought assistance\">Read more</a></p>\n",
+    "excerpt": "<p>Emergency drinking water Are you having trouble getting water in your home? Has your well gone dry? Contact your county&#8217;s Office of Emergency Services. They will work with you to determine what help is available and how to get it. Some counties are struggling to help their residents deal with the impact of drought. If &#8230; <a title=\"Drought assistance\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/drought-assistance/\" aria-label=\"More on Drought assistance\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -36,9 +36,7 @@
     "categories": [
       "Drought assistance"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "page"
     },
@@ -61,7 +59,7 @@
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Drought assistance",
-      "meta_description": "Information about emergency water delivery, funding programs, and conservation programs that help communities experiencing drought.",
+      "meta_description": "Information about emergency water delivery and funding programs that help communities experiencing drought.",
       "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/drought-assistance/",
       "open_graph_title": "Drought assistance",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
@@ -78,30 +76,15 @@
         "taxonomy": "category",
         "description": "",
         "parent": 0,
-        "count": 2,
         "filter": "raw",
         "cat_ID": 20,
-        "category_count": 2,
         "category_description": "",
         "cat_name": "Drought assistance",
         "category_nicename": "drought-assistance",
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "count": 5,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/drought-assistance/"

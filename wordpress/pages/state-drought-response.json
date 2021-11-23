@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:07",
-    "updated_date": "2021-10-01T19:52:03",
+    "updated_date": "2021-11-02T18:46:13",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:33:07",
     "date_gmt": "2021-07-04T14:33:07",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=27",
-    "modified": "2021-10-01T12:52:03",
-    "modified_gmt": "2021-10-01T19:52:03",
+    "modified": "2021-11-02T11:46:13",
+    "modified_gmt": "2021-11-02T18:46:13",
     "slug": "state-drought-response",
     "status": "publish",
     "type": "page",
@@ -33,7 +33,9 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
+    "categories": [
+      "State response"
+    ],
     "tags": [
       "launch content"
     ],
@@ -66,7 +68,24 @@
       "twitter_title": "State drought response",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
-    "headless_categories": [],
+    "headless_categories": [
+      {
+        "term_id": 26,
+        "name": "State response",
+        "slug": "state-response",
+        "term_group": 0,
+        "term_taxonomy_id": 26,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 26,
+        "category_description": "",
+        "cat_name": "State response",
+        "category_nicename": "state-response",
+        "category_parent": 0
+      }
+    ],
     "headless_tags": [
       {
         "term_id": 15,
