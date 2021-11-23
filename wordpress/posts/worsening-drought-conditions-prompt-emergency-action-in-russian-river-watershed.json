@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-15T20:59:00",
-    "updated_date": "2021-10-12T21:00:57",
+    "updated_date": "2021-10-13T19:51:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-06-15T13:59:00",
     "date_gmt": "2021-06-15T20:59:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=503",
-    "modified": "2021-10-12T14:00:57",
-    "modified_gmt": "2021-10-12T21:00:57",
+    "modified": "2021-10-13T12:51:03",
+    "modified_gmt": "2021-10-13T19:51:03",
     "slug": "worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed",
     "status": "publish",
     "type": "post",
@@ -32,11 +32,7 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": {
-      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06152021_russian_river_curtailments.pdf",
-      "custom_post_date": "2021-06-15",
-      "custom_post_location": ""
-    },
+    "meta": [],
     "categories": [
       "News"
     ],
@@ -58,7 +54,7 @@
       "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed/",
       "page_title": "Worsening Drought Conditions Prompt Emergency Action in Russian River Watershed",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -91,7 +87,14 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
     "custom_post_date": "2021-06-15",
+    "meta_": {
+      "0": "2021-06-15",
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr06152021_russian_river_curtailments.pdf",
+      "custom_post_date": "2021-06-15",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/worsening-drought-conditions-prompt-emergency-action-in-russian-river-watershed/"
   }
 }

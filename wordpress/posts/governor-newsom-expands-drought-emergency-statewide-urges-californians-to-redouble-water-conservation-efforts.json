@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2021-10-19T00:48:34",
-    "updated_date": "2021-10-19T00:48:40",
+    "created_date": "2021-10-20T00:48:27",
+    "updated_date": "2021-10-20T01:38:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,30 +13,26 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 735,
-    "date": "2021-10-18T17:48:34",
-    "date_gmt": "2021-10-19T00:48:34",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=735",
-    "modified": "2021-10-18T17:48:40",
-    "modified_gmt": "2021-10-19T00:48:40",
-    "slug": "news-post-link-type",
+    "id": 776,
+    "date": "2021-10-19T17:48:27",
+    "date_gmt": "2021-10-20T00:48:27",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=776",
+    "modified": "2021-10-19T18:38:11",
+    "modified_gmt": "2021-10-20T01:38:11",
+    "slug": "governor-newsom-expands-drought-emergency-statewide-urges-californians-to-redouble-water-conservation-efforts",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/news-post-link-type/",
-    "title": "News post, link type",
-    "excerpt": "<p>no link, no date</p>\n",
-    "author": "Chach Sikes",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-expands-drought-emergency-statewide-urges-californians-to-redouble-water-conservation-efforts/",
+    "title": "Governor Newsom Expands Drought Emergency Statewide, Urges Californians to Redouble Water Conservation Efforts",
+    "excerpt": "<p>Proclamation authorizes State Water Board to ban wasteful water uses, boosting conservation efforts</p>\n",
+    "author": "Peggy Gartin",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": {
-      "custom_post_link": "",
-      "custom_post_date": "",
-      "custom_post_location": ""
-    },
+    "meta": [],
     "categories": [
       "News"
     ],
@@ -55,19 +51,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/news-post-link-type/",
-      "page_title": "News post, link type",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-expands-drought-emergency-statewide-urges-californians-to-redouble-water-conservation-efforts/",
+      "page_title": "Governor Newsom Expands Drought Emergency Statewide, Urges Californians to Redouble Water Conservation Efforts",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "News post, link type",
+      "meta_title": "Governor Newsom Expands Drought Emergency Statewide, Urges Californians to Redouble Water Conservation Efforts",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/news-post-link-type/",
-      "open_graph_title": "News post, link type",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-expands-drought-emergency-statewide-urges-californians-to-redouble-water-conservation-efforts/",
+      "open_graph_title": "Governor Newsom Expands Drought Emergency Statewide, Urges Californians to Redouble Water Conservation Efforts",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "News post, link type",
+      "twitter_title": "Governor Newsom Expands Drought Emergency Statewide, Urges Californians to Redouble Water Conservation Efforts",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,7 +87,14 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "custom_post_date": "",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/news-post-link-type/"
+    "event": null,
+    "custom_post_date": "2021-10-19",
+    "meta_": {
+      "0": "2021-10-19",
+      "custom_post_link": "https://www.gov.ca.gov/2021/10/19/governor-newsom-expands-drought-emergency-statewide-urges-californians-to-redouble-water-conservation-efforts/",
+      "custom_post_date": "2021-10-19",
+      "custom_post_location": ""
+    },
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-expands-drought-emergency-statewide-urges-californians-to-redouble-water-conservation-efforts/"
   }
 }

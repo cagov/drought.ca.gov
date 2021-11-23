@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-06-08T20:57:00",
-    "updated_date": "2021-10-12T21:01:24",
+    "updated_date": "2021-10-19T19:14:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-06-08T13:57:00",
     "date_gmt": "2021-06-08T20:57:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=500",
-    "modified": "2021-10-12T14:01:24",
-    "modified_gmt": "2021-10-12T21:01:24",
+    "modified": "2021-10-19T12:14:50",
+    "modified_gmt": "2021-10-19T19:14:50",
     "slug": "state-agencies-call-on-water-managers-to-promote-water-conservation",
     "status": "publish",
     "type": "post",
     "link": "https://test-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/",
     "title": "State Agencies Call On Water Managers to Promote Water Conservation",
-    "excerpt": "<p>With California experiencing its second consecutive dry year, the California Public Utilities Commission (CPUC), the State Water Resources Control Board (State Water Board), and the California Department of Water Resources (DWR) called on local and regional water suppliers to increase their conservation efforts, develop a contingency plan in the event of water supply problems, and &#8230; <a title=\"State Agencies Call On Water Managers to Promote Water Conservation\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/\" aria-label=\"More on State Agencies Call On Water Managers to Promote Water Conservation\">Read more</a></p>\n",
+    "excerpt": "<p>With California experiencing its second consecutive dry year, the California Public Utilities Commission (CPUC), the State Water Resources Control Board (State Water Board), and the California Department of Water Resources (DWR) called on local and regional water suppliers to increase conservation efforts and develop a contingency plan.</p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
@@ -32,11 +32,7 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": {
-      "custom_post_link": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M387/K577/387577031.PDF",
-      "custom_post_date": "2021-06-08",
-      "custom_post_location": ""
-    },
+    "meta": [],
     "categories": [
       "News"
     ],
@@ -58,7 +54,7 @@
       "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/",
       "page_title": "State Agencies Call On Water Managers to Promote Water Conservation",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -91,7 +87,14 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
     "custom_post_date": "2021-06-08",
+    "meta_": {
+      "0": "2021-06-08",
+      "custom_post_link": "https://docs.cpuc.ca.gov/PublishedDocs/Published/G000/M387/K577/387577031.PDF",
+      "custom_post_date": "2021-06-08",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-agencies-call-on-water-managers-to-promote-water-conservation/"
   }
 }

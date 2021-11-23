@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-07T01:51:25",
-    "updated_date": "2021-10-12T20:55:29",
+    "updated_date": "2021-10-13T19:45:50",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-06T18:51:25",
     "date_gmt": "2021-10-07T01:51:25",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=695",
-    "modified": "2021-10-12T13:55:29",
-    "modified_gmt": "2021-10-12T20:55:29",
+    "modified": "2021-10-13T12:45:50",
+    "modified_gmt": "2021-10-13T19:45:50",
     "slug": "dwr-awards-28-million-in-small-community-drought-relief-funding",
     "status": "publish",
     "type": "post",
@@ -32,11 +32,7 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": {
-      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Sept-21/DWR-Awards-28-Million-in-Small-Community-Drought-Relief-Funding",
-      "custom_post_date": "2021-09-22",
-      "custom_post_location": ""
-    },
+    "meta": [],
     "categories": [
       "News"
     ],
@@ -58,7 +54,7 @@
       "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/",
       "page_title": "DWR Awards $28 Million in Small Community Drought Relief Funding",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
@@ -91,7 +87,14 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
     "custom_post_date": "2021-09-22",
+    "meta_": {
+      "0": "2021-09-22",
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Sept-21/DWR-Awards-28-Million-in-Small-Community-Drought-Relief-Funding",
+      "custom_post_date": "2021-09-22",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-awards-28-million-in-small-community-drought-relief-funding/"
   }
 }

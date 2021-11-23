@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-04-01T12:00:00",
-    "updated_date": "2021-10-12T21:03:52",
+    "updated_date": "2021-10-14T00:20:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-04-01T12:00:00",
     "date_gmt": "2021-04-01T12:00:00",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=54",
-    "modified": "2021-10-12T14:03:52",
-    "modified_gmt": "2021-10-12T21:03:52",
+    "modified": "2021-10-13T17:20:31",
+    "modified_gmt": "2021-10-14T00:20:31",
     "slug": "water-resilience-portfolio",
     "status": "publish",
     "type": "post",
     "link": "https://test-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
     "title": "Prepare water resilience portfolio",
-    "excerpt": "<p>Governor Newsom directs many state agencies to prepare a Water Resilience Portfolio (released in July 2020).</p>\n",
+    "excerpt": "<p>Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.</p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
     "comment_status": "closed",
@@ -32,11 +32,7 @@
     "sticky": false,
     "template": "",
     "format": "status",
-    "meta": {
-      "custom_post_link": "",
-      "custom_post_date": "2021-04-01",
-      "custom_post_location": ""
-    },
+    "meta": [],
     "categories": [
       "Action"
     ],
@@ -57,18 +53,18 @@
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
       "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
       "page_title": "Prepare water resilience portfolio",
-      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Prepare water resilience portfolio",
-      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.",
       "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/",
       "open_graph_title": "Prepare water resilience portfolio",
-      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "open_graph_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.",
       "twitter_title": "Prepare water resilience portfolio",
-      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+      "twitter_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought."
     },
     "headless_categories": [
       {
@@ -91,7 +87,14 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
+    "event": null,
     "custom_post_date": "2021-04-01",
+    "meta_": {
+      "0": "2021-04-01",
+      "custom_post_link": "",
+      "custom_post_date": "2021-04-01",
+      "custom_post_location": ""
+    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/water-resilience-portfolio/"
   }
 }
