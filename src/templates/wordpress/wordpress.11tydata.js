@@ -1,23 +1,12 @@
-const config = require("../../../odi-publishing/config.js").getConfig();
-const siteHost = new URL(config.og_meta.site_url).hostname;
+const config = require("../../../odi-publishing/config.js");
 
-const parseUrl = (fn) => (url) => {
+const getUrlPath = (url) => {
   try {
-    let u = new URL(url);
-    return fn(u);
+    return new URL(url).pathname;
   } catch {
     return url;
   }
-}
-
-const getUrlPath = parseUrl((url) => url.pathname);
-
-const normalizeUrlHost = parseUrl((url) => {
-  if (url.hostname.includes("pantheonsite")) { 
-    url.hostname = siteHost; 
-  }
-  return url.href;
-})
+};
 
 module.exports = {
   eleventyComputed: {
@@ -29,9 +18,7 @@ module.exports = {
       og_meta: {
         site_url: config.og_meta.site_url,
         canonical_url: article => 
-          normalizeUrlHost(
-            article.data?.wordpress_url
-          ),
+          article.data?.wordpress_url,
         page_title: article => 
           article.data.og_meta?.page_title 
           || config.og_meta.site_name,
@@ -60,11 +47,9 @@ module.exports = {
           article.data?.excerpt 
           || article.data.og_meta?.twitter_description 
           || config.og_meta.site_description,
-        page_social_image_url: article => 
-          normalizeUrlHost(
-            article.data.og_meta?.page_social_image_url 
-            || config.og_meta.page_social_image_url
-          ),
+        page_social_image_url: article =>
+          article.data.og_meta?.page_social_image_url 
+          || config.og_meta.page_social_image_url,
         page_social_image_width: article => 
           article.data.og_meta?.page_social_image_width 
           || config.og_meta.page_social_image_width,

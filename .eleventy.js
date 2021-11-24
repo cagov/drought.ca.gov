@@ -1,6 +1,7 @@
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require('@cagov/11ty-build-system');
+const config = require('./odi-publishing/config.js');
 
 const { renderPostLists } = require("./src/components/post-list/render");
 
@@ -35,21 +36,40 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // Change the domain on a URL.
+  // Good candidate for 11ty-build-system.
+  eleventyConfig.addFilter("changeDomain", function (url, domain) {
+    try {
+      let u = new URL(url, `https://${domain}`);
+      u.host = domain;
+      return u.href;
+    } catch {
+      return url;
+    }
+  });
+
+  // Replace Wordpress Media paths.
+  // Use this explicitly when a full URL is needed, such as within meta tags.
+  // Doing so will ensure the domain doesn't get nuked by the HTML transformation below.
+  eleventyConfig.addFilter("changeWpMediaPath", function (path) {
+    return path.replace(new RegExp(`/${config.build.upload_folder}`, 'g'), "/media/");
+  });
+
   eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
     //outputPath === false means serverless templates
     if (!outputPath || outputPath.endsWith(".html")) {
+      // Render post-lists
       if (html.includes("cagov-post-list")) {
-        // Render post-lists
         html = renderPostLists(html);
-        // Replace Wordpress media paths with correct 11ty output path.
-        html = html.replace(new RegExp("http.+?/wp-content/uploads/", 'g'), "/media/");
-        // Minify HTML.
-        html = htmlmin.minify(html, {
-          useShortDoctype: true,
-          removeComments: true,
-          collapseWhitespace: true,
-        });
       }
+      // Replace Wordpress media paths with correct 11ty output path.
+      html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/media/");
+      // Minify HTML.
+      html = htmlmin.minify(html, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true,
+      });
     }
     return html;
   });
