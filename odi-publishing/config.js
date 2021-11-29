@@ -4,21 +4,13 @@ const main_test_pantheon = require('./odi-publishing.main-test-pantheon.json'); 
 const localhost = require('./odi-publishing.localhost.json'); // Default settings.
 
 const getConfig = () => {
-    var branch = "main"; // @TEMP connect to env varible or github action.
-    // @TODO connect .yml or local env variable branch name & return if branch exists.
-    
-    switch (branch) {
-        case 'localhost': 
-            return localhost;
-        case 'main': 
-            return main;
-        case 'main_test_pantheon': 
-            return main_test_pantheon;
-        // case 'staging': 
-        //     return staging;
-        default:
-            return main;
+    if (process.env.NODE_ENV === "development") {
+        return localhost;
     }
-}
+    if (process.env.DOMAIN === "main-test-pantheon.drought.ca.gov.s3-website-us-west-1.amazonaws.com") {
+        return main_test_pantheon;
+    }
+    return main;
+};
 
-exports.getConfig = getConfig;
+module.exports = getConfig();

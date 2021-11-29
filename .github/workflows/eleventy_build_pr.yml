@@ -18,15 +18,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.17.0
-      - name: Build 11ty
-        run: |
-          mkdir dist
-          npm ci --production
-          npm run build
-      - name: Write robots.txt
-        run: |
-          echo 'User-agent: *' > docs/robots.txt
-          echo 'Disallow: /' >> docs/robots.txt
       - name: Get branch name (merge)
         if: github.event_name != 'pull_request'
         shell: bash
@@ -41,6 +32,15 @@ jobs:
       - name: Report escaped branch name
         shell: bash
         run: echo ${URLSAFE_BRANCH_NAME}
+      - name: Build 11ty
+        run: |
+          mkdir dist
+          npm ci --production
+          DOMAIN=${URLSAFE_BRANCH_NAME}.pr.drought.ca.gov npm run build
+      - name: Write robots.txt
+        run: |
+          echo 'User-agent: *' > docs/robots.txt
+          echo 'Disallow: /' >> docs/robots.txt
       - name: Deploy to S3
         uses: jakejarvis/s3-sync-action@v0.5.1
         with:

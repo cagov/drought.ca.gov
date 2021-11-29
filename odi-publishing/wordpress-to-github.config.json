@@ -9,7 +9,14 @@
     "PostPath": "src/templates/wordpress/posts",
     "PagePath": "src/templates/wordpress/pages",
     "MediaPath": "src/wordpress-media",
-    "GeneralFilePath": "wordpress/general/general.json",
-    "ExcludeProperties": ["content", "_links"]
+    "GeneralFilePath": "odi-publishing/general/general.json",
+    "ExcludeProperties": ["content", "_links"],
+    "ApiRequests": [
+      {
+        "Destination": "src/templates/_data/headerMenu.json",
+        "Source": "/wp-json/menus/v1/menus/header-menu",
+        "ExcludeProperties": []
+      }
+    ]
   }
 }
