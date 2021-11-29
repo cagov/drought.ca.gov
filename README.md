@@ -25,6 +25,10 @@ Content -> Production flow
 
 * CSS variables live in `src/css/sass/colorschemes/_drought.scss`.
 
+## Wordpress template defaults
+
+Default values for Wordpress content templates are configured in `src/templates/wordpress/wordpress.11tydata.js`.
+
 ## Network diagram
 
 <img src="drought.ca.gov-web-application-architecture.png">
