@@ -16,6 +16,21 @@
         "Destination": "src/templates/_data/headerMenu.json",
         "Source": "/wp-json/menus/v1/menus/header-menu",
         "ExcludeProperties": []
+      },
+      {
+        "Destination": "src/templates/_data/contentMenu.json",
+        "Source": "/wp-json/menus/v1/menus/content-menu",
+        "ExcludeProperties": []
+      },
+      {
+        "Destination": "src/templates/_data/stateWideFooterMenu.json",
+        "Source": "/wp-json/menus/v1/menus/state-wide-footer-menu",
+        "ExcludeProperties": []
+      },
+      {
+        "Destination": "src/templates/_data/socialMediaLinksMenu.json",
+        "Source": "/wp-json/menus/v1/menus/social-media-links-menu",
+        "ExcludeProperties": []
       }
     ]
   }
