@@ -1,4 +1,4 @@
-name: Eleventy Build Main
+name: Eleventy Build Development
 on:
   push:
     branches:
