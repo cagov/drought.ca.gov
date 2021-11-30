@@ -27,9 +27,10 @@ ga('tracker2.send', 'pageview');
     <div class="footer-social-links">
       {% for menu in socialMediaLinksMenu.items %}
         <a href="{{ menu.url | safe }}" title="Share via {{ menu.title | safe }}" rel="noopener noreferrer" target="_blank">
-          {% set path = "icons/" + menu.title + ".svg" | lower %}
+          {% set lowercaseTitle = menu.title | lower %}
+          {% set path = "icons/" + lowercaseTitle + ".svg" %}
           {% include path %}
-          <span class="sr-only">{{ menu.title | safe }}</span>
+          <span class="sr-only">{{ menu.title | safe }} {{path}}</span>
         </a>
       {% endfor %}
     </div>
