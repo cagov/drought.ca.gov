@@ -34,9 +34,8 @@
       </a>
 
       <div class="footer-secondary-links">
-        {%-set univFooterLinks = menus['state-wide-footer-menu'].items -%}
-        {% for menu in univFooterLinks %}
-        <a href="{{ menu.url | safe }}" rel="noopener noreferrer" target="_blank">{{ menu.title | safe }}</a>
+        {% for menu in stateWideFooterMenu.items %}
+          <a href="{{ menu.url | safe }}" rel="noopener noreferrer" target="_blank">{{ menu.title | safe }}</a>
         {% endfor %}
       </div>
 
