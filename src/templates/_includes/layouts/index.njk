@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>{{ og_meta.page_title | safe }}</title> 
+  <title>{{ data.og_meta.page_title }}</title> 
   <link rel="preload" href="/fonts/publicsans-bold-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <link rel="preload" href="/fonts/publicsans-regular-webfont.woff2" as="font" type="font/woff2" crossorigin ></link>
   <meta charset="utf-8">
 	<meta name="author" content="State of California" />
-	<meta name="description" content="{{ og_meta.page_description | safe }}" />
+	<meta name="description" content="{{ data.og_meta.page_description | striptags }}" />
 	<meta name="keywords" content="California, government, drought, drought.ca.gov" />
 	<!-- http://t.co/dKP3o1e -->
 	<meta name="HandheldFriendly" content="True">
@@ -17,22 +17,22 @@
 	{# <!-- Google Meta-->
 	<meta name="google-site-verification" content="account_number" /> #}
  <!-- OG tags -->
-  <link rel="canonical" href="{{ og_meta.canonical_url | safe }}" />
-  <meta property="og:url" content="{{ og_meta.meta_canonical_url | safe }}" />
-  <meta property="og:description" content="{{ og_meta.open_graph_description | safe }}" />
-  <meta property="og:title" content="{{ og_meta.open_graph_title | safe }}" />
+  <link rel="canonical" href="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
+  <meta property="og:url" content="{{ data.og_meta.canonical_url | changeDomain(domain) }}" />
+  <meta property="og:description" content="{{ data.og_meta.open_graph_description | striptags }}" />
+  <meta property="og:title" content="{{ data.og_meta.open_graph_title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ og_meta.page_social_image_url | safe }}" />
-  <meta property="og:image:width" content="{{ og_meta.page_social_image_width | safe }}" />
-  <meta property="og:image:height" content="{{ og_meta.page_social_image_height | safe }}" />
-  <meta property="og:image:alt" content="{{ og_meta.page_social_image_alt | safe }}" />
+  <meta property="og:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta property="og:image:width" content="{{ data.og_meta.page_social_image_width }}" />
+  <meta property="og:image:height" content="{{ data.og_meta.page_social_image_height }}" />
+  <meta property="og:image:alt" content="{{ data.og_meta.page_social_image_alt }}" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:site_name" content="{{ og_meta.site_name | safe }}" />
+  <meta property="og:site_name" content="{{ data.og_meta.site_name }}" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ og_meta.twitter_title | safe }}" />
-  <meta name="twitter:image" content="{{ og_meta.page_social_image_url | safe }}" />
-  <meta name="twitter:image:width" content="{{ og_meta.page_social_image_width | safe }}" />
-  <meta name="twitter:image:height" content="{{ og_meta.page_social_image_height | safe }}" />
+  <meta name="twitter:title" content="{{ data.og_meta.twitter_title }}" />
+  <meta name="twitter:image" content="{{ data.og_meta.page_social_image_url | changeDomain(domain) | changeWpMediaPath }}" />
+  <meta name="twitter:image:width" content="{{ data.og_meta.page_social_image_width }}" />
+  <meta name="twitter:image:height" content="{{ data.og_meta.page_social_image_height }}" />
 
   <!-- Favicon @TODO needs asset folder to be exposed to docs -->
   <link title="fav icon" rel="icon" href="/assets/img/cagov_favicon.ico">
@@ -53,42 +53,21 @@
 </head>
 
 <body>
+  <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+
   <div class="header-container">
-    {% include "../../../../node_modules/@cagov/ds-skip-to-content/skip-to-content.html" %}
-    {% include "../../../components/utility-header/utility-header.html" %}
-    {% include "../../../components/branding/branding.html" %}
+    {% include "utility-header.njk" %}
+    {% include "branding.njk" %}
     {% include "nav-component.njk" %}
   </div>
 
-  {# Landing is not the same as homepage, it could also be a category or other menu landing. Optimized for many blocks layouts. #}
-  
-  {%- if templatestring == 'landing' -%}
-    {% include "../layouts/templates/landing.njk" %}
-  {# Pages that don't have content navigation #}
-  {%- elif templatestring == 'template-page-single-column' -%}
-    {% include "../layouts/templates/single-column.njk" %}  
-  {%- elif templatestring == 'single-column' -%}
-    {% include "../layouts/templates/single-column.njk" %}  
-  {# Normal page template, with content nav and breadcrumb, if default the API will return "page" #}
-  {% elif templatestring == 'page' -%}
-    {% include "../layouts/templates/page.njk" %}
-  {# Normal post template, with category if default the API will return "post" #}
-  {% elif templatestring == 'post' -%}
-    {% include "../layouts/templates/post.njk" %}
-  {% elif templatestring == 'template-single-press-release ' -%}
-  {# We are developing more templates for special post types, like press releases and events. #}
-    {% include "../layouts/templates/post.njk" %}
-  {# No template #}
-  {% else %}
-    {% include "../layouts/templates/page.njk" %}
-  {%- endif -%}
-
-  {% block pageContent %}
+  {% block content %}
+    {{ content | safe }}
   {% endblock %}
 
   <div class="footer-container">
-    {% include "../agency-footer.njk" %}
-    {% include "../footer-universal.njk" %}
+    {% include "footer.njk" %}
+    {% include "footer-universal.njk" %}
   </div>
 
   {% set js %}
