@@ -1,1 +1,61 @@
 <p>Test update to production: 2:13pm 11/29/2021.</p>
+
+<style>
+    /* https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/ */
+.image-comparison-slider{
+    height: 62.5vmin;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #bfc0c1;
+    box-shadow:-3px 5px 15px #000;
+
+}
+.image-comparison-slider img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#my-img{
+    clip-path: polygon(0 0 , 50% 0, 50% 100%, 0 100%);
+}
+#slider{
+    position: relative;
+    appearance: none;
+    width: calc( 100% + 40px);
+    height: 100%;
+    margin-left: -20px;
+    background-color: transparent;
+    outline: none;
+}
+#slider::-webkit-slider-thumb{
+    appearance: none;
+    height: 45px;
+    width: 45px;
+    background: url("slider-icon.svg"),
+    rgba(255,255,255,0.3);
+    border: 4px solid white;
+    border-radius: 50%;
+    background-size: contain;
+    cursor: pointer;
+}
+
+</style>
+
+<script>
+function slide(){
+    let slideValue = document.getElementById("slider").value;
+
+    document.getElementById("my-img").style.clipPath = "polygon(0 0," + slideValue + "% 0," + slideValue + "% 100%, 0 100%)";
+
+    console.log("polygon(0 0," + slideValue + "% 0," + slideValue + "% 100%, 0 100%)");
+}
+</script>
+
+<h2>Test heading</h2>
+
+<div class="image-comparison-slider">
+    <img src="/media/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg">
+    <img id="my-img" src="/media/2021/09/drought-photo-768x513.png">
+    <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+</div>
