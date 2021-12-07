@@ -1,6 +1,6 @@
 # drought.ca.gov
 
-California state site for drought related information
+California state site for drought-related information.
 
 Content -> Production flow
 
@@ -23,7 +23,11 @@ Content -> Production flow
 
 ## Where CSS lives
 
-* css variables live: 
+* CSS variables live in `src/css/sass/colorschemes/_drought.scss`.
+
+## Wordpress template defaults
+
+Default values for Wordpress content templates are configured in `src/templates/wordpress/wordpress.11tydata.js`.
 
 ## Network diagram
 
@@ -32,3 +36,7 @@ Content -> Production flow
 ## Drought map
 
 For more information regarding how we generate our drought maps, see our [drought map technical notes](src/py/generate-drought-map/readme.md).
+
+## Deployment Repositoy
+
+Deployment is handled by a [wordpress-to-github](https://www.npmjs.com/package/@cagov/wordpress-to-github) instance; the repository that controls it is [here](https://github.com/cagov/services-wordpress-to-github-drought-ca-gov).

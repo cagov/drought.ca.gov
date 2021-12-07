@@ -33,8 +33,7 @@
       </a>
 
       <div class="footer-secondary-links">
-        {%-set univFooterLinks = menus['state-wide-footer-menu'].items -%}
-        {% for menu in univFooterLinks %}
+        {% for menu in stateWideFooterMenu.items %}
           <a href="{{ menu.url | safe }}" rel="noopener noreferrer" target="_blank">{{ menu.title | safe }}</a>
         {% endfor %}
       </div>
@@ -44,5 +43,6 @@
       <p class="copyright">Copyright © 2021 State of California</p>
     </div>
   </div>
+  <cagov-back-to-top data-hide-after="7000" data-label="Back to top"></cagov-back-to-top>
 </footer>
 <!--end official header-->

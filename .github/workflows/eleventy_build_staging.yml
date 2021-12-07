@@ -1,4 +1,4 @@
-name: Eleventy Build Main
+name: Eleventy Build Staging
 on:
   push:
     branches:
@@ -19,8 +19,11 @@ jobs:
         run: |
           mkdir dist
           npm ci --production
-          npm run build
-
+          DOMAIN=staging.drought.ca.gov npm run build
+      - name: Write robots.txt
+        run: |
+          echo 'User-agent: *' > docs/robots.txt
+          echo 'Disallow: /' >> docs/robots.txt
       # # Push built site files to S3 production bucket    
       # - name: Deploy to S3
       #   uses: jakejarvis/s3-sync-action@v0.5.1

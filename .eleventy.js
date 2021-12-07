@@ -1,19 +1,32 @@
-const fs = require("fs");
 const CleanCSS = require("clean-css");
 const htmlmin = require("html-minifier");
+const cagovBuildSystem = require('@cagov/11ty-build-system');
+const config = require('./odi-publishing/config.js');
 
 const { renderPostLists } = require("./src/components/post-list/render");
 
-const {
-  getHeadMetaTags,
-  replaceUrl
-  // chooseTemplate,
-} = require("./src/templates/_data/meta.js");
-
-const odiPublishing = require("./odi-publishing/config.js");
-const config = odiPublishing.getConfig(); // @TODO set branch in this file
-
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(cagovBuildSystem, {
+    sass: {
+      watch: [
+        'src/css/**/*',
+        'src/components/**/*.scss'
+      ],
+      output: 'dist/index.css',
+      options: {
+        file: 'src/css/sass/index.scss',
+        includePaths: ['./src/css/sass']
+      }
+    },
+    rollup: {
+      watch: [
+        'src/js/**/*',
+        'src/components/**/*.js'
+      ],
+      file: 'src/js/rollup.config.js'
+    }
+  });
+
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
     notify: true,
@@ -23,98 +36,45 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  // DEPRECATING, remove when confirmed OK
-  const replaceContent = (item, searchValue, replaceValue) => {
-    item.template.frontMatter.content =
-      item.template.frontMatter.content.replace(searchValue, replaceValue);
-  };
-
-  // @TODO can we rename "manualcontent" and document how this system works. @DOCS
-  eleventyConfig.addCollection("manualcontent", function (collection) {
-    let output = [];
-    collection.getAll().forEach((item) => {
-      if (item.data.wordpress.dataset) {
-        let replaceUrls = config.build.replace_urls;
-
-        replaceUrls.map((replacement) => {
-          item.data.wordpress.content = replaceUrl(
-            item.data.wordpress.content,
-            replacement,
-            config.build.static_site_url + "/"
-          );
-        });
-
-        // Set up fields for passing into template
-        item.data.templatestring = item.data.wordpress.dataset.data.template; // Load page template
-        // @TODO Rename templatestring to page_template_name or something more descriptive. "template" is too generic.
-        // item.data.templatestring = chooseTemplate(item.data.wordpress.dataset.data); // @ISSUE naming convention
-
-        item.data.title = item.data.wordpress.dataset.data.title; // Get title @REVIEW
-        item.data.og_meta = item.data.wordpress.dataset.data.og_meta; // Get head tags
-        item.data.category = item.data.wordpress.dataset.data.category; // @ISSUE make sure this is right & handle if category is multiple fields
-        item.data.id = item.data.wordpress.dataset.data.id; // @DOCS how are we using this ID?
-
-        // Add and correct meta content fields that are used in index.njk head tags.
-        item = getHeadMetaTags(item);
-
-        // Change any links pointing to wp-content/uploads to the /media folder
-        item.data.wordpress.content = replaceUrl(
-          item.data.wordpress.content,
-          "/wp-content/uploads/", // @TODO connect to configs when we are ready.
-          "/media/"
-        );
-
-        // Fix all hard-coded source domains in meta content that point to wp-content/uploads. 
-        // Change to media folder.
-        // This Needs to come after head tags are set up.
-        // @ISSUE locations are different from cannabis.ca.gov media folder location. This is confusing.
-        Object.keys(item.data.og_meta).map((meta) => {
-          if (typeof item.data.og_meta[meta] === "string") {
-            item.data.og_meta[meta] = replaceUrl(
-              item.data.og_meta[meta],
-              "/wp-content/uploads/", // @TODO connect to configs when we are ready.
-              "/media/"
-            );
-          }
-        });
-      }
-      // Make data available to templating system.
-      output.push(item);
-    });
-
-    return output;
+  // Change the domain on a URL.
+  // Good candidate for 11ty-build-system.
+  eleventyConfig.addFilter("changeDomain", function (url, domain) {
+    try {
+      let u = new URL(url, `https://${domain}`);
+      u.host = domain;
+      return u.href;
+    } catch {
+      return url;
+    }
   });
 
-  // @DOCS Please add a note about what's happening here.
-  eleventyConfig.addTransform("renderPostLists", function (html, outputPath) {
-    // outputPath === false means serverless templates
+  // Replace Wordpress Media paths.
+  // Use this explicitly when a full URL is needed, such as within meta tags.
+  // Doing so will ensure the domain doesn't get nuked by the HTML transformation below.
+  eleventyConfig.addFilter("changeWpMediaPath", function (path) {
+    return path.replace(new RegExp(`/${config.build.upload_folder}`, 'g'), "/media/");
+  });
+
+  eleventyConfig.addTransform("htmlTransforms", function (html, outputPath) {
+    //outputPath === false means serverless templates
     if (!outputPath || outputPath.endsWith(".html")) {
+      // Render post-lists
       if (html.includes("cagov-post-list")) {
         html = renderPostLists(html);
       }
-    }
-    return html;
-  });
-
-  // @ISSUE Add events rendering @TODO
-
-  // Minify HTML
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    // Eleventy 1.0+: use this.inputPath and this.outputPath instead
-    if (outputPath && outputPath.endsWith(".html")) {
-      let minified = htmlmin.minify(content, {
+      // Replace Wordpress media paths with correct 11ty output path.
+      html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/media/");
+      // Minify HTML.
+      html = htmlmin.minify(html, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
       });
-      return minified;
     }
-
-    return content;
+    return html;
   });
 
-  // Copy assets and content folders into generated static site content.
-  eleventyConfig.addPassthroughCopy({ "wordpress/media": "media" });
+  eleventyConfig.addPassthroughCopy({ "src/wordpress-media": "media" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/css/fonts": "fonts" });
   eleventyConfig.addPassthroughCopy({ "dist/*": "/" });
@@ -126,6 +86,7 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "src/templates", // @ISSUE: this is different from cannabis.ca.gov. Is confusing.
       output: "docs",
+      layouts: "_includes/layouts"
     },
   };
 };

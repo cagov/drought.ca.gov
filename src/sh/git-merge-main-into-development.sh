@@ -11,7 +11,5 @@ git restore --source=HEAD --staged --worktree -- \
     wordpress/media \
     wordpress/config \
     odi-publishing \
-    .github/workflows \
-    package.json \
-    package-lock.json
+    .github/workflows
 git commit -m "Selective merge: main into development"

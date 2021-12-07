@@ -14,7 +14,7 @@ To test, you'll need to install the following dependencies. This process will di
 * [ImageMagick](https://imagemagick.org/)
 * [PngCrush](https://pmt.sourceforge.io/pngcrush/)
 
-Next, you'll need to install the script's dependencies from the `requirements.txt` file. 
+Next, install the script's dependencies from the `requirements.txt` file. 
 
 > Depending upon your python installation, you may need to replace `python` with `python3` in the following shell commands.
 
