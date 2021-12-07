@@ -37,6 +37,12 @@ jobs:
           mkdir dist
           npm ci --production
           DOMAIN=${URLSAFE_BRANCH_NAME}.pr.drought.ca.gov npm run build
+      - name: Archive npm failure logs
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: npm-failure-logs
+          path: ~/.npm/_logs
       - name: Write robots.txt
         run: |
           echo 'User-agent: *' > docs/robots.txt
