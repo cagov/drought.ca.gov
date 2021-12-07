@@ -29,6 +29,10 @@
   ],
   "author": "Office of Digital Innovation",
   "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.14.1",
+    "@web/dev-server": "^0.1.22"
+  },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0-beta.3",
     "@cagov/11ty-build-system": "^0.1.3",
