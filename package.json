@@ -29,15 +29,6 @@
   ],
   "author": "Office of Digital Innovation",
   "license": "ISC",
-  "devDependencies": {
-    "@playwright/test": "^1.14.1",
-    "@web/dev-server": "^0.1.22",
-    "aws-sdk": "^2.989.0",
-    "axe-core": "^4.3.3",
-    "axe-playwright": "^1.1.8",
-    "cypress": "^8.3.1",
-    "cypress-axe": "^0.13.0"
-  },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0-beta.3",
     "@cagov/11ty-build-system": "^0.1.3",
