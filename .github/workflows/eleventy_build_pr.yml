@@ -35,7 +35,7 @@ jobs:
       - name: Build 11ty
         run: |
           mkdir dist
-          npm ci --production
+          npm install
           DOMAIN=${URLSAFE_BRANCH_NAME}.pr.drought.ca.gov npm run build
       - name: Archive npm failure logs
         uses: actions/upload-artifact@v2
