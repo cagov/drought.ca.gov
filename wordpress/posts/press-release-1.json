@@ -32,7 +32,11 @@
     "sticky": false,
     "template": "",
     "format": "standard",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "2021-10-20",
+      "custom_post_location": ""
+    },
     "categories": [
       "Press release",
       "Uncategorized"
@@ -104,14 +108,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "event": null,
     "custom_post_date": "2021-10-20",
-    "meta_": {
-      "0": "2021-10-20",
-      "custom_post_link": "",
-      "custom_post_date": "2021-10-20",
-      "custom_post_location": ""
-    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/press-release-1/"
   }
 }

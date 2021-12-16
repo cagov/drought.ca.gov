@@ -32,7 +32,11 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Water-Basics/Drought/Files/Publications-And-Reports/CNRA-Drought-Report-final-March-2021.pdf",
+      "custom_post_date": "2021-03-01",
+      "custom_post_location": ""
+    },
     "categories": [
       "News"
     ],
@@ -87,14 +91,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "event": null,
     "custom_post_date": "2021-03-01",
-    "meta_": {
-      "0": "2021-03-01",
-      "custom_post_link": "https://water.ca.gov/-/media/DWR-Website/Web-Pages/Water-Basics/Drought/Files/Publications-And-Reports/CNRA-Drought-Report-final-March-2021.pdf",
-      "custom_post_date": "2021-03-01",
-      "custom_post_location": ""
-    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/report-to-the-legislature-on-the-2012-2016-drought/"
   }
 }

@@ -32,7 +32,11 @@
     "sticky": false,
     "template": "",
     "format": "status",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "2021-05-10",
+      "custom_post_location": ""
+    },
     "categories": [
       "Action"
     ],
@@ -87,14 +91,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "event": null,
     "custom_post_date": "2021-05-10",
-    "meta_": {
-      "0": "2021-05-10",
-      "custom_post_link": "",
-      "custom_post_date": "2021-05-10",
-      "custom_post_location": ""
-    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/"
   }
 }

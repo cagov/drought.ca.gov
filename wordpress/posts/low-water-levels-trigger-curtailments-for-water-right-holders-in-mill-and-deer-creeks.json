@@ -32,7 +32,11 @@
     "sticky": false,
     "template": "",
     "format": "link",
-    "meta": [],
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr10122021-mill-deer-creek-curtailments.pdf",
+      "custom_post_date": "2021-10-11",
+      "custom_post_location": ""
+    },
     "categories": [
       "News"
     ],
@@ -87,14 +91,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "event": null,
     "custom_post_date": "2021-10-11",
-    "meta_": {
-      "0": "2021-10-11",
-      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2021/pr10122021-mill-deer-creek-curtailments.pdf",
-      "custom_post_date": "2021-10-11",
-      "custom_post_location": ""
-    },
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/low-water-levels-trigger-curtailments-for-water-right-holders-in-mill-and-deer-creeks/"
   }
 }
