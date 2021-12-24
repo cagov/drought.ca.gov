@@ -12,6 +12,7 @@ module.exports = {
   eleventyComputed: {
     permalink: article => getUrlPath(article.data?.wordpress_url),
     layout: article => article.data?.design_system_fields?.template || article.data?.type || "page",
+    title: article => article.data.title,
     // Below, mimic the structure of Wordpress article data files.
     // Use the value in the article data JSON if available, otherwise set default.
     data: {
