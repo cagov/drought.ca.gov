@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-07T22:38:47",
-    "updated_date": "2022-01-07T22:41:53",
+    "updated_date": "2022-01-11T00:05:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-01-07T14:38:47",
     "date_gmt": "2022-01-07T22:38:47",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1020",
-    "modified": "2022-01-07T14:41:53",
-    "modified_gmt": "2022-01-07T22:41:53",
+    "modified": "2022-01-10T16:05:54",
+    "modified_gmt": "2022-01-11T00:05:54",
     "slug": "state-water-board-adopts-emergency-water-use-regulations-to-boost-drought-resilience",
     "status": "publish",
     "type": "post",
@@ -33,7 +33,7 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2022/pr01042022-emergency-water-use-regulations.pdf",
+      "custom_post_link": "https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/regs/emergency_regulation.html",
       "custom_post_date": "2022-01-04",
       "custom_post_location": ""
     },
