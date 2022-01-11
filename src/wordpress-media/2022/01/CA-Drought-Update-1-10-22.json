@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "created_date": "2022-01-11T23:09:59",
+    "updated_date": "2022-01-11T23:09:59",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1026,
+    "date": "2022-01-11T15:09:59",
+    "date_gmt": "2022-01-11T23:09:59",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/CA-Drought-Update-1-10-22.pdf",
+    "modified": "2022-01-11T15:09:59",
+    "modified_gmt": "2022-01-11T23:09:59",
+    "slug": "ca-drought-update-1-10-22",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/ca-drought-update-1-10-22/",
+    "title": "CA-Drought-Update-1-10-22",
+    "author": "Kalin Kipling",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/CA-Drought-Update-1-10-22.pdf'>CA-Drought-Update-1-10-22</a></p>\n",
+    "caption": "<p>CA-Drought-Update-1-10-22</p>\n",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {},
+    "post": null,
+    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/CA-Drought-Update-1-10-22.pdf",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/CA-Drought-Update-1-10-22.pdf",
+    "path": "2022/01/CA-Drought-Update-1-10-22.pdf"
+  }
+}
