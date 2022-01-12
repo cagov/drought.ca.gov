@@ -63,7 +63,8 @@ module.exports = function (eleventyConfig) {
         html = renderPostLists(html);
       }
       // Replace Wordpress media paths with correct 11ty output path.
-      html = html.replace(new RegExp(`http.+?/${config.build.upload_folder}`, 'g'), "/media/");
+      const regexPattern = `http.+?pantheonsite\.io/${config.build.upload_folder}`;
+      html = html.replace(new RegExp(regexPattern, 'g'), "/media/");
       // Minify HTML.
       html = htmlmin.minify(html, {
         useShortDoctype: true,
