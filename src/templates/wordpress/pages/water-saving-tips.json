@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2021-10-13T23:06:49",
+    "updated_date": "2022-01-13T19:30:42",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-06T16:09:05",
     "date_gmt": "2021-07-06T23:09:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=182",
-    "modified": "2021-10-13T16:06:49",
-    "modified_gmt": "2021-10-13T23:06:49",
+    "modified": "2022-01-13T11:30:42",
+    "modified_gmt": "2022-01-13T19:30:42",
     "slug": "water-saving-tips",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
     "title": "Water-saving tips",
-    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top ways to conserve water:&nbsp; Improve landscape irrigation50% of residential water use goes &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
+    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top ways to conserve water:&nbsp; Take 5-minute showersA 5-minute shower can save 12.5 &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -34,7 +34,9 @@
     "template": "single-column",
     "meta": [],
     "categories": [],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "single-column"
     },
@@ -65,9 +67,62 @@
       "twitter_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
     },
     "headless_categories": [],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+    "media": [
+      {
+        "id": 213,
+        "type": "full",
+        "path": "2021/07/save-water-bottle.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+        "file": "save-water-bottle.png",
+        "width": 759,
+        "height": 506,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 213,
+        "type": "large",
+        "path": "2021/07/save-water-bottle-750x500.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
+        "file": "save-water-bottle-750x500.png",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-750x500.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 213,
+        "type": "medium",
+        "path": "2021/07/save-water-bottle-300x200.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
+        "file": "save-water-bottle-300x200.png",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle-300x200.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
