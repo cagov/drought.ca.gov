@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2022-01-13T20:27:51",
+    "updated_date": "2022-01-13T23:12:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-06T16:09:05",
     "date_gmt": "2021-07-06T23:09:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=182",
-    "modified": "2022-01-13T12:27:51",
-    "modified_gmt": "2022-01-13T20:27:51",
+    "modified": "2022-01-13T15:12:30",
+    "modified_gmt": "2022-01-13T23:12:30",
     "slug": "water-saving-tips",
     "status": "publish",
     "type": "page",
@@ -33,10 +33,10 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "categories": [],
-    "tags": [
-      "staging"
+    "categories": [
+      "Water-saving tips"
     ],
+    "tags": [],
     "design_system_fields": {
       "template": "page"
     },
@@ -66,20 +66,25 @@
       "twitter_title": "California drought action &#x2d; Water&#x2d;saving tips",
       "twitter_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
     },
-    "headless_categories": [],
-    "headless_tags": [
+    "headless_categories": [
       {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
+        "term_id": 27,
+        "name": "Water-saving tips",
+        "slug": "water-saving-tips",
         "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
+        "term_taxonomy_id": 27,
+        "taxonomy": "category",
+        "description": "",
         "parent": 0,
-        "filter": "raw"
+        "filter": "raw",
+        "cat_ID": 27,
+        "category_description": "",
+        "cat_name": "Water-saving tips",
+        "category_nicename": "water-saving-tips",
+        "category_parent": 0
       }
     ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
