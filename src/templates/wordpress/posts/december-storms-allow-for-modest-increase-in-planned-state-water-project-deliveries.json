@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-20T22:39:59",
-    "updated_date": "2022-01-20T22:40:07",
+    "updated_date": "2022-01-20T22:44:03",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-01-20T14:39:59",
     "date_gmt": "2022-01-20T22:39:59",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1055",
-    "modified": "2022-01-20T14:40:07",
-    "modified_gmt": "2022-01-20T22:40:07",
+    "modified": "2022-01-20T14:44:03",
+    "modified_gmt": "2022-01-20T22:44:03",
     "slug": "december-storms-allow-for-modest-increase-in-planned-state-water-project-deliveries",
     "status": "publish",
     "type": "post",
