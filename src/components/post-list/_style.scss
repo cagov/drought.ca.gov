@@ -10,10 +10,11 @@ cagov-post-list {
       font-weight: 700;
 
       a {
-        color: $primary;
+        color: var(--primary-color, #691808);
+
         text-decoration: underline;
         &:hover {
-          color: $primary-dark;
+          color: var(--primary-dark-color, #4a1106);
           text-decoration: none;
         }
       }
@@ -48,10 +49,10 @@ cagov-post-list {
       font-weight: 700;
       font-size: 28px;
       a {
-        color: $primary;
+        color: var(--primary-color, #691808);
         text-decoration: underline;
         &:hover {
-          color: $primary-dark;
+          color: var(--primary-dark-color, #4a1106);
           text-decoration: none;
         }
       }
@@ -83,10 +84,10 @@ cagov-post-list {
       font-size: 18px;
 
       a {
-        color: $primary;
+        color: var(--primary-color, #691808);
         text-decoration: underline;
         &:hover {
-          color: $primary-dark;
+          color: var(--primary-dark-color, #4a1106);
           text-decoration: none;
         }
       }
