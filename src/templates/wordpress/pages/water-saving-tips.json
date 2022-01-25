@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2022-01-25T20:16:44",
+    "updated_date": "2022-01-25T20:18:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-06T16:09:05",
     "date_gmt": "2021-07-06T23:09:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=182",
-    "modified": "2022-01-25T12:16:44",
-    "modified_gmt": "2022-01-25T20:16:44",
+    "modified": "2022-01-25T12:18:47",
+    "modified_gmt": "2022-01-25T20:18:47",
     "slug": "water-saving-tips",
     "status": "publish",
     "type": "page",
@@ -36,9 +36,7 @@
     "categories": [
       "Water-saving tips"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "page"
     },
@@ -86,19 +84,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
