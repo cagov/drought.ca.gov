@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2022-01-13T23:12:30",
+    "updated_date": "2022-01-25T18:01:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-06T16:09:05",
     "date_gmt": "2021-07-06T23:09:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=182",
-    "modified": "2022-01-13T15:12:30",
-    "modified_gmt": "2022-01-13T23:12:30",
+    "modified": "2022-01-25T10:01:08",
+    "modified_gmt": "2022-01-25T18:01:08",
     "slug": "water-saving-tips",
     "status": "publish",
     "type": "page",
@@ -36,7 +36,9 @@
     "categories": [
       "Water-saving tips"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "page"
     },
@@ -84,9 +86,88 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+    "media": [
+      {
+        "id": 1061,
+        "type": "2048x2048",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-2048x1448.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-2048x1448.jpg",
+        "file": "save-water-pexels-dominika-roseclay-2048x1448.jpg",
+        "width": 2048,
+        "height": 1448,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-2048x1448.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1061,
+        "type": "1536x1536",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-1536x1086.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-1536x1086.jpg",
+        "file": "save-water-pexels-dominika-roseclay-1536x1086.jpg",
+        "width": 1536,
+        "height": 1086,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-1536x1086.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1061,
+        "type": "medium_large",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-768x543.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-768x543.jpg",
+        "file": "save-water-pexels-dominika-roseclay-768x543.jpg",
+        "width": 768,
+        "height": 543,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-768x543.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1061,
+        "type": "large",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-707x500.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-707x500.jpg",
+        "file": "save-water-pexels-dominika-roseclay-707x500.jpg",
+        "width": 707,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-707x500.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1061,
+        "type": "medium",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-300x212.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-300x212.jpg",
+        "file": "save-water-pexels-dominika-roseclay-300x212.jpg",
+        "width": 300,
+        "height": 212,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-300x212.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
