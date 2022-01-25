@@ -37,15 +37,27 @@
     cursor: pointer;
 }
 
+#scruber {
+    left: 50%;
+    height: 100%;
+    background-color: orangered;
+    width: 4px;
+    transform: translateX(-2px);
+    position: absolute;
+}
+
 </style>
 
 <script>
 function slide(){
+    let value = document.getElementById("slider").value;
     let slideValue = document.getElementById("slider").value;
 
     document.getElementById("my-img").style.clipPath = "polygon(0 0," + slideValue + "% 0," + slideValue + "% 100%, 0 100%)";
+    document.getElementById("scruber").style.left = slideValue + "%";
 
-    console.log("polygon(0 0," + slideValue + "% 0," + slideValue + "% 100%, 0 100%)");
+
+    console.log(value, slideValue);
 }
 </script>
 
@@ -54,5 +66,6 @@ function slide(){
 <div class="image-comparison-slider">
     <img src="/media/2021/07/2021_06_23_FL_0494_Folsom_Lake.jpg">
     <img id="my-img" src="/media/2021/09/drought-photo-768x513.png">
-    <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+    <div id="scruber"></div>
+    <input type="range" min="0" max="100" value="50" step="1" id="slider" oninput="slide()">
 </div>
