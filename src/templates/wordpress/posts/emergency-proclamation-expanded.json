@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-05-10T12:00:00",
-    "updated_date": "2021-10-14T00:20:55",
+    "updated_date": "2022-01-26T23:38:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,13 +17,13 @@
     "date": "2021-05-10T12:00:00",
     "date_gmt": "2021-05-10T12:00:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=46",
-    "modified": "2021-10-13T17:20:55",
-    "modified_gmt": "2021-10-14T00:20:55",
+    "modified": "2022-01-26T15:38:57",
+    "modified_gmt": "2022-01-26T23:38:57",
     "slug": "emergency-proclamation-expanded",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
-    "title": "Emergency proclamation expanded",
+    "title": "Expanded drought emergency",
     "excerpt": "<p>Governor Gavin Newsom <a href=\"https://www.gov.ca.gov/2021/05/10/governor-newsom-expands-drought-emergency-to-klamath-river-sacramento-san-joaquin-delta-and-tulare-lake-watershed-counties/\">expands his drought emergency proclamation</a> to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed.  These areas need faster action to protect public health, safety, and the environment.</p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
@@ -40,7 +40,9 @@
     "categories": [
       "Action"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "post"
     },
@@ -56,18 +58,18 @@
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://live-drought-ca-gov.pantheonsite.io",
       "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
-      "page_title": "Emergency proclamation expanded",
+      "page_title": "Expanded drought emergency",
       "page_description": "Governor Gavin Newsom <a href=\"https://www.gov.ca.gov/2021/05/10/governor-newsom-expands-drought-emergency-to-klamath-river-sacramento-san-joaquin-delta-and-tulare-lake-watershed-counties/\">expands his drought emergency proclamation</a> to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed.  These areas need faster action to protect public health, safety, and the environment.",
       "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Emergency proclamation expanded",
+      "meta_title": "Expanded drought emergency",
       "meta_description": "Governor Gavin Newsom <a href=\"https://www.gov.ca.gov/2021/05/10/governor-newsom-expands-drought-emergency-to-klamath-river-sacramento-san-joaquin-delta-and-tulare-lake-watershed-counties/\">expands his drought emergency proclamation</a> to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed.  These areas need faster action to protect public health, safety, and the environment.",
       "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/emergency-proclamation-expanded/",
-      "open_graph_title": "Emergency proclamation expanded",
+      "open_graph_title": "Expanded drought emergency",
       "open_graph_description": "Governor Gavin Newsom <a href=\"https://www.gov.ca.gov/2021/05/10/governor-newsom-expands-drought-emergency-to-klamath-river-sacramento-san-joaquin-delta-and-tulare-lake-watershed-counties/\">expands his drought emergency proclamation</a> to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed.  These areas need faster action to protect public health, safety, and the environment.",
-      "twitter_title": "Emergency proclamation expanded",
+      "twitter_title": "Expanded drought emergency",
       "twitter_description": "Governor Gavin Newsom <a href=\"https://www.gov.ca.gov/2021/05/10/governor-newsom-expands-drought-emergency-to-klamath-river-sacramento-san-joaquin-delta-and-tulare-lake-watershed-counties/\">expands his drought emergency proclamation</a> to include counties in the Klamath River, Sacramento-San Joaquin Delta, and Tulare Lake Watershed.  These areas need faster action to protect public health, safety, and the environment."
     },
     "headless_categories": [
@@ -88,7 +90,19 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2021-05-10",
