@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-29T01:06:00",
-    "updated_date": "2021-10-14T00:09:50",
+    "updated_date": "2022-01-26T23:22:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,13 +17,13 @@
     "date": "2021-07-28T18:06:00",
     "date_gmt": "2021-07-29T01:06:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=687",
-    "modified": "2021-10-13T17:09:50",
-    "modified_gmt": "2021-10-14T00:09:50",
+    "modified": "2022-01-26T15:22:45",
+    "modified_gmt": "2022-01-26T23:22:45",
     "slug": "governor-newsom-signs-ab-148",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
-    "title": "Governor Newsom signs AB 148",
+    "title": "Drought funding expedited",
     "excerpt": "<p>Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.</p>\n",
     "author": "Chach Sikes",
     "featured_media": 0,
@@ -40,7 +40,9 @@
     "categories": [
       "Action"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "post"
     },
@@ -56,18 +58,18 @@
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://live-drought-ca-gov.pantheonsite.io",
       "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
-      "page_title": "Governor Newsom signs AB 148",
+      "page_title": "Drought funding expedited",
       "page_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.",
       "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Governor Newsom signs AB 148",
+      "meta_title": "Drought funding expedited",
       "meta_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.",
       "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/governor-newsom-signs-ab-148/",
-      "open_graph_title": "Governor Newsom signs AB 148",
+      "open_graph_title": "Drought funding expedited",
       "open_graph_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought.",
-      "twitter_title": "Governor Newsom signs AB 148",
+      "twitter_title": "Drought funding expedited",
       "twitter_description": "Governor Newsom signs <a href=\"https://www.gov.ca.gov/2021/07/22/governor-newsom-meets-with-new-fema-administrator-on-devastation-of-climate-crisis-signs-resources-budget-trailer-bill/\">AB 148</a>, which allows state agencies to expedite funding for areas experiencing drought."
     },
     "headless_categories": [
@@ -88,7 +90,19 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2021-07-28",
