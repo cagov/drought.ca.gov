@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-01-27T21:57:30",
-    "updated_date": "2022-01-27T21:57:36",
+    "updated_date": "2022-01-27T22:02:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-01-27T13:57:30",
     "date_gmt": "2022-01-27T21:57:30",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1095",
-    "modified": "2022-01-27T13:57:36",
-    "modified_gmt": "2022-01-27T21:57:36",
+    "modified": "2022-01-27T14:02:31",
+    "modified_gmt": "2022-01-27T22:02:31",
     "slug": "water-waste-in-landscaping-prohibited",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "Action"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-01-04",
