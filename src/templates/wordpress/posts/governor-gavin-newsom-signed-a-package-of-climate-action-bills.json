@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-07T01:09:00",
-    "updated_date": "2022-01-26T23:49:23",
+    "updated_date": "2022-01-27T00:05:37",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-10-06T18:09:00",
     "date_gmt": "2021-10-07T01:09:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=689",
-    "modified": "2022-01-26T15:49:23",
-    "modified_gmt": "2022-01-26T23:49:23",
+    "modified": "2022-01-26T16:05:37",
+    "modified_gmt": "2022-01-27T00:05:37",
     "slug": "governor-gavin-newsom-signed-a-package-of-climate-action-bills",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "Action"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2021-09-23",
