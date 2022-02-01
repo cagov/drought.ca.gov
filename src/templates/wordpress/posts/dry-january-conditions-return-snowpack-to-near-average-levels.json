@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-02-01T21:59:52",
-    "updated_date": "2022-02-01T21:59:58",
+    "updated_date": "2022-02-01T22:04:59",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-02-01T13:59:52",
     "date_gmt": "2022-02-01T21:59:52",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1113",
-    "modified": "2022-02-01T13:59:58",
-    "modified_gmt": "2022-02-01T21:59:58",
+    "modified": "2022-02-01T14:04:59",
+    "modified_gmt": "2022-02-01T22:04:59",
     "slug": "dry-january-conditions-return-snowpack-to-near-average-levels",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-02-01",
