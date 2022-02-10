@@ -6,13 +6,20 @@ const config = require('./odi-publishing/config.js');
 const { renderPostLists } = require("./src/components/post-list/render");
 
 const forEachUnsetContentDir = (fn) => {
+  // Get the desired Wordpress content environment from CONTENT_ENV.
+  // CONTENT_ENV is an environment variable. Defaults to "production".
   const contentEnv = process.env.CONTENT_ENV || "production";
   const wordpressContentPath = 'src/templates/wordpress';
 
+  // First, get all wordpress content environment folders.
+  // production, staging, etc.
+  // Next, exclude the folder that's set in contentEnv above.
   const contentFoldersToIgnore = glob
     .sync(`${wordpressContentPath}/*/`)
     .filter(folder => folder !== `${wordpressContentPath}/${contentEnv}/`);
 
+  // Feed each of those unneeded content folders into the callback.
+  // We'll use this in concert with 11ty's ignore features.
   contentFoldersToIgnore.forEach(folder => fn(`${folder}**/*`));
 }
 
@@ -59,6 +66,7 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  // Ignore all Wordpress environments except what's defined in CONTENT_ENV.
   forEachUnsetContentDir(folder => eleventyConfig.ignores.add(folder));
 
   // Replace Wordpress Media paths.
