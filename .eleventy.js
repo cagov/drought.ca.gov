@@ -1,9 +1,20 @@
 const CleanCSS = require("clean-css");
+const glob = require("glob")
 const htmlmin = require("html-minifier");
 const cagovBuildSystem = require('@cagov/11ty-build-system');
 const config = require('./odi-publishing/config.js');
-
 const { renderPostLists } = require("./src/components/post-list/render");
+
+const forEachUnsetContentDir = (fn) => {
+  const contentEnv = process.env.CONTENT_ENV || "production";
+  const wordpressContentPath = 'src/templates/wordpress';
+
+  const contentFoldersToIgnore = glob
+    .sync(`${wordpressContentPath}/*/`)
+    .filter(folder => folder !== `${wordpressContentPath}/${contentEnv}/`);
+
+  contentFoldersToIgnore.forEach(folder => fn(`${folder}**/*`));
+}
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
@@ -47,6 +58,8 @@ module.exports = function (eleventyConfig) {
       return url;
     }
   });
+
+  forEachUnsetContentDir(folder => eleventyConfig.ignores.add(folder));
 
   // Replace Wordpress Media paths.
   // Use this explicitly when a full URL is needed, such as within meta tags.
