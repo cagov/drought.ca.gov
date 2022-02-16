@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T23:09:05",
-    "updated_date": "2021-10-13T23:06:49",
+    "updated_date": "2022-01-25T20:18:47",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,26 +17,28 @@
     "date": "2021-07-06T16:09:05",
     "date_gmt": "2021-07-06T23:09:05",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=182",
-    "modified": "2021-10-13T16:06:49",
-    "modified_gmt": "2021-10-13T23:06:49",
+    "modified": "2022-01-25T12:18:47",
+    "modified_gmt": "2022-01-25T20:18:47",
     "slug": "water-saving-tips",
     "status": "publish",
     "type": "page",
     "link": "https://test-drought-ca-gov.pantheonsite.io/water-saving-tips/",
     "title": "Water-saving tips",
-    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Here are the top ways to conserve water:&nbsp; Improve landscape irrigation50% of residential water use goes &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
+    "excerpt": "<p>California is facing significant drought across the state. So it&#8217;s time we cut back on our water consumption even more. Whether it’s inside or outside your home, small changes can save 10 to 100 gallons of water a day.&nbsp; Get in the habit Here are the top ways to conserve water:&nbsp; Take 5-minute showersA 5-minute &#8230; <a title=\"Water-saving tips\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/water-saving-tips/\" aria-label=\"More on Water-saving tips\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "single-column",
+    "template": "",
     "meta": [],
-    "categories": [],
+    "categories": [
+      "Water-saving tips"
+    ],
     "tags": [],
     "design_system_fields": {
-      "template": "single-column"
+      "template": "page"
     },
     "og_meta": {
       "editor": {
@@ -64,10 +66,81 @@
       "twitter_title": "California drought action &#x2d; Water&#x2d;saving tips",
       "twitter_description": "The best tips tips to conserve water, both inside and outside your home. Small changes can save 10 to 100 gallons of water a day."
     },
-    "headless_categories": [],
+    "headless_categories": [
+      {
+        "term_id": 27,
+        "name": "Water-saving tips",
+        "slug": "water-saving-tips",
+        "term_group": 0,
+        "term_taxonomy_id": 27,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 27,
+        "category_description": "",
+        "cat_name": "Water-saving tips",
+        "category_nicename": "water-saving-tips",
+        "category_parent": 0
+      }
+    ],
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/water-saving-tips/"
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/water-saving-tips/",
+    "media": [
+      {
+        "id": 1067,
+        "type": "full",
+        "path": "2022/01/save-water-pexels-dominika-roseclay.webp",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay.webp",
+        "file": "save-water-pexels-dominika-roseclay.webp",
+        "width": 877,
+        "height": 620,
+        "mime_type": "image/webp",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay.webp",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1067,
+        "type": "medium_large",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-768x543.webp",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-768x543.webp",
+        "file": "save-water-pexels-dominika-roseclay-768x543.webp",
+        "width": 768,
+        "height": 543,
+        "mime_type": "image/webp",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-768x543.webp",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1067,
+        "type": "large",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-707x500.webp",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-707x500.webp",
+        "file": "save-water-pexels-dominika-roseclay-707x500.webp",
+        "width": 707,
+        "height": 500,
+        "mime_type": "image/webp",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-707x500.webp",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1067,
+        "type": "medium",
+        "path": "2022/01/save-water-pexels-dominika-roseclay-300x212.webp",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-300x212.webp",
+        "file": "save-water-pexels-dominika-roseclay-300x212.webp",
+        "width": 300,
+        "height": 212,
+        "mime_type": "image/webp",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/01/save-water-pexels-dominika-roseclay-300x212.webp",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
