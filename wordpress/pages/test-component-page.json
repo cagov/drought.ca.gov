@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-02-16T22:22:49",
-    "updated_date": "2022-02-16T22:22:55",
+    "updated_date": "2022-02-16T22:25:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-02-16T14:22:49",
     "date_gmt": "2022-02-16T22:22:49",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=1152",
-    "modified": "2022-02-16T14:22:55",
-    "modified_gmt": "2022-02-16T22:22:55",
+    "modified": "2022-02-16T14:25:51",
+    "modified_gmt": "2022-02-16T22:25:51",
     "slug": "test-component-page",
     "status": "publish",
     "type": "page",
@@ -68,6 +68,21 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/test-component-page/"
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/test-component-page/",
+    "media": [
+      {
+        "id": 1126,
+        "type": "large",
+        "path": "2022/02/drought2c-750x500.webp",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2c-750x500.webp",
+        "file": "drought2c-750x500.webp",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/webp",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2c-750x500.webp",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
