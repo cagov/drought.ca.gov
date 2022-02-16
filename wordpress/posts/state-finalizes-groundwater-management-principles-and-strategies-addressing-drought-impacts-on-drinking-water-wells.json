@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "created_date": "2021-12-16T23:12:05",
+    "updated_date": "2021-12-16T23:14:50",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 991,
+    "date": "2021-12-16T15:12:05",
+    "date_gmt": "2021-12-16T23:12:05",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=991",
+    "modified": "2021-12-16T15:14:50",
+    "modified_gmt": "2021-12-16T23:14:50",
+    "slug": "state-finalizes-groundwater-management-principles-and-strategies-addressing-drought-impacts-on-drinking-water-wells",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/state-finalizes-groundwater-management-principles-and-strategies-addressing-drought-impacts-on-drinking-water-wells/",
+    "title": "State Finalizes Groundwater Management Principles and Strategies Addressing Drought Impacts on Drinking Water Wells",
+    "excerpt": "<p>The Department of Water Resources and the State Water Resources Control Board issued final groundwater management principles and strategies to help protect drinking water wells from the  impacts of drought.</p>\n",
+    "author": "Shawn Brouwer",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2021/Dec-21/State-Finalizes-Groundwater-Management-Strategies-Addressing-Drought-Impacts-Wells",
+      "custom_post_date": "2021-12-16",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-finalizes-groundwater-management-principles-and-strategies-addressing-drought-impacts-on-drinking-water-wells/",
+      "page_title": "State Finalizes Groundwater Management Principles and Strategies Addressing Drought Impacts on Drinking Water Wells",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Finalizes Groundwater Management Principles and Strategies Addressing Drought Impacts on Drinking Water Wells",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-finalizes-groundwater-management-principles-and-strategies-addressing-drought-impacts-on-drinking-water-wells/",
+      "open_graph_title": "State Finalizes Groundwater Management Principles and Strategies Addressing Drought Impacts on Drinking Water Wells",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "State Finalizes Groundwater Management Principles and Strategies Addressing Drought Impacts on Drinking Water Wells",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2021-12-16",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-finalizes-groundwater-management-principles-and-strategies-addressing-drought-impacts-on-drinking-water-wells/"
+  }
+}
