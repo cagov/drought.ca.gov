@@ -22,7 +22,7 @@
     "slug": "save-water-bottle",
     "status": "inherit",
     "type": "attachment",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/how-you-can-help/save-water-bottle/#main",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/save-water-bottle/",
     "title": "save-water-bottle (3:2)",
     "author": "Michael Sullivan",
     "comment_status": "closed",
@@ -83,7 +83,7 @@
         "keywords": []
       }
     },
-    "post": 35,
+    "post": null,
     "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/save-water-bottle.png",
     "sizes": [
