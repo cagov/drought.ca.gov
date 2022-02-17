@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_date": "2022-02-17T01:07:59",
+    "updated_date": "2022-02-17T01:08:05",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1156,
+    "date": "2022-02-16T17:07:59",
+    "date_gmt": "2022-02-17T01:07:59",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=1156",
+    "modified": "2022-02-16T17:08:05",
+    "modified_gmt": "2022-02-17T01:08:05",
+    "slug": "page-navigation-test",
+    "status": "publish",
+    "type": "page",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/page-navigation-test/",
+    "title": "Page navigation test",
+    "excerpt": "<p>Heading with, commas, punctuation. —-👋 content block Another heading with, commas, punctuation. —-👋</p>\n",
+    "author": "Chach Sikes",
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/page-navigation-test/",
+      "page_title": "Page navigation test",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Page navigation test",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/page-navigation-test/",
+      "open_graph_title": "Page navigation test",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Page navigation test",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/page-navigation-test/"
+  }
+}
