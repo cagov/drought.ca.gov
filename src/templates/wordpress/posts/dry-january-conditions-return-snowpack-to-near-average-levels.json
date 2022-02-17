@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-02-01T21:59:52",
-    "updated_date": "2022-02-17T00:15:57",
+    "updated_date": "2022-02-17T00:16:05",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-02-01T13:59:52",
     "date_gmt": "2022-02-01T21:59:52",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1113",
-    "modified": "2022-02-16T16:15:57",
-    "modified_gmt": "2022-02-17T00:15:57",
+    "modified": "2022-02-16T16:16:05",
+    "modified_gmt": "2022-02-17T00:16:05",
     "slug": "dry-january-conditions-return-snowpack-to-near-average-levels",
     "status": "publish",
     "type": "post",
