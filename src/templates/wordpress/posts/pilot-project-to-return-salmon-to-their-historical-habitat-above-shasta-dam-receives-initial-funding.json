@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-02-24T23:50:49",
-    "updated_date": "2022-02-24T23:50:55",
+    "updated_date": "2022-02-25T00:00:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-02-24T15:50:49",
     "date_gmt": "2022-02-24T23:50:49",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1168",
-    "modified": "2022-02-24T15:50:55",
-    "modified_gmt": "2022-02-24T23:50:55",
+    "modified": "2022-02-24T16:00:43",
+    "modified_gmt": "2022-02-25T00:00:43",
     "slug": "pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-02-11",
