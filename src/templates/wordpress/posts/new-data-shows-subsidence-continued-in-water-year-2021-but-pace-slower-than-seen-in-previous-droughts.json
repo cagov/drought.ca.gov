@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "created_date": "2022-02-26T00:07:26",
+    "updated_date": "2022-02-26T00:07:33",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1175,
+    "date": "2022-02-25T16:07:26",
+    "date_gmt": "2022-02-26T00:07:26",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1175",
+    "modified": "2022-02-25T16:07:33",
+    "modified_gmt": "2022-02-26T00:07:33",
+    "slug": "new-data-shows-subsidence-continued-in-water-year-2021-but-pace-slower-than-seen-in-previous-droughts",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/new-data-shows-subsidence-continued-in-water-year-2021-but-pace-slower-than-seen-in-previous-droughts/",
+    "title": "New Data Shows Subsidence Continued in Water Year 2021, But Pace Slower than Seen in Previous Droughts",
+    "excerpt": "<p>The California Department of Water Resources (DWR) released new satellite-based data that show subsidence – or the sinking of the land surface due to excessive groundwater pumping – continues in the state. DWR has intensified statewide subsidence monitoring to help identify impacts and address them collaboratively with local groundwater agencies, counties and landowners.</p>\n",
+    "author": "Anna Opalka",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Feb-22/New-Data-Shows-Subsidence-Continued-in-Water-Year-2021-Pace-Slower-than-Previous-Droughts",
+      "custom_post_date": "2022-02-16",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [
+      "staging"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/new-data-shows-subsidence-continued-in-water-year-2021-but-pace-slower-than-seen-in-previous-droughts/",
+      "page_title": "New Data Shows Subsidence Continued in Water Year 2021, But Pace Slower than Seen in Previous Droughts",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "New Data Shows Subsidence Continued in Water Year 2021, But Pace Slower than Seen in Previous Droughts",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/new-data-shows-subsidence-continued-in-water-year-2021-but-pace-slower-than-seen-in-previous-droughts/",
+      "open_graph_title": "New Data Shows Subsidence Continued in Water Year 2021, But Pace Slower than Seen in Previous Droughts",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "New Data Shows Subsidence Continued in Water Year 2021, But Pace Slower than Seen in Previous Droughts",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-02-16",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/new-data-shows-subsidence-continued-in-water-year-2021-but-pace-slower-than-seen-in-previous-droughts/"
+  }
+}
