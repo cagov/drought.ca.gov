@@ -8,15 +8,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1.5rem 0 1rem 0;
-    column-gap: 1.5rem;
+    margin: 2rem 0;
+    column-gap: 2rem;
     &-summary {
       &-overall {
         color: #B71234;
       }
       position: relative;
-    }
-    &-details {
     }
   }
   &-percentage {
@@ -33,12 +31,16 @@
   }
 }
 
-.data-viz-frequency {
-  color: #6B6C77;
+.data-viz-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: .95rem;
+  p {
+    margin: 0;
+  }
 }
 
-.data-viz-more-info {
-  font-size: .95rem;
-  margin-bottom: 0;
+.data-viz-frequency {
+  color: #6B6C77;
 }
