@@ -1,0 +1,44 @@
+.reservoir-levels {
+  padding: 1rem;
+  border: solid 1px lightgray;
+  h4 {
+    margin-top: 0;
+  }
+  &-data-viz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem 0 1rem 0;
+    column-gap: 1.5rem;
+    &-summary {
+      &-overall {
+        color: #B71234;
+      }
+      position: relative;
+    }
+    &-details {
+    }
+  }
+  &-percentage {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+.reservoir-details {
+  display: none;
+  &-revealed {
+    display: block;
+    position: absolute;
+  }
+}
+
+.data-viz-frequency {
+  color: #6B6C77;
+  font-size: .95rem;
+}
+
+.data-viz-more-info {
+  font-size: .95rem;
+  margin-bottom: 0;
+}
