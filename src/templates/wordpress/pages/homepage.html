@@ -28,8 +28,6 @@
 
 <div class="wp-block-columns">
     <div class="wp-block-column">
-
-
         <div class="reservoir-levels">
             <h4>Major reservoir levels</h4>
             <p>Reservoirs get us through the dry months</p>
@@ -54,15 +52,15 @@
                         </defs>
                         <!-- Create the basin. It's just a big rectangle until it's masked. -->
                         <rect id="reservoir-svg-capacity" x="0" y="0" fill="#E1E0E3" width="150" height="150" mask="url(#cut-out-reservoir)" />
-                        <!-- Create the water. It's also a rectangle until the corners are clipped off the bottom. -->
-                        <rect id="reservoir-svg-filled" x="30" y="75" fill="#003484" width="90" height="60" clip-path="url(#rounded-water-bottom)" />
+                        <!-- Create the water. It's also a rectangle until the corners are clipped off the bottom. The bottom of the water is at y=135. -->
+                        <rect id="reservoir-svg-filled" x="30" y="{{ majorReservoirs.shapes.currentWaterLevelY }}" fill="#003484" width="90" height="{{ majorReservoirs.shapes.currentWaterHeight }}" clip-path="url(#rounded-water-bottom)" />
                         <!-- Draw the dotted line for the average level. -->
-                        <line id="reservoir-svg-average" x1="0" y1="40" x2="150" y2="40" stroke="black" stroke-width="3" stroke-dasharray="3" />
+                        <line id="reservoir-svg-average" x1="0" y1="{{ majorReservoirs.shapes.historicalLineY }}" x2="150" y2="{{ majorReservoirs.shapes.historicalLineY }}" stroke="black" stroke-width="3" stroke-dasharray="3" />
                     </svg>
                 </div>
                 <div class="reservoir-levels-data-viz-summary">
                     <p class="reservoir-levels-data-viz-summary-overall">
-                        <span class="reservoir-levels-percentage">67%</span><br /> 
+                        <span class="reservoir-levels-percentage">{{ majorReservoirs.currentPctOfHistorical }}%</span><br /> 
                         of average levels
                     </p>
                     <div id="reservoir-details-capacity" class="reservoir-details">
