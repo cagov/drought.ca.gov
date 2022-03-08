@@ -11,6 +11,10 @@ const agregates = conditions.reduce((bucket, reservoir) => ({
   totalCapacity: 0
 });
 
+const currentStorageTAF = Math.round(agregates.currentStorage / 1000);
+const historicalAverageTAF = Math.round(agregates.historicalAverage / 1000);
+const totalCapacityTAF = Math.round(agregates.totalCapacity / 1000);
+
 const currentPctOfHistorical = Math.round(100 * agregates.currentStorage / agregates.historicalAverage);
 const currentPctOfCapacity = Math.round(100 * agregates.currentStorage / agregates.totalCapacity);
 const historicalPctOfCapacity = Math.round(100 * agregates.historicalAverage / agregates.totalCapacity);
@@ -22,6 +26,9 @@ const currentWaterHeight = Math.round(svgBasinDepth * currentPctOfCapacity / 100
 
 module.exports = {
   ...agregates,
+  currentStorageTAF,
+  historicalAverageTAF,
+  totalCapacityTAF,
   currentPctOfHistorical,
   currentPctOfCapacity,
   historicalPctOfCapacity,
