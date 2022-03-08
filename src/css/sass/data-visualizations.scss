@@ -16,6 +16,11 @@
       }
       position: relative;
     }
+    &-details {
+      svg {
+        display: block;
+      }
+    }
   }
   &-percentage {
     font-size: 3rem;

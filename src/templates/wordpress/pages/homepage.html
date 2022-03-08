@@ -38,17 +38,25 @@
                     <svg width="150" height="150" viewBox="0 0 150 150">
                         <defs>
                             <mask id="cut-out-reservoir">
+                                <!-- Bring the entire canvas into the mask. -->
                                 <rect x="0" y="0" fill="white" width="150" height="150" />
+                                <!-- Cut out the rounded center of the basin. -->
                                 <rect x="25" y="-20" fill="black" width="100" height="160" rx="15" ry="15" />
+                                <!-- Cut out left triangle. -->
                                 <polygon points="0,0 15,0 0,150" fill="black" />
+                                <!-- Cut out right triangle. -->
                                 <polygon points="150,0 135,0 150,150" fill="black" />
                             </mask>
                             <clipPath id="rounded-water-bottom">
+                                <!-- Clip in rounded corners on the bottom of the water. -->
                                 <rect x="30" y="-15" width="90" height="150" rx="15" ry="15" />
                             </clipPath>
                         </defs>
+                        <!-- Create the basin. It's just a big rectangle until it's masked. -->
                         <rect id="reservoir-svg-capacity" x="0" y="0" fill="#E1E0E3" width="150" height="150" mask="url(#cut-out-reservoir)" />
+                        <!-- Create the water. It's also a rectangle until the corners are clipped off the bottom. -->
                         <rect id="reservoir-svg-filled" x="30" y="75" fill="#003484" width="90" height="60" clip-path="url(#rounded-water-bottom)" />
+                        <!-- Draw the dotted line for the average level. -->
                         <line id="reservoir-svg-average" x1="0" y1="40" x2="150" y2="40" stroke="black" stroke-width="3" stroke-dasharray="3" />
                     </svg>
                 </div>
