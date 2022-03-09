@@ -1,4 +1,5 @@
-// JSON from https://cdec.water.ca.gov/resapp/service/res/conditions?date=2022-03-08&stationIds=SHA,ORO,BUL,FOL,CMN,CLE,WRS,SNL,CCH,CSI,CAS,DMV,NML,DNP,EXC,MIL,PNF
+// Example of this JSON: https://cdec.water.ca.gov/resapp/service/res/conditions?date=2022-03-08&stationIds=SHA,ORO,BUL,FOL,CMN,CLE,WRS,SNL,CCH,CSI,CAS,DMV,NML,DNP,EXC,MIL,PNF
+// See .github/workflows/fetch-drought-data.yml 
 const conditions = require('./majorReservoirConditions.json');
 
 const agregates = conditions.reduce((bucket, reservoir) => ({

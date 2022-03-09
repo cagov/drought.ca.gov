@@ -1,0 +1,28 @@
+name: Fetch Drought Data
+
+on:
+  schedule:
+    - cron: 15 4 * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Format current date
+        id: date
+        run: echo "::set-output name=today::$(date +'%Y-%m-%d')"
+
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          ref: main
+
+      - name: Download files
+        run: curl -o src/templates/_data/majorReservoirConditions.json https://cdec.water.ca.gov/resapp/service/res/conditions?date=${{steps.date.outputs.today}}&stationIds=SHA,ORO,BUL,FOL,CMN,CLE,WRS,SNL,CCH,CSI,CAS,DMV,NML,DNP,EXC,MIL,PNF
+        
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Daily reservoir data for ${{ steps.date.outputs.today }}
+          branch: main
+
