@@ -18,7 +18,7 @@ jobs:
           ref: main
 
       - name: Download files
-        run: curl -o src/templates/_data/majorReservoirConditions.json https://cdec.water.ca.gov/resapp/service/res/conditions?date=${{steps.date.outputs.today}}&stationIds=SHA,ORO,BUL,FOL,CMN,CLE,WRS,SNL,CCH,CSI,CAS,DMV,NML,DNP,EXC,MIL,PNF
+        run: curl -o src/components/reservoir-levels/majorReservoirConditions.json https://cdec.water.ca.gov/resapp/service/res/conditions?date=${{steps.date.outputs.today}}&stationIds=SHA,ORO,BUL,FOL,CMN,CLE,WRS,SNL,CCH,CSI,CAS,DMV,NML,DNP,EXC,MIL,PNF
         
       - name: Commit files
         uses: stefanzweifel/git-auto-commit-action@v4
