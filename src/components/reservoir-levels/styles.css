@@ -54,6 +54,7 @@
   border: #B3B2B8 1px solid;
   border-radius: .5rem;
   overflow: visible;
+  pointer-events: none;
 }
 
 .reservoir-details::before {
