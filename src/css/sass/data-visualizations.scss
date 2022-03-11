@@ -1,51 +1,27 @@
-.reservoir-levels {
-  padding: 1rem;
-  border: solid 1px lightgray;
-  h4 {
-    margin-top: 0;
-  }
-  &-data-viz {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 2rem 0;
-    column-gap: 2rem;
-    &-summary {
-      &-overall {
-        color: #B71234;
-      }
-      position: relative;
-    }
-    &-details {
-      svg {
-        display: block;
-      }
-    }
-  }
-  &-percentage {
-    font-size: 3rem;
-    font-weight: 700;
-  }
+cagov-reservoir-levels:defined h4 {
+  margin-top: 0;
 }
 
-.reservoir-details {
-  display: none;
-  &-revealed {
-    display: block;
-    position: absolute;
-  }
+cagov-reservoir-levels:defined h5 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1em;
 }
 
-.data-viz-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: .95rem;
-  p {
-    margin: 0;
-  }
+cagov-reservoir-levels:defined h5 ~ p {
+  margin-bottom: .5rem;
 }
 
-.data-viz-frequency {
+cagov-reservoir-levels:defined .data-viz-pct {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+cagov-reservoir-levels:defined .data-viz-freq {
   color: #6B6C77;
+}
+
+cagov-reservoir-levels:defined .data-viz-freq, 
+cagov-reservoir-levels:defined .data-viz-more {
+  margin: 0 !important;
 }

@@ -1,0 +1,110 @@
+.reservoir-levels {
+  padding: 1rem;
+  border: solid 1px lightgray;
+}
+
+.reservoir-data-viz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem 0;
+  column-gap: 2rem;
+}
+
+.reservoir-data-viz-graphic svg {
+  display: block;
+}
+
+.reservoir-data-viz-graphic {
+  position: relative;
+}
+
+.reservoir-data-viz-overall {
+  color: #B71234;
+}
+
+#basin-water {
+  fill: #003484
+}
+
+#basin-water:hover, #reservoir-details-filled svg {
+  fill: #004ABC;
+}
+
+#basin-capacity {
+  fill: #E1E0E3;
+}
+
+#basin-capacity:hover, #reservoir-details-capacity svg {
+  fill: #B3B2B8
+}
+
+#historical-line, #reservoir-details-average svg {
+  stroke: black;
+}
+
+.reservoir-details {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  padding: 1rem;
+  border: #B3B2B8 1px solid;
+  border-radius: .5rem;
+  overflow: visible;
+}
+
+.reservoir-details::before {
+  content: '';
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  left: 0;
+  top: 50%;
+  border-style: solid;
+  border-top: 1px;
+  border-right: 1px;
+  border-color: #B3B2B8;
+  background-color: white;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.reservoir-details-revealed {
+  display: inline-block;
+  width: max-content;
+  height: max-content;
+}
+
+#reservoir-details-capacity.reservoir-details-revealed {
+  left: calc(100% - 8px);
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#reservoir-details-filled.reservoir-details-revealed {
+  left: calc(100% - 28px);
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+#reservoir-details-average.reservoir-details-revealed {
+  left: calc(100% - 8px);
+  top: 29%;
+  transform: translateY(-50%);
+}
+
+.reservoir-details-heading {
+  display: flex;
+  flex-direction: row;
+  gap: .75rem;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: .95rem;
+}

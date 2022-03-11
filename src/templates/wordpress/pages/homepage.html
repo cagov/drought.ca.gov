@@ -28,56 +28,42 @@
 
 <div class="wp-block-columns">
     <div class="wp-block-column">
-        <div class="reservoir-levels">
-            <h4>Major reservoir levels</h4>
-            <p>Reservoirs get us through the dry months</p>
-            <div class="reservoir-levels-data-viz">
-                <div class="reservoir-levels-data-viz-details">
-                    <svg width="150" height="150" viewBox="0 0 150 150">
-                        <defs>
-                            <clipPath id="rounded-water-bottom">
-                                <!-- Clip in rounded corners on the bottom of the water. -->
-                                <rect x="30" y="-15" width="90" height="150" rx="15" ry="15" />
-                            </clipPath>
-                        </defs>
-                        <!-- Create the basin. It's static. -->
-                        <path id="reservoir-svg-capacity" fill="#E1E0E3" d="M0,150 L15,0 h10 v125 a15,15 0 0 0 15,15 h70 a15,15 0 0 0 15,-15 v-125 h10 L150,150 z" />
-                        <!-- Create the water. The bottom of the water is at y=135. -->
-                        <rect id="reservoir-svg-filled" x="30" y="{{ majorReservoirs.shapes.currentWaterLevelY }}" fill="#003484" width="90" height="{{ majorReservoirs.shapes.currentWaterHeight }}" clip-path="url(#rounded-water-bottom)" />
-                        <!-- Draw the dotted line for the average level. -->
-                        <line id="reservoir-svg-average" x1="0" y1="{{ majorReservoirs.shapes.historicalLineY }}" x2="150" y2="{{ majorReservoirs.shapes.historicalLineY }}" stroke="black" stroke-width="3" stroke-dasharray="3" />
-                    </svg>
-                </div>
-                <div class="reservoir-levels-data-viz-summary">
-                    <p class="reservoir-levels-data-viz-summary-overall">
-                        <span class="reservoir-levels-percentage">{{ majorReservoirs.currentPctOfHistorical }}%</span><br /> 
-                        of average levels
-                    </p>
-                    <div id="reservoir-details-capacity" class="reservoir-details">
-                        <h5>Total capacity</h5>
-                        <p>{{ majorReservoirs.totalCapacityTAF }} thousands of acre feet (TAF)</p>
-                    </div>
-                    <div id="reservoir-details-average" class="reservoir-details">
-                        <h5>Average level historically</h5>
-                        <p>{{ majorReservoirs.historicalAverageTAF }} thousands of acre feet (TAF)</p>
-                    </div>
-                    <div id="reservoir-details-filled" class="reservoir-details">
-                        <h5>Current level</h5>
-                        <p>{{ majorReservoirs.currentStorageTAF }} thousands of acre feet (TAF)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="data-viz-footer">
-                <p class="data-viz-frequency">Updated daily</p>
-                <p class="data-viz-more-info">
-                    <a href="#">More about reservoirs</a>
-                </p>
-            </div>
-        </div>
 
+        <cagov-reservoir-levels>
+            <h4 slot="heading">Major reservoir levels</h4>
+            <p slot="description">Reservoirs get us through the dry months</p>
+
+            <h5 slot="capacity-taf-heading">Total capacity</h5>
+            <p slot="capacity-taf-stats">
+                <span id="capacity-taf"></span> 
+                thousands of acre feet (TAF)
+            </p>
+
+            <h5 slot="historical-taf-heading">Average level historically</h5>
+            <p slot="historical-taf-stats">
+                <span id="historical-taf"></span> 
+                thousands of acre feet (TAF)
+            </p>
+
+            <h5 slot="current-taf-heading">Current level</h5>
+            <p slot="current-taf-stats">
+                <span id="current-taf"></span> 
+                thousands of acre feet (TAF)
+            </p>
+            <p slot="current-level">
+                <span id="current-percentage" class="data-viz-pct"></span><br />
+                of average levels
+            </p>
+
+            <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
+            <p slot="more-info" class="data-viz-more">
+                <a href="#">More about reservoirs</a>
+            </p>
+        </cagov-reservoir-levels>
 
     </div>
-    <div class="wp-block-column"></div>
+    <div class="wp-block-column">
+    </div>
 </div>
 
 <div class="wp-block-columns">
