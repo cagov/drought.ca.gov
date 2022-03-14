@@ -14,8 +14,6 @@ class CaGovReservoirLevels extends window.HTMLElement {
 
     this.attachShadow({mode: "open"})
     this.shadowRoot.append(template.content.cloneNode(true));
-
-
   }
 
   connectedCallback() {

@@ -3,6 +3,7 @@
 const conditions = require('./majorReservoirConditions.json');
 const cheerio = require("cheerio");
 
+// Sum up figures across all reservoirs.
 const agregates = conditions.reduce((bucket, reservoir) => ({
   currentStorage: Math.round(bucket.currentStorage + reservoir.storage),
   historicalAverage: Math.round(bucket.historicalAverage + reservoir.avg),
@@ -13,32 +14,50 @@ const agregates = conditions.reduce((bucket, reservoir) => ({
   totalCapacity: 0
 });
 
+// Calculate TAF for each sum.
 const currentTAF = Math.round(agregates.currentStorage / 1000);
 const historicalTAF = Math.round(agregates.historicalAverage / 1000);
 const capacityTAF = Math.round(agregates.totalCapacity / 1000);
+
+// Figure out the current water level's percentage against historical average.
 const currentPercentage = Math.round(100 * agregates.currentStorage / agregates.historicalAverage);
 
+// Render live-data-based values into the component via 11ty transform.
 const renderReservoirLevels = function (html) {
+  // Find all instances of the component on the page.
   const components = html.matchAll(
     /<cagov-reservoir-levels\s*[^>]*?\s*>[\s\S]*?<\/cagov-reservoir-levels>/gm
   );
 
   let result = html;
 
+  // Loop through all instances of the component on the page.
   for (component of components) {
     let { 0: originalMarkup, index } = component;
     let $ = cheerio.load(originalMarkup, null, false);
 
+    // Get the locale for translating number display, if needed. Commas, decimals, etc.
     const locale = $("cagov-reservoir-levels").data('locale') || "en-US";
 
+    // Set data values on the component.
     $("cagov-reservoir-levels")
       .attr("data-current-taf", currentTAF)
       .attr("data-historical-taf", historicalTAF)
       .attr("data-capacity-taf", capacityTAF)
-    $("#current-taf").text(currentTAF.toLocaleString(locale));
-    $("#historical-taf").text(historicalTAF.toLocaleString(locale));
-    $("#capacity-taf").text(capacityTAF.toLocaleString(locale));
-    $("#current-percentage").text(`${currentPercentage}%`);
+
+    // If these placeholders are present within the provided mark-up, fill them with real values.
+    if ($("#current-taf").length) {
+      $("#current-taf").text(currentTAF.toLocaleString(locale));
+    }
+    if ($("#historical-taf").length) {
+      $("#historical-taf").text(historicalTAF.toLocaleString(locale));
+    }
+    if ($("#capacity-taf").length) {
+      $("#capacity-taf").text(capacityTAF.toLocaleString(locale));
+    }
+    if ($("#current-percentage").length) {
+      $("#current-percentage").text(`${currentPercentage}%`);
+    }
 
     result = result.replace(originalMarkup, $.html());
   }
