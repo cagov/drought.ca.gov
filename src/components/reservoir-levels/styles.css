@@ -27,16 +27,22 @@
   fill: #003484
 }
 
-#basin-water:hover, #reservoir-details-filled svg {
+#basin-water:hover, 
+#basin-water:focus,
+#reservoir-details-filled svg {
   fill: #004ABC;
+  outline: 0;
 }
 
 #basin-capacity {
   fill: #E1E0E3;
 }
 
-#basin-capacity:hover, #reservoir-details-capacity svg {
-  fill: #B3B2B8
+#basin-capacity:hover,
+#basin-capacity:focus,
+#reservoir-details-capacity svg {
+  fill: #B3B2B8;
+  outline: 0;
 }
 
 #historical-line, #reservoir-details-average svg {
