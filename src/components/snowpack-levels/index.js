@@ -19,54 +19,89 @@ class CaGovSnowpackLevels extends window.HTMLElement {
 
   connectedCallback() {
     const graph = this.shadowRoot.querySelector('#snowpack-graph');
-    const peak = 20;
-    const floor = 145;
-    const range = floor - peak;
 
+    // peakY is the Y value on the graph for the historic peak. 
+    const peakY = 20;
+
+    // floorY is the Y value for the graph's baseline. Like y = 0 for our math.
+    const floorY = 145;
+
+    // rangeY is the total number of Y points between floor and peak.
+    const rangeY = floorY - peakY;
+
+    // We need to get the start date of the graph.
+    // Start of the snowpack year is October 1st.
+    const sweByDate = data.swe.sort((a, b) => a.swcDate > b.swcDate);
+    const firstSwe = sweByDate[0];
+    const graphStartYear = firstSwe
+      ? new Date(firstSwe.swcDate).getFullYear() 
+      : new Date().getFullYear(); 
+    const graphStartDate = new Date(`${graphStartYear}-10-01`);
+
+    // We'll use this unixDay value to compare dates.
+    const unixDay = 1000 * 60 * 60 * 24;
+
+    // An array of SVG x/y line coordinates, representing historic average snowpack.
     const avgPathD = data.avg.reduce((bucket, entry, index) => {
       // Just remove the leap year day.
       if (entry.month === 2 && entry.day === 29) {
         return bucket;
       }
 
-      const y = Math.round(peak + (range - (range * entry.avg)));
-      bucket.push(`L${index},${y}`);
+      const x = index;
+      const y = Math.round(peakY + (rangeY - (rangeY * entry.avg)));
+      bucket.push(`L${x},${y}`);
 
       return bucket;
     }, []);
 
+    // An array of SVG x/y line coordinates, representing current snowpack levels.
     const currentPathD = data.swe.reduce((bucket, entry, index) => {
-      // Just remove the leap year day.
+      // Parse the date.
       const date = new Date(entry.swcDate);
+
+      // Just remove the leap year day.
       if (date.getMonth() === 2 && date.getDate() === 29) {
         return bucket;
       }
 
-      const y = Math.round(peak + (range - (range * (entry.pctApr1 / 100))));
-      bucket.push(`L${index},${y}`);
+      // Diff this entry's date against the start date of the snowpack year.
+      const snowpackYearDateDiff = (date - graphStartDate) + ((graphStartDate.getTimezoneOffset() - date.getTimezoneOffset()) * 60 * 1000)
+
+      // Figure out the day of the snowpack year for this entry. This is x on the graph.
+      const x = Math.floor(snowpackYearDateDiff / unixDay);
+      // Get the y value based on percentage against historic peak.
+      const y = Math.round(peakY + (rangeY - (rangeY * (entry.pctApr1 / 100))));
+
+      // Plot this entry.
+      bucket.push(`L${x},${y}`);
 
       return bucket;
     }, []);
 
+    // Plot the area of historic levels.
     const avgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    avgPath.setAttribute('d', `M0,${floor} ${avgPathD.join(' ')} z`);
+    avgPath.setAttribute('d', `M0,${floorY} ${avgPathD.join(' ')} z`);
     avgPath.classList.add('avg');
     graph.append(avgPath);
 
+    // Plot a line for current levels.
     const currentPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
-    currentPath.setAttribute('d', `M0,${floor} ${currentPathD.join(' ')}`);
+    currentPath.setAttribute('d', `M0,${floorY} ${currentPathD.join(' ')}`);
     currentPath.classList.add('current');
     graph.append(currentPath);
   
+    // Add a circle at the historic peak.
     const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
     circle.setAttribute('cx', '182');
-    circle.setAttribute('cy', peak);
+    circle.setAttribute('cy', peakY);
     circle.setAttribute('r', '4');
     graph.append(circle);
 
+    // Add the "historic peak" text next to the above circle.
     const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
     text.setAttribute('x', '170');
-    text.setAttribute('y', peak);
+    text.setAttribute('y', peakY);
     text.setAttribute('dominant-baseline', 'middle');
     text.setAttribute('text-anchor', 'end');
     text.innerHTML = 'Historic peak';

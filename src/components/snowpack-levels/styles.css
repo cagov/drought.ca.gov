@@ -3,6 +3,10 @@
   border: solid 1px lightgray;
 }
 
+.snowpack-data-viz-overall {
+  color: #B71234;
+}
+
 line {
   stroke: #E1E0E3;
 }
@@ -14,7 +18,7 @@ line {
 
 .current {
   stroke: #003484;
-  stroke-width: 2;
+  stroke-width: 3;
   fill: transparent;
 }
 
@@ -31,4 +35,8 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   font-size: .95rem;
+}
+
+footer p {
+  margin: 0;
 }
