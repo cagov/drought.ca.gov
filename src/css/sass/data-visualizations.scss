@@ -1,6 +1,7 @@
 cagov-reservoir-levels:defined h4,
 cagov-snowpack-levels:defined h4 {
   margin-top: 0;
+  margin-bottom: .5rem;
 }
 
 cagov-reservoir-levels:defined h5 {
@@ -29,4 +30,14 @@ cagov-reservoir-levels:defined .data-viz-more,
 cagov-snowpack-levels:defined .data-viz-freq, 
 cagov-snowpack-levels:defined .data-viz-more {
   margin: unset;
+}
+
+cagov-snowpack-levels:defined .snowpack-current-level {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: .75rem;
+  line-height: .75;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
