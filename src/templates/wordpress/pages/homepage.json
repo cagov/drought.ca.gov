@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2022-02-17T00:19:52",
+    "updated_date": "2022-03-16T20:27:11",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2022-02-16T16:19:52",
-    "modified_gmt": "2022-02-17T00:19:52",
+    "modified": "2022-03-16T13:27:11",
+    "modified_gmt": "2022-03-16T20:27:11",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
-    "excerpt": "<p>California snowpack dropping Though December storms increased our snowpack, a dry January erased those gains. Experts say that it would take 140% of the state’s normal yearly rainfall to recover from drought. Find out more: Read weekly update State actions against drought News</p>\n",
+    "excerpt": "<p>California snowpack dropping Early winter storms increased our snowpack. But then the Sierra Nevada mountains had their driest January and February in over 100 years. In the Sierra-Cascades, snowpack for this year is only 61% of average. Find out more: Read weekly update State actions against drought News</p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -36,7 +36,8 @@
     "categories": [],
     "tags": [
       "homepage",
-      "launch content"
+      "launch content",
+      "staging-only"
     ],
     "design_system_fields": {
       "template": "landing"
@@ -86,6 +87,17 @@
         "slug": "launch-content",
         "term_group": 0,
         "term_taxonomy_id": 15,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 24,
+        "name": "staging-only",
+        "slug": "staging-only",
+        "term_group": 0,
+        "term_taxonomy_id": 24,
         "taxonomy": "post_tag",
         "description": "",
         "parent": 0,
