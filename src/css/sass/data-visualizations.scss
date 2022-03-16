@@ -1,4 +1,5 @@
-cagov-reservoir-levels:defined h4 {
+cagov-reservoir-levels:defined h4,
+cagov-snowpack-levels:defined h4 {
   margin-top: 0;
 }
 
@@ -12,16 +13,20 @@ cagov-reservoir-levels:defined h5 ~ p {
   margin-bottom: .5rem;
 }
 
-cagov-reservoir-levels:defined .data-viz-pct {
+cagov-reservoir-levels:defined .data-viz-pct,
+cagov-snowpack-levels:defined .data-viz-pct {
   font-size: 3rem;
   font-weight: 700;
 }
 
-cagov-reservoir-levels:defined .data-viz-freq {
+cagov-reservoir-levels:defined .data-viz-freq,
+cagov-snowpack-levels:defined .data-viz-freq {
   color: #6B6C77;
 }
 
 cagov-reservoir-levels:defined .data-viz-freq, 
-cagov-reservoir-levels:defined .data-viz-more {
+cagov-reservoir-levels:defined .data-viz-more,
+cagov-snowpack-levels:defined .data-viz-freq, 
+cagov-snowpack-levels:defined .data-viz-more {
   margin: 0 !important;
 }

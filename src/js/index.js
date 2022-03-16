@@ -12,6 +12,7 @@ import '../components/post-list/index.js';
 import '../components/page-alert/index.js';
 import '../components/drought-map/index.js';
 import '../components/reservoir-levels/index.js';
+import '../components/snowpack-levels/index.js';
 
 import setupAnalytics from './gatracker/index.js';
 

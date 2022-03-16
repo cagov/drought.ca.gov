@@ -1,6 +1,6 @@
 # Reservoir levels markup example
 
-Here's an example of the mark-up for the `cagov-reservoir-levels` component. The focus here is on foundational progressive enhancement, accessibility, and complete translatability.
+Here's an example of the mark-up for the `cagov-reservoir-levels` component. The focus here is on foundational progressive enhancement and complete translatability.
 
 ```html 
 <cagov-reservoir-levels data-locale="en-US" data-current-taf="10531" data-historical-taf="16012" data-capacity-taf="22623">
