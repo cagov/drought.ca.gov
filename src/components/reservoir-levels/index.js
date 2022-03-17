@@ -52,15 +52,22 @@ class CaGovReservoirLevels extends window.HTMLElement {
   setUpPopOvers(hoverTarget, popOverContent) {
     hoverTarget.addEventListener('mouseover', (event) => {
       popOverContent.classList.add('reservoir-details-revealed');
+      hoverTarget.classList.add('highlighted');
     });
-    hoverTarget.addEventListener('focus', (event) => {
+    
+    popOverContent.addEventListener('focus', (event) => {
       popOverContent.classList.add('reservoir-details-revealed');
+      hoverTarget.classList.add('highlighted');
     });
+
     hoverTarget.addEventListener('mouseout', (event) => {
       popOverContent.classList.remove('reservoir-details-revealed');
+      hoverTarget.classList.remove('highlighted');
     });
-    hoverTarget.addEventListener('blur', (event) => {
+
+    popOverContent.addEventListener('blur', (event) => {
       popOverContent.classList.remove('reservoir-details-revealed');
+      hoverTarget.classList.remove('highlighted');
     });
   }
 }
