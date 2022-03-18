@@ -1,19 +1,10 @@
-import styles from './styles.css';
+import DroughtDataVizBase from '../data-viz-base/index.js';
+import css from './styles.css';
 import html from './template.html';
 
-class CaGovReservoirLevels extends window.HTMLElement {
+class DroughtReservoirLevels extends DroughtDataVizBase {
   constructor() {
-    super();
-
-    let template = document.createElement('template');
-    template.innerHTML = html;
-
-    let style = document.createElement('style');
-    style.append(styles);
-    template.content.prepend(style);
-
-    this.attachShadow({mode: "open"})
-    this.shadowRoot.append(template.content.cloneNode(true));
+    super(html, css);
   }
 
   connectedCallback() {
@@ -72,6 +63,6 @@ class CaGovReservoirLevels extends window.HTMLElement {
   }
 }
 
-window.customElements.define("cagov-reservoir-levels", CaGovReservoirLevels);
+window.customElements.define("drought-reservoir-levels", DroughtReservoirLevels);
 
-export default { CaGovReservoirLevels }
+export default DroughtReservoirLevels;

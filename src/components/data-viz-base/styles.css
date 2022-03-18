@@ -1,0 +1,11 @@
+.container {
+  padding: 1rem;
+  border: solid 1px lightgray;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: .95rem;
+}

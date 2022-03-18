@@ -1,20 +1,11 @@
-import styles from './styles.css';
+import DroughtDataVizBase from '../data-viz-base/index.js';
+import css from './styles.css';
 import html from './template.html';
 import data from './snowpackConditions.json';
 
-class CaGovSnowpackLevels extends window.HTMLElement {
+class DroughtSnowpackLevels extends DroughtDataVizBase {
   constructor() {
-    super();
-
-    let template = document.createElement('template');
-    template.innerHTML = html;
-
-    let style = document.createElement('style');
-    style.append(styles);
-    template.content.prepend(style);
-
-    this.attachShadow({mode: "open"})
-    this.shadowRoot.append(template.content.cloneNode(true));
+    super(html, css);
   }
 
   connectedCallback() {
@@ -109,6 +100,6 @@ class CaGovSnowpackLevels extends window.HTMLElement {
   }
 }
 
-window.customElements.define("cagov-snowpack-levels", CaGovSnowpackLevels);
+window.customElements.define("drought-snowpack-levels", DroughtSnowpackLevels);
 
-export default { CaGovSnowpackLevels }
+export default DroughtSnowpackLevels;

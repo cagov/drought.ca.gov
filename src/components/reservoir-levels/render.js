@@ -26,7 +26,7 @@ const currentPercentage = Math.round(100 * agregates.currentStorage / agregates.
 const renderReservoirLevels = function (html) {
   // Find all instances of the component on the page.
   const components = html.matchAll(
-    /<cagov-reservoir-levels\s*[^>]*?\s*>[\s\S]*?<\/cagov-reservoir-levels>/gm
+    /<drought-reservoir-levels\s*[^>]*?\s*>[\s\S]*?<\/drought-reservoir-levels>/gm
   );
 
   let result = html;
@@ -37,10 +37,10 @@ const renderReservoirLevels = function (html) {
     let $ = cheerio.load(originalMarkup, null, false);
 
     // Get the locale for translating number display, if needed. Commas, decimals, etc.
-    const locale = $("cagov-reservoir-levels").data('locale') || "en-US";
+    const locale = $("drought-reservoir-levels").data('locale') || "en-US";
 
     // Set data values on the component.
-    $("cagov-reservoir-levels")
+    $("drought-reservoir-levels")
       .attr("data-current-taf", currentTAF)
       .attr("data-historical-taf", historicalTAF)
       .attr("data-capacity-taf", capacityTAF)

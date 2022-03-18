@@ -1,66 +1,54 @@
-<div class="reservoir-levels">
-  <header>
-    <slot name="heading"></slot>
-    <slot name="description"></slot>
-  </header>
+<div class="reservoir-data-viz">
+  <div class="reservoir-data-viz-graphic">
+    <svg width="150" height="150" viewBox="0 0 150 150" alt="">
+      <defs>
+        <!-- Clip in rounded corners on the bottom of the water. -->
+        <clipPath id="rounded-water-bottom">
+          <rect x="30" y="-15" width="90" height="150" rx="15" ry="15" />
+        </clipPath>
+      </defs>
+      <!-- Create the basin. It's static. -->
+      <path id="basin-capacity" d="M0,150 L15,0 h10 v125 a15,15 0 0 0 15,15 h70 a15,15 0 0 0 15,-15 v-125 h10 L150,150 z" />
+      <!-- Create the water. The bottom of the water is at y=135. -->
+      <rect id="basin-water" x="30" y="0" width="90" height="0" clip-path="url(#rounded-water-bottom)" />
+      <!-- Draw the dotted line for the average level. -->
+      <line id="historical-line" x1="0" y1="0" x2="150" y2="0" stroke-width="3" stroke-dasharray="3 6" stroke-linecap="round" />
+      <!-- Draw an invisible rectangle over the line, to help people hover over it. -->
+      <rect id="historical-line-hover-target" x="0" y="0" width="150" height="10" />
+    </svg>
 
-  <div class="reservoir-data-viz">
-    <div class="reservoir-data-viz-graphic">
-      <svg width="150" height="150" viewBox="0 0 150 150" alt="">
-        <defs>
-          <!-- Clip in rounded corners on the bottom of the water. -->
-          <clipPath id="rounded-water-bottom">
-            <rect x="30" y="-15" width="90" height="150" rx="15" ry="15" />
-          </clipPath>
-        </defs>
-        <!-- Create the basin. It's static. -->
-        <path id="basin-capacity" d="M0,150 L15,0 h10 v125 a15,15 0 0 0 15,15 h70 a15,15 0 0 0 15,-15 v-125 h10 L150,150 z" />
-        <!-- Create the water. The bottom of the water is at y=135. -->
-        <rect id="basin-water" x="30" y="0" width="90" height="0" clip-path="url(#rounded-water-bottom)" />
-        <!-- Draw the dotted line for the average level. -->
-        <line id="historical-line" x1="0" y1="0" x2="150" y2="0" stroke-width="3" stroke-dasharray="3 6" stroke-linecap="round" />
-        <!-- Draw an invisible rectangle over the line, to help people hover over it. -->
-        <rect id="historical-line-hover-target" x="0" y="0" width="150" height="10" />
-      </svg>
-
-      <div id="reservoir-details-capacity" tabindex="0" class="reservoir-details">
-        <div class="reservoir-details-heading">
-          <svg width="13" height="13" viewBox="0 0 10 10" alt="">
-            <rect x="0" y="0" width="10" height="10" />
-          </svg>
-          <slot name="capacity-taf-heading"></slot>
-        </div>
-        <slot name="capacity-taf-stats"></slot>
+    <div id="reservoir-details-capacity" tabindex="0" class="reservoir-details">
+      <div class="reservoir-details-heading">
+        <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+          <rect x="0" y="0" width="10" height="10" />
+        </svg>
+        <slot name="capacity-taf-heading"></slot>
       </div>
-
-      <div id="reservoir-details-average" tabindex="0" class="reservoir-details">
-        <div class="reservoir-details-heading">
-          <svg width="26" height="13" viewBox="0 0 26 13" alt="">
-            <line x1="0" y1="7" x2="26" y2="7" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round" />
-          </svg>
-          <slot name="historical-taf-heading"></slot>
-        </div>
-        <slot name="historical-taf-stats"></slot>
-      </div>
-
-      <div id="reservoir-details-filled" tabindex="0" class="reservoir-details">
-        <div class="reservoir-details-heading">
-          <svg width="13" height="13" viewBox="0 0 10 10" alt="">
-            <rect x="0" y="0" width="10" height="10" />
-          </svg>
-          <slot name="current-taf-heading"></slot>
-        </div>
-        <slot name="current-taf-stats"></slot>
-      </div>
+      <slot name="capacity-taf-stats"></slot>
     </div>
 
-    <div class="reservoir-data-viz-overall">
-      <slot name="current-level"></slot>
+    <div id="reservoir-details-average" tabindex="0" class="reservoir-details">
+      <div class="reservoir-details-heading">
+        <svg width="26" height="13" viewBox="0 0 26 13" alt="">
+          <line x1="0" y1="7" x2="26" y2="7" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round" />
+        </svg>
+        <slot name="historical-taf-heading"></slot>
+      </div>
+      <slot name="historical-taf-stats"></slot>
+    </div>
+
+    <div id="reservoir-details-filled" tabindex="0" class="reservoir-details">
+      <div class="reservoir-details-heading">
+        <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+          <rect x="0" y="0" width="10" height="10" />
+        </svg>
+        <slot name="current-taf-heading"></slot>
+      </div>
+      <slot name="current-taf-stats"></slot>
     </div>
   </div>
 
-  <footer>
-    <slot name="update-frequency"></slot>
-    <slot name="more-info"></slot>
-  </footer>
+  <div class="reservoir-data-viz-overall">
+    <slot name="current-level"></slot>
+  </div>
 </div>

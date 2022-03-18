@@ -1,9 +1,9 @@
 # Reservoir levels markup example
 
-Here's an example of the mark-up for the `cagov-reservoir-levels` component. The focus here is on foundational progressive enhancement and complete translatability.
+Here's an example of the mark-up for the `drought-reservoir-levels` component. The focus here is on foundational progressive enhancement and complete translatability.
 
 ```html 
-<cagov-reservoir-levels data-locale="en-US" data-current-taf="10531" data-historical-taf="16012" data-capacity-taf="22623">
+<drought-reservoir-levels data-locale="en-US" data-current-taf="10531" data-historical-taf="16012" data-capacity-taf="22623">
   <h4 slot="heading">Major reservoir levels</h4>
   <p slot="description">Reservoirs get us through the dry months</p>
 
@@ -33,7 +33,7 @@ Here's an example of the mark-up for the `cagov-reservoir-levels` component. The
   <p slot="more-info" class="data-viz-more">
     <a href="#">More about reservoirs</a>
   </p>
-</cagov-reservoir-levels>
+</drought-reservoir-levels>
 ```
 
 ## Notes

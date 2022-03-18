@@ -77,11 +77,11 @@ module.exports = function (eleventyConfig) {
         html = renderPostLists(html);
       }
       // Render reservoir-levels
-      if (html.includes("cagov-reservoir-levels")) {
+      if (html.includes("drought-reservoir-levels")) {
         html = renderReservoirLevels(html);
       }
       // Render snowpack-levels
-      if (html.includes("cagov-snowpack-levels")) {
+      if (html.includes("drought-snowpack-levels")) {
         html = renderSnowpackLevels(html);
       }
       // Replace Wordpress media paths with correct 11ty output path.

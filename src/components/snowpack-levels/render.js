@@ -12,7 +12,7 @@ const [latestEntry] = conditions.swe
 const renderSnowpackLevels = function (html) {
   // Find all instances of the component on the page.
   const components = html.matchAll(
-    /<cagov-snowpack-levels\s*[^>]*?\s*>[\s\S]*?<\/cagov-snowpack-levels>/gm
+    /<drought-snowpack-levels\s*[^>]*?\s*>[\s\S]*?<\/drought-snowpack-levels>/gm
   );
 
   let result = html;
