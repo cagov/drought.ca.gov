@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-21T22:39:08",
-    "updated_date": "2022-03-21T22:39:14",
+    "updated_date": "2022-03-21T22:43:21",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2022-03-21T15:39:08",
     "date_gmt": "2022-03-21T22:39:08",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1222",
-    "modified": "2022-03-21T15:39:14",
-    "modified_gmt": "2022-03-21T22:39:14",
+    "modified": "2022-03-21T15:43:21",
+    "modified_gmt": "2022-03-21T22:43:21",
     "slug": "5-5-million-safer-grant-expands-well-testing-offerstreatment-for-rural-residents-near-modesto",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/5-5-million-safer-grant-expands-well-testing-offerstreatment-for-rural-residents-near-modesto/",
     "title": "$5.5 million SAFER grant expands well testing, offers<br>treatment for rural residents near Modesto",
-    "excerpt": "<p>In an effort to improve water quality and supply for private domestic wellusers in rural areas near Modesto, the State Water Resources Control Board awarded a$5.5 million grant from the Safe and Affordable Drinking Water Fund to the Valley WaterCollaborative to expand its testing program and provide treatment to more householdsfacing contamination issues.</p>\n",
+    "excerpt": "<p>In an effort to improve water quality and supply for private domestic wellusers in rural areas near Modesto, the State Water Resources Control Board awarded a $5.5 million grant from the Safe and Affordable Drinking Water Fund to the Valley WaterCollaborative to expand its testing program and provide treatment to more householdsfacing contamination issues.</p>\n",
     "author": "Shawn Brouwer",
     "featured_media": 0,
     "comment_status": "closed",
@@ -40,9 +40,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-03-17",
