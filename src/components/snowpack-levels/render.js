@@ -31,10 +31,10 @@ const renderSnowpackLevels = function (html) {
       $("#current-percentage").text(`${latestEntry.pctApr1}%`);
     }
     if ($("#historical-peak-swe").length) {
-      $("#historical-peak-swe").text(`${historicPeak.avgAvgSwc}`);
+      $("#historical-peak-swe").text(`${historicPeak.avgAvgSwc.toFixed(1)}`);
     }
     if ($("#current-swe").length) {
-      $("#current-swe").text(`${latestEntry.avgSwc}`);
+      $("#current-swe").text(`${latestEntry.avgSwc.toFixed(1)}`);
     }
 
     result = result.replace(originalMarkup, $.html());
