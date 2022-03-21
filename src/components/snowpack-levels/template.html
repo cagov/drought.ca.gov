@@ -3,25 +3,48 @@
     <slot name="current-level"></slot>
   </div>
 
-  <svg id="snowpack-graph" width="365" height="175" viewBox="0 0 365 175" alt="">
-    <line x1="0" y1="145" x2="365" y2="145" stroke-width="1" />
+  <div class="popover-container">
+    <svg id="snowpack-graph" width="365" height="175" viewBox="0 0 365 175" alt="">
+      <line x1="0" y1="145" x2="365" y2="145" stroke-width="1" />
+  
+      <line x1="31" y1="0" x2="31" y2="145" stroke-width="1" />
+      <text x="31" y="160" dominant-baseline="middle" text-anchor="middle">Nov '21</text>
+  
+      <line x1="92" y1="0" x2="92" y2="145" stroke-width="1" />
+      <text x="92" y="160" dominant-baseline="middle" text-anchor="middle">Jan '22</text>
+  
+      <line x1="151" y1="0" x2="151" y2="145" stroke-width="1" />
+      <text x="151" y="160" dominant-baseline="middle" text-anchor="middle">Mar</text>
+      
+      <line x1="212" y1="0" x2="212" y2="145" stroke-width="1" />
+      <text x="212" y="160" dominant-baseline="middle" text-anchor="middle">May</text>
+  
+      <line x1="273" y1="0" x2="273" y2="145" stroke-width="1" />
+      <text x="273" y="160" dominant-baseline="middle" text-anchor="middle">Jul</text>
+  
+      <line x1="335" y1="0" x2="335" y2="145" stroke-width="1" />
+      <text x="335" y="160" dominant-baseline="middle" text-anchor="middle">Sep</text>
+    </svg>
 
-    <line x1="31" y1="0" x2="31" y2="145" stroke-width="1" />
-    <text x="31" y="160" dominant-baseline="middle" text-anchor="middle">Nov '21</text>
+    <div id="snowpack-historical-peak-swe" tabindex="0" class="popover-content">
+      <div class="popover-legend">
+        <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+          <circle r="4" cx="5" cy="5" class="peak" />
+        </svg>
+        <slot name="historical-peak-swe-heading"></slot>
+      </div>
+      <slot name="historical-peak-swe-stats"></slot>
+    </div>
 
-    <line x1="92" y1="0" x2="92" y2="145" stroke-width="1" />
-    <text x="92" y="160" dominant-baseline="middle" text-anchor="middle">Jan '22</text>
+    <div id="snowpack-current-swe" tabindex="0" class="popover-content">
+      <div class="popover-legend">
+        <svg width="26" height="13" viewBox="0 0 26 13" alt="">
+          <line x1="0" y1="7" x2="26" y2="7" stroke-linecap="round" class="current" />
+        </svg>
+        <slot name="current-swe-heading"></slot>
+      </div>
+      <slot name="current-swe-stats"></slot>
+    </div>
+  </div>
 
-    <line x1="151" y1="0" x2="151" y2="145" stroke-width="1" />
-    <text x="151" y="160" dominant-baseline="middle" text-anchor="middle">Mar</text>
-    
-    <line x1="212" y1="0" x2="212" y2="145" stroke-width="1" />
-    <text x="212" y="160" dominant-baseline="middle" text-anchor="middle">May</text>
-
-    <line x1="273" y1="0" x2="273" y2="145" stroke-width="1" />
-    <text x="273" y="160" dominant-baseline="middle" text-anchor="middle">Jul</text>
-
-    <line x1="335" y1="0" x2="335" y2="145" stroke-width="1" />
-    <text x="335" y="160" dominant-baseline="middle" text-anchor="middle">Sep</text>
-  </svg>
 </div>

@@ -25,7 +25,7 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
     const waterDetail = this.shadowRoot.querySelector('#reservoir-details-filled');
     water.setAttribute('y', waterLevelY);
     water.setAttribute('height', waterHeight);
-    this.setUpPopOvers(water, waterDetail);
+    this.setUpPopOvers(waterDetail, water);
 
     const historicalLine = this.shadowRoot.querySelector('#historical-line');
     const historicalHoverTarget = this.shadowRoot.querySelector('#historical-line-hover-target');
@@ -33,33 +33,11 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
     historicalLine.setAttribute('y1', historicalLineY);
     historicalLine.setAttribute('y2', historicalLineY);
     historicalHoverTarget.setAttribute('y', historicalLinePadY);
-    this.setUpPopOvers(historicalHoverTarget, historicalLineDetail);
+    this.setUpPopOvers(historicalLineDetail, historicalHoverTarget);
 
     const basin = this.shadowRoot.querySelector('#basin-capacity');
     const basinDetail = this.shadowRoot.querySelector('#reservoir-details-capacity');
-    this.setUpPopOvers(basin, basinDetail);
-  }
-
-  setUpPopOvers(hoverTarget, popOverContent) {
-    hoverTarget.addEventListener('mouseover', (event) => {
-      popOverContent.classList.add('reservoir-details-revealed');
-      hoverTarget.classList.add('highlighted');
-    });
-    
-    popOverContent.addEventListener('focus', (event) => {
-      popOverContent.classList.add('reservoir-details-revealed');
-      hoverTarget.classList.add('highlighted');
-    });
-
-    hoverTarget.addEventListener('mouseout', (event) => {
-      popOverContent.classList.remove('reservoir-details-revealed');
-      hoverTarget.classList.remove('highlighted');
-    });
-
-    popOverContent.addEventListener('blur', (event) => {
-      popOverContent.classList.remove('reservoir-details-revealed');
-      hoverTarget.classList.remove('highlighted');
-    });
+    this.setUpPopOvers(basinDetail, basin);
   }
 }
 

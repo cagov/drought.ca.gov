@@ -1,8 +1,3 @@
-.reservoir-levels {
-  padding: 1rem;
-  border: solid 1px lightgray;
-}
-
 .reservoir-data-viz {
   display: flex;
   flex-direction: row;
@@ -13,10 +8,6 @@
 
 .reservoir-data-viz-graphic svg {
   display: block;
-}
-
-.reservoir-data-viz-graphic {
-  position: relative;
 }
 
 .reservoir-data-viz-overall {
@@ -54,80 +45,20 @@
   fill: yellow;
 }
 
-.reservoir-details {
-  position: absolute;
-  display: flex;
-  flex-direction: column-reverse;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  background-color: white;
-  padding: 1rem;
-  outline: 0;
-  border-radius: .5rem;
-  overflow: visible;
-  pointer-events: none;
-  --shadow-color: 220 3% 15%;
-  --shadow-strength: 1%;
-  box-shadow:  0 -1px 2px 0 hsl(var(--shadow-color) / calc(var(--shadow-strength) + 2%)),
-  0 2px 1px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
-  0 5px 5px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 3%)),
-  0 10px 10px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 4%)),
-  0 20px 20px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 5%)),
-  0 40px 40px -2px hsl(var(--shadow-color) / calc(var(--shadow-strength) + 7%));;
-}
-
-.reservoir-details::before {
-  content: '';
-  position: absolute;
-  width: 1rem;
-  height: 1rem;
-  left: 0;
-  top: 50%;
-  /*
-  border-style: solid;
-  border-top: 1px;
-  border-right: 1px;
-  border-color: #B3B2B8;
-  */
-  background-color: white;
-  transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.reservoir-details-revealed {
-  width: max-content;
-  height: max-content;
-}
-
-#reservoir-details-capacity.reservoir-details-revealed {
+#reservoir-details-capacity.popover-revealed {
   left: calc(100% - 8px);
   top: 50%;
   transform: translateY(-50%);
 }
 
-#reservoir-details-filled.reservoir-details-revealed {
+#reservoir-details-filled.popover-revealed {
   left: calc(100% - 28px);
   top: 70%;
   transform: translateY(-50%);
 }
 
-#reservoir-details-average.reservoir-details-revealed {
+#reservoir-details-average.popover-revealed {
   left: calc(100% - 8px);
   top: 29%;
   transform: translateY(-50%);
-}
-
-.reservoir-details-heading {
-  display: flex;
-  flex-direction: row;
-  gap: .75rem;
-  align-items: center;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: .95rem;
 }

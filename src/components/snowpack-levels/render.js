@@ -8,6 +8,10 @@ const [latestEntry] = conditions.swe
   .sort((a, b) => a.swcDate > b.swcDate)
   .slice(-1);
 
+// Get the historic peak average.
+const historicPeak = conditions.avg
+  .find(a => a.month === 4 && a.day === 1);
+
 // Render live-data-based values into the component via 11ty transform.
 const renderSnowpackLevels = function (html) {
   // Find all instances of the component on the page.
@@ -25,6 +29,12 @@ const renderSnowpackLevels = function (html) {
     // If this placeholder is present within the provided mark-up, fill it with value.
     if ($("#current-percentage").length) {
       $("#current-percentage").text(`${latestEntry.pctApr1}%`);
+    }
+    if ($("#historical-peak-swe").length) {
+      $("#historical-peak-swe").text(`${historicPeak.avgAvgSwc}`);
+    }
+    if ($("#current-swe").length) {
+      $("#current-swe").text(`${latestEntry.avgSwc}`);
     }
 
     result = result.replace(originalMarkup, $.html());

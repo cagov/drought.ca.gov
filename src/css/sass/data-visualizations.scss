@@ -4,13 +4,15 @@ drought-snowpack-levels:defined h4 {
   margin-bottom: .5rem;
 }
 
-drought-reservoir-levels:defined h5 {
+drought-reservoir-levels:defined h5,
+drought-snowpack-levels:defined h5 {
   margin: 0;
   font-weight: 400;
   font-size: 1em;
 }
 
-drought-reservoir-levels:defined h5 ~ p {
+drought-reservoir-levels:defined h5 ~ p,
+drought-snowpack-levels:defined h5 ~ p {
   margin-bottom: .5rem;
 }
 
