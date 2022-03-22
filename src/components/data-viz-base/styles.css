@@ -65,5 +65,9 @@ footer {
   display: flex;
   flex-direction: row;
   gap: .75rem;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.popover-legend svg {
+  height: 1.5em;
 }
