@@ -98,6 +98,28 @@
     </div>
 </div>
 
+<div>
+    <drought-precipitation-levels>
+        <h4 slot="heading">Statewide precipitation</h4>
+        <p slot="description">Statewide precipitation levels over the last 6 months</p>
+
+        <table slot="precip-data" id="precip-data-table">
+            <thead>
+                <tr>
+                    <th id="precip-month-table-header">Month</th>
+                    <th id="precip-total-table-header">Statewide Precipitation</th>
+                </tr>
+            </thead>
+        </table>
+        
+
+        <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
+        <p slot="more-info" class="data-viz-more">
+            <a href="#">More about precipitation</a>
+        </p>
+    </drought-precipitation-levels>
+</div>
+
 <div class="wp-block-columns">
 <div class="wp-block-column">
 <h2 id="state-actions-against-drought">State actions against drought</h2>

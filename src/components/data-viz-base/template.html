@@ -1,7 +1,10 @@
 <div class="container">
   <header>
     <slot name="heading"></slot>
-    <slot name="description"></slot>
+    <div class="description">
+      <slot name="description"></slot>
+      <slot name="legend"></slot>
+    </div>
   </header>
 
   <main>

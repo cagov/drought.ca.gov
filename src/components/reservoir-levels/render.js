@@ -65,4 +65,4 @@ const renderReservoirLevels = function (html) {
   return result;
 };
 
-module.exports = { renderReservoirLevels };
+module.exports = renderReservoirLevels;

@@ -241,4 +241,4 @@ const renderPostLists = function (html) {
   return result;
 };
 
-module.exports = { renderPostLists };
+module.exports = renderPostLists;

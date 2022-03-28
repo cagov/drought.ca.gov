@@ -1,34 +1,41 @@
 drought-reservoir-levels:defined h4,
-drought-snowpack-levels:defined h4 {
+drought-snowpack-levels:defined h4,
+drought-precipitation-levels:defined h4 {
   margin-top: 0;
   margin-bottom: .5rem;
 }
 
 drought-reservoir-levels:defined h5,
-drought-snowpack-levels:defined h5 {
+drought-snowpack-levels:defined h5,
+drought-precipitation-levels:defined h5 {
   margin: 0;
   font-weight: 400;
   font-size: 1em;
 }
 
 drought-reservoir-levels:defined h5 ~ p,
-drought-snowpack-levels:defined h5 ~ p {
+drought-snowpack-levels:defined h5 ~ p,
+drought-precipitation-levels:defined h5 ~ p {
   margin-bottom: .5rem;
 }
 
 drought-reservoir-levels:defined .data-viz-pct,
-drought-snowpack-levels:defined .data-viz-pct {
+drought-snowpack-levels:defined .data-viz-pct,
+drought-precipitation-levels:defined .data-viz-pct {
   font-size: 3rem;
   font-weight: 700;
 }
 
 drought-reservoir-levels:defined .data-viz-freq,
-drought-snowpack-levels:defined .data-viz-freq {
+drought-snowpack-levels:defined .data-viz-freq,
+drought-precipitation-levels:defined .data-viz-freq {
   color: #6B6C77;
 }
 
 drought-reservoir-levels:defined .data-viz-freq, 
 drought-reservoir-levels:defined .data-viz-more,
+drought-precipitation-levels:defined .data-viz-freq,
+drought-precipitation-levels:defined .data-viz-more,
 drought-snowpack-levels:defined .data-viz-freq, 
 drought-snowpack-levels:defined .data-viz-more {
   margin: unset;

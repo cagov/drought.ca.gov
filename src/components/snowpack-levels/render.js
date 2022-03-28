@@ -43,4 +43,4 @@ const renderSnowpackLevels = function (html) {
   return result;
 };
 
-module.exports = { renderSnowpackLevels };
+module.exports = renderSnowpackLevels;

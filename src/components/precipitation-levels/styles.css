@@ -1,0 +1,31 @@
+line {
+  stroke: #E1E0E3;
+}
+
+.y-label {
+  font-size: .9rem;
+}
+
+.x-label {
+  font-size: 1rem;
+}
+
+.bold-label {
+  font-weight: 700;
+}
+
+.monthly-bar {
+  fill: #7F267C;
+}
+
+svg { 
+  display: block;
+}
+
+.historic {
+  stroke: black;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+  stroke-linecap: round;
+  fill: transparent;
+}
