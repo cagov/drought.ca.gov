@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-03-28T23:45:56",
-    "updated_date": "2022-03-28T23:55:22",
+    "updated_date": "2022-03-29T01:52:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-03-28T16:45:56",
     "date_gmt": "2022-03-28T23:45:56",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1235",
-    "modified": "2022-03-28T16:55:22",
-    "modified_gmt": "2022-03-28T23:55:22",
+    "modified": "2022-03-28T18:52:30",
+    "modified_gmt": "2022-03-29T01:52:30",
     "slug": "governor-moves-to-bolster-conservation-efforts",
     "status": "publish",
     "type": "post",
@@ -40,7 +40,9 @@
     "categories": [
       "Action"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "post"
     },
@@ -88,7 +90,19 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-03-28",
