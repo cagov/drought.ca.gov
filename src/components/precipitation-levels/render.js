@@ -2,6 +2,9 @@ const cheerio = require("cheerio");
 const glob = require("glob");
 const fs = require("fs");
 const path = require("path");
+const historicData = require('./data/historicMonthlyAvgs.json');
+
+console.log(historicData)
 
 // Example of this JSON: https://cdec.water.ca.gov/dynamicapp/req/JSONDataServlet?SensorNums=2&dur_code=M&Start=2021-01-01&End=2021-12-31&Stations=APU,ASM,ATW,ABR,AUB,BFK,BFS,BRM,BGB,BBE,BGC,BGS,BIS,BYM,BLY,BCA,BDE,BOW,BDG,BCM,CCH,CVT,CAL,CPD,CPT,CDV,CVD,CHS,CES,CNL,CLN,CFF,CLF,CTT,COV,CEC,CRC,CUY,DVS,DSB,DTV,DMS,DWV,DYL,DNM,EGL,ELC,ERY,ELS,ENG,ERK,FRF,FMT,NIC,FDD,FLR,FLD,FRH,FBW,FJN,FRR,FRO,GAS,GLK,GRG,GNF,GLV,GRO,GSV,GVL,GHS,HWE,HND,HAP,HTH,HCK,HLS,HOO,HSS,IMP,IPN,ISB,JNL,KP3,KR3,OLS,LGT,ARR,LPA,SBN,LMC,LFH,LND,LDG,LCC,LAN,MDR,MRP,MKV,MLD,MFS,MNR,MCN,MDE,MTY,HML,MSC,WLS,MNH,NSH,NDL,NVD,EXC,NMQ,NLD,NFR,OSM,ORL,OXN,PCF,PMS,PNH,PSC,PNF,PCV,PLE,PRT,QNC,RBF,RGC,HEA,SCR,SGH,SAP,SDG,SFF,SLO,ANA,SBR,CRZ,SRO,SCA,SRR,SLP,SSG,SOR,SEY,SKR,SGV,SNH,STK,STG,STV,SCC,SSN,TAC,TRM,3RV,TCR,TKE,29P,UKH,VNT,VSL,WSC,WTW,WVR,WPT,WDL,YSV,YRK
 // See .github/workflows/fetch-drought-data.yml 
@@ -39,7 +42,8 @@ for (let i = 0; i < 7; i++) {
   graphMonths.push({ 
     month: runningGraphMonth, 
     year: runningGraphYear, 
-    total: total.toFixed(2) 
+    total: total.toFixed(2),
+    historic: historicData[runningGraphMonth.toString()] 
   });
   runningGraphMonth -= 1;
 }
@@ -75,33 +79,17 @@ const renderPrecipitationLevels = function (html) {
       const monthString = dateObj.toLocaleString(locale, monthStringOptions);
 
       $('#precip-data-table').append(`
-        <tr id="precip-month-${index}" data-month="${entry.month}" data-year="${entry.year}" data-total="${entry.total}">
-          <td class="month-label">${monthString}</td>
-          <td class="month-total">${entry.total} ${unit}</td>
+        <tr id="precip-month-${entry.month}" 
+          data-month="${entry.month}" 
+          data-year="${entry.year}" 
+          data-total="${entry.total}"
+          data-historic="${entry.historic}">
+          <td class="precip-month-label">${monthString}</td>
+          <td class="precip-month-total">${entry.total} ${unit}</td>
+          <td class="precip-month-historic">${entry.historic} ${unit}</td>
         </tr>
       `);
     });
-
-    /* Set data values on the component.
-    $("drought-reservoir-levels")
-      .attr("data-current-taf", currentTAF)
-      .attr("data-historical-taf", historicalTAF)
-      .attr("data-capacity-taf", capacityTAF)
-
-    // If these placeholders are present within the provided mark-up, fill them with real values.
-    if ($("#current-taf").length) {
-      $("#current-taf").text(currentTAF.toLocaleString(locale));
-    }
-    if ($("#historical-taf").length) {
-      $("#historical-taf").text(historicalTAF.toLocaleString(locale));
-    }
-    if ($("#capacity-taf").length) {
-      $("#capacity-taf").text(capacityTAF.toLocaleString(locale));
-    }
-    if ($("#current-percentage").length) {
-      $("#current-percentage").text(`${currentPercentage}%`);
-    }
-    */
 
     result = result.replace(originalMarkup, $.html());
   }

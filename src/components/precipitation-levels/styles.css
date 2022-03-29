@@ -14,7 +14,7 @@ line {
   font-weight: 700;
 }
 
-.monthly-bar {
+.monthly-bar, .popover-legend rect {
   fill: #7F267C;
 }
 
@@ -28,4 +28,32 @@ svg {
   stroke-dasharray: 3 6;
   stroke-linecap: round;
   fill: transparent;
+}
+
+.popover-revealed {
+  left: var(--x, 200px);
+  top: var(--y, 20px);
+  transform: translateY(-50%);
+}
+
+.popover-revealed p {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.popover-header {
+  margin: 0;
+}
+
+.popover-stat {
+  margin: 0 0 .5rem 0;
+}
+
+.historic-point-hover {
+  fill: transparent;
+}
+
+.historic-point-hover.highlighted {
+  opacity: 0.3;
+  fill: yellow;
 }
