@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "created_date": "2022-04-01T22:24:15",
+    "updated_date": "2022-04-01T22:24:15",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1272,
+    "date": "2022-04-01T15:24:15",
+    "date_gmt": "2022-04-01T22:24:15",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png",
+    "modified": "2022-04-01T15:24:15",
+    "modified_gmt": "2022-04-01T22:24:15",
+    "slug": "cww12monthspei",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/cww12monthspei/",
+    "title": "CWW12monthSPEI",
+    "author": "Peggy Gartin",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png'><img width=\"300\" height=\"271\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-300x271.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-300x271.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-553x500.png 553w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-768x694.png 768w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png 1186w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 1186,
+      "height": 1072,
+      "file": "2022/04/CWW12monthSPEI.png",
+      "sizes": {
+        "medium": {
+          "file": "CWW12monthSPEI-300x271.png",
+          "width": 300,
+          "height": 271,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-300x271.png"
+        },
+        "large": {
+          "file": "CWW12monthSPEI-553x500.png",
+          "width": 553,
+          "height": 500,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-553x500.png"
+        },
+        "thumbnail": {
+          "file": "CWW12monthSPEI-150x150.png",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-150x150.png"
+        },
+        "medium_large": {
+          "file": "CWW12monthSPEI-768x694.png",
+          "width": 768,
+          "height": 694,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-768x694.png"
+        },
+        "full": {
+          "file": "CWW12monthSPEI.png",
+          "width": 1186,
+          "height": 1072,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/04/CWW12monthSPEI.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png",
+        "file": "CWW12monthSPEI.png",
+        "width": 1186,
+        "height": 1072,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI.png"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/04/CWW12monthSPEI-768x694.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-768x694.png",
+        "file": "CWW12monthSPEI-768x694.png",
+        "width": 768,
+        "height": 694,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-768x694.png"
+      },
+      {
+        "type": "large",
+        "path": "2022/04/CWW12monthSPEI-553x500.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-553x500.png",
+        "file": "CWW12monthSPEI-553x500.png",
+        "width": 553,
+        "height": 500,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-553x500.png"
+      },
+      {
+        "type": "medium",
+        "path": "2022/04/CWW12monthSPEI-300x271.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-300x271.png",
+        "file": "CWW12monthSPEI-300x271.png",
+        "width": 300,
+        "height": 271,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-300x271.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/04/CWW12monthSPEI-150x150.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-150x150.png",
+        "file": "CWW12monthSPEI-150x150.png",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CWW12monthSPEI-150x150.png"
+      }
+    ],
+    "path": "2022/04/CWW12monthSPEI.png"
+  }
+}
