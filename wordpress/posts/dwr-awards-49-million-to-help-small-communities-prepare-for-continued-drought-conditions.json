@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2022-02-01T21:59:52",
-    "updated_date": "2022-02-17T00:18:13",
+    "created_date": "2022-03-15T18:38:37",
+    "updated_date": "2022-03-15T18:56:28",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 1113,
-    "date": "2022-02-01T13:59:52",
-    "date_gmt": "2022-02-01T21:59:52",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1113",
-    "modified": "2022-02-16T16:18:13",
-    "modified_gmt": "2022-02-17T00:18:13",
-    "slug": "dry-january-conditions-return-snowpack-to-near-average-levels",
+    "id": 1194,
+    "date": "2022-03-15T11:38:37",
+    "date_gmt": "2022-03-15T18:38:37",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1194",
+    "modified": "2022-03-15T11:56:28",
+    "modified_gmt": "2022-03-15T18:56:28",
+    "slug": "dwr-awards-49-million-to-help-small-communities-prepare-for-continued-drought-conditions",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-    "title": "Dry January Conditions Return Snowpack to Near Average Levels",
-    "excerpt": "<p>The Department of Water Resources (DWR) conducted the second snow survey of the season at Phillips Station.</p>\n",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/dwr-awards-49-million-to-help-small-communities-prepare-for-continued-drought-conditions/",
+    "title": "DWR Awards $49 Million to Help Small Communities Prepare for Continued Drought Conditions",
+    "excerpt": "<p>With California preparing for a third dry year, the Department of Water Resources (DWR) announced its sixth round of local assistance through the Small Community Drought Relief program.</p>\n",
     "author": "Anna Opalka",
     "featured_media": 0,
     "comment_status": "closed",
@@ -33,8 +33,8 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Feb-22/Snow-Survey-February-2022",
-      "custom_post_date": "2022-02-01",
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/March-22/DWR-Awards-49-Million-to-Help-Small-Communities-Prepare-for-Continued-Drought-Conditions",
+      "custom_post_date": "2022-03-04",
       "custom_post_location": ""
     },
     "categories": [
@@ -55,19 +55,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-      "page_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-awards-49-million-to-help-small-communities-prepare-for-continued-drought-conditions/",
+      "page_title": "DWR Awards $49 Million to Help Small Communities Prepare for Continued Drought Conditions",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Dry January Conditions Return Snowpack to Near Average Levels",
-      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-      "open_graph_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "meta_title": "DWR Awards $49 Million to Help Small Communities Prepare for Continued Drought Conditions",
+      "meta_description": "With California preparing for a third dry year, the Department of Water Resources (DWR) announced its sixth round of local assistance through the Small Community Drought Relief program.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-awards-49-million-to-help-small-communities-prepare-for-continued-drought-conditions/",
+      "open_graph_title": "DWR Awards $49 Million to Help Small Communities Prepare for Continued Drought Conditions",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "twitter_title": "DWR Awards $49 Million to Help Small Communities Prepare for Continued Drought Conditions",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,7 +91,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "custom_post_date": "2022-02-01",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/"
+    "custom_post_date": "2022-03-04",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-awards-49-million-to-help-small-communities-prepare-for-continued-drought-conditions/"
   }
 }

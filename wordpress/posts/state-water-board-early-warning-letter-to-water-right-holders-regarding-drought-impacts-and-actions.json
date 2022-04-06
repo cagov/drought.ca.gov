@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2022-02-01T21:59:52",
-    "updated_date": "2022-02-17T00:18:13",
+    "created_date": "2022-03-21T23:33:30",
+    "updated_date": "2022-03-21T23:37:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,19 +13,19 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 1113,
-    "date": "2022-02-01T13:59:52",
-    "date_gmt": "2022-02-01T21:59:52",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1113",
-    "modified": "2022-02-16T16:18:13",
-    "modified_gmt": "2022-02-17T00:18:13",
-    "slug": "dry-january-conditions-return-snowpack-to-near-average-levels",
+    "id": 1227,
+    "date": "2022-03-21T16:33:30",
+    "date_gmt": "2022-03-21T23:33:30",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1227",
+    "modified": "2022-03-21T16:37:22",
+    "modified_gmt": "2022-03-21T23:37:22",
+    "slug": "state-water-board-early-warning-letter-to-water-right-holders-regarding-drought-impacts-and-actions",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-    "title": "Dry January Conditions Return Snowpack to Near Average Levels",
-    "excerpt": "<p>The Department of Water Resources (DWR) conducted the second snow survey of the season at Phillips Station.</p>\n",
-    "author": "Anna Opalka",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-early-warning-letter-to-water-right-holders-regarding-drought-impacts-and-actions/",
+    "title": "State Water Board Early Warning Letter to Water Right Holders Regarding Drought Impacts and Actions",
+    "excerpt": "<p>As drought conditions persist throughout California, the State Water Board sent early warning letters to approximately 20,000 water right holders urging them to plan for potential shortages.</p>\n",
+    "author": "Kalin Kipling",
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
@@ -33,8 +33,8 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Feb-22/Snow-Survey-February-2022",
-      "custom_post_date": "2022-02-01",
+      "custom_post_link": "https://www.waterboards.ca.gov/drought/docs/2022/dyl_2022_web.pdf",
+      "custom_post_date": "2022-03-21",
       "custom_post_location": ""
     },
     "categories": [
@@ -55,19 +55,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-      "page_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-early-warning-letter-to-water-right-holders-regarding-drought-impacts-and-actions/",
+      "page_title": "State Water Board Early Warning Letter to Water Right Holders Regarding Drought Impacts and Actions",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "meta_title": "State Water Board Early Warning Letter to Water Right Holders Regarding Drought Impacts and Actions",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-      "open_graph_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-early-warning-letter-to-water-right-holders-regarding-drought-impacts-and-actions/",
+      "open_graph_title": "State Water Board Early Warning Letter to Water Right Holders Regarding Drought Impacts and Actions",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "twitter_title": "State Water Board Early Warning Letter to Water Right Holders Regarding Drought Impacts and Actions",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,7 +91,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "custom_post_date": "2022-02-01",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/"
+    "custom_post_date": "2022-03-21",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-early-warning-letter-to-water-right-holders-regarding-drought-impacts-and-actions/"
   }
 }

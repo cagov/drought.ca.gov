@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2022-02-01T21:59:52",
-    "updated_date": "2022-02-17T00:18:13",
+    "created_date": "2022-04-01T21:47:42",
+    "updated_date": "2022-04-01T21:57:31",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,18 +13,18 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 1113,
-    "date": "2022-02-01T13:59:52",
-    "date_gmt": "2022-02-01T21:59:52",
-    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1113",
-    "modified": "2022-02-16T16:18:13",
-    "modified_gmt": "2022-02-17T00:18:13",
-    "slug": "dry-january-conditions-return-snowpack-to-near-average-levels",
+    "id": 1269,
+    "date": "2022-04-01T14:47:42",
+    "date_gmt": "2022-04-01T21:47:42",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1269",
+    "modified": "2022-04-01T14:57:31",
+    "modified_gmt": "2022-04-01T21:57:31",
+    "slug": "survey-finds-little-snow-as-statewide-snowpack-drops-to-38-percent-following-record-dry-months",
     "status": "publish",
     "type": "post",
-    "link": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-    "title": "Dry January Conditions Return Snowpack to Near Average Levels",
-    "excerpt": "<p>The Department of Water Resources (DWR) conducted the second snow survey of the season at Phillips Station.</p>\n",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/survey-finds-little-snow-as-statewide-snowpack-drops-to-38-percent-following-record-dry-months/",
+    "title": "Survey Finds Little Snow as Statewide Snowpack Drops to 38 Percent Following Record Dry Months",
+    "excerpt": "<p>The Department of Water Resources (DWR) today conducted the fourth snow survey of the season at Phillips Station.</p>\n",
     "author": "Anna Opalka",
     "featured_media": 0,
     "comment_status": "closed",
@@ -33,8 +33,8 @@
     "template": "",
     "format": "link",
     "meta": {
-      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Feb-22/Snow-Survey-February-2022",
-      "custom_post_date": "2022-02-01",
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/April-22/April-2022-Snow-Survey",
+      "custom_post_date": "2022-04-01",
       "custom_post_location": ""
     },
     "categories": [
@@ -55,19 +55,19 @@
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "site_url": "https://test-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-      "page_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/survey-finds-little-snow-as-statewide-snowpack-drops-to-38-percent-following-record-dry-months/",
+      "page_title": "Survey Finds Little Snow as Statewide Snowpack Drops to 38 Percent Following Record Dry Months",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "meta_title": "Survey Finds Little Snow as Statewide Snowpack Drops to 38 Percent Following Record Dry Months",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/",
-      "open_graph_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/survey-finds-little-snow-as-statewide-snowpack-drops-to-38-percent-following-record-dry-months/",
+      "open_graph_title": "Survey Finds Little Snow as Statewide Snowpack Drops to 38 Percent Following Record Dry Months",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Dry January Conditions Return Snowpack to Near Average Levels",
+      "twitter_title": "Survey Finds Little Snow as Statewide Snowpack Drops to 38 Percent Following Record Dry Months",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -91,7 +91,7 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "custom_post_date": "2022-02-01",
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dry-january-conditions-return-snowpack-to-near-average-levels/"
+    "custom_post_date": "2022-04-01",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/survey-finds-little-snow-as-statewide-snowpack-drops-to-38-percent-following-record-dry-months/"
   }
 }
