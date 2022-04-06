@@ -1,6 +1,6 @@
 <div class="reservoir-data-viz">
   <div class="reservoir-data-viz-graphic popover-container">
-    <svg width="150" height="150" viewBox="0 0 150 150" alt="">
+    <svg width="150" height="150" viewBox="0 0 150 150" aria-hidden="true">
       <defs>
         <!-- Clip in rounded corners on the bottom of the water. -->
         <clipPath id="rounded-water-bottom">
@@ -19,7 +19,7 @@
 
     <div id="reservoir-details-capacity" tabindex="0" class="popover-content">
       <div class="popover-legend">
-        <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
           <rect x="0" y="0" width="10" height="10" />
         </svg>
         <slot name="capacity-taf-heading"></slot>
@@ -29,7 +29,7 @@
 
     <div id="reservoir-details-average" tabindex="0" class="popover-content">
       <div class="popover-legend">
-        <svg width="26" height="13" viewBox="0 0 26 13" alt="">
+        <svg width="26" height="13" viewBox="0 0 26 13" aria-hidden="true">
           <line x1="0" y1="7" x2="26" y2="7" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round" />
         </svg>
         <slot name="historical-taf-heading"></slot>
@@ -39,7 +39,7 @@
 
     <div id="reservoir-details-filled" tabindex="0" class="popover-content">
       <div class="popover-legend">
-        <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
           <rect x="0" y="0" width="10" height="10" />
         </svg>
         <slot name="current-taf-heading"></slot>

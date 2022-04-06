@@ -1,5 +1,5 @@
 <div class="popover-container">
-  <svg id="precipitation-graph" width="730" height="340" viewBox="0 0 730 340" alt="">
+  <svg id="precipitation-graph" width="730" height="340" viewBox="0 0 730 340" aria-hidden="true">
     <text x="0" y="0" dominant-baseline="hanging" text-anchor="start" class="x-label bold-label">Inches</text>
 
     <line x1="40" y1="285" x2="740" y2="285" stroke-width="1" />
@@ -14,4 +14,7 @@
     <line x1="40" y1="45" x2="740" y2="45" stroke-width="1" />
     <text x="0" y="45" dominant-baseline="middle" text-anchor="start" class="y-label">1500</text>
   </svg>
+</div>
+<div class="sr-only">
+  <slot name="precip-data"></slot>
 </div>

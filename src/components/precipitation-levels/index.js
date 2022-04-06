@@ -90,7 +90,7 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
       currentPopOver.style.setProperty('--y', `${barTopY}px`);
       currentPopOver.innerHTML = `
         <div class="popover-legend">
-          <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+          <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
             <rect x="0" y="0" width="10" height="10" />
           </svg>
           <p class="popover-header">${totalHeader}</p>
@@ -105,7 +105,7 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
       historicPopOver.style.setProperty('--y', `${historicY}px`);
       historicPopOver.innerHTML = `
         <div class="popover-legend">
-          <svg width="30" height="13" viewBox="0 0 30 13" alt="">
+          <svg width="30" height="13" viewBox="0 0 30 13" aria-hidden="true">
             <line x1="0" y1="7" x2="30" y2="7" class="historic" />
           </svg>
           <p class="popover-header">${historicHeader}</p>

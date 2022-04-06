@@ -4,7 +4,7 @@
   </div>
 
   <div class="popover-container">
-    <svg id="snowpack-graph" width="365" height="175" viewBox="0 0 365 175" alt="">
+    <svg id="snowpack-graph" width="365" height="175" viewBox="0 0 365 175" aria-hidden="true">
       <line x1="0" y1="145" x2="365" y2="145" stroke-width="1" />
   
       <line x1="31" y1="0" x2="31" y2="145" stroke-width="1" />
@@ -28,7 +28,7 @@
 
     <div id="snowpack-historical-peak-swe" tabindex="0" class="popover-content">
       <div class="popover-legend">
-        <svg width="13" height="13" viewBox="0 0 10 10" alt="">
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
           <circle r="4" cx="5" cy="5" class="peak" />
         </svg>
         <slot name="historical-peak-swe-heading"></slot>
@@ -38,7 +38,7 @@
 
     <div id="snowpack-current-swe" tabindex="0" class="popover-content">
       <div class="popover-legend">
-        <svg width="26" height="13" viewBox="0 0 26 13" alt="">
+        <svg width="26" height="13" viewBox="0 0 26 13" aria-hidden="true">
           <line x1="0" y1="7" x2="26" y2="7" stroke-linecap="round" class="current" />
         </svg>
         <slot name="current-swe-heading"></slot>
