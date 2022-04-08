@@ -33,27 +33,21 @@
             <h4 slot="heading">Major reservoir levels</h4>
             <p slot="description">Reservoirs get us through the dry months</p>
 
-            <h5 slot="capacity-taf-heading">Total capacity</h5>
-            <p slot="capacity-taf-stats">
-                <span id="capacity-taf"></span> 
-                thousands of acre feet (TAF)
-            </p>
-
-            <h5 slot="historical-taf-heading">Average level historically</h5>
-            <p slot="historical-taf-stats">
-                <span id="historical-taf"></span> 
-                thousands of acre feet (TAF)
-            </p>
-
-            <h5 slot="current-taf-heading">Current level</h5>
-            <p slot="current-taf-stats">
-                <span id="current-taf"></span> 
-                thousands of acre feet (TAF)
-            </p>
             <p slot="current-level">
                 <span id="current-percentage" class="data-viz-pct"></span><br />
                 of average levels
             </p>
+
+            <table slot="table-data" id="reservoir-data-table">
+                <caption>A caption for this data.</caption>
+                <thead>
+                    <tr>
+                        <th id="capacity-taf-heading">Total capacity</th>
+                        <th id="historical-taf-heading">Average level historically</th>
+                        <th id="current-taf-heading">Current level</th>
+                    </tr>
+                </thead>
+            </table>
 
             <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
             <p slot="more-info" class="data-viz-more">

@@ -39,22 +39,23 @@ const renderReservoirLevels = function (html) {
     // Get the locale for translating number display, if needed. Commas, decimals, etc.
     const locale = $("drought-reservoir-levels").data('locale') || "en-US";
 
+    const unit = $("drought-reservoir-levels").data('unit') || "thousands of acre feet (TAF)";
+
     // Set data values on the component.
     $("drought-reservoir-levels")
       .attr("data-current-taf", currentTAF)
       .attr("data-historical-taf", historicalTAF)
-      .attr("data-capacity-taf", capacityTAF)
+      .attr("data-capacity-taf", capacityTAF);
+
+    $('#reservoir-data-table').append(`
+      <tr id="reservoir-data">
+        <td class="reservoir-capacity">${capacityTAF.toLocaleString(locale)} ${unit}</td>
+        <td class="reservoir-historic">${historicalTAF.toLocaleString(locale)} ${unit}</td>
+        <td class="reservoir-current">${currentTAF.toLocaleString(locale)} ${unit}</td>
+      </tr>
+    `);
 
     // If these placeholders are present within the provided mark-up, fill them with real values.
-    if ($("#current-taf").length) {
-      $("#current-taf").text(currentTAF.toLocaleString(locale));
-    }
-    if ($("#historical-taf").length) {
-      $("#historical-taf").text(historicalTAF.toLocaleString(locale));
-    }
-    if ($("#capacity-taf").length) {
-      $("#capacity-taf").text(capacityTAF.toLocaleString(locale));
-    }
     if ($("#current-percentage").length) {
       $("#current-percentage").text(`${currentPercentage}%`);
     }
