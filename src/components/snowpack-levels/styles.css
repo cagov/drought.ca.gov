@@ -2,6 +2,10 @@
   color: #B71234;
 }
 
+#snowpack-graph {
+  display: block;
+}
+
 line {
   stroke: #E1E0E3;
 }

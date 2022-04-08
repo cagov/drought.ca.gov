@@ -11,6 +11,8 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
     const minX = 40;
     const gutterX = 20;
     const startX = minX + gutterX;
+    const fullWidth = 730;
+    const fullHeight = 340;
     const barWidth = 20;
     const barGapX = 105;
     const peakY = 45;
@@ -22,6 +24,9 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
     const monthHeader = table.querySelector('#precip-month-header').textContent;
     const totalHeader = table.querySelector('#precip-total-header').textContent;
     const historicHeader = table.querySelector('#precip-historic-header').textContent;
+
+    const locale = this.dataset.locale || 'en-US';
+    const unit = this.dataset.unit || 'inches';
 
     const rows = table.querySelectorAll('tbody tr');
     const rowsData = [...rows].reduce((bucket, row) => {
@@ -43,6 +48,10 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
 
     const container = this.shadowRoot.querySelector('.popover-container');
     const graph = this.shadowRoot.querySelector('#precipitation-graph');
+
+    const unitLabel = this.shadowRoot.querySelector('#precipitation-unit');
+    unitLabel.innerHTML = unit;
+
     const historicPoints = [];
     const elementSets = [];
 
@@ -82,36 +91,32 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
       historicCircleHoverTarget.setAttribute('cy', historicY);
       historicCircleHoverTarget.setAttribute('r', '12');
       historicCircleHoverTarget.classList.add('historic-point-hover');
-      
-      let currentPopOver = document.createElement('div');
-      currentPopOver.setAttribute('tabindex', '0');
-      currentPopOver.classList.add('popover-content');
-      currentPopOver.style.setProperty('--x', `${centerBarX + 15}px`);
-      currentPopOver.style.setProperty('--y', `${barTopY}px`);
-      currentPopOver.innerHTML = `
-        <div class="popover-legend">
+
+      let currentPopOver = this.buildPopOverElement({
+        container,
+        x: `${((centerBarX + 15) / fullWidth) * 100}%`,
+        y: `${(barTopY / fullHeight) * 100}%`,
+        content: row.totalText,
+        legendText: totalHeader,
+        legendSvg: `
           <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
             <rect x="0" y="0" width="10" height="10" />
           </svg>
-          <p class="popover-header">${totalHeader}</p>
-        </div>
-        <p class="popover-stat">${row.totalText}</p>
-      `;
+        `
+      });
 
-      let historicPopOver = document.createElement('div');
-      historicPopOver.setAttribute('tabindex', '0');
-      historicPopOver.classList.add('popover-content');
-      historicPopOver.style.setProperty('--x', `${centerBarX + 15}px`);
-      historicPopOver.style.setProperty('--y', `${historicY}px`);
-      historicPopOver.innerHTML = `
-        <div class="popover-legend">
+      let historicPopOver = this.buildPopOverElement({
+        container,
+        x: `${((centerBarX + 15) / fullWidth) * 100}%`,
+        y: `${(historicY / fullHeight) * 100}%`,
+        content: row.historicText,
+        legendText: historicHeader,
+        legendSvg: `
           <svg width="30" height="13" viewBox="0 0 30 13" aria-hidden="true">
             <line x1="0" y1="7" x2="30" y2="7" class="historic" />
           </svg>
-          <p class="popover-header">${historicHeader}</p>
-        </div>
-        <p class="popover-stat">${row.historicText}</p>
-      `;
+        `
+      });
 
       elementSets.push({
         bar,
@@ -138,9 +143,8 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
     elementSets.forEach((set) => {
       graph.append(set.historicCircle);
       graph.append(set.historicCircleHoverTarget);
-      container.append(set.historicPopOver);
-      container.append(set.currentPopOver);
       this.setUpPopOvers(set.currentPopOver, set.bar);
+      this.setUpPopOvers(set.currentPopOver, set.label);
       this.setUpPopOvers(set.historicPopOver, set.historicCircleHoverTarget);
     });
   }

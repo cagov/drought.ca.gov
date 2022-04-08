@@ -68,26 +68,25 @@
             <h4 slot="heading">Statewide snowpack levels</h4>
             <p slot="description">Snow melt feeds our reservoirs &amp; rivers</p>
 
-            <h5 slot="historical-peak-swe-heading">
-                Average peak snow water equivalent<br /> from 1991–2020
-            </h5>
-            <p slot="historical-peak-swe-stats">
-                <span id="historical-peak-swe"></span> 
-                inches
-            </p>
-
-            <h5 slot="current-swe-heading">
-                Current snow water equivalent
-            </h5>
-            <p slot="current-swe-stats">
-                <span id="current-swe"></span> 
-                inches
-            </p>
-
             <p slot="current-level" class="snowpack-current-level">
                 <span id="current-percentage" class="data-viz-pct"></span>
                 <span>of average peak snowpack</span>
             </p>
+
+            <table slot="table-data" id="snowpack-data-table">
+                <caption>A caption for this data.</caption>
+                <thead>
+                    <tr>
+                        <th id="snowpack-historic-header">
+                            Average peak snow water equivalent<br /> 
+                            from 1991–2020
+                        </th>
+                        <th id="snowpack-current-header">
+                            Current snow water equivalent
+                        </th>
+                    </tr>
+                </thead>
+            </table>
 
             <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
             <p slot="more-info" class="data-viz-more">
@@ -103,7 +102,8 @@
         <h4 slot="heading">Statewide precipitation</h4>
         <p slot="description">Statewide precipitation levels over the last 6 months</p>
 
-        <table slot="precip-data" id="precip-data-table">
+        <table slot="table-data" id="precip-data-table">
+            <caption>A caption for this data.</caption>
             <thead>
                 <tr>
                     <th id="precip-month-header">Month</th>
@@ -113,7 +113,6 @@
             </thead>
         </table>
         
-
         <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
         <p slot="more-info" class="data-viz-more">
             <a href="#">More about precipitation</a>

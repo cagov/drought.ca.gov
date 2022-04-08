@@ -1,4 +1,4 @@
-.container {
+section {
   padding: 1rem;
   border: solid 1px lightgray;
 }
@@ -59,6 +59,9 @@ footer {
 .popover-revealed {
   width: max-content;
   height: max-content;
+  left: var(--x);
+  top: var(--y);
+  transform: translateY(-50%);
 }
 
 .popover-legend {
@@ -79,4 +82,17 @@ footer {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+.popover-revealed p {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.popover-header {
+  margin: 0;
+}
+
+.popover-stat {
+  margin: 0 0 .5rem 0;
 }

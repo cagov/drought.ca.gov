@@ -10,11 +10,16 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
 
   connectedCallback() {
     const graph = this.shadowRoot.querySelector('#snowpack-graph');
+    const container = this.shadowRoot.querySelector('.popover-container');
+    const locale = this.dataset.locale || 'en-US';
 
     // peakX/peakY are the X/Y values on the graph for the historic peak. 
     const peakY = 20;
     const peakX = 182; // X value for April 1st.
 
+    // width/height of the SVG viewbox.
+    const fullWidth = 365;
+    const fullHeight = 175;
 
     // floorY is the Y value for the graph's baseline. Like y = 0 for our math.
     const floorY = 145;
@@ -72,6 +77,22 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
       return bucket;
     }, []);
 
+    // Get the starting year for this dataset.
+    const startYear = (data.swe.length)
+      ? new Date(Math.min(...data.swe.map(entry => new Date(entry.swcDate)))).getFullYear()
+      : new Date().getFullYear();
+
+    // Write out the translated labels for each month.
+    [11, 1, 3, 5, 7, 9].forEach((month, i) => {
+      let text = this.shadowRoot.querySelector(`#snowpack-month-${month}`);
+      let year = month === 11 ? startYear : startYear + 1;
+      let dateOptions = i < 2
+        ? { month: 'short', year: '2-digit' }
+        : { month: 'short' }
+    
+      text.innerHTML = new Date(`${year}-${month}-02`).toLocaleDateString(locale, dateOptions);
+    });
+
     // Plot the area of historic levels.
     const avgPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
     avgPath.setAttribute('d', `M0,${floorY} ${avgPathD.join(' ')} z`);
@@ -101,9 +122,21 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     currentCircleHoverTarget.setAttribute('r', '12');
     currentCircleHoverTarget.setAttribute('id', 'current-terminus-hover-target');
     graph.append(currentCircleHoverTarget);
-    const currentPopOver = this.shadowRoot.querySelector('#snowpack-current-swe');
-    currentPopOver.style.setProperty('--x', `${currentCircleX + 15}px`);
-    currentPopOver.style.setProperty('--y', `${currentCircleY}px`);
+
+    const currentLegendText = this.querySelector('#snowpack-current-header').innerHTML;
+    const currentContent = this.querySelector('.snowpack-current').innerHTML;
+    const currentPopOver = this.buildPopOverElement({
+      container,
+      x: `${((currentCircleX + 15) / fullWidth) * 100}%`,
+      y: `${((currentCircleY) / fullHeight) * 100}%`,
+      content: currentContent,
+      legendText: currentLegendText,
+      legendSvg: `
+        <svg width="26" height="13" viewBox="0 0 26 13" aria-hidden="true">
+          <line x1="0" y1="7" x2="26" y2="7" stroke-linecap="round" class="current" />
+        </svg>
+      `
+    });
     this.setUpPopOvers(currentPopOver, currentCircleHoverTarget);
 
     // Add the "historic peak" text next to the above circle.
@@ -131,9 +164,21 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     peakCircleHoverTarget.setAttribute('id', 'historic-peak-hover-target');
     graph.append(peakCircleHoverTarget);
 
-    const historicPeakPopOver = this.shadowRoot.querySelector('#snowpack-historical-peak-swe');
-    historicPeakPopOver.style.setProperty('--x', `${peakX + 15}px`);
-    historicPeakPopOver.style.setProperty('--y', `${peakY}px`);
+    // Build the pop-over for historic peak.
+    const historicLegendText = this.querySelector('#snowpack-historic-header').innerHTML;
+    const historicContent = this.querySelector('.snowpack-historic').innerHTML;
+    const historicPeakPopOver = this.buildPopOverElement({
+      container,
+      x: `${((peakX + 15) / fullWidth) * 100}%`,
+      y: `${(peakY / fullHeight) * 100}%`,
+      content: historicContent,
+      legendText: historicLegendText,
+      legendSvg: `
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
+          <circle r="4" cx="5" cy="5" class="peak" />
+        </svg>
+      `
+    });
     this.setUpPopOvers(historicPeakPopOver, peakCircleHoverTarget);
   }
 }
