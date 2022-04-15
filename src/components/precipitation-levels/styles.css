@@ -1,3 +1,9 @@
+#precipitation-graph {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0 .5rem 0;
+}
+
 line {
   stroke: #E1E0E3;
 }

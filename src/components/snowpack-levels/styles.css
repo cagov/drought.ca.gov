@@ -1,9 +1,12 @@
 .snowpack-data-viz-overall {
   color: #B71234;
+  margin: .5rem 0 1rem 0;
 }
 
 #snowpack-graph {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 line {

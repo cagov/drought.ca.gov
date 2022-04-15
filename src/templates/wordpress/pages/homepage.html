@@ -26,93 +26,143 @@
         <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><g><path d="M0,0h24v24H0V0z" fill="none"></path></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"></polygon></g></svg>
     </a></div>
 
-<div class="wp-block-columns">
-    <div class="wp-block-column">
+<section class="tracking-conditions">
+    <header>
+        <h2>Tracking conditions</h2>
+        <p><a href="#">See current conditions</a></p>
+    </header>
 
-        <drought-reservoir-levels>
-            <h4 slot="heading">Major reservoir levels</h4>
-            <p slot="description">Reservoirs get us through the dry months</p>
+    <div class="tracking-conditions-grid">
 
-            <p slot="current-level">
-                <span id="current-percentage" class="data-viz-pct"></span><br />
-                of average levels
-            </p>
-
-            <table slot="table-data" id="reservoir-data-table">
-                <caption>A caption for this data.</caption>
-                <thead>
-                    <tr>
-                        <th id="capacity-taf-heading">Total capacity</th>
-                        <th id="historical-taf-heading">Average level historically</th>
-                        <th id="current-taf-heading">Current level</th>
-                    </tr>
-                </thead>
-            </table>
-
-            <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
-            <p slot="more-info" class="data-viz-more">
-                <a href="#">More about reservoirs</a>
-            </p>
-        </drought-reservoir-levels>
-
-    </div>
-    <div class="wp-block-column">
-
-        <drought-snowpack-levels>
-            <h4 slot="heading">Statewide snowpack levels</h4>
-            <p slot="description">Snow melt feeds our reservoirs &amp; rivers</p>
-
-            <p slot="current-level" class="snowpack-current-level">
-                <span id="current-percentage" class="data-viz-pct"></span>
-                <span>of average peak snowpack</span>
-            </p>
-
-            <table slot="table-data" id="snowpack-data-table">
-                <caption>A caption for this data.</caption>
-                <thead>
-                    <tr>
-                        <th id="snowpack-historic-header">
-                            Average peak snow water equivalent<br /> 
-                            from 1991–2020
-                        </th>
-                        <th id="snowpack-current-header">
-                            Current snow water equivalent
-                        </th>
-                    </tr>
-                </thead>
-            </table>
-
-            <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
-            <p slot="more-info" class="data-viz-more">
-                <a href="#">More about snowpack levels</a>
-            </p>
-        </drought-snowpack-levels>
-
-    </div>
-</div>
-
-<div>
-    <drought-precipitation-levels>
-        <h4 slot="heading">Statewide precipitation</h4>
-        <p slot="description">Statewide precipitation levels over the last 6 months</p>
-
-        <table slot="table-data" id="precip-data-table">
-            <caption>A caption for this data.</caption>
-            <thead>
-                <tr>
-                    <th id="precip-month-header">Month</th>
-                    <th id="precip-total-header">Statewide precipitation</th>
-                    <th id="precip-historic-header">Historic average</th>
-                </tr>
-            </thead>
-        </table>
+        <img loading="lazy" class="tracking-conditions-banner grid-span-3" src="https://drought.ca.gov/media/2022/02/drought2b.webp" alt="A California hillside covered in scant snow. Snowpack is an important backup resource of water for the state.">
         
-        <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
-        <p slot="more-info" class="data-viz-more">
-            <a href="#">More about precipitation</a>
-        </p>
-    </drought-precipitation-levels>
-</div>
+        <div class="tracking-conditions-intro">
+            <h3>Do we have enough water stored?</h3>
+            <p>In drier seasons, we rely on backup sources of water. These include water in reservoirs and melted snowpack. But we are now facing a historic level of dryness that has gone on for 3 years. And it's only getting worse: January and February 2022 were the driest winter months in over 100 years.</p>
+        </div>
+
+        <div class="data-viz">
+            <h4>
+                Major reservoir levels
+            </h4>
+            <div class="data-viz-desc">
+                <p>
+                    Reservoirs get us through the dry months
+                </p>
+            </div>
+            <drought-reservoir-levels class="data-viz-placement">
+                <p slot="current-level">
+                    <span id="current-percentage" class="data-viz-pct"></span><br />
+                    of average levels
+                </p>
+                <table slot="table-data" id="reservoir-data-table">
+                    <caption>
+                        A caption for this data.
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th id="capacity-taf-heading">Total capacity</th>
+                            <th id="historical-taf-heading">Average level historically</th>
+                            <th id="current-taf-heading">Current level</th>
+                        </tr>
+                    </thead>
+                </table>
+            </drought-reservoir-levels>
+            <div class="data-viz-footer">
+                <p class="data-viz-freq">
+                    Updated daily
+                </p>
+                <p class="data-viz-more">
+                    <a href="#">
+                        More about reservoirs
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="data-viz">
+            <h4>
+                Statewide snowpack levels
+            </h4>
+            <div class="data-viz-desc">
+                <p>
+                    Snow melt feeds our reservoirs &amp; rivers
+                </p>
+            </div>
+            <drought-snowpack-levels>
+                <p slot="current-level" class="snowpack-current-level">
+                    <span id="current-percentage" class="data-viz-pct"></span>
+                    <span>of average peak snowpack</span>
+                </p>
+                <table slot="table-data" id="snowpack-data-table">
+                    <caption>
+                        A caption for this data.
+                    </caption>
+                    <thead>
+                        <tr>
+                            <th id="snowpack-historic-header">
+                                Average peak snow water equivalent<br /> 
+                                from 1991–2020
+                            </th>
+                            <th id="snowpack-current-header">
+                                Current snow water equivalent
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </drought-snowpack-levels>
+            <div class="data-viz-footer">
+                <p class="data-viz-freq">
+                    Updated daily
+                </p>
+                <p class="data-viz-more">
+                    <a href="#">
+                        More about snowpack levels
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="tracking-conditions-intro">
+            <h3>Preparing for a new, drier normal</h3>
+            <p>Weather extremes brought on by climate change have reduced our water supply. We are in a third year of drought and need to use less water.</p>
+        </div>
+
+        <div class="data-viz grid-span-2">
+            <h4>
+                Statewide precipitation
+            </h4>
+            <div class="data-viz-desc">
+                <p>
+                    Statewide precipitation levels over the last 6 months
+                </p>
+            </div>
+            <drought-precipitation-levels>
+                <table slot="table-data" id="precip-data-table">
+                    <caption>A caption for this data.</caption>
+                    <thead>
+                        <tr>
+                            <th id="precip-month-header">Month</th>
+                            <th id="precip-total-header">Statewide precipitation</th>
+                            <th id="precip-historic-header">Historic average</th>
+                        </tr>
+                    </thead>
+                </table>
+            </drought-precipitation-levels>
+            <div class="data-viz-footer">
+                <p class="data-viz-freq">
+                    Updated monthly
+                </p>
+                <p class="data-viz-more">
+                    <a href="#">
+                        More about precipitation
+                    </a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <div class="wp-block-columns">
 <div class="wp-block-column">

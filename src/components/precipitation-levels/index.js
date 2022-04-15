@@ -52,6 +52,7 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
     const unitLabel = this.shadowRoot.querySelector('#precipitation-unit');
     unitLabel.innerHTML = unit;
 
+    /*
     const legendText = this.dataset.historicLegend || 'Historic Average';
     const description = this.shadowRoot.querySelector('.description');
     const legend = document.createElement('div');
@@ -63,6 +64,7 @@ class DroughtPrecipitationLevels extends DroughtDataVizBase {
       <p class="popover-header">${legendText}</p>
     `
     description.append(legend);
+    */
 
     const historicPoints = [];
     const elementSets = [];

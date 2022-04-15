@@ -1,12 +1,11 @@
 import sharedCss from './styles.css';
-import sharedHtml from './template.html';
 
 class DroughtDataVizBase extends window.HTMLElement {
   constructor(html, css) {
     super();
 
     let template = document.createElement('template');
-    template.innerHTML = sharedHtml;
+    template.innerHTML = html;
 
     let style = document.createElement('style');
     style.append(sharedCss);
@@ -14,8 +13,7 @@ class DroughtDataVizBase extends window.HTMLElement {
 
     this.attachShadow({mode: "open"});
     this.shadowRoot.append(template.content.cloneNode(true));
-
-    this.shadowRoot.querySelector('.component-body').innerHTML = html;
+    
     this.shadowRoot.querySelector('style').append(css); 
   }
 

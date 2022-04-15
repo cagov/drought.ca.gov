@@ -70,6 +70,8 @@ const stats = Object.keys(statsByMonth)
   // Take the most recent seven months off the top.
   .slice(0, 7);
 
+// console.log(stats)
+
 // Render live-data-based values into the component via 11ty transform.
 const renderPrecipitationLevels = function (html) {
   // Find all instances of the component on the page.
