@@ -14,7 +14,32 @@ drought-snowpack-levels:defined .snowpack-current-level {
   margin: 0;
 }
 
+.full-bleed {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+}
+.full-bleed-content-area {
+  padding: 0 16px;
+  background: transparent;
+}
+@media screen and (min-width: 1024px) {
+  .full-bleed-content-area {
+    max-width: 1176px;
+    margin: 0 auto;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
 .tracking-conditions {
+  padding: 3rem 0;
+  background-color: #F6EAE5;
+  &-content {
+    padding: 0 1rem;
+    display: flex;
+    background: transparent;
+  }
   header {
     display: flex;
     flex-direction: row;
@@ -50,7 +75,6 @@ drought-snowpack-levels:defined .snowpack-current-level {
 
 .data-viz {
   padding: 1rem;
-  border: solid 1px lightgray;
   display: flex;
   flex-direction: column;
   row-gap: .5rem;
