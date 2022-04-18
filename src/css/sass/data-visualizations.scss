@@ -138,6 +138,9 @@ body {
   &-spotlight {
     padding: 1.5rem;
     background-color: #F2E1DA;
+    figcaption {
+      color: #6C6B77;
+    }
     h3, h4 {
       margin-top: 0;
     }
@@ -182,6 +185,30 @@ body {
       color: #B71234;
     }
   }
+}
+
+.tip-box {
+  background-color: #F9F9FA;
+  img { 
+    width: 100%;
+    vertical-align: middle;
+  }
+  &-content {
+    padding: 1rem;
+    a {
+      text-decoration: none;
+    }
+    h4 {
+      margin-top: 0;
+    }
+  }
+}
+
+.heading-with-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .button-link {
