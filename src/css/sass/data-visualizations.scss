@@ -18,6 +18,7 @@ drought-snowpack-levels:defined .snowpack-current-level {
   margin-left: calc(50% - 50vw);
   width: 100vw;
 }
+
 .full-bleed-content-area {
   padding: 0 16px;
   background: transparent;
@@ -28,12 +29,19 @@ drought-snowpack-levels:defined .snowpack-current-level {
     margin: 0 auto;
   }
 }
+
 body {
   overflow-x: hidden;
 }
 
-.tracking-conditions {
+.section-block {
   padding: 3rem 0;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.tracking-conditions {
   background-color: #F6EAE5;
   &-content {
     padding: 0 1rem;
@@ -89,7 +97,7 @@ body {
     justify-content: space-between;
     font-size: .95rem;
   }
-  p, h4 {
+  p, h3, h4 {
     margin: 0;
   }
   &-placement {
@@ -124,14 +132,13 @@ body {
 }
 
 .helping-people {
-  padding: 3rem 0;
-  h3 {
+  h2 {
     margin-top: 0;
   }
   &-spotlight {
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #F2E1DA;
-    h4, h5 {
+    h3, h4 {
       margin-top: 0;
     }
     figure {
@@ -145,8 +152,34 @@ body {
     }
   }
   &-actions {
-    h5 {
+    h4 {
       margin-top: 0;
+    }
+  }
+}
+
+.visit-save-our-water {
+  padding: 1.5rem;
+  background: linear-gradient(96deg, #FBF0EA 25%, #EEC9B9 80%);
+  h3 {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.do-your-part {
+  border: solid 1px #E1E0E3;
+  .data-viz-placement {
+    flex-direction: column;
+    justify-content: center;
+    .data-viz-stat {
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+    .data-viz-pct {
+      color: #B71234;
     }
   }
 }
@@ -156,7 +189,6 @@ body {
   border: solid 1px #4A1106;
   color: #4A1106;
   padding: .5rem .75rem;
-  margin: .5rem 0;
   display: inline-block;
   border-radius: .25rem;
 }
