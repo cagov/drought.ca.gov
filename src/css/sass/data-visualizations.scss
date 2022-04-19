@@ -80,6 +80,14 @@ body {
   }
 }
 
+.spei-map-img {
+  width: 100%;
+  transform: scale(.8, 1);
+  &-box {
+    width: 100%;
+  }
+}
+
 .data-viz {
   padding: 1rem;
   display: flex;
