@@ -49,7 +49,7 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
     const historicalPopOver = this.buildPopOverElement({
       container,
       x: `${((fullWidth - 8) / fullWidth) * 100}%`,
-      y: `29%`,
+      y: `23%`,
       content: historicalContent,
       legendText: historicalLegendText,
       legendSvg: `

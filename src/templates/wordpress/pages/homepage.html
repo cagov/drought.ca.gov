@@ -148,7 +148,61 @@
                         FPO: This map shows rain and temperature effects on moisture on a 12 month Standardized Precipitation-Evapotranspiration Index (SPEI)
                     </p>
                 </div>
-                <div class="data-viz-placement">
+                <div class="spei-map-data-viz data-viz-placement">
+                    <svg width="200" height="222" viewBox="0 0 200 222" aria-hidden="true">
+                        <style>
+                            text {
+                                font-size: .9rem;
+                            }
+                        </style>
+                        <g stroke="#898891" stroke-width="1">
+                            <rect x="1" y="1" width="28" height="20" fill="#260072" />
+                            <rect x="1" y="21" width="28" height="20" fill="#3C00FE" />
+                            <line x1="40" y1="3" x2="40" y2="39" />
+                            <text x="50" y="22" dominant-baseline="middle" text-anchor="start">
+                                Extremely wet
+                            </text>
+
+                            <rect x="1" y="41" width="28" height="20" fill="#01B9FF" />
+                            <line x1="40" y1="43" x2="40" y2="59" />
+                            <text x="50" y="52" dominant-baseline="middle" text-anchor="start">
+                                Severely wet
+                            </text>
+    
+                            <rect x="1" y="61" width="28" height="20" fill="#6EFFD8" />
+                            <line x1="40" y1="63" x2="40" y2="79" />
+                            <text x="50" y="72" dominant-baseline="middle" text-anchor="start">
+                                Moderately wet
+                            </text>
+    
+                            <rect x="1" y="81" width="28" height="20" fill="#00FF19" />
+                            <rect x="1" y="101" width="28" height="20" fill="#FFFFFF" />
+                            <rect x="1" y="121" width="28" height="20" fill="#DEFF00" />
+                            <line x1="40" y1="83" x2="40" y2="139" />
+                            <text x="50" y="112" dominant-baseline="middle" text-anchor="start">
+                                Near normal
+                            </text>
+    
+                            <rect x="1" y="141" width="28" height="20" fill="#FCD800" />
+                            <line x1="40" y1="143" x2="40" y2="159" />
+                            <text x="50" y="152" dominant-baseline="middle" text-anchor="start">
+                                Moderate drought
+                            </text>
+    
+                            <rect x="1" y="161" width="28" height="20" fill="#FF8601" />
+                            <line x1="40" y1="163" x2="40" y2="179" />
+                            <text x="50" y="172" dominant-baseline="middle" text-anchor="start">
+                                Severe drought
+                            </text>
+    
+                            <rect x="1" y="181" width="28" height="20" fill="#FE0000" />
+                            <rect x="1" y="201" width="28" height="20" fill="#B40001" />
+                            <line x1="40" y1="183" x2="40" y2="219" />
+                            <text x="50" y="202" dominant-baseline="middle" text-anchor="start">
+                                Extreme drought
+                            </text>
+                        </g>
+                    </svg>
                     <div class="spei-map-img-box">
                         <img loading="lazy" class="spei-map-img" src="/assets/img/WGS84.png" alt="This map of California illustrates severe drought conditions across the state.">
                     </div>

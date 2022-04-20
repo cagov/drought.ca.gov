@@ -88,11 +88,22 @@ body {
   }
 }
 
-.spei-map-img {
-  width: 100%;
-  transform: scale(.8, 1);
-  &-box {
+.spei-map {
+  &-data-viz {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    svg {
+      width: auto;
+      height: 70%;
+    }
+  }
+  &-img {
     width: 100%;
+    transform: scale(.8, 1);
+    &-box {
+      width: 100%;
+    }
   }
 }
 
