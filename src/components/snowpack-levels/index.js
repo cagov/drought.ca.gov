@@ -89,8 +89,11 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
       let dateOptions = i < 2
         ? { month: 'short', year: '2-digit' }
         : { month: 'short' }
-    
-      text.innerHTML = new Date(`${year}-${month}-02`).toLocaleDateString(locale, dateOptions);
+
+      let monthText = String(month).padStart(2, '0');
+      let dateText = new Date(`${year}-${monthText}-02`).toLocaleDateString(locale, dateOptions);
+
+      text.innerHTML = dateText;
     });
 
     // Plot the area of historic levels.
