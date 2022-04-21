@@ -93,17 +93,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    svg {
-      width: auto;
-      height: 70%;
-    }
+    justify-content: center;
   }
   &-img {
-    width: 100%;
-    transform: scale(.8, 1);
-    &-box {
-      width: 100%;
-    }
+    max-width: 60%;
   }
 }
 

@@ -8,6 +8,8 @@ const renderReservoirLevels = require("./src/components/reservoir-levels/render"
 const renderSnowpackLevels = require("./src/components/snowpack-levels/render");
 const renderPrecipitationLevels = require("./src/components/precipitation-levels/render");
 
+const transformDroughtMap = require("./src/js/transformDroughtMap");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
     processors: {
@@ -41,6 +43,11 @@ module.exports = function (eleventyConfig) {
       }
     }
   });
+
+  eleventyConfig.on('beforeBuild', async () => { 
+    await transformDroughtMap();
+  });
+  eleventyConfig.ignores.add('src/assets/img/WGS84.sized.png');
 
   eleventyConfig.setBrowserSyncConfig({
     watch: true,
