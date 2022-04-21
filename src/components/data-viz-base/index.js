@@ -17,12 +17,13 @@ class DroughtDataVizBase extends window.HTMLElement {
     this.shadowRoot.querySelector('style').append(css); 
   }
 
-  buildPopOverElement({ container, x, y, legendSvg, legendText, content }) {
+  buildPopOverElement({ container, x, y, legendSvg, legendText, content, xOffsetM = "0%" }) {
     const popOver = document.createElement('div');
     popOver.setAttribute('tabindex', '0');
     popOver.classList.add('popover-content');
     popOver.style.setProperty('--x', x);
     popOver.style.setProperty('--y', y);
+    popOver.style.setProperty('--x-offset-m', xOffsetM);
     popOver.innerHTML = `
       <div class="popover-legend">
         ${legendSvg}

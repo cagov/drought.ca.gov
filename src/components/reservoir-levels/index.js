@@ -31,6 +31,7 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
       container,
       x: `${((fullWidth - 28) / fullWidth) * 100}%`,
       y: `70%`,
+      xOffsetM: '65%',
       content: waterContent,
       legendText: waterLegendText,
       legendSvg: `
@@ -50,6 +51,7 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
       container,
       x: `${((fullWidth - 8) / fullWidth) * 100}%`,
       y: `23%`,
+      xOffsetM: '65%',
       content: historicalContent,
       legendText: historicalLegendText,
       legendSvg: `
@@ -71,6 +73,7 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
       container,
       x: `${((fullWidth - 8) / fullWidth) * 100}%`,
       y: `50%`,
+      xOffsetM: '65%',
       content: basinContent,
       legendText: basinLegendText,
       legendSvg: `
