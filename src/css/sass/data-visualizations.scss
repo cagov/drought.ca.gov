@@ -127,6 +127,7 @@ body {
     align-items: center;
     justify-content: space-between;
     font-size: .95rem;
+    column-gap: 1rem;
   }
   p, h3, h4 {
     margin: 0;
@@ -138,6 +139,7 @@ body {
   }
   &-freq {
     color: #6B6C77;
+    max-width: 60%;
   }
 }
 
