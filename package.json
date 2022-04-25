@@ -10,6 +10,7 @@
     "watch:dev": "cross-env NODE_ENV=development eleventy --serve --incremental",
     "start": "npm run watch",
     "dev": "npm run watch:dev",
+    "process:spei-map:img": "node ./src/components/spei-map/transformDroughtMap.js",
     "git:merge:dev-into-main": "./src/sh/git-merge-development-into-main.sh",
     "git:merge:main-into-dev": "./src/sh/git-merge-main-into-development.sh"
   },
