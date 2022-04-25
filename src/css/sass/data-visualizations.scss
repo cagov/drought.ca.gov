@@ -98,14 +98,12 @@ body {
   }
 }
 
-.spei-map {
-  &-data-viz {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  &-img {
+drought-spei-map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  .spei-map-img {
     max-width: 60%;
   }
 }
