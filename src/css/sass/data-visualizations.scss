@@ -284,4 +284,8 @@ drought-spei-map {
   padding: .5rem .75rem;
   display: inline-block;
   border-radius: .25rem;
+  &:hover {
+    color: #230803;
+    border-color: #230803;
+  }
 }

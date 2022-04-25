@@ -1,77 +1,95 @@
-# Reservoir levels markup example
+# Reservoir levels data visualization
 
-Here's an example of the mark-up for the `drought-reservoir-levels` component. The focus here is on foundational progressive enhancement and complete translatability.
+This data visualization depicts current water storage level across major reservoirs, and compares that current level to historical average.
+
+The intent of this visualization is to show that we have far less "backup" water during dry months than before.
+
+These calculations are limited to the major reservoirs that were recommended by CDEC for this purpose. Specifically, we're looking at the following CDEC Station IDs.
+
+* SHA
+* ORO
+* BUL
+* FOL
+* CMN
+* CLE
+* WRS
+* SNL
+* CCH
+* CSI
+* CAS
+* DMV
+* NML
+* DNP
+* EXC
+* MIL
+* PNF
+
+## Code sample
+
+Here's how to add the mark-up to this 11ty-based site.
 
 ```html 
-<drought-reservoir-levels data-locale="en-US" data-current-taf="10531" data-historical-taf="16012" data-capacity-taf="22623">
-  <h4 slot="heading">Major reservoir levels</h4>
-  <p slot="description">Reservoirs get us through the dry months</p>
-
-  <h5 slot="capacity-taf-heading">Total capacity</h5>
-  <p slot="capacity-taf-stats">
-    <span id="capacity-taf"></span> 
-    thousands of acre feet (TAF)
-  </p>
-
-  <h5 slot="historical-taf-heading">Average level historically</h5>
-  <p slot="historical-taf-stats">
-    <span id="historical-taf"></span> 
-    thousands of acre feet (TAF)
-  </p>
-
-  <h5 slot="current-taf-heading">Current level</h5>
-  <p slot="current-taf-stats">
-    <span id="current-taf"></span> 
-    thousands of acre feet (TAF)
-  </p>
+<drought-reservoir-levels data-locale="en-US" data-unit="thousands of acre feet (TAF)" data-current-taf="11347" data-historical-taf="17613" data-capacity-taf="23623">
   <p slot="current-level">
-    <span id="current-percentage" class="data-viz-pct"></span><br />
-    of average levels
+    <span id="current-percentage" class="data-viz-pct"></span><br />of
+    average levels
   </p>
-
-  <p slot="update-frequency" class="data-viz-freq">Updated daily</p>
-  <p slot="more-info" class="data-viz-more">
-    <a href="#">More about reservoirs</a>
-  </p>
+  <table slot="table-data" id="reservoir-data-table">
+    <caption>
+      A caption for this data.
+    </caption>
+    <thead>
+      <tr>
+        <th id="capacity-taf-heading">Total capacity</th>
+        <th id="historical-taf-heading">Average level historically</th>
+        <th id="current-taf-heading">Current level</th>
+      </tr>
+    </thead>
+  </table>
 </drought-reservoir-levels>
 ```
 
-## Notes
+Some things to note.
 
-### Data attributes
+* 11ty will fill in the table rows via the `render.js` script in this folder.
+  * This `render.js` file is called from the `.eleventy.js` config file for 11ty.
+* `render.js` will also fill the value for `<span id="current-percentage">`.
+* The table row data comes from the files in the `majorReservoirConditions.json` file, also in this folder.
+  * This data file is fetched via GitHub Action in `.github/workflows/fetch-drought-data.yml`.
+* `data-current-taf`, `data-historical-taf`, and `data-capacity-taf` are all required. These integers are used to calculate display of the SVG data visualization.
+  * `data-capacity-taf` is the total capacity of major reservoirs, in TAF (thousand acre feet).
+  * `data-historical-taf` is the historical average sum of water levels among major reservoirs, in TAF.
+  * `data-current-taf` is the sum of current water levels across major reservoirs, in TAF. 
+* The `data-locale` and `data-unit` attributes may be omitted for English; these are defaults. These attributes should be used for translating the visualization into other languages, if needed. 
+  * [See MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locale_identification_and_negotiation) for more info on possible values for `data-locale`.
 
-There are four data attributes on the custom element. 
+If 11ty needs to be replaced with another tool, here's an example of the full HTML mark-up that will be expected by the `<drought-reservoir-levels>` custom element.
 
-`data-locale` is optional. It's used to format the numbers for translated display. And it's only used in 11ty at this time. Defaults to `en-US`. [See MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locale_identification_and_negotiation) for more info on possible values.
-
-`data-current-taf`, `data-historical-taf`, and `data-capacity-taf` are all required. These integers are used to calculate display of the SVG data visualization.
-
-`data-capacity-taf` is the total capacity of major reservoirs, in TAF (thousand acre feet).
-
-`data-historical-taf` is the historical average sum of water levels among major reservoirs, in TAF.
-
-`data-current-taf` is the sum of current water levels across major reservoirs, in TAF. 
-
-### Placeholders
-
-There are four placeholders for displaying data-driven values: 
-
-* `<span id="capacity-taf"></span>`
-* `<span id="historical-taf"></span>`
-* `<span id="current-taf"></span>`
-* `<span id="current-percentage"></span>`
-
-These may be left blank in Wordpress. 11ty will fill these values upon rendering the pages.
-
-Otherwise, these `<span>` elements are not needed if using another platform. It's purely the purview of the component consumer.
-
-### Slots
-
-All of the `slot` elements are required, and should be self-explanatory based on their contents in the sample markup above.
-
-Note that you can slot any type of heading into the heading slots. `h4` and `h5` are not required; use what's right for your document's hierarchy. Just know that you may need to provide minor styling tweaks.
-
-### Utility classes
-
-Since we're using the ShadowDOM, know that all of the markup in the sample above is YOUR content. You may need to style it yourself in some scenarios. A few utility classes have been provided on the Drought site for this use: `data-viz-pct`, `data-viz-freq`, and `data-viz-more`.
+```html 
+<drought-reservoir-levels data-locale="en-US" data-unit="thousands of acre feet (TAF)" data-current-taf="11347" data-historical-taf="17613" data-capacity-taf="23623">
+  <p slot="current-level">
+    <span id="current-percentage" class="data-viz-pct">64%</span><br />of
+    average levels
+  </p>
+  <table slot="table-data" id="reservoir-data-table">
+    <caption>
+      A caption for this data.
+    </caption>
+    <thead>
+      <tr>
+        <th id="capacity-taf-heading">Total capacity</th>
+        <th id="historical-taf-heading">Average level historically</th>
+        <th id="current-taf-heading">Current level</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="reservoir-data">
+        <td class="reservoir-capacity">23,623 thousands of acre feet (TAF)</td>
+        <td class="reservoir-historic">17,613 thousands of acre feet (TAF)</td>
+        <td class="reservoir-current">11,347 thousands of acre feet (TAF)</td>
+      </tr>
+    </tbody>
+  </table>
+</drought-reservoir-levels>
+```
 
