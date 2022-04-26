@@ -1,0 +1,65 @@
+#precipitation-graph {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0 .5rem 0;
+}
+
+line {
+  stroke: #E1E0E3;
+}
+
+.y-label {
+  font-size: .9rem;
+}
+
+.x-label {
+  font-size: 1rem;
+}
+
+.bold-label {
+  font-weight: 700;
+}
+
+.monthly-bar, .popover-legend rect {
+  fill: #7F267C;
+}
+
+svg { 
+  display: block;
+}
+
+.historic {
+  stroke: black;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+.popover-revealed {
+  left: var(--x, 200px);
+  top: var(--y, 20px);
+  transform: translateY(-50%);
+}
+
+.popover-revealed p {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.popover-header {
+  margin: 0;
+}
+
+.popover-stat {
+  margin: 0 0 .5rem 0;
+}
+
+.historic-point-hover {
+  fill: transparent;
+}
+
+.historic-point-hover.highlighted {
+  opacity: 0.3;
+  fill: yellow;
+}

@@ -1,0 +1,60 @@
+.snowpack-data-viz-overall {
+  color: #B71234;
+  margin: .5rem 0 1rem 0;
+}
+
+#snowpack-graph {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+line {
+  stroke: #E1E0E3;
+}
+
+.avg {
+  stroke: #E5E5E5;
+  fill: #E5E5E5;
+}
+
+.current {
+  stroke: #003484;
+  stroke-width: 3;
+  fill: transparent;
+}
+
+.current-terminus {
+  fill: #003484;
+}
+
+#current-terminus-hover-target,
+#historic-peak-hover-target {
+  fill: transparent;
+}
+
+#current-terminus-hover-target.highlighted,
+#historic-peak-hover-target.highlighted {
+  opacity: 0.3;
+  fill: yellow;
+}
+
+.peak {
+  fill: #B71234;
+}
+
+text {
+  font-size: .9rem;
+}
+
+#snowpack-historical-peak-swe.popover-revealed {
+  left: var(--x, 200px);
+  top: var(--y, 20px);
+  transform: translateY(-50%);
+}
+
+#snowpack-current-swe.popover-revealed {
+  left: var(--x, 200px);
+  top: var(--y, 100px);
+  transform: translateY(-50%);
+}
