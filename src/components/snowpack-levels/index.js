@@ -12,6 +12,7 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     const graph = this.shadowRoot.querySelector('#snowpack-graph');
     const container = this.shadowRoot.querySelector('.popover-container');
     const locale = this.dataset.locale || 'en-US';
+    const historicPeakLabel = this.dataset.historicPeakLabel || 'Historic peak';
 
     // peakX/peakY are the X/Y values on the graph for the historic peak. 
     const peakY = 20;
@@ -148,7 +149,7 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     text.setAttribute('y', peakY);
     text.setAttribute('dominant-baseline', 'middle');
     text.setAttribute('text-anchor', 'end');
-    text.innerHTML = 'Historic peak';
+    text.innerHTML = historicPeakLabel;
     graph.append(text);
 
     // Add a circle at the historic peak.
