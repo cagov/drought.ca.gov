@@ -1,0 +1,49 @@
+.reservoir-data-viz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.reservoir-data-viz-graphic svg {
+  display: block;
+}
+
+.reservoir-data-viz-overall {
+  color: #B71234;
+}
+
+#basin-water {
+  fill: #003484;
+}
+
+#basin-water.highlighted,
+#reservoir-details-filled svg,
+.filled {
+  fill: #004ABC;
+}
+
+#basin-capacity {
+  fill: #E1E0E3;
+}
+
+#basin-capacity.highlighted,
+#reservoir-details-capacity svg,
+.capacity {
+  fill: #B3B2B8;
+}
+
+#historical-line, 
+#reservoir-details-average svg,
+.historical {
+  stroke: black;
+}
+
+#historical-line-hover-target {
+  opacity: 0;
+}
+
+#historical-line-hover-target.highlighted {
+  opacity: 0.3;
+  fill: yellow;
+}

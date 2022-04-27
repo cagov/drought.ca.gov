@@ -3,27 +3,43 @@ const htmlmin = require("html-minifier");
 const cagovBuildSystem = require('@cagov/11ty-build-system');
 const config = require('./odi-publishing/config.js');
 
-const { renderPostLists } = require("./src/components/post-list/render");
+const renderPostLists = require("./src/components/post-list/render");
+const renderReservoirLevels = require("./src/components/reservoir-levels/render");
+const renderSnowpackLevels = require("./src/components/snowpack-levels/render");
+const renderPrecipitationLevels = require("./src/components/precipitation-levels/render");
+const renderSpeiMapData = require("./src/components/spei-map/render");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(cagovBuildSystem, {
-    sass: {
-      watch: [
-        'src/css/**/*',
-        'src/components/**/*.scss'
-      ],
-      output: 'dist/index.css',
-      options: {
-        file: 'src/css/sass/index.scss',
-        includePaths: ['./src/css/sass']
+    processors: {
+      sass: {
+        watch: [
+          'src/css/**/*',
+          'src/components/**/*.scss'
+        ],
+        output: 'dist/index.css',
+        options: {
+          file: 'src/css/sass/index.scss',
+          includePaths: ['./src/css/sass']
+        }
+      },
+      esbuild: {
+        watch: [
+          'src/js/**/*',
+          'src/components/**/*'
+        ],
+        options: {
+          entryPoints: ['src/js/index.js'],
+          bundle: true,
+          minify: true,
+          format: 'esm',
+          outfile: 'dist/built.js',
+          loader: { 
+            '.css': 'text',
+            '.html': 'text'
+          }
+        }
       }
-    },
-    rollup: {
-      watch: [
-        'src/js/**/*',
-        'src/components/**/*.js'
-      ],
-      file: 'src/js/rollup.config.js'
     }
   });
 
@@ -62,6 +78,23 @@ module.exports = function (eleventyConfig) {
       if (html.includes("cagov-post-list")) {
         html = renderPostLists(html);
       }
+      // Render reservoir-levels
+      if (html.includes("<drought-reservoir-levels")) {
+        html = renderReservoirLevels(html);
+      }
+      // Render snowpack-levels
+      if (html.includes("<drought-snowpack-levels")) {
+        html = renderSnowpackLevels(html);
+      }
+      // Render precipitation-levels
+      if (html.includes("<drought-precipitation-levels")) {
+        html = renderPrecipitationLevels(html);
+      }
+      // Render spei-map
+      if (html.includes("<drought-spei-map")) {
+        html = renderSpeiMapData(html);
+      }
+
       // Replace Wordpress media paths with correct 11ty output path.
       const regexPattern = `http.+?pantheonsite\.io/${config.build.upload_folder}`;
       html = html.replace(new RegExp(regexPattern, 'g'), "/media/");

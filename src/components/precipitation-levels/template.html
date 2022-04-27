@@ -1,0 +1,20 @@
+<div class="popover-container" aria-hidden="true">
+  <svg id="precipitation-graph" width="730" height="320" viewBox="0 0 730 320">
+    <text x="0" y="0" dominant-baseline="hanging" text-anchor="start" id="precipitation-unit" class="x-label bold-label"></text>
+
+    <line x1="40" y1="285" x2="740" y2="285" stroke-width="1" />
+    <text x="0" y="285" dominant-baseline="middle" text-anchor="start" class="y-label">0</text>
+
+    <line x1="40" y1="205" x2="740" y2="205" stroke-width="1" />
+    <text x="0" y="205" dominant-baseline="middle" text-anchor="start" class="y-label">500</text>
+
+    <line x1="40" y1="125" x2="740" y2="125" stroke-width="1" />
+    <text x="0" y="125" dominant-baseline="middle" text-anchor="start" class="y-label">1000</text>
+
+    <line x1="40" y1="45" x2="740" y2="45" stroke-width="1" />
+    <text x="0" y="45" dominant-baseline="middle" text-anchor="start" class="y-label">1500</text>
+  </svg>
+</div>
+<div class="sr-only">
+  <slot name="table-data"></slot>
+</div>
