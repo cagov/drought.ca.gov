@@ -6,7 +6,7 @@ const config = require('./odi-publishing/config.js');
 const renderPostLists = require("./src/components/post-list/render");
 const renderReservoirLevels = require("./src/components/reservoir-levels/render");
 const renderSnowpackLevels = require("./src/components/snowpack-levels/render");
-const renderPrecipitationLevels = require("./src/components/precipitation-levels/render");
+// const renderPrecipitationLevels = require("./src/components/precipitation-levels/render");
 const renderSpeiMapData = require("./src/components/spei-map/render");
 
 module.exports = function (eleventyConfig) {
@@ -86,10 +86,12 @@ module.exports = function (eleventyConfig) {
       if (html.includes("<drought-snowpack-levels")) {
         html = renderSnowpackLevels(html);
       }
+      /* 
       // Render precipitation-levels
       if (html.includes("<drought-precipitation-levels")) {
         html = renderPrecipitationLevels(html);
       }
+      */
       // Render spei-map
       if (html.includes("<drought-spei-map")) {
         html = renderSpeiMapData(html);
