@@ -2,19 +2,19 @@
 
 include_once(__DIR__ . "/../base/dynamic-block.php");
 
-class DataViz extends DynamicBlock {
+class DataVizFreq extends DynamicBlock {
   public function render( $attributes, $content ): string {
     // $heading = $attributes['heading'] ?? '';
     // $author = $attributes['author'] ?? '';
 
     return <<<HTML
-      <div class="data-viz">
+      <div class="data-viz-freq">
         $content
       </div>
     HTML;
   }
 }
 
-new DataViz();
+new DataVizFreq();
 
 ?>

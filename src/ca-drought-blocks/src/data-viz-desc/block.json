@@ -1,16 +1,19 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
-  "name": "ca-drought-blocks/data-viz",
+  "name": "ca-drought-blocks/data-viz-desc",
+  "parent": [
+    "ca-drought-blocks/data-viz"
+  ],
   "version": "0.1.0",
-  "title": "Data Visualization",
+  "title": "Data Visualization Description",
   "category": "ca-drought-blocks",
   "icon": "smiley",
-  "description": "A container for neatly arranging a new data visualization.",
+  "description": "A description for a data visualization.",
   "supports": {
     "html": false
   },
-  "textdomain": "data-viz",
+  "textdomain": "data-viz-desc",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css"

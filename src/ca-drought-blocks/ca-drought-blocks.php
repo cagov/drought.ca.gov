@@ -13,6 +13,21 @@
  * @package           ca-drought-blocks
  */
 
+function register_drought_block_categories( $categories ) {
+  return array_merge($categories, [
+    [
+      'slug' => 'ca-drought-blocks',
+      'title' => 'drought.ca.gov'
+    ]
+  ]);
+} 
+
+add_action( 'block_categories_all', 'register_drought_block_categories', 10, 2 );
+
 include 'src/example-dynamic-block/index.php';
 include 'src/example-static-block/index.php';
+
 include 'src/data-viz/index.php';
+include 'src/data-viz-desc/index.php';
+include 'src/data-viz-footer/index.php';
+include 'src/data-viz-freq/index.php';
