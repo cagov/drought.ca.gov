@@ -10,7 +10,7 @@ drought-snowpack-levels:defined .snowpack-current-level {
   flex-direction: row;
   align-items: center;
   column-gap: .25rem;
-  line-height: .75;
+  line-height: 1;
   margin: 0;
 }
 
@@ -122,7 +122,7 @@ drought-spei-map {
   &-footer {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     font-size: .95rem;
     column-gap: 1rem;
