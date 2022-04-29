@@ -1,17 +1,18 @@
-drought-reservoir-levels:defined .data-viz-pct,
-drought-snowpack-levels:defined .data-viz-pct,
-drought-precipitation-levels:defined .data-viz-pct {
-  font-size: 2.5rem;
+:defined .data-viz-pct {
+  font-size: 3rem;
   font-weight: 700;
 }
 
-drought-snowpack-levels:defined .snowpack-current-level {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: .25rem;
-  line-height: 1;
+:defined .current-level {
+  font-size: 1.1rem;
   margin: 0;
+  &-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: .25rem;
+    line-height: 1.3;
+  }
 }
 
 .full-bleed {
