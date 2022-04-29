@@ -28,7 +28,7 @@ abstract class DynamicBlock extends Block {
    * 
    * @see https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/
    */
-  abstract public function render( $attributes );
+  abstract public function render( $attributes, $content );
 }
 
 ?>

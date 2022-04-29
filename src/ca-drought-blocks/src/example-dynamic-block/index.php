@@ -3,7 +3,7 @@
 include_once(__DIR__ . "/../base/dynamic-block.php");
 
 class ExampleDynamicBlock extends DynamicBlock {
-  public function render( $attributes ): string {
+  public function render( $attributes, $content ): string {
     // $title = $attributes['title'] ?? '';
     // $author = $attributes['author'] ?? '';
 

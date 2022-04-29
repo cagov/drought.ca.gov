@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/data-viz-box",
+  "version": "0.1.0",
+  "title": "Data Viz Box",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "A container for neatly arranging a new data visualization.",
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "data-viz-box",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

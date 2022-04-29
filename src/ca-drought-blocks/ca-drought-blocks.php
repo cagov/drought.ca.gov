@@ -15,3 +15,4 @@
 
 include 'src/example-dynamic-block/index.php';
 include 'src/example-static-block/index.php';
+include 'src/data-viz/index.php';
