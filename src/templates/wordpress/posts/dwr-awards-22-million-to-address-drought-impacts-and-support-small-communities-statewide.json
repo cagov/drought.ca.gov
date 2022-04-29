@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-29T00:26:49",
-    "updated_date": "2022-04-29T00:26:54",
+    "updated_date": "2022-04-29T00:29:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-04-28T17:26:49",
     "date_gmt": "2022-04-29T00:26:49",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1397",
-    "modified": "2022-04-28T17:26:54",
-    "modified_gmt": "2022-04-29T00:26:54",
+    "modified": "2022-04-28T17:29:51",
+    "modified_gmt": "2022-04-29T00:29:51",
     "slug": "dwr-awards-22-million-to-address-drought-impacts-and-support-small-communities-statewide",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-04-28",
