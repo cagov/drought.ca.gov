@@ -275,6 +275,9 @@ drought-spei-map {
   h2, h3, p {
     margin: 0
   }
+  p:last-child {
+    text-align: right;
+  }
 }
 
 .h2-with-more {
