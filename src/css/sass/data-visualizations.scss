@@ -1,9 +1,11 @@
-:defined .data-viz-pct {
+drought-reservoir-levels:defined .data-viz-pct,
+drought-snowpack-levels:defined .data-viz-pct {
   font-size: 3rem;
   font-weight: 700;
 }
 
-:defined .current-level {
+drought-reservoir-levels:defined .current-level,
+drought-snowpack-levels:defined .current-level {
   font-size: 1.1rem;
   margin: 0;
   &-flex {
