@@ -29,5 +29,6 @@ include 'src/example-static-block/index.php';
 
 include 'src/data-viz/index.php';
 include 'src/data-viz-desc/index.php';
+include 'src/data-viz-placement/index.php';
 include 'src/data-viz-footer/index.php';
 include 'src/data-viz-freq/index.php';

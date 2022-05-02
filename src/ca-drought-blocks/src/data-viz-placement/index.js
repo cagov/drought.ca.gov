@@ -5,28 +5,27 @@ import "./editor.scss";
 
 const edit = () => {
   const blockProps = useBlockProps({
-    className: "data-viz-freq",
+    className: "data-viz-placement",
   });
 
   const innerBlocksProps = useInnerBlocksProps(
     blockProps,
     {
       template: [
-        ["core/paragraph", { placeholder: "Describe update frequency..." }],
+        ["core/html"],
       ],
       templateLock: false,
-      allowedBlocks: ["core/paragraph"]
     }
   );
-  
+
   return (
     <div {...innerBlocksProps}></div>
   );
-}
+};
 
 const save = () => <InnerBlocks.Content />;
 
-registerBlockType("ca-drought-blocks/data-viz-freq", {
+registerBlockType("ca-drought-blocks/data-viz-placement", {
   edit,
   save,
 });

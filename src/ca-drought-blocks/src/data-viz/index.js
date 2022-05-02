@@ -1,5 +1,5 @@
 import { registerBlockType } from "@wordpress/blocks";
-import { useBlockProps, InnerBlocks } from "@wordpress/block-editor";
+import { useBlockProps, useInnerBlocksProps, InnerBlocks } from "@wordpress/block-editor";
 import "./style.scss";
 import "./editor.scss";
 
@@ -8,19 +8,23 @@ const edit = (props) => {
   const blockProps = useBlockProps({
     className: "data-viz",
   });
+
+  const innerBlocksProps = useInnerBlocksProps(
+    blockProps,
+    {
+      template: [
+        ["core/heading", { level: 4, placeholder: "Data visual heading..." }],
+        ["ca-drought-blocks/data-viz-desc"],
+        ["ca-drought-blocks/data-viz-placement"],
+        ["ca-drought-blocks/data-viz-footer"]
+      ],
+      templateLock: "all",
+    }
+  );
+
   // const onChangeHeading = (heading) => setAttributes({ heading });
   return (
-    <div {...blockProps}>
-      <InnerBlocks
-        template={[
-          ["core/heading", { level: 3, placeholder: "Data visual heading..." }],
-          ["ca-drought-blocks/data-viz-desc"],
-          ["core/html"],
-          ["ca-drought-blocks/data-viz-footer"]
-        ]}
-        templateLock="all"
-      />
-    </div>
+    <div {...innerBlocksProps}></div>
   );
 }
 

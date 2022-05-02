@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/data-viz-placement",
+  "parent": [
+    "ca-drought-blocks/data-viz"
+  ],
+  "version": "0.1.0",
+  "title": "Data Visualization Placement",
+  "category": "ca-drought-blocks",
+  "icon": "smiley",
+  "description": "A container for a data visualization's graph or imagery.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "data-viz-placement",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
