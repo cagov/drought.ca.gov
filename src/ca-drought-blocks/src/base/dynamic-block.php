@@ -33,10 +33,10 @@ abstract class DynamicBlock extends Block {
   /**
    * Common function to help pull classes out of $attributes supplied to the dynamic renderer.
    */
-  public function createClassList( $attributes, $classes ): string {
+  public function createClassList( $attributes, ...$classes ): string {
     $className = $attributes['className'] ?? '';
     $wpConfiguredClasses = strlen($className) > 0 ? ' ' . $className : '';
-    $classList = $classes . $wpConfiguredClasses;
+    $classList = join(' ', $classes) . $wpConfiguredClasses;
     return $classList;
   }
 }

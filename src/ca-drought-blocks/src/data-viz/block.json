@@ -7,6 +7,12 @@
   "category": "ca-drought-blocks",
   "icon": "smiley",
   "description": "A container for neatly arranging a new data visualization.",
+  "attributes": {
+    "gridSpan": {
+      "type": "string",
+      "default": "home-grid-span-1"
+    }
+  },
   "supports": {
     "html": false
   },
