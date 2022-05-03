@@ -14,10 +14,10 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
-      - name: Use Node.js 14.18.2
+      - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
-          node-version: 14.18.2
+          node-version: 16
       - name: Get branch name (merge)
         if: github.event_name != 'pull_request'
         shell: bash
