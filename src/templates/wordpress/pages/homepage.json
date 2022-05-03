@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2022-04-12T21:00:33",
+    "updated_date": "2022-05-03T20:14:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2022-04-12T14:00:33",
-    "modified_gmt": "2022-04-12T21:00:33",
+    "modified": "2022-05-03T13:14:07",
+    "modified_gmt": "2022-05-03T20:14:07",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
-    "excerpt": "<p>Dry start to 2022 marks third year of drought This year California had the driest January, February, and March ever recorded. Warm days melted snow faster than expected. On April 1, this important source of water was down to 38% of average, and is dropping daily. Find out more: See current conditions Instead of dry &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
+    "excerpt": "<p>Dry start to 2022 marks third year of drought This year&nbsp;California had the driest January, February, and March ever recorded. Warm days melted snow faster than expected. On April 1, this important source of water was down to 38% of average, and is dropping daily. Find out more: See current conditions Instead of dry ground, &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -36,7 +36,8 @@
     "categories": [],
     "tags": [
       "homepage",
-      "launch content"
+      "launch content",
+      "staging"
     ],
     "design_system_fields": {
       "template": "landing"
@@ -88,6 +89,17 @@
         "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "filter": "raw"
       }
