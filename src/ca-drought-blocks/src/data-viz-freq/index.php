@@ -4,11 +4,10 @@ include_once(__DIR__ . "/../base/dynamic-block.php");
 
 class DataVizFreq extends DynamicBlock {
   public function render( $attributes, $content ): string {
-    // $heading = $attributes['heading'] ?? '';
-    // $author = $attributes['author'] ?? '';
+    $classList = $this->createClassList($attributes, 'data-viz-freq');
 
     return <<<HTML
-      <div class="data-viz-freq">
+      <div class="$classList">
         $content
       </div>
     HTML;

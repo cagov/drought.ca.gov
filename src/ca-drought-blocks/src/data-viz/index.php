@@ -7,8 +7,10 @@ class DataViz extends DynamicBlock {
     // $heading = $attributes['heading'] ?? '';
     // $author = $attributes['author'] ?? '';
 
+    $classList = $this->createClassList($attributes, 'data-viz');
+
     return <<<HTML
-      <div class="data-viz">
+      <div class="$classList">
         $content
       </div>
     HTML;
