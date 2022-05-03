@@ -4703,6 +4703,7 @@ cagov-navoverlay .expanded-menu-close-mobile-svg {
 }
 
 .cagov-featured-image {
+  height: inherit;
   max-height: none;
 }
 
