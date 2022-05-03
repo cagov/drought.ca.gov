@@ -6,7 +6,8 @@
             {# <div class="breadcrumb"></div> #}
             <div class="ds-content-layout">
                 <main class="main-primary">
-                    <div>
+                    {# The #body-content div is the skip-to-content target. #}
+                    <div id="body-content">
                         <article id="post-{{id}}">
                             <h1 class="page-title">{{ title | safe }}</h1>
                             <!-- Page Title-->
