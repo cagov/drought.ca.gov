@@ -29,6 +29,15 @@ abstract class DynamicBlock extends Block {
    * @see https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/
    */
   abstract public function render( $attributes, $content );
+
+  /**
+   * Common function to help pull classes out of $attributes supplied to the dynamic renderer.
+   */
+  public function createClassList( $attributes, $classes ): string {
+    $wpConfiguredClasses = $attributes['className'] ? ' ' . $attributes['className'] : '';
+    $classList = $classes . $wpConfiguredClasses;
+    return $classList;
+  }
 }
 
 ?>
