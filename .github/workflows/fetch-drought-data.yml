@@ -27,10 +27,10 @@ jobs:
           curl -o src/components/spei-map/WGS84.png https://cww.water.ca.gov/resources/images/map/WGS84.png
           curl -o src/components/spei-map/updated.json https://cww.water.ca.gov/?dataservice=speimap
       
-      - name: Use Node.js 14.17.0
+      - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17.0
+          node-version: 16
 
       - name: Process files
         run: |
