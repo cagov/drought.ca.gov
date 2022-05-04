@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-04T16:56:29",
-    "updated_date": "2022-05-04T16:56:34",
+    "updated_date": "2022-05-04T17:13:35",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-05-04T09:56:29",
     "date_gmt": "2022-05-04T16:56:29",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1419",
-    "modified": "2022-05-04T09:56:34",
-    "modified_gmt": "2022-05-04T16:56:34",
+    "modified": "2022-05-04T10:13:35",
+    "modified_gmt": "2022-05-04T17:13:35",
     "slug": "dwr-awards-150-million-to-support-communities-that-rely-on-groundwater",
     "status": "publish",
     "type": "post",
