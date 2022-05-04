@@ -1,6 +1,9 @@
 name: Fetch Drought Data
 
 on:
+  workflow_dispatch:
+    branches:
+      - main
   schedule:
     - cron: 15 12 * * *
 
