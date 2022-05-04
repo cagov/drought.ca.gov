@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-04-29T00:26:49",
-    "updated_date": "2022-05-04T16:54:07",
+    "updated_date": "2022-05-04T16:54:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-04-28T17:26:49",
     "date_gmt": "2022-04-29T00:26:49",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1397",
-    "modified": "2022-05-04T09:54:07",
-    "modified_gmt": "2022-05-04T16:54:07",
+    "modified": "2022-05-04T09:54:29",
+    "modified_gmt": "2022-05-04T16:54:29",
     "slug": "dwr-awards-22-million-to-address-drought-impacts-and-support-small-communities-statewide",
     "status": "publish",
     "type": "post",
