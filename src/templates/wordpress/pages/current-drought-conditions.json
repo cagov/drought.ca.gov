@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2022-05-04T20:05:36",
+    "updated_date": "2022-05-05T00:32:56",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=29",
-    "modified": "2022-05-04T13:05:36",
-    "modified_gmt": "2022-05-04T20:05:36",
+    "modified": "2022-05-04T17:32:56",
+    "modified_gmt": "2022-05-05T00:32:56",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
@@ -37,7 +37,8 @@
       "Current conditions"
     ],
     "tags": [
-      "launch content"
+      "launch content",
+      "staging"
     ],
     "design_system_fields": {
       "template": "page"
@@ -95,6 +96,17 @@
         "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "filter": "raw"
       }
