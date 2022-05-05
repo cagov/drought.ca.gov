@@ -5,7 +5,7 @@ on:
       - main
   workflow_run:
     workflows: 
-      - "Generate Drought Map"
+      - "Fetch Drought Data"
     types: 
       - completed
 jobs:
