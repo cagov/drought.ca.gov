@@ -11,3 +11,15 @@ footer .cagov-logo {
   padding: .5rem 0;
   line-height: 1.375;
 }
+
+.cagov-bkgrd-gry {
+  background-color: var(--gray-50,#f9f9fa);
+}
+
+ul.list-highlight li {
+  background-color: var(--gray-50, #f9f9fa);
+}
+
+:root {
+  --primary-color: var(--primary-700, #691808);
+}
