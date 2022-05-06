@@ -30,7 +30,7 @@
     "@cagov/ds-feature-card": "^1.0.7",
     "@cagov/ds-feedback": "^1.0.12",
     "@cagov/ds-link-grid": "^2.1.1",
-    "@cagov/ds-link-icon": "^1.1.1",
+    "@cagov/ds-link-icon": "^1.1.2",
     "@cagov/ds-minus": "^1.0.1",
     "@cagov/ds-page-alert": "^1.0.2",
     "@cagov/ds-page-feedback": "^1.1.2",
