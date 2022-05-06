@@ -1,6 +1,7 @@
 import { registerBlockType } from "@wordpress/blocks";
 import {
 	ToggleControl,
+  ColorPicker,
 	PanelBody,
 } from '@wordpress/components';
 import { 
@@ -14,14 +15,24 @@ import "./editor.scss";
 
 const edit = (props) => {
   const { attributes, setAttributes } = props;
-  const { fullBleed } = attributes;
+  const { fullBleed, color } = attributes;
 
-  const blockProps = useBlockProps({
-    className: (fullBleed) ? "full-bleed section-block" : "section-block",
-  });
+  const parentClass = (fullBleed) 
+    ? "full-bleed section-block" 
+    : "section-block";
+
+  const outerPropOptions = (fullBleed)
+    ? { className: parentClass, style: { backgroundColor: color } }
+    : { className: parentClass };
+
+  const blockProps = useBlockProps(outerPropOptions);
+
+  const innerPropOptions = (fullBleed) 
+    ? { className: 'full-bleed-content-area' } 
+    : blockProps;
 
   const innerBlocksProps = useInnerBlocksProps(
-    blockProps,
+    innerPropOptions,
     {
       template: [
         ["core/heading", { level: 2, placeholder: "Section block heading..." }],
@@ -31,20 +42,50 @@ const edit = (props) => {
   );
 
   const onChangeFullBleed = (bool) => setAttributes({ fullBleed: bool });
+  const onChangeColor = (str) => setAttributes({ color: str });
+
+  const render = () => {
+    if (fullBleed) {
+      return (
+        <section {...blockProps}>
+          <div {...innerBlocksProps}></div>
+        </section>
+      );
+    } else {
+      return (
+        <section {...innerBlocksProps}></section>
+      );
+    }
+  }
+
+  const FullBleedColorPicker = () => {
+    if (fullBleed) {
+      return (
+        <ColorPicker
+          color={color}
+          onChange={ onChangeColor }
+          enableAlpha
+        />
+      )
+    } else {
+      return (<></>);
+    }
+  }
 
   return (
     <>
       <InspectorControls>
-        <PanelBody title="Grid settings">
+        <PanelBody title="Background settings">
           <ToggleControl
             label="Full bleed"
-            help="Enables full-bleed backgrounds that span beyond the page layout's width. If enabled, you'll need to embed a Section Block (Full Bleed) block inside."
+            help="Enables full-bleed backgrounds that span beyond the page layout's width."
             checked={ fullBleed }
             onChange={ onChangeFullBleed }
           />
+          <FullBleedColorPicker/>
         </PanelBody>
       </InspectorControls>
-      <section {...innerBlocksProps}></section>
+      { render() }
     </>
   );
 }

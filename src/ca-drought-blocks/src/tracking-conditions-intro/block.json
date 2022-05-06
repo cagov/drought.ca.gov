@@ -1,26 +1,22 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 2,
-  "name": "ca-drought-blocks/section-block",
+  "name": "ca-drought-blocks/tracking-conditions-intro",
   "version": "0.1.0",
-  "title": "Section Block",
+  "title": "Tracking Conditions Section Intro",
   "category": "ca-drought-blocks",
   "icon": "smiley",
-  "description": "A page section with an internal three-column grid.",
+  "description": "An introduction to a subsection within the Tracking Conditions section.",
   "attributes": {
-    "fullBleed": {
-      "type": "boolean",
-      "default": false
-    },
-    "color": {
+    "gridSpan": {
       "type": "string",
-      "default": "#FFFFFF"
+      "default": "home-grid-span-1"
     }
   },
   "supports": {
     "html": false
   },
-  "textdomain": "section-block",
+  "textdomain": "tracking-conditions-intro",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
   "style": "file:./style-index.css"

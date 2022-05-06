@@ -2,9 +2,10 @@
 
 include_once(__DIR__ . "/../base/dynamic-block.php");
 
-class SectionBlockFullBleed extends DynamicBlock {
+class TrackingConditionsIntro extends DynamicBlock {
   public function render( $attributes, $content ): string {
-    $classList = $this->createClassList($attributes, 'full-bleed-content-area');
+    $gridSpan = $attributes['gridSpan'];
+    $classList = $this->createClassList($attributes, 'tracking-conditions-intro', $gridSpan);
 
     return <<<HTML
       <div class="$classList">
@@ -14,6 +15,6 @@ class SectionBlockFullBleed extends DynamicBlock {
   }
 }
 
-new SectionBlockFullBleed();
+new TrackingConditionsIntro();
 
 ?>
