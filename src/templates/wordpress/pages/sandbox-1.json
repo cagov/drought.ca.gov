@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-10-01T17:13:18",
-    "updated_date": "2021-11-29T22:14:06",
+    "updated_date": "2022-04-29T16:50:51",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,28 +17,28 @@
     "date": "2021-10-01T10:13:18",
     "date_gmt": "2021-10-01T17:13:18",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=654",
-    "modified": "2021-11-29T14:14:06",
-    "modified_gmt": "2021-11-29T22:14:06",
+    "modified": "2022-04-29T09:50:51",
+    "modified_gmt": "2022-04-29T16:50:51",
     "slug": "sandbox-1",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/sandbox-1/",
     "title": "Sandbox-1",
-    "excerpt": "<p>Test update to production: 2:13pm 11/29/2021.</p>\n",
+    "excerpt": "<p>Tracking conditions See current conditions Do we have enough water stored? In drier seasons, we rely on backup sources of water. These include water in reservoirs and melted snowpack. But we are now facing a historic level of dryness that has gone on for 3 years. And it&#8217;s only getting worse: January and February 2022 &#8230; <a title=\"Sandbox-1\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/sandbox-1/\" aria-label=\"More on Sandbox-1\">Read more</a></p>\n",
     "author": "Jim Bumgardner",
     "featured_media": 0,
     "parent": 0,
     "menu_order": 0,
     "comment_status": "closed",
     "ping_status": "closed",
-    "template": "",
+    "template": "landing",
     "meta": [],
     "categories": [],
     "tags": [
       "do-not-crawl"
     ],
     "design_system_fields": {
-      "template": "page"
+      "template": "landing"
     },
     "og_meta": {
       "editor": {
