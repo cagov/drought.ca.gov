@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-11T19:02:32",
-    "updated_date": "2022-05-11T19:02:38",
+    "updated_date": "2022-05-11T19:04:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-05-11T12:02:32",
     "date_gmt": "2022-05-11T19:02:32",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1440",
-    "modified": "2022-05-11T12:02:38",
-    "modified_gmt": "2022-05-11T19:02:38",
+    "modified": "2022-05-11T12:04:43",
+    "modified_gmt": "2022-05-11T19:04:43",
     "slug": "continuing-drought-prompts-readoption-of-emergency-curtailment-regulation-in-russian-river",
     "status": "publish",
     "type": "post",
@@ -31,7 +31,7 @@
     "ping_status": "closed",
     "sticky": false,
     "template": "",
-    "format": "standard",
+    "format": "link",
     "meta": {
       "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2022/pr05102022-russian-river-emergency-curtailment-regs-readoption.pdf",
       "custom_post_date": "2022-05-10",
