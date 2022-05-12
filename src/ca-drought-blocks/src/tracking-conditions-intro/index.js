@@ -20,14 +20,7 @@ const edit = (props) => {
     blockProps,
     {
       template: [
-        ["core/heading", { 
-          level: 3, 
-          placeholder: "Subsection intro heading...",
-          lock: { 
-            remove: true, 
-            move: true 
-          } 
-        }],
+        ["core/heading", { level: 3, placeholder: "Subsection intro heading..." }],
         ["core/paragraph", { placeholder: "Subsection intro description..." }],
       ],
       templateLock: false,

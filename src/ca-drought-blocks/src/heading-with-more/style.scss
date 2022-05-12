@@ -1,13 +1,4 @@
 .heading-with-more {
-  border: solid 1px darkgray;
-  margin: 1rem;
-  h2, h3 {
-    font-size: 1.5rem !important;
-    font-family: sans-serif !important;
-  }
-}
-
-.heading-with-more {
   display: flex;
   flex-direction: row;
   align-items: center;
