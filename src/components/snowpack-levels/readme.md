@@ -2,6 +2,8 @@
 
 This data visualization depicts the growth and shrinkage of snowpack level across the year, compared to historical average.
 
+<img width="377" alt="Screen Shot 2022-05-13 at 10 26 09" src="https://user-images.githubusercontent.com/1208960/168336578-b7a5bcd3-7e59-42af-a9ed-4288a3edb336.png">
+
 The intent of this visualization is straight-forward: emphasize lack of snowpack and corresponding effects on reservoirs and rivers.
 
 ## Data source
