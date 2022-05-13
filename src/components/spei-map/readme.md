@@ -2,6 +2,8 @@
 
 This data visualization depicts effects on moisture over time, across a map of California. 
 
+<img width="766" alt="Screen Shot 2022-05-13 at 10 26 21" src="https://user-images.githubusercontent.com/1208960/168336737-c81090ce-332d-4a99-a5c5-0b8a27d5d422.png">
+
 The intent of this visualization is to communicate that one big storm alone can't pull us out of drought. This is an assumption we need to correct among readers during the wet months. The SPEI model considers the full year, not just the current moment.
 
 ## Data source
