@@ -2,6 +2,8 @@
 
 This data visualization depicts current water storage level across major reservoirs, and compares that current level to historical average.
 
+<img width="384" alt="Screen Shot 2022-05-13 at 10 25 58" src="https://user-images.githubusercontent.com/1208960/168336433-29e5e054-ee9d-426f-914a-d1e5095a0dfa.png">
+
 The intent of this visualization is to show that we have far less "backup" water during dry months than before.
 
 These calculations are limited to the major reservoirs that were recommended by CDEC for this purpose. Specifically, we're looking at the following CDEC Station IDs.
