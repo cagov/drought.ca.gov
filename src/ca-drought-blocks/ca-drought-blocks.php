@@ -27,6 +27,7 @@ add_action( 'block_categories_all', 'register_drought_block_categories', 10, 2 )
 include 'src/example-dynamic-block/index.php';
 include 'src/example-static-block/index.php';
 
+include 'src/data-viz-pct/index.php';
 include 'src/data-viz/index.php';
 include 'src/data-viz-desc/index.php';
 include 'src/data-viz-placement/index.php';

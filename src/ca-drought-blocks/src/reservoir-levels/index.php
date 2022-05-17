@@ -1,6 +1,7 @@
 <?php
 
 include_once(__DIR__ . "/../base/dynamic-block.php");
+include_once(__DIR__ . "/../data-viz-pct/index.php");
 
 class ReservoirLevels extends DynamicBlock {
   public function render( $attributes, $content ): string {

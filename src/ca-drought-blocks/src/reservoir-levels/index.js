@@ -1,5 +1,4 @@
 import { registerBlockType } from "@wordpress/blocks";
-import { useSelect } from '@wordpress/data';
 import {
 	TextControl,
 	PanelBody
@@ -7,43 +6,10 @@ import {
 import { 
   useBlockProps, 
   RichText,
-  InspectorControls,
-  RichTextToolbarButton
+  InspectorControls
 } from "@wordpress/block-editor";
-import { 
-  registerFormatType,
-  toggleFormat
-} from '@wordpress/rich-text';
 import "./style.scss";
 import "./editor.scss";
-
-const DataVizPercentageButton = ({isActive, onChange, value}) => {
-  const selectedBlock = useSelect((select) => select('core/block-editor').getSelectedBlock(), []);
-
-  if (selectedBlock && selectedBlock.name !== 'ca-drought-blocks/reservoir-levels') {
-    return null;
-  }
-
-  return (
-    <RichTextToolbarButton
-      icon="lightbulb"
-      title="Data Viz Percentage"
-      onClick={() => {
-        onChange(
-          toggleFormat(value, { type: 'ca-drought-blocks/data-viz-pct' })
-        );
-      }}
-      isActive={isActive}
-    />
-  );
-};
-
-registerFormatType( "ca-drought-blocks/data-viz-pct", {
-  title: 'Data Viz Percentage',
-  tagName: "span",
-  className: "data-viz-pct",
-  edit: DataVizPercentageButton
-});
 
 const edit = (props) => {
   const { attributes, setAttributes } = props;
@@ -72,26 +38,26 @@ const edit = (props) => {
       <InspectorControls>
         <PanelBody title="Reservoir data labels">
           <TextControl
-              label="Unit"
-              value={unit}
-              onChange={(str) => setAttributes({unit: str})}
+            label="Unit"
+            value={unit}
+            onChange={(str) => setAttributes({unit: str})}
           />
         </PanelBody>
         <PanelBody title="Reservoir data">
           <TextControl
-              label="Total reservoir capacity"
-              value={capacityTaf}
-              onChange={(str) => setAttributes({capacityTaf: str})}
+            label="Total reservoir capacity"
+            value={capacityTaf}
+            onChange={(str) => setAttributes({capacityTaf: str})}
           />
           <TextControl
-              label="Historical average reservoir level"
-              value={historicalTaf}
-              onChange={(str) => setAttributes({historicalTaf: str})}
+            label="Historical average reservoir level"
+            value={historicalTaf}
+            onChange={(str) => setAttributes({historicalTaf: str})}
           />
           <TextControl
-              label="Current reservoir level"
-              value={currentTaf}
-              onChange={(str) => setAttributes({currentTaf: str})}
+            label="Current reservoir level"
+            value={currentTaf}
+            onChange={(str) => setAttributes({currentTaf: str})}
           />
         </PanelBody>
       </InspectorControls>
