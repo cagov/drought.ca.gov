@@ -36,14 +36,12 @@ const edit = (props) => {
   return (
     <>
       <InspectorControls>
-        <PanelBody title="Reservoir data labels">
+        <PanelBody title="Reservoir data">
           <TextControl
-            label="Unit"
+            label="Measurement unit"
             value={unit}
             onChange={(str) => setAttributes({unit: str})}
           />
-        </PanelBody>
-        <PanelBody title="Reservoir data">
           <TextControl
             label="Total reservoir capacity"
             value={capacityTaf}

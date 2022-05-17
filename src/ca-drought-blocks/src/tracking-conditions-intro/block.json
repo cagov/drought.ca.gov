@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "title": "Tracking Conditions Section Intro",
   "category": "ca-drought-blocks",
-  "icon": "smiley",
+  "icon": "block-default",
   "description": "An introduction to a subsection within the Tracking Conditions section.",
   "attributes": {
     "gridSpan": {

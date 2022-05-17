@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "title": "Section Block",
   "category": "ca-drought-blocks",
-  "icon": "smiley",
+  "icon": "format-aside",
   "description": "A page section with an internal three-column grid.",
   "attributes": {
     "fullBleed": {

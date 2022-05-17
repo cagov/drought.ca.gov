@@ -8,7 +8,7 @@
   "version": "0.1.0",
   "title": "Data Visualization Frequency",
   "category": "ca-drought-blocks",
-  "icon": "smiley",
+  "icon": "block-default",
   "description": "A description of a data visualization's update frequency.",
   "supports": {
     "html": false

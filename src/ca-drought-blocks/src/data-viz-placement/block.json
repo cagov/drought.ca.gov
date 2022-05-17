@@ -8,7 +8,7 @@
   "version": "0.1.0",
   "title": "Data Visualization Placement",
   "category": "ca-drought-blocks",
-  "icon": "smiley",
+  "icon": "block-default",
   "description": "A container for a data visualization's graph or imagery.",
   "supports": {
     "html": false

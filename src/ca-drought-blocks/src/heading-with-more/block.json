@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "title": "Heading with More",
   "category": "ca-drought-blocks",
-  "icon": "smiley",
+  "icon": "heading",
   "description": "A heading with a corresponding 'more info' section.",
   "supports": {
     "html": false

@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "title": "Data Visualization",
   "category": "ca-drought-blocks",
-  "icon": "smiley",
+  "icon": "analytics",
   "description": "A container for neatly arranging a new data visualization.",
   "attributes": {
     "gridSpan": {
