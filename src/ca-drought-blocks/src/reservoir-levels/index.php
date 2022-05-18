@@ -1,7 +1,6 @@
 <?php
 
 include_once(__DIR__ . "/../base/dynamic-block.php");
-include_once(__DIR__ . "/../data-viz-pct/index.php");
 
 class ReservoirLevels extends DynamicBlock {
   public function render( $attributes, $content ): string {
@@ -36,9 +35,9 @@ class ReservoirLevels extends DynamicBlock {
           </thead>
           <tbody>
             <tr id="reservoir-data">
-              <td className="reservoir-capacity">$capacityTaf $unit</td>
-              <td className="reservoir-historic">$historicalTaf $unit</td>
-              <td className="reservoir-current">$currentTaf $unit</td>
+              <td class="reservoir-capacity">$capacityTaf $unit</td>
+              <td class="reservoir-historic">$historicalTaf $unit</td>
+              <td class="reservoir-current">$currentTaf $unit</td>
             </tr> 
           </tbody>
         </table>
