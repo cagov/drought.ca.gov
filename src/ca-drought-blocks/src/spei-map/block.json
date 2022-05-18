@@ -12,31 +12,40 @@
       "type": "string"
     },
     "altText": {
-      "type": "string"
+      "type": "string",
+      "default": "A map of California that shows 12 month moisture levels across the state. Both rain and temperature are key factors."
     },
     "legendHeading": {
-      "type": "string"
+      "type": "string",
+      "default": "12 month SPEI"
     },
     "extremeWet": {
-      "type": "string"
+      "type": "string",
+      "default": "Extremely wet"
     },
     "severeWet": {
-      "type": "string"
+      "type": "string",
+      "default": "Severely wet"
     },
     "moderateWet": {
-      "type": "string"
+      "type": "string",
+      "default": "Moderately wet"
     },
     "normal": {
-      "type": "string"
+      "type": "string",
+      "default": "Near normal"
     },
     "moderateDry": {
-      "type": "string"
+      "type": "string",
+      "default": "Moderate drought"
     },
     "severeDry": {
-      "type": "string"
+      "type": "string",
+      "default": "Severe drought"
     },
     "extremeDry": {
-      "type": "string"
+      "type": "string",
+      "default": "Extreme drought"
     }
   },
   "supports": {
