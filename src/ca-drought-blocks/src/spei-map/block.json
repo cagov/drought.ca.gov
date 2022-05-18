@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/spei-map",
+  "version": "0.1.0",
+  "title": "SPEI Map",
+  "category": "ca-drought-blocks",
+  "icon": "chart-area",
+  "description": "A data visualization depicting rain and temperature effects on moisture across California.",
+  "attributes": {
+    "imgHref": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    },
+    "legendHeading": {
+      "type": "string"
+    },
+    "extremeWet": {
+      "type": "string"
+    },
+    "severeWet": {
+      "type": "string"
+    },
+    "moderateWet": {
+      "type": "string"
+    },
+    "normal": {
+      "type": "string"
+    },
+    "moderateDry": {
+      "type": "string"
+    },
+    "severeDry": {
+      "type": "string"
+    },
+    "extremeDry": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "spei-map",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

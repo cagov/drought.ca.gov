@@ -35,6 +35,7 @@ include 'src/data-viz-footer/index.php';
 include 'src/data-viz-freq/index.php';
 include 'src/reservoir-levels/index.php';
 include 'src/snowpack-levels/index.php';
+include 'src/spei-map/index.php';
 
 include 'src/heading-with-more/index.php';
 include 'src/section-block/index.php';

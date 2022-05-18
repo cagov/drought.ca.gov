@@ -43,17 +43,17 @@ const edit = (props) => {
             onChange={(str) => setAttributes({unit: str})}
           />
           <TextControl
-            label="Total reservoir capacity"
+            label={capacityHeading}
             value={capacityTaf}
             onChange={(str) => setAttributes({capacityTaf: str})}
           />
           <TextControl
-            label="Historical average reservoir level"
+            label={historicalHeading}
             value={historicalTaf}
             onChange={(str) => setAttributes({historicalTaf: str})}
           />
           <TextControl
-            label="Current reservoir level"
+            label={currentHeading}
             value={currentTaf}
             onChange={(str) => setAttributes({currentTaf: str})}
           />
@@ -64,8 +64,7 @@ const edit = (props) => {
           tagName="p"
           className="current-level"
           slot="current-level"
-          value={lede} 
-          allowedFormats={["ca-drought-blocks/data-viz-pct"]}
+          value={lede}
           onChange={(str) => setAttributes({lede: str})}
           placeholder='Summarize current levels...'
         />

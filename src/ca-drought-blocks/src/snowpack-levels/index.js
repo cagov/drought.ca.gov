@@ -37,12 +37,12 @@ const edit = (props) => {
             onChange={(str) => setAttributes({unit: str})}
           />
           <TextControl
-            label="Average historic peak level"
+            label={historicPeakHeading}
             value={historicPeakLevel}
             onChange={(str) => setAttributes({historicPeakLevel: str})}
           />
           <TextControl
-            label="Current level"
+            label={currentHeading}
             value={currentLevel}
             onChange={(str) => setAttributes({currentLevel: str})}
           />
@@ -54,7 +54,6 @@ const edit = (props) => {
           className="current-level current-level-flex"
           slot="current-level"
           value={lede} 
-          allowedFormats={["ca-drought-blocks/data-viz-pct"]}
           onChange={(str) => setAttributes({lede: str})}
           placeholder='Summarize current levels...'
         />
