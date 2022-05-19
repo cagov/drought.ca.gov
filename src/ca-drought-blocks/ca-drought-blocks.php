@@ -42,3 +42,8 @@ include 'src/section-block/index.php';
 include 'src/tracking-conditions-intro/index.php';
 
 include 'src/home-grid/index.php';
+include 'src/home-grid-item/index.php';
+
+include 'src/highlight-box-figure/index.php';
+include 'src/highlight-box/index.php';
+include 'src/highlight-box-item/index.php';
