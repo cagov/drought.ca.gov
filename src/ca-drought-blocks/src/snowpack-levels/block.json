@@ -12,7 +12,8 @@
       "type": "string"
     },
     "caption": {
-      "type": "string"
+      "type": "string",
+      "default": "A chart of current snowpack level compared to the historic April 1 peak."
     },
     "unit": {
       "type": "string",
@@ -27,10 +28,12 @@
       "default": "0"
     },
     "historicPeakHeading": {
-      "type": "string"
+      "type": "string",
+      "default": "Average peak snowwater equivalent from 1991-2020"
     },
     "currentHeading": {
-      "type": "string"
+      "type": "string",
+      "default": "Current snowwater equivalent"
     }
   },
   "supports": {

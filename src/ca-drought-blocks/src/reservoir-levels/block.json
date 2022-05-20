@@ -12,7 +12,8 @@
       "type": "string"
     },
     "caption": {
-      "type": "string"
+      "type": "string",
+      "default": "A chart that shows total major reservoir levels."
     },
     "unit": {
       "type": "string",
@@ -31,13 +32,16 @@
       "default": "0"
     },
     "capacityHeading": {
-      "type": "string"
+      "type": "string",
+      "default": "Total capacity"
     },
     "historicalHeading": {
-      "type": "string"
+      "type": "string",
+      "default": "Average level historically"
     },
     "currentHeading": {
-      "type": "string"
+      "type": "string",
+      "default": "Current level"
     }
   },
   "supports": {

@@ -20,12 +20,49 @@ const edit = (props) => {
     blockProps,
     {
       template: [
-        ["core/heading", { level: 4, placeholder: "Data visual heading..." }],
-        ["ca-drought-blocks/data-viz-desc"],
-        ["ca-drought-blocks/data-viz-placement"],
-        ["ca-drought-blocks/data-viz-footer"]
+        ["core/heading", 
+          { 
+            level: 4, 
+            placeholder: "Data visual heading..." ,
+            lock: { move: true, remove: true }
+          }
+        ],
+        ["core/group", 
+          { 
+            className: "data-viz-desc",
+            lock: { move: true, remove: true } 
+          }, 
+          [
+            ["core/paragraph", { placeholder: "Data visual description..." }]
+          ]
+        ],
+        ["core/group", 
+          { 
+            className: "data-viz-placement",
+            lock: { move: true, remove: true }
+          }, 
+          [
+            ["core/html"]
+          ]],
+        ["core/group", 
+          { 
+            className: "data-viz-footer",
+            lock: { move: true, remove: true } 
+          }, 
+          [
+            ["core/group", 
+              { 
+                className: "data-viz-freq" 
+              }, 
+              [
+                ["core/paragraph", { placeholder: "Data update frequency..." }]
+              ]
+            ],
+            ["core/paragraph", { placeholder: "Add a link..." }]
+          ]
+        ]
       ],
-      templateLock: "all",
+      templateLock: false,
     }
   );
 

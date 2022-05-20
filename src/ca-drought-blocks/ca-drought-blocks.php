@@ -31,10 +31,6 @@ include 'src/simple-image/index.php';
 
 include 'src/data-viz-pct/index.php';
 include 'src/data-viz/index.php';
-include 'src/data-viz-desc/index.php';
-include 'src/data-viz-placement/index.php';
-include 'src/data-viz-footer/index.php';
-include 'src/data-viz-freq/index.php';
 include 'src/reservoir-levels/index.php';
 include 'src/snowpack-levels/index.php';
 include 'src/spei-map/index.php';
