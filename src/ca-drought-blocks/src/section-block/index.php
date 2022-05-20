@@ -19,7 +19,7 @@ class SectionBlock extends DynamicBlock {
       HTML;
     } else {
       return <<<HTML
-        <section class="$classList">
+        <section class="$classList" style="background-color: $color;">
           $content
         </section>
       HTML;

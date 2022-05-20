@@ -1,15 +1,9 @@
-.highlight-box-item-image-selection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  row-gap: 0.5rem;
-}
+.highlight-box-item {
+  p:first-child {
+    margin-top: 0;
+  }
+  img {
+    min-width: 70px;
+  }
+} 
 
-.highlight-box-item-image-removal {
-  text-align: center !important;
-}
-
-.highlight-box-item p:first-child {
-  margin-top: 0;
-}

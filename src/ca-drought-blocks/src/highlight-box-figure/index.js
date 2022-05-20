@@ -26,7 +26,7 @@ const HighlightBoxFigureButton = ({isActive, onChange, value}) => {
     const allParents = select('core/block-editor').getBlockParents(clientId);
 
     if (allParents.length > 0) {
-      const nearestParent = select('core/block-editor').getBlock(allParents.slice(-1)[0]);
+      const nearestParent = select('core/block-editor').getBlock(allParents.slice(-2)[0]);
       return nearestParent;
     }
 

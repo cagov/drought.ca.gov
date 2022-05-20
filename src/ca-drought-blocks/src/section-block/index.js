@@ -21,11 +21,10 @@ const edit = (props) => {
     ? "full-bleed section-block" 
     : "section-block";
 
-  const outerPropOptions = (fullBleed)
-    ? { className: parentClass, style: { backgroundColor: color } }
-    : { className: parentClass };
-
-  const blockProps = useBlockProps(outerPropOptions);
+  const blockProps = useBlockProps({ 
+    className: parentClass, 
+    style: { backgroundColor: color } 
+  });
 
   const innerPropOptions = (fullBleed) 
     ? { className: 'full-bleed-content-area' } 
@@ -58,38 +57,27 @@ const edit = (props) => {
     }
   }
 
-  const FullBleedColorPicker = () => {
-    if (fullBleed) {
-      return (
-        <ColorPicker
-          color={color}
-          onChange={ onChangeColor }
-          enableAlpha
-        />
-      )
-    } else {
-      return (<></>);
-    }
-  }
-
   return (
     <>
       <InspectorControls>
         <PanelBody title="Background settings">
+          <ColorPicker
+            color={color}
+            onChange={ onChangeColor }
+            enableAlpha
+          />
           <ToggleControl
             label="Full bleed"
             help="Enables full-bleed backgrounds that span beyond the page layout's width."
             checked={ fullBleed }
             onChange={ onChangeFullBleed }
           />
-          <FullBleedColorPicker/>
         </PanelBody>
       </InspectorControls>
       { render() }
     </>
   );
 }
-
 
 const save = () => <InnerBlocks.Content />;
 
