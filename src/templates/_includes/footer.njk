@@ -6,8 +6,14 @@ ga('create', 'UA-3419582-2', 'auto', 'tracker2');
 ga('set', 'transport', 'beacon');
 ga('send', 'pageview');
 ga('tracker2.send', 'pageview');
+
+window.onload = function() {
+  let s = document.createElement("script");
+  s.type = "text/javascript";
+  s.src = "https://www.google-analytics.com/analytics.js";
+  document.head.append(s);
+}
 </script>
-<script async defer src='https://www.google-analytics.com/analytics.js'></script>
 
 <!-- per page feedback --> 
 <div class="content-footer mb-3">

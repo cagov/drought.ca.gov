@@ -3,34 +3,46 @@
 const updated = require('./updated.json');
 const cheerio = require("cheerio");
 
+const updateDate = new Date(updated.created_date).toLocaleString("en-US", {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+const dataDate = new Date(updated.data_date).toLocaleString("en-US", {
+  year: 'numeric',
+  month: 'long'
+});
+
 // Render live-data-based values into the component via 11ty transform.
 const renderSpeiMapData = function (html) {
   let result = html;
-  let $ = cheerio.load(result, null, false);
 
-  const locale = $("drought-spei-map").data("locale") || "en-US";
+  const updateDateSpans = html.matchAll(
+    /<span class="spei-map-update-date">[\s\S]*?<\/span>/gm
+  );
 
-  const updateDate = new Date(updated.created_date).toLocaleString(locale, {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
+  const dataDateSpans = html.matchAll(
+    /<span class="spei-map-data-date">[\s\S]*?<\/span>/gm
+  );
 
-  const dataDate = new Date(updated.data_date).toLocaleString(locale, {
-    year: 'numeric',
-    month: 'long'
-  });
+  for (date in updateDateSpans) {
+    let { 0: originalMarkup, index } = date;
+    let $ = cheerio.load(originalMarkup, null, false);
 
-  if ($(".spei-map-update-date").length || $(".spei-map-data-date").length) {
-    if ($(".spei-map-update-date").length) {
-      $(".spei-map-update-date").text(updateDate);
-    }
-    if ($(".spei-map-data-date").length) {
-      $(".spei-map-data-date").text(dataDate);
-    }
+    $(".spei-map-update-date").text(updateDate);
 
-    return $.html();
-  } 
+    result = result.replace(originalMarkup, $.html());
+  }
+
+  for (date in dataDateSpans) {
+    let { 0: originalMarkup, index } = date;
+    let $ = cheerio.load(originalMarkup, null, false);
+
+    $(".spei-map-data-date").text(updateDate);
+
+    result = result.replace(originalMarkup, $.html());
+  }
 
   return result;
 };

@@ -209,6 +209,7 @@ drought-spei-map {
     }
     &-banner {
       width: 100%;
+      height: auto;
     }
     p:last-child {
       margin-bottom: 0;
@@ -251,6 +252,7 @@ drought-spei-map {
   background-color: #F9F9FA;
   img { 
     width: 100%;
+    height: auto;
     vertical-align: middle;
   }
   &-content {
