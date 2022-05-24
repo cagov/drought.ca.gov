@@ -4,6 +4,7 @@ import {
   useInnerBlocksProps, 
   InnerBlocks
 } from "@wordpress/block-editor";
+import { addFigureFormat } from "./highlight-box-figure.js";
 import "./style.scss";
 import "./editor.scss";
 
@@ -16,7 +17,7 @@ const edit = () => {
     blockProps,
     {
       template: [
-        ["ca-drought-blocks/simple-image", {lock: {remove: true}}],
+        ["ca-drought-blocks/decorative-image", {lock: {remove: true}}],
         ["core/group", {lock: {remove: true}}, [
           ["core/paragraph", { placeholder: "Information to highlight...", className: "test" }]
         ]]
@@ -36,3 +37,5 @@ registerBlockType("ca-drought-blocks/highlight-box-item", {
   edit,
   save,
 });
+
+addFigureFormat();

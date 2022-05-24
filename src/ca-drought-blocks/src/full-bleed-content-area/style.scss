@@ -1,0 +1,26 @@
+.section-block {
+  padding: 3rem 0;
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.full-bleed {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+}
+
+.full-bleed-content-area {
+  padding: 0 16px;
+  background: transparent;
+}
+@media screen and (min-width: 1024px) {
+  .full-bleed-content-area {
+    max-width: 1176px;
+    margin: 0 auto;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}

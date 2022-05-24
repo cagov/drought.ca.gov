@@ -5,7 +5,7 @@ import {
   InnerBlocks, 
   InspectorControls 
 } from "@wordpress/block-editor";
-import { GridSpanSettings } from "../base/grid-span";
+import { addPercentageFormat } from "./data-viz-pct.js";
 import "./style.scss";
 import "./editor.scss";
 
@@ -67,12 +67,7 @@ const edit = (props) => {
   );
 
   return (
-    <>
-      <InspectorControls>
-        { <GridSpanSettings {...props}/> }
-      </InspectorControls>
-      <div {...innerBlocksProps}></div>
-    </>
+    <div {...innerBlocksProps}></div>
   );
 }
 
@@ -83,3 +78,5 @@ registerBlockType("ca-drought-blocks/data-viz", {
   edit,
   save,
 });
+
+addPercentageFormat();
