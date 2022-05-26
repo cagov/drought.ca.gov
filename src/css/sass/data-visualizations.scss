@@ -244,6 +244,7 @@ drought-spei-map {
   .data-viz-placement {
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     .data-viz-stat {
       font-size: 1.5em;
       font-weight: 700;
