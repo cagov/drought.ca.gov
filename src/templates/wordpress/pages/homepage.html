@@ -1,13 +1,13 @@
-<div class="wp-block-ca-design-system-feature-card cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-ca-design-system-hero"><div><div class="cagov-stack cagov-p-2 cagov-featured-sidebar"><h2>Dry start to 2022 marks third year of drought</h2><div class="cagov-feature-card-body-content">
+<div class="wp-block-ca-design-system-feature-card cagov-with-sidebar cagov-with-sidebar-left cagov-featured-section cagov-bkgrd-gry cagov-block wp-block-ca-design-system-hero"><div><div class="cagov-stack cagov-p-2 cagov-featured-sidebar"><h2>Newsom urges water leaders, Californians to conserve more or face tighter restrictions</h2><div class="cagov-feature-card-body-content">
 
-<p>This year California had the driest January, February, and March ever recorded. Warm days melted snow faster than expected. On April 1, this important source of water was down to 38% of average, and is dropping daily. Find out more:</p>
+<p>As California grapples with three consecutive years of drought, Governor Newsom warned that the state could be forced to enact mandatory restrictions unless water use declines significantly this summer. Learn more about the Governor’s summit with local water leaders.</p>
 
-<div class="wp-block-button"><a class="wp-block-button__link" href="/current-drought-conditions">See current conditions</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link" href="https://www.gov.ca.gov/2022/05/23/governor-newsom-convenes-summit-with-local-water-leaders-urges-more-aggressive-response-to-ongoing-drought/">Read the news release</a></div>
 
 </div></div><div>
 <figure>
-<img loading="lazy" class="cagov-featured-image" src="https://drought.ca.gov/media/2022/04/2022_04_01_FL_0104_Snow_Survey.webp" alt="On April 1, 2022, four state officials stand on dry ground with no snow in the Sierra Nevada Mountains. One is holding a 5-foot-long metal stick, which shows how high the snowpack would normally be at this time of year." width="800" height="533">
-<figcaption><em>Instead of dry ground, these water officials should be standing on 5 feet of snowpack. Taken at the April 1, 2022 snow survey in the Sierra Nevada Mountains.</em></figcaption>
+<img loading="lazy" class="cagov-featured-image" src="https://drought.ca.gov/media/2022/05/SummerWaterSupply2019-2021b.jpg" alt="Side-by-side photos show the effect severe drought has had on one reservoir. On the left, Lake Oroville is full of blue water with the text SUMMER WATER SUPPLY IN 2019. On the right, that same reservoir is shown with barely a trickle of water at the bottom of it, and where there used to be water, there are banks of dry dirt. This image has the text SUMMER WATER SUPPLY IN SEVERE DROUGHT 2021." width="800" height="533">
+<figcaption><em>These photos show the effect severe drought has had on the summer water supply in Lake Oroville.</em></figcaption>
 </figure>
 </div></div></div>
 
@@ -65,24 +65,24 @@
                       Reservoirs get us through the dry months
                   </p>
               </div>
-              <div class="data-viz-placement">
-                <drought-reservoir-levels>
-                    <h5 slot="summary-header">Summary of current level</h5>
-                    <p slot="summary-stat" class="current-level">
-                        <span class="data-viz-pct"></span><br>
-                        of average levels
-                    </p>
-  
-                    <h5 slot="capacity-header">Total capacity</h5>
-                    <p slot="capacity-stat">40,673 thousands of acre feet (TAF)</p>
-  
-                    <h5 slot="historical-header">Average level historically</h5>
-                    <p slot="historical-stat">56,598 thousands of acre feet (TAF)</p>
-  
-                    <h5 slot="current-header">Current level</h5>
-                    <p slot="current-stat">75,534 thousands of acre feet (TAF)</p>
-                </drought-reservoir-levels>
-              </div>
+              <drought-reservoir-levels class="data-viz-placement">
+                  <p slot="current-level" class="current-level">
+                      <span id="current-percentage" class="data-viz-pct"></span><br>
+                      of average levels
+                  </p>
+                  <table slot="table-data" id="reservoir-data-table">
+                      <caption>
+                           A chart that shows total major reservoir levels. 
+                      </caption>
+                      <thead>
+                          <tr>
+                              <th id="capacity-taf-heading">Total capacity</th>
+                              <th id="historical-taf-heading">Average level historically</th>
+                              <th id="current-taf-heading">Current level</th>
+                          </tr>
+                      </thead>
+                  </table>
+              </drought-reservoir-levels>
               <div class="data-viz-footer">
                   <p class="data-viz-freq">
                       Updated daily
@@ -104,21 +104,28 @@
                       Snow melt feeds our reservoirs &amp; rivers
                   </p>
               </div>
-              <div class="data-viz-placement">
-                <drought-snowpack-levels>
-                    <h5 slot="summary-header">Summary of current level</h5>
-                    <p slot="summary-stat" class="current-level current-level-flex">
-                        <span class="data-viz-pct"></span>
-                        <span>of average peak snowpack</span>
-                    </p>
-
-                    <h5 slot="historic-peak-header">Average peak snow water equivalent<br>from 1991–2020</h5>
-                    <p slot="historic-peak-stat">25.3 inches</p>
-  
-                    <h5 slot="current-header">Current snow water equivalent</h5>
-                    <p slot="current-stat">1.2 inches</p>
-                </drought-snowpack-levels>
-              </div>
+              <drought-snowpack-levels>
+                  <p slot="current-level" class="current-level current-level-flex">
+                      <span id="current-percentage" class="data-viz-pct"></span>
+                      <span>of average peak snowpack</span>
+                  </p>
+                  <table slot="table-data" id="snowpack-data-table">
+                      <caption>
+                          A chart of current snowpack level compared to the historic April 1 peak.
+                      </caption>
+                      <thead>
+                          <tr>
+                              <th id="snowpack-historic-header">
+                                  Average peak snow water equivalent<br> 
+                                  from 1991–2020
+                              </th>
+                              <th id="snowpack-current-header">
+                                  Current snow water equivalent
+                              </th>
+                          </tr>
+                      </thead>
+                  </table>
+              </drought-snowpack-levels>
               <div class="data-viz-footer">
                   <p class="data-viz-freq">
                       Updated daily
