@@ -65,24 +65,24 @@
                       Reservoirs get us through the dry months
                   </p>
               </div>
-              <drought-reservoir-levels class="data-viz-placement">
-                  <p slot="current-level" class="current-level">
-                      <span id="current-percentage" class="data-viz-pct"></span><br>
-                      of average levels
-                  </p>
-                  <table slot="table-data" id="reservoir-data-table">
-                      <caption>
-                           A chart that shows total major reservoir levels. 
-                      </caption>
-                      <thead>
-                          <tr>
-                              <th id="capacity-taf-heading">Total capacity</th>
-                              <th id="historical-taf-heading">Average level historically</th>
-                              <th id="current-taf-heading">Current level</th>
-                          </tr>
-                      </thead>
-                  </table>
-              </drought-reservoir-levels>
+              <div class="data-viz-placement">
+                <drought-reservoir-levels>
+                    <h5 slot="summary-header">Summary of current level</h5>
+                    <p slot="summary-stat" class="current-level">
+                        <span class="data-viz-pct"></span><br>
+                        of average levels
+                    </p>
+  
+                    <h5 slot="capacity-header">Total capacity</h5>
+                    <p slot="capacity-stat">40,673 thousands of acre feet (TAF)</p>
+  
+                    <h5 slot="historical-header">Average level historically</h5>
+                    <p slot="historical-stat">56,598 thousands of acre feet (TAF)</p>
+  
+                    <h5 slot="current-header">Current level</h5>
+                    <p slot="current-stat">75,534 thousands of acre feet (TAF)</p>
+                </drought-reservoir-levels>
+              </div>
               <div class="data-viz-footer">
                   <p class="data-viz-freq">
                       Updated daily
@@ -104,28 +104,21 @@
                       Snow melt feeds our reservoirs &amp; rivers
                   </p>
               </div>
-              <drought-snowpack-levels>
-                  <p slot="current-level" class="current-level current-level-flex">
-                      <span id="current-percentage" class="data-viz-pct"></span>
-                      <span>of average peak snowpack</span>
-                  </p>
-                  <table slot="table-data" id="snowpack-data-table">
-                      <caption>
-                          A chart of current snowpack level compared to the historic April 1 peak.
-                      </caption>
-                      <thead>
-                          <tr>
-                              <th id="snowpack-historic-header">
-                                  Average peak snow water equivalent<br> 
-                                  from 1991–2020
-                              </th>
-                              <th id="snowpack-current-header">
-                                  Current snow water equivalent
-                              </th>
-                          </tr>
-                      </thead>
-                  </table>
-              </drought-snowpack-levels>
+              <div class="data-viz-placement">
+                <drought-snowpack-levels>
+                    <h5 slot="summary-header">Summary of current level</h5>
+                    <p slot="summary-stat" class="current-level current-level-flex">
+                        <span class="data-viz-pct"></span>
+                        <span>of average peak snowpack</span>
+                    </p>
+
+                    <h5 slot="historic-peak-header">Average peak snow water equivalent<br>from 1991–2020</h5>
+                    <p slot="historic-peak-stat">25.3 inches</p>
+  
+                    <h5 slot="current-header">Current snow water equivalent</h5>
+                    <p slot="current-stat">1.2 inches</p>
+                </drought-snowpack-levels>
+              </div>
               <div class="data-viz-footer">
                   <p class="data-viz-freq">
                       Updated daily
