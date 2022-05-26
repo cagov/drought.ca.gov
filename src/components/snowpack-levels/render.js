@@ -30,18 +30,28 @@ const renderSnowpackLevels = function (html) {
     const unit = $("drought-snowpack-levels").data('unit') || "inches";
     $("drought-snowpack-levels").attr("data-unit", unit);
 
-    $('#snowpack-data-table').append(`
-      <tr id="snowpack-data" 
-        data-current="${latestEntry.avgSwc.toFixed(1)}" 
-        data-historic-peak="${historicPeak.avgAvgSwc.toFixed(1)}">
-        <td class="snowpack-historic">${historicPeak.avgAvgSwc.toFixed(1)} ${unit}</td>
-        <td class="snowpack-current">${latestEntry.avgSwc.toFixed(1)} ${unit}</td>
-      </tr>
-    `);
+    // Get the locale for translating number display, if needed. Commas, decimals, etc.
+    const locale = $("drought-reservoir-levels").data("locale") || "en-US";
+    $("drought-snowpack-levels").attr("data-locale", locale);
+
+    // Format to single decimal.
+    const currentLevel = latestEntry.avgSwc.toFixed(1);
+    const historicPeakLevel = historicPeak.avgAvgSwc.toFixed(1);
+
+    // Set data values on the component.
+    $("drought-snowpack-levels")
+      .attr("data-current", currentLevel)
+      .attr("data-historic-peak", historicPeakLevel);
 
     // If this placeholder is present within the provided mark-up, fill it with value.
-    if ($("#current-percentage").length) {
-      $("#current-percentage").text(`${latestEntry.pctApr1}%`);
+    if ($(".data-viz-pct").length) {
+      $(".data-viz-pct").text(`${latestEntry.pctApr1}%`);
+    }
+    if ($("[slot=current-stat]").length) {
+      $("[slot=current-stat]").text(`${currentLevel.toLocaleString(locale)} ${unit}`);
+    }
+    if ($("[slot=historic-peak-stat]").length) {
+      $("[slot=historic-peak-stat]").text(`${historicPeakLevel.toLocaleString(locale)} ${unit}`);
     }
 
     result = result.replace(originalMarkup, $.html());

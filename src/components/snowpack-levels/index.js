@@ -127,20 +127,11 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     currentCircleHoverTarget.setAttribute('id', 'current-terminus-hover-target');
     graph.append(currentCircleHoverTarget);
 
-    const currentLegendText = this.querySelector('#snowpack-current-header').innerHTML;
-    const currentContent = this.querySelector('.snowpack-current').innerHTML;
-    const currentPopOver = this.buildPopOverElement({
-      container,
-      x: `${((currentCircleX + 15) / fullWidth) * 100}%`,
-      y: `${((currentCircleY) / fullHeight) * 100}%`,
-      content: currentContent,
-      legendText: currentLegendText,
-      legendSvg: `
-        <svg width="26" height="13" viewBox="0 0 26 13" aria-hidden="true">
-          <line x1="0" y1="7" x2="26" y2="7" stroke-linecap="round" class="current" />
-        </svg>
-      `
-    });
+    // Get the pop-over content for the current level.
+    const currentPopOver = this.shadowRoot.querySelector('#current-popover');
+    const currentPopOverX = ((currentCircleX + 15) / fullWidth) * 100;
+    const currentPopOverY = ((currentCircleY) / fullHeight) * 100;
+    currentPopOver.setAttribute('style', `--x:${currentPopOverX}%; --y:${currentPopOverY}%; --x-offset-m:0%;`);
     this.setUpPopOvers(currentPopOver, currentCircleHoverTarget);
 
     // Add the "historic peak" text next to the above circle.
@@ -168,21 +159,11 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     peakCircleHoverTarget.setAttribute('id', 'historic-peak-hover-target');
     graph.append(peakCircleHoverTarget);
 
-    // Build the pop-over for historic peak.
-    const historicLegendText = this.querySelector('#snowpack-historic-header').innerHTML;
-    const historicContent = this.querySelector('.snowpack-historic').innerHTML;
-    const historicPeakPopOver = this.buildPopOverElement({
-      container,
-      x: `${((peakX + 15) / fullWidth) * 100}%`,
-      y: `${(peakY / fullHeight) * 100}%`,
-      content: historicContent,
-      legendText: historicLegendText,
-      legendSvg: `
-        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
-          <circle r="4" cx="5" cy="5" class="peak" />
-        </svg>
-      `
-    });
+    // Get the pop-over content for the historic peak.
+    const historicPeakPopOver = this.shadowRoot.querySelector('#historic-peak-popover');
+    const historicPeakPopOverX = ((peakX + 15) / fullWidth) * 100;
+    const historicPeakPopOverY = (peakY / fullHeight) * 100;
+    historicPeakPopOver.setAttribute('style', `--x:${historicPeakPopOverX}%; --y:${historicPeakPopOverY}%; --x-offset-m:0%;`);
     this.setUpPopOvers(historicPeakPopOver, peakCircleHoverTarget);
   }
 }
