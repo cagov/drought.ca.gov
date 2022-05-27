@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-27T21:03:54",
-    "updated_date": "2022-05-27T21:03:54",
+    "updated_date": "2022-05-27T21:47:26",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-05-27T14:03:54",
     "date_gmt": "2022-05-27T21:03:54",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/05/SummerWaterSupply2019-2021-full-notext.webp",
-    "modified": "2022-05-27T14:03:54",
-    "modified_gmt": "2022-05-27T21:03:54",
+    "modified": "2022-05-27T14:47:26",
+    "modified_gmt": "2022-05-27T21:47:26",
     "slug": "summerwatersupply2019-2021-full-notext",
     "status": "inherit",
     "type": "attachment",
