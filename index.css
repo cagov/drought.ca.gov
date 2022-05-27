@@ -8243,6 +8243,29 @@ cagov-page-feedback {
   margin-bottom: 2rem;
 }
 
+.cagov-featured-image-absolute-box {
+  position: relative;
+}
+
+.cagov-featured-image-label {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.25rem;
+  margin: 0;
+  bottom: 5%;
+  font-size: 0.62em;
+  letter-spacing: 0.0075em;
+  text-transform: uppercase;
+  max-width: 49%;
+}
+.cagov-featured-image-label-left {
+  right: 50%;
+}
+.cagov-featured-image-label-right {
+  right: 0%;
+}
+
 .cagov-featured-image {
   height: inherit;
   max-height: none;
