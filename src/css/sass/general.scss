@@ -1,3 +1,26 @@
 cagov-page-feedback {
   margin-bottom: 2rem;
 }
+
+.cagov-featured-image-absolute-box {
+  position: relative;
+}
+
+.cagov-featured-image-label {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 0.6rem 1.25rem;
+  margin: 0;
+  bottom: 5%;
+  font-size: .62em;
+  letter-spacing: .0075em;
+  text-transform: uppercase;
+  max-width: 49%;
+  &-left {
+    right: 50%;
+  }
+  &-right {
+    right: 0%;
+  }
+}
