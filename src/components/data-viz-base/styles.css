@@ -2,6 +2,7 @@
   position: absolute;
   display: flex;
   flex-direction: column-reverse;
+  row-gap: .5rem;
   left: -10000px;
   top: auto;
   width: 1px;
