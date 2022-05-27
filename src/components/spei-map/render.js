@@ -26,7 +26,7 @@ const renderSpeiMapData = function (html) {
     /<span class="spei-map-data-date">[\s\S]*?<\/span>/gm
   );
 
-  for (date in updateDateSpans) {
+  for (date of updateDateSpans) {
     let { 0: originalMarkup, index } = date;
     let $ = cheerio.load(originalMarkup, null, false);
 
@@ -35,11 +35,11 @@ const renderSpeiMapData = function (html) {
     result = result.replace(originalMarkup, $.html());
   }
 
-  for (date in dataDateSpans) {
+  for (date of dataDateSpans) {
     let { 0: originalMarkup, index } = date;
     let $ = cheerio.load(originalMarkup, null, false);
 
-    $(".spei-map-data-date").text(updateDate);
+    $(".spei-map-data-date").text(dataDate);
 
     result = result.replace(originalMarkup, $.html());
   }
