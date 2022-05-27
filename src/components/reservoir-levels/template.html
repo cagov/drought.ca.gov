@@ -1,6 +1,13 @@
 <div class="reservoir-data-viz">
-  <div class="reservoir-data-viz-graphic popover-container" aria-hidden="true">
-    <svg width="150" height="150" viewBox="0 0 150 150">
+  <div class="reservoir-data-viz-overall">
+    <div class="sr-only">
+      <slot name="summary-header"></slot>
+    </div>
+    <slot name="summary-stat"></slot>
+  </div>
+
+  <div class="reservoir-data-viz-graphic popover-container">
+    <svg width="150" height="150" viewBox="0 0 150 150" aria-hidden="true">
       <defs>
         <!-- Clip in rounded corners on the bottom of the water. -->
         <clipPath id="rounded-water-bottom">
@@ -16,12 +23,36 @@
       <!-- Draw an invisible rectangle over the line, to help people hover over it. -->
       <rect id="historical-line-hover-target" x="0" y="0" width="150" height="10" />
     </svg>
+
+    <div tabindex="0" id="capacity-popover" class="popover-content">
+      <div class="popover-legend">
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
+          <rect x="0" y="0" width="10" height="10" class="capacity"></rect>
+        </svg>
+        <slot name="capacity-header"></slot>
+      </div>
+      <slot name="capacity-stat"></slot>
+    </div>
+  
+    <div tabindex="0" id="historical-popover" class="popover-content">
+      <div class="popover-legend">
+        <svg width="26" height="13" viewBox="0 0 26 13" aria-hidden="true">
+          <line x1="0" y1="7" x2="26" y2="7" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round" class="historical"></line>
+        </svg>
+        <slot name="historical-header"></slot>
+      </div>
+      <slot name="historical-stat"></slot>
+    </div>
+  
+    <div tabindex="0" id="current-popover" class="popover-content">
+      <div class="popover-legend">
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
+          <rect x="0" y="0" width="10" height="10" class="filled"></rect>
+        </svg>
+        <slot name="current-header"></slot>
+      </div>
+      <slot name="current-stat"></slot>
+    </div>
   </div>
 
-  <div class="reservoir-data-viz-overall">
-    <slot name="current-level"></slot>
-  </div>
-</div>
-<div class="sr-only">
-  <slot name="table-data"></slot>
 </div>

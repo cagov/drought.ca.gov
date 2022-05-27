@@ -1,10 +1,13 @@
 <div class="snowpack-data-viz">
   <div class="snowpack-data-viz-overall">
-    <slot name="current-level"></slot>
+    <div class="sr-only">
+      <slot name="summary-header"></slot>
+    </div>
+    <slot name="summary-stat"></slot>
   </div>
 
-  <div class="popover-container" aria-hidden="true">
-    <svg id="snowpack-graph" width="365" height="175" viewBox="0 0 365 175">
+  <div class="popover-container">
+    <svg id="snowpack-graph" width="365" height="175" viewBox="0 0 365 175" aria-hidden="true">
       <line x1="0" y1="145" x2="365" y2="145" stroke-width="1" />
   
       <line x1="31" y1="0" x2="31" y2="145" stroke-width="1" />
@@ -25,8 +28,26 @@
       <line x1="335" y1="0" x2="335" y2="145" stroke-width="1" />
       <text x="335" y="160" dominant-baseline="middle" id="snowpack-month-9" text-anchor="middle"></text>
     </svg>
+  
+    <div tabindex="0" id="historic-peak-popover" class="popover-content">
+      <div class="popover-legend">
+        <svg width="13" height="13" viewBox="0 0 10 10" aria-hidden="true">
+          <circle r="4" cx="5" cy="5" class="peak" />
+        </svg>
+        <slot name="historic-peak-header"></slot>
+      </div>
+      <slot name="historic-peak-stat"></slot>
+    </div>
+
+    <div tabindex="0" id="current-popover" class="popover-content">
+      <div class="popover-legend">
+        <svg width="26" height="13" viewBox="0 0 26 13" aria-hidden="true">
+          <line x1="0" y1="7" x2="26" y2="7" stroke-linecap="round" class="current" />
+        </svg>
+        <slot name="current-header"></slot>
+      </div>
+      <slot name="current-stat"></slot>
+    </div>
+    
   </div>
-</div>
-<div class="sr-only">
-  <slot name="table-data"></slot>
 </div>
