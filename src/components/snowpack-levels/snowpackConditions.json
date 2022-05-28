@@ -1917,8 +1917,8 @@
             "day": 27,
             "avg": 0.382,
             "wmonth": 8,
-            "norm": 29.84,
-            "avgAvgSwc": 8.79
+            "norm": 28.71,
+            "avgAvgSwc": 8.43
         },
         {
             "month": 5,
@@ -4462,6 +4462,13 @@
             "pctApr1": 3,
             "pctNormal": 8,
             "avgSwc": 1
+        },
+        {
+            "swcDate": "2022-05-27",
+            "numSta": 167,
+            "pctApr1": 3,
+            "pctNormal": 8,
+            "avgSwc": 0.7
         }
     ],
     "section": "STATE",
