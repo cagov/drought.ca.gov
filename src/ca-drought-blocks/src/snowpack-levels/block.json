@@ -8,12 +8,13 @@
   "icon": "chart-area",
   "description": "A data visualization depicting current snowpack levels.",
   "attributes": {
-    "lede": {
-      "type": "string"
-    },
-    "caption": {
+    "srIntro": {
       "type": "string",
-      "default": "A chart of current snowpack level compared to the historic April 1 peak."
+      "default": "Summary of current level"
+    },
+    "lede": {
+      "type": "string",
+      "default": "<span class='data-viz-pct'>X%</span> of average peak snowpack"
     },
     "unit": {
       "type": "string",

@@ -6,6 +6,7 @@ class SnowpackLevels extends DynamicBlock {
   public function render( $attributes, $content ): string {
     $classList = $this->createClassList($attributes);
     $unit = $attributes['unit'] ?? '';
+    $srIntro = $attributes['srIntro'] ?? '';
     $lede = $attributes['lede'] ?? '';
     $caption = $attributes['caption'] ?? '';
     $historicPeakHeading = $attributes['historicPeakHeading'] ?? '';
@@ -17,27 +18,15 @@ class SnowpackLevels extends DynamicBlock {
       <drought-snowpack-levels 
         class="$classList"
         data-unit="$unit"
+        data-current="$currentLevel"
+        data-historic-peak="$historicPeakLevel"
       >
-        <p slot="current-level" class="current-level current-level-flex">$lede</p>
-        <table slot="table-data" id="snowpack-data-table">
-          <caption>$caption</caption>
-          <thead>
-            <tr>
-              <th id="snowpack-historic-header">$historicPeakHeading</th>
-              <th id="snowpack-current-header">$currentHeading</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr 
-              id="snowpack-data"
-              data-current="$currentLevel"
-              data-historic-peak="$historicPeakLevel"
-            >
-              <td class="snowpack-historic">$historicPeakLevel $unit</td>
-              <td class="snowpack-current">$currentLevel $unit</td>
-            </tr> 
-          </tbody>
-        </table>
+        <h5 slot="summary-header">$srIntro</h5>
+        <p slot="summary-stat" class="current-level current-level-flex">$lede</p>
+        <h5 slot="historic-peak-header">$historicPeakHeading</h5>
+        <p slot="historic-peak-stat">$historicPeakLevel $unit</p>
+        <h5 slot="current-header">$currentHeading</h5>
+        <p slot="current-stat">$currentLevel $unit</p>
       </drought-snowpack-levels>
     HTML;
   }

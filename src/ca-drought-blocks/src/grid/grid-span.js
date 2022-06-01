@@ -6,7 +6,7 @@ import { createHigherOrderComponent } from "@wordpress/compose";
 import { RadioControl, ToggleControl } from "@wordpress/components";
 
 const allowedParents = [
-  "ca-drought-blocks/home-grid"
+  "ca-drought-blocks/grid"
 ];
 const allowedBlocks = [
   "core/group",
@@ -41,6 +41,7 @@ const insertGridSpanControlWidget = createHigherOrderComponent((BlockEdit) => {
   return (props) => {
     const {
       name,
+      clientId,
       attributes,
       setAttributes,
       isSelected
@@ -50,6 +51,8 @@ const insertGridSpanControlWidget = createHigherOrderComponent((BlockEdit) => {
       gridSpanSetting,
       className 
     } = attributes;
+
+    console.log(props)
 
     const onSpanSelection = (str) => {
       const allClasses = className.split(" ");
@@ -102,42 +105,29 @@ const insertGridSpanControlWidget = createHigherOrderComponent((BlockEdit) => {
       })
     }
 
-    const toggleAllowed = () => {
-      if (!isSelected) { return false; }
+    const toggleAllowed = useSelect((select) => {
+      if (!isSelected || !allowedBlocks.includes(name)) { 
+        return false; 
+      }
 
-      const selectedBlock = useSelect((select) => select("core/block-editor").getSelectedBlock(), []);
-      
-      if (!selectedBlock || !allowedBlocks.includes(selectedBlock.name)) { return false; }
+      const allParents = select('core/block-editor').getBlockParents(clientId);
 
-      const { clientId } = selectedBlock;
+      if (allParents.length > 0) {
+        const nearestParent = select('core/block-editor').getBlock(allParents.slice(-1)[0]);
+        return (nearestParent && allowedParents.includes(nearestParent.name)) ? true : false;
+      }
 
-      const parentBlock = useSelect((select) => {
-        const allParents = select('core/block-editor').getBlockParents(clientId);
-    
-        if (allParents.length > 0) {
-          const nearestParent = select('core/block-editor').getBlock(allParents.slice(-1)[0]);
-          return nearestParent;
-        }
-    
-        return null;
-      }, []);
-
-      console.log(parentBlock);
-
-      return (parentBlock && allowedParents.includes(parentBlock.name))
-        ? true
-        : false;
-    }
+      return false;
+    });
 
     const ControlWidget = () => {
-      if (toggleAllowed()) {
+      if (toggleAllowed) {
         return (
           <InspectorAdvancedControls>
             <ToggleControl
               label="Enable grid span"
               help="Enables control of how many cells this block will occupy within a layout grid."
-              checked={ gridSpanToggle }
-              // Need to add className modification here too. See above.
+              checked={gridSpanToggle}
               onChange={onSpanToggle}
             />
             <SettingsWidget/>

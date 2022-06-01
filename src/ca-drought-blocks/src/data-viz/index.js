@@ -2,18 +2,15 @@ import { registerBlockType } from "@wordpress/blocks";
 import { 
   useBlockProps, 
   useInnerBlocksProps, 
-  InnerBlocks, 
-  InspectorControls 
+  InnerBlocks
 } from "@wordpress/block-editor";
 import { addPercentageFormat } from "./data-viz-pct.js";
 import "./style.scss";
 import "./editor.scss";
 
-const edit = (props) => {
-  const { gridSpan } = props.attributes;
-
+const edit = () => {
   const blockProps = useBlockProps({
-    className: `data-viz ${gridSpan}`,
+    className: `data-viz`,
   });
 
   const innerBlocksProps = useInnerBlocksProps(
@@ -40,10 +37,8 @@ const edit = (props) => {
           { 
             className: "data-viz-placement",
             lock: { move: true, remove: true }
-          }, 
-          [
-            ["core/html"]
-          ]],
+          }
+        ],
         ["core/group", 
           { 
             className: "data-viz-footer",
@@ -70,7 +65,6 @@ const edit = (props) => {
     <div {...innerBlocksProps}></div>
   );
 }
-
 
 const save = () => <InnerBlocks.Content />;
 

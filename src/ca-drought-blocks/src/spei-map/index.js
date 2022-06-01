@@ -8,6 +8,8 @@ import {
   RichText,
   InspectorControls
 } from "@wordpress/block-editor";
+import { addSpeiMapDataDateFormat } from "./spei-map-data-date.js";
+import { addSpeiMapUpdateDateFormat } from "./spei-map-update-date.js";
 import "./style.scss";
 import "./editor.scss";
 
@@ -156,3 +158,6 @@ registerBlockType("ca-drought-blocks/spei-map", {
   edit,
   save,
 });
+
+addSpeiMapUpdateDateFormat();
+addSpeiMapDataDateFormat();

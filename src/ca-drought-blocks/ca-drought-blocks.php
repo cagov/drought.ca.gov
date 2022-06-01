@@ -33,7 +33,6 @@ include 'src/spei-map/index.php';
 
 include 'src/heading-with-more/index.php';
 include 'src/section-block/index.php';
-include 'src/full-bleed-content-area/index.php';
 
 include 'src/grid/index.php';
 

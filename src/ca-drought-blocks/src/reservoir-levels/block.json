@@ -8,12 +8,13 @@
   "icon": "chart-area",
   "description": "A data visualization depicting current levels across major reservoirs.",
   "attributes": {
-    "lede": {
-      "type": "string"
-    },
-    "caption": {
+    "srIntro": {
       "type": "string",
-      "default": "A chart that shows total major reservoir levels."
+      "default": "Summary of current level"
+    },
+    "lede": {
+      "type": "string",
+      "default": "<span class='data-viz-pct'>X%</span> of average levels"
     },
     "unit": {
       "type": "string",

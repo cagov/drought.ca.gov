@@ -5,9 +5,9 @@ include_once(__DIR__ . "/../base/dynamic-block.php");
 class ReservoirLevels extends DynamicBlock {
   public function render( $attributes, $content ): string {
     $classList = $this->createClassList($attributes);
+    $srIntro = $attributes['srIntro'] ?? '';
     $unit = $attributes['unit'] ?? '';
     $lede = $attributes['lede'] ?? '';
-    $caption = $attributes['caption'] ?? '';
     $capacityHeading = $attributes['capacityHeading'] ?? '';
     $historicalHeading = $attributes['historicalHeading'] ?? '';
     $currentHeading = $attributes['currentHeading'] ?? '';
@@ -23,24 +23,14 @@ class ReservoirLevels extends DynamicBlock {
         data-historical-taf="$historicalTaf"
         data-current-taf="$currentTaf"
       >
-        <p slot="current-level" class="current-level">$lede</p>
-        <table slot="table-data" id="reservoir-data-table">
-          <caption>$caption</caption>
-          <thead>
-            <tr>
-              <th id="capacity-taf-heading">$capacityHeading</th>
-              <th id="historical-taf-heading">$historicalHeading</th>
-              <th id="current-taf-heading">$currentHeading</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr id="reservoir-data">
-              <td class="reservoir-capacity">$capacityTaf $unit</td>
-              <td class="reservoir-historic">$historicalTaf $unit</td>
-              <td class="reservoir-current">$currentTaf $unit</td>
-            </tr> 
-          </tbody>
-        </table>
+        <h5 slot="summary-header">$srIntro</h5>
+        <p slot="summary-stat" class="current-level">$lede</p>
+        <h5 slot="capacity-header">$capacityHeading</h5>
+        <p slot="capacity-stat">$capacityTaf $unit</p>
+        <h5 slot="historical-header">$historicalHeading</h5>
+        <p slot="historical-stat">$historicalTaf $unit</p>
+        <h5 slot="current-header">$currentHeading</h5>
+        <p slot="current-stat">$currentTaf $unit</p>
       </drought-reservoir-levels>
     HTML;
   }

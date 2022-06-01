@@ -14,9 +14,9 @@ import "./editor.scss";
 const edit = (props) => {
   const { attributes, setAttributes } = props;
   const { 
+    srIntro,
     lede, 
     unit,
-    caption,
     historicPeakLevel,
     currentLevel,
     historicPeakHeading,
@@ -24,7 +24,9 @@ const edit = (props) => {
   } = attributes;
 
   const blockProps = useBlockProps({
-    "data-unit": unit
+    "data-unit": unit,
+    "data-historic-peak": historicPeakLevel,
+    "data-current": currentLevel
   });
 
   return (
@@ -50,49 +52,36 @@ const edit = (props) => {
       </InspectorControls>
       <drought-snowpack-levels {...blockProps}>
         <RichText
+          tagName="h5"
+          slot="summary-header"
+          value={srIntro} 
+          onChange={(str) => setAttributes({srIntro: str})}
+          placeholder='Heading for current summary...'
+        />
+        <RichText
           tagName="p"
           className="current-level current-level-flex"
-          slot="current-level"
+          slot="summary-stat"
           value={lede} 
           onChange={(str) => setAttributes({lede: str})}
           placeholder='Summarize current levels...'
         />
-        <table slot="table-data" id="snowpack-data-table">
-          <RichText
-            tagName="caption"
-            value={caption} 
-            onChange={(str) => setAttributes({caption: str})}
-            placeholder='Provide an alt description...'
-          />
-          <thead>
-            <tr>
-              <RichText
-                tagName="th"
-                id="snowpack-historic-header"
-                value={historicPeakHeading} 
-                onChange={(str) => setAttributes({historicPeakHeading: str})}
-                placeholder='Heading for historical average...'
-              />
-              <RichText
-                tagName="th"
-                id="snowpack-current-header"
-                value={currentHeading} 
-                onChange={(str) => setAttributes({currentHeading: str})}
-                placeholder='Heading for current level...'
-              />
-            </tr>
-          </thead>
-          <tbody>
-            <tr 
-              id="snowpack-data" 
-              data-current={currentLevel} 
-              data-historic-peak={historicPeakLevel}
-            >
-              <td className="snowpack-historic">{historicPeakLevel} {unit}</td>
-              <td className="snowpack-current">{currentLevel} {unit}</td>
-            </tr> 
-          </tbody>
-        </table>
+        <RichText
+          tagName="h5"
+          slot="historic-peak-header"
+          value={historicPeakHeading} 
+          onChange={(str) => setAttributes({historicPeakHeading: str})}
+          placeholder='Heading for historic peak levels...'
+        />
+        <p slot="historic-peak-stat">{historicPeakLevel} {unit}</p>
+        <RichText
+          tagName="h5"
+          slot="current-header"
+          value={currentHeading} 
+          onChange={(str) => setAttributes({currentHeading: str})}
+          placeholder='Heading for current levels...'
+        />
+        <p slot="current-stat">{currentLevel} {unit}</p>
       </drought-snowpack-levels>
     </>
   );
