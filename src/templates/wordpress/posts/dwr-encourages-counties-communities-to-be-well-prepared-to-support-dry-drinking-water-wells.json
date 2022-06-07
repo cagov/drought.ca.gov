@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-06-07T23:15:00",
-    "updated_date": "2022-06-07T23:24:46",
+    "updated_date": "2022-06-07T23:33:29",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-06-07T16:15:00",
     "date_gmt": "2022-06-07T23:15:00",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1506",
-    "modified": "2022-06-07T16:24:46",
-    "modified_gmt": "2022-06-07T23:24:46",
+    "modified": "2022-06-07T16:33:29",
+    "modified_gmt": "2022-06-07T23:33:29",
     "slug": "dwr-encourages-counties-communities-to-be-well-prepared-to-support-dry-drinking-water-wells",
     "status": "publish",
     "type": "post",
