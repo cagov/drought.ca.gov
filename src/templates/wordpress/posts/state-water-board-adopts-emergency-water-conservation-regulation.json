@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "created_date": "2022-06-07T23:51:51",
+    "updated_date": "2022-06-07T23:54:19",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1513,
+    "date": "2022-06-07T16:51:51",
+    "date_gmt": "2022-06-07T23:51:51",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1513",
+    "modified": "2022-06-07T16:54:19",
+    "modified_gmt": "2022-06-07T23:54:19",
+    "slug": "state-water-board-adopts-emergency-water-conservation-regulation",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-emergency-water-conservation-regulation/",
+    "title": "State Water Board adopts emergency water conservation regulation",
+    "excerpt": "<p>In response to Governor Gavin Newsom’s order, the State Water Board <a href=\"https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/regs/docs/emergency-reg-faq-june-22.pdf\">adopted an emergency water conservation regulation</a> that will ensure more aggressive conservation by local water agencies across the state.</p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "status",
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "2022-05-24",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "Action"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-emergency-water-conservation-regulation/",
+      "page_title": "State Water Board adopts emergency water conservation regulation",
+      "page_description": "<p>In response to Governor Gavin Newsom’s order, the State Water Board <a href=\"https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/regs/docs/emergency-reg-faq-june-22.pdf\">adopted an emergency water conservation regulation</a> that will ensure more aggressive conservation by local water agencies across the state.</p>",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Water Board adopts emergency water conservation regulation",
+      "meta_description": "<p>In response to Governor Gavin Newsom’s order, the State Water Board <a href=\"https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/regs/docs/emergency-reg-faq-june-22.pdf\">adopted an emergency water conservation regulation</a> that will ensure more aggressive conservation by local water agencies across the state.</p>",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-emergency-water-conservation-regulation/",
+      "open_graph_title": "State Water Board adopts emergency water conservation regulation",
+      "open_graph_description": "<p>In response to Governor Gavin Newsom’s order, the State Water Board <a href=\"https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/regs/docs/emergency-reg-faq-june-22.pdf\">adopted an emergency water conservation regulation</a> that will ensure more aggressive conservation by local water agencies across the state.</p>",
+      "twitter_title": "State Water Board adopts emergency water conservation regulation",
+      "twitter_description": "<p>In response to Governor Gavin Newsom’s order, the State Water Board <a href=\"https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/regs/docs/emergency-reg-faq-june-22.pdf\">adopted an emergency water conservation regulation</a> that will ensure more aggressive conservation by local water agencies across the state.</p>"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Action",
+        "slug": "action",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Action",
+        "category_nicename": "action",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-05-24",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-emergency-water-conservation-regulation/"
+  }
+}
