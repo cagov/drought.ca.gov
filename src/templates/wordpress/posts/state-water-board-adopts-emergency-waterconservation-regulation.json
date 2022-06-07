@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-05-26T20:17:30",
-    "updated_date": "2022-05-26T20:25:51",
+    "updated_date": "2022-06-07T23:35:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-05-26T13:17:30",
     "date_gmt": "2022-05-26T20:17:30",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1483",
-    "modified": "2022-05-26T13:25:51",
-    "modified_gmt": "2022-05-26T20:25:51",
+    "modified": "2022-06-07T16:35:01",
+    "modified_gmt": "2022-06-07T23:35:01",
     "slug": "state-water-board-adopts-emergency-waterconservation-regulation",
     "status": "publish",
     "type": "post",
