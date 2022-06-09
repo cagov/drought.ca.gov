@@ -2013,8 +2013,8 @@
             "day": 8,
             "avg": 0.227,
             "wmonth": 9,
-            "norm": 18.94,
-            "avgAvgSwc": 5.43
+            "norm": 18.06,
+            "avgAvgSwc": 5.17
         },
         {
             "month": 6,
@@ -4542,6 +4542,13 @@
         },
         {
             "swcDate": "2022-06-07",
+            "numSta": 99,
+            "pctApr1": 1,
+            "pctNormal": 4,
+            "avgSwc": 0.2
+        },
+        {
+            "swcDate": "2022-06-08",
             "numSta": 99,
             "pctApr1": 1,
             "pctNormal": 4,
