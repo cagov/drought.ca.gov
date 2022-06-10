@@ -1,19 +1,25 @@
-drought-reservoir-levels:defined .data-viz-pct,
-drought-snowpack-levels:defined .data-viz-pct {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-drought-reservoir-levels:defined .current-level,
-drought-snowpack-levels:defined .current-level {
-  font-size: 1.1rem;
-  margin: 0;
-  &-flex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    column-gap: .25rem;
-    line-height: 1.3;
+drought-reservoir-levels:defined,
+drought-snowpack-levels:defined {
+  .data-viz-pct {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .current-level {
+    font-size: 1.1rem;
+    margin: 0;
+    &-flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: .25rem;
+      line-height: 1.3;
+    }
+  }
+  h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: unset;
   }
 }
 
@@ -136,7 +142,7 @@ drought-spei-map {
   &-placement {
     flex-grow: 5;
     display: flex;
-    margin: 1rem 0;
+    align-items: center;
     table, td, th {
       font-size: .8em;
       border-collapse: collapse;
@@ -209,6 +215,7 @@ drought-spei-map {
     }
     &-banner {
       width: 100%;
+      height: auto;
     }
     p:last-child {
       margin-bottom: 0;
@@ -237,6 +244,7 @@ drought-spei-map {
   .data-viz-placement {
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     .data-viz-stat {
       font-size: 1.5em;
       font-weight: 700;
@@ -251,13 +259,11 @@ drought-spei-map {
   background-color: #F9F9FA;
   img { 
     width: 100%;
+    height: auto;
     vertical-align: middle;
   }
   &-content {
     padding: 1rem;
-    a {
-      text-decoration: none;
-    }
     h4 {
       margin-top: 0;
     }

@@ -5,7 +5,7 @@ on:
       - main
   workflow_run:
     workflows: 
-      - "Generate Drought Map"
+      - "Fetch Drought Data"
     types: 
       - completed
 jobs:
@@ -16,10 +16,10 @@ jobs:
         with: 
           token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/checkout@master
-      - name: Use Node.js 14.17.0
+      - name: Use Node.js 16
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17.0
+          node-version: 16
       - name: Build 11ty
         run: |
           mkdir dist
@@ -41,9 +41,8 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: 'us-west-1'   # optional: defaults to us-east-1
           SOURCE_DIR: ./docs # only move built directory
-
       # Reset the cache-control headers on static assets on production S3 bucket
-      - name: Reset cache-control on static files
+      - name: Reset cache-control on fonts
         uses: prewk/s3-cp-action@v2
         with:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -52,7 +51,24 @@ jobs:
           source: './docs/fonts'
           dest: 's3://drought.ca.gov/fonts'
           flags: --recursive --cache-control max-age=15552000
-
+      - name: Reset cache-control on assets
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/assets'
+          dest: 's3://drought.ca.gov/assets'
+          flags: --recursive --cache-control max-age=15552000
+      - name: Reset cache-control on media
+        uses: prewk/s3-cp-action@v2
+        with:
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws_region: 'us-west-1'   # optional: defaults to us-east-1
+          source: './docs/media'
+          dest: 's3://drought.ca.gov/media'
+          flags: --recursive --cache-control max-age=15552000
       # Invalidate Cloudfront production distribution
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@v1.3
