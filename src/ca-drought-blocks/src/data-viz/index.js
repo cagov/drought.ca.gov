@@ -24,7 +24,7 @@ const edit = () => {
             lock: { move: true, remove: true }
           }
         ],
-        ["core/group", 
+        ["ca-drought-blocks/div", 
           { 
             className: "data-viz-desc",
             lock: { move: true, remove: true } 
@@ -33,19 +33,22 @@ const edit = () => {
             ["core/paragraph", { placeholder: "Data visual description..." }]
           ]
         ],
-        ["core/group", 
+        ["ca-drought-blocks/div", 
           { 
             className: "data-viz-placement",
             lock: { move: true, remove: true }
-          }
+          },
+          [
+            ["core/html"]
+          ]
         ],
-        ["core/group", 
+        ["ca-drought-blocks/div", 
           { 
             className: "data-viz-footer",
             lock: { move: true, remove: true } 
           }, 
           [
-            ["core/group", 
+            ["ca-drought-blocks/div", 
               { 
                 className: "data-viz-freq" 
               }, 

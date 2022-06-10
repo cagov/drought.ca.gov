@@ -18,8 +18,8 @@ const edit = () => {
     {
       template: [
         ["ca-drought-blocks/decorative-image", {lock: {remove: true}}],
-        ["core/group", {lock: {remove: true}}, [
-          ["core/paragraph", { placeholder: "Information to highlight...", className: "test" }]
+        ["ca-drought-blocks/div", {className: "highlight-box-item-content", lock: {remove: true}}, [
+          ["core/paragraph", { placeholder: "Information to highlight..." }]
         ]]
       ],
       templateLock: false,

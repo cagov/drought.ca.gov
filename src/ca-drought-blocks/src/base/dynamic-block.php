@@ -37,7 +37,7 @@ abstract class DynamicBlock extends Block {
     $className = $attributes['className'] ?? '';
     $wpConfiguredClasses = strlen($className) > 0 ? ' ' . $className : '';
     $classList = join(' ', $classes) . $wpConfiguredClasses;
-    return $classList;
+    return trim($classList);
   }
 }
 

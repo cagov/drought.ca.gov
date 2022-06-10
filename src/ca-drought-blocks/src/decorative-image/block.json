@@ -19,6 +19,14 @@
     "imgAlt": {
       "type": "string",
       "default": ""
+    },
+    "imgWidth": {
+      "type": "number",
+      "default": 0
+    },
+    "imgHeight": {
+      "type": "number",
+      "default": 0
     }
   },
   "supports": {

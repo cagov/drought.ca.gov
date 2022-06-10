@@ -6,6 +6,7 @@ import {
   MediaUpload,
   MediaUploadCheck
 } from "@wordpress/block-editor";
+import { useEffect } from 'react';
 import "./style.scss";
 import "./editor.scss";
 
@@ -14,7 +15,9 @@ const HighlightBoxItemEdit = (props) => {
   const { 
     imgId,
     imgUrl,
-    imgAlt
+    imgAlt,
+    imgWidth,
+    imgHeight
   } = attributes;
 
   const blockProps = useBlockProps({
@@ -24,13 +27,17 @@ const HighlightBoxItemEdit = (props) => {
   const deleteImg = () => setAttributes({ 
     imgId: 0, 
     imgUrl: "", 
-    imgAlt: "" 
+    imgAlt: "",
+    imgWidth: 0,
+    imgHeight: 0
   });
 
   const selectImg = (media) => setAttributes({
     imgId: media.id,
     imgUrl: media.url,
-    imgAlt: media.alt_text
+    imgAlt: media.alt,
+    imgWidth: media.width,
+    imgHeight: media.height,
   });
 
   const RemovalCheck = () => {
@@ -79,7 +86,7 @@ const HighlightBoxItemEdit = (props) => {
   const MediaCheck = () => {
     if (imgId) {
       return (
-        <img src={imgUrl} alt={imgAlt} />
+        <img src={imgUrl} alt={imgAlt} width={imgWidth} height={imgHeight} />
       );
     } else {
       const renderImgButton = ({open}) => (

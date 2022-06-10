@@ -25,6 +25,7 @@ function register_drought_block_categories( $categories ) {
 add_action( 'block_categories_all', 'register_drought_block_categories', 10, 2 );
 
 include 'src/decorative-image/index.php';
+include 'src/div/index.php';
 
 include 'src/data-viz/index.php';
 include 'src/reservoir-levels/index.php';

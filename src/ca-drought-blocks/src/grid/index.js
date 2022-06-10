@@ -14,11 +14,13 @@ const edit = () => {
     {
       orientation: "horizontal",
       template: [
-        ["core/group"]
+        ["ca-drought-blocks/div"]
       ],
       allowedBlocks: [
         "core/group",
-        "ca-drought-blocks/data-viz"
+        "ca-drought-blocks/div",
+        "ca-drought-blocks/data-viz",
+        "ca-drought-blocks/decorative-image"
       ]
     }
   );

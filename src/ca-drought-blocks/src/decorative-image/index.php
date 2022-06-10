@@ -7,9 +7,11 @@ class DecorativeImage extends DynamicBlock {
     $classList = $this->createClassList($attributes);
     $imgUrl = $attributes['imgUrl'] ?? '';
     $imgAlt = $attributes['imgAlt'] ?? '';
+    $imgWidth = $attributes['imgWidth'] ?? '';
+    $imgHeight = $attributes['imgHeight'] ?? '';
 
     return <<<HTML
-      <img src="$imgUrl" alt="$imgAlt" class="$classList">
+      <img src="$imgUrl" alt="$imgAlt" class="$classList" width="$imgWidth" height="$imgHeight">
     HTML;
   }
 }

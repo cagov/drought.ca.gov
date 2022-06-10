@@ -10,6 +10,8 @@ const allowedParents = [
 ];
 const allowedBlocks = [
   "core/group",
+  "ca-drought-blocks/decorative-image",
+  "ca-drought-blocks/div",
   "ca-drought-blocks/data-viz"
 ];
 
