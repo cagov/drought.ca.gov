@@ -11,10 +11,6 @@
     "fullBleed": {
       "type": "boolean",
       "default": false
-    },
-    "color": {
-      "type": "string",
-      "default": "#FFFFFF"
     }
   },
   "supports": {

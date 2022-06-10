@@ -9,7 +9,8 @@ import "./editor.scss";
 
 const allowedBlocks = [
   "ca-drought-blocks/reservoir-levels",
-  "ca-drought-blocks/snowpack-levels"
+  "ca-drought-blocks/snowpack-levels",
+  "ca-drought-blocks/data-viz",
 ]
 
 const DataVizPercentageButton = ({isActive, onChange, value}) => {
@@ -23,9 +24,9 @@ const DataVizPercentageButton = ({isActive, onChange, value}) => {
 
   // If the selected block's name is not in our list of allowed blocks (above), escape.
   // This will prevent showing this button anywhere else.
-  if (!allowedBlocks.includes(selectedBlock.name)) {
-    return null;
-  }
+  // if (!allowedBlocks.includes(selectedBlock.name)) {
+    // return null;
+  // }
 
   return (
     <RichTextToolbarButton

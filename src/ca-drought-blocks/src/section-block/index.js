@@ -1,7 +1,6 @@
 import { registerBlockType } from "@wordpress/blocks";
 import {
 	ToggleControl,
-  ColorPicker,
 	PanelBody,
 } from '@wordpress/components';
 import { 
@@ -15,15 +14,14 @@ import "./editor.scss";
 
 const edit = (props) => {
   const { attributes, setAttributes } = props;
-  const { fullBleed, color } = attributes;
+  const { fullBleed } = attributes;
 
   const parentClass = (fullBleed) 
     ? "full-bleed section-block" 
     : "section-block";
 
   const blockProps = useBlockProps({ 
-    className: parentClass, 
-    style: { backgroundColor: color } 
+    className: parentClass
   });
 
   const innerPropOptions = (fullBleed) 
@@ -41,7 +39,6 @@ const edit = (props) => {
   );
 
   const onChangeFullBleed = (bool) => setAttributes({ fullBleed: bool });
-  const onChangeColor = (str) => setAttributes({ color: str });
 
   const render = () => {
     if (fullBleed) {
@@ -61,11 +58,6 @@ const edit = (props) => {
     <>
       <InspectorControls>
         <PanelBody title="Background settings">
-          <ColorPicker
-            color={color}
-            onChange={ onChangeColor }
-            enableAlpha
-          />
           <ToggleControl
             label="Full bleed"
             help="Enables full-bleed backgrounds that span beyond the page layout's width."

@@ -1,0 +1,114 @@
+.tracking-conditions {
+  background-color: #F6EAE5;
+  &-content {
+    padding: 0 1rem;
+    display: flex;
+    background: transparent;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-banner {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+  }
+  &-intro {
+    h3 {
+      margin-top: 0;
+    }
+  }
+}
+
+.helping-people {
+  h2 {
+    margin-top: 0;
+  }
+  &-spotlight {
+    padding: 1.5rem;
+    background-color: #F2E1DA;
+    figcaption {
+      color: #5E5E6A;
+    }
+    h3, h4 {
+      margin-top: 0;
+    }
+    figure {
+      margin: 1rem 0;
+    }
+    &-banner {
+      width: 100%;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &-actions {
+    h4 {
+      margin-top: 0;
+    }
+  }
+}
+
+.visit-save-our-water {
+  padding: 1.5rem;
+  background: linear-gradient(96deg, #FBF0EA 25%, #EEC9B9 80%);
+  h3 {
+    margin-top: 0;
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.do-your-part {
+  border: solid 1px #E1E0E3;
+  .data-viz-placement {
+    flex-direction: column;
+    justify-content: center;
+    .data-viz-stat {
+      font-size: 1.5em;
+      font-weight: 700;
+    }
+    .data-viz-pct {
+      color: #B71234;
+    }
+  }
+}
+
+.tip-box {
+  background-color: #F9F9FA;
+  img { 
+    width: 100%;
+    vertical-align: middle;
+  }
+  &-content {
+    padding: 1rem;
+    a {
+      text-decoration: none;
+    }
+    h4 {
+      margin-top: 0;
+    }
+  }
+}
+
+.how-to-help {
+  padding-top: 0 !important;
+}
+
+.button-link {
+  text-decoration: none;
+  border: solid 1px #4A1106;
+  color: #4A1106;
+  padding: .5rem .75rem;
+  display: inline-block;
+  border-radius: .25rem;
+  &:hover {
+    color: #230803;
+    border-color: #230803;
+  }
+}
