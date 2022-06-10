@@ -1,4 +1,4 @@
-.grid {
+.home-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(18rem, 1fr));
   grid-template-rows: auto;
@@ -26,7 +26,7 @@
 }
 
 @media screen and (max-width: 950px) {
-  .grid {
+  .home-grid {
     grid-template-columns: repeat(2, minmax(18rem, 1fr));
     &-span-3, &-span-2-md {
       grid-column-end: span 2;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .grid {
+  .home-grid {
     grid-template-columns: 1fr;
     &-span-3, &-span-2, &-span-2-md {
       grid-column-end: span 1;

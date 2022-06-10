@@ -16,10 +16,10 @@ const allowedBlocks = [
 ];
 
 const allowedSettings = [
-  { value: "grid-span-1", label: "Span 1" },
-  { value: "grid-span-2", label: "Span 2 Desktop" },
-  { value: "grid-span-2-md", label: "Span 2 Tablet Only"},
-  { value: "grid-span-3", label: "Span 3 Desktop, Span 2 Tablet" }
+  { value: "home-grid-span-1", label: "Span 1" },
+  { value: "home-grid-span-2", label: "Span 2 Desktop" },
+  { value: "home-grid-span-2-md", label: "Span 2 Tablet Only"},
+  { value: "home-grid-span-3", label: "Span 3 Desktop, Span 2 Tablet" }
 ]
 
 const insertGridSpanAttributes = (settings, name) => {
@@ -31,7 +31,7 @@ const insertGridSpanAttributes = (settings, name) => {
       },
       gridSpanSetting: {
         enum: allowedSettings.map(s => s.value),
-        default: "grid-span-1"
+        default: "home-grid-span-1"
       }
     })
   }

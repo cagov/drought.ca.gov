@@ -6,7 +6,7 @@ import "./editor.scss";
 
 const edit = () => {
   const blockProps = useBlockProps({
-    className: "grid",
+    className: "home-grid",
   });
 
   const innerBlocksProps = useInnerBlocksProps(
