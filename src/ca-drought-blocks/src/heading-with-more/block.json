@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/heading-with-more",
+  "version": "0.1.0",
+  "title": "Heading with More",
+  "category": "ca-drought-blocks",
+  "icon": "heading",
+  "description": "A heading with a corresponding 'more info' section.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "heading-with-more",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

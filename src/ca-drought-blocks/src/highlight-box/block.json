@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/highlight-box",
+  "version": "0.1.0",
+  "title": "Highlight Box",
+  "category": "ca-drought-blocks",
+  "icon": "dashboard",
+  "description": "A container for several Highlight Box Items, meant to emphasize important data points.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "highlight-box",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,25 @@
+{
+	"name": "ca-drought-blocks",
+	"version": "0.0.1",
+	"description": "Gutenberg blocks for drought.ca.gov's Wordpress site.",
+	"author": "Jon Jensen",
+	"license": "MIT",
+	"files": [ "*", "build/*" ],
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start",
+		"env:start": "wp-env start",
+		"env:stop": "wp-env stop",
+		"env:clean": "wp-env clean all",
+		"env:destroy": "wp-env destroy"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^22.5.0",
+		"@wordpress/env": "^4.6.0"
+	}
+}

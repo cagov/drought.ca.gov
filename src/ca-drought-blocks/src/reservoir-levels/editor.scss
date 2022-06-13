@@ -1,0 +1,12 @@
+drought-reservoir-levels {
+  h2,h3,h4,h5,h6 {
+    margin: 0 !important;
+    text-transform: none !important;
+  }
+  p[slot$="stat"] {
+    margin-bottom: .5rem !important;
+    &:not([slot^="summary"]) {
+      background: repeating-linear-gradient(45deg, white, white 10px, lightgray 10px, lightgray 16px);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/section-block",
+  "version": "0.1.0",
+  "title": "Section Block",
+  "category": "ca-drought-blocks",
+  "icon": "format-aside",
+  "description": "A page section with an internal three-column grid.",
+  "attributes": {
+    "fullBleed": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "section-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/grid",
+  "version": "0.1.0",
+  "title": "Grid",
+  "category": "ca-drought-blocks",
+  "icon": "grid-view",
+  "description": "A three-column layout grid for the Drought.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "grid",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

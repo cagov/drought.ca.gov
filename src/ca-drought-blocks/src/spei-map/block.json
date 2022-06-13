@@ -1,0 +1,58 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/spei-map",
+  "version": "0.1.0",
+  "title": "SPEI Map",
+  "category": "ca-drought-blocks",
+  "icon": "chart-area",
+  "description": "A data visualization depicting rain and temperature effects on moisture across California.",
+  "attributes": {
+    "imgHref": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string",
+      "default": "A map of California that shows 12 month moisture levels across the state. Both rain and temperature are key factors."
+    },
+    "legendHeading": {
+      "type": "string",
+      "default": "12 month SPEI"
+    },
+    "extremeWet": {
+      "type": "string",
+      "default": "Extremely wet"
+    },
+    "severeWet": {
+      "type": "string",
+      "default": "Severely wet"
+    },
+    "moderateWet": {
+      "type": "string",
+      "default": "Moderately wet"
+    },
+    "normal": {
+      "type": "string",
+      "default": "Near normal"
+    },
+    "moderateDry": {
+      "type": "string",
+      "default": "Moderate drought"
+    },
+    "severeDry": {
+      "type": "string",
+      "default": "Severe drought"
+    },
+    "extremeDry": {
+      "type": "string",
+      "default": "Extreme drought"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "spei-map",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
