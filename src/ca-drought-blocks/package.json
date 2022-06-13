@@ -4,7 +4,7 @@
 	"description": "Gutenberg blocks for drought.ca.gov's Wordpress site.",
 	"author": "Jon Jensen",
 	"license": "MIT",
-	"main": "build/index.js",
+	"files": [ "*", "build/*" ],
 	"scripts": {
 		"build": "wp-scripts build",
 		"format": "wp-scripts format",
