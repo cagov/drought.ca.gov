@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2022-05-23T23:53:06",
+    "updated_date": "2022-04-04T18:14:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io//wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io/",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/blocks-test"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 29,
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=29",
-    "modified": "2022-05-23T16:53:06",
-    "modified_gmt": "2022-05-23T23:53:06",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?page_id=29",
+    "modified": "2022-04-04T11:14:41",
+    "modified_gmt": "2022-04-04T18:14:41",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
     "title": "Current drought conditions",
-    "excerpt": "<p>Drought map Updated with data through . 12 month SPEI Extremely wet Severely wet Moderately wet Near normal Moderate drought Severe drought Extreme drought Map shows the 12 month Standardized Precipitation-Evapotranspiration Index (SPEI). This shows rain and temperature effects on moisture. WestWide Drought Tracker, U Idaho/WRCC, Data Source: PRISM (Prelim), created . Find more at &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
+    "excerpt": "<p>Drought map Updated April 2, 2022 with data through March 2022. Driest winter months in 100 years mark third year of drought January, February, and March had the least rain and snow on record for any of these months in California. These warm, dry months overshadowed gains in precipitation at the end of 2021. Snow &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -32,7 +32,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "inline_featured_image": false
+    },
     "categories": [
       "Current conditions"
     ],
@@ -48,21 +50,21 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
       "page_title": "Current drought conditions",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
+      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/09/cropped-drought-photo.png",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "Current drought conditions &#x2d; California drought action",
       "meta_description": "Learn more about current drought conditions in the state of California and the factors that influence them.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
       "open_graph_title": "Current drought conditions",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
       "twitter_title": "Current drought conditions",
@@ -101,6 +103,47 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
+    "media": [
+      {
+        "id": 1298,
+        "type": "full",
+        "path": "2022/04/CA_SPEI12mo_04_02_221.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221.webp",
+        "file": "CA_SPEI12mo_04_02_221.webp",
+        "width": 710,
+        "height": 600,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221.webp",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1298,
+        "type": "large",
+        "path": "2022/04/CA_SPEI12mo_04_02_221-592x500.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-592x500.webp",
+        "file": "CA_SPEI12mo_04_02_221-592x500.webp",
+        "width": 592,
+        "height": 500,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-592x500.webp",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1298,
+        "type": "medium",
+        "path": "2022/04/CA_SPEI12mo_04_02_221-300x254.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-300x254.webp",
+        "file": "CA_SPEI12mo_04_02_221-300x254.webp",
+        "width": 300,
+        "height": 254,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-300x254.webp",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }

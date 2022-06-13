@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2022-02-24T23:50:49",
-    "updated_date": "2022-04-22T23:55:58",
+    "updated_date": "2022-02-25T00:00:43",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io//wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io/",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/blocks-test"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,15 +16,15 @@
     "id": 1168,
     "date": "2022-02-24T15:50:49",
     "date_gmt": "2022-02-24T23:50:49",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1168",
-    "modified": "2022-04-22T16:55:58",
-    "modified_gmt": "2022-04-22T23:55:58",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?p=1168",
+    "modified": "2022-02-24T16:00:43",
+    "modified_gmt": "2022-02-25T00:00:43",
     "slug": "pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/",
-    "title": "Pilot project to return salmon to their historical habitat above Shasta Dam receives initial funding",
-    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) today announced that the Department of Water Resources (DWR) will receive $1.5 million in funding for the Juvenile Salmonid Collection System Pilot Project in the McCloud Arm of Shasta reservoir.&nbsp;</p>\n",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/",
+    "title": "Pilot Project to Return Salmon to Their Historical Habitat above Shasta Dam Receives Initial Funding",
+    "excerpt": "<p>The California Department of Fish and Wildlife (CDFW) today announced that the Department of Water Resources (DWR) will receive $1.5 million in funding for the Juvenile Salmonid Collection System Pilot Project in the McCloud Arm of Shasta reservoir. </p>\n",
     "author": "Anna Opalka",
     "featured_media": 0,
     "comment_status": "closed",
@@ -50,24 +50,24 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/",
-      "page_title": "Pilot project to return salmon to their historical habitat above Shasta Dam receives initial funding",
+      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/",
+      "page_title": "Pilot Project to Return Salmon to Their Historical Habitat above Shasta Dam Receives Initial Funding",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Pilot project to return salmon to their historical habitat above Shasta Dam receives initial funding",
+      "meta_title": "Pilot Project to Return Salmon to Their Historical Habitat above Shasta Dam Receives Initial Funding",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/",
-      "open_graph_title": "Pilot project to return salmon to their historical habitat above Shasta Dam receives initial funding",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/",
+      "open_graph_title": "Pilot Project to Return Salmon to Their Historical Habitat above Shasta Dam Receives Initial Funding",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Pilot project to return salmon to their historical habitat above Shasta Dam receives initial funding",
+      "twitter_title": "Pilot Project to Return Salmon to Their Historical Habitat above Shasta Dam Receives Initial Funding",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -92,6 +92,6 @@
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-02-11",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/pilot-project-to-return-salmon-to-their-historical-habitat-above-shasta-dam-receives-initial-funding/"
   }
 }
