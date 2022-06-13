@@ -28,7 +28,422 @@
         <span class="card-text">Read drought news</span>
         <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24"><g><path d="M0,0h24v24H0V0z" fill="none"></path></g><g><polygon points="6.23,20.23 8,22 18,12 8,2 6.23,3.77 14.46,12"></polygon></g></svg>
     </a></div>
+  <section class="full-bleed section-block tracking-conditions">
+    <div class="full-bleed-content-area">
+      
+  <div class="heading-with-more h2-with-more">
+    
 
+<h2>Tracking conditions</h2>
+
+<p><a href="/current-drought-conditions/">See current conditions</a></p>
+
+
+  </div>
+
+  <div class="home-grid">
+    
+  <img loading="lazy" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/baremtns.webp" alt="A ridge in the Sierra Nevada mountains with no snow coverage. Photo from April 2022 snow survey." class="tracking-conditions-banner home-grid-span-3" width="1170" height="200">
+
+  <div class="tracking-conditions-intro home-grid-span-2-md">
+    
+
+<h3>Do we have enough water stored?</h3>
+
+<p>In drier seasons, we rely on other sources of water. These include reservoirs and melted snowpack. But we are now facing a historic level of dryness that has gone on for 3 years. And it’s only getting worse: 2022 had the driest January, February, and March in over 100 years.</p>
+
+
+  </div>
+
+  <div class="data-viz">
+    
+
+<h4>Major reservoir levels</h4>
+  <div class="data-viz-desc">
+    
+
+<p>Reservoirs get us through the dry months</p>
+
+
+  </div>
+
+  <div class="data-viz-placement">
+    
+  <drought-reservoir-levels 
+    class=""
+    data-unit="thousands of acre feet (TAF)" 
+    data-capacity-taf="0" 
+    data-historical-taf="0"
+    data-current-taf="0"
+  >
+    <h5 slot="summary-header">Summary of current level</h5>
+    <p slot="summary-stat" class="current-level"><span class='data-viz-pct'>X%</span> of average levels</p>
+    <h5 slot="capacity-header">Total capacity</h5>
+    <p slot="capacity-stat">0 thousands of acre feet (TAF)</p>
+    <h5 slot="historical-header">Average level historically</h5>
+    <p slot="historical-stat">0 thousands of acre feet (TAF)</p>
+    <h5 slot="current-header">Current level</h5>
+    <p slot="current-stat">0 thousands of acre feet (TAF)</p>
+  </drought-reservoir-levels>
+
+  </div>
+
+  <div class="data-viz-footer">
+    
+  <div class="data-viz-freq">
+    
+
+<p>Updated daily</p>
+
+
+  </div>
+<p><a href="https://cdec.water.ca.gov/resapp/RescondMain" data-type="URL" data-id="https://cdec.water.ca.gov/resapp/RescondMain">More about reservoirs</a></p>
+
+
+  </div>
+
+  </div>
+
+  <div class="data-viz">
+    
+
+<h4>Statewide snowpack levels</h4>
+  <div class="data-viz-desc">
+    
+
+<p>Snow melt feeds our reservoirs &amp; rivers</p>
+
+
+  </div>
+
+  <div class="data-viz-placement">
+    
+  <drought-snowpack-levels 
+    class=""
+    data-unit="inches"
+    data-current="0"
+    data-historic-peak="0"
+  >
+    <h5 slot="summary-header">Summary of current level</h5>
+    <p slot="summary-stat" class="current-level current-level-flex"><span class='data-viz-pct'>X%</span> of average peak snowpack</p>
+    <h5 slot="historic-peak-header">Average peak snowwater equivalent from 1991-2020</h5>
+    <p slot="historic-peak-stat">0 inches</p>
+    <h5 slot="current-header">Current snowwater equivalent</h5>
+    <p slot="current-stat">0 inches</p>
+  </drought-snowpack-levels>
+
+  </div>
+
+  <div class="data-viz-footer">
+    
+  <div class="data-viz-freq">
+    
+
+<p>Updated daily</p>
+
+
+  </div>
+<p><a href="https://cdec.water.ca.gov/snowapp/sweq.action">More about snowpack levels</a></p>
+
+
+  </div>
+
+  </div>
+
+  <div class="tracking-conditions-intro home-grid-span-2-md">
+    
+
+<h3>Preparing for a new, drier normal</h3>
+
+<p>Weather extremes brought on by climate change have reduced our water supply. We are in a third year of drought and need to use less water.</p>
+
+
+  </div>
+
+  <div class="data-viz home-grid-span-2">
+    
+
+<h4>Drought map</h4>
+  <div class="data-viz-desc">
+    
+
+<p>This map shows rain and temperature effects on moisture on a 12 month Standardized Precipitation-Evapotranspiration Index (SPEI)</p>
+
+
+  </div>
+
+  <div class="data-viz-placement">
+    
+  <drought-spei-map 
+    class=""
+    role="img"
+    aria-label="A map of California that shows 12 month moisture levels across the state. Both rain and temperature are key factors."
+  >
+    <svg width="200" height="252" viewBox="0 0 200 252" aria-hidden="true">
+      <text x="0" y="0" text-anchor="start" dominant-baseline="hanging" class="bold">
+        12 month SPEI
+      </text>
+
+      <text x="50" y="52" dominant-baseline="middle" text-anchor="start">
+        Extremely wet
+      </text>
+      <text x="50" y="82" dominant-baseline="middle" text-anchor="start">
+        Severely wet
+      </text>
+      <text x="50" y="102" dominant-baseline="middle" text-anchor="start">
+        Moderately wet
+      </text>
+      <text x="50" y="142" dominant-baseline="middle" text-anchor="start">
+        Near normal
+      </text>
+      <text x="50" y="182" dominant-baseline="middle" text-anchor="start">
+        Moderate drought
+      </text>
+      <text x="50" y="202" dominant-baseline="middle" text-anchor="start">
+        Severe drought
+      </text>
+      <text x="50" y="232" dominant-baseline="middle" text-anchor="start">
+        Extreme drought
+      </text>
+
+      <g stroke="#898891" stroke-width="1">
+        <rect x="1" y="31" width="28" height="20" fill="#260072" />
+        <rect x="1" y="51" width="28" height="20" fill="#3C00FE" />
+        <line x1="40" y1="33" x2="40" y2="69" />
+
+        <rect x="1" y="71" width="28" height="20" fill="#01B9FF" />
+        <line x1="40" y1="73" x2="40" y2="89" />
+
+        <rect x="1" y="91" width="28" height="20" fill="#6EFFD8" />
+        <line x1="40" y1="93" x2="40" y2="109" />
+
+        <rect x="1" y="111" width="28" height="20" fill="#00FF19" />
+        <rect x="1" y="131" width="28" height="20" fill="#FFFFFF" />
+        <rect x="1" y="151" width="28" height="20" fill="#DEFF00" />
+        <line x1="40" y1="113" x2="40" y2="169" />
+
+        <rect x="1" y="171" width="28" height="20" fill="#FCD800" />
+        <line x1="40" y1="173" x2="40" y2="189" />
+
+        <rect x="1" y="191" width="28" height="20" fill="#FF8601" />
+        <line x1="40" y1="193" x2="40" y2="209" />
+
+        <rect x="1" y="211" width="28" height="20" fill="#FE0000" />
+        <rect x="1" y="231" width="28" height="20" fill="#B40001" />
+        <line x1="40" y1="213" x2="40" y2="249" />
+      </g>
+    </svg>
+    <img loading="lazy" class="spei-map-img" src="https://drought.ca.gov/assets/img/WGS84.sized.png" alt="A map of California that shows 12 month moisture levels across the state. Both rain and temperature are key factors." />
+  </drought-spei-map>
+
+  </div>
+
+  <div class="data-viz-footer">
+    
+  <div class="data-viz-freq">
+    
+
+<p>Updated <span class="spei-map-update-date">June 5, 2022</span> with data through <span class="spei-map-data-date">May 2022</span>.</p>
+
+<p>WestWide Drought Tracker, U Idaho/WRCC, Data Source: PRISM (Prelim)</p>
+
+
+  </div>
+<p><a href="https://cww.water.ca.gov/droughtindicator" data-type="URL" data-id="https://cww.water.ca.gov/droughtindicator">Find more at CA Water Watch</a></p>
+
+
+  </div>
+
+  </div>
+
+  </div>
+
+    </div>
+  </section>
+
+  <section class="section-block helping-people">
+    
+
+<h2>Helping people now</h2>
+  <div class="home-grid">
+    
+  <div class="home-grid-span-2-md">
+    
+
+<p>California’s long drought threatens many people’s access to clean, safe drinking water.</p>
+  <div class="highlight-box">
+    
+  <div class="highlight-box-item">
+    
+  <img loading="lazy" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/people.svg" alt="" class="" width="70" height="50">
+
+  <div class="highlight-box-item-content">
+    
+
+<p><span class="highlight-box-figure">353,000</span>Californians received state help for drinking water problems in 2021</p>
+
+
+  </div>
+
+  </div>
+
+  <div class="highlight-box-item">
+    
+  <img loading="lazy" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/dollars.svg" alt="" class="" width="70" height="48">
+
+  <div class="highlight-box-item-content">
+    
+
+<p><span class="highlight-box-figure">$92 million</span>distributed to California communities (in 26 counties) for drought-related projects</p>
+
+
+  </div>
+
+  </div>
+
+  </div>
+<p>The state is working to give access to clean water for all.</p>
+
+<p><a class="button-link" href="/drought-assistance/" data-type="URL" data-id="/drought-assistance/">Find drought assistance</a></p>
+
+
+  </div>
+
+  <div class="home-grid-span-2">
+    
+  <div class="helping-people-spotlight">
+    
+
+<h3>Drought help spotlight</h3>
+
+<h4>Emergency water delivery</h4>
+
+<figure class="wp-block-image size-large"><img loading="lazy" width="667" height="500" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/visalia3-667x500.webp" alt="" class="wp-image-1324" srcset="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/visalia3-667x500.webp 667w, https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/visalia3-300x225.webp 300w, https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/visalia3.webp 728w" sizes="(max-width: 667px) 100vw, 667px" /><figcaption>Jorge Aguilar of Self Help Enterprises delivering water in Visalia, CA. Photo credit: Edward Ortiz. March 2022.</figcaption></figure>
+
+<p>When the wells of rural communities go dry or get contaminated, the state has water delivered to them. Here is Jose Aguilar of Self Help Enterprises bringing water to a community in the Central Valley. The State Water Board funds this project, providing water Californians need to survive in areas most stricken by drought.</p>
+
+
+  </div>
+
+  <div class="helping-people-actions">
+    
+
+<h3>What the state is doing</h3>
+
+<h4>Here&#8217;s how California government is taking action:</h4>
+
+<ul><li>Giving agencies the tools they need to tackle the drought emergency</li><li>Addressing long-standing water challenges</li><li>Securing vital and limited water supplies to sustain our state into the future</li></ul>
+
+<p><a class="button-link" href="/state-drought-response/" data-type="URL" data-id="/state-drought-response/">View all actions</a></p>
+
+
+  </div>
+
+  </div>
+
+  </div>
+
+  </section>
+
+  <section class="section-block how-to-help">
+    
+
+<h2>How you can help</h2>
+  <div class="home-grid">
+    
+  <div class="visit-save-our-water home-grid-span-2">
+    
+
+<h3>Use less water</h3>
+  <img loading="lazy" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/save-our-water.png" alt="" class="" width="184" height="51">
+<p>It is critical that Californians work together to save our water. That’s why we developed the Save Our Water campaign. More clean water makes the world a better place for our children and future generations.</p>
+
+<p><a class="button-link" href="https://saveourwater.com/">Visit Save our Water</a></p>
+
+
+  </div>
+
+  <div class="data-viz do-your-part home-grid-span-2-md">
+    
+
+<h3>Do your part</h3>
+  <div class="data-viz-desc">
+    
+
+<p>The Governor asks that Californians cut their water use by 15% from 2020 levels. We’re not yet meeting that goal.</p>
+
+
+  </div>
+
+  <div class="data-viz-placement">
+    
+
+<p class="data-viz-stat"><span class="data-viz-pct">3.7%</span> of 15% goal</p>
+
+<p>Reduction in use from 2020</p>
+
+
+  </div>
+
+  <div class="data-viz-footer">
+    
+
+<p><a href="https://www.waterboards.ca.gov/water_issues/programs/conservation_portal/conservation_reporting.html">Learn more about this goal</a></p>
+
+
+  </div>
+
+  </div>
+
+  </div>
+
+  <div class="heading-with-more h3-with-more">
+    
+
+<h3>Take these tips</h3>
+
+<p><a href="https://saveourwater.com/en/How-to-Save-Water/">View all water saving tips</a></p>
+
+
+  </div>
+
+  <div class="home-grid">
+    
+  <div class="tip-box">
+    
+  <img loading="lazy" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/flower.webp" alt="" class="" width="376" height="235">
+
+  <div class="tip-box-content">
+    
+
+<h4><a href="https://saveourwater.com/en/How-to-Save-Water/Around-the-Yard" data-type="URL" data-id="https://saveourwater.com/en/How-to-Save-Water/Around-the-Yard">Around the yard</a></h4>
+
+<p>Learn some simple habits to reduce water use outside your home.</p>
+
+
+  </div>
+
+  </div>
+
+  <div class="tip-box home-grid-span-2">
+    
+  <img loading="lazy" src="https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp" alt="" class="" width="776" height="236">
+
+  <div class="tip-box-content">
+    
+
+<h4><a href="https://saveourwater.com/News-and-Events/Latest-News/Here-Are-the-Tips-You-Need-to-Prepare-Your-Yard-for-Summer" data-type="URL" data-id="https://saveourwater.com/News-and-Events/Latest-News/Here-Are-the-Tips-You-Need-to-Prepare-Your-Yard-for-Summer">Tips to prepare your yard for the summer</a></h4>
+
+<p>Find the steps you can take in spring to help maintain a beautiful, water-wise yard all year long.</p>
+
+
+  </div>
+
+  </div>
+
+  </div>
+
+  </section>
 <div class="wp-block-columns">
 <div class="wp-block-column">
 <h2 id="state-actions-against-drought">State actions against drought</h2>
