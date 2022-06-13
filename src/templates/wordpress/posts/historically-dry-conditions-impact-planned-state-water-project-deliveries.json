@@ -1,14 +1,14 @@
 {
   "meta": {
     "created_date": "2022-03-21T22:34:19",
-    "updated_date": "2022-04-22T23:51:19",
+    "updated_date": "2022-03-21T22:37:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
-    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io//wp-json/wp/v2/",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
-      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
-      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io/",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/blocks-test"
     },
     "refresh_frequency": "as needed"
   },
@@ -16,14 +16,14 @@
     "id": 1220,
     "date": "2022-03-21T15:34:19",
     "date_gmt": "2022-03-21T22:34:19",
-    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1220",
-    "modified": "2022-04-22T16:51:19",
-    "modified_gmt": "2022-04-22T23:51:19",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/?p=1220",
+    "modified": "2022-03-21T15:37:22",
+    "modified_gmt": "2022-03-21T22:37:22",
     "slug": "historically-dry-conditions-impact-planned-state-water-project-deliveries",
     "status": "publish",
     "type": "post",
-    "link": "https://live-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/",
-    "title": "Historically dry conditions impact planned State Water Project deliveries",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/",
+    "title": "Historically Dry Conditions Impact Planned State Water Project Deliveries",
     "excerpt": "<p>The Department of Water Resources (DWR) announced it must reduce the State Water Project allocation to 5 percent of requested supplies for 2022.</p>\n",
     "author": "Shawn Brouwer",
     "featured_media": 0,
@@ -50,24 +50,24 @@
         "plugin": "autodescription",
         "plugin_name": "The SEO Framework",
         "plugin_version": "4.1.5.1",
-        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+        "editor_url": "https://dev-drought-ca-gov.pantheonsite.io"
       },
       "site_name": "California drought action",
       "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
-      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/",
-      "page_title": "Historically dry conditions impact planned State Water Project deliveries",
+      "site_url": "https://dev-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/",
+      "page_title": "Historically Dry Conditions Impact Planned State Water Project Deliveries",
       "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
-      "meta_title": "Historically dry conditions impact planned State Water Project deliveries",
+      "meta_title": "Historically Dry Conditions Impact Planned State Water Project Deliveries",
       "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/",
-      "open_graph_title": "Historically dry conditions impact planned State Water Project deliveries",
+      "meta_canonical_url": "https://dev-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/",
+      "open_graph_title": "Historically Dry Conditions Impact Planned State Water Project Deliveries",
       "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-      "twitter_title": "Historically dry conditions impact planned State Water Project deliveries",
+      "twitter_title": "Historically Dry Conditions Impact Planned State Water Project Deliveries",
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [
@@ -92,6 +92,6 @@
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-03-18",
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/"
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/historically-dry-conditions-impact-planned-state-water-project-deliveries/"
   }
 }
