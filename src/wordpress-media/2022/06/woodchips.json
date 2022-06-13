@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "created_date": "2022-06-13T23:41:35",
+    "updated_date": "2022-06-13T23:41:35",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://dev-drought-ca-gov.pantheonsite.io//wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://dev-drought-ca-gov.pantheonsite.io/",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/blocks-test"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1331,
+    "date": "2022-06-13T16:41:35",
+    "date_gmt": "2022-06-13T23:41:35",
+    "guid": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp",
+    "modified": "2022-06-13T16:41:35",
+    "modified_gmt": "2022-06-13T23:41:35",
+    "slug": "woodchips",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://dev-drought-ca-gov.pantheonsite.io/homepage/woodchips/#main",
+    "title": "woodchips",
+    "author": "Jon Jensen",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "inline_featured_image": false
+    },
+    "description": "<p class=\"attachment\"><a href='https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp'><img width=\"300\" height=\"91\" src=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-300x91.webp\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-300x91.webp 300w, https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-750x228.webp 750w, https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-768x234.webp 768w, https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp 776w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/webp",
+    "media_details": {
+      "width": 776,
+      "height": 236,
+      "file": "2022/06/woodchips.webp",
+      "sizes": {
+        "medium": {
+          "file": "woodchips-300x91.webp",
+          "width": 300,
+          "height": 91,
+          "mime_type": "image/webp",
+          "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-300x91.webp"
+        },
+        "large": {
+          "file": "woodchips-750x228.webp",
+          "width": 750,
+          "height": 228,
+          "mime_type": "image/webp",
+          "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-750x228.webp"
+        },
+        "thumbnail": {
+          "file": "woodchips-150x150.webp",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/webp",
+          "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-150x150.webp"
+        },
+        "medium_large": {
+          "file": "woodchips-768x234.webp",
+          "width": 768,
+          "height": 234,
+          "mime_type": "image/webp",
+          "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-768x234.webp"
+        },
+        "full": {
+          "file": "woodchips.webp",
+          "width": 776,
+          "height": 236,
+          "mime_type": "image/webp",
+          "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": 24,
+    "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp",
+    "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/06/woodchips.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp",
+        "file": "woodchips.webp",
+        "width": 776,
+        "height": 236,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips.webp"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/06/woodchips-768x234.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-768x234.webp",
+        "file": "woodchips-768x234.webp",
+        "width": 768,
+        "height": 234,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-768x234.webp"
+      },
+      {
+        "type": "large",
+        "path": "2022/06/woodchips-750x228.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-750x228.webp",
+        "file": "woodchips-750x228.webp",
+        "width": 750,
+        "height": 228,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-750x228.webp"
+      },
+      {
+        "type": "medium",
+        "path": "2022/06/woodchips-300x91.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-300x91.webp",
+        "file": "woodchips-300x91.webp",
+        "width": 300,
+        "height": 91,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-300x91.webp"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/06/woodchips-150x150.webp",
+        "wordpress_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-150x150.webp",
+        "file": "woodchips-150x150.webp",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/webp",
+        "source_url": "https://dev-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/woodchips-150x150.webp"
+      }
+    ],
+    "path": "2022/06/woodchips.webp"
+  }
+}
