@@ -56,6 +56,13 @@
           "height": 500,
           "mime_type": "image/jpeg",
           "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/Weekly-CA-Drought-Update-06132022-pdf-386x500.jpg"
+        },
+        "thumbnail": {
+          "file": "Weekly-CA-Drought-Update-06132022-pdf-116x150.jpg",
+          "width": 116,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/Weekly-CA-Drought-Update-06132022-pdf-116x150.jpg"
         }
       }
     },
@@ -92,6 +99,16 @@
         "height": 300,
         "mime_type": "image/jpeg",
         "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/Weekly-CA-Drought-Update-06132022-pdf-232x300.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/06/Weekly-CA-Drought-Update-06132022-pdf-116x150.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/Weekly-CA-Drought-Update-06132022-pdf-116x150.jpg",
+        "file": "Weekly-CA-Drought-Update-06132022-pdf-116x150.jpg",
+        "width": 116,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/Weekly-CA-Drought-Update-06132022-pdf-116x150.jpg"
       }
     ],
     "path": "2022/06/Weekly-CA-Drought-Update-06132022.pdf"
