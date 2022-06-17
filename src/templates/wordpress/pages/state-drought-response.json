@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:07",
-    "updated_date": "2022-06-08T00:00:46",
+    "updated_date": "2022-06-17T03:23:53",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2021-07-04T14:33:07",
     "date_gmt": "2021-07-04T14:33:07",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=27",
-    "modified": "2022-06-07T17:00:46",
-    "modified_gmt": "2022-06-08T00:00:46",
+    "modified": "2022-06-16T20:23:53",
+    "modified_gmt": "2022-06-17T03:23:53",
     "slug": "state-drought-response",
     "status": "publish",
     "type": "page",
