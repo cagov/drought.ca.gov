@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-06-21T21:43:03",
-    "updated_date": "2022-06-21T21:43:10",
+    "updated_date": "2022-06-21T23:07:45",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-06-21T14:43:03",
     "date_gmt": "2022-06-21T21:43:03",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=1554",
-    "modified": "2022-06-21T14:43:10",
-    "modified_gmt": "2022-06-21T21:43:10",
+    "modified": "2022-06-21T16:07:45",
+    "modified_gmt": "2022-06-21T23:07:45",
     "slug": "statewide-emergency-water-conservation-regulation",
     "status": "publish",
     "type": "page",
