@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-06-27T20:47:12",
-    "updated_date": "2022-06-27T20:49:51",
+    "updated_date": "2022-06-27T20:50:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-06-27T13:47:12",
     "date_gmt": "2022-06-27T20:47:12",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1604",
-    "modified": "2022-06-27T13:49:51",
-    "modified_gmt": "2022-06-27T20:49:51",
+    "modified": "2022-06-27T13:50:22",
+    "modified_gmt": "2022-06-27T20:50:22",
     "slug": "193-million-in-grant-funding-now-available-for-water-infrastructure-and-resilience-projects",
     "status": "publish",
     "type": "post",
