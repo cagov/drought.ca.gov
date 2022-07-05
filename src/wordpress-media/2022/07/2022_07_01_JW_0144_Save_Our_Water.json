@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-05T23:44:02",
-    "updated_date": "2022-07-05T23:44:36",
+    "updated_date": "2022-07-05T23:45:09",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-07-05T16:44:02",
     "date_gmt": "2022-07-05T23:44:02",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
-    "modified": "2022-07-05T16:44:36",
-    "modified_gmt": "2022-07-05T23:44:36",
+    "modified": "2022-07-05T16:45:09",
+    "modified_gmt": "2022-07-05T23:45:09",
     "slug": "2022_07_01_jw_0144_save_our_water",
     "status": "inherit",
     "type": "attachment",
@@ -30,7 +30,7 @@
     "template": "",
     "meta": [],
     "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg'><img width=\"300\" height=\"200\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought.\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg 768w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
-    "caption": "<p>The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought. Photo taken July 1, 2022. </p>\n<p>Jonathan Wong / California Department of Water Resources,  FOR EDITORIAL USE ONLY</p>\n",
+    "caption": "<p>The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought. </p>\n",
     "alt_text": "The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought.",
     "media_type": "image",
     "mime_type": "image/jpeg",
