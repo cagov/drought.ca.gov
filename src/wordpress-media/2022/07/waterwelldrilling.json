@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-07T21:29:24",
-    "updated_date": "2022-07-07T21:30:29",
+    "updated_date": "2022-07-07T21:31:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-07-07T14:29:24",
     "date_gmt": "2022-07-07T21:29:24",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/waterwelldrilling.jpg",
-    "modified": "2022-07-07T14:30:29",
-    "modified_gmt": "2022-07-07T21:30:29",
+    "modified": "2022-07-07T14:31:14",
+    "modified_gmt": "2022-07-07T21:31:14",
     "slug": "waterwelldrilling",
     "status": "inherit",
     "type": "attachment",
