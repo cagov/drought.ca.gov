@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-07T21:03:05",
-    "updated_date": "2022-07-07T21:04:44",
+    "updated_date": "2022-07-07T21:06:24",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-07-07T14:03:05",
     "date_gmt": "2022-07-07T21:03:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling.png",
-    "modified": "2022-07-07T14:04:44",
-    "modified_gmt": "2022-07-07T21:04:44",
+    "modified": "2022-07-07T14:06:24",
+    "modified_gmt": "2022-07-07T21:06:24",
     "slug": "2022_06_14_fl_0051_well_drilling",
     "status": "inherit",
     "type": "attachment",
@@ -29,9 +29,9 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling.png'><img width=\"300\" height=\"200\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling-300x200.png\" class=\"attachment-medium size-medium\" alt=\"A photo of 5 workers drilling a well for water.\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling-300x200.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling-750x500.png 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling.png 768w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling.png'><img width=\"300\" height=\"200\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling-300x200.png\" class=\"attachment-medium size-medium\" alt=\"A photo of 4 workers drilling a well for water.\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling-300x200.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling-750x500.png 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_06_14_FL_0051_Well_Drilling.png 768w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
     "caption": "<p>North Marin Water District drills a water well in Marin County to service the community of Point Reyes Station, California, funded by the California Department of Water Resources to help to address the water supply impacts in small communities. Photo taken June 14, 2022.</p>\n<p>Florence Low / California Department of Water Resources</p>\n",
-    "alt_text": "A photo of 5 workers drilling a well for water.",
+    "alt_text": "A photo of 4 workers drilling a well for water.",
     "media_type": "image",
     "mime_type": "image/png",
     "media_details": {
