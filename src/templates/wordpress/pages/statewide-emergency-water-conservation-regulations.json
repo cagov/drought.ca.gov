@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-06-21T23:11:52",
-    "updated_date": "2022-06-22T00:16:15",
+    "updated_date": "2022-07-08T23:25:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-06-21T16:11:52",
     "date_gmt": "2022-06-21T23:11:52",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=1560",
-    "modified": "2022-06-21T17:16:15",
-    "modified_gmt": "2022-06-22T00:16:15",
+    "modified": "2022-07-08T16:25:12",
+    "modified_gmt": "2022-07-08T23:25:12",
     "slug": "statewide-emergency-water-conservation-regulations",
     "status": "publish",
     "type": "page",
@@ -68,6 +68,60 @@
     "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/",
+    "media": [
+      {
+        "id": 1610,
+        "type": "full",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "width": 1200,
+        "height": 799,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1610,
+        "type": "medium_large",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "width": 768,
+        "height": 511,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1610,
+        "type": "large",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1610,
+        "type": "medium",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
