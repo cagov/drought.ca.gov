@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-08T23:46:36",
-    "updated_date": "2022-07-08T23:49:16",
+    "updated_date": "2022-07-08T23:49:54",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-07-08T16:46:36",
     "date_gmt": "2022-07-08T23:46:36",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1651",
-    "modified": "2022-07-08T16:49:16",
-    "modified_gmt": "2022-07-08T23:49:16",
+    "modified": "2022-07-08T16:49:54",
+    "modified_gmt": "2022-07-08T23:49:54",
     "slug": "statewide-urban-water-use-3-1-lower-in-may-2022-than-water-use-in-may-2020",
     "status": "publish",
     "type": "post",
