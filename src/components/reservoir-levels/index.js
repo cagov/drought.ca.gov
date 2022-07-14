@@ -8,12 +8,12 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
   }
 
   connectedCallback() {
-    const currentTaf = parseInt(this.dataset.currentTaf);
-    const historicalTaf = parseInt(this.dataset.historicalTaf);
-    const capacityTaf = parseInt(this.dataset.capacityTaf);
+    const current = parseInt(this.dataset.current);
+    const historical = parseInt(this.dataset.historical);
+    const capacity = parseInt(this.dataset.capacity);
 
-    const currentPctOfCapacity = Math.round(100 * currentTaf / capacityTaf);
-    const historicalPctOfCapacity = Math.round(100 * historicalTaf / capacityTaf);
+    const currentPctOfCapacity = Math.round(100 * current / capacity);
+    const historicalPctOfCapacity = Math.round(100 * historical / capacity);
 
     const svgBasinDepth = 135;
     const historicalLineY = Math.round(svgBasinDepth - (svgBasinDepth * historicalPctOfCapacity / 100));
@@ -36,7 +36,7 @@ class DroughtReservoirLevels extends DroughtDataVizBase {
 
     const historicalPopOver = this.shadowRoot.querySelector('#historical-popover');
     const historicalPopOverX = ((fullWidth - 8) / fullWidth) * 100;
-    historicalPopOver.setAttribute('style', `--x:${historicalPopOverX}%; --y:23%; --x-offset-m:65%;`);
+    historicalPopOver.setAttribute('style', `--x:${historicalPopOverX}%; --y:28%; --x-offset-m:65%;`);
 
     const historicalLine = this.shadowRoot.querySelector('#historical-line');
     const historicalHoverTarget = this.shadowRoot.querySelector('#historical-line-hover-target');
