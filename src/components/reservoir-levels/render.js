@@ -27,8 +27,6 @@ const agregates = conditions.reduce(
   }
 );
 
-console.log(agregates)
-
 // Calculate TAF for each sum.
 const current = (agregates.currentStorage / 1000000).toFixed(2);
 const historical = (agregates.historicalAverage / 1000000).toFixed(2);
