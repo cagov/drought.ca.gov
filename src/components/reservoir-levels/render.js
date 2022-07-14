@@ -27,7 +27,7 @@ const agregates = conditions.reduce(
   }
 );
 
-// Calculate TAF for each sum.
+// Calculate MAF for each sum.
 const current = (agregates.currentStorage / 1000000).toFixed(2);
 const historical = (agregates.historicalAverage / 1000000).toFixed(2);
 const capacity = (agregates.totalCapacity / 1000000).toFixed(2);

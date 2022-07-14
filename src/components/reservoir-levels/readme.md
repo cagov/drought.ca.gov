@@ -52,11 +52,11 @@ Some things to note.
   * `render.js` will also fill the value for `<span class="data-viz-pct">`.
   * The data comes from the `majorReservoirConditions.json` file, also in this folder.
   * **If migrated to another platform, the processing in `render.js` would need to be replaced by another back-end process.**
-* `data-current-taf`, `data-historical-taf`, and `data-capacity-taf` are all required. These integers are used to calculate display of the SVG data visualization.
+* `data-current`, `data-historical`, and `data-capacity` are all required. These integers are used to calculate display of the SVG data visualization.
   * These attributes are currently added via `render.js`.
-  * `data-capacity` is the total capacity of major reservoirs, in TAF (thousand acre feet).
-  * `data-historical` is the historical average sum of water levels among major reservoirs, in TAF.
-  * `data-current` is the sum of current water levels across major reservoirs, in TAF. 
+  * `data-capacity` is the total capacity of major reservoirs.
+  * `data-historical` is the historical average sum of water levels among major reservoirs.
+  * `data-current` is the sum of current water levels across major reservoirs. 
 * The `data-locale` and `data-unit` attributes may be omitted for English. These attributes should be used for translating the visualization into other languages, if needed. 
   * [See MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl#locale_identification_and_negotiation) for more info on possible values for `data-locale`.
 * The `slot="summary-header"` element is only for screen readers, or when Javascript is disabled.
