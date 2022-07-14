@@ -27,10 +27,10 @@ const agregates = conditions.reduce(
   }
 );
 
-// Calculate TAF for each sum.
-const currentTAF = Math.round(agregates.currentStorage / 1000);
-const historicalTAF = Math.round(agregates.historicalAverage / 1000);
-const capacityTAF = Math.round(agregates.totalCapacity / 1000);
+// Calculate MAF for each sum.
+const current = (agregates.currentStorage / 1000000).toFixed(2);
+const historical = (agregates.historicalAverage / 1000000).toFixed(2);
+const capacity = (agregates.totalCapacity / 1000000).toFixed(2);
 
 // Figure out the current water level's percentage against historical average.
 const currentPercentage = Math.round(
@@ -54,26 +54,26 @@ const renderReservoirLevels = function (html) {
     // Get the locale for translating number display, if needed. Commas, decimals, etc.
     const locale = $("drought-reservoir-levels").data("locale") || "en-US";
 
-    const unit = $("drought-reservoir-levels").data("unit") || "thousands of acre feet (TAF)";
+    const unit = $("drought-reservoir-levels").data("unit") || "millions of acre feet (MAF)";
 
     // Set data values on the component.
     $("drought-reservoir-levels")
-      .attr("data-current-taf", currentTAF)
-      .attr("data-historical-taf", historicalTAF)
-      .attr("data-capacity-taf", capacityTAF);
+      .attr("data-current", current)
+      .attr("data-historical", historical)
+      .attr("data-capacity", capacity);
 
     // If these placeholders are present within the provided mark-up, fill them with real values.
     if ($(".data-viz-pct").length) {
       $(".data-viz-pct").text(`${currentPercentage}%`);
     }
     if ($("[slot=capacity-stat]").length) {
-      $("[slot=capacity-stat]").text(`${capacityTAF.toLocaleString(locale)} ${unit}`);
+      $("[slot=capacity-stat]").text(`${capacity.toLocaleString(locale)} ${unit}`);
     }
     if ($("[slot=historical-stat]").length) {
-      $("[slot=historical-stat]").text(`${historicalTAF.toLocaleString(locale)} ${unit}`);
+      $("[slot=historical-stat]").text(`${historical.toLocaleString(locale)} ${unit}`);
     }
     if ($("[slot=current-stat]").length) {
-      $("[slot=current-stat]").text(`${currentTAF.toLocaleString(locale)} ${unit}`);
+      $("[slot=current-stat]").text(`${current.toLocaleString(locale)} ${unit}`);
     }
 
     result = result.replace(originalMarkup, $.html());
