@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-07-26T17:59:58",
-    "updated_date": "2022-07-26T18:05:22",
+    "updated_date": "2022-07-26T18:05:57",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-07-26T10:59:58",
     "date_gmt": "2022-07-26T17:59:58",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1673",
-    "modified": "2022-07-26T11:05:22",
-    "modified_gmt": "2022-07-26T18:05:22",
+    "modified": "2022-07-26T11:05:57",
+    "modified_gmt": "2022-07-26T18:05:57",
     "slug": "year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies",
     "status": "publish",
     "type": "post",
