@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-08-09T22:14:11",
-    "updated_date": "2022-08-09T22:20:01",
+    "updated_date": "2022-08-09T22:20:07",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-08-09T15:14:11",
     "date_gmt": "2022-08-09T22:14:11",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1697",
-    "modified": "2022-08-09T15:20:01",
-    "modified_gmt": "2022-08-09T22:20:01",
+    "modified": "2022-08-09T15:20:07",
+    "modified_gmt": "2022-08-09T22:20:07",
     "slug": "dwr-launches-new-web-based-mapping-tool-showing-nearly-3000-groundwater-sustainability-projects",
     "status": "publish",
     "type": "post",
