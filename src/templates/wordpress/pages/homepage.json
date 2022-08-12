@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2022-08-01T22:27:25",
+    "updated_date": "2022-08-12T23:15:23",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,14 +17,14 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2022-08-01T15:27:25",
-    "modified_gmt": "2022-08-01T22:27:25",
+    "modified": "2022-08-12T16:15:23",
+    "modified_gmt": "2022-08-12T23:15:23",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
-    "excerpt": "<p>As summer heats up, new budget adds billions for drought relief California&#8217;s 2022-23 budget provides an additional $2.8 billion over multiple years to support drought resilience and response. Investments will advance drinking water and clean water projects; provide grants for urban water districts and smaller community water suppliers for drought relief; address fish and wildlife &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
+    "excerpt": "<p>Governor announces water supply strategy for hotter, drier California Over the next 20 years, climate change could reduce California’s water supplies by 10 percent. Our state’s climate has changed, and the West continues to get hotter and drier. As it does, we will see less snowfall, more evaporation, and greater consumption of water by vegetation, &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -36,7 +36,8 @@
     "categories": [],
     "tags": [
       "homepage",
-      "launch content"
+      "launch content",
+      "staging"
     ],
     "design_system_fields": {
       "template": "landing"
@@ -88,6 +89,17 @@
         "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "filter": "raw"
       }
