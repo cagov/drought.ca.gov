@@ -1,7 +1,7 @@
 {
   "meta": {
-    "created_date": "2022-08-24T18:11:57",
-    "updated_date": "2022-08-24T18:11:57",
+    "created_date": "2022-08-24T18:11:01",
+    "updated_date": "2022-08-24T18:11:01",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -13,17 +13,17 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "id": 1725,
-    "date": "2022-08-24T11:11:57",
-    "date_gmt": "2022-08-24T18:11:57",
+    "id": 1724,
+    "date": "2022-08-24T11:11:01",
+    "date_gmt": "2022-08-24T18:11:01",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/08/Weekly-CA-Drought-Update-08222022-final.pdf",
-    "modified": "2022-08-24T11:11:57",
-    "modified_gmt": "2022-08-24T18:11:57",
+    "modified": "2022-08-24T11:11:01",
+    "modified_gmt": "2022-08-24T18:11:01",
     "slug": "weekly-ca-drought-update-08222022-final",
     "status": "inherit",
     "type": "attachment",
     "link": "https://live-drought-ca-gov.pantheonsite.io/weekly-ca-drought-update-08222022-final/",
-    "title": "Weekly-CA-Drought-Update-08222022-final",
+    "title": "Weekly-CA-Drought-Update-08222022- final",
     "author": "Anna Opalka",
     "comment_status": "closed",
     "ping_status": "closed",
