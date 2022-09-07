@@ -24,3 +24,9 @@ cagov-page-feedback {
     right: 0%;
   }
 } 
+
+.page-alert-container {
+  max-width: var(--w-lg,1176px);
+  margin: var(--s-2,1rem) auto;
+  padding: 0 var(--s-2,1rem);
+}
