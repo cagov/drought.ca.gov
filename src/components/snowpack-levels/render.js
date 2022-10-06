@@ -35,7 +35,7 @@ const renderSnowpackLevels = function (html) {
     $("drought-snowpack-levels").attr("data-locale", locale);
 
     // Format to single decimal.
-    const currentLevel = latestEntry.avgSwc.toFixed(1);
+    const currentLevel = latestEntry?.avgSwc?.toFixed(1) || 0;
     const historicPeakLevel = historicPeak.avgAvgSwc.toFixed(1);
 
     // Set data values on the component.
@@ -45,7 +45,7 @@ const renderSnowpackLevels = function (html) {
 
     // If this placeholder is present within the provided mark-up, fill it with value.
     if ($(".data-viz-pct").length) {
-      $(".data-viz-pct").text(`${latestEntry.pctApr1}%`);
+      $(".data-viz-pct").text(`${latestEntry?.pctApr1 || 0}%`);
     }
     if ($("[slot=current-stat]").length) {
       $("[slot=current-stat]").text(`${currentLevel.toLocaleString(locale)} ${unit}`);
