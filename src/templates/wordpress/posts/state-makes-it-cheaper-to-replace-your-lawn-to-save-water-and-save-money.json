@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-10-08T00:40:02",
-    "updated_date": "2022-10-08T00:46:46",
+    "updated_date": "2022-10-08T00:48:46",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-10-07T17:40:02",
     "date_gmt": "2022-10-08T00:40:02",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1803",
-    "modified": "2022-10-07T17:46:46",
-    "modified_gmt": "2022-10-08T00:46:46",
+    "modified": "2022-10-07T17:48:46",
+    "modified_gmt": "2022-10-08T00:48:46",
     "slug": "state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money",
     "status": "publish",
     "type": "post",
@@ -40,9 +40,7 @@
     "categories": [
       "Action"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -90,19 +88,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-09-28",
