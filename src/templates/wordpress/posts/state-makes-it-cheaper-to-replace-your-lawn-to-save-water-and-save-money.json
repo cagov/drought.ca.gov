@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-10-08T00:40:02",
-    "updated_date": "2022-10-08T00:48:32",
+    "updated_date": "2022-10-08T00:48:41",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -17,8 +17,8 @@
     "date": "2022-10-07T17:40:02",
     "date_gmt": "2022-10-08T00:40:02",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1803",
-    "modified": "2022-10-07T17:48:32",
-    "modified_gmt": "2022-10-08T00:48:32",
+    "modified": "2022-10-07T17:48:41",
+    "modified_gmt": "2022-10-08T00:48:41",
     "slug": "state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money",
     "status": "publish",
     "type": "post",
