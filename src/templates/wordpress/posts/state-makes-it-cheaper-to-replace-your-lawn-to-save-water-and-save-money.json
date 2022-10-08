@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "created_date": "2022-10-08T00:40:02",
+    "updated_date": "2022-10-08T00:40:09",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1803,
+    "date": "2022-10-07T17:40:02",
+    "date_gmt": "2022-10-08T00:40:02",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1803",
+    "modified": "2022-10-07T17:40:09",
+    "modified_gmt": "2022-10-08T00:40:09",
+    "slug": "state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/",
+    "title": "State makes it cheaper to replace your lawn to save water and save money",
+    "excerpt": "<p>One of the most effective ways to cut back on water use is to replace your lawn with drought-resistant plants and landscaping. Now Californians can get more money to do just that thanks to a <a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">new law</a> signed Sept. 28, 2022, by Governor Gavin Newsom. The l<a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">egislation</a> exempts local rebates for turf replacement from state income tax.</p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "status",
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "2022-09-28",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "Action"
+    ],
+    "tags": [
+      "staging"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/",
+      "page_title": "State makes it cheaper to replace your lawn to save water and save money",
+      "page_description": "<p>One of the most effective ways to cut back on water use is to replace your lawn with drought-resistant plants and landscaping. Now Californians can get more money to do just that thanks to a <a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">new law</a> signed Sept. 28, 2022, by Governor Gavin Newsom. The l<a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">egislation</a> exempts local rebates for turf replacement from state income tax.</p>",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State makes it cheaper to replace your lawn to save water and save money",
+      "meta_description": "<p>One of the most effective ways to cut back on water use is to replace your lawn with drought-resistant plants and landscaping. Now Californians can get more money to do just that thanks to a <a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">new law</a> signed Sept. 28, 2022, by Governor Gavin Newsom. The l<a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">egislation</a> exempts local rebates for turf replacement from state income tax.</p>",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/",
+      "open_graph_title": "State makes it cheaper to replace your lawn to save water and save money",
+      "open_graph_description": "<p>One of the most effective ways to cut back on water use is to replace your lawn with drought-resistant plants and landscaping. Now Californians can get more money to do just that thanks to a <a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">new law</a> signed Sept. 28, 2022, by Governor Gavin Newsom. The l<a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">egislation</a> exempts local rebates for turf replacement from state income tax.</p>",
+      "twitter_title": "State makes it cheaper to replace your lawn to save water and save money",
+      "twitter_description": "<p>One of the most effective ways to cut back on water use is to replace your lawn with drought-resistant plants and landscaping. Now Californians can get more money to do just that thanks to a <a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">new law</a> signed Sept. 28, 2022, by Governor Gavin Newsom. The l<a href=\"https://www.gov.ca.gov/2022/09/28/california-is-making-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/\">egislation</a> exempts local rebates for turf replacement from state income tax.</p>"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Action",
+        "slug": "action",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Action",
+        "category_nicename": "action",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-09-28",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-makes-it-cheaper-to-replace-your-lawn-to-save-water-and-save-money/"
+  }
+}
