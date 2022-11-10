@@ -5,6 +5,7 @@
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/pages/70",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
