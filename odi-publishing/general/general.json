@@ -2,6 +2,7 @@
   "meta": {
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json?_fields=description,gmt_offset,name,namespaces,timezone_string,home,url",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://live-drought-ca-gov.pantheonsite.io",
