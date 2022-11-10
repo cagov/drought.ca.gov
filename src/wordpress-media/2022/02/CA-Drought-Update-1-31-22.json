@@ -2,9 +2,10 @@
   "meta": {
     "created_date": "2022-02-01T17:53:46",
     "updated_date": "2022-02-01T17:53:46",
-    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1101",
     "process": {
       "source_code": "https://github.com/cagov/wordpress-to-github",
       "source_data": "https://test-drought-ca-gov.pantheonsite.io",
