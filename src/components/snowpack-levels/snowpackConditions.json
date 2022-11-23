@@ -3,7 +3,7 @@
         {
             "month": 10,
             "day": 1,
-            "avg": 0,
+            "avg": 0.003,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": -0.01
@@ -11,7 +11,7 @@
         {
             "month": 10,
             "day": 2,
-            "avg": 0,
+            "avg": 0.006,
             "wmonth": 1,
             "norm": 0.03,
             "avgAvgSwc": 0
@@ -19,7 +19,7 @@
         {
             "month": 10,
             "day": 3,
-            "avg": 0,
+            "avg": 0.004,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": -0.01
@@ -27,7 +27,7 @@
         {
             "month": 10,
             "day": 4,
-            "avg": 0.001,
+            "avg": 0.006,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": -0.01
@@ -35,7 +35,7 @@
         {
             "month": 10,
             "day": 5,
-            "avg": 0.001,
+            "avg": 0.041,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -43,7 +43,7 @@
         {
             "month": 10,
             "day": 6,
-            "avg": 0.001,
+            "avg": 0.059,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -51,7 +51,7 @@
         {
             "month": 10,
             "day": 7,
-            "avg": 0.001,
+            "avg": 0.059,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -59,7 +59,7 @@
         {
             "month": 10,
             "day": 8,
-            "avg": 0.002,
+            "avg": 0.054,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -67,7 +67,7 @@
         {
             "month": 10,
             "day": 9,
-            "avg": 0.002,
+            "avg": 0.05,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -75,7 +75,7 @@
         {
             "month": 10,
             "day": 10,
-            "avg": 0.002,
+            "avg": 0.052,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -83,7 +83,7 @@
         {
             "month": 10,
             "day": 11,
-            "avg": 0.003,
+            "avg": 0.054,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -91,7 +91,7 @@
         {
             "month": 10,
             "day": 12,
-            "avg": 0.003,
+            "avg": 0.05,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -99,7 +99,7 @@
         {
             "month": 10,
             "day": 13,
-            "avg": 0.004,
+            "avg": 0.059,
             "wmonth": 1,
             "norm": 0,
             "avgAvgSwc": 0
@@ -107,7 +107,7 @@
         {
             "month": 10,
             "day": 14,
-            "avg": 0.004,
+            "avg": 0.099,
             "wmonth": 1,
             "norm": 0.57,
             "avgAvgSwc": 0.16
@@ -115,7 +115,7 @@
         {
             "month": 10,
             "day": 15,
-            "avg": 0.005,
+            "avg": 0.087,
             "wmonth": 1,
             "norm": 0.46,
             "avgAvgSwc": 0.14
@@ -123,7 +123,7 @@
         {
             "month": 10,
             "day": 16,
-            "avg": 0.006,
+            "avg": 0.08,
             "wmonth": 1,
             "norm": 0.43,
             "avgAvgSwc": 0.11
@@ -131,7 +131,7 @@
         {
             "month": 10,
             "day": 17,
-            "avg": 0.007,
+            "avg": 0.084,
             "wmonth": 1,
             "norm": 0.36,
             "avgAvgSwc": 0.1
@@ -139,7 +139,7 @@
         {
             "month": 10,
             "day": 18,
-            "avg": 0.008,
+            "avg": 0.085,
             "wmonth": 1,
             "norm": 0.46,
             "avgAvgSwc": 0.13
@@ -147,7 +147,7 @@
         {
             "month": 10,
             "day": 19,
-            "avg": 0.009,
+            "avg": 0.085,
             "wmonth": 1,
             "norm": 0.44,
             "avgAvgSwc": 0.13
@@ -155,7 +155,7 @@
         {
             "month": 10,
             "day": 20,
-            "avg": 0.01,
+            "avg": 0.146,
             "wmonth": 1,
             "norm": 1.15,
             "avgAvgSwc": 0.33
@@ -163,7 +163,7 @@
         {
             "month": 10,
             "day": 21,
-            "avg": 0.012,
+            "avg": 0.162,
             "wmonth": 1,
             "norm": 1.44,
             "avgAvgSwc": 0.42
@@ -171,7 +171,7 @@
         {
             "month": 10,
             "day": 22,
-            "avg": 0.013,
+            "avg": 0.174,
             "wmonth": 1,
             "norm": 1.38,
             "avgAvgSwc": 0.39
@@ -179,7 +179,7 @@
         {
             "month": 10,
             "day": 23,
-            "avg": 0.015,
+            "avg": 0.206,
             "wmonth": 1,
             "norm": 1.7,
             "avgAvgSwc": 0.48
@@ -187,7 +187,7 @@
         {
             "month": 10,
             "day": 24,
-            "avg": 0.016,
+            "avg": 0.212,
             "wmonth": 1,
             "norm": 1.92,
             "avgAvgSwc": 0.57
@@ -195,7 +195,7 @@
         {
             "month": 10,
             "day": 25,
-            "avg": 0.018,
+            "avg": 0.23,
             "wmonth": 1,
             "norm": 2.22,
             "avgAvgSwc": 0.65
@@ -203,7 +203,7 @@
         {
             "month": 10,
             "day": 26,
-            "avg": 0.02,
+            "avg": 0.269,
             "wmonth": 1,
             "norm": 2.69,
             "avgAvgSwc": 0.77
@@ -211,7 +211,7 @@
         {
             "month": 10,
             "day": 27,
-            "avg": 0.022,
+            "avg": 0.307,
             "wmonth": 1,
             "norm": 3.14,
             "avgAvgSwc": 0.9
@@ -219,7 +219,7 @@
         {
             "month": 10,
             "day": 28,
-            "avg": 0.024,
+            "avg": 0.325,
             "wmonth": 1,
             "norm": 3.06,
             "avgAvgSwc": 0.89
@@ -227,7 +227,7 @@
         {
             "month": 10,
             "day": 29,
-            "avg": 0.026,
+            "avg": 0.358,
             "wmonth": 1,
             "norm": 2.97,
             "avgAvgSwc": 0.87
@@ -235,7 +235,7 @@
         {
             "month": 10,
             "day": 30,
-            "avg": 0.028,
+            "avg": 0.433,
             "wmonth": 1,
             "norm": 2.89,
             "avgAvgSwc": 0.84
@@ -243,7 +243,7 @@
         {
             "month": 10,
             "day": 31,
-            "avg": 0.03,
+            "avg": 0.473,
             "wmonth": 1,
             "norm": 2.25,
             "avgAvgSwc": 0.66
@@ -251,7 +251,7 @@
         {
             "month": 11,
             "day": 1,
-            "avg": 0.033,
+            "avg": 0.493,
             "wmonth": 2,
             "norm": 1.66,
             "avgAvgSwc": 0.47
@@ -259,7 +259,7 @@
         {
             "month": 11,
             "day": 2,
-            "avg": 0.036,
+            "avg": 0.505,
             "wmonth": 2,
             "norm": 2.1,
             "avgAvgSwc": 0.6
@@ -267,7 +267,7 @@
         {
             "month": 11,
             "day": 3,
-            "avg": 0.039,
+            "avg": 0.529,
             "wmonth": 2,
             "norm": 2.33,
             "avgAvgSwc": 0.67
@@ -275,7 +275,7 @@
         {
             "month": 11,
             "day": 4,
-            "avg": 0.042,
+            "avg": 0.589,
             "wmonth": 2,
             "norm": 2.69,
             "avgAvgSwc": 0.76
@@ -283,7 +283,7 @@
         {
             "month": 11,
             "day": 5,
-            "avg": 0.045,
+            "avg": 0.605,
             "wmonth": 2,
             "norm": 2.64,
             "avgAvgSwc": 0.75
@@ -291,7 +291,7 @@
         {
             "month": 11,
             "day": 6,
-            "avg": 0.048,
+            "avg": 0.621,
             "wmonth": 2,
             "norm": 2.87,
             "avgAvgSwc": 0.81
@@ -299,7 +299,7 @@
         {
             "month": 11,
             "day": 7,
-            "avg": 0.052,
+            "avg": 0.634,
             "wmonth": 2,
             "norm": 2.96,
             "avgAvgSwc": 0.83
@@ -307,7 +307,7 @@
         {
             "month": 11,
             "day": 8,
-            "avg": 0.055,
+            "avg": 0.731,
             "wmonth": 2,
             "norm": 3.54,
             "avgAvgSwc": 1
@@ -315,7 +315,7 @@
         {
             "month": 11,
             "day": 9,
-            "avg": 0.059,
+            "avg": 0.852,
             "wmonth": 2,
             "norm": 4.44,
             "avgAvgSwc": 1.24
@@ -323,7 +323,7 @@
         {
             "month": 11,
             "day": 10,
-            "avg": 0.063,
+            "avg": 0.947,
             "wmonth": 2,
             "norm": 4.94,
             "avgAvgSwc": 1.39
@@ -331,7 +331,7 @@
         {
             "month": 11,
             "day": 11,
-            "avg": 0.067,
+            "avg": 0.991,
             "wmonth": 2,
             "norm": 5.06,
             "avgAvgSwc": 1.43
@@ -339,7 +339,7 @@
         {
             "month": 11,
             "day": 12,
-            "avg": 0.07,
+            "avg": 1.016,
             "wmonth": 2,
             "norm": 5.23,
             "avgAvgSwc": 1.48
@@ -347,7 +347,7 @@
         {
             "month": 11,
             "day": 13,
-            "avg": 0.075,
+            "avg": 1.049,
             "wmonth": 2,
             "norm": 5.46,
             "avgAvgSwc": 1.53
@@ -355,7 +355,7 @@
         {
             "month": 11,
             "day": 14,
-            "avg": 0.079,
+            "avg": 1.067,
             "wmonth": 2,
             "norm": 5.4,
             "avgAvgSwc": 1.54
@@ -363,7 +363,7 @@
         {
             "month": 11,
             "day": 15,
-            "avg": 0.083,
+            "avg": 1.064,
             "wmonth": 2,
             "norm": 5.37,
             "avgAvgSwc": 1.53
@@ -371,7 +371,7 @@
         {
             "month": 11,
             "day": 16,
-            "avg": 0.087,
+            "avg": 1.168,
             "wmonth": 2,
             "norm": 5.46,
             "avgAvgSwc": 1.54
@@ -379,7 +379,7 @@
         {
             "month": 11,
             "day": 17,
-            "avg": 0.092,
+            "avg": 1.264,
             "wmonth": 2,
             "norm": 6.04,
             "avgAvgSwc": 1.71
@@ -387,7 +387,7 @@
         {
             "month": 11,
             "day": 18,
-            "avg": 0.096,
+            "avg": 1.38,
             "wmonth": 2,
             "norm": 5.37,
             "avgAvgSwc": 1.52
@@ -395,7 +395,7 @@
         {
             "month": 11,
             "day": 19,
-            "avg": 0.101,
+            "avg": 1.432,
             "wmonth": 2,
             "norm": 5.45,
             "avgAvgSwc": 1.53
@@ -403,7 +403,7 @@
         {
             "month": 11,
             "day": 20,
-            "avg": 0.106,
+            "avg": 1.525,
             "wmonth": 2,
             "norm": 6.02,
             "avgAvgSwc": 1.67
@@ -411,7 +411,7 @@
         {
             "month": 11,
             "day": 21,
-            "avg": 0.111,
+            "avg": 1.639,
             "wmonth": 2,
             "norm": 6.4,
             "avgAvgSwc": 1.81
@@ -419,7 +419,7 @@
         {
             "month": 11,
             "day": 22,
-            "avg": 0.116,
+            "avg": 1.742,
             "wmonth": 2,
             "norm": 6.72,
             "avgAvgSwc": 1.91
@@ -427,7 +427,7 @@
         {
             "month": 11,
             "day": 23,
-            "avg": 0.121,
+            "avg": 1.856,
             "wmonth": 2,
             "norm": 7.03,
             "avgAvgSwc": 1.99
@@ -435,7 +435,7 @@
         {
             "month": 11,
             "day": 24,
-            "avg": 0.126,
+            "avg": 1.941,
             "wmonth": 2,
             "norm": 7.25,
             "avgAvgSwc": 2.04
@@ -443,7 +443,7 @@
         {
             "month": 11,
             "day": 25,
-            "avg": 0.132,
+            "avg": 2.037,
             "wmonth": 2,
             "norm": 7.31,
             "avgAvgSwc": 2.05
@@ -451,7 +451,7 @@
         {
             "month": 11,
             "day": 26,
-            "avg": 0.137,
+            "avg": 2.133,
             "wmonth": 2,
             "norm": 7.19,
             "avgAvgSwc": 2.06
@@ -459,7 +459,7 @@
         {
             "month": 11,
             "day": 27,
-            "avg": 0.143,
+            "avg": 2.294,
             "wmonth": 2,
             "norm": 7.54,
             "avgAvgSwc": 2.14
@@ -467,7 +467,7 @@
         {
             "month": 11,
             "day": 28,
-            "avg": 0.148,
+            "avg": 2.482,
             "wmonth": 2,
             "norm": 8.53,
             "avgAvgSwc": 2.43
@@ -475,7 +475,7 @@
         {
             "month": 11,
             "day": 29,
-            "avg": 0.154,
+            "avg": 2.658,
             "wmonth": 2,
             "norm": 9.38,
             "avgAvgSwc": 2.67
@@ -483,7 +483,7 @@
         {
             "month": 11,
             "day": 30,
-            "avg": 0.16,
+            "avg": 2.847,
             "wmonth": 2,
             "norm": 9.5,
             "avgAvgSwc": 2.69
@@ -491,7 +491,7 @@
         {
             "month": 12,
             "day": 1,
-            "avg": 0.165,
+            "avg": 3.008,
             "wmonth": 3,
             "norm": 9.48,
             "avgAvgSwc": 2.71
@@ -499,7 +499,7 @@
         {
             "month": 12,
             "day": 2,
-            "avg": 0.17,
+            "avg": 3.221,
             "wmonth": 3,
             "norm": 10.59,
             "avgAvgSwc": 3.05
@@ -507,7 +507,7 @@
         {
             "month": 12,
             "day": 3,
-            "avg": 0.175,
+            "avg": 3.428,
             "wmonth": 3,
             "norm": 11.34,
             "avgAvgSwc": 3.27
@@ -515,7 +515,7 @@
         {
             "month": 12,
             "day": 4,
-            "avg": 0.18,
+            "avg": 3.549,
             "wmonth": 3,
             "norm": 11.79,
             "avgAvgSwc": 3.36
@@ -523,7 +523,7 @@
         {
             "month": 12,
             "day": 5,
-            "avg": 0.185,
+            "avg": 3.64,
             "wmonth": 3,
             "norm": 11.85,
             "avgAvgSwc": 3.41
@@ -531,7 +531,7 @@
         {
             "month": 12,
             "day": 6,
-            "avg": 0.191,
+            "avg": 3.783,
             "wmonth": 3,
             "norm": 12.35,
             "avgAvgSwc": 3.56
@@ -539,7 +539,7 @@
         {
             "month": 12,
             "day": 7,
-            "avg": 0.196,
+            "avg": 4.029,
             "wmonth": 3,
             "norm": 12.72,
             "avgAvgSwc": 3.67
@@ -547,7 +547,7 @@
         {
             "month": 12,
             "day": 8,
-            "avg": 0.202,
+            "avg": 4.265,
             "wmonth": 3,
             "norm": 13.85,
             "avgAvgSwc": 4.02
@@ -555,7 +555,7 @@
         {
             "month": 12,
             "day": 9,
-            "avg": 0.207,
+            "avg": 4.405,
             "wmonth": 3,
             "norm": 14.15,
             "avgAvgSwc": 4.11
@@ -563,7 +563,7 @@
         {
             "month": 12,
             "day": 10,
-            "avg": 0.213,
+            "avg": 4.536,
             "wmonth": 3,
             "norm": 14.55,
             "avgAvgSwc": 4.21
@@ -571,7 +571,7 @@
         {
             "month": 12,
             "day": 11,
-            "avg": 0.218,
+            "avg": 4.739,
             "wmonth": 3,
             "norm": 14.95,
             "avgAvgSwc": 4.34
@@ -579,7 +579,7 @@
         {
             "month": 12,
             "day": 12,
-            "avg": 0.224,
+            "avg": 4.976,
             "wmonth": 3,
             "norm": 15.43,
             "avgAvgSwc": 4.47
@@ -587,7 +587,7 @@
         {
             "month": 12,
             "day": 13,
-            "avg": 0.23,
+            "avg": 5.205,
             "wmonth": 3,
             "norm": 16.64,
             "avgAvgSwc": 4.83
@@ -595,7 +595,7 @@
         {
             "month": 12,
             "day": 14,
-            "avg": 0.236,
+            "avg": 5.43,
             "wmonth": 3,
             "norm": 17.46,
             "avgAvgSwc": 5.06
@@ -603,7 +603,7 @@
         {
             "month": 12,
             "day": 15,
-            "avg": 0.242,
+            "avg": 5.651,
             "wmonth": 3,
             "norm": 18.32,
             "avgAvgSwc": 5.31
@@ -611,7 +611,7 @@
         {
             "month": 12,
             "day": 16,
-            "avg": 0.248,
+            "avg": 5.857,
             "wmonth": 3,
             "norm": 19.21,
             "avgAvgSwc": 5.58
@@ -619,7 +619,7 @@
         {
             "month": 12,
             "day": 17,
-            "avg": 0.255,
+            "avg": 6.018,
             "wmonth": 3,
             "norm": 20.26,
             "avgAvgSwc": 5.81
@@ -627,7 +627,7 @@
         {
             "month": 12,
             "day": 18,
-            "avg": 0.261,
+            "avg": 6.224,
             "wmonth": 3,
             "norm": 20.89,
             "avgAvgSwc": 6.08
@@ -635,7 +635,7 @@
         {
             "month": 12,
             "day": 19,
-            "avg": 0.267,
+            "avg": 6.499,
             "wmonth": 3,
             "norm": 21.84,
             "avgAvgSwc": 6.35
@@ -643,7 +643,7 @@
         {
             "month": 12,
             "day": 20,
-            "avg": 0.274,
+            "avg": 6.759,
             "wmonth": 3,
             "norm": 22.83,
             "avgAvgSwc": 6.66
@@ -651,7 +651,7 @@
         {
             "month": 12,
             "day": 21,
-            "avg": 0.28,
+            "avg": 6.973,
             "wmonth": 3,
             "norm": 23.52,
             "avgAvgSwc": 6.9
@@ -659,7 +659,7 @@
         {
             "month": 12,
             "day": 22,
-            "avg": 0.287,
+            "avg": 7.263,
             "wmonth": 3,
             "norm": 24.46,
             "avgAvgSwc": 7.17
@@ -667,7 +667,7 @@
         {
             "month": 12,
             "day": 23,
-            "avg": 0.294,
+            "avg": 7.468,
             "wmonth": 3,
             "norm": 25.26,
             "avgAvgSwc": 7.42
@@ -675,7 +675,7 @@
         {
             "month": 12,
             "day": 24,
-            "avg": 0.3,
+            "avg": 7.638,
             "wmonth": 3,
             "norm": 26.27,
             "avgAvgSwc": 7.7
@@ -683,7 +683,7 @@
         {
             "month": 12,
             "day": 25,
-            "avg": 0.307,
+            "avg": 7.843,
             "wmonth": 3,
             "norm": 27.16,
             "avgAvgSwc": 7.99
@@ -691,7 +691,7 @@
         {
             "month": 12,
             "day": 26,
-            "avg": 0.314,
+            "avg": 8.022,
             "wmonth": 3,
             "norm": 28.26,
             "avgAvgSwc": 8.31
@@ -699,7 +699,7 @@
         {
             "month": 12,
             "day": 27,
-            "avg": 0.321,
+            "avg": 8.176,
             "wmonth": 3,
             "norm": 30.18,
             "avgAvgSwc": 8.87
@@ -707,7 +707,7 @@
         {
             "month": 12,
             "day": 28,
-            "avg": 0.328,
+            "avg": 8.301,
             "wmonth": 3,
             "norm": 30.83,
             "avgAvgSwc": 9.06
@@ -715,7 +715,7 @@
         {
             "month": 12,
             "day": 29,
-            "avg": 0.335,
+            "avg": 8.604,
             "wmonth": 3,
             "norm": 31.83,
             "avgAvgSwc": 9.35
@@ -723,7 +723,7 @@
         {
             "month": 12,
             "day": 30,
-            "avg": 0.343,
+            "avg": 8.901,
             "wmonth": 3,
             "norm": 32.86,
             "avgAvgSwc": 9.64
@@ -731,7 +731,7 @@
         {
             "month": 12,
             "day": 31,
-            "avg": 0.35,
+            "avg": 9.111,
             "wmonth": 3,
             "norm": 32.3,
             "avgAvgSwc": 9.53
@@ -739,7 +739,7 @@
         {
             "month": 1,
             "day": 1,
-            "avg": 0.358,
+            "avg": 9.284,
             "wmonth": 4,
             "norm": 32.91,
             "avgAvgSwc": 9.71
@@ -747,7 +747,7 @@
         {
             "month": 1,
             "day": 2,
-            "avg": 0.366,
+            "avg": 9.523,
             "wmonth": 4,
             "norm": 33.93,
             "avgAvgSwc": 10.02
@@ -755,7 +755,7 @@
         {
             "month": 1,
             "day": 3,
-            "avg": 0.373,
+            "avg": 9.711,
             "wmonth": 4,
             "norm": 34.74,
             "avgAvgSwc": 10.25
@@ -763,7 +763,7 @@
         {
             "month": 1,
             "day": 4,
-            "avg": 0.381,
+            "avg": 9.894,
             "wmonth": 4,
             "norm": 35.4,
             "avgAvgSwc": 10.46
@@ -771,7 +771,7 @@
         {
             "month": 1,
             "day": 5,
-            "avg": 0.389,
+            "avg": 10.272,
             "wmonth": 4,
             "norm": 36.82,
             "avgAvgSwc": 10.89
@@ -779,7 +779,7 @@
         {
             "month": 1,
             "day": 6,
-            "avg": 0.397,
+            "avg": 10.496,
             "wmonth": 4,
             "norm": 37.49,
             "avgAvgSwc": 11.1
@@ -787,7 +787,7 @@
         {
             "month": 1,
             "day": 7,
-            "avg": 0.405,
+            "avg": 10.72,
             "wmonth": 4,
             "norm": 38.17,
             "avgAvgSwc": 11.3
@@ -795,7 +795,7 @@
         {
             "month": 1,
             "day": 8,
-            "avg": 0.413,
+            "avg": 10.993,
             "wmonth": 4,
             "norm": 38.95,
             "avgAvgSwc": 11.54
@@ -803,7 +803,7 @@
         {
             "month": 1,
             "day": 9,
-            "avg": 0.421,
+            "avg": 11.283,
             "wmonth": 4,
             "norm": 39.9,
             "avgAvgSwc": 11.79
@@ -811,7 +811,7 @@
         {
             "month": 1,
             "day": 10,
-            "avg": 0.429,
+            "avg": 11.531,
             "wmonth": 4,
             "norm": 40.8,
             "avgAvgSwc": 12.04
@@ -819,7 +819,7 @@
         {
             "month": 1,
             "day": 11,
-            "avg": 0.437,
+            "avg": 11.876,
             "wmonth": 4,
             "norm": 41.81,
             "avgAvgSwc": 12.31
@@ -827,7 +827,7 @@
         {
             "month": 1,
             "day": 12,
-            "avg": 0.446,
+            "avg": 12.045,
             "wmonth": 4,
             "norm": 42.35,
             "avgAvgSwc": 12.46
@@ -835,7 +835,7 @@
         {
             "month": 1,
             "day": 13,
-            "avg": 0.454,
+            "avg": 12.221,
             "wmonth": 4,
             "norm": 42.88,
             "avgAvgSwc": 12.58
@@ -843,7 +843,7 @@
         {
             "month": 1,
             "day": 14,
-            "avg": 0.462,
+            "avg": 12.376,
             "wmonth": 4,
             "norm": 43.29,
             "avgAvgSwc": 12.68
@@ -851,7 +851,7 @@
         {
             "month": 1,
             "day": 15,
-            "avg": 0.471,
+            "avg": 12.57,
             "wmonth": 4,
             "norm": 43.87,
             "avgAvgSwc": 12.85
@@ -859,7 +859,7 @@
         {
             "month": 1,
             "day": 16,
-            "avg": 0.479,
+            "avg": 12.774,
             "wmonth": 4,
             "norm": 44.34,
             "avgAvgSwc": 12.95
@@ -867,7 +867,7 @@
         {
             "month": 1,
             "day": 17,
-            "avg": 0.487,
+            "avg": 12.997,
             "wmonth": 4,
             "norm": 44.89,
             "avgAvgSwc": 13.1
@@ -875,7 +875,7 @@
         {
             "month": 1,
             "day": 18,
-            "avg": 0.496,
+            "avg": 13.188,
             "wmonth": 4,
             "norm": 45.38,
             "avgAvgSwc": 13.22
@@ -883,7 +883,7 @@
         {
             "month": 1,
             "day": 19,
-            "avg": 0.504,
+            "avg": 13.545,
             "wmonth": 4,
             "norm": 46.46,
             "avgAvgSwc": 13.52
@@ -891,7 +891,7 @@
         {
             "month": 1,
             "day": 20,
-            "avg": 0.513,
+            "avg": 13.792,
             "wmonth": 4,
             "norm": 45.59,
             "avgAvgSwc": 13.28
@@ -899,7 +899,7 @@
         {
             "month": 1,
             "day": 21,
-            "avg": 0.522,
+            "avg": 14.166,
             "wmonth": 4,
             "norm": 46.58,
             "avgAvgSwc": 13.57
@@ -907,7 +907,7 @@
         {
             "month": 1,
             "day": 22,
-            "avg": 0.53,
+            "avg": 14.394,
             "wmonth": 4,
             "norm": 48.56,
             "avgAvgSwc": 14.16
@@ -915,7 +915,7 @@
         {
             "month": 1,
             "day": 23,
-            "avg": 0.539,
+            "avg": 14.719,
             "wmonth": 4,
             "norm": 49.47,
             "avgAvgSwc": 14.42
@@ -923,7 +923,7 @@
         {
             "month": 1,
             "day": 24,
-            "avg": 0.548,
+            "avg": 15.01,
             "wmonth": 4,
             "norm": 50.23,
             "avgAvgSwc": 14.59
@@ -931,7 +931,7 @@
         {
             "month": 1,
             "day": 25,
-            "avg": 0.556,
+            "avg": 15.341,
             "wmonth": 4,
             "norm": 50.96,
             "avgAvgSwc": 14.71
@@ -939,7 +939,7 @@
         {
             "month": 1,
             "day": 26,
-            "avg": 0.565,
+            "avg": 15.562,
             "wmonth": 4,
             "norm": 51.44,
             "avgAvgSwc": 14.82
@@ -947,7 +947,7 @@
         {
             "month": 1,
             "day": 27,
-            "avg": 0.574,
+            "avg": 15.763,
             "wmonth": 4,
             "norm": 52.07,
             "avgAvgSwc": 14.99
@@ -955,7 +955,7 @@
         {
             "month": 1,
             "day": 28,
-            "avg": 0.583,
+            "avg": 15.953,
             "wmonth": 4,
             "norm": 52.91,
             "avgAvgSwc": 15.25
@@ -963,7 +963,7 @@
         {
             "month": 1,
             "day": 29,
-            "avg": 0.592,
+            "avg": 16.072,
             "wmonth": 4,
             "norm": 52.47,
             "avgAvgSwc": 15.12
@@ -971,7 +971,7 @@
         {
             "month": 1,
             "day": 30,
-            "avg": 0.601,
+            "avg": 16.191,
             "wmonth": 4,
             "norm": 52.97,
             "avgAvgSwc": 15.26
@@ -979,7 +979,7 @@
         {
             "month": 1,
             "day": 31,
-            "avg": 0.61,
+            "avg": 16.319,
             "wmonth": 4,
             "norm": 54.57,
             "avgAvgSwc": 15.41
@@ -987,7 +987,7 @@
         {
             "month": 2,
             "day": 1,
-            "avg": 0.621,
+            "avg": 16.439,
             "wmonth": 5,
             "norm": 55.11,
             "avgAvgSwc": 15.83
@@ -995,7 +995,7 @@
         {
             "month": 2,
             "day": 2,
-            "avg": 0.631,
+            "avg": 16.498,
             "wmonth": 5,
             "norm": 55.46,
             "avgAvgSwc": 15.97
@@ -1003,7 +1003,7 @@
         {
             "month": 2,
             "day": 3,
-            "avg": 0.642,
+            "avg": 16.772,
             "wmonth": 5,
             "norm": 56.68,
             "avgAvgSwc": 16.34
@@ -1011,7 +1011,7 @@
         {
             "month": 2,
             "day": 4,
-            "avg": 0.652,
+            "avg": 16.96,
             "wmonth": 5,
             "norm": 57.46,
             "avgAvgSwc": 16.54
@@ -1019,7 +1019,7 @@
         {
             "month": 2,
             "day": 5,
-            "avg": 0.662,
+            "avg": 17.085,
             "wmonth": 5,
             "norm": 58.02,
             "avgAvgSwc": 16.7
@@ -1027,7 +1027,7 @@
         {
             "month": 2,
             "day": 6,
-            "avg": 0.672,
+            "avg": 17.222,
             "wmonth": 5,
             "norm": 58.5,
             "avgAvgSwc": 16.84
@@ -1035,7 +1035,7 @@
         {
             "month": 2,
             "day": 7,
-            "avg": 0.682,
+            "avg": 17.525,
             "wmonth": 5,
             "norm": 59.51,
             "avgAvgSwc": 17.13
@@ -1043,7 +1043,7 @@
         {
             "month": 2,
             "day": 8,
-            "avg": 0.692,
+            "avg": 17.804,
             "wmonth": 5,
             "norm": 60.24,
             "avgAvgSwc": 17.36
@@ -1051,7 +1051,7 @@
         {
             "month": 2,
             "day": 9,
-            "avg": 0.702,
+            "avg": 18.013,
             "wmonth": 5,
             "norm": 60.85,
             "avgAvgSwc": 17.52
@@ -1059,7 +1059,7 @@
         {
             "month": 2,
             "day": 10,
-            "avg": 0.712,
+            "avg": 18.237,
             "wmonth": 5,
             "norm": 61.4,
             "avgAvgSwc": 17.67
@@ -1067,7 +1067,7 @@
         {
             "month": 2,
             "day": 11,
-            "avg": 0.721,
+            "avg": 18.492,
             "wmonth": 5,
             "norm": 62.18,
             "avgAvgSwc": 17.83
@@ -1075,7 +1075,7 @@
         {
             "month": 2,
             "day": 12,
-            "avg": 0.731,
+            "avg": 18.66,
             "wmonth": 5,
             "norm": 62.72,
             "avgAvgSwc": 17.93
@@ -1083,7 +1083,7 @@
         {
             "month": 2,
             "day": 13,
-            "avg": 0.74,
+            "avg": 18.804,
             "wmonth": 5,
             "norm": 63.21,
             "avgAvgSwc": 18.04
@@ -1091,7 +1091,7 @@
         {
             "month": 2,
             "day": 14,
-            "avg": 0.75,
+            "avg": 19.065,
             "wmonth": 5,
             "norm": 64.02,
             "avgAvgSwc": 18.21
@@ -1099,7 +1099,7 @@
         {
             "month": 2,
             "day": 15,
-            "avg": 0.759,
+            "avg": 19.25,
             "wmonth": 5,
             "norm": 64.71,
             "avgAvgSwc": 18.38
@@ -1107,7 +1107,7 @@
         {
             "month": 2,
             "day": 16,
-            "avg": 0.768,
+            "avg": 19.457,
             "wmonth": 5,
             "norm": 65.5,
             "avgAvgSwc": 18.6
@@ -1115,7 +1115,7 @@
         {
             "month": 2,
             "day": 17,
-            "avg": 0.777,
+            "avg": 19.731,
             "wmonth": 5,
             "norm": 66.36,
             "avgAvgSwc": 18.85
@@ -1123,7 +1123,7 @@
         {
             "month": 2,
             "day": 18,
-            "avg": 0.786,
+            "avg": 20.053,
             "wmonth": 5,
             "norm": 67.29,
             "avgAvgSwc": 19.1
@@ -1131,7 +1131,7 @@
         {
             "month": 2,
             "day": 19,
-            "avg": 0.795,
+            "avg": 20.313,
             "wmonth": 5,
             "norm": 66.71,
             "avgAvgSwc": 18.9
@@ -1139,7 +1139,7 @@
         {
             "month": 2,
             "day": 20,
-            "avg": 0.804,
+            "avg": 20.667,
             "wmonth": 5,
             "norm": 68.84,
             "avgAvgSwc": 19.51
@@ -1147,7 +1147,7 @@
         {
             "month": 2,
             "day": 21,
-            "avg": 0.812,
+            "avg": 20.987,
             "wmonth": 5,
             "norm": 69.7,
             "avgAvgSwc": 19.74
@@ -1155,7 +1155,7 @@
         {
             "month": 2,
             "day": 22,
-            "avg": 0.821,
+            "avg": 21.288,
             "wmonth": 5,
             "norm": 70.57,
             "avgAvgSwc": 20
@@ -1163,7 +1163,7 @@
         {
             "month": 2,
             "day": 23,
-            "avg": 0.829,
+            "avg": 21.553,
             "wmonth": 5,
             "norm": 71.63,
             "avgAvgSwc": 20.26
@@ -1171,7 +1171,7 @@
         {
             "month": 2,
             "day": 24,
-            "avg": 0.838,
+            "avg": 21.807,
             "wmonth": 5,
             "norm": 72.75,
             "avgAvgSwc": 20.56
@@ -1179,7 +1179,7 @@
         {
             "month": 2,
             "day": 25,
-            "avg": 0.846,
+            "avg": 22.042,
             "wmonth": 5,
             "norm": 73.23,
             "avgAvgSwc": 20.7
@@ -1187,7 +1187,7 @@
         {
             "month": 2,
             "day": 26,
-            "avg": 0.854,
+            "avg": 22.339,
             "wmonth": 5,
             "norm": 74.44,
             "avgAvgSwc": 21.03
@@ -1195,7 +1195,7 @@
         {
             "month": 2,
             "day": 27,
-            "avg": 0.862,
+            "avg": 22.666,
             "wmonth": 5,
             "norm": 75.77,
             "avgAvgSwc": 21.4
@@ -1203,7 +1203,7 @@
         {
             "month": 2,
             "day": 28,
-            "avg": 0.87,
+            "avg": 22.91,
             "wmonth": 5,
             "norm": 76.71,
             "avgAvgSwc": 21.62
@@ -1211,7 +1211,7 @@
         {
             "month": 2,
             "day": 29,
-            "avg": 0.87,
+            "avg": 22.987,
             "wmonth": 5,
             "norm": 72.48,
             "avgAvgSwc": 19.64
@@ -1219,7 +1219,7 @@
         {
             "month": 3,
             "day": 1,
-            "avg": 0.879,
+            "avg": 23.064,
             "wmonth": 6,
             "norm": 77.34,
             "avgAvgSwc": 21.78
@@ -1227,7 +1227,7 @@
         {
             "month": 3,
             "day": 2,
-            "avg": 0.887,
+            "avg": 23.315,
             "wmonth": 6,
             "norm": 78.07,
             "avgAvgSwc": 21.87
@@ -1235,7 +1235,7 @@
         {
             "month": 3,
             "day": 3,
-            "avg": 0.895,
+            "avg": 23.61,
             "wmonth": 6,
             "norm": 79.07,
             "avgAvgSwc": 22.27
@@ -1243,7 +1243,7 @@
         {
             "month": 3,
             "day": 4,
-            "avg": 0.903,
+            "avg": 23.869,
             "wmonth": 6,
             "norm": 79.84,
             "avgAvgSwc": 22.47
@@ -1251,7 +1251,7 @@
         {
             "month": 3,
             "day": 5,
-            "avg": 0.91,
+            "avg": 24.098,
             "wmonth": 6,
             "norm": 80.15,
             "avgAvgSwc": 22.56
@@ -1259,7 +1259,7 @@
         {
             "month": 3,
             "day": 6,
-            "avg": 0.917,
+            "avg": 24.384,
             "wmonth": 6,
             "norm": 81.17,
             "avgAvgSwc": 22.8
@@ -1267,7 +1267,7 @@
         {
             "month": 3,
             "day": 7,
-            "avg": 0.924,
+            "avg": 24.62,
             "wmonth": 6,
             "norm": 82.22,
             "avgAvgSwc": 23.07
@@ -1275,7 +1275,7 @@
         {
             "month": 3,
             "day": 8,
-            "avg": 0.931,
+            "avg": 24.734,
             "wmonth": 6,
             "norm": 82.65,
             "avgAvgSwc": 23.19
@@ -1283,7 +1283,7 @@
         {
             "month": 3,
             "day": 9,
-            "avg": 0.937,
+            "avg": 24.817,
             "wmonth": 6,
             "norm": 82.89,
             "avgAvgSwc": 23.25
@@ -1291,7 +1291,7 @@
         {
             "month": 3,
             "day": 10,
-            "avg": 0.943,
+            "avg": 24.917,
             "wmonth": 6,
             "norm": 83.05,
             "avgAvgSwc": 23.22
@@ -1299,7 +1299,7 @@
         {
             "month": 3,
             "day": 11,
-            "avg": 0.948,
+            "avg": 25.004,
             "wmonth": 6,
             "norm": 83.16,
             "avgAvgSwc": 23.31
@@ -1307,7 +1307,7 @@
         {
             "month": 3,
             "day": 12,
-            "avg": 0.954,
+            "avg": 25.058,
             "wmonth": 6,
             "norm": 83.24,
             "avgAvgSwc": 23.33
@@ -1315,7 +1315,7 @@
         {
             "month": 3,
             "day": 13,
-            "avg": 0.959,
+            "avg": 25.128,
             "wmonth": 6,
             "norm": 83.37,
             "avgAvgSwc": 23.36
@@ -1323,7 +1323,7 @@
         {
             "month": 3,
             "day": 14,
-            "avg": 0.964,
+            "avg": 25.192,
             "wmonth": 6,
             "norm": 83.55,
             "avgAvgSwc": 23.43
@@ -1331,7 +1331,7 @@
         {
             "month": 3,
             "day": 15,
-            "avg": 0.968,
+            "avg": 25.274,
             "wmonth": 6,
             "norm": 83.89,
             "avgAvgSwc": 23.55
@@ -1339,7 +1339,7 @@
         {
             "month": 3,
             "day": 16,
-            "avg": 0.972,
+            "avg": 25.39,
             "wmonth": 6,
             "norm": 84.35,
             "avgAvgSwc": 23.69
@@ -1347,7 +1347,7 @@
         {
             "month": 3,
             "day": 17,
-            "avg": 0.976,
+            "avg": 25.507,
             "wmonth": 6,
             "norm": 84.69,
             "avgAvgSwc": 23.8
@@ -1355,7 +1355,7 @@
         {
             "month": 3,
             "day": 18,
-            "avg": 0.98,
+            "avg": 25.513,
             "wmonth": 6,
             "norm": 84.66,
             "avgAvgSwc": 23.8
@@ -1363,7 +1363,7 @@
         {
             "month": 3,
             "day": 19,
-            "avg": 0.983,
+            "avg": 25.48,
             "wmonth": 6,
             "norm": 84.54,
             "avgAvgSwc": 23.77
@@ -1371,7 +1371,7 @@
         {
             "month": 3,
             "day": 20,
-            "avg": 0.986,
+            "avg": 25.489,
             "wmonth": 6,
             "norm": 84.67,
             "avgAvgSwc": 23.72
@@ -1379,7 +1379,7 @@
         {
             "month": 3,
             "day": 21,
-            "avg": 0.989,
+            "avg": 25.612,
             "wmonth": 6,
             "norm": 84.99,
             "avgAvgSwc": 23.94
@@ -1387,7 +1387,7 @@
         {
             "month": 3,
             "day": 22,
-            "avg": 0.991,
+            "avg": 25.702,
             "wmonth": 6,
             "norm": 85.29,
             "avgAvgSwc": 24.07
@@ -1395,7 +1395,7 @@
         {
             "month": 3,
             "day": 23,
-            "avg": 0.993,
+            "avg": 25.858,
             "wmonth": 6,
             "norm": 85.72,
             "avgAvgSwc": 24.2
@@ -1403,7 +1403,7 @@
         {
             "month": 3,
             "day": 24,
-            "avg": 0.995,
+            "avg": 25.974,
             "wmonth": 6,
             "norm": 85.9,
             "avgAvgSwc": 24.28
@@ -1411,7 +1411,7 @@
         {
             "month": 3,
             "day": 25,
-            "avg": 0.997,
+            "avg": 26.144,
             "wmonth": 6,
             "norm": 86.23,
             "avgAvgSwc": 24.38
@@ -1419,7 +1419,7 @@
         {
             "month": 3,
             "day": 26,
-            "avg": 0.998,
+            "avg": 26.245,
             "wmonth": 6,
             "norm": 86.38,
             "avgAvgSwc": 24.44
@@ -1427,7 +1427,7 @@
         {
             "month": 3,
             "day": 27,
-            "avg": 0.999,
+            "avg": 26.301,
             "wmonth": 6,
             "norm": 86.53,
             "avgAvgSwc": 24.49
@@ -1435,7 +1435,7 @@
         {
             "month": 3,
             "day": 28,
-            "avg": 1,
+            "avg": 26.365,
             "wmonth": 6,
             "norm": 86.76,
             "avgAvgSwc": 24.58
@@ -1443,7 +1443,7 @@
         {
             "month": 3,
             "day": 29,
-            "avg": 1,
+            "avg": 26.375,
             "wmonth": 6,
             "norm": 86.82,
             "avgAvgSwc": 24.63
@@ -1451,7 +1451,7 @@
         {
             "month": 3,
             "day": 30,
-            "avg": 1,
+            "avg": 26.328,
             "wmonth": 6,
             "norm": 86.69,
             "avgAvgSwc": 24.61
@@ -1459,7 +1459,7 @@
         {
             "month": 3,
             "day": 31,
-            "avg": 1,
+            "avg": 26.257,
             "wmonth": 6,
             "norm": 86.35,
             "avgAvgSwc": 24.57
@@ -1467,7 +1467,7 @@
         {
             "month": 4,
             "day": 1,
-            "avg": 0.999,
+            "avg": 26.276,
             "wmonth": 7,
             "norm": 89.74,
             "avgAvgSwc": 25.33
@@ -1475,7 +1475,7 @@
         {
             "month": 4,
             "day": 2,
-            "avg": 0.997,
+            "avg": 26.119,
             "wmonth": 7,
             "norm": 85.69,
             "avgAvgSwc": 24.4
@@ -1483,7 +1483,7 @@
         {
             "month": 4,
             "day": 3,
-            "avg": 0.995,
+            "avg": 26.006,
             "wmonth": 7,
             "norm": 85.22,
             "avgAvgSwc": 24.3
@@ -1491,7 +1491,7 @@
         {
             "month": 4,
             "day": 4,
-            "avg": 0.993,
+            "avg": 25.911,
             "wmonth": 7,
             "norm": 84.8,
             "avgAvgSwc": 24.19
@@ -1499,7 +1499,7 @@
         {
             "month": 4,
             "day": 5,
-            "avg": 0.99,
+            "avg": 25.846,
             "wmonth": 7,
             "norm": 84.53,
             "avgAvgSwc": 24.1
@@ -1507,7 +1507,7 @@
         {
             "month": 4,
             "day": 6,
-            "avg": 0.987,
+            "avg": 25.768,
             "wmonth": 7,
             "norm": 84.14,
             "avgAvgSwc": 24.02
@@ -1515,7 +1515,7 @@
         {
             "month": 4,
             "day": 7,
-            "avg": 0.983,
+            "avg": 25.652,
             "wmonth": 7,
             "norm": 83.61,
             "avgAvgSwc": 23.87
@@ -1523,7 +1523,7 @@
         {
             "month": 4,
             "day": 8,
-            "avg": 0.979,
+            "avg": 25.57,
             "wmonth": 7,
             "norm": 83.27,
             "avgAvgSwc": 23.76
@@ -1531,7 +1531,7 @@
         {
             "month": 4,
             "day": 9,
-            "avg": 0.975,
+            "avg": 25.451,
             "wmonth": 7,
             "norm": 82.9,
             "avgAvgSwc": 23.64
@@ -1539,7 +1539,7 @@
         {
             "month": 4,
             "day": 10,
-            "avg": 0.97,
+            "avg": 25.3,
             "wmonth": 7,
             "norm": 82.26,
             "avgAvgSwc": 23.46
@@ -1547,7 +1547,7 @@
         {
             "month": 4,
             "day": 11,
-            "avg": 0.965,
+            "avg": 25.119,
             "wmonth": 7,
             "norm": 81.6,
             "avgAvgSwc": 23.25
@@ -1555,7 +1555,7 @@
         {
             "month": 4,
             "day": 12,
-            "avg": 0.959,
+            "avg": 25.039,
             "wmonth": 7,
             "norm": 81.14,
             "avgAvgSwc": 23.13
@@ -1563,7 +1563,7 @@
         {
             "month": 4,
             "day": 13,
-            "avg": 0.953,
+            "avg": 24.936,
             "wmonth": 7,
             "norm": 80.83,
             "avgAvgSwc": 23.03
@@ -1571,7 +1571,7 @@
         {
             "month": 4,
             "day": 14,
-            "avg": 0.947,
+            "avg": 24.819,
             "wmonth": 7,
             "norm": 80.6,
             "avgAvgSwc": 22.97
@@ -1579,7 +1579,7 @@
         {
             "month": 4,
             "day": 15,
-            "avg": 0.94,
+            "avg": 24.632,
             "wmonth": 7,
             "norm": 80.11,
             "avgAvgSwc": 22.82
@@ -1587,7 +1587,7 @@
         {
             "month": 4,
             "day": 16,
-            "avg": 0.933,
+            "avg": 24.454,
             "wmonth": 7,
             "norm": 79.78,
             "avgAvgSwc": 22.72
@@ -1595,7 +1595,7 @@
         {
             "month": 4,
             "day": 17,
-            "avg": 0.925,
+            "avg": 24.349,
             "wmonth": 7,
             "norm": 79.59,
             "avgAvgSwc": 22.66
@@ -1603,7 +1603,7 @@
         {
             "month": 4,
             "day": 18,
-            "avg": 0.917,
+            "avg": 24.213,
             "wmonth": 7,
             "norm": 78.85,
             "avgAvgSwc": 22.43
@@ -1611,7 +1611,7 @@
         {
             "month": 4,
             "day": 19,
-            "avg": 0.909,
+            "avg": 23.977,
             "wmonth": 7,
             "norm": 78.04,
             "avgAvgSwc": 22.16
@@ -1619,7 +1619,7 @@
         {
             "month": 4,
             "day": 20,
-            "avg": 0.9,
+            "avg": 23.696,
             "wmonth": 7,
             "norm": 76.97,
             "avgAvgSwc": 21.85
@@ -1627,7 +1627,7 @@
         {
             "month": 4,
             "day": 21,
-            "avg": 0.891,
+            "avg": 23.47,
             "wmonth": 7,
             "norm": 76.2,
             "avgAvgSwc": 21.6
@@ -1635,7 +1635,7 @@
         {
             "month": 4,
             "day": 22,
-            "avg": 0.881,
+            "avg": 23.141,
             "wmonth": 7,
             "norm": 75.45,
             "avgAvgSwc": 21.37
@@ -1643,7 +1643,7 @@
         {
             "month": 4,
             "day": 23,
-            "avg": 0.871,
+            "avg": 22.925,
             "wmonth": 7,
             "norm": 74.57,
             "avgAvgSwc": 21.12
@@ -1651,7 +1651,7 @@
         {
             "month": 4,
             "day": 24,
-            "avg": 0.861,
+            "avg": 22.587,
             "wmonth": 7,
             "norm": 73.39,
             "avgAvgSwc": 20.79
@@ -1659,7 +1659,7 @@
         {
             "month": 4,
             "day": 25,
-            "avg": 0.85,
+            "avg": 22.309,
             "wmonth": 7,
             "norm": 72.35,
             "avgAvgSwc": 20.51
@@ -1667,7 +1667,7 @@
         {
             "month": 4,
             "day": 26,
-            "avg": 0.839,
+            "avg": 21.986,
             "wmonth": 7,
             "norm": 71.38,
             "avgAvgSwc": 20.29
@@ -1675,7 +1675,7 @@
         {
             "month": 4,
             "day": 27,
-            "avg": 0.827,
+            "avg": 21.528,
             "wmonth": 7,
             "norm": 69.85,
             "avgAvgSwc": 19.86
@@ -1683,7 +1683,7 @@
         {
             "month": 4,
             "day": 28,
-            "avg": 0.815,
+            "avg": 21.096,
             "wmonth": 7,
             "norm": 68.54,
             "avgAvgSwc": 19.51
@@ -1691,7 +1691,7 @@
         {
             "month": 4,
             "day": 29,
-            "avg": 0.803,
+            "avg": 20.682,
             "wmonth": 7,
             "norm": 67.07,
             "avgAvgSwc": 19.11
@@ -1699,7 +1699,7 @@
         {
             "month": 4,
             "day": 30,
-            "avg": 0.79,
+            "avg": 20.303,
             "wmonth": 7,
             "norm": 65.62,
             "avgAvgSwc": 18.7
@@ -1707,7 +1707,7 @@
         {
             "month": 5,
             "day": 1,
-            "avg": 0.775,
+            "avg": 19.92,
             "wmonth": 8,
             "norm": 63.89,
             "avgAvgSwc": 18.2
@@ -1715,7 +1715,7 @@
         {
             "month": 5,
             "day": 2,
-            "avg": 0.761,
+            "avg": 19.404,
             "wmonth": 8,
             "norm": 62.24,
             "avgAvgSwc": 17.78
@@ -1723,7 +1723,7 @@
         {
             "month": 5,
             "day": 3,
-            "avg": 0.746,
+            "avg": 18.988,
             "wmonth": 8,
             "norm": 60.68,
             "avgAvgSwc": 17.33
@@ -1731,7 +1731,7 @@
         {
             "month": 5,
             "day": 4,
-            "avg": 0.731,
+            "avg": 18.537,
             "wmonth": 8,
             "norm": 58.97,
             "avgAvgSwc": 16.85
@@ -1739,7 +1739,7 @@
         {
             "month": 5,
             "day": 5,
-            "avg": 0.716,
+            "avg": 18.065,
             "wmonth": 8,
             "norm": 57.17,
             "avgAvgSwc": 16.39
@@ -1747,7 +1747,7 @@
         {
             "month": 5,
             "day": 6,
-            "avg": 0.701,
+            "avg": 17.571,
             "wmonth": 8,
             "norm": 55.43,
             "avgAvgSwc": 15.89
@@ -1755,7 +1755,7 @@
         {
             "month": 5,
             "day": 7,
-            "avg": 0.686,
+            "avg": 17.143,
             "wmonth": 8,
             "norm": 53.89,
             "avgAvgSwc": 15.47
@@ -1763,7 +1763,7 @@
         {
             "month": 5,
             "day": 8,
-            "avg": 0.672,
+            "avg": 16.689,
             "wmonth": 8,
             "norm": 52.37,
             "avgAvgSwc": 15.03
@@ -1771,7 +1771,7 @@
         {
             "month": 5,
             "day": 9,
-            "avg": 0.657,
+            "avg": 16.267,
             "wmonth": 8,
             "norm": 50.87,
             "avgAvgSwc": 14.6
@@ -1779,7 +1779,7 @@
         {
             "month": 5,
             "day": 10,
-            "avg": 0.642,
+            "avg": 15.814,
             "wmonth": 8,
             "norm": 49.54,
             "avgAvgSwc": 14.26
@@ -1787,7 +1787,7 @@
         {
             "month": 5,
             "day": 11,
-            "avg": 0.627,
+            "avg": 15.405,
             "wmonth": 8,
             "norm": 48.35,
             "avgAvgSwc": 13.93
@@ -1795,7 +1795,7 @@
         {
             "month": 5,
             "day": 12,
-            "avg": 0.612,
+            "avg": 14.96,
             "wmonth": 8,
             "norm": 46.99,
             "avgAvgSwc": 13.56
@@ -1803,7 +1803,7 @@
         {
             "month": 5,
             "day": 13,
-            "avg": 0.597,
+            "avg": 14.517,
             "wmonth": 8,
             "norm": 45.53,
             "avgAvgSwc": 13.15
@@ -1811,7 +1811,7 @@
         {
             "month": 5,
             "day": 14,
-            "avg": 0.581,
+            "avg": 14.087,
             "wmonth": 8,
             "norm": 43.93,
             "avgAvgSwc": 12.69
@@ -1819,7 +1819,7 @@
         {
             "month": 5,
             "day": 15,
-            "avg": 0.566,
+            "avg": 13.628,
             "wmonth": 8,
             "norm": 42.34,
             "avgAvgSwc": 12.25
@@ -1827,7 +1827,7 @@
         {
             "month": 5,
             "day": 16,
-            "avg": 0.551,
+            "avg": 13.235,
             "wmonth": 8,
             "norm": 41.03,
             "avgAvgSwc": 11.84
@@ -1835,7 +1835,7 @@
         {
             "month": 5,
             "day": 17,
-            "avg": 0.536,
+            "avg": 12.9,
             "wmonth": 8,
             "norm": 39.87,
             "avgAvgSwc": 11.51
@@ -1843,7 +1843,7 @@
         {
             "month": 5,
             "day": 18,
-            "avg": 0.521,
+            "avg": 12.568,
             "wmonth": 8,
             "norm": 38.84,
             "avgAvgSwc": 11.22
@@ -1851,7 +1851,7 @@
         {
             "month": 5,
             "day": 19,
-            "avg": 0.505,
+            "avg": 12.206,
             "wmonth": 8,
             "norm": 37.69,
             "avgAvgSwc": 10.92
@@ -1859,7 +1859,7 @@
         {
             "month": 5,
             "day": 20,
-            "avg": 0.49,
+            "avg": 11.806,
             "wmonth": 8,
             "norm": 36.63,
             "avgAvgSwc": 10.57
@@ -1867,7 +1867,7 @@
         {
             "month": 5,
             "day": 21,
-            "avg": 0.475,
+            "avg": 11.424,
             "wmonth": 8,
             "norm": 35.27,
             "avgAvgSwc": 10.24
@@ -1875,7 +1875,7 @@
         {
             "month": 5,
             "day": 22,
-            "avg": 0.46,
+            "avg": 11.043,
             "wmonth": 8,
             "norm": 34.19,
             "avgAvgSwc": 9.95
@@ -1883,7 +1883,7 @@
         {
             "month": 5,
             "day": 23,
-            "avg": 0.444,
+            "avg": 10.636,
             "wmonth": 8,
             "norm": 33.16,
             "avgAvgSwc": 9.65
@@ -1891,7 +1891,7 @@
         {
             "month": 5,
             "day": 24,
-            "avg": 0.429,
+            "avg": 10.252,
             "wmonth": 8,
             "norm": 32,
             "avgAvgSwc": 9.34
@@ -1899,7 +1899,7 @@
         {
             "month": 5,
             "day": 25,
-            "avg": 0.413,
+            "avg": 9.893,
             "wmonth": 8,
             "norm": 35.24,
             "avgAvgSwc": 10.28
@@ -1907,7 +1907,7 @@
         {
             "month": 5,
             "day": 26,
-            "avg": 0.398,
+            "avg": 9.549,
             "wmonth": 8,
             "norm": 29.66,
             "avgAvgSwc": 8.7
@@ -1915,7 +1915,7 @@
         {
             "month": 5,
             "day": 27,
-            "avg": 0.382,
+            "avg": 9.213,
             "wmonth": 8,
             "norm": 28.7,
             "avgAvgSwc": 8.43
@@ -1923,7 +1923,7 @@
         {
             "month": 5,
             "day": 28,
-            "avg": 0.367,
+            "avg": 8.89,
             "wmonth": 8,
             "norm": 27.73,
             "avgAvgSwc": 8.15
@@ -1931,7 +1931,7 @@
         {
             "month": 5,
             "day": 29,
-            "avg": 0.351,
+            "avg": 8.577,
             "wmonth": 8,
             "norm": 26.81,
             "avgAvgSwc": 7.9
@@ -1939,7 +1939,7 @@
         {
             "month": 5,
             "day": 30,
-            "avg": 0.336,
+            "avg": 8.238,
             "wmonth": 8,
             "norm": 26.1,
             "avgAvgSwc": 7.62
@@ -1947,7 +1947,7 @@
         {
             "month": 5,
             "day": 31,
-            "avg": 0.32,
+            "avg": 7.857,
             "wmonth": 8,
             "norm": 25.52,
             "avgAvgSwc": 7.3
@@ -1955,7 +1955,7 @@
         {
             "month": 6,
             "day": 1,
-            "avg": 0.307,
+            "avg": 7.445,
             "wmonth": 9,
             "norm": 24.4,
             "avgAvgSwc": 6.96
@@ -1963,7 +1963,7 @@
         {
             "month": 6,
             "day": 2,
-            "avg": 0.295,
+            "avg": 7.102,
             "wmonth": 9,
             "norm": 29.08,
             "avgAvgSwc": 8.33
@@ -1971,7 +1971,7 @@
         {
             "month": 6,
             "day": 3,
-            "avg": 0.283,
+            "avg": 6.767,
             "wmonth": 9,
             "norm": 27.62,
             "avgAvgSwc": 7.91
@@ -1979,7 +1979,7 @@
         {
             "month": 6,
             "day": 4,
-            "avg": 0.271,
+            "avg": 6.409,
             "wmonth": 9,
             "norm": 23.85,
             "avgAvgSwc": 6.84
@@ -1987,7 +1987,7 @@
         {
             "month": 6,
             "day": 5,
-            "avg": 0.26,
+            "avg": 6.093,
             "wmonth": 9,
             "norm": 21.52,
             "avgAvgSwc": 6.15
@@ -1995,7 +1995,7 @@
         {
             "month": 6,
             "day": 6,
-            "avg": 0.248,
+            "avg": 5.803,
             "wmonth": 9,
             "norm": 20.28,
             "avgAvgSwc": 5.8
@@ -2003,7 +2003,7 @@
         {
             "month": 6,
             "day": 7,
-            "avg": 0.237,
+            "avg": 5.522,
             "wmonth": 9,
             "norm": 19.2,
             "avgAvgSwc": 5.48
@@ -2011,7 +2011,7 @@
         {
             "month": 6,
             "day": 8,
-            "avg": 0.227,
+            "avg": 5.25,
             "wmonth": 9,
             "norm": 18.06,
             "avgAvgSwc": 5.17
@@ -2019,7 +2019,7 @@
         {
             "month": 6,
             "day": 9,
-            "avg": 0.216,
+            "avg": 4.992,
             "wmonth": 9,
             "norm": 17.12,
             "avgAvgSwc": 4.89
@@ -2027,7 +2027,7 @@
         {
             "month": 6,
             "day": 10,
-            "avg": 0.206,
+            "avg": 4.722,
             "wmonth": 9,
             "norm": 18.73,
             "avgAvgSwc": 5.39
@@ -2035,7 +2035,7 @@
         {
             "month": 6,
             "day": 11,
-            "avg": 0.196,
+            "avg": 4.444,
             "wmonth": 9,
             "norm": 17.61,
             "avgAvgSwc": 5.07
@@ -2043,7 +2043,7 @@
         {
             "month": 6,
             "day": 12,
-            "avg": 0.186,
+            "avg": 4.18,
             "wmonth": 9,
             "norm": 17.49,
             "avgAvgSwc": 5.05
@@ -2051,7 +2051,7 @@
         {
             "month": 6,
             "day": 13,
-            "avg": 0.177,
+            "avg": 3.932,
             "wmonth": 9,
             "norm": 17.48,
             "avgAvgSwc": 5.06
@@ -2059,7 +2059,7 @@
         {
             "month": 6,
             "day": 14,
-            "avg": 0.168,
+            "avg": 3.706,
             "wmonth": 9,
             "norm": 17.27,
             "avgAvgSwc": 5.01
@@ -2067,7 +2067,7 @@
         {
             "month": 6,
             "day": 15,
-            "avg": 0.159,
+            "avg": 3.439,
             "wmonth": 9,
             "norm": 18.47,
             "avgAvgSwc": 5.4
@@ -2075,7 +2075,7 @@
         {
             "month": 6,
             "day": 16,
-            "avg": 0.151,
+            "avg": 3.215,
             "wmonth": 9,
             "norm": 16.96,
             "avgAvgSwc": 4.99
@@ -2083,7 +2083,7 @@
         {
             "month": 6,
             "day": 17,
-            "avg": 0.142,
+            "avg": 3.038,
             "wmonth": 9,
             "norm": 17.32,
             "avgAvgSwc": 5.11
@@ -2091,7 +2091,7 @@
         {
             "month": 6,
             "day": 18,
-            "avg": 0.134,
+            "avg": 2.844,
             "wmonth": 9,
             "norm": 14.8,
             "avgAvgSwc": 4.35
@@ -2099,7 +2099,7 @@
         {
             "month": 6,
             "day": 19,
-            "avg": 0.127,
+            "avg": 2.643,
             "wmonth": 9,
             "norm": 14.79,
             "avgAvgSwc": 4.37
@@ -2107,7 +2107,7 @@
         {
             "month": 6,
             "day": 20,
-            "avg": 0.119,
+            "avg": 2.45,
             "wmonth": 9,
             "norm": 14.48,
             "avgAvgSwc": 4
@@ -2115,7 +2115,7 @@
         {
             "month": 6,
             "day": 21,
-            "avg": 0.112,
+            "avg": 2.277,
             "wmonth": 9,
             "norm": 14.45,
             "avgAvgSwc": 4.01
@@ -2123,7 +2123,7 @@
         {
             "month": 6,
             "day": 22,
-            "avg": 0.105,
+            "avg": 2.13,
             "wmonth": 9,
             "norm": 13.3,
             "avgAvgSwc": 3.66
@@ -2131,7 +2131,7 @@
         {
             "month": 6,
             "day": 23,
-            "avg": 0.099,
+            "avg": 1.999,
             "wmonth": 9,
             "norm": 11.95,
             "avgAvgSwc": 3.28
@@ -2139,7 +2139,7 @@
         {
             "month": 6,
             "day": 24,
-            "avg": 0.092,
+            "avg": 1.847,
             "wmonth": 9,
             "norm": 9.61,
             "avgAvgSwc": 2.64
@@ -2147,7 +2147,7 @@
         {
             "month": 6,
             "day": 25,
-            "avg": 0.086,
+            "avg": 1.693,
             "wmonth": 9,
             "norm": 7.3,
             "avgAvgSwc": 2.01
@@ -2155,7 +2155,7 @@
         {
             "month": 6,
             "day": 26,
-            "avg": 0.08,
+            "avg": 1.566,
             "wmonth": 9,
             "norm": 6.58,
             "avgAvgSwc": 1.82
@@ -2163,7 +2163,7 @@
         {
             "month": 6,
             "day": 27,
-            "avg": 0.075,
+            "avg": 1.438,
             "wmonth": 9,
             "norm": 7.78,
             "avgAvgSwc": 2.14
@@ -2171,7 +2171,7 @@
         {
             "month": 6,
             "day": 28,
-            "avg": 0.07,
+            "avg": 1.303,
             "wmonth": 9,
             "norm": 6.98,
             "avgAvgSwc": 1.92
@@ -2179,7 +2179,7 @@
         {
             "month": 6,
             "day": 29,
-            "avg": 0.065,
+            "avg": 1.202,
             "wmonth": 9,
             "norm": 6.3,
             "avgAvgSwc": 1.73
@@ -2187,7 +2187,7 @@
         {
             "month": 6,
             "day": 30,
-            "avg": 0.06,
+            "avg": 1.099,
             "wmonth": 9,
             "norm": 4.69,
             "avgAvgSwc": 1.29
@@ -2195,7 +2195,7 @@
         {
             "month": 7,
             "day": 1,
-            "avg": 0.056,
+            "avg": 0.999,
             "wmonth": 10,
             "norm": 4.15,
             "avgAvgSwc": 1.15
@@ -2203,7 +2203,7 @@
         {
             "month": 7,
             "day": 2,
-            "avg": 0.051,
+            "avg": 0.908,
             "wmonth": 10,
             "norm": 4.92,
             "avgAvgSwc": 1.35
@@ -2211,7 +2211,7 @@
         {
             "month": 7,
             "day": 3,
-            "avg": 0.047,
+            "avg": 0.834,
             "wmonth": 10,
             "norm": 4.42,
             "avgAvgSwc": 1.2
@@ -2219,7 +2219,7 @@
         {
             "month": 7,
             "day": 4,
-            "avg": 0.043,
+            "avg": 0.759,
             "wmonth": 10,
             "norm": 4.28,
             "avgAvgSwc": 1.19
@@ -2227,7 +2227,7 @@
         {
             "month": 7,
             "day": 5,
-            "avg": 0.04,
+            "avg": 0.699,
             "wmonth": 10,
             "norm": 3.75,
             "avgAvgSwc": 1.05
@@ -2235,7 +2235,7 @@
         {
             "month": 7,
             "day": 6,
-            "avg": 0.036,
+            "avg": 0.642,
             "wmonth": 10,
             "norm": 2.92,
             "avgAvgSwc": 0.82
@@ -2243,7 +2243,7 @@
         {
             "month": 7,
             "day": 7,
-            "avg": 0.033,
+            "avg": 0.584,
             "wmonth": 10,
             "norm": 2.91,
             "avgAvgSwc": 0.8
@@ -2251,7 +2251,7 @@
         {
             "month": 7,
             "day": 8,
-            "avg": 0.03,
+            "avg": 0.531,
             "wmonth": 10,
             "norm": 2.18,
             "avgAvgSwc": 0.59
@@ -2259,7 +2259,7 @@
         {
             "month": 7,
             "day": 9,
-            "avg": 0.027,
+            "avg": 0.485,
             "wmonth": 10,
             "norm": 1.66,
             "avgAvgSwc": 0.45
@@ -2267,7 +2267,7 @@
         {
             "month": 7,
             "day": 10,
-            "avg": 0.024,
+            "avg": 0.44,
             "wmonth": 10,
             "norm": 1.64,
             "avgAvgSwc": 0.44
@@ -2275,7 +2275,7 @@
         {
             "month": 7,
             "day": 11,
-            "avg": 0.021,
+            "avg": 0.398,
             "wmonth": 10,
             "norm": 1.39,
             "avgAvgSwc": 0.39
@@ -2283,7 +2283,7 @@
         {
             "month": 7,
             "day": 12,
-            "avg": 0.018,
+            "avg": 0.363,
             "wmonth": 10,
             "norm": 1.18,
             "avgAvgSwc": 0.33
@@ -2291,7 +2291,7 @@
         {
             "month": 7,
             "day": 13,
-            "avg": 0.016,
+            "avg": 0.331,
             "wmonth": 10,
             "norm": 1.17,
             "avgAvgSwc": 0.32
@@ -2299,7 +2299,7 @@
         {
             "month": 7,
             "day": 14,
-            "avg": 0.014,
+            "avg": 0.301,
             "wmonth": 10,
             "norm": 0.96,
             "avgAvgSwc": 0.25
@@ -2307,7 +2307,7 @@
         {
             "month": 7,
             "day": 15,
-            "avg": 0.011,
+            "avg": 0.276,
             "wmonth": 10,
             "norm": 0.79,
             "avgAvgSwc": 0.22
@@ -2315,7 +2315,7 @@
         {
             "month": 7,
             "day": 16,
-            "avg": 0.01,
+            "avg": 0.25,
             "wmonth": 10,
             "norm": 0.71,
             "avgAvgSwc": 0.19
@@ -2323,7 +2323,7 @@
         {
             "month": 7,
             "day": 17,
-            "avg": 0.008,
+            "avg": 0.225,
             "wmonth": 10,
             "norm": 0.52,
             "avgAvgSwc": 0.14
@@ -2331,7 +2331,7 @@
         {
             "month": 7,
             "day": 18,
-            "avg": 0.006,
+            "avg": 0.194,
             "wmonth": 10,
             "norm": 0.35,
             "avgAvgSwc": 0.09
@@ -2339,7 +2339,7 @@
         {
             "month": 7,
             "day": 19,
-            "avg": 0.005,
+            "avg": 0.161,
             "wmonth": 10,
             "norm": 0.29,
             "avgAvgSwc": 0.05
@@ -2347,7 +2347,7 @@
         {
             "month": 7,
             "day": 20,
-            "avg": 0.003,
+            "avg": 0.139,
             "wmonth": 10,
             "norm": 0.23,
             "avgAvgSwc": 0.05
@@ -2355,7 +2355,7 @@
         {
             "month": 7,
             "day": 21,
-            "avg": 0.002,
+            "avg": 0.113,
             "wmonth": 10,
             "norm": 0.11,
             "avgAvgSwc": 0.06
@@ -2363,7 +2363,7 @@
         {
             "month": 7,
             "day": 22,
-            "avg": 0.001,
+            "avg": 0.094,
             "wmonth": 10,
             "norm": 0,
             "avgAvgSwc": 0.03
@@ -2371,119 +2371,119 @@
         {
             "month": 7,
             "day": 23,
+            "avg": 0.076,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 24,
+            "avg": 0.065,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 25,
+            "avg": 0.058,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 26,
+            "avg": 0.051,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 27,
+            "avg": 0.042,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 28,
+            "avg": 0.037,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 29,
+            "avg": 0.027,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 30,
+            "avg": 0.018,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 7,
+            "day": 31,
+            "avg": 0.014,
+            "wmonth": 10,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 8,
+            "day": 1,
+            "avg": 0.011,
+            "wmonth": 11,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 8,
+            "day": 2,
+            "avg": 0.008,
+            "wmonth": 11,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 8,
+            "day": 3,
+            "avg": 0.005,
+            "wmonth": 11,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 8,
+            "day": 4,
+            "avg": 0.004,
+            "wmonth": 11,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 8,
+            "day": 5,
+            "avg": 0.002,
+            "wmonth": 11,
+            "norm": 0,
+            "avgAvgSwc": 0
+        },
+        {
+            "month": 8,
+            "day": 6,
             "avg": 0.001,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 24,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 25,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 26,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 27,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 28,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 29,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 30,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 7,
-            "day": 31,
-            "avg": 0,
-            "wmonth": 10,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 8,
-            "day": 1,
-            "avg": 0,
-            "wmonth": 11,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 8,
-            "day": 2,
-            "avg": 0,
-            "wmonth": 11,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 8,
-            "day": 3,
-            "avg": 0,
-            "wmonth": 11,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 8,
-            "day": 4,
-            "avg": 0,
-            "wmonth": 11,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 8,
-            "day": 5,
-            "avg": 0,
-            "wmonth": 11,
-            "norm": 0,
-            "avgAvgSwc": 0
-        },
-        {
-            "month": 8,
-            "day": 6,
-            "avg": 0,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2491,7 +2491,7 @@
         {
             "month": 8,
             "day": 7,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2499,7 +2499,7 @@
         {
             "month": 8,
             "day": 8,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2507,7 +2507,7 @@
         {
             "month": 8,
             "day": 9,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2515,7 +2515,7 @@
         {
             "month": 8,
             "day": 10,
-            "avg": 0,
+            "avg": 0.002,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2523,7 +2523,7 @@
         {
             "month": 8,
             "day": 11,
-            "avg": 0,
+            "avg": 0.002,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2531,7 +2531,7 @@
         {
             "month": 8,
             "day": 12,
-            "avg": 0,
+            "avg": 0.002,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2539,7 +2539,7 @@
         {
             "month": 8,
             "day": 13,
-            "avg": 0,
+            "avg": 0.003,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2547,7 +2547,7 @@
         {
             "month": 8,
             "day": 14,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 11,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2699,7 +2699,7 @@
         {
             "month": 9,
             "day": 2,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2707,7 +2707,7 @@
         {
             "month": 9,
             "day": 3,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2715,7 +2715,7 @@
         {
             "month": 9,
             "day": 4,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2723,7 +2723,7 @@
         {
             "month": 9,
             "day": 5,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2819,7 +2819,7 @@
         {
             "month": 9,
             "day": 17,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2827,7 +2827,7 @@
         {
             "month": 9,
             "day": 18,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2835,7 +2835,7 @@
         {
             "month": 9,
             "day": 19,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2875,7 +2875,7 @@
         {
             "month": 9,
             "day": 24,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2883,7 +2883,7 @@
         {
             "month": 9,
             "day": 25,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2891,7 +2891,7 @@
         {
             "month": 9,
             "day": 26,
-            "avg": 0,
+            "avg": 0.002,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2899,7 +2899,7 @@
         {
             "month": 9,
             "day": 27,
-            "avg": 0,
+            "avg": 0.002,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2907,7 +2907,7 @@
         {
             "month": 9,
             "day": 28,
-            "avg": 0,
+            "avg": 0.002,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2915,7 +2915,7 @@
         {
             "month": 9,
             "day": 29,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
@@ -2923,7 +2923,7 @@
         {
             "month": 9,
             "day": 30,
-            "avg": 0,
+            "avg": 0.001,
             "wmonth": 12,
             "norm": 0,
             "avgAvgSwc": 0
