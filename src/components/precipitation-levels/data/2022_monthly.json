@@ -203,7 +203,7 @@
 {"stationId":"BDG","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-7-1 00:00","obsDate":"2022-7-1 00:00","value":0.00,"dataFlag":"r","units":"INCHES"},
 {"stationId":"BDG","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-8-1 00:00","obsDate":"2022-8-1 00:00","value":0.03,"dataFlag":"r","units":"INCHES"},
 {"stationId":"BDG","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-9-1 00:00","obsDate":"2022-9-1 00:00","value":1.60,"dataFlag":" ","units":"INCHES"},
-{"stationId":"BDG","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-10-1 00:00","obsDate":"2022-10-1 00:00","value":0.06,"dataFlag":" ","units":"INCHES"},
+{"stationId":"BDG","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-10-1 00:00","obsDate":"2022-10-1 00:00","value":0.01,"dataFlag":" ","units":"INCHES"},
 {"stationId":"BDG","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-11-1 00:00","obsDate":"2022-11-1 00:00","value":-9999,"dataFlag":" ","units":"INCHES"},
 {"stationId":"BCM","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-1-1 00:00","obsDate":"2022-1-1 00:00","value":1.79,"dataFlag":"r","units":"INCHES"},
 {"stationId":"BCM","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2022-2-1 00:00","obsDate":"2022-2-1 00:00","value":0.20,"dataFlag":"r","units":"INCHES"},
