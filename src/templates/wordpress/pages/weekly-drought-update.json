@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-09-28T17:54:05",
-    "updated_date": "2022-11-16T21:45:35",
+    "updated_date": "2022-11-30T21:45:46",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2021-09-28T10:54:05",
     "date_gmt": "2021-09-28T17:54:05",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=583",
-    "modified": "2022-11-16T13:45:35",
-    "modified_gmt": "2022-11-16T21:45:35",
+    "modified": "2022-11-30T13:45:46",
+    "modified_gmt": "2022-11-30T21:45:46",
     "slug": "weekly-drought-update",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/",
     "title": "Weekly drought update",
-    "excerpt": "<p>The California Drought Update is a weekly roundup of drought conditions, state actions, and upcoming developments. Latest update November 14, 2022 Past updates November 7, 2022 October 31, 2022 October 24, 2022 October 17, 2022 October 10, 2022 October 3, 2022 September 26, 2022 September 19, 2022 September 12, 2022 August 29, 2022 August 22, &#8230; <a title=\"Weekly drought update\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/\" aria-label=\"More on Weekly drought update\">Read more</a></p>\n",
+    "excerpt": "<p>The California Drought Update is a weekly roundup of drought conditions, state actions, and upcoming developments. Latest update November 28, 2022 Past updates November 14, 2022 November 7, 2022 October 31, 2022 October 24, 2022 October 17, 2022 October 10, 2022 October 3, 2022 September 26, 2022 September 19, 2022 September 12, 2022 August 29, &#8230; <a title=\"Weekly drought update\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/\" aria-label=\"More on Weekly drought update\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -37,7 +37,9 @@
     "categories": [
       "Weekly drought update"
     ],
-    "tags": [],
+    "tags": [
+      "staging"
+    ],
     "design_system_fields": {
       "template": "page"
     },
@@ -85,7 +87,19 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/weekly-drought-update/"
