@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-11-30T21:41:38",
-    "updated_date": "2022-11-30T21:41:38",
+    "updated_date": "2022-11-30T21:49:00",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-11-30T13:41:38",
     "date_gmt": "2022-11-30T21:41:38",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/11/External-CA-Drought-Update-11282022-final.pdf",
-    "modified": "2022-11-30T13:41:38",
-    "modified_gmt": "2022-11-30T21:41:38",
+    "modified": "2022-11-30T13:49:00",
+    "modified_gmt": "2022-11-30T21:49:00",
     "slug": "external-ca-drought-update-11282022-final",
     "status": "inherit",
     "type": "attachment",
