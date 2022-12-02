@@ -15,6 +15,17 @@ window.onload = function() {
 }
 </script>
 
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XGV75Q2JDK"></script> 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-69TD0KNT0F'); // statewide GA4 measurement ID
+  gtag('config', 'G-XGV75Q2JDK'); // individual agency GA4 measurement ID
+</script>
+
 <!-- per page feedback --> 
 <div class="content-footer mb-3">
   <cagov-page-feedback data-endpoint-url="https://fa-go-feedback-001.azurewebsites.net/sendfeedback"></cagov-page-feedback>
