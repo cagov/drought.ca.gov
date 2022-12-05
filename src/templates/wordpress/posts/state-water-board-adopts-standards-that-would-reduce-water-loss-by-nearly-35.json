@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-12-05T23:43:08",
-    "updated_date": "2022-12-05T23:43:09",
+    "updated_date": "2022-12-05T23:46:26",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-12-05T15:43:08",
     "date_gmt": "2022-12-05T23:43:08",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1877",
-    "modified": "2022-12-05T15:43:09",
-    "modified_gmt": "2022-12-05T23:43:09",
+    "modified": "2022-12-05T15:46:26",
+    "modified_gmt": "2022-12-05T23:46:26",
     "slug": "state-water-board-adopts-standards-that-would-reduce-water-loss-by-nearly-35",
     "status": "publish",
     "type": "post",
@@ -41,9 +41,7 @@
     "categories": [
       "News"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -91,19 +89,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2022-11-02",
