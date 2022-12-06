@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "created_date": "2022-12-06T19:43:00",
+    "updated_date": "2022-12-06T19:43:02",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1887",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1887,
+    "date": "2022-12-06T11:43:00",
+    "date_gmt": "2022-12-06T19:43:00",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1887",
+    "modified": "2022-12-06T11:43:02",
+    "modified_gmt": "2022-12-06T19:43:02",
+    "slug": "state-water-board-adopts-standards-that-would-reduce-water-loss-by-nearly-35-2",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-standards-that-would-reduce-water-loss-by-nearly-35-2/",
+    "title": "State Water Board adopts standards that would reduce water loss by nearly 35%",
+    "excerpt": "<p>The State Water Resources Control Board has adopted <a href=\"https://www.waterboards.ca.gov/press_room/press_releases/2022/pr10272022-water-loss-standards.pdf\">new performance standards</a> for urban retail water suppliers that it estimates will save about 88,000 acre-feet of water per year, or enough to supply over 260,000 households, by requiring suppliers to monitor and reduce leakage in their distribution systems.</p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "status",
+    "meta": {
+      "custom_post_link": "",
+      "custom_post_date": "2022-11-02",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "Action"
+    ],
+    "tags": [
+      "staging"
+    ],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-standards-that-would-reduce-water-loss-by-nearly-35-2/",
+      "page_title": "State Water Board adopts standards that would reduce water loss by nearly 35%",
+      "page_description": "<p>The State Water Resources Control Board has adopted <a href=\"https://www.waterboards.ca.gov/press_room/press_releases/2022/pr10272022-water-loss-standards.pdf\">new performance standards</a> for urban retail water suppliers that it estimates will save about 88,000 acre-feet of water per year, or enough to supply over 260,000 households, by requiring suppliers to monitor and reduce leakage in their distribution systems.</p>",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Water Board adopts standards that would reduce water loss by nearly 35%",
+      "meta_description": "<p>The State Water Resources Control Board has adopted <a href=\"https://www.waterboards.ca.gov/press_room/press_releases/2022/pr10272022-water-loss-standards.pdf\">new performance standards</a> for urban retail water suppliers that it estimates will save about 88,000 acre-feet of water per year, or enough to supply over 260,000 households, by requiring suppliers to monitor and reduce leakage in their distribution systems.</p>",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-standards-that-would-reduce-water-loss-by-nearly-35-2/",
+      "open_graph_title": "State Water Board adopts standards that would reduce water loss by nearly 35%",
+      "open_graph_description": "<p>The State Water Resources Control Board has adopted <a href=\"https://www.waterboards.ca.gov/press_room/press_releases/2022/pr10272022-water-loss-standards.pdf\">new performance standards</a> for urban retail water suppliers that it estimates will save about 88,000 acre-feet of water per year, or enough to supply over 260,000 households, by requiring suppliers to monitor and reduce leakage in their distribution systems.</p>",
+      "twitter_title": "State Water Board adopts standards that would reduce water loss by nearly 35%",
+      "twitter_description": "<p>The State Water Resources Control Board has adopted <a href=\"https://www.waterboards.ca.gov/press_room/press_releases/2022/pr10272022-water-loss-standards.pdf\">new performance standards</a> for urban retail water suppliers that it estimates will save about 88,000 acre-feet of water per year, or enough to supply over 260,000 households, by requiring suppliers to monitor and reduce leakage in their distribution systems.</p>"
+    },
+    "headless_categories": [
+      {
+        "term_id": 2,
+        "name": "Action",
+        "slug": "action",
+        "term_group": 0,
+        "term_taxonomy_id": 2,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 2,
+        "category_description": "",
+        "cat_name": "Action",
+        "category_nicename": "action",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-11-02",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/state-water-board-adopts-standards-that-would-reduce-water-loss-by-nearly-35-2/"
+  }
+}
