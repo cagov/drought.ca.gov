@@ -605,8 +605,8 @@
             "day": 15,
             "avg": 0.214,
             "wmonth": 3,
-            "norm": 18.32,
-            "avgAvgSwc": 5.31
+            "norm": 19.32,
+            "avgAvgSwc": 5.56
         },
         {
             "month": 12,
@@ -3058,9 +3058,16 @@
         },
         {
             "swcDate": "2022-12-14",
-            "numSta": 119,
+            "numSta": 120,
             "pctApr1": 42,
             "pctNormal": 204,
+            "avgSwc": 11.1
+        },
+        {
+            "swcDate": "2022-12-15",
+            "numSta": 120,
+            "pctApr1": 43,
+            "pctNormal": 201,
             "avgSwc": 11.2
         }
     ],
