@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2022-12-22T22:15:07",
-    "updated_date": "2022-12-22T22:15:07",
+    "updated_date": "2022-12-22T22:16:12",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2022-12-22T14:15:07",
     "date_gmt": "2022-12-22T22:15:07",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville.png",
-    "modified": "2022-12-22T14:15:07",
-    "modified_gmt": "2022-12-22T22:15:07",
+    "modified": "2022-12-22T14:16:12",
+    "modified_gmt": "2022-12-22T22:16:12",
     "slug": "2022_12_21_kj_0130_lake_oroville",
     "status": "inherit",
     "type": "attachment",
@@ -30,9 +30,9 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville.png'><img width=\"300\" height=\"209\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville-300x209.png\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville-300x209.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville-718x500.png 718w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville.png 768w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
-    "caption": "",
-    "alt_text": "",
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville.png'><img width=\"300\" height=\"209\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville-300x209.png\" class=\"attachment-medium size-medium\" alt=\"An aerial image taken on Dec. 21, 2022, with a drone shows low water conditions at Lake Oroville in Butte County, California.\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville-300x209.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville-718x500.png 718w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/2022_12_21_KJ_0130_Lake_Oroville.png 768w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "<p>An aerial drone view at Lake Oroville on Dec. 21, 2022, in Butte County, California.</p>\n",
+    "alt_text": "An aerial image taken on Dec. 21, 2022, with a drone shows low water conditions at Lake Oroville in Butte County, California.",
     "media_type": "image",
     "mime_type": "image/png",
     "media_details": {
