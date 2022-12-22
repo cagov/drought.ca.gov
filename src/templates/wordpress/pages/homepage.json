@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2022-12-22T22:10:48",
+    "updated_date": "2022-12-22T22:19:30",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2022-12-22T14:10:48",
-    "modified_gmt": "2022-12-22T22:10:48",
+    "modified": "2022-12-22T14:19:30",
+    "modified_gmt": "2022-12-22T22:19:30",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
@@ -37,8 +37,7 @@
     "categories": [],
     "tags": [
       "homepage",
-      "launch content",
-      "staging"
+      "launch content"
     ],
     "design_system_fields": {
       "template": "landing"
@@ -90,17 +89,6 @@
         "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
-        "parent": 0,
-        "filter": "raw"
-      },
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "filter": "raw"
       }
