@@ -9,13 +9,13 @@
     "latitude": 38.582,
     "longitude": -121.5,
     "elevation": 25,
-    "valDate": "2022-12-21 00:00:00.0",
-    "actDate": "2022-12-21",
-    "day": 21,
+    "valDate": "2022-12-22 00:00:00.0",
+    "actDate": "2022-12-22",
+    "day": 22,
     "month": 12,
-    "storage": 1.36E7,
-    "avg": 2.0643E7,
+    "storage": 1.39E7,
+    "avg": 2.0678206E7,
     "cap": 3.81219E7,
-    "pctAvg": 65.88,
-    "pctCap": 35.68
+    "pctAvg": 67.22,
+    "pctCap": 36.46
 }]
