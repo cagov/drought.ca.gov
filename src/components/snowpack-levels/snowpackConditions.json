@@ -669,7 +669,7 @@
             "day": 23,
             "avg": 0.283,
             "wmonth": 3,
-            "norm": 26,
+            "norm": 25.98,
             "avgAvgSwc": 7.59
         },
         {
@@ -677,32 +677,32 @@
             "day": 24,
             "avg": 0.29,
             "wmonth": 3,
-            "norm": 26.27,
-            "avgAvgSwc": 7.7
+            "norm": 26.95,
+            "avgAvgSwc": 7.85
         },
         {
             "month": 12,
             "day": 25,
             "avg": 0.297,
             "wmonth": 3,
-            "norm": 27.16,
-            "avgAvgSwc": 7.99
+            "norm": 27.81,
+            "avgAvgSwc": 8.13
         },
         {
             "month": 12,
             "day": 26,
             "avg": 0.304,
             "wmonth": 3,
-            "norm": 28.26,
-            "avgAvgSwc": 8.31
+            "norm": 28.86,
+            "avgAvgSwc": 8.43
         },
         {
             "month": 12,
             "day": 27,
             "avg": 0.31,
             "wmonth": 3,
-            "norm": 30.18,
-            "avgAvgSwc": 8.87
+            "norm": 30.76,
+            "avgAvgSwc": 8.99
         },
         {
             "month": 12,
@@ -3121,10 +3121,38 @@
         },
         {
             "swcDate": "2022-12-23",
-            "numSta": 112,
+            "numSta": 119,
             "pctApr1": 43,
             "pctNormal": 152,
             "avgSwc": 11.4
+        },
+        {
+            "swcDate": "2022-12-24",
+            "numSta": 120,
+            "pctApr1": 43,
+            "pctNormal": 148,
+            "avgSwc": 11.3
+        },
+        {
+            "swcDate": "2022-12-25",
+            "numSta": 120,
+            "pctApr1": 43,
+            "pctNormal": 145,
+            "avgSwc": 11.3
+        },
+        {
+            "swcDate": "2022-12-26",
+            "numSta": 120,
+            "pctApr1": 43,
+            "pctNormal": 141,
+            "avgSwc": 11.3
+        },
+        {
+            "swcDate": "2022-12-27",
+            "numSta": 120,
+            "pctApr1": 45,
+            "pctNormal": 145,
+            "avgSwc": 11.9
         }
     ],
     "section": "STATE",
