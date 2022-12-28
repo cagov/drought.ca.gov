@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2022-08-08T23:46:47",
+    "updated_date": "2022-12-28T17:32:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=29",
-    "modified": "2022-08-08T16:46:47",
-    "modified_gmt": "2022-08-08T23:46:47",
+    "modified": "2022-12-28T09:32:22",
+    "modified_gmt": "2022-12-28T17:32:22",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
