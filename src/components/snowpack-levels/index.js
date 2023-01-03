@@ -105,8 +105,14 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
 
     // Plot a line for current levels.
     const currentPath = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    let currentInitialXPoint = 0;
+    const [currentFirstCoordinate] = currentPathCoordinates;
+    if (currentFirstCoordinate && currentFirstCoordinate[0] > 1) {
+      // If needed, offset start of line to date of first snowfall.
+      currentInitialXPoint = currentFirstCoordinate[0] - 1;
+    }
     const currentPathD = currentPathCoordinates.map(([x,y]) => `L${x},${y}`).join(' ');
-    currentPath.setAttribute('d', `M0,${floorY} ${currentPathD}`);
+    currentPath.setAttribute('d', `M${currentInitialXPoint},${floorY} ${currentPathD}`);
     currentPath.classList.add('current');
     graph.append(currentPath);
 
