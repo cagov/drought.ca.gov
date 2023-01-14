@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2023-01-14T01:09:53",
-    "updated_date": "2023-01-14T01:13:21",
+    "updated_date": "2023-01-14T01:16:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2023-01-13T17:09:53",
     "date_gmt": "2023-01-14T01:09:53",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1947",
-    "modified": "2023-01-13T17:13:21",
-    "modified_gmt": "2023-01-14T01:13:21",
+    "modified": "2023-01-13T17:16:16",
+    "modified_gmt": "2023-01-14T01:16:16",
     "slug": "state-agencies-fast-track-groundwater-recharge-pilot-project-to-capture-flood-waters",
     "status": "publish",
     "type": "post",
