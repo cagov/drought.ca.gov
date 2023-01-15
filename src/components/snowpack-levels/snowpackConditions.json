@@ -837,16 +837,16 @@
             "day": 13,
             "avg": 0.464,
             "wmonth": 4,
-            "norm": 45.45,
-            "avgAvgSwc": 13.23
+            "norm": 45.44,
+            "avgAvgSwc": 13.22
         },
         {
             "month": 1,
             "day": 14,
             "avg": 0.47,
             "wmonth": 4,
-            "norm": 43.29,
-            "avgAvgSwc": 12.68
+            "norm": 45.96,
+            "avgAvgSwc": 13.36
         },
         {
             "month": 1,
@@ -3268,10 +3268,17 @@
         },
         {
             "swcDate": "2023-01-13",
-            "numSta": 114,
+            "numSta": 119,
             "pctApr1": 104,
             "pctNormal": 224,
             "avgSwc": 27.6
+        },
+        {
+            "swcDate": "2023-01-14",
+            "numSta": 117,
+            "pctApr1": 108,
+            "pctNormal": 230,
+            "avgSwc": 28.4
         }
     ],
     "section": "STATE",
