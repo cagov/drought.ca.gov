@@ -14,9 +14,9 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     const locale = this.dataset.locale || 'en-US';
     const historicPeakLabel = this.dataset.historicPeakLabel || 'Historic peak';
 
-    // peakX/peakY are the X/Y values on the graph for the historic peak. 
+    // peakY is the maximum Y value on the SVG graph.
+    // This helps maintain a margin at the top of the graph.
     const peakY = 20;
-    const peakX = 182; // X value for April 1st.
 
     // width/height of the SVG viewbox.
     const fullWidth = 365;
@@ -37,6 +37,13 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
       : new Date().getFullYear(); 
     const graphStartDate = new Date(`${graphStartYear}-10-01`);
 
+    // We need to see if any part of the snowpack is above historic peak.
+    // If so, we'll need to resize Y points to squeeze everything into the graph.
+    const highestCurrentSwe = Math.max(...data.swe.map(s => s.pctApr1 || 0));
+    const yPointMultiplier = (highestCurrentSwe > 100) 
+      ? (100 - (highestCurrentSwe - 100)) / 100
+      : 1;
+
     // We'll use this unixDay value to compare dates.
     const unixDay = 1000 * 60 * 60 * 24;
 
@@ -48,11 +55,13 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
       }
 
       const x = index;
-      const y = Math.round(peakY + (rangeY - (rangeY * entry.avg)));
+      const y = Math.round(peakY + (rangeY - (rangeY * entry.avg * yPointMultiplier)));
       bucket.push(`L${x},${y}`);
 
       return bucket;
     }, []);
+
+    console.log(avgPathD)
 
     // An array of SVG x/y line coordinates, representing current snowpack levels.
     const currentPathCoordinates = data.swe.reduce((bucket, entry, index) => {
@@ -70,7 +79,7 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
       // Figure out the day of the snowpack year for this entry. This is x on the graph.
       const x = Math.floor(snowpackYearDateDiff / unixDay);
       // Get the y value based on percentage against historic peak.
-      const y = Math.round(peakY + (rangeY - (rangeY * (entry.pctApr1 / 100))));
+      const y = Math.round(peakY + (rangeY - (rangeY * (entry.pctApr1 / 100) * yPointMultiplier)));
 
       // Plot this entry.
       bucket.push([x,y]);
@@ -134,10 +143,14 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
     currentPopOver.setAttribute('style', `--x:${currentPopOverX}%; --y:${currentPopOverY}%; --x-offset-m:0%;`);
     this.setUpPopOvers(currentPopOver, currentCircleHoverTarget);
 
+    // Calculate the X/Y point for the historic peak.
+    const historicPeakX = 182; // X point for April 1st.
+    const historicPeakY = Math.round(peakY + (rangeY - (rangeY * yPointMultiplier)));
+
     // Add the "historic peak" text next to the above circle.
     const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-    text.setAttribute('x', (peakX - 12));
-    text.setAttribute('y', peakY);
+    text.setAttribute('x', (historicPeakX - 12));
+    text.setAttribute('y', historicPeakY);
     text.setAttribute('dominant-baseline', 'middle');
     text.setAttribute('text-anchor', 'end');
     text.innerHTML = historicPeakLabel;
@@ -145,24 +158,24 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
 
     // Add a circle at the historic peak.
     const peakCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    peakCircle.setAttribute('cx', peakX);
-    peakCircle.setAttribute('cy', peakY);
+    peakCircle.setAttribute('cx', historicPeakX);
+    peakCircle.setAttribute('cy', historicPeakY);
     peakCircle.setAttribute('r', '4');
     peakCircle.classList.add('peak');
     graph.append(peakCircle);
 
     // Add a larger hover target for triggering the historic peak's pop-over content.
     const peakCircleHoverTarget = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-    peakCircleHoverTarget.setAttribute('cx', peakX);
-    peakCircleHoverTarget.setAttribute('cy', peakY);
+    peakCircleHoverTarget.setAttribute('cx', historicPeakX);
+    peakCircleHoverTarget.setAttribute('cy', historicPeakY);
     peakCircleHoverTarget.setAttribute('r', '12');
     peakCircleHoverTarget.setAttribute('id', 'historic-peak-hover-target');
     graph.append(peakCircleHoverTarget);
 
     // Get the pop-over content for the historic peak.
     const historicPeakPopOver = this.shadowRoot.querySelector('#historic-peak-popover');
-    const historicPeakPopOverX = ((peakX + 15) / fullWidth) * 100;
-    const historicPeakPopOverY = (peakY / fullHeight) * 100;
+    const historicPeakPopOverX = ((historicPeakX + 15) / fullWidth) * 100;
+    const historicPeakPopOverY = (historicPeakY / fullHeight) * 100;
     historicPeakPopOver.setAttribute('style', `--x:${historicPeakPopOverX}%; --y:${historicPeakPopOverY}%; --x-offset-m:0%;`);
     this.setUpPopOvers(historicPeakPopOver, peakCircleHoverTarget);
   }
