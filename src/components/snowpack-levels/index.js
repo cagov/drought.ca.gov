@@ -61,8 +61,6 @@ class DroughtSnowpackLevels extends DroughtDataVizBase {
       return bucket;
     }, []);
 
-    console.log(avgPathD)
-
     // An array of SVG x/y line coordinates, representing current snowpack levels.
     const currentPathCoordinates = data.swe.reduce((bucket, entry, index) => {
       // Parse the date.
