@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2023-01-19T19:14:43",
-    "updated_date": "2023-01-19T19:21:53",
+    "updated_date": "2023-01-19T19:22:14",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,8 +18,8 @@
     "date": "2023-01-19T11:14:43",
     "date_gmt": "2023-01-19T19:14:43",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1951",
-    "modified": "2023-01-19T11:21:53",
-    "modified_gmt": "2023-01-19T19:21:53",
+    "modified": "2023-01-19T11:22:14",
+    "modified_gmt": "2023-01-19T19:22:14",
     "slug": "5-ways-california-is-storing-water-from-winter-storms",
     "status": "publish",
     "type": "post",
@@ -39,7 +39,7 @@
       "custom_post_location": ""
     },
     "categories": [
-      "Uncategorized"
+      "News"
     ],
     "tags": [],
     "design_system_fields": {
@@ -73,19 +73,19 @@
     },
     "headless_categories": [
       {
-        "term_id": 1,
-        "name": "Uncategorized",
-        "slug": "uncategorized",
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
         "term_group": 0,
-        "term_taxonomy_id": 1,
+        "term_taxonomy_id": 7,
         "taxonomy": "category",
         "description": "",
         "parent": 0,
         "filter": "raw",
-        "cat_ID": 1,
+        "cat_ID": 7,
         "category_description": "",
-        "cat_name": "Uncategorized",
-        "category_nicename": "uncategorized",
+        "cat_name": "News",
+        "category_nicename": "news",
         "category_parent": 0
       }
     ],
