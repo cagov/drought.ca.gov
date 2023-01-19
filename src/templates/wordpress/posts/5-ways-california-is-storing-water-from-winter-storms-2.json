@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2023-01-19T19:25:45",
-    "updated_date": "2023-01-19T19:25:47",
+    "updated_date": "2023-01-19T19:29:49",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2023-01-19T11:25:45",
     "date_gmt": "2023-01-19T19:25:45",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1953",
-    "modified": "2023-01-19T11:25:47",
-    "modified_gmt": "2023-01-19T19:25:47",
+    "modified": "2023-01-19T11:29:49",
+    "modified_gmt": "2023-01-19T19:29:49",
     "slug": "5-ways-california-is-storing-water-from-winter-storms-2",
     "status": "publish",
     "type": "post",
     "link": "https://live-drought-ca-gov.pantheonsite.io/5-ways-california-is-storing-water-from-winter-storms-2/",
     "title": "5 Ways California is Storing Water from Winter Storms",
-    "excerpt": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage, water conveyance improvements and ambitious targets to build water resilience.</p>\n",
+    "excerpt": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage and more.</p>\n",
     "author": "Kalin Kipling",
     "featured_media": 0,
     "comment_status": "closed",
@@ -41,9 +41,7 @@
     "categories": [
       "Action"
     ],
-    "tags": [
-      "staging"
-    ],
+    "tags": [],
     "design_system_fields": {
       "template": "post"
     },
@@ -60,18 +58,18 @@
       "site_url": "https://live-drought-ca-gov.pantheonsite.io",
       "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/5-ways-california-is-storing-water-from-winter-storms-2/",
       "page_title": "5 Ways California is Storing Water from Winter Storms",
-      "page_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage, water conveyance improvements and ambitious targets to build water resilience.</p>",
+      "page_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage and more.</p>",
       "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
       "page_social_image_width": 1200,
       "page_social_image_height": 630,
       "page_social_image_alt": "",
       "meta_title": "5 Ways California is Storing Water from Winter Storms",
-      "meta_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage, water conveyance improvements and ambitious targets to build water resilience.</p>",
+      "meta_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage and more.</p>",
       "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/5-ways-california-is-storing-water-from-winter-storms-2/",
       "open_graph_title": "5 Ways California is Storing Water from Winter Storms",
-      "open_graph_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage, water conveyance improvements and ambitious targets to build water resilience.</p>",
+      "open_graph_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage and more.</p>",
       "twitter_title": "5 Ways California is Storing Water from Winter Storms",
-      "twitter_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage, water conveyance improvements and ambitious targets to build water resilience.</p>"
+      "twitter_description": "<p>California is taking <a href=\"https://www.gov.ca.gov/2023/01/19/5-ways-california-is-storing-water-from-winter-storms/\">urgent action</a> to protect communities from climate-driven extremes in weather and expand the state’s capacity to capture storm runoff in wet years. Strategies to <a href=\"https://www.gov.ca.gov/wp-content/uploads/2023/01/FACT-SHEET_Storing-Water-from-Winter-Storms.pdf?emrc=88abe5\">boost water supplies</a> include groundwater recharge, stormwater capture, reservoir storage and more.</p>"
     },
     "headless_categories": [
       {
@@ -91,19 +89,7 @@
         "category_parent": 0
       }
     ],
-    "headless_tags": [
-      {
-        "term_id": 17,
-        "name": "staging",
-        "slug": "staging",
-        "term_group": 0,
-        "term_taxonomy_id": 17,
-        "taxonomy": "post_tag",
-        "description": "Only the staging branch will receive updates to this post/page.",
-        "parent": 0,
-        "filter": "raw"
-      }
-    ],
+    "headless_tags": [],
     "headless_publishing": [],
     "headless_preview": [],
     "custom_post_date": "2023-01-19",
