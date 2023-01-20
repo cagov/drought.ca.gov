@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T21:23:15",
-    "updated_date": "2023-01-19T19:12:45",
+    "updated_date": "2023-01-20T22:26:58",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2021-07-04T14:23:15",
     "date_gmt": "2021-07-04T21:23:15",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=24",
-    "modified": "2023-01-19T11:12:45",
-    "modified_gmt": "2023-01-19T19:12:45",
+    "modified": "2023-01-20T14:26:58",
+    "modified_gmt": "2023-01-20T22:26:58",
     "slug": "homepage",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/",
     "title": "California drought action",
-    "excerpt": "<p>Storms slam California, underscoring climate shift California’s shift to a hotter and drier climate is intensifying flood risk across the state. The current series of storms is a reminder that we can face extreme flooding even during a prolonged drought. Californians are urged to pay attention to forecasts and local flood warnings and alerts in &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
+    "excerpt": "<p>5 ways California is storing stormwater California just experienced three very wet weeks, following the driest three years in the state’s recorded history. California is harnessing the storms to boost water supplies through groundwater recharge, stormwater capture, reservoir storage and much more. Learn more An image taken in January 2023, showing the Sacramento River rising. &#8230; <a title=\"California drought action\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/\" aria-label=\"More on California drought action\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -37,7 +37,8 @@
     "categories": [],
     "tags": [
       "homepage",
-      "launch content"
+      "launch content",
+      "staging"
     ],
     "design_system_fields": {
       "template": "landing"
@@ -89,6 +90,17 @@
         "term_taxonomy_id": 15,
         "taxonomy": "post_tag",
         "description": "",
+        "parent": 0,
+        "filter": "raw"
+      },
+      {
+        "term_id": 17,
+        "name": "staging",
+        "slug": "staging",
+        "term_group": 0,
+        "term_taxonomy_id": 17,
+        "taxonomy": "post_tag",
+        "description": "Only the staging branch will receive updates to this post/page.",
         "parent": 0,
         "filter": "raw"
       }
