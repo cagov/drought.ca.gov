@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2023-01-27T01:00:07",
+    "updated_date": "2023-01-27T01:00:08",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1968",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1968,
+    "date": "2023-01-26T17:00:07",
+    "date_gmt": "2023-01-27T01:00:07",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1968",
+    "modified": "2023-01-26T17:00:08",
+    "modified_gmt": "2023-01-27T01:00:08",
+    "slug": "recent-storms-allow-state-water-project-to-increase-expected-2023-deliveries-to-1-27-million-acre-feet-of-water",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/recent-storms-allow-state-water-project-to-increase-expected-2023-deliveries-to-1-27-million-acre-feet-of-water/",
+    "title": "Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water",
+    "excerpt": "<p>The Department of Water Resources (DWR) today announced that recent storms will allow the State Water Project (SWP) to boost deliveries to 29 public water agencies serving 27 million Californians. Based on the amount of water captured and stored in recent weeks, DWR now expects to deliver 30 percent of requested water supplies – or &#8230; <a title=\"Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/recent-storms-allow-state-water-project-to-increase-expected-2023-deliveries-to-1-27-million-acre-feet-of-water/\" aria-label=\"More on Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water\">Read more</a></p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2023/Jan-23/Recent-Storms-Allow-State-Water-Project-to-Increase-Expected-2023-Deliveries",
+      "custom_post_date": "2023-01-26",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/recent-storms-allow-state-water-project-to-increase-expected-2023-deliveries-to-1-27-million-acre-feet-of-water/",
+      "page_title": "Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/recent-storms-allow-state-water-project-to-increase-expected-2023-deliveries-to-1-27-million-acre-feet-of-water/",
+      "open_graph_title": "Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Recent Storms Allow State Water Project to Increase Expected 2023 Deliveries to 1.27 Million Acre-Feet of Water",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2023-01-26",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/recent-storms-allow-state-water-project-to-increase-expected-2023-deliveries-to-1-27-million-acre-feet-of-water/"
+  }
+}
