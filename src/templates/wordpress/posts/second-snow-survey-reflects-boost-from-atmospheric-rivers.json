@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2023-02-01T21:56:55",
+    "updated_date": "2023-02-01T21:56:57",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1970",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1970,
+    "date": "2023-02-01T13:56:55",
+    "date_gmt": "2023-02-01T21:56:55",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?p=1970",
+    "modified": "2023-02-01T13:56:57",
+    "modified_gmt": "2023-02-01T21:56:57",
+    "slug": "second-snow-survey-reflects-boost-from-atmospheric-rivers",
+    "status": "publish",
+    "type": "post",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/second-snow-survey-reflects-boost-from-atmospheric-rivers/",
+    "title": "Second Snow Survey Reflects Boost from Atmospheric Rivers",
+    "excerpt": "<p> The Department of Water Resources (DWR) conducted the second snow survey of the season at Phillips Station, which recorded 85.5 inches of snow depth and a snow water equivalent of 33.5 inches, which is 193% of average for this location on Feb. 1. Statewide, the snowpack is 205% of average for this date. Two months &#8230; <a title=\"Second Snow Survey Reflects Boost from Atmospheric Rivers\" class=\"read-more\" href=\"https://live-drought-ca-gov.pantheonsite.io/second-snow-survey-reflects-boost-from-atmospheric-rivers/\" aria-label=\"More on Second Snow Survey Reflects Boost from Atmospheric Rivers\">Read more</a></p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2023/Feb-23/Second-Snow-Survey-Reflects-Boost-from-Atmospheric-Rivers",
+      "custom_post_date": "2023-02-01",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/second-snow-survey-reflects-boost-from-atmospheric-rivers/",
+      "page_title": "Second Snow Survey Reflects Boost from Atmospheric Rivers",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Second Snow Survey Reflects Boost from Atmospheric Rivers",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/second-snow-survey-reflects-boost-from-atmospheric-rivers/",
+      "open_graph_title": "Second Snow Survey Reflects Boost from Atmospheric Rivers",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Second Snow Survey Reflects Boost from Atmospheric Rivers",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2023-02-01",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/second-snow-survey-reflects-boost-from-atmospheric-rivers/"
+  }
+}
