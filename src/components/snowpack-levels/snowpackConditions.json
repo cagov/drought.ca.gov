@@ -1045,8 +1045,8 @@
             "day": 8,
             "avg": 0.677,
             "wmonth": 5,
-            "norm": 60.24,
-            "avgAvgSwc": 17.36
+            "norm": 63.37,
+            "avgAvgSwc": 18.16
         },
         {
             "month": 2,
@@ -3446,6 +3446,13 @@
             "numSta": 111,
             "pctApr1": 136,
             "pctNormal": 204,
+            "avgSwc": 35.8
+        },
+        {
+            "swcDate": "2023-02-08",
+            "numSta": 111,
+            "pctApr1": 136,
+            "pctNormal": 201,
             "avgSwc": 35.8
         }
     ],
