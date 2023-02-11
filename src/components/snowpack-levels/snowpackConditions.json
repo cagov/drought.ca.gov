@@ -925,23 +925,23 @@
             "day": 24,
             "avg": 0.571,
             "wmonth": 4,
-            "norm": 53.4,
-            "avgAvgSwc": 15.39
+            "norm": 53.42,
+            "avgAvgSwc": 15.4
         },
         {
             "month": 1,
             "day": 25,
             "avg": 0.583,
             "wmonth": 4,
-            "norm": 54.1,
-            "avgAvgSwc": 15.51
+            "norm": 54.13,
+            "avgAvgSwc": 15.52
         },
         {
             "month": 1,
             "day": 26,
             "avg": 0.592,
             "wmonth": 4,
-            "norm": 54.56,
+            "norm": 54.59,
             "avgAvgSwc": 15.62
         },
         {
@@ -949,23 +949,23 @@
             "day": 27,
             "avg": 0.599,
             "wmonth": 4,
-            "norm": 55.19,
-            "avgAvgSwc": 15.78
+            "norm": 55.2,
+            "avgAvgSwc": 15.79
         },
         {
             "month": 1,
             "day": 28,
             "avg": 0.607,
             "wmonth": 4,
-            "norm": 56,
-            "avgAvgSwc": 16.03
+            "norm": 56.02,
+            "avgAvgSwc": 16.04
         },
         {
             "month": 1,
             "day": 29,
             "avg": 0.611,
             "wmonth": 4,
-            "norm": 55.7,
+            "norm": 55.72,
             "avgAvgSwc": 15.95
         },
         {
@@ -973,15 +973,15 @@
             "day": 30,
             "avg": 0.615,
             "wmonth": 4,
-            "norm": 56.2,
-            "avgAvgSwc": 16.08
+            "norm": 56.23,
+            "avgAvgSwc": 16.09
         },
         {
             "month": 1,
             "day": 31,
             "avg": 0.62,
             "wmonth": 4,
-            "norm": 57.44,
+            "norm": 57.46,
             "avgAvgSwc": 16.1
         },
         {
@@ -989,15 +989,15 @@
             "day": 1,
             "avg": 0.625,
             "wmonth": 5,
-            "norm": 58.15,
-            "avgAvgSwc": 16.6
+            "norm": 58.17,
+            "avgAvgSwc": 16.61
         },
         {
             "month": 2,
             "day": 2,
             "avg": 0.627,
             "wmonth": 5,
-            "norm": 58.49,
+            "norm": 58.51,
             "avgAvgSwc": 16.74
         },
         {
@@ -1005,7 +1005,7 @@
             "day": 3,
             "avg": 0.638,
             "wmonth": 5,
-            "norm": 59.67,
+            "norm": 59.69,
             "avgAvgSwc": 17.09
         },
         {
@@ -1013,7 +1013,7 @@
             "day": 4,
             "avg": 0.645,
             "wmonth": 5,
-            "norm": 60.44,
+            "norm": 60.46,
             "avgAvgSwc": 17.29
         },
         {
@@ -1021,48 +1021,48 @@
             "day": 5,
             "avg": 0.65,
             "wmonth": 5,
-            "norm": 61.1,
-            "avgAvgSwc": 17.47
+            "norm": 61.12,
+            "avgAvgSwc": 17.48
         },
         {
             "month": 2,
             "day": 6,
             "avg": 0.655,
             "wmonth": 5,
-            "norm": 61.65,
-            "avgAvgSwc": 17.63
+            "norm": 61.67,
+            "avgAvgSwc": 17.64
         },
         {
             "month": 2,
             "day": 7,
             "avg": 0.667,
             "wmonth": 5,
-            "norm": 62.63,
-            "avgAvgSwc": 17.92
+            "norm": 62.66,
+            "avgAvgSwc": 17.93
         },
         {
             "month": 2,
             "day": 8,
             "avg": 0.677,
             "wmonth": 5,
-            "norm": 63.35,
-            "avgAvgSwc": 18.15
+            "norm": 63.37,
+            "avgAvgSwc": 18.16
         },
         {
             "month": 2,
             "day": 9,
             "avg": 0.685,
             "wmonth": 5,
-            "norm": 63.93,
-            "avgAvgSwc": 18.3
+            "norm": 63.95,
+            "avgAvgSwc": 18.31
         },
         {
             "month": 2,
             "day": 10,
             "avg": 0.694,
             "wmonth": 5,
-            "norm": 61.4,
-            "avgAvgSwc": 17.67
+            "norm": 64.49,
+            "avgAvgSwc": 18.46
         },
         {
             "month": 2,
@@ -3348,119 +3348,126 @@
             "numSta": 115,
             "pctApr1": 127,
             "pctNormal": 222,
-            "avgSwc": 33.3
+            "avgSwc": 33.4
         },
         {
             "swcDate": "2023-01-25",
             "numSta": 115,
-            "pctApr1": 127,
-            "pctNormal": 218,
-            "avgSwc": 33.4
+            "pctApr1": 128,
+            "pctNormal": 220,
+            "avgSwc": 33.5
         },
         {
             "swcDate": "2023-01-26",
             "numSta": 115,
-            "pctApr1": 127,
-            "pctNormal": 215,
-            "avgSwc": 33.4
+            "pctApr1": 128,
+            "pctNormal": 216,
+            "avgSwc": 33.5
         },
         {
             "swcDate": "2023-01-27",
             "numSta": 115,
             "pctApr1": 128,
             "pctNormal": 214,
-            "avgSwc": 33.5
+            "avgSwc": 33.6
         },
         {
             "swcDate": "2023-01-28",
             "numSta": 115,
             "pctApr1": 128,
             "pctNormal": 211,
-            "avgSwc": 33.5
+            "avgSwc": 33.6
         },
         {
             "swcDate": "2023-01-29",
             "numSta": 115,
             "pctApr1": 128,
             "pctNormal": 209,
-            "avgSwc": 33.5
+            "avgSwc": 33.6
         },
         {
             "swcDate": "2023-01-30",
             "numSta": 114,
-            "pctApr1": 128,
-            "pctNormal": 208,
-            "avgSwc": 33.7
+            "pctApr1": 129,
+            "pctNormal": 210,
+            "avgSwc": 33.8
         },
         {
             "swcDate": "2023-01-31",
             "numSta": 114,
-            "pctApr1": 128,
-            "pctNormal": 206,
-            "avgSwc": 33.7
+            "pctApr1": 129,
+            "pctNormal": 208,
+            "avgSwc": 33.8
         },
         {
             "swcDate": "2023-02-01",
             "numSta": 113,
             "pctApr1": 129,
             "pctNormal": 206,
-            "avgSwc": 33.7
+            "avgSwc": 33.8
         },
         {
             "swcDate": "2023-02-02",
             "numSta": 113,
             "pctApr1": 129,
             "pctNormal": 206,
-            "avgSwc": 33.7
+            "avgSwc": 33.8
         },
         {
             "swcDate": "2023-02-03",
             "numSta": 113,
             "pctApr1": 129,
             "pctNormal": 202,
-            "avgSwc": 33.8
+            "avgSwc": 33.9
         },
         {
             "swcDate": "2023-02-04",
             "numSta": 113,
-            "pctApr1": 129,
-            "pctNormal": 200,
-            "avgSwc": 33.9
+            "pctApr1": 130,
+            "pctNormal": 202,
+            "avgSwc": 34
         },
         {
             "swcDate": "2023-02-05",
             "numSta": 113,
             "pctApr1": 133,
             "pctNormal": 205,
-            "avgSwc": 34.7
+            "avgSwc": 34.8
         },
         {
             "swcDate": "2023-02-06",
             "numSta": 113,
             "pctApr1": 135,
             "pctNormal": 206,
-            "avgSwc": 35.3
+            "avgSwc": 35.4
         },
         {
             "swcDate": "2023-02-07",
             "numSta": 111,
-            "pctApr1": 135,
-            "pctNormal": 202,
-            "avgSwc": 35.7
+            "pctApr1": 136,
+            "pctNormal": 204,
+            "avgSwc": 35.8
         },
         {
             "swcDate": "2023-02-08",
             "numSta": 111,
-            "pctApr1": 135,
-            "pctNormal": 199,
-            "avgSwc": 35.7
+            "pctApr1": 136,
+            "pctNormal": 201,
+            "avgSwc": 35.9
         },
         {
             "swcDate": "2023-02-09",
             "numSta": 111,
-            "pctApr1": 135,
-            "pctNormal": 197,
-            "avgSwc": 35.8
+            "pctApr1": 136,
+            "pctNormal": 199,
+            "avgSwc": 35.9
+        },
+        {
+            "swcDate": "2023-02-10",
+            "numSta": 111,
+            "pctApr1": 136,
+            "pctNormal": 196,
+            "avgSwc": 35.9
         }
     ],
     "section": "STATE",
