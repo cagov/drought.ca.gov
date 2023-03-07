@@ -1,3 +1,9 @@
+<!--
+3/3/2023: 
+Files Changed: index.jsp, Snow_Eldorado.png
+ - Changed landing page photo. Changed SPEI Drought Map to Precipitation Map. Update descriptions for precipitation
+-->
+
 {
   "dataservice": "speimap",
   "data_date": "June 2022",
