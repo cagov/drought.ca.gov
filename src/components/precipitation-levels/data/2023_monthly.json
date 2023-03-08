@@ -386,7 +386,7 @@
 {"stationId":"SCR","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-2-1 00:00","obsDate":"2023-2-1 00:00","value":2.56,"dataFlag":" ","units":"INCHES"},
 {"stationId":"SCR","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-3-1 00:00","obsDate":"2023-3-1 00:00","value":-9999,"dataFlag":" ","units":"INCHES"},
 {"stationId":"SGH","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-1-1 00:00","obsDate":"2023-1-1 00:00","value":11.31,"dataFlag":" ","units":"INCHES"},
-{"stationId":"SGH","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-2-1 00:00","obsDate":"2023-2-1 00:00","value":7.85,"dataFlag":"e","units":"INCHES"},
+{"stationId":"SGH","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-2-1 00:00","obsDate":"2023-2-1 00:00","value":7.85,"dataFlag":" ","units":"INCHES"},
 {"stationId":"SGH","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-3-1 00:00","obsDate":"2023-3-1 00:00","value":-9999,"dataFlag":" ","units":"INCHES"},
 {"stationId":"SAP","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-1-1 00:00","obsDate":"2023-1-1 00:00","value":4.27,"dataFlag":" ","units":"INCHES"},
 {"stationId":"SAP","durCode":"M","SENSOR_NUM":2,"sensorType":"RAIN","date":"2023-2-1 00:00","obsDate":"2023-2-1 00:00","value":1.62,"dataFlag":" ","units":"INCHES"},
