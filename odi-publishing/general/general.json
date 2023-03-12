@@ -15,7 +15,7 @@
     "description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
     "url": "https://test-drought-ca-gov.pantheonsite.io",
     "home": "https://test-drought-ca-gov.pantheonsite.io",
-    "gmt_offset": -8,
+    "gmt_offset": -7,
     "timezone_string": "America/Los_Angeles",
     "namespaces": [
       "oembed/1.0",
