@@ -24,7 +24,8 @@ jobs:
 
       - name: Download files
         run: |
-          curl -o src/components/reservoir-levels/majorReservoirConditions.json "https://cdec.water.ca.gov/resapp/service/res/conditions?date=${{steps.date.outputs.today}}&stationIds=SWV"
+          # temporarily turning off reservoirConditions while we are seeing bad data -- jbum
+          # curl -o src/components/reservoir-levels/majorReservoirConditions.json "https://cdec.water.ca.gov/resapp/service/res/conditions?date=${{steps.date.outputs.today}}&stationIds=SWV"
           curl -o src/components/snowpack-levels/snowpackConditions.json "https://cdec.water.ca.gov/snowapp/services/statewide/swe"
           curl -o src/components/precipitation-levels/data/${{ steps.date.outputs.year }}_monthly.json "https://cdec.water.ca.gov/dynamicapp/req/JSONDataServlet?SensorNums=2&dur_code=M&Start=${{steps.date.outputs.year}}-01-01&End=${{steps.date.outputs.today}}&Stations=APU,ASM,ATW,ABR,AUB,BFK,BFS,BRM,BGB,BBE,BGC,BGS,BIS,BYM,BLY,BCA,BDE,BOW,BDG,BCM,CCH,CVT,CAL,CPD,CPT,CDV,CVD,CHS,CES,CNL,CLN,CFF,CLF,CTT,COV,CEC,CRC,CUY,DVS,DSB,DTV,DMS,DWV,DYL,DNM,EGL,ELC,ERY,ELS,ENG,ERK,FRF,FMT,NIC,FDD,FLR,FLD,FRH,FBW,FJN,FRR,FRO,GAS,GLK,GRG,GNF,GLV,GRO,GSV,GVL,GHS,HWE,HND,HAP,HTH,HCK,HLS,HOO,HSS,IMP,IPN,ISB,JNL,KP3,KR3,OLS,LGT,ARR,LPA,SBN,LMC,LFH,LND,LDG,LCC,LAN,MDR,MRP,MKV,MLD,MFS,MNR,MCN,MDE,MTY,HML,MSC,WLS,MNH,NSH,NDL,NVD,EXC,NMQ,NLD,NFR,OSM,ORL,OXN,PCF,PMS,PNH,PSC,PNF,PCV,PLE,PRT,QNC,RBF,RGC,HEA,SCR,SGH,SAP,SDG,SFF,SLO,ANA,SBR,CRZ,SRO,SCA,SRR,SLP,SSG,SOR,SEY,SKR,SGV,SNH,STK,STG,STV,SCC,SSN,TAC,TRM,3RV,TCR,TKE,29P,UKH,VNT,VSL,WSC,WTW,WVR,WPT,WDL,YSV,YRK"
           curl -o src/components/spei-map/WGS84.png "https://cww.water.ca.gov/service/prism/image?type=day&dataType=val&layerType=spei"
