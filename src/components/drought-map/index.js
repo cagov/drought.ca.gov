@@ -1,4 +1,5 @@
 // Drought Map
+// Discontinued. Replaced by the SPEI map component.
 
 import latestDroughtMap from '../../templates/_data/latestDroughtMap.json';
 

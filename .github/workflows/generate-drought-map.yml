@@ -1,8 +1,13 @@
+# Discontinued.
+# The newer SPEI map component is processed via JS.
+# See `npm run process:spei-map:img` inside fetch-drought-data.yml.
+
 name: Generate Drought Map
 
 on:
-  schedule:
-    - cron: 0 16 * * 4
+  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   build:
@@ -36,4 +41,3 @@ jobs:
         with:
           commit_message: Weekly drought map for ${{ steps.date.outputs.today }}
           branch: main
-
