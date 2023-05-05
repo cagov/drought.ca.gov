@@ -50,6 +50,21 @@
 
 
 <script>
+	function sanitize(string) {
+   	   console.log("sanitize");
+		const map = {
+			'&': '&amp;',
+			'<': '&lt;',
+			'>': '&gt;',
+			'"': '&quot;',
+			"'": '&#x27;',
+			"/": '&#x2F;',
+		};
+		const reg = /[&<>"'/]/ig;
+		return string.replace(reg, (match)=>(map[match]));
+	}
+
+
 	const cx = 'e03d1ef7ffeea157e';
 	const gcse = document.createElement('script');
 	gcse.type = 'text/javascript';
@@ -68,7 +83,7 @@
 			: false;
 	}
 	const urlq = urlParam('q') || '';
-	const query = decodeURIComponent(urlq.replace(/\+/g, ' ').toLowerCase());
+	const query = sanitize(decodeURIComponent(urlq.replace(/\+/g, ' ').toLowerCase()));
 	document
 		.querySelectorAll('input[name=q]')
 		.forEach(x => x.value = query);
