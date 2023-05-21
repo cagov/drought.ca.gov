@@ -1,21 +1,9 @@
-[{
-    "stationId": "SWV",
-    "disabled": true,
-    "detailed": true,
-    "tags": "1_154 res Daily Report",
-    "reservoirName": "Statewide Storage Estimate (154) ",
-    "drinkingWater": true,
-    "stationName": "STATEWIDE STORAGE ESTIMATE (154)",
-    "latitude": 38.582,
-    "longitude": -121.5,
-    "elevation": 25,
-    "valDate": "2023-05-16 00:00:00.0",
-    "actDate": "2023-05-16",
-    "day": 16,
-    "month": 5,
-    "storage": 2.96E7,
-    "avg": 2.8266228E7,
-    "cap": 3.81219E7,
-    "pctAvg": 104.72,
-    "pctCap": 77.65
-}]
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>503 Service Unavailable</title>
+</head><body>
+<h1>Service Unavailable</h1>
+<p>The server is temporarily unable to service your
+request due to maintenance downtime or capacity
+problems. Please try again later.</p>
+</body></html>
