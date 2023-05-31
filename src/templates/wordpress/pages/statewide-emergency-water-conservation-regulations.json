@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "created_date": "2022-06-21T23:11:52",
+    "updated_date": "2022-12-29T23:57:16",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/pages/1560",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1560,
+    "date": "2022-06-21T16:11:52",
+    "date_gmt": "2022-06-21T23:11:52",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=1560",
+    "modified": "2022-12-29T15:57:16",
+    "modified_gmt": "2022-12-29T23:57:16",
+    "slug": "statewide-emergency-water-conservation-regulations",
+    "status": "publish",
+    "type": "page",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/",
+    "title": "Statewide emergency water conservation regulations (2022)",
+    "excerpt": "<p>Second Water Conservation Emergency Regulation (June) On May 24, 2022, the State Water Board adopted a second statewide emergency water conservation regulation that bans using potable (drinkable) water on decorative or non-functional grass at commercial, industrial, and institutional properties – including areas of nonfunctional turf under homeowners’ association control. It went into effect on June &#8230; <a title=\"Statewide emergency water conservation regulations (2022)\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/\" aria-label=\"More on Statewide emergency water conservation regulations (2022)\">Read more</a></p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "parent": 27,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "categories": [],
+    "tags": [],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/",
+      "page_title": "Statewide emergency water conservation regulations (2022)",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Statewide emergency water conservation regulations (2022)",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/",
+      "open_graph_title": "Statewide emergency water conservation regulations (2022)",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Statewide emergency water conservation regulations (2022)",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-drought-response/statewide-emergency-water-conservation-regulations/",
+    "media": [
+      {
+        "id": 1610,
+        "type": "full",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "width": 1200,
+        "height": 799,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1610,
+        "type": "medium_large",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "width": 768,
+        "height": 511,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1610,
+        "type": "large",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 1610,
+        "type": "medium",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
+  }
+}

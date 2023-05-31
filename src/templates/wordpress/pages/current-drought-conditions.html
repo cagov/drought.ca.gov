@@ -1,8 +1,76 @@
 <h2 id="drought-map">Drought map</h2>
 
-<p><em>Updated April 2, 2022 with data through March 2022. </em></p>
+<figure class="aligncenter size-large">
+	<drought-spei-map class="data-viz-placement" role="img" aria-label="A map of California that shows 12 month moisture levels across the state. Both rain and temperature are key factors.">
+		<svg width="200" height="252" viewBox="0 0 200 252" aria-hidden="true">
+			<style>
+				text {
+					font-size: .9rem;
+				}
+				text.bold {
+					font-weight: 700;
+				}
+			</style>
+			<text x="0" y="0" text-anchor="start" dominant-baseline="hanging" class="bold">
+				12 month SPEI
+			</text>
 
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large"><img loading="lazy" width="592" height="500" src="https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-592x500.webp" alt="Map of California from WestWide Drought Tracker that shows different colored areas for the conditions of extreme drought (dark red to red), severe drought (orange), moderate drought (dark yellow), and near normal (yellow to white). The map is mostly red and orange with some yellow." class="wp-image-1298" srcset="https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-592x500.webp 592w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-300x254.webp 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221.webp 710w" sizes="(max-width: 592px) 100vw, 592px" /><figcaption>Map shows the 12 month Standardized Precipitation-Evapotranspiration Index (SPEI). This shows rain and temperature effects on moisture. <em><a href="https://wrcc.dri.edu/wwdt/index.php?folder=spei12">WestWide Drought Tracker, U Idaho/WRCC, Data Source: PRISM (Prelim), created April 2, 2022</a></em>.</figcaption></figure></div>
+			<text x="50" y="52" dominant-baseline="middle" text-anchor="start">
+				Extremely wet
+			</text>
+			<text x="50" y="82" dominant-baseline="middle" text-anchor="start">
+				Severely wet
+			</text>
+			<text x="50" y="102" dominant-baseline="middle" text-anchor="start">
+				Moderately wet
+			</text>
+			<text x="50" y="142" dominant-baseline="middle" text-anchor="start">
+				Near normal
+			</text>
+			<text x="50" y="182" dominant-baseline="middle" text-anchor="start">
+				Moderate drought
+			</text>
+			<text x="50" y="202" dominant-baseline="middle" text-anchor="start">
+				Severe drought
+			</text>
+			<text x="50" y="232" dominant-baseline="middle" text-anchor="start">
+				Extreme drought
+			</text>
+
+			<g stroke="#898891" stroke-width="1">
+				<rect x="1" y="31" width="28" height="20" fill="#260072"></rect>
+				<rect x="1" y="51" width="28" height="20" fill="#3C00FE"></rect>
+				<line x1="40" y1="33" x2="40" y2="69"></line>
+
+				<rect x="1" y="71" width="28" height="20" fill="#01B9FF"></rect>
+				<line x1="40" y1="73" x2="40" y2="89"></line>
+
+				<rect x="1" y="91" width="28" height="20" fill="#6EFFD8"></rect>
+				<line x1="40" y1="93" x2="40" y2="109"></line>
+
+				<rect x="1" y="111" width="28" height="20" fill="#00FF19"></rect>
+				<rect x="1" y="131" width="28" height="20" fill="#FFFFFF"></rect>
+				<rect x="1" y="151" width="28" height="20" fill="#DEFF00"></rect>
+				<line x1="40" y1="113" x2="40" y2="169"></line>
+
+				<rect x="1" y="171" width="28" height="20" fill="#FCD800"></rect>
+				<line x1="40" y1="173" x2="40" y2="189"></line>
+
+				<rect x="1" y="191" width="28" height="20" fill="#FF8601"></rect>
+				<line x1="40" y1="193" x2="40" y2="209"></line>
+
+				<rect x="1" y="211" width="28" height="20" fill="#FE0000"></rect>
+				<rect x="1" y="231" width="28" height="20" fill="#B40001"></rect>
+				<line x1="40" y1="213" x2="40" y2="249"></line>
+			</g>
+		</svg>
+		<img loading="lazy" class="spei-map-img" src="/assets/img/WGS84.sized.png" alt="This map of California illustrates severe drought conditions across the state.">
+	</drought-spei-map>
+
+	<figcaption>
+	    Map shows the most recent 12 month Standardized Precipitation-Evapotranspiration Index (SPEI). This shows rain and temperature effects on moisture. WestWide Drought Tracker, U Idaho/WRCC, <a href="https://wrcc.dri.edu/wwdt/index.php?folder=spei12">Data Source: PRISM (Prelim)</a>.
+	</figcaption>
+</figure>
 
 <h3 id="driest-winter-months-in-100-years-mark-third-year-of-drought">Driest winter months in 100 years mark third year of drought</h3>
 
@@ -14,7 +82,7 @@
 
 <p>See more on California drought conditions at <a href="https://cww.water.ca.gov/droughtindicator">California Water Watch</a>.</p>
 
-<h2 id="2021-overview">2021 overview</h2>
+<h2 id="overview-of-2021">Overview of 2021</h2>
 
 <p>The water year that ended September 30 was the second driest on record, due to extreme heat and lack of rain and snow. All 58 counties in California are now under a drought emergency proclamation.</p>
 
@@ -139,7 +207,7 @@
 			<div class="card-body">
 				
 
-<ul><li><a href="https://tableau.cnra.ca.gov/t/DWR_SGM/views/mydrywatersupply/Map.pdf">Statewide Distribution of Reported Household Water Supply Shortages</a></li><li><a href="https://tableau.cnra.ca.gov/t/DWR_SGM/views/mydrywatersupply/Chart.pdf">Household Water Supply Shortages Reported to the State by Quarter (2013 to present)</a></li><li><a href="https://tableau.cnra.ca.gov/t/DWR_SGM/views/mydrywatersupply/Table.pdf">Summary of Household Water Shortages by County</a></li></ul>
+<ul><li><a href="https://tableau.cnra.ca.gov/t/DWR_SGM/views/mydrywatersupply/Map.pdf">Statewide Distribution of Dry Wells</a></li><li><a href="https://tableau.cnra.ca.gov/t/DWR_SGM/views/mydrywatersupply/Chart.pdf">Dry Wells Reported to the State by Quarter (2013 to present)</a></li><li><a href="https://tableau.cnra.ca.gov/t/DWR_SGM/views/mydrywatersupply/Table.pdf">Summary of Dry Wells by County</a></li><li><a href="https://data.cnra.ca.gov/dataset/dry-well-reporting-system-data">Statewide Dry Well Data</a></li></ul>
 			</div>
 		</div>
 		</div>
@@ -158,7 +226,7 @@
 			<div class="card-body">
 				
 
-<ul><li><a href="https://cdec.water.ca.gov/floodER/hydro/">Daily Statewide Hydrologic Update</a></li><li><a href="https://wrcc.dri.edu/cgi-bin/anomimage.pl?wrcOctTvdep.png">Average Temperature Departure from Average</a></li><li><a href="https://www.drought.gov/states/california">National Integrated Drought Information Systems (NIDIS) California Drought Outlook</a></li></ul>
+<ul><li><a href="https://cww.water.ca.gov/service/document/hydroreport?_=1672248274762">Hydrology Report from California State Climatologist</a></li><li><a href="https://cdec.water.ca.gov/floodER/hydro/">Daily Statewide Hydrologic Update</a></li><li><a href="https://wrcc.dri.edu/cgi-bin/anomimage.pl?wrcOctTvdep.png">Average Temperature Departure from Average</a></li><li><a href="https://www.drought.gov/states/california">National Integrated Drought Information Systems (NIDIS) California Drought Outlook</a></li></ul>
 			</div>
 		</div>
 		</div>

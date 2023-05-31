@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-04T14:33:43",
-    "updated_date": "2022-04-04T18:14:41",
+    "updated_date": "2022-12-28T17:32:22",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2021-07-04T14:33:43",
     "date_gmt": "2021-07-04T14:33:43",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=29",
-    "modified": "2022-04-04T11:14:41",
-    "modified_gmt": "2022-04-04T18:14:41",
+    "modified": "2022-12-28T09:32:22",
+    "modified_gmt": "2022-12-28T17:32:22",
     "slug": "current-drought-conditions",
     "status": "publish",
     "type": "page",
     "link": "https://test-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
     "title": "Current drought conditions",
-    "excerpt": "<p>Drought map Updated April 2, 2022 with data through March 2022. Driest winter months in 100 years mark third year of drought January, February, and March had the least rain and snow on record for any of these months in California. These warm, dry months overshadowed gains in precipitation at the end of 2021. Snow &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
+    "excerpt": "<p>Drought map 12 month SPEI Extremely wet Severely wet Moderately wet Near normal Moderate drought Severe drought Extreme drought Map shows the most recent 12 month Standardized Precipitation-Evapotranspiration Index (SPEI). This shows rain and temperature effects on moisture. WestWide Drought Tracker, U Idaho/WRCC, Data Source: PRISM (Prelim). Driest winter months in 100 years mark third &#8230; <a title=\"Current drought conditions\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/current-drought-conditions/\" aria-label=\"More on Current drought conditions\">Read more</a></p>\n",
     "author": "Peggy Gartin",
     "featured_media": 0,
     "parent": 0,
@@ -102,47 +102,6 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/current-drought-conditions/",
-    "media": [
-      {
-        "id": 1298,
-        "type": "full",
-        "path": "2022/04/CA_SPEI12mo_04_02_221.webp",
-        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221.webp",
-        "file": "CA_SPEI12mo_04_02_221.webp",
-        "width": 710,
-        "height": 600,
-        "mime_type": "image/webp",
-        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221.webp",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 1298,
-        "type": "large",
-        "path": "2022/04/CA_SPEI12mo_04_02_221-592x500.webp",
-        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-592x500.webp",
-        "file": "CA_SPEI12mo_04_02_221-592x500.webp",
-        "width": 592,
-        "height": 500,
-        "mime_type": "image/webp",
-        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-592x500.webp",
-        "source_url_match": true,
-        "featured": false
-      },
-      {
-        "id": 1298,
-        "type": "medium",
-        "path": "2022/04/CA_SPEI12mo_04_02_221-300x254.webp",
-        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-300x254.webp",
-        "file": "CA_SPEI12mo_04_02_221-300x254.webp",
-        "width": 300,
-        "height": 254,
-        "mime_type": "image/webp",
-        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA_SPEI12mo_04_02_221-300x254.webp",
-        "source_url_match": true,
-        "featured": false
-      }
-    ]
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/current-drought-conditions/"
   }
 }
