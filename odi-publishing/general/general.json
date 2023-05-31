@@ -23,6 +23,7 @@
       "menus/v1",
       "generatepress/v1",
       "notification/v1",
+      "two-factor/1.0",
       "wp/v2",
       "wp-site-health/v1",
       "wp-block-editor/v1"
