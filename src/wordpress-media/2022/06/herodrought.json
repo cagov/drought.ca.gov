@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "created_date": "2022-06-13T19:17:16",
+    "updated_date": "2022-06-13T19:17:16",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1527",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1527,
+    "date": "2022-06-13T12:17:16",
+    "date_gmt": "2022-06-13T19:17:16",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg",
+    "modified": "2022-06-13T12:17:16",
+    "modified_gmt": "2022-06-13T19:17:16",
+    "slug": "herodrought",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/herodrought/",
+    "title": "herodrought",
+    "author": "Kalin Kipling",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg'><img width=\"300\" height=\"196\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-300x196.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-300x196.jpg 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-750x489.jpg 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-768x501.jpg 768w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1200,
+      "height": 783,
+      "file": "2022/06/herodrought.jpg",
+      "sizes": {
+        "medium": {
+          "file": "herodrought-300x196.jpg",
+          "width": 300,
+          "height": 196,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-300x196.jpg"
+        },
+        "large": {
+          "file": "herodrought-750x489.jpg",
+          "width": 750,
+          "height": 489,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-750x489.jpg"
+        },
+        "thumbnail": {
+          "file": "herodrought-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "herodrought-768x501.jpg",
+          "width": 768,
+          "height": 501,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-768x501.jpg"
+        },
+        "full": {
+          "file": "herodrought.jpg",
+          "width": 1200,
+          "height": 783,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/06/herodrought.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg",
+        "file": "herodrought.jpg",
+        "width": 1200,
+        "height": 783,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/06/herodrought-768x501.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-768x501.jpg",
+        "file": "herodrought-768x501.jpg",
+        "width": 768,
+        "height": 501,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-768x501.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/06/herodrought-750x489.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-750x489.jpg",
+        "file": "herodrought-750x489.jpg",
+        "width": 750,
+        "height": 489,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-750x489.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/06/herodrought-300x196.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-300x196.jpg",
+        "file": "herodrought-300x196.jpg",
+        "width": 300,
+        "height": 196,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-300x196.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/06/herodrought-150x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-150x150.jpg",
+        "file": "herodrought-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/06/herodrought-150x150.jpg"
+      }
+    ],
+    "path": "2022/06/herodrought.jpg"
+  }
+}

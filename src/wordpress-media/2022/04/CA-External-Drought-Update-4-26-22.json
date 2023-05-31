@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "created_date": "2022-04-26T20:23:57",
+    "updated_date": "2022-04-26T20:23:57",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1393",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1393,
+    "date": "2022-04-26T13:23:57",
+    "date_gmt": "2022-04-26T20:23:57",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22.pdf",
+    "modified": "2022-04-26T13:23:57",
+    "modified_gmt": "2022-04-26T20:23:57",
+    "slug": "ca-external-drought-update-4-26-22",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/ca-external-drought-update-4-26-22/",
+    "title": "CA-External-Drought-Update-4-26-22",
+    "author": "Anna Opalka",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22.pdf'><img width=\"232\" height=\"300\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "sizes": {
+        "full": {
+          "file": "CA-External-Drought-Update-4-26-22-pdf.jpg",
+          "width": 1088,
+          "height": 1408,
+          "mime_type": "application/pdf",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf.jpg"
+        },
+        "medium": {
+          "file": "CA-External-Drought-Update-4-26-22-pdf-232x300.jpg",
+          "width": 232,
+          "height": 300,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-232x300.jpg"
+        },
+        "large": {
+          "file": "CA-External-Drought-Update-4-26-22-pdf-386x500.jpg",
+          "width": 386,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-386x500.jpg"
+        },
+        "thumbnail": {
+          "file": "CA-External-Drought-Update-4-26-22-pdf-116x150.jpg",
+          "width": 116,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-116x150.jpg"
+        }
+      }
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22.pdf",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22.pdf",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/04/CA-External-Drought-Update-4-26-22-pdf.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf.jpg",
+        "file": "CA-External-Drought-Update-4-26-22-pdf.jpg",
+        "width": 1088,
+        "height": 1408,
+        "mime_type": "application/pdf",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/04/CA-External-Drought-Update-4-26-22-pdf-386x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-386x500.jpg",
+        "file": "CA-External-Drought-Update-4-26-22-pdf-386x500.jpg",
+        "width": 386,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-386x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/04/CA-External-Drought-Update-4-26-22-pdf-232x300.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-232x300.jpg",
+        "file": "CA-External-Drought-Update-4-26-22-pdf-232x300.jpg",
+        "width": 232,
+        "height": 300,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-232x300.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/04/CA-External-Drought-Update-4-26-22-pdf-116x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-116x150.jpg",
+        "file": "CA-External-Drought-Update-4-26-22-pdf-116x150.jpg",
+        "width": 116,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/04/CA-External-Drought-Update-4-26-22-pdf-116x150.jpg"
+      }
+    ],
+    "path": "2022/04/CA-External-Drought-Update-4-26-22.pdf"
+  }
+}

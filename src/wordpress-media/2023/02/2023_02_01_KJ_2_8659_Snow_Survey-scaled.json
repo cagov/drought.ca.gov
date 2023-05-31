@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "created_date": "2023-02-02T18:11:22",
+    "updated_date": "2023-02-02T18:11:22",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1977",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1977,
+    "date": "2023-02-02T10:11:22",
+    "date_gmt": "2023-02-02T18:11:22",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey.jpg",
+    "modified": "2023-02-02T10:11:22",
+    "modified_gmt": "2023-02-02T18:11:22",
+    "slug": "2023_02_01_kj_2_8659_snow_survey",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/2023_02_01_kj_2_8659_snow_survey/",
+    "title": "2023_02_01_KJ_2_8659_Snow_Survey",
+    "author": "Kalin Kipling",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg'><img width=\"300\" height=\"200\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg 748w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg 768w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "<p>Right, Sean de Guzman, Manager of the California Department of Water Resources Snow Surveys and Water Supply Forecasting Unit, inserts the long aluminum snow depth survey pole into the  deep snow, as left, Jacob Kollen and Anthony Burdock, center, both Department of Water Resources Engineers in the Snow Surveys and Water Supply Forecasting Unit, take the measurements during the second media snow survey of the 2023 season at Phillips Station in the Sierra Nevada Mountains. The survey is held approximately 90 miles east of Sacramento off Highway 50 in El Dorado County. Photo taken February 1, 2023.</p>\n<p>Kenneth James / California Department of Water Resources</p>\n",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 2560,
+      "height": 1711,
+      "file": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+      "sizes": {
+        "medium": {
+          "file": "2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg",
+          "width": 300,
+          "height": 200,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg"
+        },
+        "large": {
+          "file": "2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg",
+          "width": 748,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg"
+        },
+        "thumbnail": {
+          "file": "2023_02_01_KJ_2_8659_Snow_Survey-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg",
+          "width": 768,
+          "height": 513,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg"
+        },
+        "full": {
+          "file": "2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+          "width": 2560,
+          "height": 1711,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "5.6",
+        "credit": "California Department of Water Resources",
+        "camera": "NIKON D5",
+        "caption": "Right, Sean de Guzman, Manager of the California Department of Water Resources Snow Surveys and Water Supply Forecasting Unit, inserts the long aluminum snow depth survey pole into the  deep snow, as left, Jacob Kollen and Anthony Burdock, center, both Department of Water Resources Engineers in the Snow Surveys and Water Supply Forecasting Unit, take the measurements during the second media snow survey of the 2023 season at Phillips Station in the Sierra Nevada Mountains. The survey is held approximately 90 miles east of Sacramento off Highway 50 in El Dorado County. Photo taken February 1, 2023.\n\nKenneth James / California Department of Water Resources",
+        "created_timestamp": "1675279914",
+        "copyright": "Public Domian",
+        "focal_length": "22",
+        "iso": "400",
+        "shutter_speed": "0.001",
+        "title": "",
+        "orientation": "1",
+        "keywords": [
+          "snow, El Dorado County, Sierra Nevada Mountains, Snow Survey, meadow, evergreens, aluminum pole, blue"
+        ]
+      },
+      "original_image": "2023_02_01_KJ_2_8659_Snow_Survey.jpg"
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+        "file": "2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg",
+        "width": 2560,
+        "height": 1711,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg",
+        "file": "2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg",
+        "width": 768,
+        "height": 513,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-768x513.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg",
+        "file": "2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg",
+        "width": 748,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-748x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg",
+        "file": "2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-300x200.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-150x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-150x150.jpg",
+        "file": "2023_02_01_KJ_2_8659_Snow_Survey-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/02/2023_02_01_KJ_2_8659_Snow_Survey-150x150.jpg"
+      }
+    ],
+    "path": "2023/02/2023_02_01_KJ_2_8659_Snow_Survey-scaled.jpg"
+  }
+}

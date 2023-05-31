@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "created_date": "2022-12-13T21:10:15",
+    "updated_date": "2022-12-13T21:10:15",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1916",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1916,
+    "date": "2022-12-13T13:10:15",
+    "date_gmt": "2022-12-13T21:10:15",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final.pdf",
+    "modified": "2022-12-13T13:10:15",
+    "modified_gmt": "2022-12-13T21:10:15",
+    "slug": "external-ca-drought-update-12122022-final",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/external-ca-drought-update-12122022-final/",
+    "title": "external CA Drought Update 12122022 final",
+    "author": "Kalin Kipling",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final.pdf'><img width=\"232\" height=\"300\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-232x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" loading=\"lazy\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "file",
+    "mime_type": "application/pdf",
+    "media_details": {
+      "sizes": {
+        "full": {
+          "file": "external-CA-Drought-Update-12122022-final-pdf.jpg",
+          "width": 1088,
+          "height": 1408,
+          "mime_type": "application/pdf",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf.jpg"
+        },
+        "medium": {
+          "file": "external-CA-Drought-Update-12122022-final-pdf-232x300.jpg",
+          "width": 232,
+          "height": 300,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-232x300.jpg"
+        },
+        "large": {
+          "file": "external-CA-Drought-Update-12122022-final-pdf-386x500.jpg",
+          "width": 386,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-386x500.jpg"
+        },
+        "thumbnail": {
+          "file": "external-CA-Drought-Update-12122022-final-pdf-116x150.jpg",
+          "width": 116,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-116x150.jpg"
+        }
+      }
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final.pdf",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final.pdf",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/12/external-CA-Drought-Update-12122022-final-pdf.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf.jpg",
+        "file": "external-CA-Drought-Update-12122022-final-pdf.jpg",
+        "width": 1088,
+        "height": 1408,
+        "mime_type": "application/pdf",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/12/external-CA-Drought-Update-12122022-final-pdf-386x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-386x500.jpg",
+        "file": "external-CA-Drought-Update-12122022-final-pdf-386x500.jpg",
+        "width": 386,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-386x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/12/external-CA-Drought-Update-12122022-final-pdf-232x300.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-232x300.jpg",
+        "file": "external-CA-Drought-Update-12122022-final-pdf-232x300.jpg",
+        "width": 232,
+        "height": 300,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-232x300.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/12/external-CA-Drought-Update-12122022-final-pdf-116x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-116x150.jpg",
+        "file": "external-CA-Drought-Update-12122022-final-pdf-116x150.jpg",
+        "width": 116,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/12/external-CA-Drought-Update-12122022-final-pdf-116x150.jpg"
+      }
+    ],
+    "path": "2022/12/external-CA-Drought-Update-12122022-final.pdf"
+  }
+}

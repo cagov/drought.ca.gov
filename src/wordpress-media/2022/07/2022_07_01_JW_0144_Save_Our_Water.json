@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "created_date": "2022-07-05T23:44:02",
+    "updated_date": "2022-07-05T23:45:09",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1610",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1610,
+    "date": "2022-07-05T16:44:02",
+    "date_gmt": "2022-07-05T23:44:02",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+    "modified": "2022-07-05T16:45:09",
+    "modified_gmt": "2022-07-05T23:45:09",
+    "slug": "2022_07_01_jw_0144_save_our_water",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/2022_07_01_jw_0144_save_our_water/",
+    "title": "2022_07_01_JW_0144_Save_Our_Water",
+    "author": "Shawn Brouwer",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg'><img width=\"300\" height=\"200\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought.\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg 768w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "<p>The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought. </p>\n",
+    "alt_text": "The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought.",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1200,
+      "height": 799,
+      "file": "2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+      "sizes": {
+        "medium": {
+          "file": "2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+          "width": 300,
+          "height": 200,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg"
+        },
+        "large": {
+          "file": "2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+          "width": 750,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg"
+        },
+        "thumbnail": {
+          "file": "2022_07_01_JW_0144_Save_Our_Water-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+          "width": 768,
+          "height": 511,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg"
+        },
+        "full": {
+          "file": "2022_07_01_JW_0144_Save_Our_Water.jpg",
+          "width": 1200,
+          "height": 799,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "5.6",
+        "credit": "California Department of Water Resources",
+        "camera": "NIKON D4",
+        "caption": "The California Department of General Services posted signs around the state capitol building in Sacramento, California. The signs highlight the Save Our Water program’s initiative to limit outdoor water usage to conserve water during the extreme three-year drought. Photo taken July 1, 2022. \r\n\r\nJonathan Wong / California Department of Water Resources,  FOR EDITORIAL USE ONLY",
+        "created_timestamp": "1656689593",
+        "copyright": "Public domain",
+        "focal_length": "17",
+        "iso": "100",
+        "shutter_speed": "0.0015625",
+        "title": "",
+        "orientation": "0",
+        "keywords": [
+          "P2071, DWR, Department of Water Resourses, SOW, Save Our Water, DGS, Department of General Services, drought, sacramento, capitol, building, campaign"
+        ]
+      }
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water.jpg",
+        "width": 1200,
+        "height": 799,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-768x511.jpg",
+        "width": 768,
+        "height": 511,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-768x511.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-750x500.jpg",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-750x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-300x200.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water-150x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-150x150.jpg",
+        "file": "2022_07_01_JW_0144_Save_Our_Water-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/2022_07_01_JW_0144_Save_Our_Water-150x150.jpg"
+      }
+    ],
+    "path": "2022/07/2022_07_01_JW_0144_Save_Our_Water.jpg"
+  }
+}

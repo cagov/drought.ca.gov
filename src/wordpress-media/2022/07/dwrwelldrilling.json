@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "created_date": "2022-07-07T21:20:55",
+    "updated_date": "2022-07-07T21:24:29",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1632",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1632,
+    "date": "2022-07-07T14:20:55",
+    "date_gmt": "2022-07-07T21:20:55",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg",
+    "modified": "2022-07-07T14:24:29",
+    "modified_gmt": "2022-07-07T21:24:29",
+    "slug": "dwrwelldrilling",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/dwrwelldrilling/",
+    "title": "dwrwelldrilling",
+    "author": "Kalin Kipling",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg'><img width=\"300\" height=\"200\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-300x200.jpg\" class=\"attachment-medium size-medium\" alt=\"A photo of 4 workers drilling a well for water.\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-300x200.jpg 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-750x500.jpg 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg 768w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "<p>North Marin Water District drills a water well in Marin County to service the community of Point Reyes Station, California, funded by the California Department of Water Resources to help to address the water supply impacts in small communities. Photo taken June 14, 2022.</p>\n<p>Florence Low / California Department of Water Resources</p>\n",
+    "alt_text": "A photo of 4 workers drilling a well for water.",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 768,
+      "height": 512,
+      "file": "2022/07/dwrwelldrilling.jpg",
+      "sizes": {
+        "medium": {
+          "file": "dwrwelldrilling-300x200.jpg",
+          "width": 300,
+          "height": 200,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-300x200.jpg"
+        },
+        "large": {
+          "file": "dwrwelldrilling-750x500.jpg",
+          "width": 750,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-750x500.jpg"
+        },
+        "thumbnail": {
+          "file": "dwrwelldrilling-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-150x150.jpg"
+        },
+        "full": {
+          "file": "dwrwelldrilling.jpg",
+          "width": 768,
+          "height": 512,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "Public Domain",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/07/dwrwelldrilling.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg",
+        "file": "dwrwelldrilling.jpg",
+        "width": 768,
+        "height": 512,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/07/dwrwelldrilling-750x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-750x500.jpg",
+        "file": "dwrwelldrilling-750x500.jpg",
+        "width": 750,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-750x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/07/dwrwelldrilling-300x200.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-300x200.jpg",
+        "file": "dwrwelldrilling-300x200.jpg",
+        "width": 300,
+        "height": 200,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-300x200.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/07/dwrwelldrilling-150x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-150x150.jpg",
+        "file": "dwrwelldrilling-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/07/dwrwelldrilling-150x150.jpg"
+      }
+    ],
+    "path": "2022/07/dwrwelldrilling.jpg"
+  }
+}

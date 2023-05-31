@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "created_date": "2022-10-07T22:21:23",
+    "updated_date": "2022-10-07T22:34:10",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/1785",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1785,
+    "date": "2022-10-07T15:21:23",
+    "date_gmt": "2022-10-07T22:21:23",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg",
+    "modified": "2022-10-07T15:34:10",
+    "modified_gmt": "2022-10-07T22:34:10",
+    "slug": "2022_08_04_kg_9025_oroville_drone",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/2022_08_04_kg_9025_oroville_drone/",
+    "title": "2022_08_04_KG_9025_Oroville_drone",
+    "author": "Shawn Brouwer",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg'><img width=\"300\" height=\"211\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-300x211.jpg\" class=\"attachment-medium size-medium\" alt=\"An aerial drone view at Bidwell Bar Bridge showing Lake Oroville on August 4, 2022 in Butte County, California.\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-300x211.jpg 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-710x500.jpg 710w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-768x541.jpg 768w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "<p>An aerial drone view at Bidwell Bar Bridge showing Lake Oroville on August 4, 2022 in Butte County, California. On this date, the storage was 1,439,844 reservoir acre-feet (AF), which is 41 percent of the total capacity.</p>\n<p>Kelly M. Grow / California Department of Water Resources</p>\n",
+    "alt_text": "An aerial drone view at Bidwell Bar Bridge showing Lake Oroville on August 4, 2022 in Butte County, California.",
+    "media_type": "image",
+    "mime_type": "image/jpeg",
+    "media_details": {
+      "width": 1200,
+      "height": 845,
+      "file": "2022/10/2022_08_04_KG_9025_Oroville_drone.jpg",
+      "sizes": {
+        "medium": {
+          "file": "2022_08_04_KG_9025_Oroville_drone-300x211.jpg",
+          "width": 300,
+          "height": 211,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-300x211.jpg"
+        },
+        "large": {
+          "file": "2022_08_04_KG_9025_Oroville_drone-710x500.jpg",
+          "width": 710,
+          "height": 500,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-710x500.jpg"
+        },
+        "thumbnail": {
+          "file": "2022_08_04_KG_9025_Oroville_drone-150x150.jpg",
+          "width": 150,
+          "height": 150,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-150x150.jpg"
+        },
+        "medium_large": {
+          "file": "2022_08_04_KG_9025_Oroville_drone-768x541.jpg",
+          "width": 768,
+          "height": 541,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-768x541.jpg"
+        },
+        "full": {
+          "file": "2022_08_04_KG_9025_Oroville_drone.jpg",
+          "width": 1200,
+          "height": 845,
+          "mime_type": "image/jpeg",
+          "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg"
+        }
+      },
+      "image_meta": {
+        "aperture": "7.1",
+        "credit": "California Department of Water Resources",
+        "camera": "L2D-20c",
+        "caption": "An aerial drone view at Bidwell Bar Bridge showing Lake Oroville on August 4, 2022 in Butte County, California. On this date, the storage was 1,439,844 reservoir acre-feet (AF), which is 41 percent of the total capacity.\n\nKelly M. Grow / California Department of Water Resources",
+        "created_timestamp": "1659637638",
+        "copyright": "Public Domain",
+        "focal_length": "12.29",
+        "iso": "200",
+        "shutter_speed": "0.001",
+        "title": "",
+        "orientation": "0",
+        "keywords": [
+          "DWR, lake levels, water level, low water, dry year, drought, P2011, drone, aerial, enterprise bridge, south fork, green bridge, bidwell bar bridge"
+        ]
+      }
+    },
+    "post": null,
+    "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2022/10/2022_08_04_KG_9025_Oroville_drone.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg",
+        "file": "2022_08_04_KG_9025_Oroville_drone.jpg",
+        "width": 1200,
+        "height": 845,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone.jpg"
+      },
+      {
+        "type": "medium_large",
+        "path": "2022/10/2022_08_04_KG_9025_Oroville_drone-768x541.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-768x541.jpg",
+        "file": "2022_08_04_KG_9025_Oroville_drone-768x541.jpg",
+        "width": 768,
+        "height": 541,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-768x541.jpg"
+      },
+      {
+        "type": "large",
+        "path": "2022/10/2022_08_04_KG_9025_Oroville_drone-710x500.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-710x500.jpg",
+        "file": "2022_08_04_KG_9025_Oroville_drone-710x500.jpg",
+        "width": 710,
+        "height": 500,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-710x500.jpg"
+      },
+      {
+        "type": "medium",
+        "path": "2022/10/2022_08_04_KG_9025_Oroville_drone-300x211.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-300x211.jpg",
+        "file": "2022_08_04_KG_9025_Oroville_drone-300x211.jpg",
+        "width": 300,
+        "height": 211,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-300x211.jpg"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2022/10/2022_08_04_KG_9025_Oroville_drone-150x150.jpg",
+        "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-150x150.jpg",
+        "file": "2022_08_04_KG_9025_Oroville_drone-150x150.jpg",
+        "width": 150,
+        "height": 150,
+        "mime_type": "image/jpeg",
+        "source_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/10/2022_08_04_KG_9025_Oroville_drone-150x150.jpg"
+      }
+    ],
+    "path": "2022/10/2022_08_04_KG_9025_Oroville_drone.jpg"
+  }
+}
