@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-11-06T18:50:32",
+    "updated_date": "2022-11-06T18:59:12",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1844",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1844,
+    "date": "2022-11-06T10:50:32",
+    "date_gmt": "2022-11-06T18:50:32",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1844",
+    "modified": "2022-11-06T10:59:12",
+    "modified_gmt": "2022-11-06T18:59:12",
+    "slug": "dwr-provides-funding-to-city-of-coalinga-for-emergency-water-purchase",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/dwr-provides-funding-to-city-of-coalinga-for-emergency-water-purchase/",
+    "title": "DWR provides funding to City of Coalinga for emergency water purchase",
+    "excerpt": "<p>The Department of Water Resources (DWR) awarded $1.2 million to the City of Coalinga for an emergency water transfer to supply the community through the winter months.</p>\n",
+    "author": "Anna Opalka",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Nov-22/DWR-Provides-Funding-to-City-of-Coalinga-for-Emergency-Water-Purchase",
+      "custom_post_date": "2022-11-02",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-provides-funding-to-city-of-coalinga-for-emergency-water-purchase/",
+      "page_title": "DWR provides funding to City of Coalinga for emergency water purchase",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "DWR provides funding to City of Coalinga for emergency water purchase",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-provides-funding-to-city-of-coalinga-for-emergency-water-purchase/",
+      "open_graph_title": "DWR provides funding to City of Coalinga for emergency water purchase",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "DWR provides funding to City of Coalinga for emergency water purchase",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-11-02",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-provides-funding-to-city-of-coalinga-for-emergency-water-purchase/"
+  }
+}

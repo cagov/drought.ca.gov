@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-07-14T15:48:54",
+    "updated_date": "2022-07-14T16:11:18",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1662",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1662,
+    "date": "2022-07-14T08:48:54",
+    "date_gmt": "2022-07-14T15:48:54",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1662",
+    "modified": "2022-07-14T09:11:18",
+    "modified_gmt": "2022-07-14T16:11:18",
+    "slug": "one-year-later-dwr-has-provided-nearly-half-a-billion-in-drought-relief-to-communities",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/one-year-later-dwr-has-provided-nearly-half-a-billion-in-drought-relief-to-communities/",
+    "title": "One year later, DWR has provided nearly half a billion in drought relief to communities",
+    "excerpt": "<p>A year after receiving funding from the Budget Act of 2021, the Department of Water Resources (DWR) has successfully awarded more than $440 million to date in drought relief assistance to small and urban communities to address water supply challenges and help build local resilience.</p>\n",
+    "author": "Anna Opalka",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/Blog/2022/July-22/One-Year-Later-DWR-Has-Provided-Nearly-Half-a-Billion-in-Drought-Relief-to-Communities",
+      "custom_post_date": "2022-07-13",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/one-year-later-dwr-has-provided-nearly-half-a-billion-in-drought-relief-to-communities/",
+      "page_title": "One year later, DWR has provided nearly half a billion in drought relief to communities",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "One year later, DWR has provided nearly half a billion in drought relief to communities",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/one-year-later-dwr-has-provided-nearly-half-a-billion-in-drought-relief-to-communities/",
+      "open_graph_title": "One year later, DWR has provided nearly half a billion in drought relief to communities",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "One year later, DWR has provided nearly half a billion in drought relief to communities",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-07-13",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/one-year-later-dwr-has-provided-nearly-half-a-billion-in-drought-relief-to-communities/"
+  }
+}

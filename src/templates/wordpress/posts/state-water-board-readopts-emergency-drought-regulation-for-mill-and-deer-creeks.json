@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-09-02T00:29:16",
+    "updated_date": "2022-09-02T00:32:09",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1734",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1734,
+    "date": "2022-09-01T17:29:16",
+    "date_gmt": "2022-09-02T00:29:16",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1734",
+    "modified": "2022-09-01T17:32:09",
+    "modified_gmt": "2022-09-02T00:32:09",
+    "slug": "state-water-board-readopts-emergency-drought-regulation-for-mill-and-deer-creeks",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-readopts-emergency-drought-regulation-for-mill-and-deer-creeks/",
+    "title": "State Water Board readopts emergency drought regulation for Mill and Deer Creeks",
+    "excerpt": "<p>As sustained drought conditions reduce water in streams and rivers to critical levels, the State Water Resources Control Board yesterday readopted an emergency curtailment regulation for Mill and Deer Creeks in Tehama County to preserve minimum flows for the survival of multiple fish species and protect threatened drinking water supplies. The existing one-year regulation would &#8230; <a title=\"State Water Board readopts emergency drought regulation for Mill and Deer Creeks\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/state-water-board-readopts-emergency-drought-regulation-for-mill-and-deer-creeks/\" aria-label=\"More on State Water Board readopts emergency drought regulation for Mill and Deer Creeks\">Read more</a></p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2022/pr08172022-curtailment-regulation-readopted-mill-deer-creeks.pdf",
+      "custom_post_date": "2022-08-17",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-readopts-emergency-drought-regulation-for-mill-and-deer-creeks/",
+      "page_title": "State Water Board readopts emergency drought regulation for Mill and Deer Creeks",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "State Water Board readopts emergency drought regulation for Mill and Deer Creeks",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-readopts-emergency-drought-regulation-for-mill-and-deer-creeks/",
+      "open_graph_title": "State Water Board readopts emergency drought regulation for Mill and Deer Creeks",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "State Water Board readopts emergency drought regulation for Mill and Deer Creeks",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-08-17",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/state-water-board-readopts-emergency-drought-regulation-for-mill-and-deer-creeks/"
+  }
+}

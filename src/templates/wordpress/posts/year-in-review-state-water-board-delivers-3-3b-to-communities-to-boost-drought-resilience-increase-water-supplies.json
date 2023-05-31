@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-07-26T17:59:58",
+    "updated_date": "2022-07-26T18:05:57",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1673",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1673,
+    "date": "2022-07-26T10:59:58",
+    "date_gmt": "2022-07-26T17:59:58",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1673",
+    "modified": "2022-07-26T11:05:57",
+    "modified_gmt": "2022-07-26T18:05:57",
+    "slug": "year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies/",
+    "title": "Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies",
+    "excerpt": "<p>Seizing a generational opportunity to leverage unprecedented state funding to combat drought and climate change, the State Water Resources ControlBoard provided a historic $3.3 billion in financial assistance during the past fiscal year (July 1, 2021 – June 30, 2022) to water systems and communities for projects that bolster water resilience, respond to drought emergencies &#8230; <a title=\"Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies/\" aria-label=\"More on Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies\">Read more</a></p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2022/pr07202022-dfa-fiscal-year-summary-release-calepa.pdf",
+      "custom_post_date": "2022-07-20",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies/",
+      "page_title": "Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies/",
+      "open_graph_title": "Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Year in review: State Water Board delivers $3.3B to communities to boost drought resilience, increase water supplies",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-07-20",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/year-in-review-state-water-board-delivers-3-3b-to-communities-to-boost-drought-resilience-increase-water-supplies/"
+  }
+}

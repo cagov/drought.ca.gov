@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-08-12T23:17:29",
+    "updated_date": "2022-08-12T23:30:54",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1705",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1705,
+    "date": "2022-08-12T16:17:29",
+    "date_gmt": "2022-08-12T23:17:29",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1705",
+    "modified": "2022-08-12T16:30:54",
+    "modified_gmt": "2022-08-12T23:30:54",
+    "slug": "governor-newsom-announces-water-strategy-for-a-hotter-drier-california",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-announces-water-strategy-for-a-hotter-drier-california/",
+    "title": "Governor Newsom announces water strategy for a hotter, drier California",
+    "excerpt": "<p>Hotter and drier weather conditions spurred by climate change could reduce California’s water supply by up to 10% by the year 2040. To replace and replenish what we will lose to thirstier soils, vegetation, and the atmosphere, Governor Gavin Newsom announced California’s latest actions to increase water supply.</p>\n",
+    "author": "Anna Opalka",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://www.gov.ca.gov/2022/08/11/governor-newsom-announces-water-strategy-for-a-hotter-drier-california/",
+      "custom_post_date": "2022-08-11",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-announces-water-strategy-for-a-hotter-drier-california/",
+      "page_title": "Governor Newsom announces water strategy for a hotter, drier California",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Governor Newsom announces water strategy for a hotter, drier California",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-announces-water-strategy-for-a-hotter-drier-california/",
+      "open_graph_title": "Governor Newsom announces water strategy for a hotter, drier California",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Governor Newsom announces water strategy for a hotter, drier California",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-08-11",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/governor-newsom-announces-water-strategy-for-a-hotter-drier-california/"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-12-09T19:18:16",
+    "updated_date": "2022-12-09T19:18:18",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1900",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1900,
+    "date": "2022-12-09T11:18:16",
+    "date_gmt": "2022-12-09T19:18:16",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1900",
+    "modified": "2022-12-09T11:18:18",
+    "modified_gmt": "2022-12-09T19:18:18",
+    "slug": "dwr-announces-initial-state-water-project-allocation-of-5-outlines-actions-for-possible-fourth-dry-year",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/dwr-announces-initial-state-water-project-allocation-of-5-outlines-actions-for-possible-fourth-dry-year/",
+    "title": "DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year",
+    "excerpt": "<p>Today, the Department of Water Resources (DWR) announced an initial State Water Project (SWP) allocation of 5 percent of requested supplies for 2023. The SWP provides water to 29 public water agencies that serve 27 million Californians. As the state prepares for a fourth dry year and continued extreme drought conditions in California, DWR will &#8230; <a title=\"DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year\" class=\"read-more\" href=\"https://test-drought-ca-gov.pantheonsite.io/dwr-announces-initial-state-water-project-allocation-of-5-outlines-actions-for-possible-fourth-dry-year/\" aria-label=\"More on DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year\">Read more</a></p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Dec-22/DWR-Announces-Initial-State-Water-Project-Allocation-of-5-percent",
+      "custom_post_date": "2022-12-01",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-announces-initial-state-water-project-allocation-of-5-outlines-actions-for-possible-fourth-dry-year/",
+      "page_title": "DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-announces-initial-state-water-project-allocation-of-5-outlines-actions-for-possible-fourth-dry-year/",
+      "open_graph_title": "DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "DWR Announces Initial State Water Project allocation of 5%, Outlines Actions for Possible Fourth Dry Year",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-12-01",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-announces-initial-state-water-project-allocation-of-5-outlines-actions-for-possible-fourth-dry-year/"
+  }
+}

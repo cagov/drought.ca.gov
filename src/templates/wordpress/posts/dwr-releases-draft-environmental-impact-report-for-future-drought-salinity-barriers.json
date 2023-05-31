@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-08-03T23:25:08",
+    "updated_date": "2022-08-03T23:28:46",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1689",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1689,
+    "date": "2022-08-03T16:25:08",
+    "date_gmt": "2022-08-03T23:25:08",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1689",
+    "modified": "2022-08-03T16:28:46",
+    "modified_gmt": "2022-08-03T23:28:46",
+    "slug": "dwr-releases-draft-environmental-impact-report-for-future-drought-salinity-barriers",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-draft-environmental-impact-report-for-future-drought-salinity-barriers/",
+    "title": "DWR releases draft Environmental Impact Report for future drought salinity barriers",
+    "excerpt": "<p>In an effort to better prepare for future drought conditions in the face of climate change, the Department of Water Resources (DWR) released a draft Environmental Impact Report analyzing potential construction effects of future drought salinity barriers in the Sacramento-San Joaquin Delta.</p>\n",
+    "author": "Anna Opalka",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/July-22/DWR-Releases-Draft-Environmental-Impact-Report-for-Future-Drought-Salinity-Barriers",
+      "custom_post_date": "2022-07-11",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-draft-environmental-impact-report-for-future-drought-salinity-barriers/",
+      "page_title": "DWR releases draft Environmental Impact Report for future drought salinity barriers",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "DWR releases draft Environmental Impact Report for future drought salinity barriers",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-draft-environmental-impact-report-for-future-drought-salinity-barriers/",
+      "open_graph_title": "DWR releases draft Environmental Impact Report for future drought salinity barriers",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "DWR releases draft Environmental Impact Report for future drought salinity barriers",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-07-11",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/dwr-releases-draft-environmental-impact-report-for-future-drought-salinity-barriers/"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-09-12T15:58:30",
+    "updated_date": "2022-09-12T16:02:54",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1754",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1754,
+    "date": "2022-09-12T08:58:30",
+    "date_gmt": "2022-09-12T15:58:30",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1754",
+    "modified": "2022-09-12T09:02:54",
+    "modified_gmt": "2022-09-12T16:02:54",
+    "slug": "july-2022-urban-water-use-10-4-lower-than-in-july-2020",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/july-2022-urban-water-use-10-4-lower-than-in-july-2020/",
+    "title": "July 2022 urban water use 10.4% lower than in July 2020",
+    "excerpt": "<p>Statewide water use dropped in July by 10.4% relative to July 2020,as state conservation actions continued to take hold and build momentum towardgreater water savings.</p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://www.waterboards.ca.gov/press_room/press_releases/2022/pr09072022-july2022-conservation-reporting.pdf",
+      "custom_post_date": "2022-09-07",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/july-2022-urban-water-use-10-4-lower-than-in-july-2020/",
+      "page_title": "July 2022 urban water use 10.4% lower than in July 2020",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "July 2022 urban water use 10.4% lower than in July 2020",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/july-2022-urban-water-use-10-4-lower-than-in-july-2020/",
+      "open_graph_title": "July 2022 urban water use 10.4% lower than in July 2020",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "July 2022 urban water use 10.4% lower than in July 2020",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-09-07",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/july-2022-urban-water-use-10-4-lower-than-in-july-2020/"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-09-02T00:37:42",
+    "updated_date": "2022-09-02T22:06:55",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1736",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1736,
+    "date": "2022-09-01T17:37:42",
+    "date_gmt": "2022-09-02T00:37:42",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1736",
+    "modified": "2022-09-02T15:06:55",
+    "modified_gmt": "2022-09-02T22:06:55",
+    "slug": "15-california-communities-to-receive-drought-funding-amid-extreme-conditions",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/15-california-communities-to-receive-drought-funding-amid-extreme-conditions/",
+    "title": "15 California Communities to Receive Drought Funding Amid Extreme Conditions",
+    "excerpt": "<p>As part of ongoing efforts to help small communities address water supply challenges amid extreme drought and build water resilience for the future, the Department of Water Resources announced its eighth round of funding through the Small Community Drought Relief Program.</p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://water.ca.gov/News/News-Releases/2022/Aug-22/15-California-Communities-to-Receive-Drought-Funding-Amid-Extreme-Conditions",
+      "custom_post_date": "2022-08-23",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/15-california-communities-to-receive-drought-funding-amid-extreme-conditions/",
+      "page_title": "15 California Communities to Receive Drought Funding Amid Extreme Conditions",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "15 California Communities to Receive Drought Funding Amid Extreme Conditions",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/15-california-communities-to-receive-drought-funding-amid-extreme-conditions/",
+      "open_graph_title": "15 California Communities to Receive Drought Funding Amid Extreme Conditions",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "15 California Communities to Receive Drought Funding Amid Extreme Conditions",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-08-23",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/15-california-communities-to-receive-drought-funding-amid-extreme-conditions/"
+  }
+}

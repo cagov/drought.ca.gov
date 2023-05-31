@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "created_date": "2022-10-08T00:14:01",
+    "updated_date": "2022-10-08T00:23:30",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/posts/",
+    "api_version": "v2",
+    "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/posts/1799",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://test-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main-test-pantheon"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 1799,
+    "date": "2022-10-07T17:14:01",
+    "date_gmt": "2022-10-08T00:14:01",
+    "guid": "https://test-drought-ca-gov.pantheonsite.io/?p=1799",
+    "modified": "2022-10-07T17:23:30",
+    "modified_gmt": "2022-10-08T00:23:30",
+    "slug": "california-water-agencies-pledge-to-conserve-additional-water-to-stabilize-colorado-river-reservoir-storage",
+    "status": "publish",
+    "type": "post",
+    "link": "https://test-drought-ca-gov.pantheonsite.io/california-water-agencies-pledge-to-conserve-additional-water-to-stabilize-colorado-river-reservoir-storage/",
+    "title": "California water agencies pledge to conserve additional water to stabilize Colorado River reservoir storage",
+    "excerpt": "<p>California water agencies that rely on Colorado River supplies have stepped up to propose reducing their water usage by up to 400,000 acre-feet each year beginning in 2023 through 2026 to protect storage in Lake Mead and help stabilize the Colorado River reservoir system.</p>\n",
+    "author": "Kalin Kipling",
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "link",
+    "meta": {
+      "custom_post_link": "https://resources.ca.gov/Newsroom/Page-Content/News-List/California-Water-Agencies-Pledge-to-Conserve-Additional-Water",
+      "custom_post_date": "2022-10-05",
+      "custom_post_location": ""
+    },
+    "categories": [
+      "News"
+    ],
+    "tags": [],
+    "design_system_fields": {
+      "template": "post"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://test-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://test-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://test-drought-ca-gov.pantheonsite.io/california-water-agencies-pledge-to-conserve-additional-water-to-stabilize-colorado-river-reservoir-storage/",
+      "page_title": "California water agencies pledge to conserve additional water to stabilize Colorado River reservoir storage",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "California water agencies pledge to conserve additional water to stabilize Colorado River reservoir storage",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://test-drought-ca-gov.pantheonsite.io/california-water-agencies-pledge-to-conserve-additional-water-to-stabilize-colorado-river-reservoir-storage/",
+      "open_graph_title": "California water agencies pledge to conserve additional water to stabilize Colorado River reservoir storage",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "California water agencies pledge to conserve additional water to stabilize Colorado River reservoir storage",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [
+      {
+        "term_id": 7,
+        "name": "News",
+        "slug": "news",
+        "term_group": 0,
+        "term_taxonomy_id": 7,
+        "taxonomy": "category",
+        "description": "",
+        "parent": 0,
+        "filter": "raw",
+        "cat_ID": 7,
+        "category_description": "",
+        "cat_name": "News",
+        "category_nicename": "news",
+        "category_parent": 0
+      }
+    ],
+    "headless_tags": [],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "custom_post_date": "2022-10-05",
+    "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/california-water-agencies-pledge-to-conserve-additional-water-to-stabilize-colorado-river-reservoir-storage/"
+  }
+}
