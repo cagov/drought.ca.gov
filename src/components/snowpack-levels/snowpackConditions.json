@@ -1949,8 +1949,8 @@
             "day": 31,
             "avg": 0.296,
             "wmonth": 8,
-            "norm": 25.52,
-            "avgAvgSwc": 7.3
+            "norm": 28.33,
+            "avgAvgSwc": 7.95
         },
         {
             "month": 6,
@@ -4231,6 +4231,13 @@
             "pctApr1": 96,
             "pctNormal": 310,
             "avgSwc": 23.6
+        },
+        {
+            "swcDate": "2023-05-31",
+            "numSta": 86,
+            "pctApr1": 92,
+            "pctNormal": 311,
+            "avgSwc": 22.7
         }
     ],
     "section": "STATE",
