@@ -11,6 +11,7 @@
     "MediaPath": "src/wordpress-media",
     "GeneralFilePath": "odi-publishing/general/general.json",
     "ExcludeProperties": ["content", "_links"],
+    "HideAuthorName": true,
     "ApiRequests": [
       {
         "Destination": "src/templates/_data/headerMenu.json",
