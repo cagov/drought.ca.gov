@@ -18,8 +18,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@cagov/11ty-build-system": "^0.3.0",
+    "@11ty/eleventy": "^2.0.1",
+    "@cagov/11ty-build-system": "^1.0.1",
     "@cagov/ds-accordion": "^1.0.10",
     "@cagov/ds-back-to-top": "^2.0.1",
     "@cagov/ds-base-css": "^1.0.19",
