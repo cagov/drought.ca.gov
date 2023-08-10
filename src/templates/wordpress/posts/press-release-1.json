@@ -26,7 +26,7 @@
     "link": "https://live-drought-ca-gov.pantheonsite.io/press-release-1/",
     "title": "Press release 1",
     "excerpt": "<p>10-20-2021 : test post : content changes Content of press release</p>\n",
-    "author": "Chach Sikes",
+    "author": 1,
     "featured_media": 0,
     "comment_status": "closed",
     "ping_status": "closed",
