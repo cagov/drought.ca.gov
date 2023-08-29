@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/div",
+  "version": "0.1.0",
+  "title": "Div",
+  "category": "ca-drought-blocks",
+  "icon": "analytics",
+  "description": "A simple div element for use within nested templates.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "div",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

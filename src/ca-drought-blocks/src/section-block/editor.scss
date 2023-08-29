@@ -1,0 +1,9 @@
+.editor-styles-wrapper .block-editor-block-list__layout.is-root-container > *,
+.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper > * {
+  max-width: inherit !important;
+}
+
+.full-bleed {
+  margin-left: inherit;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+drought-spei-map {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  svg {
+    text {
+      font-size: .9rem;
+    }
+    text.bold {
+      font-weight: 700;
+    }
+  }
+  .spei-map-img {
+    max-width: 60%;
+  }
+} 

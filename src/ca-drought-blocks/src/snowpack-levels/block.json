@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/snowpack-levels",
+  "version": "0.1.0",
+  "title": "Snowpack Levels",
+  "category": "ca-drought-blocks",
+  "icon": "chart-area",
+  "description": "A data visualization depicting current snowpack levels.",
+  "attributes": {
+    "srIntro": {
+      "type": "string",
+      "default": "Summary of current level"
+    },
+    "lede": {
+      "type": "string",
+      "default": "<span class='data-viz-pct'>X%</span> of average peak snowpack"
+    },
+    "unit": {
+      "type": "string",
+      "default": "inches"
+    },
+    "historicPeakLevel": {
+      "type": "string",
+      "default": "0"
+    },
+    "currentLevel": {
+      "type": "string",
+      "default": "0"
+    },
+    "historicPeakHeading": {
+      "type": "string",
+      "default": "Average peak snowwater equivalent from 1991-2020"
+    },
+    "currentHeading": {
+      "type": "string",
+      "default": "Current snowwater equivalent"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "snowpack-levels",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

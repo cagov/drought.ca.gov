@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/reservoir-levels",
+  "version": "0.1.0",
+  "title": "Reservoir Levels",
+  "category": "ca-drought-blocks",
+  "icon": "chart-area",
+  "description": "A data visualization depicting current levels across major reservoirs.",
+  "attributes": {
+    "srIntro": {
+      "type": "string",
+      "default": "Summary of current level"
+    },
+    "lede": {
+      "type": "string",
+      "default": "<span class='data-viz-pct'>X%</span> of average levels"
+    },
+    "unit": {
+      "type": "string",
+      "default": "thousands of acre feet (TAF)"
+    },
+    "capacityTaf": {
+      "type": "string",
+      "default": "0"
+    },
+    "historicalTaf": {
+      "type": "string",
+      "default": "0"
+    },
+    "currentTaf": {
+      "type": "string",
+      "default": "0"
+    },
+    "capacityHeading": {
+      "type": "string",
+      "default": "Total capacity"
+    },
+    "historicalHeading": {
+      "type": "string",
+      "default": "Average level historically"
+    },
+    "currentHeading": {
+      "type": "string",
+      "default": "Current level"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "reservoir-levels",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

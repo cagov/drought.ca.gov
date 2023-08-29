@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/highlight-box-item",
+  "parent": [
+    "ca-drought-blocks/highlight-box"
+  ],
+  "version": "0.1.0",
+  "title": "Highlight Box Item",
+  "category": "ca-drought-blocks",
+  "icon": "dashboard",
+  "description": "A card that emphasizes important information or metrics.",
+  "attributes": {
+    "imgId": {
+      "type": "number",
+      "default": 0
+    }, 
+    "imgUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imgAlt": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "highlight-box-item",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

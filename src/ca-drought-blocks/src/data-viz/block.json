@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "ca-drought-blocks/data-viz",
+  "version": "0.1.0",
+  "title": "Data Visualization",
+  "category": "ca-drought-blocks",
+  "icon": "analytics",
+  "description": "A container for neatly arranging a new data visualization.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "data-viz",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
