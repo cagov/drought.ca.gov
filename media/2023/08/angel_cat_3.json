@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "created_date": "2023-08-31T23:34:26",
+    "updated_date": "2023-08-31T23:34:26",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/media/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/media/2030",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/staging"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 2030,
+    "date": "2023-08-31T16:34:26",
+    "date_gmt": "2023-08-31T23:34:26",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png",
+    "modified": "2023-08-31T16:34:26",
+    "modified_gmt": "2023-08-31T23:34:26",
+    "slug": "angel_cat_3",
+    "status": "inherit",
+    "type": "attachment",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/angel_cat_3/",
+    "title": "angel_cat_3",
+    "author": "Jim Bumgardner",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": [],
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png'><img width=\"300\" height=\"300\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-500x500.png 500w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-150x150.png 150w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png 512w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "caption": "",
+    "alt_text": "",
+    "media_type": "image",
+    "mime_type": "image/png",
+    "media_details": {
+      "width": 512,
+      "height": 512,
+      "file": "2023/08/angel_cat_3.png",
+      "filesize": 305060,
+      "sizes": {
+        "medium": {
+          "file": "angel_cat_3-300x300.png",
+          "width": 300,
+          "height": 300,
+          "filesize": 103162,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png"
+        },
+        "large": {
+          "file": "angel_cat_3-500x500.png",
+          "width": 500,
+          "height": 500,
+          "filesize": 257192,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-500x500.png"
+        },
+        "thumbnail": {
+          "file": "angel_cat_3-150x150.png",
+          "width": 150,
+          "height": 150,
+          "filesize": 29906,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-150x150.png"
+        },
+        "full": {
+          "file": "angel_cat_3.png",
+          "width": 512,
+          "height": 512,
+          "mime_type": "image/png",
+          "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png"
+        }
+      },
+      "image_meta": {
+        "aperture": "0",
+        "credit": "",
+        "camera": "",
+        "caption": "",
+        "created_timestamp": "0",
+        "copyright": "",
+        "focal_length": "0",
+        "iso": "0",
+        "shutter_speed": "0",
+        "title": "",
+        "orientation": "0",
+        "keywords": []
+      }
+    },
+    "post": null,
+    "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png",
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png",
+    "sizes": [
+      {
+        "type": "full",
+        "path": "2023/08/angel_cat_3.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png",
+        "file": "angel_cat_3.png",
+        "width": 512,
+        "height": 512,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png"
+      },
+      {
+        "type": "large",
+        "path": "2023/08/angel_cat_3-500x500.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-500x500.png",
+        "file": "angel_cat_3-500x500.png",
+        "width": 500,
+        "height": 500,
+        "filesize": 257192,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-500x500.png"
+      },
+      {
+        "type": "medium",
+        "path": "2023/08/angel_cat_3-300x300.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png",
+        "file": "angel_cat_3-300x300.png",
+        "width": 300,
+        "height": 300,
+        "filesize": 103162,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png"
+      },
+      {
+        "type": "thumbnail",
+        "path": "2023/08/angel_cat_3-150x150.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-150x150.png",
+        "file": "angel_cat_3-150x150.png",
+        "width": 150,
+        "height": 150,
+        "filesize": 29906,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-150x150.png"
+      }
+    ],
+    "path": "2023/08/angel_cat_3.png"
+  }
+}
