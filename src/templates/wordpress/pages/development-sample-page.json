@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T15:42:41",
-    "updated_date": "2023-06-07T22:09:56",
+    "updated_date": "2023-08-31T23:35:16",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2021-07-06T08:42:41",
     "date_gmt": "2021-07-06T15:42:41",
     "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=132",
-    "modified": "2023-06-07T15:09:56",
-    "modified_gmt": "2023-06-07T22:09:56",
+    "modified": "2023-08-31T16:35:16",
+    "modified_gmt": "2023-08-31T23:35:16",
     "slug": "development-sample-page",
     "status": "publish",
     "type": "page",
     "link": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
     "title": "Development",
-    "excerpt": "<p>This is a page of Gutenberg blocks and other settings used only for rendering tests. Jim testing. Tue Jun 7, 2023, 3:09pm. Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
+    "excerpt": "<p>This is a page of Gutenberg blocks and other settings used only for rendering tests. Jim testing. Thu Aug 31, 2023, 4:34pm Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
     "author": "Jim Bumgardner",
     "featured_media": 0,
     "parent": 0,
@@ -83,6 +83,63 @@
     ],
     "headless_publishing": [],
     "headless_preview": [],
-    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/"
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/development-sample-page/",
+    "media": [
+      {
+        "id": 2030,
+        "type": "full",
+        "path": "2023/08/angel_cat_3.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png",
+        "file": "angel_cat_3.png",
+        "width": 512,
+        "height": 512,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 2030,
+        "type": "large",
+        "path": "2023/08/angel_cat_3-500x500.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-500x500.png",
+        "file": "angel_cat_3-500x500.png",
+        "width": 500,
+        "height": 500,
+        "filesize": 257192,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-500x500.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 2030,
+        "type": "medium",
+        "path": "2023/08/angel_cat_3-300x300.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png",
+        "file": "angel_cat_3-300x300.png",
+        "width": 300,
+        "height": 300,
+        "filesize": 103162,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-300x300.png",
+        "source_url_match": true,
+        "featured": false
+      },
+      {
+        "id": 2030,
+        "type": "thumbnail",
+        "path": "2023/08/angel_cat_3-150x150.png",
+        "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-150x150.png",
+        "file": "angel_cat_3-150x150.png",
+        "width": 150,
+        "height": 150,
+        "filesize": 29906,
+        "mime_type": "image/png",
+        "source_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2023/08/angel_cat_3-150x150.png",
+        "source_url_match": true,
+        "featured": false
+      }
+    ]
   }
 }
