@@ -11,22 +11,10 @@
     "refresh_frequency": "as needed"
   },
   "data": {
-    "name": "California drought action",
-    "description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
-    "url": "https://test-drought-ca-gov.pantheonsite.io",
-    "home": "https://test-drought-ca-gov.pantheonsite.io",
-    "gmt_offset": -7,
-    "timezone_string": "America/Los_Angeles",
-    "namespaces": [
-      "oembed/1.0",
-      "redirection/v1",
-      "menus/v1",
-      "generatepress/v1",
-      "notification/v1",
-      "two-factor/1.0",
-      "wp/v2",
-      "wp-site-health/v1",
-      "wp-block-editor/v1"
-    ]
+    "code": "rest_cannot_access",
+    "message": "DRA: Only authenticated users can access the REST API.",
+    "data": {
+      "status": 401
+    }
   }
 }
