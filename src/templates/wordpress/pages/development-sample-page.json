@@ -1,7 +1,7 @@
 {
   "meta": {
     "created_date": "2021-07-06T15:42:41",
-    "updated_date": "2023-05-01T18:04:20",
+    "updated_date": "2023-08-31T23:45:08",
     "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
     "api_version": "v2",
     "api_url": "https://test-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
@@ -18,14 +18,14 @@
     "date": "2021-07-06T08:42:41",
     "date_gmt": "2021-07-06T15:42:41",
     "guid": "https://test-drought-ca-gov.pantheonsite.io/?page_id=132",
-    "modified": "2023-05-01T11:04:20",
-    "modified_gmt": "2023-05-01T18:04:20",
+    "modified": "2023-08-31T16:45:08",
+    "modified_gmt": "2023-08-31T23:45:08",
     "slug": "development-sample-page",
     "status": "publish",
     "type": "page",
     "link": "https://test-drought-ca-gov.pantheonsite.io/development-sample-page/",
     "title": "Development",
-    "excerpt": "<p>This is a page of Gutenberg blocks and other settings used only for rendering tests. Jim testing. #9 Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
+    "excerpt": "<p>This is a page of Gutenberg blocks and other settings used only for rendering tests. Jim testing. Thu Aug 31, 2023, 4:45pm Gutenberg blocks for editors BETA: Developer only blocks Post lists and their variants Event Pattern This is an event pattern</p>\n",
     "author": "Jim Bumgardner",
     "featured_media": 0,
     "parent": 0,
@@ -35,7 +35,9 @@
     "template": "",
     "meta": [],
     "categories": [],
-    "tags": [],
+    "tags": [
+      "do-not-crawl"
+    ],
     "design_system_fields": {
       "template": "page"
     },
@@ -66,7 +68,19 @@
       "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
     },
     "headless_categories": [],
-    "headless_tags": [],
+    "headless_tags": [
+      {
+        "term_id": 22,
+        "name": "do-not-crawl",
+        "slug": "do-not-crawl",
+        "term_group": 0,
+        "term_taxonomy_id": 22,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
     "headless_publishing": [],
     "headless_preview": [],
     "wordpress_url": "https://test-drought-ca-gov.pantheonsite.io/development-sample-page/"
