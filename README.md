@@ -5,7 +5,7 @@ California State site for drought-related information.
 ## Site architecture
 
 drought.ca.gov runs on top of several orchestrated services.
-
+ 
 ### Content workflow
 
 Following the flow of content, from author to reader, provides a great tour of the site's infrastructure. 
