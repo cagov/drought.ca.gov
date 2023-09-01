@@ -30,7 +30,7 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a.webp'><img width=\"300\" height=\"200\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-300x200.webp\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-300x200.webp 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-750x500.webp 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-768x512.webp 768w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a.webp 776w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a.webp'><img loading=\"lazy\" width=\"300\" height=\"200\" src=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-300x200.webp\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" srcset=\"https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-300x200.webp 300w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-750x500.webp 750w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a-768x512.webp 768w, https://test-drought-ca-gov.pantheonsite.io/wp-content/uploads/2022/02/drought2a.webp 776w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",
