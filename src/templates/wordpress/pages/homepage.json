@@ -33,7 +33,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "landing",
-    "meta": [],
+    "meta": {
+      "footnotes": ""
+    },
     "categories": [],
     "tags": [
       "homepage",
