@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "created_date": "2023-09-02T05:38:45",
+    "updated_date": "2023-09-02T05:38:46",
+    "field_reference": "https://developer.wordpress.org/rest-api/reference/pages/",
+    "api_version": "v2",
+    "api_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/",
+    "object_url": "https://live-drought-ca-gov.pantheonsite.io/wp-json/wp/v2/pages/2043",
+    "process": {
+      "source_code": "https://github.com/cagov/wordpress-to-github",
+      "source_data": "https://live-drought-ca-gov.pantheonsite.io",
+      "deployment_target": "https://github.com/cagov/drought.ca.gov/tree/main"
+    },
+    "refresh_frequency": "as needed"
+  },
+  "data": {
+    "id": 2043,
+    "date": "2023-09-01T22:38:45",
+    "date_gmt": "2023-09-02T05:38:45",
+    "guid": "https://live-drought-ca-gov.pantheonsite.io/?page_id=2043",
+    "modified": "2023-09-01T22:38:46",
+    "modified_gmt": "2023-09-02T05:38:46",
+    "slug": "testing-page",
+    "status": "publish",
+    "type": "page",
+    "link": "https://live-drought-ca-gov.pantheonsite.io/testing-page/",
+    "title": "Testing Page",
+    "excerpt": "<p>Testing Sep 1 10:38pm</p>\n",
+    "author": 5,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": ""
+    },
+    "categories": [],
+    "tags": [
+      "do-not-crawl"
+    ],
+    "design_system_fields": {
+      "template": "page"
+    },
+    "og_meta": {
+      "editor": {
+        "platform": "WordPress",
+        "plugin": "autodescription",
+        "plugin_name": "The SEO Framework",
+        "plugin_version": "4.1.5.1",
+        "editor_url": "https://live-drought-ca-gov.pantheonsite.io"
+      },
+      "site_name": "California drought action",
+      "site_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "site_url": "https://live-drought-ca-gov.pantheonsite.io",
+      "canonical_url": "https://live-drought-ca-gov.pantheonsite.io/testing-page/",
+      "page_title": "Testing Page",
+      "page_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "page_social_image_url": "https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/cropped-2021_06_23_FL_0494_Folsom_Lake.jpg",
+      "page_social_image_width": 1200,
+      "page_social_image_height": 630,
+      "page_social_image_alt": "",
+      "meta_title": "Testing Page",
+      "meta_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "meta_canonical_url": "https://live-drought-ca-gov.pantheonsite.io/testing-page/",
+      "open_graph_title": "Testing Page",
+      "open_graph_description": "Learn more about current conditions, the state’s response and informational resources available to the public.",
+      "twitter_title": "Testing Page",
+      "twitter_description": "Learn more about current conditions, the state’s response and informational resources available to the public."
+    },
+    "headless_categories": [],
+    "headless_tags": [
+      {
+        "term_id": 22,
+        "name": "do-not-crawl",
+        "slug": "do-not-crawl",
+        "term_group": 0,
+        "term_taxonomy_id": 22,
+        "taxonomy": "post_tag",
+        "description": "",
+        "parent": 0,
+        "filter": "raw"
+      }
+    ],
+    "headless_publishing": [],
+    "headless_preview": [],
+    "wordpress_url": "https://live-drought-ca-gov.pantheonsite.io/testing-page/"
+  }
+}
