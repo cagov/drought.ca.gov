@@ -33,7 +33,9 @@
     "comment_status": "closed",
     "ping_status": "closed",
     "template": "",
-    "meta": [],
+    "meta": {
+      "footnotes": ""
+    },
     "categories": [
       "Weekly drought update"
     ],
