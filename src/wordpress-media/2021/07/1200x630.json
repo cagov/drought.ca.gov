@@ -30,7 +30,7 @@
     "ping_status": "closed",
     "template": "",
     "meta": [],
-    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png'><img width=\"300\" height=\"158\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-300x158.png\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" loading=\"lazy\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-300x158.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-750x394.png 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-768x403.png 768w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
+    "description": "<p class=\"attachment\"><a href='https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png'><img loading=\"lazy\" width=\"300\" height=\"158\" src=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-300x158.png\" class=\"attachment-medium size-medium\" alt=\"\" decoding=\"async\" srcset=\"https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-300x158.png 300w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-750x394.png 750w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630-768x403.png 768w, https://live-drought-ca-gov.pantheonsite.io/wp-content/uploads/2021/07/1200x630.png 1200w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n",
     "caption": "",
     "alt_text": "",
     "media_type": "image",
