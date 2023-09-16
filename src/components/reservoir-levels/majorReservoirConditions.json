@@ -8,5 +8,14 @@
     "stationName": "STATEWIDE STORAGE ESTIMATE (154)",
     "latitude": 38.582,
     "longitude": -121.5,
-    "elevation": 25
+    "elevation": 25,
+    "valDate": "2023-09-14 00:00:00.0",
+    "actDate": "2023-09-14",
+    "day": 14,
+    "month": 9,
+    "storage": 2.84E7,
+    "avg": 2.2045072E7,
+    "cap": 3.81219E7,
+    "pctAvg": 128.83,
+    "pctCap": 74.5
 }]
