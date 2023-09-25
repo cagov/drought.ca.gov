@@ -34,7 +34,7 @@
     "@cagov/ds-plus": "^1.0.1",
     "@cagov/ds-site-footer": "^1.1.1",
     "@cagov/ds-site-header": "^1.1.1",
-    "@cagov/ds-site-navigation": "^2.1.3",
+    "@cagov/ds-site-navigation": "^3.0.1",
     "@cagov/ds-skip-to-content": "^1.0.3",
     "@cagov/ds-statewide-footer": "^1.0.10",
     "@cagov/ds-statewide-header": "^1.0.15",
