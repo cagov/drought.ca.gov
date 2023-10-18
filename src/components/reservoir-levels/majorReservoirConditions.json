@@ -9,13 +9,13 @@
     "latitude": 38.582,
     "longitude": -121.5,
     "elevation": 25,
-    "valDate": "2023-10-15 00:00:00.0",
-    "actDate": "2023-10-15",
-    "day": 15,
+    "valDate": "2023-10-16 00:00:00.0",
+    "actDate": "2023-10-16",
+    "day": 16,
     "month": 10,
     "storage": 2.62E7,
-    "avg": 2.0656314E7,
+    "avg": 2.0618116E7,
     "cap": 3.81219E7,
-    "pctAvg": 126.84,
+    "pctAvg": 127.07,
     "pctCap": 68.73
 }]
